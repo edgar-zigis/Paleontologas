@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="silurian_thumbs">
+        <item>item_silurian_eurypterus_thumb</item>
+        <item>item_silurian_pneumodesmus_thumb</item>
+        <item>item_silurian_cooksonia_thumb</item>
+        <item>item_silurian_baragwanathia_thumb</item>
+        <item>item_silurian_acanthodii_thumb</item>
+        <item>item_silurian_entelognathus_thumb</item>
+    </array>
+
+    <array name="silurian_images">
+        <item>item_silurian_eurypterus</item>
+        <item>item_silurian_pneumodesmus</item>
+        <item>item_silurian_cooksonia</item>
+        <item>item_silurian_baragwanathia</item>
+        <item>item_silurian_acanthodii</item>
+        <item>item_silurian_entelognathus</item>
+    </array>
+
+    <array name="silurian_additional_images">
+        <item></item>
+        <item></item>
+        <item>item_silurian_cooksonia_info</item>
+        <item></item>
+        <item>item_silurian_acanthodii_info</item>
+        <item>item_silurian_entelognathus_info</item>
+    </array>
+
+    <array name="silurian_titles">
+        <item>silurian_eurypterus</item>
+        <item>silurian_pneumodesmus</item>
+        <item>silurian_cooksonia</item>
+        <item>silurian_baragwanathia</item>
+        <item>silurian_acanthodii</item>
+        <item>silurian_entelognathus</item>
+    </array>
+
+    <array name="silurian_time_scales">
+        <item>428.2-311.45 mya</item>
+        <item>428.2-412.3 mya</item>
+        <item>422.9-383.7 mya</item>
+        <item>422.9-391.9 mya</item>
+        <item>422.9-298.9 mya</item>
+        <item>419.6-? mya</item>
+    </array>
+
+    <array name="silurian_descriptions">
+        <item>silurian_eurypterus_description</item>
+        <item>silurian_pneumodesmus_description</item>
+        <item>silurian_cooksonia_description</item>
+        <item>silurian_baragwanathia_description</item>
+        <item>silurian_acanthodii_description</item>
+        <item>silurian_entelognathus_description</item>
+    </array>
+
+    <array name="silurian_photo_authors">
+        <item></item>
+        <item></item>
+        <item>&#169; Simona Warmer</item>
+        <item></item>
+        <item>&#169; Mikhail Tichonov</item>
+        <item>&#169; Julio Lacerda</item>
+    </array>
+
+</resources>

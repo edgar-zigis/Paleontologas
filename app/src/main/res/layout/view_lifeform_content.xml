@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gilroy_bold"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="2dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        tools:text="@string/hadean" />
+
+    <TextView
+        android:id="@+id/timeScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gilroy_light"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/descriptionHeading"
+        style="@style/PeriodHeadingStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawableStart="@drawable/ic_description"
+        android:text="@string/general_information" />
+
+    <TextView
+        android:id="@+id/descriptionInfo"
+        style="@style/PeriodDescriptionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/additionalImageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/additionalImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/additionalImageAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/gilroy_light"
+            android:paddingBottom="4dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            tools:text="Edgar Žigis" />
+
+    </FrameLayout>
+
+</LinearLayout>

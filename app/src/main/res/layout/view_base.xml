@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_launcher"
+    android:clickable="true"
+    android:focusable="true">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:contentDescription="@string/image"
+        android:src="@drawable/bg_top_shadow" />
+
+    <FrameLayout
+        android:id="@+id/viewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:fillViewport="true" />
+
+</merge>

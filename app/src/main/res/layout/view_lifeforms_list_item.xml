@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="144dp"
+    android:background="@color/white"
+    android:focusable="true"
+    android:foreground="@drawable/bg_ripple_primary"
+    android:paddingStart="4dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageContainer"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:elevation="0dp"
+        app:cardCornerRadius="41dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/image"
+            tools:src="@drawable/item_cretaceous_tyrannosaurus_thumb" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="86dp"
+        android:background="@color/white"
+        android:fontFamily="@font/gentona_extra_light_italic"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        tools:text="@string/cretaceous_tyrannosaurus" />
+
+</FrameLayout>

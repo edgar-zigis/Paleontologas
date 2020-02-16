@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="carboniferous_thumbs">
+        <item>item_carboniferous_lepidodendron_thumb</item>
+        <item>item_carboniferous_sigillaria_thumb</item>
+        <item>item_carboniferous_calamites_thumb</item>
+        <item>item_carboniferous_akmonistion_thumb</item>
+        <item>item_carboniferous_helicoprion_thumb</item>
+        <item>item_carboniferous_pederpes_thumb</item>
+        <item>item_carboniferous_pterogyrinus_thumb</item>
+        <item>item_carboniferous_hylonomus_thumb</item>
+        <item>item_carboniferous_archaeothyris_thumb</item>
+        <item>item_carboniferous_pulmonoscorpius_thumb</item>
+        <item>item_carboniferous_arthropleura_thumb</item>
+        <item>item_carboniferous_meganeura_thumb</item>
+    </array>
+
+    <array name="carboniferous_images">
+        <item>item_carboniferous_lepidodendron</item>
+        <item>item_carboniferous_sigillaria</item>
+        <item>item_carboniferous_calamites</item>
+        <item>item_carboniferous_akmonistion</item>
+        <item>item_carboniferous_helicoprion</item>
+        <item>item_carboniferous_pederpes</item>
+        <item>item_carboniferous_pterogyrinus</item>
+        <item>item_carboniferous_hylonomus</item>
+        <item>item_carboniferous_archaeothyris</item>
+        <item>item_carboniferous_pulmonoscorpius</item>
+        <item>item_carboniferous_arthropleura</item>
+        <item>item_carboniferous_meganeura</item>
+    </array>
+
+    <array name="carboniferous_additional_images">
+        <item>item_carboniferous_lepidodendron_info</item>
+        <item>item_carboniferous_sigillaria_info</item>
+        <item>item_carboniferous_calamites_info</item>
+        <item></item>
+        <item>item_carboniferous_helicoprion_info</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_carboniferous_pulmonoscorpius_info</item>
+        <item>item_carboniferous_arthropleura_info</item>
+        <item>item_carboniferous_meganeura_info</item>
+    </array>
+
+    <array name="carboniferous_titles">
+        <item>carboniferous_lepidodendron</item>
+        <item>carboniferous_sigillaria</item>
+        <item>carboniferous_calamites</item>
+        <item>carboniferous_akmonistion</item>
+        <item>carboniferous_helicoprion</item>
+        <item>carboniferous_pederpes</item>
+        <item>carboniferous_pterogyrinus</item>
+        <item>carboniferous_hylonomus</item>
+        <item>carboniferous_archaeothyris</item>
+        <item>carboniferous_pulmonoscorpius</item>
+        <item>carboniferous_arthropleura</item>
+        <item>carboniferous_meganeura</item>
+    </array>
+
+    <array name="carboniferous_time_scales">
+        <item>383.7-205.6 mya</item>
+        <item>383.7-254.0 mya</item>
+        <item>318.1-171.6 mya</item>
+        <item>360.7-298.9 mya</item>
+        <item>290.1-259.0 mya</item>
+        <item>353.8-345.3 mya</item>
+        <item>331.0–323.0 mya</item>
+        <item>318.1-314.6 mya</item>
+        <item>311.45-306.95 mya</item>
+        <item>336.0-326.4 mya</item>
+        <item>314.6-290.1 mya</item>
+        <item>303.4-298.9 mya</item>
+    </array>
+
+    <array name="carboniferous_descriptions">
+        <item>carboniferous_lepidodendron_description</item>
+        <item>carboniferous_sigillaria_description</item>
+        <item>carboniferous_calamites_description</item>
+        <item>carboniferous_akmonistion_description</item>
+        <item>carboniferous_helicoprion_description</item>
+        <item>carboniferous_pederpes_description</item>
+        <item>carboniferous_pterogyrinus_description</item>
+        <item>carboniferous_hylonomus_description</item>
+        <item>carboniferous_archaeothyris_description</item>
+        <item>carboniferous_pulmonoscorpius_description</item>
+        <item>carboniferous_arthropleura_description</item>
+        <item>carboniferous_meganeura_description</item>
+    </array>
+
+    <array name="carboniferous_photo_authors">
+        <item></item>
+        <item></item>
+        <item>&#169; Walter Myers</item>
+        <item>&#169; Masato Hattori</item>
+        <item></item>
+        <item></item>
+        <item>&#169; Nobu Tamura</item>
+        <item></item>
+        <item>&#169; Arthur Weasley</item>
+        <item>&#169; Nobu Tamura</item>
+        <item></item>
+        <item></item>
+    </array>
+
+</resources>

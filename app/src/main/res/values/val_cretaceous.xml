@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="cretaceous_thumbs">
+        <item>item_cretaceous_tyrannosaurus_thumb</item>
+        <item>item_cretaceous_giganotosaurus_thumb</item>
+        <item>item_cretaceous_linhenykus_thumb</item>
+        <item>item_cretaceous_velociraptor_thumb</item>
+        <item>item_cretaceous_spinosaurus_thumb</item>
+        <item>item_cretaceous_pachycephalosaurus_thumb</item>
+        <item>item_cretaceous_triceratops_thumb</item>
+        <item>item_cretaceous_ankylosaurus_thumb</item>
+        <item>item_cretaceous_therizinosaurus_thumb</item>
+        <item>item_cretaceous_tsintaosaurus_thumb</item>
+        <item>item_cretaceous_deinocherus_thumb</item>
+        <item>item_cretaceous_sarcosuchus_thumb</item>
+        <item>item_cretaceous_quetzalcoatlus_thumb</item>
+        <item>item_cretaceous_microraptor_thumb</item>
+        <item>item_cretaceous_mosasaurus_thumb</item>
+        <item>item_cretaceous_ammonite_thumb</item>
+    </array>
+
+    <array name="cretaceous_images">
+        <item>item_cretaceous_tyrannosaurus</item>
+        <item>item_cretaceous_giganotosaurus</item>
+        <item>item_cretaceous_linhenykus</item>
+        <item>item_cretaceous_velociraptor</item>
+        <item>item_cretaceous_spinosaurus</item>
+        <item>item_cretaceous_pachycephalosaurus</item>
+        <item>item_cretaceous_triceratops</item>
+        <item>item_cretaceous_ankylosaurus</item>
+        <item>item_cretaceous_therizinosaurus</item>
+        <item>item_cretaceous_tsintaosaurus</item>
+        <item>item_cretaceous_deinocherus</item>
+        <item>item_cretaceous_sarcosuchus</item>
+        <item>item_cretaceous_quetzalcoatlus</item>
+        <item>item_cretaceous_microraptor</item>
+        <item>item_cretaceous_mosasaurus</item>
+        <item>item_cretaceous_ammonite</item>
+    </array>
+
+    <array name="cretaceous_additional_images">
+        <item>item_cretaceous_tyrannosaurus_info</item>
+        <item></item>
+        <item></item>
+        <item>item_cretaceous_velociraptor_info</item>
+        <item>item_cretaceous_spinosaurus_info</item>
+        <item>item_cretaceous_pachycephalosaurus_info</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_cretaceous_sarcosuchus_info</item>
+        <item></item>
+        <item></item>
+        <item>item_cretaceous_mosasaurus_info</item>
+        <item></item>
+    </array>
+
+    <array name="cretaceous_titles">
+        <item>cretaceous_tyrannosaurus</item>
+        <item>cretaceous_giganotosaurus</item>
+        <item>cretaceous_linhenykus</item>
+        <item>cretaceous_velociraptor</item>
+        <item>cretaceous_spinosaurus</item>
+        <item>cretaceous_pachycephalosaurus</item>
+        <item>cretaceous_triceratops</item>
+        <item>cretaceous_ankylosaurus</item>
+        <item>cretaceous_therizinosaurus</item>
+        <item>cretaceous_tsintaosaurus</item>
+        <item>cretaceous_deinocherus</item>
+        <item>cretaceous_sarcosuchus</item>
+        <item>cretaceous_quetzalcoatlus</item>
+        <item>cretaceous_microraptor</item>
+        <item>cretaceous_mosasaurus</item>
+        <item>cretaceous_ammonite</item>
+    </array>
+
+    <array name="cretaceous_time_scales">
+        <item>70.6-66.043 mya</item>
+        <item>99.7-94.3 mya</item>
+        <item>84.9-70.6 mya</item>
+        <item>84.9-70.6 mya</item>
+        <item>112.6-70.6 mya</item>
+        <item>70.6-66.043 mya</item>
+        <item>70.6-66.043 mya</item>
+        <item>70.6-66.043 mya</item>
+        <item>70.6-66.043 mya</item>
+        <item>84.9-70.6 mya</item>
+        <item>99.7-66.043 mya</item>
+        <item>112.6-94.3 mya</item>
+        <item>70.6-66.043 mya</item>
+        <item>125.45-112.6 mya</item>
+        <item>94.3-66.043 mya</item>
+        <item>400.0-66.043 mya</item>
+    </array>
+
+    <array name="cretaceous_descriptions">
+        <item>cretaceous_tyrannosaurus_description</item>
+        <item>cretaceous_giganotosaurus_description</item>
+        <item>cretaceous_linhenykus_description</item>
+        <item>cretaceous_velociraptor_description</item>
+        <item>cretaceous_spinosaurus_description</item>
+        <item>cretaceous_pachycephalosaurus_description</item>
+        <item>cretaceous_triceratops_description</item>
+        <item>cretaceous_ankylosaurus_description</item>
+        <item>cretaceous_therizinosaurus_description</item>
+        <item>cretaceous_tsintaosaurus_description</item>
+        <item>cretaceous_deinocherus_description</item>
+        <item>cretaceous_sarcosuchus_description</item>
+        <item>cretaceous_quetzalcoatlus_description</item>
+        <item>cretaceous_microraptor_description</item>
+        <item>cretaceous_mosasaurus_description</item>
+        <item>cretaceous_ammonite_description</item>
+    </array>
+
+    <array name="cretaceous_photo_authors">
+        <item>&#169; Vlad Konstantinov</item>
+        <item>&#169; Damir</item>
+        <item>&#169; Julius Csotonyi</item>
+        <item>&#169; Zhao Chuang</item>
+        <item></item>
+        <item></item>
+        <item>&#169; Vlad Konstantinov</item>
+        <item>&#169; Karl Lindberg</item>
+        <item>&#169; Damir</item>
+        <item>&#169; James Kuether</item>
+        <item>&#169; Olorotitan</item>
+        <item>&#169; Raul Martin</item>
+        <item>&#169; Vlad Konstantinov</item>
+        <item>&#169; Sergey Krasovskiy</item>
+        <item></item>
+        <item>&#169; Simon Stalenhag</item>
+    </array>
+
+    <array name="cretaceous_additional_photo_authors">
+        <item>&#169; Danielle Dufault </item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+</resources>

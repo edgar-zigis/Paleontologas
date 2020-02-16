@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="cambrian_thumbs">
+        <item>item_cambrian_treptichnus_pedum_thumb</item>
+        <item>item_cambrian_hallucigenia_thumb</item>
+        <item>item_cambrian_foraminifera_thumb</item>
+        <item>item_cambrian_archaeocyatha_thumb</item>
+        <item>item_cambrian_conodonta_thumb</item>
+        <item>item_cambrian_trilobita_thumb</item>
+        <item>item_cambrian_myllokunmingia_thumb</item>
+        <item>item_cambrian_wiwaxia_thumb</item>
+        <item>item_cambrian_anomalocaris_thumb</item>
+        <item>item_cambrian_pikaia_thumb</item>
+        <item>item_cambrian_opabinia_thumb</item>
+        <item>item_cambrian_marrella_thumb</item>
+    </array>
+
+    <array name="cambrian_images">
+        <item>item_cambrian_treptichnus_pedum</item>
+        <item>item_cambrian_hallucigenia</item>
+        <item>item_cambrian_foraminifera</item>
+        <item>item_cambrian_archaeocyatha</item>
+        <item>item_cambrian_conodonta</item>
+        <item>item_cambrian_trilobita</item>
+        <item>item_cambrian_myllokunmingia</item>
+        <item>item_cambrian_wiwaxia</item>
+        <item>item_cambrian_anomalocaris</item>
+        <item>item_cambrian_pikaia</item>
+        <item>item_cambrian_opabinia</item>
+        <item>item_cambrian_marrella</item>
+    </array>
+
+    <array name="cambrian_additional_images">
+        <item></item>
+        <item></item>
+        <item>item_cambrian_foraminifera_info</item>
+        <item></item>
+        <item>item_cambrian_conodonta_info</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_cambrian_anomalocaris_info</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+    <array name="cambrian_titles">
+        <item>cambrian_treptichnus_pedum</item>
+        <item>cambrian_hallucigenia</item>
+        <item>cambrian_foraminifera</item>
+        <item>cambrian_archaeocyatha</item>
+        <item>cambrian_conodonta</item>
+        <item>cambrian_trilobita</item>
+        <item>cambrian_myllokunmingia</item>
+        <item>cambrian_wiwaxia</item>
+        <item>cambrian_anomalocaris</item>
+        <item>cambrian_pikaia</item>
+        <item>cambrian_opabinia</item>
+        <item>cambrian_marrella</item>
+    </array>
+
+    <array name="cambrian_time_scales">
+        <item>542-99.7 mya</item>
+        <item>516.0 -505.0 mya</item>
+        <item>541.0-0 mya</item>
+        <item>525-505 mya</item>
+        <item>530-171.6 mya</item>
+        <item>521-252.6 mya</item>
+        <item>520-516 mya</item>
+        <item>520-505 mya</item>
+        <item>516-505 mya</item>
+        <item>513-505 mya</item>
+        <item>513-505 mya</item>
+        <item>513-505 mya</item>
+    </array>
+
+    <array name="cambrian_descriptions">
+        <item>cambrian_treptichnus_pedum_description</item>
+        <item>cambrian_hallucigenia_description</item>
+        <item>cambrian_foraminifera_description</item>
+        <item>cambrian_archaeocyatha_description</item>
+        <item>cambrian_conodonta_description</item>
+        <item>cambrian_trilobita_description</item>
+        <item>cambrian_myllokunmingia_description</item>
+        <item>cambrian_wiwaxia_description</item>
+        <item>cambrian_anomalocaris_description</item>
+        <item>cambrian_pikaia_description</item>
+        <item>cambrian_opabinia_description</item>
+        <item>cambrian_marrella_description</item>
+    </array>
+
+    <array name="cambrian_photo_authors">
+        <item></item>
+        <item></item>
+        <item>&#169; Howard Spero</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#169; Quade Paul</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+
+</resources>

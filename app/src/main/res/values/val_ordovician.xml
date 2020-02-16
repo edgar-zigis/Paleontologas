@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="ordovician_thumbs">
+        <item>item_ordovician_orthoceras_thumb</item>
+        <item>item_ordovician_eurypterida_thumb</item>
+        <item>item_ordovician_sacabambaspis_janvieri_thumb</item>
+        <item>item_ordovician_astraspis_thumb</item>
+        <item>item_ordovician_rugosa_thumb</item>
+        <item>item_ordovician_tabulata_thumb</item>
+    </array>
+
+    <array name="ordovician_images">
+        <item>item_ordovician_orthoceras</item>
+        <item>item_ordovician_eurypterida</item>
+        <item>item_ordovician_sacabambaspis_janvieri</item>
+        <item>item_ordovician_astraspis</item>
+        <item>item_ordovician_rugosa</item>
+        <item>item_ordovician_tabulata</item>
+    </array>
+
+    <array name="ordovician_additional_images">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_ordovician_rugosa_info</item>
+        <item>item_ordovician_tabulata_info</item>
+    </array>
+
+    <array name="ordovician_titles">
+        <item>ordovician_orthoceras</item>
+        <item>ordovician_pentecopterus</item>
+        <item>ordovician_sacabambaspis</item>
+        <item>ordovician_astraspis</item>
+        <item>ordovician_rugosa</item>
+        <item>ordovician_tabulata</item>
+    </array>
+
+    <array name="ordovician_time_scales">
+        <item>471.8-205.6 mya</item>
+        <item>467.3-? mya</item>
+        <item>466-449.5 mya</item>
+        <item>449.5-443.7 mya</item>
+        <item>488.0-252.17 mya</item>
+        <item>488.0-252.17 mya</item>
+    </array>
+
+    <array name="ordovician_descriptions">
+        <item>ordovician_orthoceras_description</item>
+        <item>ordovician_pentecopterus_description</item>
+        <item>ordovician_sacabambaspis_description</item>
+        <item>ordovician_astraspis_description</item>
+        <item>ordovician_rugosa_description</item>
+        <item>ordovician_tabulata_description</item>
+    </array>
+
+    <array name="ordovician_photo_authors">
+        <item>&#169; Felipe Arias</item>
+        <item>&#169; Patrick Lynch</item>
+        <item>&#169; Nobu Tamura</item>
+        <item>&#169; Nobu Tamura</item>
+        <item></item>
+        <item></item>
+    </array>
+
+</resources>

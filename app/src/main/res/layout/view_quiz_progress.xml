@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <com.zigis.paleontologas.application.ui.progressbar.ColorArcProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:back_color="@android:color/darker_gray"
+        app:front_color1="@android:color/white"
+        app:front_color2="@color/green"
+        app:front_color3="@color/red"
+        app:is_need_content="true"
+        app:is_need_title="true"
+        app:is_need_unit="true"
+        app:string_title="@string/answered"
+        app:string_unit="%" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/PeriodDescriptionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/quiz_welcome_text"
+        android:textAlignment="center"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/start"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
