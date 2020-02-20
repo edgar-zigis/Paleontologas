@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import com.crashlytics.android.Crashlytics
 import com.evernote.android.state.StateSaver
+import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.application.interfaces.Navigable
 import com.zigis.paleontologas.application.routers.GlobalRouter
 import org.koin.android.ext.android.inject
@@ -70,6 +71,7 @@ abstract class BaseViewModelFragment<T : ViewModel, V : View> : Fragment(), Navi
     }
 
     private fun addLogs() {
+        if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
         Crashlytics.log(this.javaClass.simpleName + ": " + methodName)
     }

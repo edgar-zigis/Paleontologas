@@ -10,6 +10,10 @@ import org.koin.core.context.startKoin
 
 class PaleoApplication : Application() {
 
+    companion object {
+        const val disableCrashLytics = true
+    }
+
     override fun onCreate() {
         super.onCreate()
         startActivityMonitor()
@@ -17,11 +21,11 @@ class PaleoApplication : Application() {
     }
 
     private fun startActivityMonitor() {
-        //uncomment this in order to use Crashlytics
-        /*val builder = Crashlytics.Builder()
+        if (disableCrashLytics) return
+        val builder = Crashlytics.Builder()
             .core(CrashlyticsCore.Builder().disabled(BuildConfig.BUILD_TYPE == "debug").build())
             .build()
-        Fabric.with(this, builder)*/
+        Fabric.with(this, builder)
     }
 
     private fun injectDependencies() {
