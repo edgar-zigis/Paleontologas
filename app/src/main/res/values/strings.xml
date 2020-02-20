@@ -8,7 +8,8 @@
     <string name="contact_email">admin@bio-matic.com</string>
 
     <string name="about_app">About application</string>
-    <string name="about_app_text">This application is dedicated to all the nature lovers and persons willing to learn Earth’s history. It is simple enough for popular science and has enough facts to use it for the teaching purposes. Facts in this application correspond with the modern paleontological data and are backed up by only the accepted scientific articles.\n\nApplication and content author:\nEdgar Žigis\n\nCredits:\nAndrej Spiridonov (inspiration)\nMatthew Gerke (English content editor)\nAuksė Saulė (Lithuanian content editor)\nGerardo Lo Valvo (Spanish content editor)\n\nPhotos:\nCreative Commons Zero (CC0)\n\nIf you found any errors or want to donate, or contribute towards improving this app, please contact me via email: admin@bio-matic.com</string>
+    <string name="about_app_text_1">This application is dedicated to all the nature lovers and persons willing to learn Earth’s history. It is simple enough for popular science and has enough facts to use it for the teaching purposes. Facts in this application correspond with the modern paleontological data and are backed up by only the accepted scientific articles.</string>
+    <string name="about_app_text_2">Photos:\nCreative Commons Zero (CC0)\n\nIf you found any errors or want to donate, or contribute towards improving this app, please contact me via email: admin@bio-matic.com</string>
     <string name="version_placeholder">v%s</string>
     <string name="quiz_mark_placeholder">%d/%d</string>
 
@@ -22,6 +23,12 @@
     <string name="app_contributor_4">Auksė Saulė</string>
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
     <string name="app_contributor_6">Creative Commons Zero (CC0)</string>
+
+    <string name="app_contributor_description_1">Application &amp; content author</string>
+    <string name="app_contributor_description_2">Inspiration</string>
+    <string name="app_contributor_description_3">English content editor</string>
+    <string name="app_contributor_description_4">Lithuanian content editor</string>
+    <string name="app_contributor_description_5">Spanish content editor</string>
 
     <string name="geological_time_scale">Geological time scale</string>
     <string name="quiz">Quiz</string>
@@ -61,6 +68,8 @@
 
     <string name="map_author_1">&#169; Masato Hattori</string>
     <string name="map_author_2">&#169; C. R. Scotese</string>
+
+    <string name="mya">%s mya</string>
 
     <string name="hadean">Hadean</string>
     <string name="archean">Archean</string>

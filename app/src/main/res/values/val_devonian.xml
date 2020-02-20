@@ -54,16 +54,16 @@
     </array>
 
     <array name="devonian_time_scales">
-        <item>426.2-360.7 mya</item>
-        <item>388.1-383.7 mya</item>
-        <item>383.7-318.1 mya</item>
-        <item>383.7-376.1 mya</item>
-        <item>376.1-360.7 mya</item>
-        <item>376.1-360.7 mya</item>
-        <item>380-? mya</item>
-        <item>376.1-360.7 mya</item>
-        <item>376.1-360.7 mya</item>
-        <item>376.1-360.7 mya</item>
+        <item>426.2-360.7</item>
+        <item>388.1-383.7</item>
+        <item>383.7-318.1</item>
+        <item>383.7-376.1</item>
+        <item>376.1-360.7</item>
+        <item>376.1-360.7</item>
+        <item>380-?</item>
+        <item>376.1-360.7</item>
+        <item>376.1-360.7</item>
+        <item>376.1-360.7</item>
     </array>
 
     <array name="devonian_descriptions">

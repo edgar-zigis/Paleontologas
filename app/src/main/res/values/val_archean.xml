@@ -30,10 +30,10 @@
     </array>
 
     <array name="archean_time_scales">
-        <item>3850–0 mya</item>
-        <item>3700-0 mya</item>
-        <item>3465–2000 mya</item>
-        <item>3200–0 mya</item>
+        <item>3850–0</item>
+        <item>3700-0</item>
+        <item>3465–2000</item>
+        <item>3200–0</item>
     </array>
 
     <array name="archean_descriptions">

@@ -62,18 +62,18 @@
     </array>
 
     <array name="triassic_time_scales">
-        <item>303.4-28.4 mya</item>
-        <item>205.6-164.7 mya</item>
-        <item>252.3-251.3 mya</item>
-        <item>228.1–66.0 mya</item>
-        <item>203.6–66.0 mya</item>
-        <item>248.0–90.0 mya</item>
-        <item>212.0-196.5 mya</item>
-        <item>221.5-205.6 mya</item>
-        <item>242.0-221.5 mya</item>
-        <item>242.0-221.5 mya</item>
-        <item>242.0-205.6 mya</item>
-        <item>215.56-201.6 mya</item>
+        <item>303.4-28.4</item>
+        <item>205.6-164.7</item>
+        <item>252.3-251.3</item>
+        <item>228.1–66.0</item>
+        <item>203.6–66.0</item>
+        <item>248.0–90.0</item>
+        <item>212.0-196.5</item>
+        <item>221.5-205.6</item>
+        <item>242.0-221.5</item>
+        <item>242.0-221.5</item>
+        <item>242.0-205.6</item>
+        <item>215.56-201.6</item>
     </array>
 
     <array name="triassic_descriptions">

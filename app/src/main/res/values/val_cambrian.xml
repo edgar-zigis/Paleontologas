@@ -62,18 +62,18 @@
     </array>
 
     <array name="cambrian_time_scales">
-        <item>542-99.7 mya</item>
-        <item>516.0 -505.0 mya</item>
-        <item>541.0-0 mya</item>
-        <item>525-505 mya</item>
-        <item>530-171.6 mya</item>
-        <item>521-252.6 mya</item>
-        <item>520-516 mya</item>
-        <item>520-505 mya</item>
-        <item>516-505 mya</item>
-        <item>513-505 mya</item>
-        <item>513-505 mya</item>
-        <item>513-505 mya</item>
+        <item>542-99.7</item>
+        <item>516.0-505.0</item>
+        <item>541.0-0</item>
+        <item>525-505</item>
+        <item>530-171.6</item>
+        <item>521-252.6</item>
+        <item>520-516</item>
+        <item>520-505</item>
+        <item>516-505</item>
+        <item>513-505</item>
+        <item>513-505</item>
+        <item>513-505</item>
     </array>
 
     <array name="cambrian_descriptions">

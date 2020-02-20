@@ -29,12 +29,12 @@
     </array>
 
     <array name="permian_time_scales">
-        <item>295.0-145.5 mya</item>
-        <item>290.1-272.5 mya</item>
-        <item>268.0-265.0 mya</item>
-        <item>267.0-265.0 mya</item>
-        <item>259.0-254.0 mya</item>
-        <item>259.0-0 mya</item>
+        <item>295.0-145.5</item>
+        <item>290.1-272.5</item>
+        <item>268.0-265.0</item>
+        <item>267.0-265.0</item>
+        <item>259.0-254.0</item>
+        <item>259.0-0</item>
     </array>
 
     <array name="permian_descriptions">

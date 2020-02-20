@@ -53,7 +53,7 @@ class PeriodView(context: Context) : BaseView(context, R.layout.view_parallax_fr
 
         with(contentView) {
             title.text = context.getString(period.title)
-            timeScale.text = period.timeScale
+            timeScale.text = context.getString(R.string.mya, period.timeScale)
             environmentInfo.text = context.getString(period.environmentDescription)
             descriptionInfo.text = context.getString(period.description)
 

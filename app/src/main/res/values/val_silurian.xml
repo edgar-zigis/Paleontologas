@@ -38,12 +38,12 @@
     </array>
 
     <array name="silurian_time_scales">
-        <item>428.2-311.45 mya</item>
-        <item>428.2-412.3 mya</item>
-        <item>422.9-383.7 mya</item>
-        <item>422.9-391.9 mya</item>
-        <item>422.9-298.9 mya</item>
-        <item>419.6-? mya</item>
+        <item>428.2-311.45</item>
+        <item>428.2-412.3</item>
+        <item>422.9-383.7</item>
+        <item>422.9-391.9</item>
+        <item>422.9-298.9</item>
+        <item>419.6-?</item>
     </array>
 
     <array name="silurian_descriptions">

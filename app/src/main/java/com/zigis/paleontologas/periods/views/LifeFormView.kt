@@ -37,7 +37,7 @@ class LifeFormView(context: Context) : BaseView(context, R.layout.view_parallax_
 
         with(contentView) {
             title.text = context.getString(lifeForm.title)
-            timeScale.text = lifeForm.timeScale
+            timeScale.text = context.getString(R.string.mya, lifeForm.timeScale)
             descriptionInfo.text = context.getString(lifeForm.description)
 
             if (lifeForm.additionalArtwork.isNotEmpty()) {

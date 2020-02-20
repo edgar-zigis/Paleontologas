@@ -1,44 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="2dp">
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/description"
+            android:id="@+id/description1"
             style="@style/PeriodDescriptionStyle"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/about_app_text"
-            android:textIsSelectable="false" />
+            android:text="@string/about_app_text_1"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/topContributorSeparator"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/colorPrimaryMid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description1" />
+
+        <include
+            android:id="@+id/applicationAuthor"
+            layout="@layout/view_about_contributor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topContributorSeparator" />
+
+        <include
+            android:id="@+id/inspirationContributor"
+            layout="@layout/view_about_contributor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <include
+            android:id="@+id/englishContributor"
+            layout="@layout/view_about_contributor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/inspirationContributor"
+            app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <include
+            android:id="@+id/lithuanianContributor"
+            layout="@layout/view_about_contributor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inspirationContributor"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <include
+            android:id="@+id/spanishContributor"
+            layout="@layout/view_about_contributor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/lithuanianContributor"
+            app:layout_constraintTop_toBottomOf="@id/inspirationContributor"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <View
+            android:id="@+id/bottomContributorSeparator"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimaryMid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spanishContributor" />
+
+        <TextView
+            android:id="@+id/description2"
+            style="@style/PeriodDescriptionStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/about_app_text_2"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bottomContributorSeparator" />
 
         <ImageView
+            android:id="@+id/logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/image"
             android:padding="5dp"
-            android:src="@drawable/logo_grey" />
+            android:src="@drawable/logo_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description2" />
 
         <TextView
             android:id="@+id/applicationVersion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="4dp"
             android:fontFamily="@font/gilroy_light"
+            android:paddingBottom="8dp"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo"
             tools:text="1.0.0" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

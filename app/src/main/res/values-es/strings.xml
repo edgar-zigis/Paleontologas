@@ -7,7 +7,8 @@
     <string name="contact_email">admin@bio-matic.com</string>
 
     <string name="about_app">Sobre la aplicación</string>
-    <string name="about_app_text">Esta aplicación está dedicada a los amantes de la naturaleza y a todas las personas que deseen aprender sobre la historia de la Tierra. Es suficientemente sencilla para la ciencia popular divulgativa y contiene datos bastantes para utilizarla con fines didácticos. Los datos incluidos en esta aplicación corresponden únicamente a los de la paleontología moderna y están respaldados por artículos científicos aceptados.\n\nAutor de aplicación y contenido:\nEdgar Žigis\n\nCréditos:\nAndrej Spiridonov (inspiración)\nMatthew Gerke (editor del contenido en inglés)\nAuksė Saulė (editor del contenido en lituano)\nGerardo Lo Valvo (editor del contenido en español)\n\nFotos:\nCreative Commons Zero (CC0)\n\nSi encuentra usted algún error o quiere donar, o bien contribuir a la mejora de esta aplicación, por favor contácteme vía email: admin@bio-matic.com </string>
+    <string name="about_app_text_1">Esta aplicación está dedicada a los amantes de la naturaleza y a todas las personas que deseen aprender sobre la historia de la Tierra. Es suficientemente sencilla para la ciencia popular divulgativa y contiene datos bastantes para utilizarla con fines didácticos. Los datos incluidos en esta aplicación corresponden únicamente a los de la paleontología moderna y están respaldados por artículos científicos aceptados.</string>
+    <string name="about_app_text_2">Fotos:\nCreative Commons Zero (CC0)\n\nSi encuentra usted algún error o quiere donar, o bien contribuir a la mejora de esta aplicación, por favor contácteme vía email: admin@bio-matic.com</string>
     <string name="version_placeholder">v%s</string>
     <string name="quiz_mark_placeholder">%d/%d</string>
 
@@ -21,6 +22,12 @@
     <string name="app_contributor_4">Auksė Saulė</string>
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
     <string name="app_contributor_6">Creative Commons Zero (CC0)</string>
+
+    <string name="app_contributor_description_1">Autor de aplicación y contenido</string>
+    <string name="app_contributor_description_2">Inspiración</string>
+    <string name="app_contributor_description_3">Editor del contenido en inglés</string>
+    <string name="app_contributor_description_4">Editor del contenido en lituano</string>
+    <string name="app_contributor_description_5">Editor del contenido en español</string>
     
     <string name="geological_time_scale">Escala temporal geológica </string>
     <string name="quiz">¿Cuánto sabe? </string>
@@ -60,6 +67,8 @@
 
     <string name="map_author_1">&#169; Masato Hattori</string>
     <string name="map_author_2">&#169; C. R. Scotese</string>
+
+    <string name="mya">%s Ma</string>
 
     <string name="hadean">Hadeano (o Hádico)</string>
     <string name="archean">Arqueano (o Arcaico)</string>
@@ -245,7 +254,7 @@
     <string name="cambrian_myllokunmingia_description">Myllokunmingia es un género de cordados basales, de 28 mm de largo y 6 milímetros de alto. Se encuentra entre los posibles craneados más antiguos y parece tener un cráneo y estructuras esqueletales hechas de cartílago. </string>
     <string name="cambrian_pikaia_description">Pikaia es uno de los ancestros más antiguos conocidos de los vertebrados, el cual tenía una apariencia similar a los gusanos y quizás nadaba como una anguila. Los fósiles muestran características de los cordados como rastros de una notocorda elongada, un cordón nervioso dorsal y miótomos – todas características críticas en la evolución de los vertebrados. </string>
     <string name="cambrian_anomalocaris_description">Anomalocaris es un animal que se cree que estaba cercanamente emparentado a los artrópodos ancestrales. Era uno de los animales de mayor tamaño y uno de los depredadores en los océanos cámbricos, pudiendo alcanzar hasta un metro de longitud. Poseía ojos pedunculados sofisticados con al menos 16.000 lentes cada uno. Estos ojos compuestos eran tan agudos como los mejores entre los insectos modernos. También tenían una boca con un anillo de dientes afilados. </string>
-    <string name="cambrian_opabinia_description">Opabinia era un animal de cuerpo blando de tamaño moderado (4–7 cm de largo). Su cuerpo segmentado tenía lóbulos a los lados y una cola con forma de abanico. La cabeza muestra características inusuales: cinco ojos, una boca debajo de la cabeza orientada hacia atrás y una probocis con la que probablemente haya llevado la comida a la boca.\nSeguramente haya vivido en el fondo oceánico, usando su probocis para buscar pequeños animales de cuerpo blando. </string>
+    <string name="cambrian_opabinia_description">Opabinia era un animal de cuerpo blando de tamaño moderado (4–7 cm de largo). Su cuerpo segmentado tenía lóbulos a los lados y una cola con forma de abanico. La cabeza muestra características inusuales: cinco ojos, una boca debajo de la cabeza orientada hacia atrás y una probóscide con la que probablemente haya llevado la comida a la boca.\nSeguramente haya vivido en el fondo oceánico, usando su probóscide para buscar pequeños animales de cuerpo blando. </string>
     <string name="cambrian_marrella_description">Marrella es un artrópodo del Cámbrico medio. Era un animal pequeño, de 2 cm de largo o menos, el cual hurgaba en los detritos del fondo del océano. Hoy se acepta que Marrella es parte del grupo vástago de artrópodos – en otras palabras, desciende de un ancestro en común con la mayoría, o todos, los mayores grupos de artrópodos actuales. A pesar de su similitud superficial con los trilobites, no está más relacionado a este grupo que a cualquier otro artrópodo. </string>
     <string name="cambrian_foraminifera_description">Los foraminíferos son miembros de los protistas ameboides caracterizados por proyectar plasma granular que, entre otras cosas, es usado para atrapar comida, y comúnmente lo hacen a través de los poros de una conchilla externa hecha de varios materiales y construida de diversas formas. La mayoría de ellos son marinos, aunque se conocen algunas pocas formas de agua dulce. Sus conchillas están hechas de carbonato de calcio y usualmente su tamaño no sobrepasa 1 mm, aunque algunas pueden llegar hasta los 20 cm, Los foraminíferos también son usados como fósiles guías para el Pérmico, el Jurásico, el Cretácico y el Cenozoico. </string>
     <string name="cambrian_hallucigenia_description">Hallucigenia es considerado un ancestro temprano de los gusanos aterciopelados, aunque algunos investigadores favorecen la idea de una relación más cercana a los artrópodos. Su nombre refleja si apariencia inusual y lo excéntrico de la historia de su estudio. Era un organismo tubular de 0,5–3,5 cm de largo con siete u ocho pares de patas delgadas, que cada una finalizaba en un par de garras. </string>

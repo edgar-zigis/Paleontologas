@@ -54,16 +54,16 @@
     </array>
 
     <array name="jurassic_time_scales">
-        <item>150.8-125.45 mya</item>
-        <item>150.8-89.3 mya</item>
-        <item>161.2-145.5 mya</item>
-        <item>161.2-140.2 mya</item>
-        <item>150.8-99.7 mya</item>
-        <item>155.7-145.5 mya</item>
-        <item>164.7-161.2 mya</item>
-        <item>164.7-161.2 mya</item>
-        <item>201.6-183.0 mya</item>
-        <item>196.5-189.6 mya</item>
+        <item>150.8-125.45</item>
+        <item>150.8-89.3</item>
+        <item>161.2-145.5</item>
+        <item>161.2-140.2</item>
+        <item>150.8-99.7</item>
+        <item>155.7-145.5</item>
+        <item>164.7-161.2</item>
+        <item>164.7-161.2</item>
+        <item>201.6-183.0</item>
+        <item>196.5-189.6</item>
     </array>
 
     <array name="jurassic_descriptions">

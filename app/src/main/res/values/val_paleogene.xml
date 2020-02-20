@@ -46,14 +46,14 @@
     </array>
 
     <array name="paleogene_time_scales">
-        <item>61.7-58.7 mya</item>
-        <item>58.7-48.6 mya</item>
-        <item>37.2-33.9 mya</item>
-        <item>33.9-23.03 mya</item>
-        <item>30.8-20.43 mya</item>
-        <item>33.9-24.8 mya</item>
-        <item>37.2-23.03 mya</item>
-        <item>29.0-23.03 mya</item>
+        <item>61.7-58.7</item>
+        <item>58.7-48.6</item>
+        <item>37.2-33.9</item>
+        <item>33.9-23.03</item>
+        <item>30.8-20.43</item>
+        <item>33.9-24.8</item>
+        <item>37.2-23.03</item>
+        <item>29.0-23.03</item>
     </array>
 
     <array name="paleogene_descriptions">

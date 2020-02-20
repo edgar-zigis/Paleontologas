@@ -38,12 +38,12 @@
     </array>
 
     <array name="ordovician_time_scales">
-        <item>471.8-205.6 mya</item>
-        <item>467.3-? mya</item>
-        <item>466-449.5 mya</item>
-        <item>449.5-443.7 mya</item>
-        <item>488.0-252.17 mya</item>
-        <item>488.0-252.17 mya</item>
+        <item>471.8-205.6</item>
+        <item>467.3-?</item>
+        <item>466-449.5</item>
+        <item>449.5-443.7</item>
+        <item>488.0-252.17</item>
+        <item>488.0-252.17</item>
     </array>
 
     <array name="ordovician_descriptions">

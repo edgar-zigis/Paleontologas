@@ -25,7 +25,7 @@ class PeriodListAdapter(
 
         title.text = context.getString(item.title)
         description.text = context.getString(item.shortDescription)
-        year.text = item.timeScale
+        year.text = context.getString(R.string.mya, item.timeScale)
 
         progressBar.title = "${item.quizProgress}%"
         progressBar.progress = item.quizProgress

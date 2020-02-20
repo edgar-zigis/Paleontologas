@@ -62,18 +62,18 @@
     </array>
 
     <array name="quaternary_time_scales">
-        <item>5.332-0.0037 mya</item>
-        <item>4.2-0.012 mya</item>
-        <item>17.5-0.01 mya</item>
-        <item>2.5–0.01 mya</item>
-        <item>409.0-0.0 mya</item>
-        <item>450.0-0.0 mya</item>
-        <item>270.0-0.0 mya</item>
-        <item>242.0-0.0 mya</item>
-        <item>1.5-0.04 mya</item>
-        <item>240.0-0.0 mya</item>
-        <item>0.012-0.0004 mya</item>
-        <item>0.126-0.0 mya</item>
+        <item>5.332-0.0037</item>
+        <item>4.2-0.012</item>
+        <item>17.5-0.01</item>
+        <item>2.5–0.01</item>
+        <item>409.0-0.0</item>
+        <item>450.0-0.0</item>
+        <item>270.0-0.0</item>
+        <item>242.0-0.0</item>
+        <item>1.5-0.04</item>
+        <item>240.0-0.0</item>
+        <item>0.012-0.0004</item>
+        <item>0.126-0.0</item>
     </array>
 
     <array name="quaternary_descriptions">

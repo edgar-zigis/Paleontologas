@@ -46,14 +46,14 @@
     </array>
 
     <array name="neogene_time_scales">
-        <item>9.0-6.8 mya</item>
-        <item>4.9-1.8 mya</item>
-        <item>20.0-0.781 mya</item>
-        <item>11.1-5.332 mya</item>
-        <item>15.97-5.332 mya</item>
-        <item>5.332-3.6 mya</item>
-        <item>23.0–2.6 mya</item>
-        <item>11.608-7.246 mya</item>
+        <item>9.0-6.8</item>
+        <item>4.9-1.8</item>
+        <item>20.0-0.781</item>
+        <item>11.1-5.332</item>
+        <item>15.97-5.332</item>
+        <item>5.332-3.6</item>
+        <item>23.0–2.6</item>
+        <item>11.608-7.246</item>
     </array>
 
     <array name="neogene_descriptions">

@@ -8,7 +8,8 @@
     <string name="contact_email">admin@bio-matic.com</string>
 
     <string name="about_app">Apie programėlę</string>
-    <string name="about_app_text">Ši programėlė skirta gamtos mylėtojams ir žmonėms, norintiems susipažinti su Žemės istorija. Ji yra pakankamai paprasta populiariajam mokslui ir pakankamai išsami mokymo tikslams. Programėlėje esantys faktai atitinka šiuolaikines paleontologijos žinias ir yra paremti tik pripažintais mokslininkų straipsniais.\n\nProgramėlės ir turinio autorius:\nEdgar Žigis\n\nPadėkos:\nAndrej Spiridonov (įkvėpimas)\nMatthew Gerke (angliško turinio redaktorius)\nAuksė Saulė (lietuviško turinio redaktorė)\nGerardo Lo Valvo (ispaniško turinio redaktorius)\n\nNuotraukos:\nCreative Commons Zero (CC0)\n\nRadę klaidų, norėdami paremti arba prisidėti prie programėlės turinio plėtojimo, kreipkitės el. paštu: admin@bio-matic.com</string>
+    <string name="about_app_text_1">Ši programėlė skirta gamtos mylėtojams ir žmonėms, norintiems susipažinti su Žemės istorija. Ji yra pakankamai paprasta populiariajam mokslui ir pakankamai išsami mokymo tikslams. Programėlėje esantys faktai atitinka šiuolaikines paleontologijos žinias ir yra paremti tik pripažintais mokslo straipsniais.</string>
+    <string name="about_app_text_2">Nuotraukos:\nCreative Commons Zero (CC0)\n\nRadę klaidų, norėdami paremti arba prisidėti prie programėlės turinio plėtojimo, kreipkitės el. paštu: admin@bio-matic.com</string>
     <string name="version_placeholder">v%s</string>
     <string name="quiz_mark_placeholder">%d/%d</string>
 
@@ -22,6 +23,12 @@
     <string name="app_contributor_4">Auksė Saulė</string>
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
     <string name="app_contributor_6">Creative Commons Zero (CC0)</string>
+
+    <string name="app_contributor_description_1">Programėlės ir turinio autorius</string>
+    <string name="app_contributor_description_2">Įkvėpimas</string>
+    <string name="app_contributor_description_3">Angliško turinio redaktorius</string>
+    <string name="app_contributor_description_4">Lietuviško turinio redaktorė</string>
+    <string name="app_contributor_description_5">Ispaniško turinio redaktorius</string>
 
     <string name="geological_time_scale">Geologinė laiko skalė</string>
     <string name="quiz">Žaidimas</string>
@@ -61,6 +68,8 @@
 
     <string name="map_author_1">&#169; Masato Hattori</string>
     <string name="map_author_2">&#169; C. R. Scotese</string>
+
+    <string name="mya">%s mln. m.</string>
 
     <string name="hadean">Hadas</string>
     <string name="archean">Archėjus</string>

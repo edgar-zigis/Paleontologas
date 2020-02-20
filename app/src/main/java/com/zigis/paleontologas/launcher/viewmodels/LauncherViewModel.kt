@@ -19,7 +19,7 @@ class LauncherViewModel constructor(
         }
     }
 
-    fun synchronizeData() = viewModelScope.launch(Dispatchers.IO + synchronizeDataExceptionHandler) {
+    fun synchronizeData() = GlobalScope.launch(Dispatchers.IO + synchronizeDataExceptionHandler) {
         dataMigrationManager.migrate()
         withContext(Dispatchers.Main) {
             delay(1800)
