@@ -28,4 +28,4 @@ specifically for this app, so consider some things as improvisations
 and do not necessarily use them in your projects. 
 ```
 
-Anyway, content is what makes apps special, not the code. So have some fun exploring and I am happy to hear comments on how you would have done it :)
+Anyway, content is what makes apps special, not the code. So have some fun exploring and I am happy to hear comments on how you would have done it 🦖

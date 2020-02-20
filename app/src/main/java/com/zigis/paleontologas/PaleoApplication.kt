@@ -17,10 +17,11 @@ class PaleoApplication : Application() {
     }
 
     private fun startActivityMonitor() {
-        val builder = Crashlytics.Builder()
+        //uncomment this in order to use Crashlytics
+        /*val builder = Crashlytics.Builder()
             .core(CrashlyticsCore.Builder().disabled(BuildConfig.BUILD_TYPE == "debug").build())
             .build()
-        Fabric.with(this, builder)
+        Fabric.with(this, builder)*/
     }
 
     private fun injectDependencies() {
