@@ -68,6 +68,6 @@ class AboutView(context: Context) : BaseView(context, R.layout.view_about) {
             Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
         )
 
-        description2.text = spannableString
+        description3.text = spannableString
     }
 }

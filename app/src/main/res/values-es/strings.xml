@@ -16,6 +16,9 @@
     <string name="language_en">English</string>
     <string name="language_es">Español</string>
 
+    <string name="wall_of_fame">Muro de la Fama</string>
+    <string name="wall_of_fame_description">¿Deseas contribuir a esta aplicación y ser inmortalizado en el Muro de la Fama? ¿Tiene antecedentes científicos y conoce algún idioma que no esté presente aquí? Si ambas respuestas son afirmativas, contáctame con un correo electrónico y ¡hagamos que esta aplicación sea aún mejor!</string>
+
     <string name="app_contributor_1">Edgar Žigis</string>
     <string name="app_contributor_2">Andrej Spiridonov</string>
     <string name="app_contributor_3">Matthew Gerke</string>

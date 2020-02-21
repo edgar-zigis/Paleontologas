@@ -24,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
-            android:id="@+id/topContributorSeparator"
+            android:id="@+id/separator1"
             android:layout_width="0dp"
             android:layout_height="6dp"
             android:layout_marginTop="6dp"
@@ -32,6 +32,30 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/description1" />
+
+        <TextView
+            android:id="@+id/creditsLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="@string/wall_of_fame"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/separator1" />
+
+        <View
+            android:id="@+id/separator2"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimaryMid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/creditsLabel" />
 
         <include
             android:id="@+id/applicationAuthor"
@@ -41,7 +65,7 @@
             android:layout_marginTop="4dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/topContributorSeparator" />
+            app:layout_constraintTop_toBottomOf="@id/separator2" />
 
         <include
             android:id="@+id/inspirationContributor"
@@ -82,7 +106,7 @@
             app:layout_constraintWidth_percent="0.5" />
 
         <View
-            android:id="@+id/bottomContributorSeparator"
+            android:id="@+id/separator3"
             android:layout_width="0dp"
             android:layout_height="6dp"
             android:layout_marginTop="4dp"
@@ -96,14 +120,37 @@
             style="@style/PeriodDescriptionStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/wall_of_fame_description"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/separator3" />
+
+        <View
+            android:id="@+id/separator4"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimaryMid"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description2" />
+
+        <TextView
+            android:id="@+id/description3"
+            style="@style/PeriodDescriptionStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autoLink="email"
             android:text="@string/about_app_text_2"
             android:textAlignment="center"
             android:textIsSelectable="false"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/bottomContributorSeparator" />
+            app:layout_constraintTop_toBottomOf="@id/separator4" />
 
         <ImageView
             android:id="@+id/logo"
@@ -115,7 +162,7 @@
             android:src="@drawable/logo_grey"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/description2" />
+            app:layout_constraintTop_toBottomOf="@id/description3" />
 
         <TextView
             android:id="@+id/applicationVersion"
