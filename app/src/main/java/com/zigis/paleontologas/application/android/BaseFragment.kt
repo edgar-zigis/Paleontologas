@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.crashlytics.android.Crashlytics
 import com.evernote.android.state.StateSaver
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.application.interfaces.Navigable
 import com.zigis.paleontologas.application.routers.GlobalRouter
@@ -66,6 +66,6 @@ abstract class BaseFragment<V : View> : Fragment(), Navigable {
     private fun addLogs() {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
-        Crashlytics.log(this.javaClass.simpleName + ": " + methodName)
+        FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }
 }

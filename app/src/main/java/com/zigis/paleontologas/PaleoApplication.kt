@@ -1,10 +1,8 @@
 package com.zigis.paleontologas
 
 import android.app.Application
-import com.crashlytics.android.Crashlytics
-import com.crashlytics.android.core.CrashlyticsCore
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.application.di.*
-import io.fabric.sdk.android.Fabric
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -22,10 +20,11 @@ class PaleoApplication : Application() {
 
     private fun startActivityMonitor() {
         if (disableCrashLytics) return
-        val builder = Crashlytics.Builder()
-            .core(CrashlyticsCore.Builder().disabled(BuildConfig.BUILD_TYPE == "debug").build())
-            .build()
-        Fabric.with(this, builder)
+        FirebaseCrashlytics
+            .getInstance()
+            .setCrashlyticsCollectionEnabled(
+                BuildConfig.BUILD_TYPE != "debug"
+            )
     }
 
     private fun injectDependencies() {

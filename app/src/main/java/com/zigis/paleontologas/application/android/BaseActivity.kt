@@ -8,7 +8,7 @@ import android.view.View.LAYOUT_DIRECTION_RTL
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import com.crashlytics.android.Crashlytics
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.extensions.android.ContextWrapper
@@ -139,6 +139,6 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
     private fun addLogs() {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
-        Crashlytics.log(this.javaClass.simpleName + ": " + methodName)
+        FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }
 }

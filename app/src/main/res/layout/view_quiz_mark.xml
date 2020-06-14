@@ -69,6 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="24dp"
+        android:backgroundTint="@color/colorPrimary"
         android:elevation="1dp"
         android:fontFamily="@font/gentona_book"
         android:padding="8dp"
