@@ -21,6 +21,7 @@ import kotlinx.coroutines.Job
 import org.koin.android.ext.android.inject
 import java.util.*
 import kotlin.coroutines.CoroutineContext
+import kotlin.math.min
 
 abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
 
@@ -32,7 +33,7 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
 
     private val backStackChangeListener = FragmentManager.OnBackStackChangedListener {
         with(supportFragmentManager) {
-            val index = backStackEntryCount - 1
+            val index = min(backStackEntryCount - 1, fragments.size - 1)
             (fragments[index] as? Navigable)?.onAttached()
         }
     }
