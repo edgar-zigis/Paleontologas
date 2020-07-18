@@ -16,6 +16,7 @@
     <string name="language_lt">Lietuvių</string>
     <string name="language_en">English</string>
     <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
 
     <string name="wall_of_fame">Wall of Fame</string>
     <string name="wall_of_fame_description">Do you wish to contribute to this app and be immortalized on the Wall of Fame? Do you have a scientific background and know any language not present here? If both answers are yes, then hit me up with an e-mail and lets make this app even greater!</string>
@@ -25,13 +26,15 @@
     <string name="app_contributor_3">Matthew Gerke</string>
     <string name="app_contributor_4">Auksė Saulė</string>
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
-    <string name="app_contributor_6">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Application &amp; content author</string>
     <string name="app_contributor_description_2">Inspiration</string>
     <string name="app_contributor_description_3">English content editor</string>
     <string name="app_contributor_description_4">Lithuanian content editor</string>
     <string name="app_contributor_description_5">Spanish content editor</string>
+    <string name="app_contributor_description_6">German content editor</string>
 
     <string name="geological_time_scale">Geological time scale</string>
     <string name="quiz">Quiz</string>
@@ -201,7 +204,7 @@
     <string name="quaternary_life_forms">The Quaternary is the modern period, and it represents our current fauna and flora. However, periodic glaciations had a huge impact on the terrestrial biota, frequently destroying plant and animal species. After the last ice age, many large Pleistocene mammals such as saber-tooth cats, mammoths, and mastodons became extinct worldwide.</string>
 
     <string name="future_physics">Mean temperature: x °C\nAtmospheric oxygen: y%</string>
-    <string name="future_description">It is very hard to predict the future; however, we as an intelligent life forms can try to contemplate it. \nEarth will vanish eventually, because the Sun has its lifetime and will swallow our planet (unless our future simblings will be able to transfer Earth somewhere else). It is thought, that Earth’s habitable-zone lifespan is as long as 7.79 billion years. Because we already spent 4.56 billion years, we got around 3.23 billion years left, or even less – 1.75 billion years due to some scientists. It will get progressively hotter and there is nothing we can do about it. Sun converts hydrogen into helium and when the significant portion of it will be converted – it will undergo an internal change and become a Red Giant. This is how it is.\nBut it is an ideal case.</string>
+    <string name="future_description">It is very hard to predict the future; however, we as an intelligent life forms can try to contemplate it. \nEarth will vanish eventually, because the Sun has its lifetime and will swallow our planet (unless our future siblings will be able to transfer Earth somewhere else). It is thought, that Earth’s habitable-zone lifespan is as long as 7.79 billion years. Because we already spent 4.56 billion years, we got around 3.23 billion years left, or even less – 1.75 billion years due to some scientists. It will get progressively hotter and there is nothing we can do about it. Sun converts hydrogen into helium and when the significant portion of it will be converted – it will undergo an internal change and become a Red Giant. This is how it is.\nBut it is an ideal case.</string>
     <string name="future_additional_title">Anthropogenic Future</string>
     <string name="future_additional" formatted="false">Life already showed it’s persistence and will to exist, so it will flourish with humans or without them. The current trends and risen concern in society about the ecology bring some optimism, because about 20 years ago people still believed EXXON lying about the non existent climate change and no one was thinking about the pollution etc. However, changes will occur anyway despite our wishes.\nThere is a hidden bomb in our understanding of the economy. Usually if country shows an economic growth of below the 3% it is portrayed as a slow growing one. But what does it mean to grow 3% per year? It basically means, that every 20 years economy doubles and current economy trends show, that with economic growth, energy consumption grows too. Since the industrial revolution we increased our energy consumption rates dramatically and we still use carbon-rich fossil fuel everywhere. Renewable energy still occupies just a tiny part of our produced energy.\nThe main law in physics states, that energy always emits heat – by the current calculations in 400 years we will need as much energy as the Sun provides and we will basically boil our oceans, if energy will be used as inefficiently as it is used today. And in 2000 years we will need energy of all the Milky Way galaxy stars. Now imagine Milky Way and its minimum diameter of 100,000 light years and ask yourself – is it possible to retain such consumption tempo?\nIt is more likely, that humanity will discover way more efficient energy sources and will adapt to live on Earth, because now humanity is trying to adapt Earth for life with people.\nAt the moment something similar to the Permian-Triassic extinction is happening now, but in faster rates. We dump tons of the carbon dioxide, Earth started to heat and already melts its polar caps, which contain massive amounts of trapped methane inside. Oceanic acidity had already risen during the recent years and it caused the partial death of the worldwide coral reefs, and anoxia is already spreading. Forests, which should fixate all the carbon dioxide are being cut for economic purposes. The sea levels will continue to rise. Such places like Florida, East Asia already suffer from the mass floods.\nCurrent events are driving Earth’s life towards the next mass extinction, however at least now it gather much more publicity and required attention.</string>
     <string name="future_life_forms">Life will always flourish. Even in the radioactive bogs full of acid.</string>

@@ -15,6 +15,7 @@
     <string name="language_lt">Lietuvių</string>
     <string name="language_en">English</string>
     <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
 
     <string name="wall_of_fame">Muro de la Fama</string>
     <string name="wall_of_fame_description">¿Deseas contribuir a esta aplicación y ser inmortalizado en el Muro de la Fama? ¿Tiene antecedentes científicos y conoce algún idioma que no esté presente aquí? Si ambas respuestas son afirmativas, contáctame con un correo electrónico y ¡hagamos que esta aplicación sea aún mejor!</string>
@@ -24,13 +25,15 @@
     <string name="app_contributor_3">Matthew Gerke</string>
     <string name="app_contributor_4">Auksė Saulė</string>
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
-    <string name="app_contributor_6">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Autor de aplicación y contenido</string>
     <string name="app_contributor_description_2">Inspiración</string>
     <string name="app_contributor_description_3">Editor del contenido en inglés</string>
     <string name="app_contributor_description_4">Editor del contenido en lituano</string>
     <string name="app_contributor_description_5">Editor del contenido en español</string>
+    <string name="app_contributor_description_6">Editor del contenido alemán</string>
     
     <string name="geological_time_scale">Escala temporal geológica </string>
     <string name="quiz">¿Cuánto sabe? </string>
