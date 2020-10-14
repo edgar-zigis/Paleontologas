@@ -399,7 +399,7 @@
 
     <string name="jurassic_archaeopteryx">Archaeopteryx</string>
     <string name="jurassic_allosaurus">Allosauro</string>
-    <string name="jurassic_mamenchisaurus">Mamenchisaurus</string>
+    <string name="jurassic_mamenchisaurus">Mamenchisauro</string>
     <string name="jurassic_stegosaurus">Stegosauro</string>
     <string name="jurassic_epidexipteryx">Epidexipteryx</string>
     <string name="jurassic_dilophosaurus">Dilophosauro</string>
@@ -430,7 +430,7 @@
     <string name="cretaceous_mosasaurus">Mosasauro</string>
     <string name="cretaceous_ammonite">Ammonoidea</string>
     <string name="cretaceous_therizinosaurus">Therizinosauro</string>
-    <string name="cretaceous_tsintaosaurus">Tsintaosaurus</string>
+    <string name="cretaceous_tsintaosaurus">Tsintaosauro</string>
     <string name="cretaceous_deinocherus">Deinocheirus</string>
     <string name="cretaceous_quetzalcoatlus">Quetzalcoatl</string>
     <string name="cretaceous_giganotosaurus">Giganotosauro</string>
@@ -459,7 +459,7 @@
 
     <string name="paleogene_titanoboa">Titanoboa</string>
     <string name="paleogene_gastornis">Gastornis</string>
-    <string name="paleogene_basilosaurus">Basilosaurus</string>
+    <string name="paleogene_basilosaurus">Basilosauro</string>
     <string name="paleogene_paraceratherium">Paraceratherium</string>
     <string name="paleogene_daeodon">Daeodon</string>
     <string name="paleogene_pyrotherium">Pyrotherium</string>
@@ -501,12 +501,12 @@
     <string name="quaternary_coelodonta">Coelodonta</string>
     <string name="quaternary_megatherium">Megatherium</string>
     <string name="quaternary_smilodon">Smilodonte</string>
-    <string name="quaternary_coelacanth"> Celacanto </string>
-    <string name="quaternary_xiphosura">Horse-shoe crab</string>
+    <string name="quaternary_coelacanth"> Celacanto</string>
+    <string name="quaternary_xiphosura">Granchio a ferro di cavallo</string>
     <string name="quaternary_ginkgo">Ginkgo</string>
     <string name="quaternary_welwitschia">Welwitschia</string>
     <string name="quaternary_tuatara">Tuatara</string>
-    <string name="quaternary_human">Human</string>
+    <string name="quaternary_human">Umano</string>
     <string name="quaternary_dodo">Dodo</string>
     <string name="quaternary_megalania">Megalania</string>
 
@@ -668,10 +668,10 @@
 
     <string name="archean_question_17">Quale di questi oggetti puo essere classificato come acritarcha?</string>
 
-    <string name="archean_variant_17_1">egg cases</string>
-    <string name="archean_variant_17_2">organic sand</string>
-    <string name="archean_variant_17_3">worms</string>
-    <string name="archean_variant_17_4">lichen</string>
+    <string name="archean_variant_17_1">casi di uova</string>
+    <string name="archean_variant_17_2">sabbia organica</string>
+    <string name="archean_variant_17_3">vermi</string>
+    <string name="archean_variant_17_4">lichene</string>
 
     <!--     BREAK      -->
 
@@ -1406,10 +1406,10 @@
 
     <string name="devonian_question_17">A quale gruppo di animali appartiene Tiktaalik?</string>
 
-    <string name="devonian_variant_17_1">lobe-finned fish</string>
-    <string name="devonian_variant_17_2">amphibians</string>
-    <string name="devonian_variant_17_3">reptiles</string>
-    <string name="devonian_variant_17_4">bony fish</string>
+    <string name="devonian_variant_17_1">pesce con pinne a lobi</string>
+    <string name="devonian_variant_17_2">anfibi</string>
+    <string name="devonian_variant_17_3">rettili</string>
+    <string name="devonian_variant_17_4">pesce ossuto</string>
 
     <string name="devonian_question_18">Che tipo di animale è mostrato in questa immagine?</string>
 
@@ -1915,7 +1915,7 @@
     <string name="permian_question_20">Chi sono gli antenati dei mammiferi moderni?</string>
 
     <string name="permian_variant_20_1">cinodonti non mammiferi</string>
-    <string name="permian_variant_20_2"> cinodonti mammiferi </string>
+    <string name="permian_variant_20_2">cinodonti mammiferi</string>
     <string name="permian_variant_20_3">pelycosauro</string>
     <string name="permian_variant_20_4">pesce con pinne a lobi</string>
 
@@ -2024,7 +2024,7 @@
     <string name="triassic_variant_14_1">pterosauro</string>
     <string name="triassic_variant_14_2">dinosauro</string>
     <string name="triassic_variant_14_3">mosasauro</string>
-    <string name="triassic_variant_14_4">this is not an animal</string>
+    <string name="triassic_variant_14_4">questo non è un animale</string>
 
     <string name="triassic_question_15">Durante quale periodo geologico è apparso questo animale?</string>
 
@@ -2613,7 +2613,7 @@
     <string name="neogene_variant_16_1">Titanis</string>
     <string name="neogene_variant_16_2">Gastornis</string>
     <string name="neogene_variant_16_3">Quetzalcoatlus</string>
-    <string name="neogene_variant_16_4">Stork</string>
+    <string name="neogene_variant_16_4">Cicogna</string>
 
     <string name="neogene_question_17">Durante quale periodo geologico è apparso questo animale?</string>
 
@@ -2633,7 +2633,7 @@
 
     <string name="neogene_variant_19_1">Deinotherium</string>
     <string name="neogene_variant_19_2">Arsinoitherium</string>
-    <string name="neogene_variant_19_3">mammoth</string>
+    <string name="neogene_variant_19_3">Mammut</string>
     <string name="neogene_variant_19_4">Elefante</string>
 
     <string name="neogene_question_20">Durante quale periodo geologico è apparso questo animale?</string>

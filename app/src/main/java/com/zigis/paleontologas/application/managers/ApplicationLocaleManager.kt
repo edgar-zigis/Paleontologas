@@ -36,6 +36,6 @@ class ApplicationLocaleManager constructor(
 
     companion object {
         private const val defaultLocale = "en"
-        private val availableLocales = listOf(defaultLocale, "de", "es", "lt")
+        private val availableLocales = listOf(defaultLocale, "de", "es", "it", "lt")
     }
 }
