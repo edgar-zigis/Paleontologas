@@ -2,7 +2,6 @@ package com.zigis.paleontologas.periods.fragments
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import com.evernote.android.state.State
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.periods.data.entities.LifeForm
@@ -29,12 +28,12 @@ class PeriodFragment : BaseViewModelFragment<PeriodViewModel, PeriodView>(), Per
     }
 
     override fun observeChanges() {
-        viewModel.period.observe(viewLifecycleOwner, Observer {
+        viewModel.period.observe(viewLifecycleOwner) {
             contentView.configureWith(it)
-        })
-        viewModel.lifeForms.observe(viewLifecycleOwner, Observer {
+        }
+        viewModel.lifeForms.observe(viewLifecycleOwner) {
             contentView.setLifeForms(it)
-        })
+        }
     }
 
     //  PeriodViewDelegate

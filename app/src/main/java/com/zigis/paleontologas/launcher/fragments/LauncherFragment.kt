@@ -4,7 +4,6 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.lifecycle.Observer
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.application.entities.TaskStatus.*
 import com.zigis.paleontologas.launcher.viewmodels.LauncherViewModel
@@ -20,7 +19,7 @@ class LauncherFragment : BaseViewModelFragment<LauncherViewModel, LauncherView>(
     }
 
     override fun observeChanges() {
-        viewModel.synchronizationStatus.observe(viewLifecycleOwner, Observer { taskStatus ->
+        viewModel.synchronizationStatus.observe(viewLifecycleOwner) { taskStatus ->
             when (taskStatus) {
                 is Success -> {
                     startActivity(Intent(activity, MainActivity::class.java))
@@ -29,6 +28,6 @@ class LauncherFragment : BaseViewModelFragment<LauncherViewModel, LauncherView>(
                     Toast.makeText(activity, taskStatus.message, Toast.LENGTH_LONG).show()
                 }
             }
-        })
+        }
     }
 }

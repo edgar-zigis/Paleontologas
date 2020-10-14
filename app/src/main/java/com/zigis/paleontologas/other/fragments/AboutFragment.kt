@@ -2,7 +2,6 @@ package com.zigis.paleontologas.other.fragments
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.other.viewmodels.AboutViewModel
 import com.zigis.paleontologas.other.views.AboutView
@@ -20,8 +19,8 @@ class AboutFragment : BaseViewModelFragment<AboutViewModel, AboutView>() {
     }
 
     override fun observeChanges() {
-        viewModel.applicationVersion.observe(viewLifecycleOwner, Observer {
+        viewModel.applicationVersion.observe(viewLifecycleOwner) {
             contentView.setApplicationVersion(it)
-        })
+        }
     }
 }

@@ -12,7 +12,7 @@ fun Context.getDrawable(id: String): Drawable? {
         "drawable",
         applicationContext?.packageName
     )
-    return if (resId != 0) getDrawable(resId) else null
+    return if (resId != 0) ContextCompat.getDrawable(this, resId) else null
 }
 
 fun Context.getString(id: String): String {

@@ -2,7 +2,6 @@ package com.zigis.paleontologas.quiz.fragments
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.quiz.viewmodels.QuizProgressViewModel
 import com.zigis.paleontologas.quiz.views.QuizProgressView
@@ -26,9 +25,9 @@ class QuizProgressFragment : BaseViewModelFragment<QuizProgressViewModel, QuizPr
     }
 
     override fun observeChanges() {
-        viewModel.quizProgress.observe(viewLifecycleOwner, Observer {
+        viewModel.quizProgress.observe(viewLifecycleOwner) {
             contentView.setProgress(it)
-        })
+        }
     }
 
     //  QuizProgressViewDelegate

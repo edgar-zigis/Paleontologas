@@ -2,7 +2,6 @@ package com.zigis.paleontologas.quiz.fragments
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.quiz.data.entities.Question
 import com.zigis.paleontologas.quiz.viewmodels.QuizGameViewModel
@@ -24,14 +23,14 @@ class QuizGameFragment : BaseViewModelFragment<QuizGameViewModel, QuizGameView>(
     }
 
     override fun observeChanges() {
-        viewModel.currentQuestion.observe(viewLifecycleOwner, Observer {
+        viewModel.currentQuestion.observe(viewLifecycleOwner) {
             contentView.setCurrentQuestion(it)
-        })
-        viewModel.endResult.observe(viewLifecycleOwner, Observer { result ->
+        }
+        viewModel.endResult.observe(viewLifecycleOwner) { result ->
             globalRouter.pushFragment(
                 QuizMarkFragment().also { it.mark = result.correctAnswers }
             )
-        })
+        }
     }
 
     //  QuizGameViewDelegate

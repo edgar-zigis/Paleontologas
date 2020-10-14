@@ -2,7 +2,6 @@ package com.zigis.paleontologas.main.fragments
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.lifecycle.Observer
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.periods.data.entities.Period
 import com.zigis.paleontologas.main.viewmodels.MainMenuViewModel
@@ -28,9 +27,9 @@ class MainMenuFragment : BaseViewModelFragment<MainMenuViewModel, MainMenuView>(
     }
 
     override fun observeChanges() {
-        viewModel.periods.observe(viewLifecycleOwner, Observer {
+        viewModel.periods.observe(viewLifecycleOwner) {
             contentView.setPeriods(items = it)
-        })
+        }
     }
 
     //  MainMenuViewDelegate
