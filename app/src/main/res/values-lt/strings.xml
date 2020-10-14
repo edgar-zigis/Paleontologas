@@ -17,6 +17,7 @@
     <string name="language_en">English</string>
     <string name="language_es">Español</string>
     <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
 
     <string name="wall_of_fame">Šlovės lenta</string>
     <string name="wall_of_fame_description">Norite prisidėti prie programėlės ir patekti ant Šlovės lentos? Turite mokslinį išsilavinimą ir mokate kalbą, kurios nepalaiko ši programėlė? Jeigu abu atsakymai yra teigiami, parašykite į mano el. paštą ir padarykime šią programėlę dar geresne!</string>
@@ -35,6 +36,7 @@
     <string name="app_contributor_description_4">Lietuviško turinio redaktorė</string>
     <string name="app_contributor_description_5">Ispaniško turinio redaktorius</string>
     <string name="app_contributor_description_6">Vokiško turinio redaktorius</string>
+    <string name="app_contributor_description_7">Itališko turinio redaktorius</string>
 
     <string name="geological_time_scale">Geologinė laiko skalė</string>
     <string name="quiz">Žaidimas</string>

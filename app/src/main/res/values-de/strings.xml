@@ -16,6 +16,7 @@
     <string name="language_en">English</string>
     <string name="language_es">Español</string>
     <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
 
     <string name="wall_of_fame">Ruhmeswand</string>
     <string name="wall_of_fame_description">Möchten Sie zu dieser App beitragen und an der Wall of Fame verewigt werden? Haben Sie einen wissenschaftlichen Hintergrund und kennen eine Sprache, die hier nicht vorhanden ist? Wenn beide Antworten ja sind, schreiben Sie mir eine E-Mail und lassen Sie uns diese App noch größer machen!</string>
@@ -34,6 +35,7 @@
     <string name="app_contributor_description_4">Litauischer Inhaltseditor</string>
     <string name="app_contributor_description_5">Spanischer Inhaltseditor</string>
     <string name="app_contributor_description_6">Deutscher Inhaltseditor</string>
+    <string name="app_contributor_description_7">Italienischer Inhaltseditor</string>
 
     <string name="geological_time_scale">Geologische Zeitskala</string>
     <string name="quiz">Quiz</string>
