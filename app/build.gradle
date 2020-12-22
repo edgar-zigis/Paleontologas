@@ -14,7 +14,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 25
-        versionName "2.2.0"
+        versionName "2.3.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -30,9 +30,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
-def roomVersion = "2.2.6"
-def koinVersion = '2.0.1'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -56,14 +53,14 @@ dependencies {
 
     //  Database
 
-    implementation "androidx.room:room-runtime:$roomVersion"
-    implementation "androidx.room:room-ktx:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
+    implementation "androidx.room:room-runtime:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
 
     //  DI
 
-    implementation "org.koin:koin-core:$koinVersion"
-    implementation "org.koin:koin-android-viewmodel:$koinVersion"
+    implementation "org.koin:koin-core:$koin_version"
+    implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     //  UI
 
