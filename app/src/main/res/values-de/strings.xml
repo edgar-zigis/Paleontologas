@@ -29,7 +29,8 @@
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
     <string name="app_contributor_6">Christian Klinnert</string>
     <string name="app_contributor_7">Juan Carlos Oliva</string>
-    <string name="app_contributor_8">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">App und Inhaltsautor</string>
     <string name="app_contributor_description_2">Inspiration</string>
@@ -38,6 +39,7 @@
     <string name="app_contributor_description_5">Spanischer Inhaltseditor</string>
     <string name="app_contributor_description_6">Deutscher Inhaltseditor</string>
     <string name="app_contributor_description_7">Italienischer Inhaltseditor</string>
+    <string name="app_contributor_description_8">Französischer Inhaltseditor</string>
 
     <string name="geological_time_scale">Geologische Zeitskala</string>
     <string name="quiz">Quiz</string>

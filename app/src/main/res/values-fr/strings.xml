@@ -30,15 +30,17 @@
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
     <string name="app_contributor_6">Christian Klinnert</string>
     <string name="app_contributor_7">Juan Carlos Oliva</string>
-    <string name="app_contributor_8">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Creative Commons Zero (CC0)</string>
 
-    <string name="app_contributor_description_1">Application &amp; Rédacteur</string>
+    <string name="app_contributor_description_1">Auteur de l\'application et du contenu</string>
     <string name="app_contributor_description_2">Inspiration</string>
     <string name="app_contributor_description_3">Traducteur anglais</string>
     <string name="app_contributor_description_4">Traducteur lituanien</string>
     <string name="app_contributor_description_5">Traducteur espagnol</string>
     <string name="app_contributor_description_6">Traducteur allemand</string>
     <string name="app_contributor_description_7">Traducteur italien</string>
+    <string name="app_contributor_description_8">Traducteur français</string>
 
     <string name="geological_time_scale">Echelle des temps géologiques</string>
     <string name="quiz">Quiz</string>

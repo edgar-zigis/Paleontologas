@@ -30,7 +30,8 @@
     <string name="app_contributor_5">Gerardo Lo Valvo</string>
     <string name="app_contributor_6">Christian Klinnert</string>
     <string name="app_contributor_7">Juan Carlos Oliva</string>
-    <string name="app_contributor_8">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Programėlės ir turinio autorius</string>
     <string name="app_contributor_description_2">Įkvėpimas</string>
@@ -39,6 +40,7 @@
     <string name="app_contributor_description_5">Ispaniško turinio redaktorius</string>
     <string name="app_contributor_description_6">Vokiško turinio redaktorius</string>
     <string name="app_contributor_description_7">Itališko turinio redaktorius</string>
+    <string name="app_contributor_description_8">Prancūziško turinio redaktorius</string>
 
     <string name="geological_time_scale">Geologinė laiko skalė</string>
     <string name="quiz">Žaidimas</string>
