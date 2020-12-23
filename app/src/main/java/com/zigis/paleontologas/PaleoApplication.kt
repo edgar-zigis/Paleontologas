@@ -9,7 +9,7 @@ import org.koin.core.context.startKoin
 class PaleoApplication : Application() {
 
     companion object {
-        const val disableCrashLytics = true
+        const val disableCrashLytics = false
     }
 
     override fun onCreate() {
