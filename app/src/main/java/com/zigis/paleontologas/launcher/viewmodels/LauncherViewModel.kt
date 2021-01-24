@@ -2,7 +2,6 @@ package com.zigis.paleontologas.launcher.viewmodels
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
 import com.zigis.paleontologas.application.entities.TaskStatus
 import com.zigis.paleontologas.launcher.managers.DataMigrationManager
 import kotlinx.coroutines.*
@@ -13,17 +12,15 @@ class LauncherViewModel constructor(
 
     val synchronizationStatus = MutableLiveData<TaskStatus>()
 
-    private val synchronizeDataExceptionHandler = CoroutineExceptionHandler { _, error ->
-        viewModelScope.launch {
+    fun synchronizeData() = GlobalScope.launch(Dispatchers.IO) {
+        try {
+            dataMigrationManager.migrate()
+            withContext(Dispatchers.Main) {
+                delay(1800)
+                synchronizationStatus.value = TaskStatus.success()
+            }
+        } catch (error: Throwable) {
             synchronizationStatus.value = TaskStatus.failure(error.localizedMessage)
-        }
-    }
-
-    fun synchronizeData() = GlobalScope.launch(Dispatchers.IO + synchronizeDataExceptionHandler) {
-        dataMigrationManager.migrate()
-        withContext(Dispatchers.Main) {
-            delay(1800)
-            synchronizationStatus.value = TaskStatus.success()
         }
     }
 }
