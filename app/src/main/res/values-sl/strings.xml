@@ -22,7 +22,7 @@
     <string name="language_sl">Slovenščina</string>
 
     <string name="wall_of_fame">Zid slavnih</string>
-    <string name="wall_of_fame_description">Ali želite prispevati k tej aplikaciji in biti ovekovečeni na zidu slavnih? Ali imate znanstveno znanje in poznate jezik, ki tukaj ni prisoten? Če sta oba odgovora pritrdilna, mi pošljite e-poštno sporočilo in s tem naredimo to aplikacijo še boljšo!</string>
+    <string name="wall_of_fame_description">Ali želite prispevati k tej aplikaciji in biti ovekovečeni na Zidu slavnih? Ali imate znanstveno znanje in poznate jezik, ki tukaj ni prisoten? Če sta oba odgovora pritrdilna, mi pošljite e-poštno sporočilo in s tem naredimo to aplikacijo še boljšo!</string>
 
     <string name="app_contributor_1">Edgar Žigis</string>
     <string name="app_contributor_2">Andrej Spiridonov</string>
@@ -69,7 +69,7 @@
 
     <string name="correct_answered">Pravilni odgovori</string>
 
-    <string name="result_10">Vaše znanje je neverjetno! Vsekakor bi morali razmisliti o paleontološki karieri?</string>
+    <string name="result_10">Vaše znanje je neverjetno! Ste kdaj razmišljali o paleontološki karieri?</string>
     <string name="result_9">Odličen rezultat, blizu popolnosti!</string>
     <string name="result_8"> Res dober rezultat! Zaviti znak neskončnosti kaže, da se znanje vedno lahko izboljša! </string>
     <string name="result_7">Srečna številka! To je zagotovo dober znak!</string>
