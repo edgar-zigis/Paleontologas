@@ -21,12 +21,8 @@ class LauncherFragment : BaseViewModelFragment<LauncherViewModel, LauncherView>(
     override fun observeChanges() {
         viewModel.synchronizationStatus.observe(viewLifecycleOwner) { taskStatus ->
             when (taskStatus) {
-                is Success -> {
-                    startActivity(Intent(activity, MainActivity::class.java))
-                }
-                is Failure -> {
-                    Toast.makeText(activity, taskStatus.message, Toast.LENGTH_LONG).show()
-                }
+                is Success -> startActivity(Intent(activity, MainActivity::class.java))
+                is Failure -> Toast.makeText(activity, taskStatus.message, Toast.LENGTH_LONG).show()
             }
         }
     }

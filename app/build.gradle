@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.google.firebase.crashlytics' //  uncomment this in order to use Crashlytics
+apply plugin: 'com.google.firebase.crashlytics' //  comment this in order to disable Crashlytics
 
 android {
     compileSdkVersion 30
@@ -13,8 +13,8 @@ android {
         applicationId "com.zigis.paleontologas"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 26
-        versionName "2.3.0"
+        versionCode 27
+        versionName "2.4.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -45,10 +45,10 @@ dependencies {
     //  Firebase
 
     implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
-    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.1'
     //  Asynchronous tasks
 
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
 
     //  Database
@@ -84,4 +84,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
 
-apply plugin: 'com.google.gms.google-services' // uncomment this in order to use Crashlytics
+apply plugin: 'com.google.gms.google-services' // comment this in order to disable Crashlytics

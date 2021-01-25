@@ -55,6 +55,10 @@ class AboutView(context: Context) : BaseView(context, R.layout.view_about) {
         frenchContributor.photo.setImageResource(R.drawable.photo_anthony_favier)
         frenchContributor.name.text = context.getString(R.string.app_contributor_8)
         frenchContributor.contribution.text = context.getString(R.string.app_contributor_description_8)
+
+        slovenianContributor.photo.setImageResource(R.drawable.photo_damjan_dovnik)
+        slovenianContributor.name.text = context.getString(R.string.app_contributor_9)
+        slovenianContributor.contribution.text = context.getString(R.string.app_contributor_description_9)
     }
 
     private fun stylizeDescription() {
@@ -62,7 +66,7 @@ class AboutView(context: Context) : BaseView(context, R.layout.view_about) {
         val spannableString = SpannableString(descriptionText)
 
         listOf(
-            context.getString(R.string.app_contributor_9)
+            context.getString(R.string.app_contributor_10)
         ).forEach {
             spannableString.setSpan(
                 StyleSpan(Typeface.BOLD),

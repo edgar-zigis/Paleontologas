@@ -19,7 +19,9 @@ class PaleoApplication : Application() {
     }
 
     private fun startActivityMonitor() {
-        if (disableCrashLytics) return
+        if (disableCrashLytics) {
+            return
+        }
         FirebaseCrashlytics
             .getInstance()
             .setCrashlyticsCollectionEnabled(
