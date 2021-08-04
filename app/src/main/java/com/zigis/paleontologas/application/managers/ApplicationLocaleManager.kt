@@ -7,9 +7,7 @@ class ApplicationLocaleManager constructor(
     private val applicationPreferences: ApplicationPreferences
 ) {
     fun getAvailableLocales(): List<Locale> {
-        return availableLocales.map {
-            Locale(it)
-        }
+        return availableLocales
     }
 
     fun getCurrentLocale(): Locale? {
@@ -29,13 +27,22 @@ class ApplicationLocaleManager constructor(
             if (phoneLocale.language in supportedLocales) {
                 setCurrentLocale(phoneLocale)
             } else {
-                setCurrentLocale(Locale(defaultLocale))
+                setCurrentLocale(defaultLocale)
             }
         }
     }
 
     companion object {
-        private const val defaultLocale = "en"
-        private val availableLocales = listOf("de", defaultLocale, "es", "fr", "it", "lt", "sl")
+        private val defaultLocale = Locale("en")
+        private val availableLocales = listOf(
+            Locale("de"),
+            defaultLocale,
+            Locale("es"),
+            Locale("fr"),
+            Locale("it"),
+            Locale("lt"),
+            Locale("pt", "br"),
+            Locale("sl")
+        )
     }
 }

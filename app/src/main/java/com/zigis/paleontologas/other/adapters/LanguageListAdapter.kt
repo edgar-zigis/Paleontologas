@@ -20,10 +20,12 @@ class LanguageListAdapter(
     }
 
     override fun onBindViewHolder(view: View, item: Locale) = with(view) {
-        flagIcon.setImageDrawable(
-            context.getDrawable("ic_flag_${item.language}")
-        )
-        language.text = context.getString("language_${item.language}")
+        val identifier = if (!item.country.isNullOrEmpty()) {
+            item.country.lowercase()
+        } else item.language
+
+        flagIcon.setImageDrawable(context.getDrawable("ic_flag_$identifier"))
+        language.text = context.getString("language_$identifier")
 
         background = if (currentLocale == item) {
             ColorDrawable(context.getColorIntWithAlpha(R.color.colorPrimaryDark, 0.08f))

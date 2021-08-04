@@ -19,6 +19,7 @@
     <string name="language_it">Italiana</string>
     <string name="language_fr">Français</string>
     <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
 
     <string name="wall_of_fame">Muro de la Fama</string>
     <string name="wall_of_fame_description">¿Deseas contribuir a esta aplicación y ser inmortalizado en el Muro de la Fama? ¿Tiene antecedentes científicos y conoce algún idioma que no esté presente aquí? Si ambas respuestas son afirmativas, contáctame con un correo electrónico y ¡hagamos que esta aplicación sea aún mejor!</string>
@@ -32,17 +33,19 @@
     <string name="app_contributor_7">Juan Carlos Oliva</string>
     <string name="app_contributor_8">Anthony Favier</string>
     <string name="app_contributor_9">Damjan Dovnik</string>
-    <string name="app_contributor_10">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Autor de aplicación y contenido</string>
     <string name="app_contributor_description_2">Inspiración</string>
     <string name="app_contributor_description_3">Editor del contenido en inglés</string>
-    <string name="app_contributor_description_4">Editor del contenido en lituano</string>
+    <string name="app_contributor_description_4">Editora del contenido en lituana</string>
     <string name="app_contributor_description_5">Editor del contenido en español</string>
     <string name="app_contributor_description_6">Editor del contenido alemán</string>
     <string name="app_contributor_description_7">Editor del contenido italiana</string>
     <string name="app_contributor_description_8">Editor del contenido francés</string>
     <string name="app_contributor_description_9">Editor del contenido eslovena</string>
+    <string name="app_contributor_description_10">Editora del contenido brasileña</string>
     
     <string name="geological_time_scale">Escala temporal geológica </string>
     <string name="quiz">¿Cuánto sabe? </string>
