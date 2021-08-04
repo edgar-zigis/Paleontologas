@@ -33,6 +33,7 @@ class MainActivity : BaseActivity() {
         startListeningForRouteRequests()
     }
 
+    @Suppress("Deprecation")
     private fun startListeningForRouteRequests() = launch {
         globalRouter.mainRouterChannel.asFlow().flowOn(Dispatchers.Main).collect {
             pushFragment(it, R.id.mainRouterContainer)
