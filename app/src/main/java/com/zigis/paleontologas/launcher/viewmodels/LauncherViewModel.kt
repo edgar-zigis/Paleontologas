@@ -6,6 +6,7 @@ import com.zigis.paleontologas.application.entities.TaskStatus
 import com.zigis.paleontologas.launcher.managers.DataMigrationManager
 import kotlinx.coroutines.*
 
+@OptIn(DelicateCoroutinesApi::class)
 class LauncherViewModel constructor(
     private val dataMigrationManager: DataMigrationManager
 ) : ViewModel() {

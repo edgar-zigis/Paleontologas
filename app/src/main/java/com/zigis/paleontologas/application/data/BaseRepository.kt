@@ -41,6 +41,6 @@ abstract class BaseRepository<T> constructor(
     private fun databaseName(): String {
         val parameterizedType = javaClass.genericSuperclass as ParameterizedType
         val classType = parameterizedType.actualTypeArguments[0] as Class<T>
-        return classType.simpleName.toLowerCase(Locale.getDefault())
+        return classType.simpleName.lowercase()
     }
 }

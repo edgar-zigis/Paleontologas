@@ -58,6 +58,7 @@ abstract class ParallaxBase<T : View> constructor(
     protected abstract fun smoothScrollToTop()
     protected abstract fun isReadyForPullStart(): Boolean
 
+    @Suppress("Deprecation")
     private fun init(context: Context, attributes: AttributeSet?) {
         gravity = Gravity.CENTER
 
