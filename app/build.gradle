@@ -13,8 +13,8 @@ android {
         applicationId "com.zigis.paleontologas"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 27
-        versionName "2.4.0"
+        versionCode 28
+        versionName "2.5.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

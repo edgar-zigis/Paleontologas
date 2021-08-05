@@ -20,6 +20,7 @@
     <string name="language_it">Italiana</string>
     <string name="language_fr">Français</string>
     <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
 
     <string name="wall_of_fame">Zid slavnih</string>
     <string name="wall_of_fame_description">Ali želite prispevati k tej aplikaciji in biti ovekovečeni na Zidu slavnih? Ali imate znanstveno znanje in poznate jezik, ki tukaj ni prisoten? Če sta oba odgovora pritrdilna, mi pošljite e-poštno sporočilo in s tem naredimo to aplikacijo še boljšo!</string>
@@ -33,17 +34,19 @@
     <string name="app_contributor_7">Juan Carlos Oliva</string>
     <string name="app_contributor_8">Anthony Favier</string>
     <string name="app_contributor_9">Damjan Dovnik</string>
-    <string name="app_contributor_10">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
 
-    <string name="app_contributor_description_1">avtor aplikacije in vsebine</string>
-    <string name="app_contributor_description_2">inspiracija</string>
-    <string name="app_contributor_description_3">urednik angleške vsebine</string>
-    <string name="app_contributor_description_4">urednik litovske vsebine</string>
-    <string name="app_contributor_description_5">urednik španske vsebine</string>
-    <string name="app_contributor_description_6">urednik nemške vsebine</string>
-    <string name="app_contributor_description_7">urednik italijanske vsebine</string>
-    <string name="app_contributor_description_8">urednik francoske vsebine</string>
-    <string name="app_contributor_description_9">urednik slovenske vsebine</string>
+    <string name="app_contributor_description_1">Avtor aplikacije in vsebine</string>
+    <string name="app_contributor_description_2">Inspiracija</string>
+    <string name="app_contributor_description_3">Urednik angleške vsebine</string>
+    <string name="app_contributor_description_4">Urednik litovske vsebine</string>
+    <string name="app_contributor_description_5">Urednik španske vsebine</string>
+    <string name="app_contributor_description_6">Urednik nemške vsebine</string>
+    <string name="app_contributor_description_7">Urednik italijanske vsebine</string>
+    <string name="app_contributor_description_8">Urednik francoske vsebine</string>
+    <string name="app_contributor_description_9">Urednik slovenske vsebine</string>
+    <string name="app_contributor_description_10">Urednik brazilske vsebine</string>
 
     <string name="geological_time_scale">Geološka časovna lestvica</string>
     <string name="quiz">Kviz</string>

@@ -63,17 +63,19 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/separator2" />
+            app:layout_constraintTop_toBottomOf="@id/separator2"
+            app:layout_constraintWidth_percent="0.5" />
 
         <include
             android:id="@+id/inspirationContributor"
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/applicationAuthor"
+            app:layout_constraintTop_toBottomOf="@id/separator2"
             app:layout_constraintWidth_percent="0.5" />
 
         <include
@@ -81,8 +83,7 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/inspirationContributor"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
             app:layout_constraintWidth_percent="0.5" />
 
@@ -91,8 +92,8 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/inspirationContributor"
+            app:layout_constraintStart_toEndOf="@id/englishContributor"
+            app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
             app:layout_constraintWidth_percent="0.5" />
 
         <include
@@ -100,9 +101,8 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/lithuanianContributor"
-            app:layout_constraintTop_toBottomOf="@id/inspirationContributor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/englishContributor"
             app:layout_constraintWidth_percent="0.5" />
 
         <include
@@ -110,7 +110,7 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@id/spanishContributor"
             app:layout_constraintTop_toBottomOf="@id/lithuanianContributor"
             app:layout_constraintWidth_percent="0.5" />
 
@@ -119,9 +119,8 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/germanContributor"
-            app:layout_constraintTop_toBottomOf="@id/lithuanianContributor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spanishContributor"
             app:layout_constraintWidth_percent="0.5" />
 
         <include
@@ -129,8 +128,8 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/germanContributor"
+            app:layout_constraintStart_toEndOf="@id/italianContributor"
+            app:layout_constraintTop_toBottomOf="@id/spanishContributor"
             app:layout_constraintWidth_percent="0.5" />
 
         <include
@@ -138,8 +137,16 @@
             layout="@layout/view_about_contributor"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/frenchContributor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/italianContributor"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <include
+            android:id="@+id/brazilianContributor"
+            layout="@layout/view_about_contributor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/slovenianContributor"
             app:layout_constraintTop_toBottomOf="@id/italianContributor"
             app:layout_constraintWidth_percent="0.5" />
 
@@ -151,7 +158,7 @@
             android:background="@color/colorPrimaryMid"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/frenchContributor" />
+            app:layout_constraintTop_toBottomOf="@id/slovenianContributor" />
 
         <TextView
             android:id="@+id/description2"
