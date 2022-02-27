@@ -73,7 +73,7 @@ abstract class BaseViewModelFragment<T : ViewModel, V : View> : Fragment(), Navi
     private fun addLogs() {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
-        FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
+        //FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }
 
     @Suppress("UNCHECKED_CAST")

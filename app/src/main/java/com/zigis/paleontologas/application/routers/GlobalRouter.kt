@@ -10,5 +10,5 @@ class GlobalRouter {
     val mainRouterChannel = BroadcastChannel<Fragment>(capacity = 1)
 
     @Suppress("Deprecation")
-    fun pushFragment(fragment: Fragment) = mainRouterChannel.offer(fragment)
+    fun pushFragment(fragment: Fragment) = mainRouterChannel.trySend(fragment)
 }
