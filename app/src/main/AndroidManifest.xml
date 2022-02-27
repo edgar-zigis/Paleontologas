@@ -16,6 +16,7 @@
 
         <activity
             android:name=".launcher.activities.LauncherActivity"
+            android:exported="true"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/FullScreenTheme">
@@ -31,6 +32,7 @@
 
         <activity
             android:name=".main.activities.MainActivity"
+            android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/FullScreenTheme" />
 

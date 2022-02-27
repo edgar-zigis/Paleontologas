@@ -66,6 +66,6 @@ abstract class BaseFragment<V : View> : Fragment(), Navigable {
     private fun addLogs() {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
-        FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
+        //FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }
 }
