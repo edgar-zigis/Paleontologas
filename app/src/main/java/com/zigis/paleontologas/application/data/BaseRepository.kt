@@ -2,7 +2,6 @@ package com.zigis.paleontologas.application.data
 
 import androidx.sqlite.db.SimpleSQLiteQuery
 import java.lang.reflect.ParameterizedType
-import java.util.*
 
 abstract class BaseRepository<T> constructor(
     private val dao: BaseDao<T>
