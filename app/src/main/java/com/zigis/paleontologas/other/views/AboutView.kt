@@ -14,7 +14,6 @@ class AboutView(context: Context) : BaseView<ViewAboutBinding>(
     context,
     ViewAboutBinding.inflate(LayoutInflater.from(context))
 ) {
-
     override val titleTextResId: Int = R.string.about_app
 
     override fun initialize() {
@@ -22,53 +21,53 @@ class AboutView(context: Context) : BaseView<ViewAboutBinding>(
         setContributors()
     }
 
-    fun setApplicationVersion(version: String) {
-        viewBinding.applicationVersion.text = context.getString(R.string.version_placeholder, version)
+    fun setApplicationVersion(version: String) = with(viewBinding) {
+        applicationVersion.text = context.getString(R.string.version_placeholder, version)
     }
 
-    private fun setContributors() {
-        viewBinding.applicationAuthor.photo.setImageResource(R.drawable.photo_edgar_zigis)
-        viewBinding.applicationAuthor.name.text = context.getString(R.string.app_contributor_1)
-        viewBinding.applicationAuthor.contribution.text = context.getString(R.string.app_contributor_description_1)
+    private fun setContributors() = with(viewBinding) {
+        applicationAuthor.photo.setImageResource(R.drawable.photo_edgar_zigis)
+        applicationAuthor.name.text = context.getString(R.string.app_contributor_1)
+        applicationAuthor.contribution.text = context.getString(R.string.app_contributor_description_1)
 
-        viewBinding.inspirationContributor.photo.setImageResource(R.drawable.photo_andrej_spiridonov)
-        viewBinding.inspirationContributor.name.text = context.getString(R.string.app_contributor_2)
-        viewBinding.inspirationContributor.contribution.text = context.getString(R.string.app_contributor_description_2)
+        inspirationContributor.photo.setImageResource(R.drawable.photo_andrej_spiridonov)
+        inspirationContributor.name.text = context.getString(R.string.app_contributor_2)
+        inspirationContributor.contribution.text = context.getString(R.string.app_contributor_description_2)
 
-        viewBinding.englishContributor.photo.setImageResource(R.drawable.photo_matthew_gerke)
-        viewBinding.englishContributor.name.text = context.getString(R.string.app_contributor_3)
-        viewBinding.englishContributor.contribution.text = context.getString(R.string.app_contributor_description_3)
+        englishContributor.photo.setImageResource(R.drawable.photo_matthew_gerke)
+        englishContributor.name.text = context.getString(R.string.app_contributor_3)
+        englishContributor.contribution.text = context.getString(R.string.app_contributor_description_3)
 
-        viewBinding.lithuanianContributor.photo.setImageResource(R.drawable.photo_aukse_saule)
-        viewBinding.lithuanianContributor.name.text = context.getString(R.string.app_contributor_4)
-        viewBinding.lithuanianContributor.contribution.text = context.getString(R.string.app_contributor_description_4)
+        lithuanianContributor.photo.setImageResource(R.drawable.photo_aukse_saule)
+        lithuanianContributor.name.text = context.getString(R.string.app_contributor_4)
+        lithuanianContributor.contribution.text = context.getString(R.string.app_contributor_description_4)
 
-        viewBinding.spanishContributor.photo.setImageResource(R.drawable.photo_gerardo_lo_valvo)
-        viewBinding.spanishContributor.name.text = context.getString(R.string.app_contributor_5)
-        viewBinding.spanishContributor.contribution.text = context.getString(R.string.app_contributor_description_5)
+        spanishContributor.photo.setImageResource(R.drawable.photo_gerardo_lo_valvo)
+        spanishContributor.name.text = context.getString(R.string.app_contributor_5)
+        spanishContributor.contribution.text = context.getString(R.string.app_contributor_description_5)
 
-        viewBinding.germanContributor.photo.setImageResource(R.drawable.photo_christian_klinnert)
-        viewBinding.germanContributor.name.text = context.getString(R.string.app_contributor_6)
-        viewBinding.germanContributor.contribution.text = context.getString(R.string.app_contributor_description_6)
+        germanContributor.photo.setImageResource(R.drawable.photo_christian_klinnert)
+        germanContributor.name.text = context.getString(R.string.app_contributor_6)
+        germanContributor.contribution.text = context.getString(R.string.app_contributor_description_6)
 
-        viewBinding.italianContributor.photo.setImageResource(R.drawable.photo_juan_carlos_oliva)
-        viewBinding.italianContributor.name.text = context.getString(R.string.app_contributor_7)
-        viewBinding.italianContributor.contribution.text = context.getString(R.string.app_contributor_description_7)
+        italianContributor.photo.setImageResource(R.drawable.photo_juan_carlos_oliva)
+        italianContributor.name.text = context.getString(R.string.app_contributor_7)
+        italianContributor.contribution.text = context.getString(R.string.app_contributor_description_7)
 
-        viewBinding.frenchContributor.photo.setImageResource(R.drawable.photo_anthony_favier)
-        viewBinding.frenchContributor.name.text = context.getString(R.string.app_contributor_8)
-        viewBinding.frenchContributor.contribution.text = context.getString(R.string.app_contributor_description_8)
+        frenchContributor.photo.setImageResource(R.drawable.photo_anthony_favier)
+        frenchContributor.name.text = context.getString(R.string.app_contributor_8)
+        frenchContributor.contribution.text = context.getString(R.string.app_contributor_description_8)
 
-        viewBinding.slovenianContributor.photo.setImageResource(R.drawable.photo_damjan_dovnik)
-        viewBinding.slovenianContributor.name.text = context.getString(R.string.app_contributor_9)
-        viewBinding.slovenianContributor.contribution.text = context.getString(R.string.app_contributor_description_9)
+        slovenianContributor.photo.setImageResource(R.drawable.photo_damjan_dovnik)
+        slovenianContributor.name.text = context.getString(R.string.app_contributor_9)
+        slovenianContributor.contribution.text = context.getString(R.string.app_contributor_description_9)
 
-        viewBinding.brazilianContributor.photo.setImageResource(R.drawable.photo_mariana_leite)
-        viewBinding.brazilianContributor.name.text = context.getString(R.string.app_contributor_10)
-        viewBinding.brazilianContributor.contribution.text = context.getString(R.string.app_contributor_description_10)
+        brazilianContributor.photo.setImageResource(R.drawable.photo_mariana_leite)
+        brazilianContributor.name.text = context.getString(R.string.app_contributor_10)
+        brazilianContributor.contribution.text = context.getString(R.string.app_contributor_description_10)
     }
 
-    private fun stylizeDescription() {
+    private fun stylizeDescription() = with(viewBinding) {
         val descriptionText = context.getString(R.string.about_app_text_2)
         val spannableString = SpannableString(descriptionText)
 
@@ -91,6 +90,6 @@ class AboutView(context: Context) : BaseView<ViewAboutBinding>(
             Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
         )
 
-        viewBinding.description3.text = spannableString
+        description3.text = spannableString
     }
 }

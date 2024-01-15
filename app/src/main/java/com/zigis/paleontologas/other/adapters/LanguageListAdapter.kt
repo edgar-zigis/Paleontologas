@@ -27,24 +27,21 @@ class LanguageListAdapter(
         binding: ViewLanguageListItemBinding,
         item: Locale,
         position: Int
-    ) {
-        with(binding) {
-            val identifier = if (!item.country.isNullOrEmpty()) {
-                item.country.lowercase()
-            } else item.language
-
-            flagIcon.setImageDrawable(context.getDrawable("ic_flag_$identifier"))
-            language.text = context.getString("language_$identifier")
-
-            root.background = if (currentLocale == item) {
+    ) = with(binding) {
+        root.apply {
+            background = if (currentLocale == item) {
                 ColorDrawable(context.getColorIntWithAlpha(R.color.colorPrimaryDark, 0.08f))
-            } else {
-                null
-            }
-
-            root.setDebounceClickListener {
+            } else null
+            setDebounceClickListener {
                 onClick(item)
             }
         }
+
+        val identifier = if (!item.country.isNullOrEmpty()) {
+            item.country.lowercase()
+        } else item.language
+
+        flagIcon.setImageDrawable(context.getDrawable("ic_flag_$identifier"))
+        language.text = context.getString("language_$identifier")
     }
 }
