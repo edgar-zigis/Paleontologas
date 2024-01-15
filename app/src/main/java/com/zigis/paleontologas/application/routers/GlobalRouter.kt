@@ -1,14 +1,12 @@
 package com.zigis.paleontologas.application.routers
 
 import androidx.fragment.app.Fragment
-import kotlinx.coroutines.ObsoleteCoroutinesApi
-import kotlinx.coroutines.channels.BroadcastChannel
+import kotlinx.coroutines.flow.MutableSharedFlow
 
-@OptIn(ObsoleteCoroutinesApi::class)
 class GlobalRouter {
 
-    val mainRouterChannel = BroadcastChannel<Fragment>(capacity = 1)
+    val mainRouterChannel = MutableSharedFlow<Fragment>(extraBufferCapacity = 10)
 
     @Suppress("Deprecation")
-    fun pushFragment(fragment: Fragment) = mainRouterChannel.trySend(fragment)
+    fun pushFragment(fragment: Fragment) = mainRouterChannel.tryEmit(fragment)
 }
