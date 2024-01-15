@@ -5,10 +5,8 @@ import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.android.BaseActivity
 import com.zigis.paleontologas.application.routers.GlobalRouter
 import com.zigis.paleontologas.main.fragments.MainMenuFragment
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.asFlow
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 
@@ -33,10 +31,9 @@ class MainActivity : BaseActivity() {
         startListeningForRouteRequests()
     }
 
-    @Suppress("Deprecation")
     private fun startListeningForRouteRequests() = launch {
-        globalRouter.mainRouterChannel.asFlow().flowOn(Dispatchers.Main).collect {
+        globalRouter.mainRouterChannel.onEach {
             pushFragment(it, R.id.mainRouterContainer)
-        }
+        }.launchIn(this)
     }
 }
