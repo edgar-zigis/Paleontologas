@@ -1,40 +1,50 @@
 package com.zigis.paleontologas.other.adapters
 
 import android.graphics.drawable.ColorDrawable
-import android.view.View
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.android.BaseListAdapter
 import com.zigis.paleontologas.application.extensions.*
-import kotlinx.android.synthetic.main.view_language_list_item.view.*
-import java.util.*
+import com.zigis.paleontologas.databinding.ViewLanguageListItemBinding
+import java.util.Locale
 
 class LanguageListAdapter(
-    private val currentLocale: Locale?,
-    override val items: List<Locale>,
+    private val currentLocale: Locale? = null,
+    override var items: List<Locale> = emptyList(),
     private val onClick: (Locale) -> Unit
-) : BaseListAdapter<Locale>(items) {
+) : BaseListAdapter<Locale, ViewLanguageListItemBinding>(items) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(parent.inflate(R.layout.view_language_list_item))
+    override fun onBindingRequested(
+        inflater: LayoutInflater,
+        parent: ViewGroup,
+        viewType: Int
+    ): ViewLanguageListItemBinding {
+        return ViewLanguageListItemBinding.inflate(inflater, parent, false)
     }
 
-    override fun onBindViewHolder(view: View, item: Locale) = with(view) {
-        val identifier = if (!item.country.isNullOrEmpty()) {
-            item.country.lowercase()
-        } else item.language
+    override fun onBindViewHolder(
+        binding: ViewLanguageListItemBinding,
+        item: Locale,
+        position: Int
+    ) {
+        with(binding) {
+            val identifier = if (!item.country.isNullOrEmpty()) {
+                item.country.lowercase()
+            } else item.language
 
-        flagIcon.setImageDrawable(context.getDrawable("ic_flag_$identifier"))
-        language.text = context.getString("language_$identifier")
+            flagIcon.setImageDrawable(context.getDrawable("ic_flag_$identifier"))
+            language.text = context.getString("language_$identifier")
 
-        background = if (currentLocale == item) {
-            ColorDrawable(context.getColorIntWithAlpha(R.color.colorPrimaryDark, 0.08f))
-        } else {
-            null
-        }
+            root.background = if (currentLocale == item) {
+                ColorDrawable(context.getColorIntWithAlpha(R.color.colorPrimaryDark, 0.08f))
+            } else {
+                null
+            }
 
-        setDebounceClickListener {
-            onClick(item)
+            root.setDebounceClickListener {
+                onClick(item)
+            }
         }
     }
 }
