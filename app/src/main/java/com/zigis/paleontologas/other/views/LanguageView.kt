@@ -18,15 +18,21 @@ class LanguageView(context: Context) : BaseView<ViewLanguageBinding>(
     context,
     ViewLanguageBinding.inflate(LayoutInflater.from(context))
 ) {
-
     override val titleTextResId: Int = R.string.language
 
     var delegate: LanguageViewDelegate? = null
 
-    fun setLocaleConfiguration(configuration: LocaleConfiguration) = with(viewBinding) {
+    private val adapter = LanguageListAdapter {
+        delegate?.onLocaleSelected(it)
+    }
+
+    override fun initialize() = with(viewBinding) {
         languageList.layoutManager = LinearLayoutManager(context)
-        languageList.adapter = LanguageListAdapter(configuration.first, configuration.second) {
-            delegate?.onLocaleSelected(it)
-        }
+        languageList.adapter = adapter
+    }
+
+    fun setLocaleConfiguration(configuration: LocaleConfiguration) = with(viewBinding) {
+        adapter.currentLocale = configuration.first
+        adapter.updateItems(configuration.second)
     }
 }
