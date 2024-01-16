@@ -10,7 +10,7 @@ import com.zigis.paleontologas.databinding.ViewLanguageListItemBinding
 import java.util.Locale
 
 class LanguageListAdapter(
-    private val currentLocale: Locale? = null,
+    var currentLocale: Locale? = null,
     override var items: List<Locale> = emptyList(),
     private val onClick: (Locale) -> Unit
 ) : BaseListAdapter<Locale, ViewLanguageListItemBinding>(items) {

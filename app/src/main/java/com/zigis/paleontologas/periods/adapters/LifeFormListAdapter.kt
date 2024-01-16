@@ -1,31 +1,39 @@
 package com.zigis.paleontologas.periods.adapters
 
-import android.view.View
+import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.android.BaseListAdapter
 import com.zigis.paleontologas.application.extensions.getDrawable
 import com.zigis.paleontologas.application.extensions.getString
-import com.zigis.paleontologas.application.extensions.inflate
 import com.zigis.paleontologas.application.extensions.setDebounceClickListener
+import com.zigis.paleontologas.databinding.ViewLifeformsListItemBinding
 import com.zigis.paleontologas.periods.data.entities.LifeForm
-import kotlinx.android.synthetic.main.view_lifeforms_list_item.view.*
 
 class LifeFormListAdapter(
-    override val items: List<LifeForm>,
+    override var items: List<LifeForm> = emptyList(),
     private val onClick: (LifeForm) -> Unit
-) : BaseListAdapter<LifeForm>(items) {
+) : BaseListAdapter<LifeForm, ViewLifeformsListItemBinding>(items) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(parent.inflate(R.layout.view_lifeforms_list_item))
+    override fun onBindingRequested(
+        inflater: LayoutInflater,
+        parent: ViewGroup,
+        viewType: Int
+    ): ViewLifeformsListItemBinding {
+        return ViewLifeformsListItemBinding.inflate(inflater, parent, false)
     }
 
-    override fun onBindViewHolder(view: View, item: LifeForm) = with(view) {
+    override fun onBindViewHolder(
+        binding: ViewLifeformsListItemBinding,
+        item: LifeForm,
+        position: Int
+    ) = with(binding) {
+        root.apply {
+            setDebounceClickListener {
+                onClick(item)
+            }
+        }
+
         image.setImageDrawable(context.getDrawable(item.thumbnail))
         title.text = context.getString(item.title)
-
-        setDebounceClickListener {
-            onClick(item)
-        }
     }
 }
