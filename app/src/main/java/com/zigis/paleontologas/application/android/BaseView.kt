@@ -34,5 +34,5 @@ abstract class BaseView<V: ViewBinding>(context: Context, val viewBinding: V) : 
         initialize()
     }
 
-    protected abstract fun initialize()
+    protected fun initialize() { }
 }
