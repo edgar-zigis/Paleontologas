@@ -1,24 +1,27 @@
 package com.zigis.paleontologas.quiz.views
 
 import android.content.Context
+import android.view.LayoutInflater
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.android.BaseView
 import com.zigis.paleontologas.application.extensions.setDebounceClickListener
+import com.zigis.paleontologas.databinding.ViewQuizMarkBinding
 import com.zigis.paleontologas.quiz.helpers.QuizMarkHelper
 import com.zigis.paleontologas.quiz.managers.QuizGameProcessor
-import kotlinx.android.synthetic.main.toolbar.view.*
-import kotlinx.android.synthetic.main.view_quiz_mark.view.*
 
-class QuizMarkView(context: Context) : BaseView(context, R.layout.view_quiz_mark) {
+class QuizMarkView(context: Context) : BaseView<ViewQuizMarkBinding>(
+    context,
+    ViewQuizMarkBinding.inflate(LayoutInflater.from(context))
+) {
+    override val titleTextResId: Int = R.string.finito
 
-    override fun initialize() {
-        title.text = context.getString(R.string.finito)
+    override fun initialize() = with(viewBinding) {
         continueButton.setDebounceClickListener {
             onBack?.invoke()
         }
     }
 
-    fun setEvaluation(mark: Int) {
+    fun setEvaluation(mark: Int) = with(viewBinding) {
         animationView.setAnimation(QuizMarkHelper.getAnimationResource(mark))
         finalMark.text = context.getString(
             R.string.quiz_mark_placeholder,
