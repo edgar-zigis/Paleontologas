@@ -7,35 +7,33 @@ import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.android.BaseView
 import com.zigis.paleontologas.application.extensions.getDrawable
 import com.zigis.paleontologas.application.extensions.getString
+import com.zigis.paleontologas.databinding.ViewLifeformContentBinding
+import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
+import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
 import com.zigis.paleontologas.periods.data.entities.LifeForm
-import kotlinx.android.synthetic.main.view_lifeform_content.view.*
-import kotlinx.android.synthetic.main.view_lifeform_content.view.title
-import kotlinx.android.synthetic.main.view_parallax_fragment.view.*
-import kotlinx.android.synthetic.main.view_parallax_header.view.*
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class LifeFormView(context: Context) : BaseView(context, R.layout.view_parallax_fragment) {
+class LifeFormView(context: Context) : BaseView<ViewParallaxFragmentBinding>(
+    context,
+    ViewParallaxFragmentBinding.inflate(LayoutInflater.from(context))
+) {
+    override val titleTextResId: Int = R.string.app_name
 
-    private lateinit var zoomView: View
-    private lateinit var contentView: View
+    private val zoomViewBinding = ViewParallaxHeaderBinding.inflate(LayoutInflater.from(context))
+    private val contentViewBinding = ViewLifeformContentBinding.inflate(LayoutInflater.from(context))
 
-    override fun initialize() {
-        val inflater = LayoutInflater.from(context)
-        zoomView = inflater.inflate(R.layout.view_parallax_header, this, false).also {
-            parallaxScroller.zoomView = it
-        }
-        contentView = inflater.inflate(R.layout.view_lifeform_content, this, false).also {
-            parallaxScroller.setScrollContentView(it)
-        }
+    override fun initialize() = with(viewBinding) {
+        parallaxScroller.zoomView = zoomViewBinding.root
+        parallaxScroller.setScrollContentView(contentViewBinding.root)
     }
 
     fun configureWith(lifeForm: LifeForm) {
-        title.text = context.getString(lifeForm.title)
-
-        zoomView.imageView.setImageDrawable(context.getDrawable(lifeForm.artwork))
-        zoomView.photoAuthor.text = lifeForm.artworkAuthor
-
-        with(contentView) {
+        setTitle(context.getString(lifeForm.title))
+        with(zoomViewBinding) {
+            imageView.setImageDrawable(context.getDrawable(lifeForm.artwork))
+            photoAuthor.text = lifeForm.artworkAuthor
+        }
+        with(contentViewBinding) {
             title.text = context.getString(lifeForm.title)
             timeScale.text = context.getString(R.string.mya, lifeForm.timeScale)
             descriptionInfo.text = context.getString(lifeForm.description)

@@ -34,5 +34,9 @@ abstract class BaseView<V: ViewBinding>(context: Context, val viewBinding: V) : 
         initialize()
     }
 
+    protected fun setTitle(title: String) {
+        baseBinding.title.text = title
+    }
+
     protected abstract fun initialize()
 }
