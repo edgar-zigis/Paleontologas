@@ -1,10 +1,13 @@
 package com.zigis.paleontologas.quiz.views
 
 import android.content.Context
+import android.content.Context.VIBRATOR_SERVICE
 import android.content.res.ColorStateList
 import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.os.VibratorManager
+import android.view.LayoutInflater
 import androidx.core.content.ContextCompat
 import com.github.florent37.viewanimator.ViewAnimator
 import com.zigis.paleontologas.R
@@ -13,36 +16,56 @@ import com.zigis.paleontologas.application.extensions.getDrawable
 import com.zigis.paleontologas.application.extensions.getString
 import com.zigis.paleontologas.application.extensions.runDelayed
 import com.zigis.paleontologas.application.extensions.setDebounceClickListener
+import com.zigis.paleontologas.databinding.ViewQuizGameBinding
 import com.zigis.paleontologas.quiz.data.entities.Question
-import kotlinx.android.synthetic.main.toolbar.view.*
-import kotlinx.android.synthetic.main.view_quiz_game.view.*
 import uk.co.senab.photoview.PhotoViewAttacher
 
 interface QuizGameViewDelegate {
     fun answerQuestion(question: Question, answer: Int)
 }
 
-class QuizGameView(context: Context) : BaseView(context, R.layout.view_quiz_game) {
+class QuizGameView(context: Context) : BaseView<ViewQuizGameBinding>(
+    context,
+    ViewQuizGameBinding.inflate(LayoutInflater.from(context))
+) {
+    override val titleTextResId: Int = R.string.quiz
 
     var delegate: QuizGameViewDelegate? = null
 
     private val fadingViews by lazy {
-        arrayOf(thumbnail, questionTitle, variant1, variant2, variant3, variant4)
+        arrayOf(
+            viewBinding.thumbnail,
+            viewBinding.questionTitle,
+            viewBinding.variant1,
+            viewBinding.variant2,
+            viewBinding.variant3,
+            viewBinding.variant4
+        )
     }
 
     private val variantButtons by lazy {
-        arrayOf(variant1, variant2, variant3, variant4)
+        arrayOf(
+            viewBinding.variant1,
+            viewBinding.variant2,
+            viewBinding.variant3,
+            viewBinding.variant4
+        )
     }
 
     private val vibrator by lazy {
-        context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            val vibratorManager =
+                context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
+            vibratorManager.defaultVibrator
+        } else {
+            @Suppress("DEPRECATION")
+            context.getSystemService(VIBRATOR_SERVICE) as Vibrator
+        }
     }
 
-    override fun initialize() {
-        title.text = context.getString(R.string.quiz)
-    }
+    override fun initialize() { }
 
-    fun setCurrentQuestion(question: Question) {
+    fun setCurrentQuestion(question: Question) = with(viewBinding) {
         if (questionTitle.text.isNullOrEmpty()) {
             setQuestionValues(question)
             resetButtonStates()
@@ -63,7 +86,7 @@ class QuizGameView(context: Context) : BaseView(context, R.layout.view_quiz_game
     }
 
     @Suppress("deprecation")
-    private fun setQuestionValues(question: Question) {
+    private fun setQuestionValues(question: Question) = with(viewBinding) {
         thumbnail.setImageDrawable(context.getDrawable(question.artwork))
         PhotoViewAttacher(thumbnail).update()
         questionTitle.text = context.getString(
