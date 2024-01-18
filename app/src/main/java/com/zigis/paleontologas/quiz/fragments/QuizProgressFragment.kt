@@ -13,9 +13,6 @@ class QuizProgressFragment : BaseViewModelFragment<QuizProgressViewModel, QuizPr
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): QuizProgressView {
         return QuizProgressView(inflater.context).also {
             it.delegate = this
-            it.onBack = {
-                activity?.onBackPressed()
-            }
         }
     }
 
@@ -36,5 +33,9 @@ class QuizProgressFragment : BaseViewModelFragment<QuizProgressViewModel, QuizPr
         globalRouter.pushFragment(
             QuizGameFragment()
         )
+    }
+
+    override fun onBackInvoked() {
+        activity?.onBackPressedDispatcher?.onBackPressed()
     }
 }
