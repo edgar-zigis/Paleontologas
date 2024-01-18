@@ -14,9 +14,6 @@ class QuizGameFragment : BaseViewModelFragment<QuizGameViewModel, QuizGameView>(
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): QuizGameView {
         return QuizGameView(inflater.context).also {
             it.delegate = this
-            it.onBack = {
-                activity?.onBackPressed()
-            }
         }.also {
             viewModel.generateQuestions()
         }
@@ -37,5 +34,9 @@ class QuizGameFragment : BaseViewModelFragment<QuizGameViewModel, QuizGameView>(
 
     override fun answerQuestion(question: Question, answer: Int) {
         viewModel.answerQuestion(question, answer)
+    }
+
+    override fun onBackInvoked() {
+        activity?.onBackPressedDispatcher?.onBackPressed()
     }
 }
