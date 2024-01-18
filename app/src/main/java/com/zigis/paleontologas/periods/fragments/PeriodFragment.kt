@@ -16,9 +16,6 @@ class PeriodFragment : BaseViewModelFragment<PeriodViewModel, PeriodView>(), Per
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): PeriodView {
         return PeriodView(inflater.context).also {
             it.delegate = this
-            it.onBack = {
-                activity?.onBackPressed()
-            }
         }
     }
 
@@ -42,5 +39,9 @@ class PeriodFragment : BaseViewModelFragment<PeriodViewModel, PeriodView>(), Per
         globalRouter.pushFragment(
             LifeFormFragment().also { it.lifeFormId = lifeForm.id }
         )
+    }
+
+    override fun onBackInvoked() {
+        activity?.onBackPressedDispatcher?.onBackPressed()
     }
 }

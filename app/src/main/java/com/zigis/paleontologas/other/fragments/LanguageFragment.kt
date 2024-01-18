@@ -38,6 +38,6 @@ class LanguageFragment : BaseViewModelFragment<LanguageViewModel, LanguageView>(
     }
 
     override fun onBackInvoked() {
-        activity?.onBackPressed()
+        activity?.onBackPressedDispatcher?.onBackPressed()
     }
 }

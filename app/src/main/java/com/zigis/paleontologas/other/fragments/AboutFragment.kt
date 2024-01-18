@@ -24,6 +24,6 @@ class AboutFragment : BaseViewModelFragment<AboutViewModel, AboutView>(), AboutV
     }
 
     override fun onBackInvoked() {
-        activity?.onBackPressed()
+        activity?.onBackPressedDispatcher?.onBackPressed()
     }
 }

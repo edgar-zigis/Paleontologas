@@ -4,10 +4,11 @@ import android.content.Context
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.GridLayoutManager
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.application.android.BaseView
+import com.zigis.paleontologas.application.architecture.BaseView
 import com.zigis.paleontologas.application.extensions.dp
 import com.zigis.paleontologas.application.extensions.getDrawable
 import com.zigis.paleontologas.application.extensions.getString
+import com.zigis.paleontologas.application.extensions.setDebounceClickListener
 import com.zigis.paleontologas.application.ui.recyclerview.GridSpacingItemDecoration
 import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
 import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
@@ -19,19 +20,17 @@ import uk.co.senab.photoview.PhotoViewAttacher
 
 interface PeriodViewDelegate {
     fun openLifeForm(lifeForm: LifeForm)
+    fun onBackInvoked()
 }
 
-class PeriodView(context: Context) : BaseView<ViewParallaxFragmentBinding>(
-    context,
-    ViewParallaxFragmentBinding.inflate(LayoutInflater.from(context))
-) {
+class PeriodView(context: Context) : BaseView(context) {
     companion object {
         private const val lifeFormColumnCount = 2
     }
 
-    override val titleTextResId: Int = R.string.app_name
-
     var delegate: PeriodViewDelegate? = null
+
+    override val binding = ViewParallaxFragmentBinding.inflate(layoutInflater)
 
     private val zoomViewBinding = ViewParallaxHeaderBinding.inflate(LayoutInflater.from(context))
     private val contentViewBinding = ViewPeriodContentBinding.inflate(LayoutInflater.from(context))
@@ -40,27 +39,36 @@ class PeriodView(context: Context) : BaseView<ViewParallaxFragmentBinding>(
         delegate?.openLifeForm(it)
     }
 
-    override fun initialize() = with(viewBinding) {
-        parallaxScroller.zoomView = zoomViewBinding.root
-        parallaxScroller.setScrollContentView(contentViewBinding.root)
-        with(contentViewBinding) {
-            lifeFormList.layoutManager = GridLayoutManager(
-                context,
-                lifeFormColumnCount
-            )
-            lifeFormList.addItemDecoration(
-                GridSpacingItemDecoration(
-                    columns = lifeFormColumnCount,
-                    spacing = dp(6),
-                    includeEdge = false
+    init {
+        with(binding) {
+            title.text = getString(R.string.about_app)
+            backButton.setDebounceClickListener {
+                delegate?.onBackInvoked()
+            }
+            parallaxScroller.zoomView = zoomViewBinding.root
+            parallaxScroller.setScrollContentView(contentViewBinding.root)
+            with(contentViewBinding) {
+                lifeFormList.layoutManager = GridLayoutManager(
+                    context,
+                    lifeFormColumnCount
                 )
-            )
-            lifeFormList.adapter = adapter
+                lifeFormList.addItemDecoration(
+                    GridSpacingItemDecoration(
+                        columns = lifeFormColumnCount,
+                        spacing = dp(6),
+                        includeEdge = false
+                    )
+                )
+                lifeFormList.adapter = adapter
+            }
         }
+        addView(binding.root)
     }
 
     fun configureWith(period: Period) {
-        setTitle(context.getString(period.title))
+        with(binding) {
+            title.text = context.getString(period.title)
+        }
         with(zoomViewBinding) {
             imageView.setImageDrawable(context.getDrawable(period.artwork))
             photoAuthor.text = period.artworkAuthor
