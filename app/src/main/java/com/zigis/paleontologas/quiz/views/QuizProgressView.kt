@@ -1,28 +1,31 @@
 package com.zigis.paleontologas.quiz.views
 
 import android.content.Context
+import android.view.LayoutInflater
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.application.android.BaseView
 import com.zigis.paleontologas.application.extensions.setDebounceClickListener
-import kotlinx.android.synthetic.main.toolbar.view.*
-import kotlinx.android.synthetic.main.view_quiz_progress.view.*
+import com.zigis.paleontologas.databinding.ViewQuizProgressBinding
 
 interface QuizProgressViewDelegate {
     fun onStartQuiz()
 }
 
-class QuizProgressView(context: Context) : BaseView(context, R.layout.view_quiz_progress) {
+class QuizProgressView(context: Context) : BaseView<ViewQuizProgressBinding>(
+    context,
+    ViewQuizProgressBinding.inflate(LayoutInflater.from(context))
+) {
+    override val titleTextResId: Int = R.string.quiz
 
     var delegate: QuizProgressViewDelegate? = null
 
-    override fun initialize() {
-        title.text = context.getString(R.string.quiz)
+    override fun initialize() = with(viewBinding) {
         startButton.setDebounceClickListener {
             delegate?.onStartQuiz()
         }
     }
 
-    fun setProgress(progress: Float) {
+    fun setProgress(progress: Float) = with(viewBinding) {
         progressBar.setCurrentValues(progress)
     }
 }
