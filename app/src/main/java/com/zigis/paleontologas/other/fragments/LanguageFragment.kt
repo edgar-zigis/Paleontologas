@@ -16,9 +16,6 @@ class LanguageFragment : BaseViewModelFragment<LanguageViewModel, LanguageView>(
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): LanguageView {
         return LanguageView(inflater.context).also {
             it.delegate = this
-            it.onBack = {
-                activity?.onBackPressed()
-            }
         }.also {
             viewModel.loadLocaleList()
         }
@@ -38,5 +35,9 @@ class LanguageFragment : BaseViewModelFragment<LanguageViewModel, LanguageView>(
 
     override fun onLocaleSelected(locale: Locale) {
         viewModel.changeLocale(locale)
+    }
+
+    override fun onBackInvoked() {
+        activity?.onBackPressed()
     }
 }
