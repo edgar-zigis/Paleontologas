@@ -1,228 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_launcher"
+    android:clickable="true"
+    android:focusable="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/description1"
-            style="@style/PeriodDescriptionStyle"
-            android:layout_width="0dp"
+        <ImageButton
+            android:id="@+id/backButton"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
-            android:text="@string/about_app_text_1"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/image"
+            android:src="@drawable/ic_back_button"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <View
-            android:id="@+id/separator1"
-            android:layout_width="0dp"
-            android:layout_height="6dp"
-            android:layout_marginTop="6dp"
-            android:background="@color/colorPrimaryMid"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/description1" />
-
         <TextView
-            android:id="@+id/creditsLabel"
+            android:id="@+id/title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:fontFamily="@font/gilroy_bold"
-            android:text="@string/wall_of_fame"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="19sp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/gilroy_medium"
+            android:textAlignment="viewStart"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/separator1" />
-
-        <View
-            android:id="@+id/separator2"
-            android:layout_width="0dp"
-            android:layout_height="6dp"
-            android:layout_marginTop="12dp"
-            android:background="@color/colorPrimaryMid"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/creditsLabel" />
-
-        <include
-            android:id="@+id/applicationAuthor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/separator2"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/inspirationContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/applicationAuthor"
-            app:layout_constraintTop_toBottomOf="@id/separator2"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/englishContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/lithuanianContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/englishContributor"
-            app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/spanishContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/englishContributor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/germanContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/spanishContributor"
-            app:layout_constraintTop_toBottomOf="@id/lithuanianContributor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/italianContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/spanishContributor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/frenchContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/italianContributor"
-            app:layout_constraintTop_toBottomOf="@id/spanishContributor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/slovenianContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/italianContributor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <include
-            android:id="@+id/brazilianContributor"
-            layout="@layout/view_about_contributor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/slovenianContributor"
-            app:layout_constraintTop_toBottomOf="@id/italianContributor"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <View
-            android:id="@+id/separator3"
-            android:layout_width="0dp"
-            android:layout_height="6dp"
-            android:layout_marginTop="4dp"
-            android:background="@color/colorPrimaryMid"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/slovenianContributor" />
-
-        <TextView
-            android:id="@+id/description2"
-            style="@style/PeriodDescriptionStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
-            android:text="@string/wall_of_fame_description"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/separator3" />
-
-        <View
-            android:id="@+id/separator4"
-            android:layout_width="0dp"
-            android:layout_height="6dp"
-            android:layout_marginTop="4dp"
-            android:background="@color/colorPrimaryMid"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/description2" />
-
-        <TextView
-            android:id="@+id/description3"
-            style="@style/PeriodDescriptionStyle"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:autoLink="email"
-            android:text="@string/about_app_text_2"
-            android:textAlignment="center"
-            android:textIsSelectable="false"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/separator4" />
-
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/image"
-            android:padding="5dp"
-            android:src="@drawable/logo_grey"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/description3" />
-
-        <TextView
-            android:id="@+id/applicationVersion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="@font/gilroy_light"
-            android:paddingBottom="8dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/logo"
-            tools:text="1.0.0" />
+            app:layout_constraintStart_toEndOf="@+id/backButton"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/cretaceous_tyrannosaurus" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</ScrollView>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:contentDescription="@string/image"
+        android:src="@drawable/bg_top_shadow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/description1"
+                style="@style/PeriodDescriptionStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_text_1"
+                android:textAlignment="center"
+                android:textIsSelectable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/separator1"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/colorPrimaryMid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/description1" />
+
+            <TextView
+                android:id="@+id/creditsLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/wall_of_fame"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="19sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/separator1" />
+
+            <View
+                android:id="@+id/separator2"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorPrimaryMid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/creditsLabel" />
+
+            <include
+                android:id="@+id/applicationAuthor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/separator2"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/inspirationContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/applicationAuthor"
+                app:layout_constraintTop_toBottomOf="@id/separator2"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/englishContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/lithuanianContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/englishContributor"
+                app:layout_constraintTop_toBottomOf="@id/applicationAuthor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/spanishContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/englishContributor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/germanContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/spanishContributor"
+                app:layout_constraintTop_toBottomOf="@id/lithuanianContributor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/italianContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/spanishContributor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/frenchContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/italianContributor"
+                app:layout_constraintTop_toBottomOf="@id/spanishContributor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/slovenianContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/italianContributor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <include
+                android:id="@+id/brazilianContributor"
+                layout="@layout/view_about_contributor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/slovenianContributor"
+                app:layout_constraintTop_toBottomOf="@id/italianContributor"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <View
+                android:id="@+id/separator3"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/colorPrimaryMid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/slovenianContributor" />
+
+            <TextView
+                android:id="@+id/description2"
+                style="@style/PeriodDescriptionStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/wall_of_fame_description"
+                android:textAlignment="center"
+                android:textIsSelectable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/separator3" />
+
+            <View
+                android:id="@+id/separator4"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginTop="4dp"
+                android:background="@color/colorPrimaryMid"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/description2" />
+
+            <TextView
+                android:id="@+id/description3"
+                style="@style/PeriodDescriptionStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autoLink="email"
+                android:text="@string/about_app_text_2"
+                android:textAlignment="center"
+                android:textIsSelectable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/separator4" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/image"
+                android:padding="5dp"
+                android:src="@drawable/logo_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/description3" />
+
+            <TextView
+                android:id="@+id/applicationVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/gilroy_light"
+                android:paddingBottom="8dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/logo"
+                tools:text="1.0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
