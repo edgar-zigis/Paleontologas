@@ -5,27 +5,38 @@ import android.graphics.Typeface
 import android.text.SpannableString
 import android.text.Spanned
 import android.text.style.StyleSpan
-import android.view.LayoutInflater
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.application.android.BaseView
+import com.zigis.paleontologas.application.architecture.BaseView
+import com.zigis.paleontologas.application.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewAboutBinding
 
-class AboutView(context: Context) : BaseView<ViewAboutBinding>(
-    context,
-    ViewAboutBinding.inflate(LayoutInflater.from(context))
-) {
-    override val titleTextResId: Int = R.string.about_app
+interface AboutViewDelegate {
+    fun onBackInvoked()
+}
 
-    override fun initialize() {
-        stylizeDescription()
-        setContributors()
+class AboutView(context: Context) : BaseView(context) {
+
+    var delegate: AboutViewDelegate? = null
+
+    override val binding = ViewAboutBinding.inflate(layoutInflater)
+
+    init {
+        with(binding) {
+            title.text = getString(R.string.about_app)
+            backButton.setDebounceClickListener {
+                delegate?.onBackInvoked()
+            }
+            stylizeDescription()
+            setContributors()
+        }
+        addView(binding.root)
     }
 
-    fun setApplicationVersion(version: String) = with(viewBinding) {
+    fun setApplicationVersion(version: String) = with(binding) {
         applicationVersion.text = context.getString(R.string.version_placeholder, version)
     }
 
-    private fun setContributors() = with(viewBinding) {
+    private fun setContributors() = with(binding) {
         applicationAuthor.photo.setImageResource(R.drawable.photo_edgar_zigis)
         applicationAuthor.name.text = context.getString(R.string.app_contributor_1)
         applicationAuthor.contribution.text = context.getString(R.string.app_contributor_description_1)
@@ -67,7 +78,7 @@ class AboutView(context: Context) : BaseView<ViewAboutBinding>(
         brazilianContributor.contribution.text = context.getString(R.string.app_contributor_description_10)
     }
 
-    private fun stylizeDescription() = with(viewBinding) {
+    private fun stylizeDescription() = with(binding) {
         val descriptionText = context.getString(R.string.about_app_text_2)
         val spannableString = SpannableString(descriptionText)
 

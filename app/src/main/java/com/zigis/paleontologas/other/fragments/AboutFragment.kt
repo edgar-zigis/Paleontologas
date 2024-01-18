@@ -5,14 +5,13 @@ import android.view.ViewGroup
 import com.zigis.paleontologas.application.android.BaseViewModelFragment
 import com.zigis.paleontologas.other.viewmodels.AboutViewModel
 import com.zigis.paleontologas.other.views.AboutView
+import com.zigis.paleontologas.other.views.AboutViewDelegate
 
-class AboutFragment : BaseViewModelFragment<AboutViewModel, AboutView>() {
+class AboutFragment : BaseViewModelFragment<AboutViewModel, AboutView>(), AboutViewDelegate {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): AboutView {
         return AboutView(inflater.context).also {
-            it.onBack = {
-                activity?.onBackPressed()
-            }
+            it.delegate = this
         }.also {
             viewModel.loadApplicationVersion()
         }
@@ -22,5 +21,9 @@ class AboutFragment : BaseViewModelFragment<AboutViewModel, AboutView>() {
         viewModel.applicationVersion.observe(viewLifecycleOwner) {
             contentView.setApplicationVersion(it)
         }
+    }
+
+    override fun onBackInvoked() {
+        activity?.onBackPressed()
     }
 }
