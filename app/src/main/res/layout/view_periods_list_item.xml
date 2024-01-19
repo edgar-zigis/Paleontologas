@@ -85,7 +85,7 @@
             app:layout_constraintTop_toBottomOf="@+id/description"
             tools:text="358.9–298.9 mya" />
 
-        <com.zigis.paleontologas.application.ui.progressbar.CircularProgressBar
+        <com.zigis.paleontologas.core.ui.progressbar.CircularProgressBar
             android:id="@+id/progressBar"
             style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
             android:layout_width="30dp"
