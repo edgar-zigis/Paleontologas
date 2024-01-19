@@ -7,11 +7,10 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
-import android.view.LayoutInflater
 import androidx.core.content.ContextCompat
 import com.github.florent37.viewanimator.ViewAnimator
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.application.android.BaseView
+import com.zigis.paleontologas.application.architecture.BaseView
 import com.zigis.paleontologas.application.extensions.getDrawable
 import com.zigis.paleontologas.application.extensions.getString
 import com.zigis.paleontologas.application.extensions.runDelayed
@@ -22,33 +21,32 @@ import uk.co.senab.photoview.PhotoViewAttacher
 
 interface QuizGameViewDelegate {
     fun answerQuestion(question: Question, answer: Int)
+    fun onBackInvoked()
 }
 
-class QuizGameView(context: Context) : BaseView<ViewQuizGameBinding>(
-    context,
-    ViewQuizGameBinding.inflate(LayoutInflater.from(context))
-) {
-    override val titleTextResId: Int = R.string.quiz
+class QuizGameView(context: Context) : BaseView(context) {
 
     var delegate: QuizGameViewDelegate? = null
 
+    override val binding = ViewQuizGameBinding.inflate(layoutInflater)
+
     private val fadingViews by lazy {
         arrayOf(
-            viewBinding.thumbnail,
-            viewBinding.questionTitle,
-            viewBinding.variant1,
-            viewBinding.variant2,
-            viewBinding.variant3,
-            viewBinding.variant4
+            binding.thumbnail,
+            binding.questionTitle,
+            binding.variant1,
+            binding.variant2,
+            binding.variant3,
+            binding.variant4
         )
     }
 
     private val variantButtons by lazy {
         arrayOf(
-            viewBinding.variant1,
-            viewBinding.variant2,
-            viewBinding.variant3,
-            viewBinding.variant4
+            binding.variant1,
+            binding.variant2,
+            binding.variant3,
+            binding.variant4
         )
     }
 
@@ -63,9 +61,17 @@ class QuizGameView(context: Context) : BaseView<ViewQuizGameBinding>(
         }
     }
 
-    override fun initialize() { }
+    init {
+        with(binding) {
+            title.text = getString(R.string.about_app)
+            backButton.setDebounceClickListener {
+                delegate?.onBackInvoked()
+            }
+        }
+        addView(binding.root)
+    }
 
-    fun setCurrentQuestion(question: Question) = with(viewBinding) {
+    fun setCurrentQuestion(question: Question) = with(binding) {
         if (questionTitle.text.isNullOrEmpty()) {
             setQuestionValues(question)
             resetButtonStates()
@@ -86,7 +92,7 @@ class QuizGameView(context: Context) : BaseView<ViewQuizGameBinding>(
     }
 
     @Suppress("deprecation")
-    private fun setQuestionValues(question: Question) = with(viewBinding) {
+    private fun setQuestionValues(question: Question) = with(binding) {
         thumbnail.setImageDrawable(context.getDrawable(question.artwork))
         PhotoViewAttacher(thumbnail).update()
         questionTitle.text = context.getString(
