@@ -57,8 +57,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:21.5.0'
     //  Asynchronous tasks
 
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
 
     //  Database
 
@@ -79,12 +79,12 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.chrisbanes.photoview:library:1.2.3'
     implementation 'com.nightonke:boommenu:2.1.1'
-    implementation 'com.airbnb.android:lottie:4.1.0'
+    implementation 'com.airbnb.android:lottie:4.2.0'
     implementation 'com.github.florent37:viewanimator:1.1.2'
 
     //  Other
 
-    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'org.greenrobot:eventbus:3.3.1'
 
     //  Tests
 

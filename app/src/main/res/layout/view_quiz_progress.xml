@@ -74,7 +74,7 @@
             android:layout_height="match_parent"
             android:padding="5dp">
 
-            <com.zigis.paleontologas.application.ui.progressbar.ColorArcProgressBar
+            <com.zigis.paleontologas.core.ui.progressbar.ColorArcProgressBar
                 android:id="@+id/progressBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
