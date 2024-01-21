@@ -2,7 +2,7 @@ plugins {
     id "com.android.application"
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    //id 'com.google.firebase.crashlytics' //  comment this in order to disable Crashlytics
+    id 'com.google.firebase.crashlytics' //  comment this in order to disable Crashlytics
 }
 
 android {
@@ -94,4 +94,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-//apply plugin: 'com.google.gms.google-services' // comment this in order to disable Crashlytics
+apply plugin: 'com.google.gms.google-services' // comment this in order to disable Crashlytics
