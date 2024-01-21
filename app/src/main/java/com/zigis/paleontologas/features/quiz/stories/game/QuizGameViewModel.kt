@@ -33,7 +33,7 @@ class QuizGameViewModel constructor(
                         quizGameProcessor.correctAnswers
                     )
             } else {
-                currentQuestion.value = nextQuestion
+                currentQuestion.value = nextQuestion!!
             }
         }
     }
