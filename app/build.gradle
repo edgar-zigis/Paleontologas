@@ -2,6 +2,7 @@ plugins {
     id "com.android.application"
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'com.google.devtools.ksp'
     id 'com.google.firebase.crashlytics' //  comment this in order to disable Crashlytics
 }
 
@@ -42,38 +43,31 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     //  Android system
-
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.android.material:material:1.11.0'
 
     //  Firebase
-
     implementation 'com.google.firebase:firebase-crashlytics:18.6.0'
     implementation 'com.google.firebase:firebase-analytics:21.5.0'
-    //  Asynchronous tasks
 
+    //  Asynchronous tasks
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
 
     //  Database
-
     implementation "androidx.room:room-runtime:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
+    ksp "androidx.room:room-compiler:$room_version"
 
     //  DI
-
     implementation "org.koin:koin-core:$koin_version"
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     //  UI
-
     implementation 'com.evernote:android-state:1.4.1'
     kapt 'com.evernote:android-state-processor:1.4.1'
 
@@ -84,11 +78,9 @@ dependencies {
     implementation 'com.github.florent37:viewanimator:1.1.2'
 
     //  Other
-
     implementation 'org.greenrobot:eventbus:3.3.1'
 
     //  Tests
-
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:runner:1.5.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
