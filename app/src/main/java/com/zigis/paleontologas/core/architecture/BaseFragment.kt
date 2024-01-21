@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import com.evernote.android.state.StateSaver
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.core.interfaces.Navigable
 import com.zigis.paleontologas.core.routers.GlobalRouter
@@ -72,7 +73,7 @@ abstract class BaseFragment<T : ViewModel, V : View> : Fragment(), Navigable {
     private fun addLogs() {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
-        //FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
+        FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }
 
     @Suppress("UNCHECKED_CAST")

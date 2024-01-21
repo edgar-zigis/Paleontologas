@@ -19,7 +19,7 @@ class PaleoApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        //startActivityMonitor()
+        startActivityMonitor()
         injectDependencies()
     }
 
