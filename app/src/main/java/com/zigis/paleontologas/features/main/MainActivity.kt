@@ -5,8 +5,6 @@ import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseActivity
 import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.main.stories.home.HomeFragment
-import kotlinx.coroutines.flow.launchIn
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import org.koin.android.ext.android.inject
 
@@ -32,8 +30,11 @@ class MainActivity : BaseActivity() {
     }
 
     private fun startListeningForRouteRequests() = launch {
-        globalRouter.mainRouterChannel.onEach {
+        globalRouter.addOnFragmentPushListener(this) {
             pushFragment(it, R.id.mainRouterContainer)
-        }.launchIn(this)
+        }
+        globalRouter.addOnFragmentPopListener(this) {
+            onBackPressed()
+        }
     }
 }

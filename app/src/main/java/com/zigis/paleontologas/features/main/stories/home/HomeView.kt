@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.nightonke.boommenu.BoomButtons.SimpleCircleButton
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.databinding.ViewMainMenuBinding
-import com.zigis.paleontologas.features.library.stories.periods.PeriodListAdapter
 import com.zigis.paleontologas.features.library.data.Period
 
 class HomeView(context: Context) : FrameLayout(context) {

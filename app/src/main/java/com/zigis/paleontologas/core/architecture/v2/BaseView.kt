@@ -2,19 +2,20 @@ package com.zigis.paleontologas.core.architecture.v2
 
 import android.content.Context
 import android.view.LayoutInflater
+import android.widget.FrameLayout
 import androidx.annotation.StringRes
 import androidx.viewbinding.ViewBinding
 import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
 import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
 
-abstract class BaseView<S : IState>(val context: Context) : IView<S> {
+abstract class BaseView<S : IState, V : ViewBinding>(context: Context) : FrameLayout(context), IView<S> {
 
-    protected abstract var binding: ViewBinding?
+    protected abstract var binding: V?
     protected val layoutInflater: LayoutInflater = LayoutInflater.from(context)
 
     protected fun getString(@StringRes resId: Int): String = context.getString(resId)
 
-    protected fun requireBinding(): ViewBinding {
+    protected fun requireBinding(): V {
         return binding ?: throw IllegalStateException("Binding is not set.")
     }
 

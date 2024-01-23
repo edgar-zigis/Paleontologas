@@ -1,28 +1,28 @@
 package com.zigis.paleontologas.features.library.stories.lifeforms
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
+import android.content.Context
 import com.evernote.android.state.State
-import com.zigis.paleontologas.core.architecture.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
+import org.koin.android.ext.android.inject
 
-class LifeFormFragment : BaseFragment<LifeFormViewModel, LifeFormView>(), LifeFormViewDelegate {
+class LifeFormFragment : BaseFragment<LifeFormViewState, LifeFormIntent, LifeFormViewModel>(), LifeFormViewDelegate {
 
     @State var lifeFormId = 0
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): LifeFormView {
-        return LifeFormView(inflater.context).also {
+    override val viewModel: LifeFormViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<LifeFormViewState> {
+        return LifeFormView(context).also {
             it.delegate = this
         }
     }
 
     override fun onAttached() {
-        viewModel.loadLifeForm(lifeFormId)
-    }
-
-    override fun observeChanges() {
-        viewModel.lifeForm.observe(viewLifecycleOwner) {
-            contentView.configureWith(it)
-        }
+        viewModel.intents.sendSafely(
+            LifeFormIntent.Initialize(lifeFormId = lifeFormId)
+        )
     }
 
     //  LifeFormViewDelegate

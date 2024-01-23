@@ -1,24 +1,32 @@
 package com.zigis.paleontologas.features.library.stories.lifeforms
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.zigis.paleontologas.core.extensions.android.DistinctLiveData
-import com.zigis.paleontologas.features.library.data.LifeForm
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
-class LifeFormViewModel constructor(
+class LifeFormViewModel(
     private val lifeFormRepository: LifeFormRepository
-) : ViewModel() {
+) : BaseViewModel<LifeFormViewState, LifeFormIntent>() {
 
-    val lifeForm = DistinctLiveData<LifeForm>()
+    override fun getInitialData() = LifeFormViewState()
 
-    fun loadLifeForm(lifeFormId: Int) = viewModelScope.launch(Dispatchers.IO) {
+    override suspend fun handleIntent(intent: LifeFormIntent) {
+        when (intent) {
+            is LifeFormIntent.Initialize -> initialize(lifeFormId = intent.lifeFormId)
+        }
+    }
+
+    private suspend fun initialize(lifeFormId: Int) {
         val fetchedLifeForm = lifeFormRepository.findOne(lifeFormId)
-        withContext(Dispatchers.Main) {
-            lifeForm.value = fetchedLifeForm
+        updateState {
+            it.copy(
+                title = fetchedLifeForm.title,
+                artwork = fetchedLifeForm.artwork,
+                artworkAuthor = fetchedLifeForm.artworkAuthor,
+                timeScale = fetchedLifeForm.timeScale,
+                description = fetchedLifeForm.description,
+                additionalArtworkAuthor = fetchedLifeForm.additionalArtworkAuthor,
+                additionalArtwork = fetchedLifeForm.additionalArtwork
+            )
         }
     }
 }

@@ -13,7 +13,6 @@ import com.zigis.paleontologas.core.ui.recyclerview.GridSpacingItemDecoration
 import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
 import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
 import com.zigis.paleontologas.databinding.ViewPeriodContentBinding
-import com.zigis.paleontologas.features.library.stories.lifeforms.LifeFormListAdapter
 import com.zigis.paleontologas.features.library.data.LifeForm
 import com.zigis.paleontologas.features.library.data.Period
 import uk.co.senab.photoview.PhotoViewAttacher
