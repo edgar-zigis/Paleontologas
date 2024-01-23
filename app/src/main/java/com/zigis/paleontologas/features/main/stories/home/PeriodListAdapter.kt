@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library.stories.periods
+package com.zigis.paleontologas.features.main.stories.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

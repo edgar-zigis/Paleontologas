@@ -4,31 +4,26 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.BaseView
+import com.zigis.paleontologas.core.architecture.v2.BaseView
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewLifeformContentBinding
 import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
 import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
-import com.zigis.paleontologas.features.library.data.LifeForm
 import uk.co.senab.photoview.PhotoViewAttacher
 
-interface LifeFormViewDelegate {
-    fun onBackInvoked()
-}
-
-class LifeFormView(context: Context) : BaseView(context) {
+class LifeFormView(context: Context) : BaseView<LifeFormViewState, ViewParallaxFragmentBinding>(context) {
 
     var delegate: LifeFormViewDelegate? = null
 
-    override val binding = ViewParallaxFragmentBinding.inflate(layoutInflater)
+    override var binding: ViewParallaxFragmentBinding? = ViewParallaxFragmentBinding.inflate(layoutInflater)
 
     private val zoomViewBinding = ViewParallaxHeaderBinding.inflate(LayoutInflater.from(context))
     private val contentViewBinding = ViewLifeformContentBinding.inflate(LayoutInflater.from(context))
 
     init {
-        with(binding) {
+        with(requireBinding()) {
             title.text = getString(R.string.about_app)
             backButton.setDebounceClickListener {
                 delegate?.onBackInvoked()
@@ -36,26 +31,26 @@ class LifeFormView(context: Context) : BaseView(context) {
             parallaxScroller.zoomView = zoomViewBinding.root
             parallaxScroller.setScrollContentView(contentViewBinding.root)
         }
-        addView(binding.root)
+        addView(requireBinding().root)
     }
 
-    fun configureWith(lifeForm: LifeForm) {
-        with(binding) {
-            title.text = context.getString(lifeForm.title)
+    override fun render(state: LifeFormViewState) {
+        with(requireBinding()) {
+            title.text = context.getString(state.title)
         }
         with(zoomViewBinding) {
-            imageView.setImageDrawable(context.getDrawable(lifeForm.artwork))
-            photoAuthor.text = lifeForm.artworkAuthor
+            imageView.setImageDrawable(context.getDrawable(state.artwork))
+            photoAuthor.text = state.artworkAuthor
         }
         with(contentViewBinding) {
-            title.text = context.getString(lifeForm.title)
-            timeScale.text = context.getString(R.string.mya, lifeForm.timeScale)
-            descriptionInfo.text = context.getString(lifeForm.description)
+            title.text = context.getString(state.title)
+            timeScale.text = context.getString(R.string.mya, state.timeScale)
+            descriptionInfo.text = context.getString(state.description)
 
-            if (lifeForm.additionalArtwork.isNotEmpty()) {
+            if (state.additionalArtwork.isNotEmpty()) {
                 additionalImageContainer.visibility = View.VISIBLE
-                additionalImageAuthor.text = lifeForm.additionalArtworkAuthor
-                additionalImage.setImageDrawable(context.getDrawable(lifeForm.additionalArtwork))
+                additionalImageAuthor.text = state.additionalArtworkAuthor
+                additionalImage.setImageDrawable(context.getDrawable(state.additionalArtwork))
                 PhotoViewAttacher(additionalImage).update()
             }
         }

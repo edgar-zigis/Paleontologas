@@ -38,8 +38,6 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
         }
     }
 
-    abstract fun observeChanges()
-
     override fun onAttached() { }
 
     override fun onBackPressed(): Boolean {
@@ -57,7 +55,7 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
     }
 
     override fun onDestroyView() {
-        (contentView as? BaseView<*>)?.onDestroyView()
+        (contentView as? BaseView<*, *>)?.onDestroyView()
         contentView = null
         super.onDestroyView()
         addLogs()
