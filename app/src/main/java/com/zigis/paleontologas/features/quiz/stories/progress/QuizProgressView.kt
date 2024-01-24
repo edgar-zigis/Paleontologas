@@ -2,18 +2,18 @@ package com.zigis.paleontologas.features.quiz.stories.progress
 
 import android.content.Context
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.BaseView
+import com.zigis.paleontologas.core.architecture.v2.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewQuizProgressBinding
 
-class QuizProgressView(context: Context) : BaseView(context) {
+class QuizProgressView(context: Context) : BaseView<QuizProgressViewState, ViewQuizProgressBinding>(context) {
 
     var delegate: QuizProgressViewDelegate? = null
 
-    override val binding = ViewQuizProgressBinding.inflate(layoutInflater)
+    override var binding: ViewQuizProgressBinding? = ViewQuizProgressBinding.inflate(layoutInflater)
 
     init {
-        with(binding) {
+        with(requireBinding()) {
             title.text = getString(R.string.quiz)
             backButton.setDebounceClickListener {
                 delegate?.onBackInvoked()
@@ -22,10 +22,10 @@ class QuizProgressView(context: Context) : BaseView(context) {
                 delegate?.onStartQuiz()
             }
         }
-        addView(binding.root)
+        addView(requireBinding().root)
     }
 
-    fun setProgress(progress: Float) = with(binding) {
-        progressBar.setCurrentValues(progress)
+    override fun render(state: QuizProgressViewState) = with(requireBinding()) {
+        progressBar.setCurrentValues(state.progress)
     }
 }
