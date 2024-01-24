@@ -1,7 +1,6 @@
 package com.zigis.paleontologas.features.library.stories.lifeforms
 
 import android.content.Context
-import com.evernote.android.state.State
 import com.zigis.paleontologas.core.architecture.v2.BaseFragment
 import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
@@ -9,7 +8,7 @@ import org.koin.android.ext.android.inject
 
 class LifeFormFragment : BaseFragment<LifeFormViewState, LifeFormIntent, LifeFormViewModel>(), LifeFormViewDelegate {
 
-    @State var lifeFormId = 0
+    var lifeFormId: Int by savedState(0)
 
     override val viewModel: LifeFormViewModel by inject()
 
