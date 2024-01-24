@@ -49,7 +49,7 @@ class ParallaxScrollView constructor(
 
     override fun onLayout(paramBoolean: Boolean, p1: Int, p2: Int, p3: Int, p4: Int) {
         super.onLayout(paramBoolean, p1, p2, p3, p4)
-        if (headerHeight == 0 && zoomView != null) {
+        if ((headerHeight == 0 && zoomView != null) || (scalingRunnable.isFinished && !isBeingDragged)) {
             headerHeight = headerContainer.height
         }
     }
@@ -144,6 +144,7 @@ class ParallaxScrollView constructor(
                         post(this)
                         return
                     }
+                    requestLayout()
                     isFinished = true
                 }
             }

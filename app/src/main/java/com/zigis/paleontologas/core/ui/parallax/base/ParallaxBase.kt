@@ -42,7 +42,7 @@ abstract class ParallaxBase<T : View> constructor(
     private var screenWidth = 0
 
     private var touchSlop = 0
-    private var isBeingDragged = false
+    var isBeingDragged = false
     private var lastMotionY = 0f
     private var lastMotionX = 0f
     private var initialMotionY = 0f
