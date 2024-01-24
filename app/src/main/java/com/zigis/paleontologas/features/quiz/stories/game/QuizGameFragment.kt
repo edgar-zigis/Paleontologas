@@ -1,37 +1,32 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkFragment
+import android.content.Context
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.features.quiz.data.Question
+import org.koin.android.ext.android.inject
 
-class QuizGameFragment : BaseFragment<QuizGameViewModel, QuizGameView>(),
+class QuizGameFragment : BaseFragment<QuizGameViewState, QuizGameIntent, QuizGameViewModel>(),
     QuizGameViewDelegate {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): QuizGameView {
-        return QuizGameView(inflater.context).also {
+    override val viewModel: QuizGameViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<QuizGameViewState> {
+        return QuizGameView(context).also {
             it.delegate = this
         }.also {
-            viewModel.generateQuestions()
-        }
-    }
-
-    override fun observeChanges() {
-        viewModel.currentQuestion.observe(viewLifecycleOwner) {
-            contentView.setCurrentQuestion(it)
-        }
-        viewModel.endResult.observe(viewLifecycleOwner) { result ->
-            globalRouter.pushFragment(
-                QuizMarkFragment().also { it.mark = result.correctAnswers }
-            )
+            viewModel.intents.sendSafely(QuizGameIntent.Initialize)
         }
     }
 
     //  QuizGameViewDelegate
 
     override fun answerQuestion(question: Question, answer: Int) {
-        viewModel.answerQuestion(question, answer)
+        viewModel.intents.sendSafely(QuizGameIntent.AnswerQuestion(
+            question = question,
+            option = answer
+        ))
     }
 
     override fun onBackInvoked() {

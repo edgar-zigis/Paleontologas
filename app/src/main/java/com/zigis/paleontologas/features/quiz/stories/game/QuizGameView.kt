@@ -10,7 +10,7 @@ import android.os.VibratorManager
 import androidx.core.content.ContextCompat
 import com.github.florent37.viewanimator.ViewAnimator
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.BaseView
+import com.zigis.paleontologas.core.architecture.v2.BaseView
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.runDelayed
@@ -19,29 +19,29 @@ import com.zigis.paleontologas.databinding.ViewQuizGameBinding
 import com.zigis.paleontologas.features.quiz.data.Question
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class QuizGameView(context: Context) : BaseView(context) {
+class QuizGameView(context: Context) : BaseView<QuizGameViewState, ViewQuizGameBinding>(context) {
 
     var delegate: QuizGameViewDelegate? = null
 
-    override val binding = ViewQuizGameBinding.inflate(layoutInflater)
+    override var binding: ViewQuizGameBinding? = ViewQuizGameBinding.inflate(layoutInflater)
 
     private val fadingViews by lazy {
         arrayOf(
-            binding.thumbnail,
-            binding.questionTitle,
-            binding.variant1,
-            binding.variant2,
-            binding.variant3,
-            binding.variant4
+            requireBinding().thumbnail,
+            requireBinding().questionTitle,
+            requireBinding().variant1,
+            requireBinding().variant2,
+            requireBinding().variant3,
+            requireBinding().variant4
         )
     }
 
     private val variantButtons by lazy {
         arrayOf(
-            binding.variant1,
-            binding.variant2,
-            binding.variant3,
-            binding.variant4
+            requireBinding().variant1,
+            requireBinding().variant2,
+            requireBinding().variant3,
+            requireBinding().variant4
         )
     }
 
@@ -57,16 +57,17 @@ class QuizGameView(context: Context) : BaseView(context) {
     }
 
     init {
-        with(binding) {
+        with(requireBinding()) {
             title.text = getString(R.string.quiz)
             backButton.setDebounceClickListener {
                 delegate?.onBackInvoked()
             }
         }
-        addView(binding.root)
+        addView(requireBinding().root)
     }
 
-    fun setCurrentQuestion(question: Question) = with(binding) {
+    override fun render(state: QuizGameViewState) = with(requireBinding()) {
+        val question = state.question ?: return
         if (questionTitle.text.isNullOrEmpty()) {
             setQuestionValues(question)
             resetButtonStates()
@@ -84,10 +85,11 @@ class QuizGameView(context: Context) : BaseView(context) {
                 .duration(300)
                 .start()
         }
+        Unit
     }
 
     @Suppress("deprecation")
-    private fun setQuestionValues(question: Question) = with(binding) {
+    private fun setQuestionValues(question: Question) = with(requireBinding()) {
         thumbnail.setImageDrawable(context.getDrawable(question.artwork))
         PhotoViewAttacher(thumbnail).update()
         questionTitle.text = context.getString(
