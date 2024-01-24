@@ -1,41 +1,36 @@
 package com.zigis.paleontologas.features.library.stories.periods
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
+import android.content.Context
 import com.evernote.android.state.State
-import com.zigis.paleontologas.core.architecture.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.features.library.data.LifeForm
-import com.zigis.paleontologas.features.library.stories.lifeforms.LifeFormFragment
+import org.koin.android.ext.android.inject
 
-class PeriodFragment : BaseFragment<PeriodViewModel, PeriodView>(), PeriodViewDelegate {
+class PeriodFragment : BaseFragment<PeriodViewState, PeriodIntent, PeriodViewModel>(), PeriodViewDelegate {
 
     @State var periodId = 0
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): PeriodView {
-        return PeriodView(inflater.context).also {
+    override val viewModel: PeriodViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<PeriodViewState> {
+        return PeriodView(context).also {
             it.delegate = this
         }
     }
 
     override fun onAttached() {
-        viewModel.loadPeriod(periodId)
-        viewModel.loadLifeForms(periodId)
-    }
-
-    override fun observeChanges() {
-        viewModel.period.observe(viewLifecycleOwner) {
-            contentView.configureWith(it)
-        }
-        viewModel.lifeForms.observe(viewLifecycleOwner) {
-            contentView.setLifeForms(it)
-        }
+        viewModel.intents.sendSafely(
+            PeriodIntent.Initialize(periodId = periodId)
+        )
     }
 
     //  PeriodViewDelegate
 
     override fun openLifeForm(lifeForm: LifeForm) {
-        globalRouter.pushFragment(
-            LifeFormFragment().also { it.lifeFormId = lifeForm.id }
+        viewModel.intents.sendSafely(
+            PeriodIntent.OpenLifeForm(lifeForm = lifeForm)
         )
     }
 

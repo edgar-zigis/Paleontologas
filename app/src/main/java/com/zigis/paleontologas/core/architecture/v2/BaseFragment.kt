@@ -34,7 +34,9 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         launchOnRepeat {
-            viewModel.state.collect { contentView?.render(it) }
+            viewModel.state.collect {
+                contentView?.render(it)
+            }
         }
     }
 
