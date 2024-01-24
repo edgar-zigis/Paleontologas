@@ -1,22 +1,20 @@
 package com.zigis.paleontologas.features.main.stories.about
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.zigis.paleontologas.core.architecture.BaseFragment
+import android.content.Context
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
+import org.koin.android.ext.android.inject
 
-class AboutFragment : BaseFragment<AboutViewModel, AboutView>(), AboutViewDelegate {
+class AboutFragment : BaseFragment<AboutViewState, AboutIntent, AboutViewModel>(), AboutViewDelegate {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): AboutView {
-        return AboutView(inflater.context).also {
+    override val viewModel: AboutViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<AboutViewState> {
+        return AboutView(context).also {
             it.delegate = this
         }.also {
-            viewModel.loadApplicationVersion()
-        }
-    }
-
-    override fun observeChanges() {
-        viewModel.applicationVersion.observe(viewLifecycleOwner) {
-            contentView.setApplicationVersion(it)
+            viewModel.intents.sendSafely(AboutIntent.Initialize)
         }
     }
 
