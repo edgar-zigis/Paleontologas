@@ -13,11 +13,20 @@ import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
 import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
 import com.zigis.paleontologas.core.extensions.launchOnRepeat
 import com.zigis.paleontologas.core.interfaces.Navigable
+import com.zigis.paleontologas.core.providers.SavedStateProvider
 
 abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : Fragment(), Navigable {
 
     protected abstract val viewModel: M
     private var contentView: IView<S>? = null
+
+    protected fun <T> savedState() = SavedStateProvider.Nullable<T>(
+        arguments ?: Bundle(javaClass.classLoader)
+    )
+    protected fun <T> savedState(defaultValue: T) = SavedStateProvider.NotNull(
+        arguments ?: Bundle(javaClass.classLoader),
+        defaultValue
+    )
 
     abstract fun onCreateView(context: Context): IView<S>
 
