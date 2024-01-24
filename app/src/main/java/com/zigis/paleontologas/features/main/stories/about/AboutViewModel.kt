@@ -1,23 +1,25 @@
 package com.zigis.paleontologas.features.main.stories.about
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.zigis.paleontologas.core.extensions.android.DistinctLiveData
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
 import com.zigis.paleontologas.core.managers.ApplicationVersionManager
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
-class AboutViewModel constructor(
+class AboutViewModel(
     private val applicationVersionManager: ApplicationVersionManager
-) : ViewModel() {
+) : BaseViewModel<AboutViewState, AboutIntent>() {
 
-    val applicationVersion = DistinctLiveData<String>()
+    override fun getInitialData() = AboutViewState()
 
-    fun loadApplicationVersion() = viewModelScope.launch(Dispatchers.IO) {
-        val version = applicationVersionManager.getApplicationVersionName()
-        withContext(Dispatchers.Main) {
-            applicationVersion.value = version
+    override suspend fun handleIntent(intent: AboutIntent) {
+        when (intent) {
+            is AboutIntent.Initialize -> initialize()
+        }
+    }
+
+    private suspend fun initialize() {
+        updateState {
+            it.copy(
+                applicationVersion = applicationVersionManager.getApplicationVersionName()
+            )
         }
     }
 }

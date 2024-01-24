@@ -6,18 +6,18 @@ import android.text.SpannableString
 import android.text.Spanned
 import android.text.style.StyleSpan
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.BaseView
+import com.zigis.paleontologas.core.architecture.v2.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewAboutBinding
 
-class AboutView(context: Context) : BaseView(context) {
+class AboutView(context: Context) : BaseView<AboutViewState, ViewAboutBinding>(context) {
 
     var delegate: AboutViewDelegate? = null
 
-    override val binding = ViewAboutBinding.inflate(layoutInflater)
+    override var binding: ViewAboutBinding? = ViewAboutBinding.inflate(layoutInflater)
 
     init {
-        with(binding) {
+        with(requireBinding()) {
             title.text = getString(R.string.about_app)
             backButton.setDebounceClickListener {
                 delegate?.onBackInvoked()
@@ -25,14 +25,43 @@ class AboutView(context: Context) : BaseView(context) {
             stylizeDescription()
             setContributors()
         }
-        addView(binding.root)
+        addView(requireBinding().root)
     }
 
-    fun setApplicationVersion(version: String) = with(binding) {
-        applicationVersion.text = context.getString(R.string.version_placeholder, version)
+    override fun render(state: AboutViewState) = with(requireBinding()) {
+        applicationVersion.text = context.getString(
+            R.string.version_placeholder,
+            state.applicationVersion
+        )
     }
 
-    private fun setContributors() = with(binding) {
+    private fun stylizeDescription() = with(requireBinding()) {
+        val descriptionText = context.getString(R.string.about_app_text_2)
+        val spannableString = SpannableString(descriptionText)
+
+        listOf(
+            context.getString(R.string.app_contributor_11)
+        ).forEach {
+            spannableString.setSpan(
+                StyleSpan(Typeface.BOLD),
+                descriptionText.indexOf(it),
+                descriptionText.indexOf(it) + it.length,
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+            )
+        }
+
+        val email = context.getString(R.string.contact_email)
+        spannableString.setSpan(
+            StyleSpan(Typeface.ITALIC),
+            descriptionText.indexOf(email),
+            descriptionText.indexOf(email) + email.length,
+            Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+        )
+
+        description3.text = spannableString
+    }
+
+    private fun setContributors() = with(requireBinding()) {
         applicationAuthor.photo.setImageResource(R.drawable.photo_edgar_zigis)
         applicationAuthor.name.text = context.getString(R.string.app_contributor_1)
         applicationAuthor.contribution.text = context.getString(R.string.app_contributor_description_1)
@@ -72,31 +101,5 @@ class AboutView(context: Context) : BaseView(context) {
         brazilianContributor.photo.setImageResource(R.drawable.photo_mariana_leite)
         brazilianContributor.name.text = context.getString(R.string.app_contributor_10)
         brazilianContributor.contribution.text = context.getString(R.string.app_contributor_description_10)
-    }
-
-    private fun stylizeDescription() = with(binding) {
-        val descriptionText = context.getString(R.string.about_app_text_2)
-        val spannableString = SpannableString(descriptionText)
-
-        listOf(
-            context.getString(R.string.app_contributor_11)
-        ).forEach {
-            spannableString.setSpan(
-                StyleSpan(Typeface.BOLD),
-                descriptionText.indexOf(it),
-                descriptionText.indexOf(it) + it.length,
-                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
-            )
-        }
-
-        val email = context.getString(R.string.contact_email)
-        spannableString.setSpan(
-            StyleSpan(Typeface.ITALIC),
-            descriptionText.indexOf(email),
-            descriptionText.indexOf(email) + email.length,
-            Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
-        )
-
-        description3.text = spannableString
     }
 }
