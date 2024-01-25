@@ -1,27 +1,42 @@
 package com.zigis.paleontologas.features.launcher.stories.main
 
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import com.zigis.paleontologas.core.entities.TaskStatus
+import android.content.Intent
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
+import com.zigis.paleontologas.features.main.MainActivity
 import kotlinx.coroutines.*
 
 @OptIn(DelicateCoroutinesApi::class)
-class LauncherViewModel constructor(
-    private val dataMigrationManager: DataMigrationManager
-) : ViewModel() {
+class LauncherViewModel(
+    private val dataMigrationManager: DataMigrationManager,
+    private val androidLifecycleProvider: AndroidLifecycleProvider
+) : BaseViewModel<LauncherViewState, LauncherIntent>() {
 
-    val synchronizationStatus = MutableLiveData<TaskStatus>()
+    override fun getInitialData() = LauncherViewState()
 
-    fun synchronizeData() = GlobalScope.launch(Dispatchers.IO) {
+    override suspend fun handleIntent(intent: LauncherIntent) {
+        when (intent) {
+            is LauncherIntent.Initialize -> initialize()
+        }
+    }
+
+    private fun initialize() = GlobalScope.launch(Dispatchers.IO) {
         try {
             dataMigrationManager.migrate()
             withContext(Dispatchers.Main) {
                 delay(1800)
-                synchronizationStatus.value = TaskStatus.success()
+                androidLifecycleProvider.getActivity()?.startActivity(Intent(
+                    androidLifecycleProvider.getActivity(),
+                    MainActivity::class.java
+                ))
             }
         } catch (error: Throwable) {
-            synchronizationStatus.value = TaskStatus.failure(error.localizedMessage)
+            updateState {
+                it.copy(
+                    errorMessage = error.localizedMessage
+                )
+            }
         }
     }
 }
