@@ -1,36 +1,47 @@
 package com.zigis.paleontologas.features.main.stories.language
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import android.content.Intent
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
 import com.zigis.paleontologas.core.extensions.android.DistinctLiveData
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
+import com.zigis.paleontologas.features.main.MainActivity
 import java.util.Locale
 
 typealias LocaleConfiguration = Pair<Locale?, List<Locale>>
-class LanguageViewModel constructor(
-    private val applicationLocaleManager: ApplicationLocaleManager
-) : ViewModel() {
+class LanguageViewModel(
+    private val applicationLocaleManager: ApplicationLocaleManager,
+    private val androidLifecycleProvider: AndroidLifecycleProvider
+) : BaseViewModel<LanguageViewState, LanguageIntent>() {
+
+    override fun getInitialData() = LanguageViewState()
+
+    override suspend fun handleIntent(intent: LanguageIntent) {
+        when (intent) {
+            is LanguageIntent.Initialize -> initialize()
+            is LanguageIntent.ChangeLocale -> changeLocale(locale = intent.locale)
+        }
+    }
 
     val localeConfiguration = DistinctLiveData<LocaleConfiguration>()
     val updatedLocale = DistinctLiveData<Locale>()
 
-    fun loadLocaleList() = viewModelScope.launch(Dispatchers.IO) {
-        val configuration = LocaleConfiguration(
-            applicationLocaleManager.getCurrentLocale(),
-            applicationLocaleManager.getAvailableLocales()
-        )
-        withContext(Dispatchers.Main) {
-            localeConfiguration.value = configuration
+    private suspend fun initialize() {
+        updateState {
+            it.copy(
+                currentLocale = applicationLocaleManager.getCurrentLocale(),
+                localeList = applicationLocaleManager.getAvailableLocales()
+            )
         }
     }
 
-    fun changeLocale(locale: Locale) = viewModelScope.launch(Dispatchers.IO) {
+    private fun changeLocale(locale: Locale) {
         applicationLocaleManager.setCurrentLocale(locale)
-        withContext(Dispatchers.Main) {
-            updatedLocale.value = locale
+        with(androidLifecycleProvider) {
+            getActivity()?.finish()
+            getActivity()?.startActivity(
+                Intent(getActivity(), MainActivity::class.java)
+            )
         }
     }
 }

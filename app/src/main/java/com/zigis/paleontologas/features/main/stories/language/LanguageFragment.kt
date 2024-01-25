@@ -1,37 +1,29 @@
 package com.zigis.paleontologas.features.main.stories.language
 
-import android.content.Intent
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.features.main.MainActivity
+import android.content.Context
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
+import org.koin.android.ext.android.inject
 import java.util.Locale
 
-class LanguageFragment : BaseFragment<LanguageViewModel, LanguageView>(),
+class LanguageFragment : BaseFragment<LanguageViewState, LanguageIntent, LanguageViewModel>(),
     LanguageViewDelegate {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): LanguageView {
-        return LanguageView(inflater.context).also {
+    override val viewModel: LanguageViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<LanguageViewState> {
+        return LanguageView(context).also {
             it.delegate = this
         }.also {
-            viewModel.loadLocaleList()
-        }
-    }
-
-    override fun observeChanges() {
-        viewModel.localeConfiguration.observe(viewLifecycleOwner) {
-            contentView.setLocaleConfiguration(it)
-        }
-        viewModel.updatedLocale.observe(viewLifecycleOwner) {
-            activity?.finish()
-            startActivity(Intent(activity, MainActivity::class.java))
+            viewModel.intents.sendSafely(LanguageIntent.Initialize)
         }
     }
 
     //  LanguageViewDelegate
 
     override fun onLocaleSelected(locale: Locale) {
-        viewModel.changeLocale(locale)
+        viewModel.intents.sendSafely(LanguageIntent.ChangeLocale(locale = locale))
     }
 
     override fun onBackInvoked() {
