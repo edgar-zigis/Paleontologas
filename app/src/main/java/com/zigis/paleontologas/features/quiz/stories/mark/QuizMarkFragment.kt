@@ -1,22 +1,26 @@
 package com.zigis.paleontologas.features.quiz.stories.mark
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.evernote.android.state.State
-import com.zigis.paleontologas.core.architecture.BaseStatelessFragment
+import android.content.Context
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
+import org.koin.android.ext.android.inject
 
-class QuizMarkFragment : BaseStatelessFragment<QuizMarkView>(), QuizMarkViewDelegate {
+class QuizMarkFragment : BaseFragment<QuizMarkViewState, QuizMarkIntent, QuizMarkViewModel>(),
+    QuizMarkViewDelegate {
 
-    @State var mark = 0
+    var mark: Int by savedState(0)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): QuizMarkView {
-        return QuizMarkView(inflater.context).also {
+    override val viewModel: QuizMarkViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<QuizMarkViewState> {
+        return QuizMarkView(context).also {
             it.delegate = this
         }
     }
 
     override fun onAttached() {
-        contentView.setEvaluation(mark)
+        viewModel.intents.sendSafely(QuizMarkIntent.Initialize(mark = mark))
     }
 
     override fun onBackPressed(): Boolean {
