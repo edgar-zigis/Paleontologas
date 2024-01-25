@@ -17,7 +17,7 @@ val viewModelModule = module {
     viewModel { PeriodViewModel(get(), get(), get()) }
     viewModel { LifeFormViewModel(get()) }
     viewModel { AboutViewModel(get()) }
+    viewModel { QuizProgressViewModel(get(), get()) }
     viewModel { LanguageViewModel(get(), get()) }
-    viewModel { QuizProgressViewModel(get()) }
     viewModel { QuizGameViewModel(get()) }
 }

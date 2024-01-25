@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.evernote.android.state.StateSaver
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.core.architecture.v2.interfaces.IIntent
 import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
@@ -86,6 +87,6 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
     private fun addLogs() {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
-        //FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
+        FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }
 }
