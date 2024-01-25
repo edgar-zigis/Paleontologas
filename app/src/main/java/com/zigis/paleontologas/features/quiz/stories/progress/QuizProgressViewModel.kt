@@ -1,23 +1,31 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.zigis.paleontologas.core.extensions.android.DistinctLiveData
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.routers.GlobalRouter
+import com.zigis.paleontologas.features.quiz.stories.game.QuizGameFragment
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
-class QuizProgressViewModel constructor(
+class QuizProgressViewModel(
+    private val globalRouter: GlobalRouter,
     private val quizProgressUseCase: QuizProgressUseCase
-) : ViewModel() {
+) : BaseViewModel<QuizProgressViewState, QuizProgressIntent>() {
 
-    val quizProgress = DistinctLiveData<Float>()
+    override fun getInitialData() = QuizProgressViewState()
 
-    fun loadProgress() = viewModelScope.launch(Dispatchers.IO) {
-        val progress = quizProgressUseCase.getFullProgress()
-        withContext(Dispatchers.Main) {
-            quizProgress.value = progress
+    override suspend fun handleIntent(intent: QuizProgressIntent) {
+        when (intent) {
+            is QuizProgressIntent.Initialize -> initialize()
+            is QuizProgressIntent.StartQuiz -> globalRouter.pushFragment(
+                QuizGameFragment()
+            )
+        }
+    }
+
+    private suspend fun initialize() {
+        updateState {
+            it.copy(
+                progress = quizProgressUseCase.getFullProgress()
+            )
         }
     }
 }

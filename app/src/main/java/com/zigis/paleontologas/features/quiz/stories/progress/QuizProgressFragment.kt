@@ -1,36 +1,30 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.features.quiz.stories.game.QuizGameFragment
+import android.content.Context
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
+import org.koin.android.ext.android.inject
 
-class QuizProgressFragment : BaseFragment<QuizProgressViewModel, QuizProgressView>(),
+class QuizProgressFragment : BaseFragment<QuizProgressViewState, QuizProgressIntent, QuizProgressViewModel>(),
     QuizProgressViewDelegate {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): QuizProgressView {
-        return QuizProgressView(inflater.context).also {
+    override val viewModel: QuizProgressViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<QuizProgressViewState> {
+        return QuizProgressView(context).also {
             it.delegate = this
         }
     }
 
     override fun onAttached() {
-        super.onAttached()
-        viewModel.loadProgress()
-    }
-
-    override fun observeChanges() {
-        viewModel.quizProgress.observe(viewLifecycleOwner) {
-            contentView.setProgress(it)
-        }
+        viewModel.intents.sendSafely(QuizProgressIntent.Initialize)
     }
 
     //  QuizProgressViewDelegate
 
     override fun onStartQuiz() {
-        globalRouter.pushFragment(
-            QuizGameFragment()
-        )
+        viewModel.intents.sendSafely(QuizProgressIntent.StartQuiz)
     }
 
     override fun onBackInvoked() {

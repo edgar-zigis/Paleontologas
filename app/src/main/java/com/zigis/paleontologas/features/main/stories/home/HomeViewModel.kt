@@ -1,24 +1,46 @@
 package com.zigis.paleontologas.features.main.stories.home
 
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.zigis.paleontologas.features.library.data.Period
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.routers.GlobalRouter
+import com.zigis.paleontologas.features.library.stories.periods.PeriodFragment
 import com.zigis.paleontologas.features.library.usecases.PeriodListUseCase
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import com.zigis.paleontologas.features.main.stories.about.AboutFragment
+import com.zigis.paleontologas.features.main.stories.language.LanguageFragment
+import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressFragment
 
-class HomeViewModel constructor(
+class HomeViewModel(
+    private val globalRouter: GlobalRouter,
     private val periodListUseCase: PeriodListUseCase
-) : ViewModel() {
+) : BaseViewModel<HomeViewState, HomeIntent>() {
 
-    val periods = MutableLiveData<List<Period>>()
+    override fun getInitialData() = HomeViewState()
 
-    fun loadPeriods() = viewModelScope.launch(Dispatchers.IO) {
-        val items = periodListUseCase.getPeriodItems()
-        withContext(Dispatchers.Main) {
-            periods.value = items
+    override suspend fun handleIntent(intent: HomeIntent) {
+        when (intent) {
+            is HomeIntent.Initialize -> initialize()
+            is HomeIntent.OpenPeriod -> globalRouter.pushFragment(
+                PeriodFragment().also {
+                    it.periodId = intent.periodId
+                }
+            )
+            is HomeIntent.OpenQuiz -> globalRouter.pushFragment(
+                QuizProgressFragment()
+            )
+            is HomeIntent.OpenLanguages -> globalRouter.pushFragment(
+                LanguageFragment()
+            )
+            is HomeIntent.OpenAbout -> globalRouter.pushFragment(
+                AboutFragment()
+            )
+        }
+    }
+
+    private suspend fun initialize() {
+        updateState {
+            it.copy(
+                periodList = periodListUseCase.getPeriodItems(),
+                animateLayoutChanges = it.animateLayoutChanges == null
+            )
         }
     }
 }
