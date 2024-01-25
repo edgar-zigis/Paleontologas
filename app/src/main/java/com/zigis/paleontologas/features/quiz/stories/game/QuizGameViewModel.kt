@@ -1,39 +1,49 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.zigis.paleontologas.core.extensions.android.DistinctLiveData
+import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.quiz.data.Question
-import com.zigis.paleontologas.features.quiz.entities.QuizEndGameResult
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkFragment
 
-class QuizGameViewModel constructor(
+class QuizGameViewModel(
+    private val globalRouter: GlobalRouter,
     private val quizGameProcessor: QuizGameProcessor
-) : ViewModel() {
+) : BaseViewModel<QuizGameViewState, QuizGameIntent>() {
 
-    val currentQuestion = DistinctLiveData<Question>()
-    val endResult = DistinctLiveData<QuizEndGameResult>()
+    override fun getInitialData() = QuizGameViewState()
 
-    fun generateQuestions() = viewModelScope.launch(Dispatchers.IO) {
-        val questions = quizGameProcessor.generateRandomQuestions()
-        withContext(Dispatchers.Main) {
-            currentQuestion.value = questions.first()
+    override suspend fun handleIntent(intent: QuizGameIntent) {
+        when (intent) {
+            is QuizGameIntent.Initialize -> initialize()
+            is QuizGameIntent.AnswerQuestion -> answerQuestion(
+                question = intent.question,
+                option = intent.option
+            )
         }
     }
 
-    fun answerQuestion(question: Question, variantIndex: Int) = viewModelScope.launch(Dispatchers.IO) {
-        val nextQuestion = quizGameProcessor.answerQuestion(question, variantIndex)
-        withContext(Dispatchers.Main) {
-            if (nextQuestion == null) {
-                endResult.value =
-                    QuizEndGameResult(
-                        quizGameProcessor.correctAnswers
-                    )
-            } else {
-                currentQuestion.value = nextQuestion!!
+    private suspend fun initialize() {
+        updateState {
+            it.copy(
+                question = quizGameProcessor.generateRandomQuestions().first()
+            )
+        }
+    }
+
+    private suspend fun answerQuestion(question: Question, option: Int) {
+        val nextQuestion = quizGameProcessor.answerQuestion(question, option)
+        if (nextQuestion == null) {
+            globalRouter.pushFragment(
+                QuizMarkFragment().also {
+                    it.mark = quizGameProcessor.correctAnswers
+                }
+            )
+        } else {
+            updateState {
+                it.copy(
+                    question = nextQuestion
+                )
             }
         }
     }
