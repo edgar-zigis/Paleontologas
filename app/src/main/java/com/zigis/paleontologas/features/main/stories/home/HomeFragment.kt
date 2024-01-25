@@ -1,57 +1,42 @@
 package com.zigis.paleontologas.features.main.stories.home
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.zigis.paleontologas.core.architecture.BaseFragment
+import android.content.Context
+import com.zigis.paleontologas.core.architecture.v2.BaseFragment
+import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.features.library.data.Period
-import com.zigis.paleontologas.features.main.stories.about.AboutFragment
-import com.zigis.paleontologas.features.main.stories.language.LanguageFragment
-import com.zigis.paleontologas.features.library.stories.periods.PeriodFragment
-import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressFragment
+import org.koin.android.ext.android.inject
 
-class HomeFragment : BaseFragment<HomeViewModel, HomeView>(),
-    HomeViewDelegate {
+class HomeFragment : BaseFragment<HomeViewState, HomeIntent, HomeViewModel>(), HomeViewDelegate {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): HomeView {
-        return HomeView(inflater.context).also {
+    override val viewModel: HomeViewModel by inject()
+
+    override fun onCreateView(context: Context): IView<HomeViewState> {
+        return HomeView(context).also {
             it.delegate = this
         }
     }
 
     override fun onAttached() {
         super.onAttached()
-        viewModel.loadPeriods()
-    }
-
-    override fun observeChanges() {
-        viewModel.periods.observe(viewLifecycleOwner) {
-            contentView.setPeriods(items = it)
-        }
+        viewModel.intents.sendSafely(HomeIntent.Initialize)
     }
 
     //  MainMenuViewDelegate
 
     override fun openPeriod(period: Period) {
-        globalRouter.pushFragment(
-            PeriodFragment().also { it.periodId = period.id }
-        )
+        viewModel.intents.sendSafely(HomeIntent.OpenPeriod(periodId = period.id))
     }
 
     override fun openQuiz() {
-        globalRouter.pushFragment(
-            QuizProgressFragment()
-        )
+        viewModel.intents.sendSafely(HomeIntent.OpenQuiz)
     }
 
     override fun openLanguages() {
-        globalRouter.pushFragment(
-            LanguageFragment()
-        )
+        viewModel.intents.sendSafely(HomeIntent.OpenLanguages)
     }
 
     override fun openAbout() {
-        globalRouter.pushFragment(
-            AboutFragment()
-        )
+        viewModel.intents.sendSafely(HomeIntent.OpenAbout)
     }
 }
