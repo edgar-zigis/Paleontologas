@@ -13,11 +13,11 @@ import org.koin.dsl.module
 
 val viewModelModule = module {
     viewModel { LauncherViewModel(get()) }
-    viewModel { HomeViewModel(get()) }
+    viewModel { HomeViewModel(get(), get()) }
     viewModel { PeriodViewModel(get(), get(), get()) }
     viewModel { LifeFormViewModel(get()) }
     viewModel { AboutViewModel(get()) }
-    viewModel { LanguageViewModel(get()) }
     viewModel { QuizProgressViewModel(get(), get()) }
+    viewModel { LanguageViewModel(get(), get()) }
     viewModel { QuizGameViewModel(get()) }
 }
