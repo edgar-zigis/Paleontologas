@@ -2,7 +2,7 @@ package com.zigis.paleontologas.features.launcher.stories.main
 
 import android.content.Context
 import android.widget.Toast
-import com.zigis.paleontologas.core.architecture.v2.BaseView
+import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.databinding.ViewLauncherBinding
 
 class LauncherView(context: Context) : BaseView<LauncherViewState, ViewLauncherBinding>(context) {

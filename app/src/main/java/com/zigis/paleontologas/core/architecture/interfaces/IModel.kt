@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.core.architecture.v2.interfaces
+package com.zigis.paleontologas.core.architecture.interfaces
 
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.StateFlow

@@ -6,35 +6,43 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModel
 import com.evernote.android.state.StateSaver
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.PaleoApplication
+import com.zigis.paleontologas.core.architecture.interfaces.IIntent
+import com.zigis.paleontologas.core.architecture.interfaces.IState
+import com.zigis.paleontologas.core.architecture.interfaces.IView
+import com.zigis.paleontologas.core.extensions.launchOnRepeat
 import com.zigis.paleontologas.core.interfaces.Navigable
-import com.zigis.paleontologas.core.routers.GlobalRouter
-import org.koin.android.ext.android.inject
-import org.koin.android.viewmodel.ext.android.viewModel
-import java.lang.reflect.ParameterizedType
-import kotlin.reflect.KClass
+import com.zigis.paleontologas.core.providers.SavedStateProvider
 
-abstract class BaseFragment<T : ViewModel, V : View> : Fragment(), Navigable {
+abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : Fragment(), Navigable {
 
-    protected val globalRouter: GlobalRouter by inject()
-    protected val viewModel: T by viewModel(viewModelClass())
-    protected lateinit var contentView: V
+    protected abstract val viewModel: M
+    private var contentView: IView<S>? = null
 
-    abstract fun onCreateView(inflater: LayoutInflater, container: ViewGroup?): V
-    abstract fun observeChanges()
+    protected fun <T> savedState() = SavedStateProvider.Nullable<T>(
+        arguments ?: Bundle(javaClass.classLoader)
+    )
+
+    abstract fun onCreateView(context: Context): IView<S>
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        super.onCreateView(inflater, container, savedInstanceState)
-        observeChanges()
-        return onCreateView(inflater, container).also {
+        return onCreateView(inflater.context).also {
             contentView = it
+        } as View
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        launchOnRepeat {
+            viewModel.state.collect {
+                contentView?.render(it)
+            }
         }
     }
 
@@ -55,6 +63,8 @@ abstract class BaseFragment<T : ViewModel, V : View> : Fragment(), Navigable {
     }
 
     override fun onDestroyView() {
+        (contentView as? BaseView<*, *>)?.onDestroyView()
+        contentView = null
         super.onDestroyView()
         addLogs()
     }
@@ -74,11 +84,5 @@ abstract class BaseFragment<T : ViewModel, V : View> : Fragment(), Navigable {
         if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
         FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
-    }
-
-    @Suppress("UNCHECKED_CAST")
-    private fun viewModelClass(): KClass<T> {
-        return ((javaClass.genericSuperclass as ParameterizedType)
-            .actualTypeArguments[0] as Class<T>).kotlin
     }
 }

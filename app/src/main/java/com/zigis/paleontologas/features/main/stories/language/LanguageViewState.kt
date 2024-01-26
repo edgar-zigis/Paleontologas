@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.main.stories.language
 
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
+import com.zigis.paleontologas.core.architecture.interfaces.IState
 import java.util.Locale
 
 data class LanguageViewState(

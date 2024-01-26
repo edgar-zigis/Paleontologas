@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.DividerItemDecoration.VERTICAL
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nightonke.boommenu.BoomButtons.SimpleCircleButton
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.v2.BaseView
+import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.databinding.ViewMainMenuBinding
 
 class HomeView(context: Context) : BaseView<HomeViewState, ViewMainMenuBinding>(context) {

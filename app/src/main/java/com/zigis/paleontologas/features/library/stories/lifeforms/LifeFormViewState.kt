@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.library.stories.lifeforms
 
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
+import com.zigis.paleontologas.core.architecture.interfaces.IState
 
 data class LifeFormViewState(
     val title: String = "",

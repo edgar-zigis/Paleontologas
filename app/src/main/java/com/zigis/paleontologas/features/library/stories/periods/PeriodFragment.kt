@@ -1,15 +1,15 @@
 package com.zigis.paleontologas.features.library.stories.periods
 
 import android.content.Context
-import com.zigis.paleontologas.core.architecture.v2.BaseFragment
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.architecture.BaseFragment
+import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.features.library.data.LifeForm
 import org.koin.android.ext.android.inject
 
 class PeriodFragment : BaseFragment<PeriodViewState, PeriodIntent, PeriodViewModel>(), PeriodViewDelegate {
 
-    var periodId: Int by savedState(0)
+    var configuration: PeriodConfiguration? by savedState()
 
     override val viewModel: PeriodViewModel by inject()
 
@@ -21,7 +21,7 @@ class PeriodFragment : BaseFragment<PeriodViewState, PeriodIntent, PeriodViewMod
 
     override fun onAttached() {
         viewModel.intents.sendSafely(
-            PeriodIntent.Initialize(periodId = periodId)
+            PeriodIntent.Initialize(periodId = configuration!!.periodId)
         )
     }
 

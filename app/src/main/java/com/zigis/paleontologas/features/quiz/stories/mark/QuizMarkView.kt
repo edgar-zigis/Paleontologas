@@ -2,7 +2,7 @@ package com.zigis.paleontologas.features.quiz.stories.mark
 
 import android.content.Context
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.v2.BaseView
+import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewQuizMarkBinding
 import com.zigis.paleontologas.features.quiz.utilities.QuizMarkUtility

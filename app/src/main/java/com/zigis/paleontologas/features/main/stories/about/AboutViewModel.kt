@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.main.stories.about
 
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.managers.ApplicationVersionManager
 
 class AboutViewModel(

@@ -1,8 +1,8 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
 import android.content.Context
-import com.zigis.paleontologas.core.architecture.v2.BaseFragment
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.architecture.BaseFragment
+import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.features.quiz.data.Question
 import org.koin.android.ext.android.inject

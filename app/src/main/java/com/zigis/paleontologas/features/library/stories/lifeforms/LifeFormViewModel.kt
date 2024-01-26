@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.library.stories.lifeforms
 
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
 
 class LifeFormViewModel(

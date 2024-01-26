@@ -1,7 +1,7 @@
 package com.zigis.paleontologas.features.main.stories.language
 
 import android.content.Intent
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.extensions.android.DistinctLiveData
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider

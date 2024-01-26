@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.quiz.stories.mark
 
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 
 class QuizMarkViewModel : BaseViewModel<QuizMarkViewState, QuizMarkIntent>() {
 

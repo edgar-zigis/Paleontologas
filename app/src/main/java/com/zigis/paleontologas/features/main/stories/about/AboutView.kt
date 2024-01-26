@@ -6,7 +6,7 @@ import android.text.SpannableString
 import android.text.Spanned
 import android.text.style.StyleSpan
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.v2.BaseView
+import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewAboutBinding
 
