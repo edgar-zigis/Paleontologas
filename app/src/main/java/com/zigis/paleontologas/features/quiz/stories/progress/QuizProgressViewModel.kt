@@ -1,12 +1,11 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
-import com.zigis.paleontologas.core.routers.GlobalRouter
-import com.zigis.paleontologas.features.quiz.stories.game.QuizGameFragment
+import com.zigis.paleontologas.features.quiz.routers.QuizRouter
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
 
 class QuizProgressViewModel(
-    private val globalRouter: GlobalRouter,
+    private val quizRouter: QuizRouter,
     private val quizProgressUseCase: QuizProgressUseCase
 ) : BaseViewModel<QuizProgressViewState, QuizProgressIntent>() {
 
@@ -15,9 +14,7 @@ class QuizProgressViewModel(
     override suspend fun handleIntent(intent: QuizProgressIntent) {
         when (intent) {
             is QuizProgressIntent.Initialize -> initialize()
-            is QuizProgressIntent.StartQuiz -> globalRouter.pushFragment(
-                QuizGameFragment()
-            )
+            is QuizProgressIntent.StartQuiz -> quizRouter.openQuizGame()
         }
     }
 
