@@ -4,7 +4,7 @@ import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import com.zigis.paleontologas.features.quiz.usecases.QuizGenerateQuestionsUseCase
 
-class QuizGameProcessor constructor(
+class QuizGameProcessor(
     private val questionRepository: QuestionRepository,
     private val quizGenerateQuestionsUseCase: QuizGenerateQuestionsUseCase
 ) {
