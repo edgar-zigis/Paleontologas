@@ -50,7 +50,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.11.0'
 
     //  Firebase
-    implementation 'com.google.firebase:firebase-crashlytics:18.6.0'
+    implementation 'com.google.firebase:firebase-crashlytics:18.6.1'
     implementation 'com.google.firebase:firebase-analytics:21.5.0'
 
     //  Asynchronous tasks
@@ -68,9 +68,6 @@ dependencies {
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     //  UI
-    implementation 'com.evernote:android-state:1.4.1'
-    kapt 'com.evernote:android-state-processor:1.4.1'
-
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.chrisbanes.photoview:library:1.2.3'
     implementation 'com.nightonke:boommenu:2.1.1'
