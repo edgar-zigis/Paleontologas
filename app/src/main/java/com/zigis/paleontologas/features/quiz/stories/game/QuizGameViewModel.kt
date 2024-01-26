@@ -1,9 +1,10 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
+import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkConfiguration
 import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkFragment
 
 class QuizGameViewModel(
@@ -36,7 +37,9 @@ class QuizGameViewModel(
         if (nextQuestion == null) {
             globalRouter.pushFragment(
                 QuizMarkFragment().also {
-                    it.mark = quizGameProcessor.correctAnswers
+                    it.configuration = QuizMarkConfiguration(
+                        mark = quizGameProcessor.correctAnswers
+                    )
                 }
             )
         } else {

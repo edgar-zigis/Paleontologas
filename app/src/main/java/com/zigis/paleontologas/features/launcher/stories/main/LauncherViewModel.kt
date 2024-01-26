@@ -1,7 +1,7 @@
 package com.zigis.paleontologas.features.launcher.stories.main
 
 import android.content.Intent
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
 import com.zigis.paleontologas.features.main.MainActivity

@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.core.architecture.v2
+package com.zigis.paleontologas.core.architecture
 
 import com.zigis.paleontologas.core.routers.GlobalRouter
 

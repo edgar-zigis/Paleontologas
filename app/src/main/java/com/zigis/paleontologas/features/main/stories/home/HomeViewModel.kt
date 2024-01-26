@@ -1,7 +1,8 @@
 package com.zigis.paleontologas.features.main.stories.home
 
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.routers.GlobalRouter
+import com.zigis.paleontologas.features.library.stories.periods.PeriodConfiguration
 import com.zigis.paleontologas.features.library.stories.periods.PeriodFragment
 import com.zigis.paleontologas.features.library.usecases.PeriodListUseCase
 import com.zigis.paleontologas.features.main.stories.about.AboutFragment
@@ -20,7 +21,9 @@ class HomeViewModel(
             is HomeIntent.Initialize -> initialize()
             is HomeIntent.OpenPeriod -> globalRouter.pushFragment(
                 PeriodFragment().also {
-                    it.periodId = intent.periodId
+                    it.configuration = PeriodConfiguration(
+                        periodId = intent.periodId
+                    )
                 }
             )
             is HomeIntent.OpenQuiz -> globalRouter.pushFragment(

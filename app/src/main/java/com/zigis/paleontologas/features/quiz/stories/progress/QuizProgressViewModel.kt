@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
-import com.zigis.paleontologas.core.architecture.v2.BaseViewModel
+import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.quiz.stories.game.QuizGameFragment
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase

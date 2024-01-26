@@ -1,15 +1,15 @@
 package com.zigis.paleontologas.features.quiz.stories.mark
 
 import android.content.Context
-import com.zigis.paleontologas.core.architecture.v2.BaseFragment
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.architecture.BaseFragment
+import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
 import org.koin.android.ext.android.inject
 
 class QuizMarkFragment : BaseFragment<QuizMarkViewState, QuizMarkIntent, QuizMarkViewModel>(),
     QuizMarkViewDelegate {
 
-    var mark: Int by savedState(0)
+    var configuration: QuizMarkConfiguration? by savedState()
 
     override val viewModel: QuizMarkViewModel by inject()
 
@@ -20,7 +20,9 @@ class QuizMarkFragment : BaseFragment<QuizMarkViewState, QuizMarkIntent, QuizMar
     }
 
     override fun onAttached() {
-        viewModel.intents.sendSafely(QuizMarkIntent.Initialize(mark = mark))
+        viewModel.intents.sendSafely(QuizMarkIntent.Initialize(
+            mark = configuration!!.mark
+        ))
     }
 
     override fun onBackPressed(): Boolean {

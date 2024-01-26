@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.GridLayoutManager
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.v2.BaseView
+import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.dp
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString

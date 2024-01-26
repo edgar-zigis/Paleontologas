@@ -1,8 +1,8 @@
 package com.zigis.paleontologas.features.main.stories.home
 
 import android.content.Context
-import com.zigis.paleontologas.core.architecture.v2.BaseFragment
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IView
+import com.zigis.paleontologas.core.architecture.BaseFragment
+import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.features.library.data.Period
 import org.koin.android.ext.android.inject

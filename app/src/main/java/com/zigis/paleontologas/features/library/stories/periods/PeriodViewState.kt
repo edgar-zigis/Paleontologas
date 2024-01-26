@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.library.stories.periods
 
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
+import com.zigis.paleontologas.core.architecture.interfaces.IState
 import com.zigis.paleontologas.features.library.data.LifeForm
 
 data class PeriodViewState(

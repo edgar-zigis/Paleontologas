@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IIntent
+import com.zigis.paleontologas.core.architecture.interfaces.IIntent
 import com.zigis.paleontologas.features.quiz.data.Question
 
 sealed class QuizGameIntent : IIntent {

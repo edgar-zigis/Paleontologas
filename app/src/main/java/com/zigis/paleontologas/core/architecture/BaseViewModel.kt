@@ -1,10 +1,10 @@
-package com.zigis.paleontologas.core.architecture.v2
+package com.zigis.paleontologas.core.architecture
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IIntent
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IModel
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IState
+import com.zigis.paleontologas.core.architecture.interfaces.IIntent
+import com.zigis.paleontologas.core.architecture.interfaces.IModel
+import com.zigis.paleontologas.core.architecture.interfaces.IState
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

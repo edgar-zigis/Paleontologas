@@ -10,7 +10,7 @@ import android.os.VibratorManager
 import androidx.core.content.ContextCompat
 import com.github.florent37.viewanimator.ViewAnimator
 import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.architecture.v2.BaseView
+import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.runDelayed

@@ -1,6 +1,6 @@
 package com.zigis.paleontologas.features.main.stories.home
 
-import com.zigis.paleontologas.core.architecture.v2.interfaces.IIntent
+import com.zigis.paleontologas.core.architecture.interfaces.IIntent
 
 sealed class HomeIntent : IIntent {
     data object Initialize : HomeIntent()
