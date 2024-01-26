@@ -7,9 +7,10 @@ import com.zigis.paleontologas.features.library.stories.periods.PeriodFragment
 import com.zigis.paleontologas.features.library.usecases.PeriodListUseCase
 import com.zigis.paleontologas.features.main.stories.about.AboutFragment
 import com.zigis.paleontologas.features.main.stories.language.LanguageFragment
-import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressFragment
+import com.zigis.paleontologas.features.quiz.routers.QuizRouter
 
 class HomeViewModel(
+    private val quizRouter: QuizRouter,
     private val globalRouter: GlobalRouter,
     private val periodListUseCase: PeriodListUseCase
 ) : BaseViewModel<HomeViewState, HomeIntent>() {
@@ -26,9 +27,7 @@ class HomeViewModel(
                     )
                 }
             )
-            is HomeIntent.OpenQuiz -> globalRouter.pushFragment(
-                QuizProgressFragment()
-            )
+            is HomeIntent.OpenQuiz -> quizRouter.openQuizProgress()
             is HomeIntent.OpenLanguages -> globalRouter.pushFragment(
                 LanguageFragment()
             )
