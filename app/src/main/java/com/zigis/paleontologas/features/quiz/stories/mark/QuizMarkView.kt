@@ -6,7 +6,6 @@ import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewQuizMarkBinding
 import com.zigis.paleontologas.features.quiz.utilities.QuizMarkUtility
-import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 
 class QuizMarkView(context: Context) : BaseView<QuizMarkViewState, ViewQuizMarkBinding>(context) {
 
@@ -32,7 +31,7 @@ class QuizMarkView(context: Context) : BaseView<QuizMarkViewState, ViewQuizMarkB
         finalMark.text = context.getString(
             R.string.quiz_mark_placeholder,
             state.mark,
-            QuizGameProcessor.questionsToGenerateCount
+            state.totalQuestions
         )
         finalMarkDescription.text = context.getString(QuizMarkUtility.getMarkDescription(state.mark))
     }
