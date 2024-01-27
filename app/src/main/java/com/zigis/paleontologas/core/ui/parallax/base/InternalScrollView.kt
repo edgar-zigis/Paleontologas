@@ -5,7 +5,7 @@ import android.util.AttributeSet
 import android.widget.ScrollView
 import com.zigis.paleontologas.core.ui.parallax.interfaces.OnScrollViewChangeListener
 
-class InternalScrollView constructor(
+class InternalScrollView(
     context: Context,
     attrs: AttributeSet? = null
 ) : ScrollView(context, attrs) {

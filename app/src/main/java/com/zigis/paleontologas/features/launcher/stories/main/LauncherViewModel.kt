@@ -3,6 +3,7 @@ package com.zigis.paleontologas.features.launcher.stories.main
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
 import com.zigis.paleontologas.features.main.routers.MainRouter
+import com.zigis.paleontologas.features.launcher.stories.main.LauncherIntent.*
 import kotlinx.coroutines.*
 
 @OptIn(DelicateCoroutinesApi::class)
@@ -15,7 +16,7 @@ class LauncherViewModel(
 
     override suspend fun handleIntent(intent: LauncherIntent) {
         when (intent) {
-            is LauncherIntent.Initialize -> initialize()
+            is Initialize -> initialize()
         }
     }
 

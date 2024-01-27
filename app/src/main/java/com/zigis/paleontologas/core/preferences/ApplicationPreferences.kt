@@ -2,7 +2,7 @@ package com.zigis.paleontologas.core.preferences
 
 import android.content.SharedPreferences
 
-class ApplicationPreferences constructor(
+class ApplicationPreferences(
     private val preferences: SharedPreferences
 ) {
     var locale: String?

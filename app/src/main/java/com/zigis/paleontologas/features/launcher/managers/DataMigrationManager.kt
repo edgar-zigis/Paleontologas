@@ -9,7 +9,7 @@ import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 
-class DataMigrationManager constructor(
+class DataMigrationManager(
     private val applicationPreferences: ApplicationPreferences,
     private val applicationVersionManager: ApplicationVersionManager,
     private val periodRepository: PeriodRepository,

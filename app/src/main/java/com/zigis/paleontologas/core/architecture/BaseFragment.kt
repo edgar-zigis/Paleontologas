@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.google.firebase.crashlytics.FirebaseCrashlytics
-import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.core.architecture.interfaces.IIntent
 import com.zigis.paleontologas.core.architecture.interfaces.IState
 import com.zigis.paleontologas.core.architecture.interfaces.IView
@@ -18,13 +17,19 @@ import com.zigis.paleontologas.core.providers.SavedStateProvider
 abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : Fragment(), Navigable {
 
     protected abstract val viewModel: M
+    private val savable = Bundle()
     private var contentView: IView<S>? = null
 
-    protected fun <T> savedState() = SavedStateProvider.Nullable<T>(
-        arguments ?: Bundle(javaClass.classLoader)
-    )
+    protected fun <T> savedState() = SavedStateProvider.Nullable<T>(savable)
 
     abstract fun onCreateView(context: Context): IView<S>
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        if (savedInstanceState != null) {
+            savable.putAll(savedInstanceState.getBundle("_state"))
+        }
+        super.onCreate(savedInstanceState)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -45,11 +50,11 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
         }
     }
 
-    override fun onAttached() { }
-
     override fun onBackPressed(): Boolean {
         return false
     }
+
+    override fun onAttached() { }
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -73,8 +78,12 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
         onAttached()
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putBundle("_state", savable)
+        super.onSaveInstanceState(outState)
+    }
+
     private fun addLogs() {
-        if (PaleoApplication.disableCrashLytics) return
         val methodName = Thread.currentThread().stackTrace[3].methodName
         FirebaseCrashlytics.getInstance().log(this.javaClass.simpleName + ": " + methodName)
     }

@@ -5,7 +5,7 @@ import android.app.Application
 import android.content.Context
 import android.os.Bundle
 
-class AndroidLifecycleProvider constructor(
+class AndroidLifecycleProvider(
     private val applicationContext: Context
 ) {
     val activityLifecycleCallbacks = object : Application.ActivityLifecycleCallbacks {

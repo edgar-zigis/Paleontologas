@@ -5,6 +5,7 @@ import com.zigis.paleontologas.features.library.routers.LibraryRouter
 import com.zigis.paleontologas.features.library.usecases.PeriodListUseCase
 import com.zigis.paleontologas.features.main.routers.MainRouter
 import com.zigis.paleontologas.features.quiz.routers.QuizRouter
+import com.zigis.paleontologas.features.main.stories.home.HomeIntent.*
 
 class HomeViewModel(
     private val mainRouter: MainRouter,
@@ -17,11 +18,11 @@ class HomeViewModel(
 
     override suspend fun handleIntent(intent: HomeIntent) {
         when (intent) {
-            is HomeIntent.Initialize -> initialize()
-            is HomeIntent.OpenPeriod -> libraryRouter.openPeriod(periodId = intent.periodId)
-            is HomeIntent.OpenQuiz -> quizRouter.openQuizProgress()
-            is HomeIntent.OpenLanguages -> mainRouter.openLanguages()
-            is HomeIntent.OpenAbout -> mainRouter.openAboutSection()
+            is Initialize -> initialize()
+            is OpenPeriod -> libraryRouter.openPeriod(periodId = intent.periodId)
+            is OpenQuiz -> quizRouter.openQuizProgress()
+            is OpenLanguages -> mainRouter.openLanguages()
+            is OpenAbout -> mainRouter.openAboutSection()
         }
     }
 
