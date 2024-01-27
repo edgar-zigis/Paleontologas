@@ -1,15 +1,13 @@
 package com.zigis.paleontologas.features.library.stories.periods
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
-import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
-import com.zigis.paleontologas.features.library.stories.lifeforms.LifeFormConfiguration
-import com.zigis.paleontologas.features.library.stories.lifeforms.LifeFormFragment
+import com.zigis.paleontologas.features.library.routers.LibraryRouter
 import com.zigis.paleontologas.features.library.usecases.LifeFormListUseCase
 import kotlinx.coroutines.delay
 
 class PeriodViewModel(
-    private val globalRouter: GlobalRouter,
+    private val libraryRouter: LibraryRouter,
     private val periodRepository: PeriodRepository,
     private val lifeFormListUseCase: LifeFormListUseCase
 ) : BaseViewModel<PeriodViewState, PeriodIntent>() {
@@ -19,13 +17,7 @@ class PeriodViewModel(
     override suspend fun handleIntent(intent: PeriodIntent) {
         when (intent) {
             is PeriodIntent.Initialize -> initialize(periodId = intent.periodId)
-            is PeriodIntent.OpenLifeForm -> globalRouter.pushFragment(
-                LifeFormFragment().also {
-                    it.configuration = LifeFormConfiguration(
-                        lifeFormId = intent.lifeForm.id
-                    )
-                }
-            )
+            is PeriodIntent.OpenLifeForm -> libraryRouter.openLifeForm(intent.lifeForm.id)
         }
     }
 
