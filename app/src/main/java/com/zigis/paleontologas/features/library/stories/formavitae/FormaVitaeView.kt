@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library.stories.lifeforms
+package com.zigis.paleontologas.features.library.stories.formavitae
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -13,9 +13,9 @@ import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
 import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class LifeFormView(context: Context) : BaseView<LifeFormViewState, ViewParallaxFragmentBinding>(context) {
+class FormaVitaeView(context: Context) : BaseView<FormaVitaeViewState, ViewParallaxFragmentBinding>(context) {
 
-    var delegate: LifeFormViewDelegate? = null
+    var delegate: FormaVitaeViewDelegate? = null
 
     override var binding: ViewParallaxFragmentBinding? = ViewParallaxFragmentBinding.inflate(layoutInflater)
 
@@ -34,7 +34,7 @@ class LifeFormView(context: Context) : BaseView<LifeFormViewState, ViewParallaxF
         addView(requireBinding().root)
     }
 
-    override fun render(state: LifeFormViewState) {
+    override fun render(state: FormaVitaeViewState) {
         with(requireBinding()) {
             title.text = context.getString(state.title)
         }

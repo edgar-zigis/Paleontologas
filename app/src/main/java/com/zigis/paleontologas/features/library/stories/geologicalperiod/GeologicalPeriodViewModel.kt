@@ -1,24 +1,24 @@
-package com.zigis.paleontologas.features.library.stories.periods
+package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
 import com.zigis.paleontologas.features.library.routers.LibraryRouter
-import com.zigis.paleontologas.features.library.usecases.LifeFormListUseCase
-import com.zigis.paleontologas.features.library.stories.periods.PeriodIntent.*
+import com.zigis.paleontologas.features.library.factories.GeologicalPeriodAdapterItemFactory
+import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodIntent.*
 import kotlinx.coroutines.delay
 
-class PeriodViewModel(
+class GeologicalPeriodViewModel(
     private val libraryRouter: LibraryRouter,
     private val periodRepository: PeriodRepository,
-    private val lifeFormListUseCase: LifeFormListUseCase
-) : BaseViewModel<PeriodViewState, PeriodIntent>() {
+    private val geologicalPeriodAdapterItemFactory: GeologicalPeriodAdapterItemFactory
+) : BaseViewModel<GeologicalPeriodViewState, GeologicalPeriodIntent>() {
 
-    override fun getInitialData() = PeriodViewState()
+    override fun getInitialData() = GeologicalPeriodViewState()
 
-    override suspend fun handleIntent(intent: PeriodIntent) {
+    override suspend fun handleIntent(intent: GeologicalPeriodIntent) {
         when (intent) {
             is Initialize -> initialize(periodId = intent.periodId)
-            is OpenLifeForm -> libraryRouter.openLifeForm(intent.lifeForm.id)
+            is OpenLifeForm -> libraryRouter.openLifeForm(intent.lifeFormId)
         }
     }
 
@@ -42,7 +42,7 @@ class PeriodViewModel(
         delay(350)
         updateState {
             it.copy(
-                lifeForms = lifeFormListUseCase.getPeriodItems(periodId)
+                lifeFormItems = geologicalPeriodAdapterItemFactory.getItems(periodId = periodId)
             )
         }
     }

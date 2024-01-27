@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library.stories.periods
+package com.zigis.paleontologas.features.library.stories.geologicalperiod.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,12 +7,11 @@ import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewLifeformsListItemBinding
-import com.zigis.paleontologas.features.library.data.LifeForm
 
-class LifeFormListAdapter(
-    override var items: List<LifeForm> = emptyList(),
-    private val onClick: (LifeForm) -> Unit
-) : BaseListAdapter<LifeForm, ViewLifeformsListItemBinding>(items) {
+class GeologicalPeriodListAdapter(
+    override var items: List<GeologicalPeriodListAdapterItem> = emptyList(),
+    private val onClick: (Int) -> Unit
+) : BaseListAdapter<GeologicalPeriodListAdapterItem, ViewLifeformsListItemBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
@@ -24,12 +23,12 @@ class LifeFormListAdapter(
 
     override fun onBindViewHolder(
         binding: ViewLifeformsListItemBinding,
-        item: LifeForm,
+        item: GeologicalPeriodListAdapterItem,
         position: Int
     ) = with(binding) {
         root.apply {
             setDebounceClickListener {
-                onClick(item)
+                onClick(item.id)
             }
         }
 

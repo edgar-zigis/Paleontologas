@@ -1,16 +1,16 @@
-package com.zigis.paleontologas.features.library.stories.lifeforms
+package com.zigis.paleontologas.features.library.stories.formavitae
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
-import com.zigis.paleontologas.features.library.stories.lifeforms.LifeFormIntent.*
+import com.zigis.paleontologas.features.library.stories.formavitae.FormaVitaeIntent.*
 
-class LifeFormViewModel(
+class FormaVitaeViewModel(
     private val lifeFormRepository: LifeFormRepository
-) : BaseViewModel<LifeFormViewState, LifeFormIntent>() {
+) : BaseViewModel<FormaVitaeViewState, FormaVitaeIntent>() {
 
-    override fun getInitialData() = LifeFormViewState()
+    override fun getInitialData() = FormaVitaeViewState()
 
-    override suspend fun handleIntent(intent: LifeFormIntent) {
+    override suspend fun handleIntent(intent: FormaVitaeIntent) {
         when (intent) {
             is Initialize -> initialize(lifeFormId = intent.lifeFormId)
         }

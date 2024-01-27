@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library.stories.periods
+package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -13,23 +13,24 @@ import com.zigis.paleontologas.core.ui.recyclerview.GridSpacingItemDecoration
 import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
 import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
 import com.zigis.paleontologas.databinding.ViewPeriodContentBinding
+import com.zigis.paleontologas.features.library.stories.geologicalperiod.adapter.GeologicalPeriodListAdapter
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class PeriodView(context: Context) : BaseView<PeriodViewState, ViewParallaxFragmentBinding>(context) {
+class GeologicalPeriodView(context: Context) : BaseView<GeologicalPeriodViewState, ViewParallaxFragmentBinding>(context) {
 
     companion object {
         private const val lifeFormColumnCount = 2
     }
 
-    var delegate: PeriodViewDelegate? = null
+    var delegate: GeologicalPeriodViewDelegate? = null
 
     override var binding: ViewParallaxFragmentBinding? = ViewParallaxFragmentBinding.inflate(layoutInflater)
 
     private val zoomViewBinding = ViewParallaxHeaderBinding.inflate(LayoutInflater.from(context))
     private val contentViewBinding = ViewPeriodContentBinding.inflate(LayoutInflater.from(context))
 
-    private val adapter = LifeFormListAdapter {
-        delegate?.openLifeForm(it)
+    private val adapter = GeologicalPeriodListAdapter {
+        delegate?.openLifeForm(lifeFormId = it)
     }
 
     init {
@@ -58,7 +59,7 @@ class PeriodView(context: Context) : BaseView<PeriodViewState, ViewParallaxFragm
         addView(requireBinding().root)
     }
 
-    override fun render(state: PeriodViewState) {
+    override fun render(state: GeologicalPeriodViewState) {
         with(requireBinding()) {
             title.text = context.getString(state.title)
         }
@@ -91,6 +92,6 @@ class PeriodView(context: Context) : BaseView<PeriodViewState, ViewParallaxFragm
 
             lifeFormInfo.text = context.getString(state.lifeFormDescription)
         }
-        adapter.updateItems(state.lifeForms)
+        adapter.updateItems(state.lifeFormItems)
     }
 }
