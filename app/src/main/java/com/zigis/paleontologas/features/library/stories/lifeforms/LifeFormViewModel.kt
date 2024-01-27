@@ -2,6 +2,7 @@ package com.zigis.paleontologas.features.library.stories.lifeforms
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
+import com.zigis.paleontologas.features.library.stories.lifeforms.LifeFormIntent.*
 
 class LifeFormViewModel(
     private val lifeFormRepository: LifeFormRepository
@@ -11,7 +12,7 @@ class LifeFormViewModel(
 
     override suspend fun handleIntent(intent: LifeFormIntent) {
         when (intent) {
-            is LifeFormIntent.Initialize -> initialize(lifeFormId = intent.lifeFormId)
+            is Initialize -> initialize(lifeFormId = intent.lifeFormId)
         }
     }
 

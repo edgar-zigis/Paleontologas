@@ -4,6 +4,7 @@ import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 import com.zigis.paleontologas.features.quiz.routers.QuizRouter
+import com.zigis.paleontologas.features.quiz.stories.game.QuizGameIntent.*
 
 class QuizGameViewModel(
     private val quizRouter: QuizRouter,
@@ -14,8 +15,8 @@ class QuizGameViewModel(
 
     override suspend fun handleIntent(intent: QuizGameIntent) {
         when (intent) {
-            is QuizGameIntent.Initialize -> initialize()
-            is QuizGameIntent.AnswerQuestion -> answerQuestion(
+            is Initialize -> initialize()
+            is AnswerQuestion -> answerQuestion(
                 question = intent.question,
                 option = intent.option
             )

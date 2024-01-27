@@ -3,7 +3,7 @@ package com.zigis.paleontologas.core.architecture
 import androidx.sqlite.db.SimpleSQLiteQuery
 import java.lang.reflect.ParameterizedType
 
-abstract class BaseRepository<T> constructor(
+abstract class BaseRepository<T>(
     private val dao: BaseDao<T>
 ) {
     abstract suspend fun initialize()

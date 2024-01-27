@@ -3,7 +3,7 @@ package com.zigis.paleontologas.core.managers
 import android.content.Context
 import android.content.pm.PackageManager
 
-class ApplicationVersionManager constructor(
+class ApplicationVersionManager(
     private val context: Context
 ) {
     fun getApplicationVersionName(): String {

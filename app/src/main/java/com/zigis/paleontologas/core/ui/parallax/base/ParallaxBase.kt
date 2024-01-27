@@ -14,7 +14,7 @@ import kotlin.math.abs
 import kotlin.math.min
 import kotlin.math.roundToInt
 
-abstract class ParallaxBase<T : View> constructor(
+abstract class ParallaxBase<T : View>(
     context: Context,
     attributes: AttributeSet? = null
 ) : LinearLayout(context, attributes),

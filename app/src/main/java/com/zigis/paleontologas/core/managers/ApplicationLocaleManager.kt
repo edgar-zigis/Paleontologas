@@ -3,7 +3,7 @@ package com.zigis.paleontologas.core.managers
 import com.zigis.paleontologas.core.preferences.ApplicationPreferences
 import java.util.*
 
-class ApplicationLocaleManager constructor(
+class ApplicationLocaleManager(
     private val applicationPreferences: ApplicationPreferences
 ) {
     fun getAvailableLocales(): List<Locale> {

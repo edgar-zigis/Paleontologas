@@ -2,6 +2,7 @@ package com.zigis.paleontologas.features.quiz.stories.mark
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
+import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkIntent.*
 
 class QuizMarkViewModel : BaseViewModel<QuizMarkViewState, QuizMarkIntent>() {
 
@@ -9,7 +10,7 @@ class QuizMarkViewModel : BaseViewModel<QuizMarkViewState, QuizMarkIntent>() {
 
     override suspend fun handleIntent(intent: QuizMarkIntent) {
         when (intent) {
-            is QuizMarkIntent.Initialize -> initialize(mark = intent.mark)
+            is Initialize -> initialize(mark = intent.mark)
         }
     }
 

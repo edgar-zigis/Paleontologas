@@ -16,7 +16,7 @@ import com.zigis.paleontologas.core.ui.parallax.base.ParallaxBase
 import com.zigis.paleontologas.core.ui.parallax.interfaces.OnScrollViewChangeListener
 import kotlin.math.abs
 
-class ParallaxScrollView constructor(
+class ParallaxScrollView(
     context: Context,
     attrs: AttributeSet? = null
 ) : ParallaxBase<InternalScrollView>(context, attrs) {

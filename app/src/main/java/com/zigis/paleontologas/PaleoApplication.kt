@@ -3,23 +3,14 @@ package com.zigis.paleontologas
 import android.app.Application
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
-import com.zigis.paleontologas.di.applicationModule
-import com.zigis.paleontologas.di.dataModule
-import com.zigis.paleontologas.di.libraryModule
-import com.zigis.paleontologas.di.mainModule
-import com.zigis.paleontologas.di.preferenceModule
-import com.zigis.paleontologas.di.quizModule
-import com.zigis.paleontologas.di.useCaseModule
-import com.zigis.paleontologas.di.viewModelModule
+import com.zigis.paleontologas.features.library.libraryModule
+import com.zigis.paleontologas.features.main.mainModule
+import com.zigis.paleontologas.features.quiz.quizModule
 import org.koin.android.ext.android.inject
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
 class PaleoApplication : Application() {
-
-    companion object {
-        const val disableCrashLytics = false
-    }
 
     private val androidLifecycleProvider: AndroidLifecycleProvider by inject()
 
@@ -27,13 +18,12 @@ class PaleoApplication : Application() {
         super.onCreate()
         startActivityMonitor()
         injectDependencies()
-        registerActivityLifecycleCallbacks(androidLifecycleProvider.activityLifecycleCallbacks)
+        registerActivityLifecycleCallbacks(
+            androidLifecycleProvider.activityLifecycleCallbacks
+        )
     }
 
     private fun startActivityMonitor() {
-        if (disableCrashLytics) {
-            return
-        }
         FirebaseCrashlytics
             .getInstance()
             .setCrashlyticsCollectionEnabled(
@@ -47,13 +37,9 @@ class PaleoApplication : Application() {
             modules(
                 listOf(
                     applicationModule,
-                    preferenceModule,
-                    dataModule,
                     mainModule,
                     quizModule,
-                    libraryModule,
-                    useCaseModule,
-                    viewModelModule
+                    libraryModule
                 )
             )
         }
