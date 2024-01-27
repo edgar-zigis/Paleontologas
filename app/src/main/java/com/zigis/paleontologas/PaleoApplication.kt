@@ -5,6 +5,7 @@ import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.di.applicationModule
 import com.zigis.paleontologas.di.dataModule
+import com.zigis.paleontologas.di.mainModule
 import com.zigis.paleontologas.di.preferenceModule
 import com.zigis.paleontologas.di.quizModule
 import com.zigis.paleontologas.di.useCaseModule
@@ -47,6 +48,7 @@ class PaleoApplication : Application() {
                     applicationModule,
                     preferenceModule,
                     dataModule,
+                    mainModule,
                     quizModule,
                     useCaseModule,
                     viewModelModule

@@ -1,16 +1,14 @@
 package com.zigis.paleontologas.features.launcher.stories.main
 
-import android.content.Intent
 import com.zigis.paleontologas.core.architecture.BaseViewModel
-import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
-import com.zigis.paleontologas.features.main.MainActivity
+import com.zigis.paleontologas.features.main.routers.MainRouter
 import kotlinx.coroutines.*
 
 @OptIn(DelicateCoroutinesApi::class)
 class LauncherViewModel(
-    private val dataMigrationManager: DataMigrationManager,
-    private val androidLifecycleProvider: AndroidLifecycleProvider
+    private val mainRouter: MainRouter,
+    private val dataMigrationManager: DataMigrationManager
 ) : BaseViewModel<LauncherViewState, LauncherIntent>() {
 
     override fun getInitialData() = LauncherViewState()
@@ -26,10 +24,7 @@ class LauncherViewModel(
             dataMigrationManager.migrate()
             withContext(Dispatchers.Main) {
                 delay(1800)
-                androidLifecycleProvider.getActivity()?.startActivity(Intent(
-                    androidLifecycleProvider.getActivity(),
-                    MainActivity::class.java
-                ))
+                mainRouter.openMainScreen()
             }
         } catch (error: Throwable) {
             updateState {

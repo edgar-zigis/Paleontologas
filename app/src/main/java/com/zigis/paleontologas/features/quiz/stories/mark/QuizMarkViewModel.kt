@@ -1,6 +1,7 @@
 package com.zigis.paleontologas.features.quiz.stories.mark
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
+import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 
 class QuizMarkViewModel : BaseViewModel<QuizMarkViewState, QuizMarkIntent>() {
 
@@ -15,7 +16,8 @@ class QuizMarkViewModel : BaseViewModel<QuizMarkViewState, QuizMarkIntent>() {
     private suspend fun initialize(mark: Int) {
         updateState {
             it.copy(
-                mark = mark
+                mark = mark,
+                totalQuestions = QuizGameProcessor.questionsToGenerateCount
             )
         }
     }
