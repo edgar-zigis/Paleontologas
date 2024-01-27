@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.evernote.android.state.StateSaver
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.PaleoApplication
 import com.zigis.paleontologas.core.architecture.interfaces.IIntent
@@ -69,14 +68,8 @@ abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : 
         addLogs()
     }
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        StateSaver.saveInstanceState(this, outState)
-    }
-
     override fun onViewStateRestored(savedInstanceState: Bundle?) {
         super.onViewStateRestored(savedInstanceState)
-        StateSaver.restoreInstanceState(this, savedInstanceState)
         onAttached()
     }
 
