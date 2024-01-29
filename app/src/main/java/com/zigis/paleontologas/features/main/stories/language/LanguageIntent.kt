@@ -6,4 +6,5 @@ import java.util.Locale
 sealed class LanguageIntent : IIntent {
     data object Initialize : LanguageIntent()
     data class ChangeLocale(val locale: Locale) : LanguageIntent()
+    data object InvokeBack : LanguageIntent()
 }

@@ -6,4 +6,5 @@ import com.zigis.paleontologas.features.quiz.data.Question
 sealed class QuizGameIntent : IIntent {
     data object Initialize : QuizGameIntent()
     data class AnswerQuestion(val question: Question, val option: Int) : QuizGameIntent()
+    data object InvokeBack : QuizGameIntent()
 }

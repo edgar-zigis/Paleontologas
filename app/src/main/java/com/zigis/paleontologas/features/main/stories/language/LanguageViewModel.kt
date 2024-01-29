@@ -17,6 +17,7 @@ class LanguageViewModel(
         when (intent) {
             is Initialize -> initialize()
             is ChangeLocale -> changeLocale(locale = intent.locale)
+            is InvokeBack -> mainRouter.popCurrentFragment()
         }
     }
 

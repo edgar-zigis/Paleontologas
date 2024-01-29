@@ -28,6 +28,6 @@ class FormaVitaeFragment : BaseFragment<FormaVitaeViewState, FormaVitaeIntent, F
     //  LifeFormViewDelegate
 
     override fun onBackInvoked() {
-        activity?.onBackPressedDispatcher?.onBackPressed()
+        viewModel.intents.sendSafely(InvokeBack)
     }
 }

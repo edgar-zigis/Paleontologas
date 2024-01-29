@@ -19,6 +19,7 @@ class GeologicalPeriodViewModel(
         when (intent) {
             is Initialize -> initialize(periodId = intent.periodId)
             is OpenLifeForm -> libraryRouter.openLifeForm(intent.lifeFormId)
+            is InvokeBack -> libraryRouter.popCurrentFragment()
         }
     }
 

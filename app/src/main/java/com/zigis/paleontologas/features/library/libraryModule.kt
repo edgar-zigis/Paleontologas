@@ -28,5 +28,5 @@ val libraryModule = module {
     single { LifeFormRepository(androidContext(), get()) }
 
     viewModel { GeologicalPeriodViewModel(get(), get(), get()) }
-    viewModel { FormaVitaeViewModel(get()) }
+    viewModel { FormaVitaeViewModel(get(), get()) }
 }

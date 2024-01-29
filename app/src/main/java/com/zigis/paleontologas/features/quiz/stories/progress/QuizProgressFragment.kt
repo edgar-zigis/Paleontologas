@@ -4,6 +4,7 @@ import android.content.Context
 import com.zigis.paleontologas.core.architecture.BaseFragment
 import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
+import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressIntent.*
 import org.koin.android.ext.android.inject
 
 class QuizProgressFragment : BaseFragment<QuizProgressViewState, QuizProgressIntent, QuizProgressViewModel>(),
@@ -18,16 +19,16 @@ class QuizProgressFragment : BaseFragment<QuizProgressViewState, QuizProgressInt
     }
 
     override fun onAttached() {
-        viewModel.intents.sendSafely(QuizProgressIntent.Initialize)
+        viewModel.intents.sendSafely(Initialize)
     }
 
     //  QuizProgressViewDelegate
 
     override fun onStartQuiz() {
-        viewModel.intents.sendSafely(QuizProgressIntent.StartQuiz)
+        viewModel.intents.sendSafely(StartQuiz)
     }
 
     override fun onBackInvoked() {
-        activity?.onBackPressedDispatcher?.onBackPressed()
+        viewModel.intents.sendSafely(InvokeBack)
     }
 }
