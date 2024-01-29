@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.main.stories.home
+package com.zigis.paleontologas.features.main.stories.home.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,12 +8,11 @@ import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.databinding.ViewPeriodsListItemBinding
-import com.zigis.paleontologas.features.library.data.Period
 
-class PeriodListAdapter(
-    override var items: List<Period> = emptyList(),
-    private val onClick: (Period) -> Unit
-) : BaseListAdapter<Period, ViewPeriodsListItemBinding>(items) {
+class HomeListAdapter(
+    override var items: List<HomeListAdapterItem> = emptyList(),
+    private val onClick: (Int) -> Unit
+) : BaseListAdapter<HomeListAdapterItem, ViewPeriodsListItemBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
@@ -25,15 +24,14 @@ class PeriodListAdapter(
 
     override fun onBindViewHolder(
         binding: ViewPeriodsListItemBinding,
-        item: Period,
+        item: HomeListAdapterItem,
         position: Int
     ) = with(binding) {
         root.apply {
             setDebounceClickListener {
-                onClick(item)
+                onClick(item.id)
             }
         }
-
         image.setImageDrawable(context.getDrawable(item.thumbnail))
 
         title.text = context.getString(item.title)

@@ -4,7 +4,6 @@ import android.content.Context
 import com.zigis.paleontologas.core.architecture.BaseFragment
 import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
-import com.zigis.paleontologas.features.library.data.Period
 import org.koin.android.ext.android.inject
 
 class HomeFragment : BaseFragment<HomeViewState, HomeIntent, HomeViewModel>(), HomeViewDelegate {
@@ -24,8 +23,8 @@ class HomeFragment : BaseFragment<HomeViewState, HomeIntent, HomeViewModel>(), H
 
     //  MainMenuViewDelegate
 
-    override fun openPeriod(period: Period) {
-        viewModel.intents.sendSafely(HomeIntent.OpenPeriod(periodId = period.id))
+    override fun openPeriod(periodId: Int) {
+        viewModel.intents.sendSafely(HomeIntent.OpenPeriod(periodId = periodId))
     }
 
     override fun openQuiz() {

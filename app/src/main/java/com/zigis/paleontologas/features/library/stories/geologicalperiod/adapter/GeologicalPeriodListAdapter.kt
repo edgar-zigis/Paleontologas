@@ -31,7 +31,6 @@ class GeologicalPeriodListAdapter(
                 onClick(item.id)
             }
         }
-
         image.setImageDrawable(context.getDrawable(item.thumbnail))
         title.text = context.getString(item.title)
     }
