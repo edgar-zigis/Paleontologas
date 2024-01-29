@@ -1,8 +1,8 @@
-package com.zigis.paleontologas.features.quiz.stories.mark
+package com.zigis.paleontologas.features.quiz.stories.finalresult
 
 import com.zigis.paleontologas.core.architecture.interfaces.IState
 
-data class QuizMarkViewState(
+data class QuizFinalResultkViewState(
     val mark: Int = 0,
     val totalQuestions: Int = 0
 ) : IState

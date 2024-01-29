@@ -3,6 +3,9 @@ package com.zigis.paleontologas.features.quiz.managers
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import com.zigis.paleontologas.features.quiz.usecases.QuizGenerateQuestionsUseCase
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
 
 class QuizGameProcessor(
     private val questionRepository: QuestionRepository,
@@ -20,7 +23,7 @@ class QuizGameProcessor(
     suspend fun generateRandomQuestions(): List<Question> {
         correctAnswers = 0
         generatedQuestions = quizGenerateQuestionsUseCase.generateRandomQuestions(
-            questionsToGenerateCount
+            questionCount = questionsToGenerateCount
         )
         return generatedQuestions
     }
@@ -34,7 +37,13 @@ class QuizGameProcessor(
         return if (nextQuestionIndex < generatedQuestions.size) {
             generatedQuestions[nextQuestionIndex]
         } else {
-            generatedQuestions.map { questionRepository.update(it) }
+            coroutineScope {
+                generatedQuestions.map {
+                    async {
+                        questionRepository.update(it)
+                    }
+                }.awaitAll()
+            }
             null
         }
     }

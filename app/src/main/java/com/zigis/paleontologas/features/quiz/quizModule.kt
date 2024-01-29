@@ -5,7 +5,7 @@ import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import com.zigis.paleontologas.features.quiz.routers.QuizRouter
 import com.zigis.paleontologas.features.quiz.stories.game.QuizGameViewModel
-import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkViewModel
+import com.zigis.paleontologas.features.quiz.stories.finalresult.QuizFinalResultViewModel
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressViewModel
 import com.zigis.paleontologas.features.quiz.usecases.QuizGenerateQuestionsUseCase
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
@@ -26,5 +26,5 @@ val quizModule = module {
 
     viewModel { QuizGameViewModel(get(), get()) }
     viewModel { QuizProgressViewModel(get(), get()) }
-    viewModel { QuizMarkViewModel() }
+    viewModel { QuizFinalResultViewModel() }
 }

@@ -8,13 +8,15 @@ import android.text.style.StyleSpan
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewAboutBinding
+import com.zigis.paleontologas.databinding.FragmentAboutBinding
 
-class AboutView(context: Context) : BaseView<AboutViewState, ViewAboutBinding>(context) {
+class AboutView(
+    context: Context
+) : BaseView<AboutViewState, FragmentAboutBinding>(context) {
 
     var delegate: AboutViewDelegate? = null
 
-    override var binding: ViewAboutBinding? = ViewAboutBinding.inflate(layoutInflater)
+    override var binding: FragmentAboutBinding? = FragmentAboutBinding.inflate(layoutInflater)
 
     init {
         with(requireBinding()) {

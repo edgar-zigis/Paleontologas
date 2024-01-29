@@ -1,14 +1,14 @@
-package com.zigis.paleontologas.features.quiz.stories.mark
+package com.zigis.paleontologas.features.quiz.stories.finalresult
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
-import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkIntent.*
+import com.zigis.paleontologas.features.quiz.stories.finalresult.QuizFinalResultIntent.*
 
-class QuizMarkViewModel : BaseViewModel<QuizMarkViewState, QuizMarkIntent>() {
+class QuizFinalResultViewModel : BaseViewModel<QuizFinalResultkViewState, QuizFinalResultIntent>() {
 
-    override fun getInitialData() = QuizMarkViewState()
+    override fun getInitialData() = QuizFinalResultkViewState()
 
-    override suspend fun handleIntent(intent: QuizMarkIntent) {
+    override suspend fun handleIntent(intent: QuizFinalResultIntent) {
         when (intent) {
             is Initialize -> initialize(mark = intent.mark)
         }

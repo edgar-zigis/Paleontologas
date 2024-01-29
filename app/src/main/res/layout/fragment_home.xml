@@ -87,7 +87,7 @@
             android:paddingTop="8dp"
             android:paddingEnd="8dp"
             tools:itemCount="10"
-            tools:listitem="@layout/view_periods_list_item" />
+            tools:listitem="@layout/adapter_home" />
 
     </FrameLayout>
 

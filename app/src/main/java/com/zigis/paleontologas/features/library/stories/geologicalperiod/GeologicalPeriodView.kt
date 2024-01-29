@@ -10,20 +10,20 @@ import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.core.ui.recyclerview.GridSpacingItemDecoration
-import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
-import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
-import com.zigis.paleontologas.databinding.ViewPeriodContentBinding
+import com.zigis.paleontologas.databinding.FragmentGeologicalPeriodBinding
+import com.zigis.paleontologas.databinding.ParallaxContainerBinding
+import com.zigis.paleontologas.databinding.ParallaxHeaderBinding
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.adapter.GeologicalPeriodListAdapter
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class GeologicalPeriodView(context: Context) : BaseView<GeologicalPeriodViewState, ViewParallaxFragmentBinding>(context) {
+class GeologicalPeriodView(context: Context) : BaseView<GeologicalPeriodViewState, ParallaxContainerBinding>(context) {
 
     var delegate: GeologicalPeriodViewDelegate? = null
 
-    override var binding: ViewParallaxFragmentBinding? = ViewParallaxFragmentBinding.inflate(layoutInflater)
+    override var binding: ParallaxContainerBinding? = ParallaxContainerBinding.inflate(layoutInflater)
 
-    private val zoomViewBinding = ViewParallaxHeaderBinding.inflate(LayoutInflater.from(context))
-    private val contentViewBinding = ViewPeriodContentBinding.inflate(LayoutInflater.from(context))
+    private val zoomViewBinding = ParallaxHeaderBinding.inflate(LayoutInflater.from(context))
+    private val contentViewBinding = FragmentGeologicalPeriodBinding.inflate(LayoutInflater.from(context))
 
     private val adapter = GeologicalPeriodListAdapter {
         delegate?.openLifeForm(lifeFormId = it)

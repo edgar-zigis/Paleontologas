@@ -3,8 +3,8 @@ package com.zigis.paleontologas.features.quiz.routers
 import com.zigis.paleontologas.core.architecture.BaseRouter
 import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.quiz.stories.game.QuizGameFragment
-import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkConfiguration
-import com.zigis.paleontologas.features.quiz.stories.mark.QuizMarkFragment
+import com.zigis.paleontologas.features.quiz.stories.finalresult.QuizFinalResultConfiguration
+import com.zigis.paleontologas.features.quiz.stories.finalresult.QuizFinalResultFragment
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressFragment
 
 class QuizRouter(
@@ -23,10 +23,10 @@ class QuizRouter(
         )
     }
 
-    fun openQuizMarkPreview(mark: Int) {
+    fun openQuizFinalResultPreview(mark: Int) {
         globalRouter.pushFragment(
-            QuizMarkFragment().also {
-                it.configuration = QuizMarkConfiguration(
+            QuizFinalResultFragment().also {
+                it.configuration = QuizFinalResultConfiguration(
                     mark = mark
                 )
             }

@@ -4,13 +4,15 @@ import android.content.Context
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewQuizProgressBinding
+import com.zigis.paleontologas.databinding.FragmentQuizProgressBinding
 
-class QuizProgressView(context: Context) : BaseView<QuizProgressViewState, ViewQuizProgressBinding>(context) {
+class QuizProgressView(
+    context: Context
+) : BaseView<QuizProgressViewState, FragmentQuizProgressBinding>(context) {
 
     var delegate: QuizProgressViewDelegate? = null
 
-    override var binding: ViewQuizProgressBinding? = ViewQuizProgressBinding.inflate(layoutInflater)
+    override var binding: FragmentQuizProgressBinding? = FragmentQuizProgressBinding.inflate(layoutInflater)
 
     init {
         with(requireBinding()) {

@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.quiz.stories.mark
+package com.zigis.paleontologas.features.quiz.stories.finalresult
 
 import android.content.Context
 import com.zigis.paleontologas.core.architecture.BaseFragment
@@ -6,21 +6,21 @@ import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
 import org.koin.android.ext.android.inject
 
-class QuizMarkFragment : BaseFragment<QuizMarkViewState, QuizMarkIntent, QuizMarkViewModel>(),
-    QuizMarkViewDelegate {
+class QuizFinalResultFragment : BaseFragment<QuizFinalResultkViewState, QuizFinalResultIntent, QuizFinalResultViewModel>(),
+    QuizFinalResultViewDelegate {
 
-    var configuration: QuizMarkConfiguration? by savedState()
+    var configuration: QuizFinalResultConfiguration? by savedState()
 
-    override val viewModel: QuizMarkViewModel by inject()
+    override val viewModel: QuizFinalResultViewModel by inject()
 
-    override fun onCreateView(context: Context): IView<QuizMarkViewState> {
-        return QuizMarkView(context).also {
+    override fun onCreateView(context: Context): IView<QuizFinalResultkViewState> {
+        return QuizFinalResultView(context).also {
             it.delegate = this
         }
     }
 
     override fun onAttached() {
-        viewModel.intents.sendSafely(QuizMarkIntent.Initialize(
+        viewModel.intents.sendSafely(QuizFinalResultIntent.Initialize(
             mark = configuration!!.mark
         ))
     }

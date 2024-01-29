@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.main.stories.language
+package com.zigis.paleontologas.features.main.stories.language.adapter
 
 import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
@@ -9,25 +9,25 @@ import com.zigis.paleontologas.core.extensions.getColorIntWithAlpha
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewLanguageListItemBinding
+import com.zigis.paleontologas.databinding.AdapterLanguageBinding
 import java.util.Locale
 
 class LanguageListAdapter(
     var currentLocale: Locale? = null,
     override var items: List<Locale> = emptyList(),
     private val onClick: (Locale) -> Unit
-) : BaseListAdapter<Locale, ViewLanguageListItemBinding>(items) {
+) : BaseListAdapter<Locale, AdapterLanguageBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
         parent: ViewGroup,
         viewType: Int
-    ): ViewLanguageListItemBinding {
-        return ViewLanguageListItemBinding.inflate(inflater, parent, false)
+    ): AdapterLanguageBinding {
+        return AdapterLanguageBinding.inflate(inflater, parent, false)
     }
 
     override fun onBindViewHolder(
-        binding: ViewLanguageListItemBinding,
+        binding: AdapterLanguageBinding,
         item: Locale,
         position: Int
     ) = with(binding) {

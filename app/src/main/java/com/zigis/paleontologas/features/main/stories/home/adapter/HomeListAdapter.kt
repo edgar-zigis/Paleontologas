@@ -7,23 +7,23 @@ import com.zigis.paleontologas.core.architecture.BaseListAdapter
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewPeriodsListItemBinding
+import com.zigis.paleontologas.databinding.AdapterHomeBinding
 
 class HomeListAdapter(
     override var items: List<HomeListAdapterItem> = emptyList(),
     private val onClick: (Int) -> Unit
-) : BaseListAdapter<HomeListAdapterItem, ViewPeriodsListItemBinding>(items) {
+) : BaseListAdapter<HomeListAdapterItem, AdapterHomeBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
         parent: ViewGroup,
         viewType: Int
-    ): ViewPeriodsListItemBinding {
-        return ViewPeriodsListItemBinding.inflate(inflater, parent, false)
+    ): AdapterHomeBinding {
+        return AdapterHomeBinding.inflate(inflater, parent, false)
     }
 
     override fun onBindViewHolder(
-        binding: ViewPeriodsListItemBinding,
+        binding: AdapterHomeBinding,
         item: HomeListAdapterItem,
         position: Int
     ) = with(binding) {
