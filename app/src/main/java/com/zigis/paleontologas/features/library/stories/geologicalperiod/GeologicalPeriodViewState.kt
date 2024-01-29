@@ -1,9 +1,10 @@
-package com.zigis.paleontologas.features.library.stories.periods
+package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import com.zigis.paleontologas.core.architecture.interfaces.IState
 import com.zigis.paleontologas.features.library.data.LifeForm
+import com.zigis.paleontologas.features.library.stories.geologicalperiod.adapter.GeologicalPeriodListAdapterItem
 
-data class PeriodViewState(
+data class GeologicalPeriodViewState(
     val periodId: Int = 0,
     val title: String = "",
     val artwork: String = "",
@@ -15,5 +16,5 @@ data class PeriodViewState(
     val additionalTitle: String = "",
     val additionalDescription: String = "",
     val lifeFormDescription: String = "",
-    val lifeForms: List<LifeForm> = emptyList()
+    val lifeFormItems: List<GeologicalPeriodListAdapterItem> = emptyList()
 ) : IState
