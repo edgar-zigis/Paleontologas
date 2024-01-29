@@ -1,45 +1,7 @@
-plugins {
-    id "com.android.application"
-    id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
-    id 'com.google.devtools.ksp'
-    id 'com.google.firebase.crashlytics' //  comment this in order to disable Crashlytics
-}
+apply from: "$rootProject.projectDir/shared.build.gradle"
 
 android {
-
     namespace 'com.zigis.paleontologas'
-    compileSdk 34
-
-    defaultConfig {
-        applicationId "com.zigis.paleontologas"
-        minSdkVersion 21
-        targetSdkVersion 34
-        versionCode 30
-        versionName "2.5.2"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-
-    buildFeatures {
-        viewBinding true
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = '17'
-        freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
-    }
 }
 
 dependencies {
@@ -83,4 +45,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-apply plugin: 'com.google.gms.google-services' // comment this in order to disable Crashlytics
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
