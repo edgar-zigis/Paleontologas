@@ -11,6 +11,6 @@ val mainModule = module {
     single { MainRouter(get(), get()) }
 
     viewModel { HomeViewModel(get(), get(), get(), get()) }
-    viewModel { AboutViewModel(get()) }
+    viewModel { AboutViewModel(get(), get()) }
     viewModel { LanguageViewModel(get(), get()) }
 }

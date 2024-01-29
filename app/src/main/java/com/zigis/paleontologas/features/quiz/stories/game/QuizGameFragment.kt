@@ -4,6 +4,7 @@ import android.content.Context
 import com.zigis.paleontologas.core.architecture.BaseFragment
 import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
+import com.zigis.paleontologas.features.quiz.stories.game.QuizGameIntent.*
 import com.zigis.paleontologas.features.quiz.data.Question
 import org.koin.android.ext.android.inject
 
@@ -16,20 +17,20 @@ class QuizGameFragment : BaseFragment<QuizGameViewState, QuizGameIntent, QuizGam
         return QuizGameView(context).also {
             it.delegate = this
         }.also {
-            viewModel.intents.sendSafely(QuizGameIntent.Initialize)
+            viewModel.intents.sendSafely(Initialize)
         }
     }
 
     //  QuizGameViewDelegate
 
     override fun answerQuestion(question: Question, answer: Int) {
-        viewModel.intents.sendSafely(QuizGameIntent.AnswerQuestion(
+        viewModel.intents.sendSafely(AnswerQuestion(
             question = question,
             option = answer
         ))
     }
 
     override fun onBackInvoked() {
-        activity?.onBackPressedDispatcher?.onBackPressed()
+        viewModel.intents.sendSafely(InvokeBack)
     }
 }

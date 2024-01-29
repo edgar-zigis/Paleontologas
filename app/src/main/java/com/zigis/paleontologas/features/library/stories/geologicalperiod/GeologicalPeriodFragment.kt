@@ -36,6 +36,6 @@ class GeologicalPeriodFragment :
     }
 
     override fun onBackInvoked() {
-        activity?.onBackPressedDispatcher?.onBackPressed()
+        viewModel.intents.sendSafely(InvokeBack)
     }
 }

@@ -4,6 +4,7 @@ import android.content.Context
 import com.zigis.paleontologas.core.architecture.BaseFragment
 import com.zigis.paleontologas.core.architecture.interfaces.IView
 import com.zigis.paleontologas.core.extensions.sendSafely
+import com.zigis.paleontologas.features.quiz.stories.finalresult.QuizFinalResultIntent.*
 import org.koin.android.ext.android.inject
 
 class QuizFinalResultFragment : BaseFragment<QuizFinalResultkViewState, QuizFinalResultIntent, QuizFinalResultViewModel>(),
@@ -20,7 +21,7 @@ class QuizFinalResultFragment : BaseFragment<QuizFinalResultkViewState, QuizFina
     }
 
     override fun onAttached() {
-        viewModel.intents.sendSafely(QuizFinalResultIntent.Initialize(
+        viewModel.intents.sendSafely(Initialize(
             mark = configuration!!.mark
         ))
     }
