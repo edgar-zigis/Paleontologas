@@ -8,19 +8,19 @@ import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewLifeformContentBinding
-import com.zigis.paleontologas.databinding.ViewParallaxFragmentBinding
-import com.zigis.paleontologas.databinding.ViewParallaxHeaderBinding
+import com.zigis.paleontologas.databinding.FragmentFormaVitaeBinding
+import com.zigis.paleontologas.databinding.ParallaxContainerBinding
+import com.zigis.paleontologas.databinding.ParallaxHeaderBinding
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class FormaVitaeView(context: Context) : BaseView<FormaVitaeViewState, ViewParallaxFragmentBinding>(context) {
+class FormaVitaeView(context: Context) : BaseView<FormaVitaeViewState, ParallaxContainerBinding>(context) {
 
     var delegate: FormaVitaeViewDelegate? = null
 
-    override var binding: ViewParallaxFragmentBinding? = ViewParallaxFragmentBinding.inflate(layoutInflater)
+    override var binding: ParallaxContainerBinding? = ParallaxContainerBinding.inflate(layoutInflater)
 
-    private val zoomViewBinding = ViewParallaxHeaderBinding.inflate(LayoutInflater.from(context))
-    private val contentViewBinding = ViewLifeformContentBinding.inflate(LayoutInflater.from(context))
+    private val zoomViewBinding = ParallaxHeaderBinding.inflate(LayoutInflater.from(context))
+    private val contentViewBinding = FragmentFormaVitaeBinding.inflate(LayoutInflater.from(context))
 
     init {
         with(requireBinding()) {

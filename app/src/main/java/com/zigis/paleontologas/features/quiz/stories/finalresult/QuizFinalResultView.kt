@@ -1,17 +1,19 @@
-package com.zigis.paleontologas.features.quiz.stories.mark
+package com.zigis.paleontologas.features.quiz.stories.finalresult
 
 import android.content.Context
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewQuizMarkBinding
+import com.zigis.paleontologas.databinding.FragmentQuizFinalResultBinding
 import com.zigis.paleontologas.features.quiz.utilities.QuizMarkUtility
 
-class QuizMarkView(context: Context) : BaseView<QuizMarkViewState, ViewQuizMarkBinding>(context) {
+class QuizFinalResultView(
+    context: Context
+) : BaseView<QuizFinalResultkViewState, FragmentQuizFinalResultBinding>(context) {
 
-    var delegate: QuizMarkViewDelegate? = null
+    var delegate: QuizFinalResultViewDelegate? = null
 
-    override var binding: ViewQuizMarkBinding? = ViewQuizMarkBinding.inflate(layoutInflater)
+    override var binding: FragmentQuizFinalResultBinding? = FragmentQuizFinalResultBinding.inflate(layoutInflater)
 
     init {
         with(requireBinding()) {
@@ -26,7 +28,7 @@ class QuizMarkView(context: Context) : BaseView<QuizMarkViewState, ViewQuizMarkB
         addView(requireBinding().root)
     }
 
-    override fun render(state: QuizMarkViewState) = with(requireBinding()) {
+    override fun render(state: QuizFinalResultkViewState) = with(requireBinding()) {
         animationView.setAnimation(QuizMarkUtility.getAnimationResource(state.mark))
         finalMark.text = context.getString(
             R.string.quiz_mark_placeholder,

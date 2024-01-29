@@ -11,14 +11,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.nightonke.boommenu.BoomButtons.SimpleCircleButton
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseView
-import com.zigis.paleontologas.databinding.ViewMainMenuBinding
+import com.zigis.paleontologas.databinding.FragmentHomeBinding
 import com.zigis.paleontologas.features.main.stories.home.adapter.HomeListAdapter
 
-class HomeView(context: Context) : BaseView<HomeViewState, ViewMainMenuBinding>(context) {
+class HomeView(
+    context: Context
+) : BaseView<HomeViewState, FragmentHomeBinding>(context) {
 
     var delegate: HomeViewDelegate? = null
 
-    override var binding: ViewMainMenuBinding? = ViewMainMenuBinding.inflate(LayoutInflater.from(context))
+    override var binding: FragmentHomeBinding? = FragmentHomeBinding.inflate(LayoutInflater.from(context))
 
     private val adapter = HomeListAdapter(emptyList()) {
         delegate?.openPeriod(it)

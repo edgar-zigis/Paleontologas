@@ -5,13 +5,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewLanguageBinding
+import com.zigis.paleontologas.databinding.FragmentLanguageBinding
+import com.zigis.paleontologas.features.main.stories.language.adapter.LanguageListAdapter
 
-class LanguageView(context: Context) : BaseView<LanguageViewState, ViewLanguageBinding>(context) {
+class LanguageView(
+    context: Context
+) : BaseView<LanguageViewState, FragmentLanguageBinding>(context) {
 
     var delegate: LanguageViewDelegate? = null
 
-    override var binding: ViewLanguageBinding? = ViewLanguageBinding.inflate(layoutInflater)
+    override var binding: FragmentLanguageBinding? = FragmentLanguageBinding.inflate(layoutInflater)
 
     private val adapter = LanguageListAdapter {
         delegate?.onLocaleSelected(it)

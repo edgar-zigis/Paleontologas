@@ -6,23 +6,23 @@ import com.zigis.paleontologas.core.architecture.BaseListAdapter
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewLifeformsListItemBinding
+import com.zigis.paleontologas.databinding.AdapterGeologicalPeriodBinding
 
 class GeologicalPeriodListAdapter(
     override var items: List<GeologicalPeriodListAdapterItem> = emptyList(),
     private val onClick: (Int) -> Unit
-) : BaseListAdapter<GeologicalPeriodListAdapterItem, ViewLifeformsListItemBinding>(items) {
+) : BaseListAdapter<GeologicalPeriodListAdapterItem, AdapterGeologicalPeriodBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
         parent: ViewGroup,
         viewType: Int
-    ): ViewLifeformsListItemBinding {
-        return ViewLifeformsListItemBinding.inflate(inflater, parent, false)
+    ): AdapterGeologicalPeriodBinding {
+        return AdapterGeologicalPeriodBinding.inflate(inflater, parent, false)
     }
 
     override fun onBindViewHolder(
-        binding: ViewLifeformsListItemBinding,
+        binding: AdapterGeologicalPeriodBinding,
         item: GeologicalPeriodListAdapterItem,
         position: Int
     ) = with(binding) {

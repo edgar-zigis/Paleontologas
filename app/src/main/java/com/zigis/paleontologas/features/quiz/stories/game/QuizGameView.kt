@@ -15,15 +15,17 @@ import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.runDelayed
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.databinding.ViewQuizGameBinding
+import com.zigis.paleontologas.databinding.FragmentQuizGameBinding
 import com.zigis.paleontologas.features.quiz.data.Question
 import uk.co.senab.photoview.PhotoViewAttacher
 
-class QuizGameView(context: Context) : BaseView<QuizGameViewState, ViewQuizGameBinding>(context) {
+class QuizGameView(
+    context: Context
+) : BaseView<QuizGameViewState, FragmentQuizGameBinding>(context) {
 
     var delegate: QuizGameViewDelegate? = null
 
-    override var binding: ViewQuizGameBinding? = ViewQuizGameBinding.inflate(layoutInflater)
+    override var binding: FragmentQuizGameBinding? = FragmentQuizGameBinding.inflate(layoutInflater)
 
     private val fadingViews by lazy {
         arrayOf(
@@ -118,9 +120,7 @@ class QuizGameView(context: Context) : BaseView<QuizGameViewState, ViewQuizGameB
                                 VibrationEffect.DEFAULT_AMPLITUDE
                             )
                         )
-                    } else {
-                        vibrator.vibrate(300)
-                    }
+                    } else vibrator.vibrate(300)
                 }
                 runDelayed(1500L) {
                     delegate?.answerQuestion(question, answer = index)

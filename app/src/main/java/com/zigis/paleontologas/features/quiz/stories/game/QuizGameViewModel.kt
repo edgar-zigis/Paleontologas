@@ -34,7 +34,7 @@ class QuizGameViewModel(
     private suspend fun answerQuestion(question: Question, option: Int) {
         val nextQuestion = quizGameProcessor.answerQuestion(question, option)
         if (nextQuestion == null) {
-            quizRouter.openQuizMarkPreview(mark = quizGameProcessor.correctAnswers)
+            quizRouter.openQuizFinalResultPreview(mark = quizGameProcessor.correctAnswers)
         } else {
             updateState {
                 it.copy(

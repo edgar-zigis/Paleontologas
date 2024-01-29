@@ -137,6 +137,6 @@
         android:background="@color/colorPrimaryMid"
         android:nestedScrollingEnabled="false"
         android:verticalSpacing="6dp"
-        tools:listitem="@layout/view_lifeforms_list_item" />
+        tools:listitem="@layout/adapter_geological_period" />
 
 </LinearLayout>
