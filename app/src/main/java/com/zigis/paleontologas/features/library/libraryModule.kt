@@ -8,7 +8,7 @@ import com.zigis.paleontologas.features.library.routers.LibraryRouter
 import com.zigis.paleontologas.features.library.stories.formavitae.FormaVitaeViewModel
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodViewModel
 import com.zigis.paleontologas.features.library.factories.GeologicalPeriodAdapterItemFactory
-import com.zigis.paleontologas.features.library.usecases.PeriodListUseCase
+import com.zigis.paleontologas.features.main.factories.HomeAdapterItemFactory
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -16,7 +16,7 @@ import org.koin.dsl.module
 val libraryModule = module {
     single { LibraryRouter(get()) }
 
-    factory { PeriodListUseCase(get(), get()) }
+    factory { HomeAdapterItemFactory(get(), get()) }
     factory { GeologicalPeriodAdapterItemFactory(get()) }
 
     single { PeriodDatabase.getInstance(androidContext()) }

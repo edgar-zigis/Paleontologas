@@ -18,10 +18,6 @@ import uk.co.senab.photoview.PhotoViewAttacher
 
 class GeologicalPeriodView(context: Context) : BaseView<GeologicalPeriodViewState, ViewParallaxFragmentBinding>(context) {
 
-    companion object {
-        private const val lifeFormColumnCount = 2
-    }
-
     var delegate: GeologicalPeriodViewDelegate? = null
 
     override var binding: ViewParallaxFragmentBinding? = ViewParallaxFragmentBinding.inflate(layoutInflater)
@@ -44,11 +40,11 @@ class GeologicalPeriodView(context: Context) : BaseView<GeologicalPeriodViewStat
             with(contentViewBinding) {
                 lifeFormList.layoutManager = GridLayoutManager(
                     context,
-                    lifeFormColumnCount
+                    2
                 )
                 lifeFormList.addItemDecoration(
                     GridSpacingItemDecoration(
-                        columns = lifeFormColumnCount,
+                        columns = 2,
                         spacing = dp(6),
                         includeEdge = false
                     )

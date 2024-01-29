@@ -12,6 +12,7 @@ import com.nightonke.boommenu.BoomButtons.SimpleCircleButton
 import com.zigis.paleontologas.R
 import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.databinding.ViewMainMenuBinding
+import com.zigis.paleontologas.features.main.stories.home.adapter.HomeListAdapter
 
 class HomeView(context: Context) : BaseView<HomeViewState, ViewMainMenuBinding>(context) {
 
@@ -19,7 +20,7 @@ class HomeView(context: Context) : BaseView<HomeViewState, ViewMainMenuBinding>(
 
     override var binding: ViewMainMenuBinding? = ViewMainMenuBinding.inflate(LayoutInflater.from(context))
 
-    private val adapter = PeriodListAdapter(emptyList()) {
+    private val adapter = HomeListAdapter(emptyList()) {
         delegate?.openPeriod(it)
     }
 
@@ -62,7 +63,7 @@ class HomeView(context: Context) : BaseView<HomeViewState, ViewMainMenuBinding>(
                 AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation_fall_down)
             periodList.scheduleLayoutAnimation()
         }
-        adapter.updateItems(items = state.periodList)
+        adapter.updateItems(items = state.periodItems)
         if (state.animateLayoutChanges == true) {
             AlphaAnimation(1f, 0f).apply {
                 duration = 500

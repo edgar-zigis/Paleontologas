@@ -2,7 +2,7 @@ package com.zigis.paleontologas.features.main.stories.home
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.routers.LibraryRouter
-import com.zigis.paleontologas.features.library.usecases.PeriodListUseCase
+import com.zigis.paleontologas.features.main.factories.HomeAdapterItemFactory
 import com.zigis.paleontologas.features.main.routers.MainRouter
 import com.zigis.paleontologas.features.quiz.routers.QuizRouter
 import com.zigis.paleontologas.features.main.stories.home.HomeIntent.*
@@ -11,7 +11,7 @@ class HomeViewModel(
     private val mainRouter: MainRouter,
     private val quizRouter: QuizRouter,
     private val libraryRouter: LibraryRouter,
-    private val periodListUseCase: PeriodListUseCase
+    private val homeAdapterItemFactory: HomeAdapterItemFactory
 ) : BaseViewModel<HomeViewState, HomeIntent>() {
 
     override fun getInitialData() = HomeViewState()
@@ -29,7 +29,7 @@ class HomeViewModel(
     private suspend fun initialize() {
         updateState {
             it.copy(
-                periodList = periodListUseCase.getPeriodItems(),
+                periodItems = homeAdapterItemFactory.getItems(),
                 animateLayoutChanges = it.animateLayoutChanges == null
             )
         }
