@@ -10,7 +10,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/image"
         android:scaleType="centerCrop"
         android:src="@drawable/item_hadean" />
 

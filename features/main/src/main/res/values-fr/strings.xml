@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright">&#169; Edgar Žigis</string>
+    <string name="copy">&#169; </string>
+    <string name="contact_email">admin@bio-matic.com</string>
+
+    <string name="about_app">A propos</string>
+    <string name="about_app_text_1">Cette application est dédiée à tous les amoureux de la nature et aux personnes désireuses d’en savoir plus sur l’histoire de la Terre. Elle est compréhensible par tous et comporte cependant assez de données pour être utilisée à des fins pédagogiques. Toutes les données de cette application sont issues d’articles scientifiques reconnus de la paléontologie moderne.</string>
+    <string name="about_app_text_2">Photos:\nCreative Commons Zero (CC0)\n\nSi vous avez trouvé des erreurs ou si vous souhaitez faire un don, ou contribuer à améliorer cette application, n’hésitez pas à me contacter par e-mail : admin@bio-matic.com</string>
+    <string name="version_placeholder">v%s</string>
+
+    <string name="language_lt">Lietuvių</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
+    <string name="language_fr">Français</string>
+    <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
+
+    <string name="wall_of_fame">Mur de la Renommée</string>
+    <string name="wall_of_fame_description">Souhaitez-vous contribuer à cette application et être immortalisé dans le Wall of Fame ? Vous avez des connaissances scientifiques et maitrisez une langue qui n’est pas présente dans cette application ? Si les deux réponses sont « oui », contactez-moi par mail et rendez l’application meilleure !</string>
+
+    <string name="app_contributor_1">Edgar Žigis</string>
+    <string name="app_contributor_2">Andrej Spiridonov</string>
+    <string name="app_contributor_3">Matthew Gerke</string>
+    <string name="app_contributor_4">Auksė Saulė</string>
+    <string name="app_contributor_5">Gerardo Lo Valvo</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Juan Carlos Oliva</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Damjan Dovnik</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
+
+    <string name="app_contributor_description_1">Auteur de l\'application et du contenu</string>
+    <string name="app_contributor_description_2">Inspiration</string>
+    <string name="app_contributor_description_3">Traducteur anglais</string>
+    <string name="app_contributor_description_4">Traducteur lituanien</string>
+    <string name="app_contributor_description_5">Traducteur espagnol</string>
+    <string name="app_contributor_description_6">Traducteur allemand</string>
+    <string name="app_contributor_description_7">Traducteur italien</string>
+    <string name="app_contributor_description_8">Traducteur français</string>
+    <string name="app_contributor_description_9">Traducteur slovène</string>
+    <string name="app_contributor_description_10">Traducteur brésilien</string>
+
+    <string name="geological_time_scale">Echelle des temps géologiques</string>
+    <string name="info">Info</string>
+    <string name="language">Langue</string>
+
+</resources>
