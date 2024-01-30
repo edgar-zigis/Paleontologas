@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.core.ui.parallax.interfaces
+package com.zigis.paleontologas.core.ui.parallax
 
 import android.content.res.TypedArray
 import android.view.View

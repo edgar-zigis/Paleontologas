@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.core.ui.parallax.base
+package com.zigis.paleontologas.core.ui.parallax
 
 import android.app.Activity
 import android.content.Context
@@ -8,8 +8,7 @@ import android.view.*
 import android.view.MotionEvent.*
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.widget.LinearLayout
-import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.ui.parallax.interfaces.Parallax
+import com.zigis.paleontologas.core.R
 import kotlin.math.abs
 import kotlin.math.min
 import kotlin.math.roundToInt

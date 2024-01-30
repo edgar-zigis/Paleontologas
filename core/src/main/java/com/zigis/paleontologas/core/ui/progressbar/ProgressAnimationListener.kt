@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.core.ui.progressbar.interfaces
+package com.zigis.paleontologas.core.ui.progressbar
 
 interface ProgressAnimationListener {
     fun onAnimationStart()

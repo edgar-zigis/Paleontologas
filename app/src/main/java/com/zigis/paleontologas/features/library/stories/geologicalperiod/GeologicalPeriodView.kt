@@ -9,7 +9,7 @@ import com.zigis.paleontologas.core.extensions.dp
 import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
-import com.zigis.paleontologas.core.ui.recyclerview.GridSpacingItemDecoration
+import com.zigis.paleontologas.core.ui.GridSpacingItemDecoration
 import com.zigis.paleontologas.databinding.FragmentGeologicalPeriodBinding
 import com.zigis.paleontologas.databinding.ParallaxContainerBinding
 import com.zigis.paleontologas.databinding.ParallaxHeaderBinding
