@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.google.firebase.crashlytics.FirebaseCrashlytics
-import com.zigis.paleontologas.R
+import com.zigis.paleontologas.core.R
 import com.zigis.paleontologas.core.extensions.android.ContextWrapper
 import com.zigis.paleontologas.core.extensions.getCurrentLocale
 import com.zigis.paleontologas.core.interfaces.Navigable

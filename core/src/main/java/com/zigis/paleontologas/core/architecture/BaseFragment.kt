@@ -14,7 +14,8 @@ import com.zigis.paleontologas.core.extensions.launchOnRepeat
 import com.zigis.paleontologas.core.interfaces.Navigable
 import com.zigis.paleontologas.core.providers.SavedStateProvider
 
-abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : Fragment(), Navigable {
+abstract class BaseFragment<S : IState, I : IIntent, M : BaseViewModel<S, I>> : Fragment(),
+    Navigable {
 
     protected abstract val viewModel: M
     private val savable = Bundle()

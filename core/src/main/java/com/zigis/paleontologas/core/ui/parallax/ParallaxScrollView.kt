@@ -10,10 +10,7 @@ import android.view.ViewGroup
 import android.view.animation.Interpolator
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.ui.parallax.base.InternalScrollView
-import com.zigis.paleontologas.core.ui.parallax.base.ParallaxBase
-import com.zigis.paleontologas.core.ui.parallax.interfaces.OnScrollViewChangeListener
+import com.zigis.paleontologas.core.R
 import kotlin.math.abs
 
 class ParallaxScrollView(

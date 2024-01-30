@@ -11,8 +11,7 @@ import android.view.animation.AccelerateDecelerateInterpolator
 import android.widget.ProgressBar
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
-import com.zigis.paleontologas.R
-import com.zigis.paleontologas.core.ui.progressbar.interfaces.ProgressAnimationListener
+import com.zigis.paleontologas.core.R
 import kotlin.math.abs
 import kotlin.math.min
 

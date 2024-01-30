@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.core.ui.recyclerview
+package com.zigis.paleontologas.core.ui
 
 import android.graphics.Rect
 import android.view.View

@@ -8,7 +8,7 @@ import android.util.DisplayMetrics
 import android.view.View
 import android.view.WindowManager
 import androidx.core.content.res.ResourcesCompat
-import com.zigis.paleontologas.R
+import com.zigis.paleontologas.core.R
 
 @Suppress("Deprecation")
 class ColorArcProgressBar : View {

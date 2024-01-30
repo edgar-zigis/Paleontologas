@@ -1,7 +1,6 @@
 package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import com.zigis.paleontologas.core.architecture.interfaces.IState
-import com.zigis.paleontologas.features.library.data.LifeForm
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.adapter.GeologicalPeriodListAdapterItem
 
 data class GeologicalPeriodViewState(

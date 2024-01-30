@@ -1,9 +1,9 @@
-package com.zigis.paleontologas.core.ui.parallax.base
+package com.zigis.paleontologas.core.ui.parallax
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.ScrollView
-import com.zigis.paleontologas.core.ui.parallax.interfaces.OnScrollViewChangeListener
+import com.zigis.paleontologas.core.ui.parallax.OnScrollViewChangeListener
 
 class InternalScrollView(
     context: Context,
