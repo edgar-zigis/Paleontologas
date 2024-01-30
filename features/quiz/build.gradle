@@ -1,0 +1,15 @@
+apply from: "$rootProject.projectDir/shared.build.gradle"
+
+android {
+    namespace 'com.zigis.paleontologas.features.quiz'
+}
+
+dependencies {
+    ksp "androidx.room:room-compiler:$room_version"
+
+    implementation 'com.airbnb.android:lottie:4.2.0'
+    implementation 'com.github.florent37:viewanimator:1.1.2'
+    implementation 'com.github.chrisbanes.photoview:library:1.2.3'
+
+    implementation project(':core')
+}

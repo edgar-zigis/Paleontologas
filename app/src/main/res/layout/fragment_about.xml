@@ -74,7 +74,7 @@
 
             <TextView
                 android:id="@+id/description1"
-                style="@style/PeriodDescriptionStyle"
+                style="@style/DefaultDescriptionStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/about_app_text_1"
@@ -223,7 +223,7 @@
 
             <TextView
                 android:id="@+id/description2"
-                style="@style/PeriodDescriptionStyle"
+                style="@style/DefaultDescriptionStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
@@ -246,7 +246,7 @@
 
             <TextView
                 android:id="@+id/description3"
-                style="@style/PeriodDescriptionStyle"
+                style="@style/DefaultDescriptionStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

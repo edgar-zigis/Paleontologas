@@ -44,7 +44,7 @@
 
     <TextView
         android:id="@+id/descriptionInfo"
-        style="@style/PeriodDescriptionStyle"
+        style="@style/DefaultDescriptionStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
