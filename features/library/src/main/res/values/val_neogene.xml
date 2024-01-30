@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="neogene_thumbs">
+        <item>item_neogene_argentavis_thumb</item>
+        <item>item_neogene_titanis_thumb</item>
+        <item>item_neogene_deinotherium_thumb</item>
+        <item>item_neogene_stegotetrabelodon_thumb</item>
+        <item>item_neogene_platybelodon_thumb</item>
+        <item>item_neogene_ardipithecus_thumb</item>
+        <item>item_neogene_megalodon_thumb</item>
+        <item>item_neogene_livyatan_thumb</item>
+    </array>
+
+    <array name="neogene_images">
+        <item>item_neogene_argentavis</item>
+        <item>item_neogene_titanis</item>
+        <item>item_neogene_deinotherium</item>
+        <item>item_neogene_stegotetrabelodon</item>
+        <item>item_neogene_platybelodon</item>
+        <item>item_neogene_ardipithecus</item>
+        <item>item_neogene_megalodon</item>
+        <item>item_neogene_livyatan</item>
+    </array>
+
+    <array name="neogene_additional_images">
+        <item>item_neogene_argentavis_info</item>
+        <item></item>
+        <item></item>
+        <item>item_neogene_stegotetrabelodon_info</item>
+        <item></item>
+        <item></item>
+        <item>item_neogene_megalodon_info</item>
+        <item></item>
+    </array>
+
+    <array name="neogene_titles">
+        <item>neogene_argentavis</item>
+        <item>neogene_titanis</item>
+        <item>neogene_deinotherium</item>
+        <item>neogene_stegotetrabelodon</item>
+        <item>neogene_platybelodon</item>
+        <item>neogene_ardipithecus</item>
+        <item>neogene_megalodon</item>
+        <item>neogene_levyatan</item>
+    </array>
+
+    <array name="neogene_time_scales">
+        <item>9.0-6.8</item>
+        <item>4.9-1.8</item>
+        <item>20.0-0.781</item>
+        <item>11.1-5.332</item>
+        <item>15.97-5.332</item>
+        <item>5.332-3.6</item>
+        <item>23.0–2.6</item>
+        <item>11.608-7.246</item>
+    </array>
+
+    <array name="neogene_descriptions">
+        <item>neogene_argentavis_description</item>
+        <item>neogene_titanis_description</item>
+        <item>neogene_deinotherium_description</item>
+        <item>neogene_stegotetrabelodon_description</item>
+        <item>neogene_platybelodon_description</item>
+        <item>neogene_ardipithecus_description</item>
+        <item>neogene_megalodon_description</item>
+        <item>neogene_levyatan_description</item>
+    </array>
+
+    <array name="neogene_photo_authors">
+        <item></item>
+        <item>&#169; Gary Wright</item>
+        <item></item>
+        <item>&#169; Mauricio Antón</item>
+        <item></item>
+        <item></item>
+        <item>&#169; Alberto Gennari</item>
+        <item>&#169; Balazs Petheo</item>
+    </array>
+
+</resources>

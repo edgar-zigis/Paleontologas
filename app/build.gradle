@@ -15,6 +15,7 @@ dependencies {
 
     implementation project(':core')
     implementation project(':features:quiz')
+    implementation project(':features:library')
 }
 
 apply plugin: 'com.google.gms.google-services'

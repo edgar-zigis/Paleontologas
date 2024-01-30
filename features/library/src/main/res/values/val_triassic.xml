@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="triassic_thumbs">
+        <item>item_triassic_bennettitales_thumb</item>
+        <item>item_triassic_morganucodon_thumb</item>
+        <item>item_triassic_lystrosaurus_thumb</item>
+        <item>item_triassic_pterosauria_thumb</item>
+        <item>item_triassic_plesiosauria_thumb</item>
+        <item>item_triassic_ichthyosauria_thumb</item>
+        <item>item_triassic_mystriosuchus_thumb</item>
+        <item>item_triassic_desmatosuchus_thumb</item>
+        <item>item_triassic_longisquama_thumb</item>
+        <item>item_triassic_sharovipteryx_thumb</item>
+        <item>item_triassic_tanystropheus_thumb</item>
+        <item>item_triassic_plateosaurus_thumb</item>
+    </array>
+
+    <array name="triassic_images">
+        <item>item_triassic_bennettitales</item>
+        <item>item_triassic_morganucodon</item>
+        <item>item_triassic_lystrosaurus</item>
+        <item>item_triassic_pterosauria</item>
+        <item>item_triassic_plesiosauria</item>
+        <item>item_triassic_ichthyosauria</item>
+        <item>item_triassic_mystriosuchus</item>
+        <item>item_triassic_desmatosuchus</item>
+        <item>item_triassic_longisquama</item>
+        <item>item_triassic_sharovipteryx</item>
+        <item>item_triassic_tanystropheus</item>
+        <item>item_triassic_plateosaurus</item>
+    </array>
+
+    <array name="triassic_additional_images">
+        <item>item_triassic_bennetitales_info</item>
+        <item>item_triassic_morganucodon_info</item>
+        <item></item>
+        <item>item_triassic_pterosauria_info</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_triassic_sharovipteryx_info</item>
+        <item>item_triassic_tanystropheus_info</item>
+        <item>item_triassic_plateosaurus_info</item>
+    </array>
+
+    <array name="triassic_titles">
+        <item>triassic_bennettitales</item>
+        <item>triassic_morganucodon</item>
+        <item>triassic_lystrosaurus</item>
+        <item>triassic_pterosauria</item>
+        <item>triassic_plesiosauria</item>
+        <item>triassic_ichthyosauria</item>
+        <item>triassic_mystriosuchus</item>
+        <item>triassic_desmatosuchus</item>
+        <item>triassic_longisquama</item>
+        <item>triassic_sharovipteryx</item>
+        <item>triassic_tanystropheus</item>
+        <item>triassic_plateosaurus</item>
+    </array>
+
+    <array name="triassic_time_scales">
+        <item>303.4-28.4</item>
+        <item>205.6-164.7</item>
+        <item>252.3-251.3</item>
+        <item>228.1–66.0</item>
+        <item>203.6–66.0</item>
+        <item>248.0–90.0</item>
+        <item>212.0-196.5</item>
+        <item>221.5-205.6</item>
+        <item>242.0-221.5</item>
+        <item>242.0-221.5</item>
+        <item>242.0-205.6</item>
+        <item>215.56-201.6</item>
+    </array>
+
+    <array name="triassic_descriptions">
+        <item>triassic_bennettitales_description</item>
+        <item>triassic_morganucodon_description</item>
+        <item>triassic_lystrosaurus_description</item>
+        <item>triassic_pterosauria_description</item>
+        <item>triassic_plesiosauria_description</item>
+        <item>triassic_ichthyosauria_description</item>
+        <item>triassic_mystriosuchus_description</item>
+        <item>triassic_desmatosuchus_description</item>
+        <item>triassic_longisquama_description</item>
+        <item>triassic_sharovipteryx_description</item>
+        <item>triassic_tanystropheus_description</item>
+        <item>triassic_plateosaurus_description</item>
+    </array>
+
+    <array name="triassic_photo_authors">
+        <item>&#169; Jonathan Hudhes</item>
+        <item>&#169; Michael B.H.</item>
+        <item></item>
+        <item>&#169; Hombre Hojalata</item>
+        <item>&#169; Daniel Loxton</item>
+        <item>&#169; Todd Marshall</item>
+        <item>&#169; Julio Lacerda</item>
+        <item></item>
+        <item>&#169; Julio Lacerda</item>
+        <item>&#169; Mark Witton</item>
+        <item>&#169; Mark Witton</item>
+        <item></item>
+    </array>
+
+    <array name="triassic_additional_photo_authors">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#169; Darren Pepper</item>
+    </array>
+
+</resources>
