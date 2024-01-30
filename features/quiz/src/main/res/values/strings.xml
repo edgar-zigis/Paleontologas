@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="quiz">Quiz</string>
+
+    <string name="finito">Finito!</string>
+    <string name="quiz_mark_placeholder">%d/%d</string>
+
+    <string name="answered">ANSWERED</string>
+    <string name="quiz_welcome_text">Each time 10 questions are randomly generated. Period progress will increase if answered correctly!</string>
+    <string name="total_questions">At the moment quiz contains 325 questions!</string>
+
+    <string name="start">BEGIN!</string>
+    <string name="continue_further">CONTINUE</string>
+    <string name="do_you_really_want_to_exit">Do you really want to exit?</string>
+    <string name="progress_wont_be_counted">Answers won\'t be counted!</string>
+    <string name="yes">YES!</string>
+    <string name="no">NO!</string>
+
+    <string name="correct_answered">Correct answers</string>
+
+    <string name="result_10">Your knowledge is just terrific!\nYou should definitely think about paleontological career?</string>
+    <string name="result_9">Great result, close to the perfection!</string>
+    <string name="result_8">Really good result! Rotated infinity sign shows, that there is always room to improve!</string>
+    <string name="result_7">Lucky number! I think, this is a good sign!</string>
+    <string name="result_6">More than half, better than nothing!</string>
+    <string name="result_5">University students really want this mark, but you can be better!</string>
+    <string name="result_4">Well, it is not a Soviet Union or France, four is not a great mark!</string>
+    <string name="result_3">I think you should try better!</string>
+    <string name="result_2">Two is a sign, that you should consider studying more!</string>
+    <string name="result_1">Unfortunately, it doesn\'t mean that you are first..</string>
+    <string name="result_0">Yes, just a round zero!</string>
+
+    <string name="hadean_question_1">When the Hadean eon began?</string>
+
+    <string name="hadean_variant_1_1">4560 mya</string>
+    <string name="hadean_variant_1_2">4700 mya</string>
+    <string name="hadean_variant_1_3">3890 mya</string>
+    <string name="hadean_variant_1_4">3200 mya</string>
+
+    <string name="hadean_question_2">When the Hadean eon ended?</string>
+
+    <string name="hadean_variant_2_1">4000 mya</string>
+    <string name="hadean_variant_2_2">3500 mya</string>
+    <string name="hadean_variant_2_3">2000 mya</string>
+    <string name="hadean_variant_2_4">4500 mya</string>
+
+    <string name="hadean_question_3">What mineral provides evidence for water existence in Hadean?</string>
+
+    <string name="hadean_variant_3_1">zircon</string>
+    <string name="hadean_variant_3_2">copper</string>
+    <string name="hadean_variant_3_3">titanium</string>
+    <string name="hadean_variant_3_4">quartz</string>
+
+    <string name="hadean_question_4">What is the most likely scientific reason of the life appearance in Earth?</string>
+
+    <string name="hadean_variant_4_1">meteorites</string>
+    <string name="hadean_variant_4_2">God</string>
+    <string name="hadean_variant_4_3">nuclear fusion</string>
+    <string name="hadean_variant_4_4">Donald Trump</string>
+
+    <!--     BREAK      -->
+
+    <string name="archean_question_1">When the Archean eon began?</string>
+
+    <string name="archean_variant_1_1">4000 mya</string>
+    <string name="archean_variant_1_2">4500 mya</string>
+    <string name="archean_variant_1_3">3500 mya</string>
+    <string name="archean_variant_1_4">2000 mya</string>
+
+    <string name="archean_question_2">When the Archean eon ended?</string>
+
+    <string name="archean_variant_2_1">2500 mya</string>
+    <string name="archean_variant_2_2">3000 mya</string>
+    <string name="archean_variant_2_3">2000 mya</string>
+    <string name="archean_variant_2_4">1500 mya</string>
+
+    <string name="archean_question_3">Because of which reason the Earth\'s temperature was 2&#8211;3 times higher than the current during the Archean?</string>
+
+    <string name="archean_variant_3_1">all answers are correct</string>
+    <string name="archean_variant_3_2">high concentration of the greenhouse gas</string>
+    <string name="archean_variant_3_3">heat from the planet core</string>
+    <string name="archean_variant_3_4">planet physical growth</string>
+
+    <string name="archean_question_4">Which is the earliest possible date of the appearance of the first prokaryotes?</string>
+
+    <string name="archean_variant_4_1">3770 mya</string>
+    <string name="archean_variant_4_2">3500 mya</string>
+    <string name="archean_variant_4_3">2700 mya</string>
+    <string name="archean_variant_4_4">2560 mya</string>
+
+    <string name="archean_question_5">Which is the earliest possible date of the appearance of the first eukaryotes?</string>
+
+    <string name="archean_variant_5_1">2700 mya</string>
+    <string name="archean_variant_5_2">3100 mya</string>
+    <string name="archean_variant_5_3">3450 mya</string>
+    <string name="archean_variant_5_4">3770 mya</string>
+
+    <string name="archean_question_6">What kind of object is shown in this picture?</string>
+
+    <string name="archean_variant_6_1">Banded iron formations</string>
+    <string name="archean_variant_6_2">Stromatolites</string>
+    <string name="archean_variant_6_3">Acritarcha</string>
+    <string name="archean_variant_6_4">Quartz rocks</string>
+
+    <string name="archean_question_7">What is the earliest known appearance of the iron banded formations?</string>
+
+    <string name="archean_variant_7_1">3850 mya</string>
+    <string name="archean_variant_7_2">3650 mya</string>
+    <string name="archean_variant_7_3">2890 mya</string>
+    <string name="archean_variant_7_4">3200 mya</string>
+
+    <string name="archean_question_8">What is the possible cause of the banded iron formation creation?</string>
+
+    <string name="archean_variant_8_1">cyanobacteria</string>
+    <string name="archean_variant_8_2">nitrogenous bacteria</string>
+    <string name="archean_variant_8_3">static heat from the planet\'s core</string>
+    <string name="archean_variant_8_4">multicellular aliens</string>
+
+    <string name="archean_question_9">What kind of mineral form red bands in the shown object?</string>
+
+    <string name="archean_variant_9_1">hematite</string>
+    <string name="archean_variant_9_2">calcite</string>
+    <string name="archean_variant_9_3">amethyst</string>
+    <string name="archean_variant_9_4">aragonite</string>
+
+    <string name="archean_question_10">What kind of object is shown in this picture?</string>
+
+    <string name="archean_variant_10_1">Stromatolites</string>
+    <string name="archean_variant_10_2">Banded iron formations</string>
+    <string name="archean_variant_10_3">Organic rocks</string>
+    <string name="archean_variant_10_4">Meteorites from the Late Heavy Bombardment</string>
+
+    <string name="archean_question_11">What is the earliest known appearance of the stromatolites?</string>
+
+    <string name="archean_variant_11_1">3700 mya</string>
+    <string name="archean_variant_11_2">3650 mya</string>
+    <string name="archean_variant_11_3">3210 mya</string>
+    <string name="archean_variant_11_4">3010 mya</string>
+
+    <string name="archean_question_12">Where the stromatolites can be found now?</string>
+
+    <string name="archean_variant_12_1">hypersaline lakes</string>
+    <string name="archean_variant_12_2">dry mountains</string>
+    <string name="archean_variant_12_3">deep ocean near the Mariana</string>
+    <string name="archean_variant_12_4">fresh water</string>
+
+    <string name="archean_question_13">What kind of microorganism is shown in this picture?</string>
+
+    <string name="archean_variant_13_1">Primaevifilum amoneum</string>
+    <string name="archean_variant_13_2">Escherichia coli</string>
+    <string name="archean_variant_13_3">Unknown organic traces</string>
+    <string name="archean_variant_13_4">Clostridium perfringens</string>
+
+    <string name="archean_question_14">What is the earliest known appearance of the Primaevifilum amoneum?</string>
+
+    <string name="archean_variant_14_1">3465 mya</string>
+    <string name="archean_variant_14_2">3100 mya</string>
+    <string name="archean_variant_14_3">2320 mya</string>
+    <string name="archean_variant_14_4">3245 mya</string>
+
+    <string name="archean_question_15">What kind of object is shown in this picture?</string>
+
+    <string name="archean_variant_15_1">Acritarcha</string>
+    <string name="archean_variant_15_2">Glossopteris</string>
+    <string name="archean_variant_15_3">Archaeopteris</string>
+    <string name="archean_variant_15_4">Cyanobacteria</string>
+
+    <string name="archean_question_16">What is the earliest known appearance of the acritarcha?</string>
+
+    <string name="archean_variant_16_1">3200 mya</string>
+    <string name="archean_variant_16_2">3400 mya</string>
+    <string name="archean_variant_16_3">2900 mya</string>
+    <string name="archean_variant_16_4">2700 mya</string>
+
+    <string name="archean_question_17">Which of these objects can be classified as acritarcha?</string>
+
+    <string name="archean_variant_17_1">egg cases</string>
+    <string name="archean_variant_17_2">organic sand</string>
+    <string name="archean_variant_17_3">worms</string>
+    <string name="archean_variant_17_4">lichen</string>
+
+    <!--     BREAK      -->
+
+    <string name="proterozoic_question_1">When the Proterozoic eon began?</string>
+
+    <string name="proterozoic_variant_1_1">2500 mya</string>
+    <string name="proterozoic_variant_1_2">2300 mya</string>
+    <string name="proterozoic_variant_1_3">2700 mya</string>
+    <string name="proterozoic_variant_1_4">1800 mya</string>
+
+    <string name="proterozoic_question_2">When the Proterozoic eon ended?</string>
+
+    <string name="proterozoic_variant_2_1">541 mya</string>
+    <string name="proterozoic_variant_2_2">635 mya</string>
+    <string name="proterozoic_variant_2_3">525 mya</string>
+    <string name="proterozoic_variant_2_4">612 mya</string>
+
+    <string name="proterozoic_question_3">When the last Snowball Earth event occurred?</string>
+
+    <string name="proterozoic_variant_3_1">during the Cryogenian</string>
+    <string name="proterozoic_variant_3_2">during the Huronian</string>
+    <string name="proterozoic_variant_3_3">during the Ordovician</string>
+    <string name="proterozoic_variant_3_4">during the Famenian</string>
+
+    <string name="proterozoic_question_4">What is the main cause of the Great Oxidation Event?</string>
+
+    <string name="proterozoic_variant_4_1">photosynthesis</string>
+    <string name="proterozoic_variant_4_2">depletion of the sulfuric deposits</string>
+    <string name="proterozoic_variant_4_3">continental crust</string>
+    <string name="proterozoic_variant_4_4">Snowball Earth</string>
+
+    <string name="proterozoic_question_5">When the Great Oxidation Event occurred?</string>
+
+    <string name="proterozoic_variant_5_1">during the Proterozoic</string>
+    <string name="proterozoic_variant_5_2">during the Archean</string>
+    <string name="proterozoic_variant_5_3">during the Paleozoic</string>
+    <string name="proterozoic_variant_5_4">during the Huronian</string>
+
+    <string name="proterozoic_question_6">What kind of organism is shown in this picture?</string>
+
+    <string name="proterozoic_variant_6_1">Bangiomorpha pubescens</string>
+    <string name="proterozoic_variant_6_2">Nemiana simplex</string>
+    <string name="proterozoic_variant_6_3">Archaeocyatha</string>
+    <string name="proterozoic_variant_6_4">Welwitschia</string>
+
+    <string name="proterozoic_question_7">In which eon did this organism live?</string>
+
+    <string name="proterozoic_variant_7_1">Proterozoic</string>
+    <string name="proterozoic_variant_7_2">Archean</string>
+    <string name="proterozoic_variant_7_3">Paleozoic</string>
+    <string name="proterozoic_variant_7_4">Mesozoic</string>
+
+    <string name="proterozoic_question_8">To which organism group does this organism belong?</string>
+
+    <string name="proterozoic_variant_8_1">red algae</string>
+    <string name="proterozoic_variant_8_2">brown algae</string>
+    <string name="proterozoic_variant_8_3">marine worm</string>
+    <string name="proterozoic_variant_8_4">fungi</string>
+
+    <string name="proterozoic_question_9">What kind of organism is shown in this picture?</string>
+
+    <string name="proterozoic_variant_9_1">Nemiana simplex</string>
+    <string name="proterozoic_variant_9_2">Cloudina</string>
+    <string name="proterozoic_variant_9_3">Orthoceras</string>
+    <string name="proterozoic_variant_9_4">Gastornis</string>
+
+    <string name="proterozoic_question_10">During which geological period this organism appeared?</string>
+
+    <string name="proterozoic_variant_10_1">Ediacaran</string>
+    <string name="proterozoic_variant_10_2">Ordovician</string>
+    <string name="proterozoic_variant_10_3">Silurian</string>
+    <string name="proterozoic_variant_10_4">Cambrian</string>
+
+    <string name="proterozoic_question_11">What kind of organism is shown in this picture?</string>
+
+    <string name="proterozoic_variant_11_1">Tribrachidium heraldicum</string>
+    <string name="proterozoic_variant_11_2">Nemiana simplex</string>
+    <string name="proterozoic_variant_11_3">Treptichnus pedum</string>
+    <string name="proterozoic_variant_11_4">Argentavis</string>
+
+    <string name="proterozoic_question_12">During which geological period this organism appeared?</string>
+
+    <string name="proterozoic_variant_12_1">Ediacaran</string>
+    <string name="proterozoic_variant_12_2">Ordovician</string>
+    <string name="proterozoic_variant_12_3">Permian</string>
+    <string name="proterozoic_variant_12_4">Dickinsonian</string>
+
+    <string name="proterozoic_question_13">What kind of organism is shown in this picture?</string>
+
+    <string name="proterozoic_variant_13_1">Dickinsonia</string>
+    <string name="proterozoic_variant_13_2">Coelacanth</string>
+    <string name="proterozoic_variant_13_3">Paraceratherium</string>
+    <string name="proterozoic_variant_13_4">Daeodon</string>
+
+    <string name="proterozoic_question_14">During which geological period this organism appeared?</string>
+
+    <string name="proterozoic_variant_14_1">Ediacaran</string>
+    <string name="proterozoic_variant_14_2">Cretaceous</string>
+    <string name="proterozoic_variant_14_3">Carboniferous</string>
+    <string name="proterozoic_variant_14_4">Cambrian</string>
+
+    <string name="proterozoic_question_15">What kind of symmetry this organism resemble?</string>
+
+    <string name="proterozoic_variant_15_1">bilateral</string>
+    <string name="proterozoic_variant_15_2">radial</string>
+    <string name="proterozoic_variant_15_3">conical</string>
+    <string name="proterozoic_variant_15_4">normal</string>
+
+    <string name="proterozoic_question_16">What kind of organism is shown in this picture?</string>
+
+    <string name="proterozoic_variant_16_1">Cloudina</string>
+    <string name="proterozoic_variant_16_2">Wiwaxia</string>
+    <string name="proterozoic_variant_16_3">Morganucodon</string>
+    <string name="proterozoic_variant_16_4">Coelodonta</string>
+
+    <string name="proterozoic_question_17">During which geological period this organism appeared?</string>
+
+    <string name="proterozoic_variant_17_1">Ediacaran</string>
+    <string name="proterozoic_variant_17_2">Neogene</string>
+    <string name="proterozoic_variant_17_3">Paleogene</string>
+    <string name="proterozoic_variant_17_4">Silurian</string>
+
+    <string name="proterozoic_question_18">What kind of organism is shown in this picture?</string>
+
+    <string name="proterozoic_variant_18_1">Charnia</string>
+    <string name="proterozoic_variant_18_2">Astraspis</string>
+    <string name="proterozoic_variant_18_3">Baragwanathia</string>
+    <string name="proterozoic_variant_18_4">Wattieza</string>
+
+    <string name="proterozoic_question_19">During which geological period this organism appeared?</string>
+
+    <string name="proterozoic_variant_19_1">Ediacaran</string>
+    <string name="proterozoic_variant_19_2">Triassic</string>
+    <string name="proterozoic_variant_19_3">Cambrian</string>
+    <string name="proterozoic_variant_19_4">Cryogenian</string>
+
+    <string name="proterozoic_question_20">Which of the following statements about the Charnia is false?</string>
+
+    <string name="proterozoic_variant_20_1">they belong to the plants</string>
+    <string name="proterozoic_variant_20_2">they lived in the deep ocean</string>
+    <string name="proterozoic_variant_20_3">they lived during the Precambrian</string>
+    <string name="proterozoic_variant_20_4">they were reproducing sexually</string>
+
+    <!--     BREAK      -->
+
+    <string name="cambrian_question_1">When the Cambrian began?</string>
+
+    <string name="cambrian_variant_1_1">541 mya</string>
+    <string name="cambrian_variant_1_2">521 mya</string>
+    <string name="cambrian_variant_1_3">525 mya</string>
+    <string name="cambrian_variant_1_4">488 mya</string>
+
+    <string name="cambrian_question_2">When the Cambrian ended?</string>
+
+    <string name="cambrian_variant_2_1">485.4 mya</string>
+    <string name="cambrian_variant_2_2">475.3 mya</string>
+    <string name="cambrian_variant_2_3">498.1 mya</string>
+    <string name="cambrian_variant_2_4">503.8 mya</string>
+
+    <string name="cambrian_question_3">To which era does Cambrian belong?</string>
+
+    <string name="cambrian_variant_3_1">Paleozoic</string>
+    <string name="cambrian_variant_3_2">Mesozoic</string>
+    <string name="cambrian_variant_3_3">Cenozoic</string>
+    <string name="cambrian_variant_3_4">Neoproterozoic</string>
+
+    <string name="cambrian_question_4">What was the position of the Gondwana during the Cambrian?</string>
+
+    <string name="cambrian_variant_4_1">south</string>
+    <string name="cambrian_variant_4_2">north</string>
+    <string name="cambrian_variant_4_3">central</string>
+    <string name="cambrian_variant_4_4">there was no Gondwana during that time</string>
+
+    <string name="cambrian_question_5">What kind of change separated Cambrian from the Ediacaran?</string>
+
+    <string name="cambrian_variant_5_1">appearance of the burrowing animals</string>
+    <string name="cambrian_variant_5_2">mass extinction</string>
+    <string name="cambrian_variant_5_3">change in the Earth\'s geology</string>
+    <string name="cambrian_variant_5_4">sea level rise</string>
+
+    <string name="cambrian_question_6">Which of the following statements about the Cambrian explosion is false?</string>
+
+    <string name="cambrian_variant_6_1">it filled most of the animal groups with the new species</string>
+    <string name="cambrian_variant_6_2">it created most of the modern animal groups</string>
+    <string name="cambrian_variant_6_3">first skeletonized animals appeared</string>
+    <string name="cambrian_variant_6_4">it belongs to the Paleozoic</string>
+
+    <string name="cambrian_question_7">What kind of organism is shown in this picture?</string>
+
+    <string name="cambrian_variant_7_1">Treptichnus pedum</string>
+    <string name="cambrian_variant_7_2">Marrella</string>
+    <string name="cambrian_variant_7_3">Pentecopterus</string>
+    <string name="cambrian_variant_7_4">Pneumodesmus</string>
+
+    <string name="cambrian_question_8">During which geological period this organism appeared?</string>
+
+    <string name="cambrian_variant_8_1">Cambrian</string>
+    <string name="cambrian_variant_8_2">Ediacaran</string>
+    <string name="cambrian_variant_8_3">Huronian</string>
+    <string name="cambrian_variant_8_4">Silurian</string>
+
+    <string name="cambrian_question_9">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_9_1">Conodonta</string>
+    <string name="cambrian_variant_9_2">Acanthodii</string>
+    <string name="cambrian_variant_9_3">Lamprey</string>
+    <string name="cambrian_variant_9_4">Myllokunmingia</string>
+
+    <string name="cambrian_question_10">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_10_1">Cambrian</string>
+    <string name="cambrian_variant_10_2">Ordovician</string>
+    <string name="cambrian_variant_10_3">Devonian</string>
+    <string name="cambrian_variant_10_4">Quaternary</string>
+
+    <string name="cambrian_question_11">Which statement about the conodonts is correct?</string>
+
+    <string name="cambrian_variant_11_1">they are index fossils</string>
+    <string name="cambrian_variant_11_2">they belong to the lampreys</string>
+    <string name="cambrian_variant_11_3">they died during the Silurian extinction</string>
+    <string name="cambrian_variant_11_4">they could grow up to the 2 metres in length</string>
+
+    <string name="cambrian_question_12">What kind of organism is shown in this picture?</string>
+
+    <string name="cambrian_variant_12_1">Archaeocyatha</string>
+    <string name="cambrian_variant_12_2">Rugosa</string>
+    <string name="cambrian_variant_12_3">Tabulata</string>
+    <string name="cambrian_variant_12_4">Demosponges</string>
+
+    <string name="cambrian_question_13">During which geological period this organism appeared?</string>
+
+    <string name="cambrian_variant_13_1">Cambrian</string>
+    <string name="cambrian_variant_13_2">Devonian</string>
+    <string name="cambrian_variant_13_3">Jurassic</string>
+    <string name="cambrian_variant_13_4">Silurian</string>
+
+    <string name="cambrian_question_14">From which material skeletons of these organisms was made?</string>
+
+    <string name="cambrian_variant_14_1">calcite</string>
+    <string name="cambrian_variant_14_2">aragonite</string>
+    <string name="cambrian_variant_14_3">bone tissue</string>
+    <string name="cambrian_variant_14_4">quartz</string>
+
+    <string name="cambrian_question_15">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_15_1">trilobite</string>
+    <string name="cambrian_variant_15_2">horse-shoe crab</string>
+    <string name="cambrian_variant_15_3">sea scorpion</string>
+    <string name="cambrian_variant_15_4">Opabinia</string>
+
+    <string name="cambrian_question_16">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_16_1">Cambrian</string>
+    <string name="cambrian_variant_16_2">Devonian</string>
+    <string name="cambrian_variant_16_3">Permian</string>
+    <string name="cambrian_variant_16_4">Ordovician</string>
+
+    <string name="cambrian_question_17">During which extinction this animal disappeared?</string>
+
+    <string name="cambrian_variant_17_1">Permian-Triassic</string>
+    <string name="cambrian_variant_17_2">Cretaceous-Paleogene</string>
+    <string name="cambrian_variant_17_3">Ordovician-Silurian</string>
+    <string name="cambrian_variant_17_4">Triassic-Jurassic</string>
+
+    <string name="cambrian_question_18">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_18_1">Myllokunmingia</string>
+    <string name="cambrian_variant_18_2">Pikaia</string>
+    <string name="cambrian_variant_18_3">Entelognathus</string>
+    <string name="cambrian_variant_18_4">Gorgonops</string>
+
+    <string name="cambrian_question_19">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_19_1">Cambrian</string>
+    <string name="cambrian_variant_19_2">Ordovician</string>
+    <string name="cambrian_variant_19_3">Silurian</string>
+    <string name="cambrian_variant_19_4">Jurassic</string>
+
+    <string name="cambrian_question_20">Which of these animals is the oldest known craniate?</string>
+
+    <string name="cambrian_variant_20_1">Myllokunmingia</string>
+    <string name="cambrian_variant_20_2">Pikaia</string>
+    <string name="cambrian_variant_20_3">Astraspis</string>
+    <string name="cambrian_variant_20_4">Dunkleosteus</string>
+
+    <string name="cambrian_question_21">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_21_1">Wiwaxia</string>
+    <string name="cambrian_variant_21_2">Daeodon</string>
+    <string name="cambrian_variant_21_3">Pyrotherium</string>
+    <string name="cambrian_variant_21_4">Cooksonia</string>
+
+    <string name="cambrian_question_22">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_22_1">Cambrian</string>
+    <string name="cambrian_variant_22_2">Silurian</string>
+    <string name="cambrian_variant_22_3">Carboniferous</string>
+    <string name="cambrian_variant_22_4">Jurassic</string>
+
+    <string name="cambrian_question_23">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_23_1">Anomalocaris</string>
+    <string name="cambrian_variant_23_2">Gastornis</string>
+    <string name="cambrian_variant_23_3">Akmonistion</string>
+    <string name="cambrian_variant_23_4">Proterogyrinus</string>
+
+    <string name="cambrian_question_24">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_24_1">Cambrian</string>
+    <string name="cambrian_variant_24_2">Ordovician</string>
+    <string name="cambrian_variant_24_3">Jurassic</string>
+    <string name="cambrian_variant_24_4">Neogene</string>
+
+    <string name="cambrian_question_25">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_25_1">Pikaia</string>
+    <string name="cambrian_variant_25_2">Myllokunmingia</string>
+    <string name="cambrian_variant_25_3">Archaeothyris</string>
+    <string name="cambrian_variant_25_4">Meganeura</string>
+
+    <string name="cambrian_question_26">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_26_1">Cambrian</string>
+    <string name="cambrian_variant_26_2">Paleogene</string>
+    <string name="cambrian_variant_26_3">Jurassic</string>
+    <string name="cambrian_variant_26_4">Silurian</string>
+
+    <string name="cambrian_question_27">Which of these animals is the oldest known vertebrate ancestor?</string>
+
+    <string name="cambrian_variant_27_1">Pikaia</string>
+    <string name="cambrian_variant_27_2">Myllokunmingia</string>
+    <string name="cambrian_variant_27_3">Entelognathus</string>
+    <string name="cambrian_variant_27_4">Proterogyrinus</string>
+
+    <string name="cambrian_question_28">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_28_1">Opabinia</string>
+    <string name="cambrian_variant_28_2">Marrella</string>
+    <string name="cambrian_variant_28_3">Ammonite</string>
+    <string name="cambrian_variant_28_4">Wiwaxia</string>
+
+    <string name="cambrian_question_29">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_29_1">Cambrian</string>
+    <string name="cambrian_variant_29_2">Cretaceous</string>
+    <string name="cambrian_variant_29_3">Ediacaran</string>
+    <string name="cambrian_variant_29_4">Silurian</string>
+
+    <string name="cambrian_question_30">What kind of animal is shown in this picture?</string>
+
+    <string name="cambrian_variant_30_1">Marrella</string>
+    <string name="cambrian_variant_30_2">Morganucodon</string>
+    <string name="cambrian_variant_30_3">Allosorus</string>
+    <string name="cambrian_variant_30_4">Smilodon</string>
+
+    <string name="cambrian_question_31">During which geological period this animal appeared?</string>
+
+    <string name="cambrian_variant_31_1">Cambrian</string>
+    <string name="cambrian_variant_31_2">Ordovician</string>
+    <string name="cambrian_variant_31_3">Carboniferous</string>
+    <string name="cambrian_variant_31_4">Cryogenian</string>
+
+    <!--     BREAK      -->
+
+    <string name="ordovician_question_1">When the Ordovician began?</string>
+
+    <string name="ordovician_variant_1_1">485.4 mya</string>
+    <string name="ordovician_variant_1_2">475.3 mya</string>
+    <string name="ordovician_variant_1_3">521.2 mya</string>
+    <string name="ordovician_variant_1_4">389.5 mya</string>
+
+    <string name="ordovician_question_2">When the Ordovician ended?</string>
+
+    <string name="ordovician_variant_2_1">448.3 mya</string>
+    <string name="ordovician_variant_2_2">432.3 mya</string>
+    <string name="ordovician_variant_2_3">321.1 mya</string>
+    <string name="ordovician_variant_2_4">418.8 mya</string>
+
+    <string name="ordovician_question_3">To which era does Ordovician belong?</string>
+
+    <string name="ordovician_variant_3_1">Paleozoic</string>
+    <string name="ordovician_variant_3_2">Mesozoic</string>
+    <string name="ordovician_variant_3_3">Cenozoic</string>
+    <string name="ordovician_variant_3_4">Mesoproterozoic</string>
+
+    <string name="ordovician_question_4">What was the main cause of the Ordovician Radiation?</string>
+
+    <string name="ordovician_variant_4_1">high sea levels</string>
+    <string name="ordovician_variant_4_2">ice caps in the South</string>
+    <string name="ordovician_variant_4_3">high air temperatures</string>
+    <string name="ordovician_variant_4_4">increase in the oxygen levels</string>
+
+    <string name="ordovician_question_5">What was the main cause of the Cambrian-Ordovician extinction?</string>
+
+    <string name="ordovician_variant_5_1">depletion of the sea oxygen and sudden glaciation</string>
+    <string name="ordovician_variant_5_2">increased UV levels</string>
+    <string name="ordovician_variant_5_3">meteorite crash</string>
+    <string name="ordovician_variant_5_4">vulcanism and methane releases</string>
+
+    <string name="ordovician_question_6">What kind of animal is shown in this picture?</string>
+
+    <string name="ordovician_variant_6_1">Orthoceras</string>
+    <string name="ordovician_variant_6_2">graptolite</string>
+    <string name="ordovician_variant_6_3">Ammonite</string>
+    <string name="ordovician_variant_6_4">squid</string>
+
+    <string name="ordovician_question_7">During which geological period this animal appeared?</string>
+
+    <string name="ordovician_variant_7_1">Ordovician</string>
+    <string name="ordovician_variant_7_2">Silurian</string>
+    <string name="ordovician_variant_7_3">Cambrian</string>
+    <string name="ordovician_variant_7_4">Jurassic</string>
+
+    <string name="ordovician_question_8">What kind of animal is shown in this picture?</string>
+
+    <string name="ordovician_variant_8_1">Pentecopterus</string>
+    <string name="ordovician_variant_8_2">Anomalocaris</string>
+    <string name="ordovician_variant_8_3">Arthropleura</string>
+    <string name="ordovician_variant_8_4">Xiphosura</string>
+
+    <string name="ordovician_question_9">During which geological period this animal appeared?</string>
+
+    <string name="ordovician_variant_9_1">Ordovician</string>
+    <string name="ordovician_variant_9_2">Silurian</string>
+    <string name="ordovician_variant_9_3">Cambrian</string>
+    <string name="ordovician_variant_9_4">Devonian</string>
+
+    <string name="ordovician_question_10">When the sea scorpions (Euryptera) extinct?</string>
+
+    <string name="ordovician_variant_10_1">by the end of the Permian</string>
+    <string name="ordovician_variant_10_2">by the end of the Devonian</string>
+    <string name="ordovician_variant_10_3">by the end of the Cretaceous</string>
+    <string name="ordovician_variant_10_4">they are still alive</string>
+
+    <string name="ordovician_question_11">What kind of fish is shown in this picture?</string>
+
+    <string name="ordovician_variant_11_1">Sacabambaspis</string>
+    <string name="ordovician_variant_11_2">Astraspis</string>
+    <string name="ordovician_variant_11_3">Myllokunmingia</string>
+    <string name="ordovician_variant_11_4">Entelognathus</string>
+
+    <string name="ordovician_question_12">During which geological period this fish appeared?</string>
+
+    <string name="ordovician_variant_12_1">Ordovician</string>
+    <string name="ordovician_variant_12_2">Silurian</string>
+    <string name="ordovician_variant_12_3">Devonian</string>
+    <string name="ordovician_variant_12_4">Paleogene</string>
+
+    <string name="ordovician_question_13">Which is the oldest known fish having verterbrate-like skeletal tissues?</string>
+
+    <string name="ordovician_variant_13_1">Sacabambaspis</string>
+    <string name="ordovician_variant_13_2">Astraspis</string>
+    <string name="ordovician_variant_13_3">Megalodon</string>
+    <string name="ordovician_variant_13_4">Pikaia</string>
+
+    <string name="ordovician_question_14">What kind of fish is shown in this picture?</string>
+
+    <string name="ordovician_variant_14_1">Astraspis</string>
+    <string name="ordovician_variant_14_2">Sacabambaspis</string>
+    <string name="ordovician_variant_14_3">Tiktaalik</string>
+    <string name="ordovician_variant_14_4">Archaeothyris</string>
+
+    <string name="ordovician_question_15">During which geological period this fish appeared?</string>
+
+    <string name="ordovician_variant_15_1">Ordovician</string>
+    <string name="ordovician_variant_15_2">Silurian</string>
+    <string name="ordovician_variant_15_3">Devonian</string>
+    <string name="ordovician_variant_15_4">Cambrian</string>
+
+    <string name="ordovician_question_16">Which fish is the oldest known armored jawless fish?</string>
+
+    <string name="ordovician_variant_16_1">Astraspis</string>
+    <string name="ordovician_variant_16_2">Entelognathus</string>
+    <string name="ordovician_variant_16_3">Lamprey</string>
+    <string name="ordovician_variant_16_4">Carcharodon</string>
+
+    <!--     BREAK      -->
+
+    <string name="silurian_question_1">When the Silurian began?</string>
+
+    <string name="silurian_variant_1_1">443.8 mya</string>
+    <string name="silurian_variant_1_2">474.2 mya</string>
+    <string name="silurian_variant_1_3">321.1 mya</string>
+    <string name="silurian_variant_1_4">389.5 mya</string>
+
+    <string name="silurian_question_2">When the Silurian ended?</string>
+
+    <string name="silurian_variant_2_1">419.2 mya</string>
+    <string name="silurian_variant_2_2">432.3 mya</string>
+    <string name="silurian_variant_2_3">321.1 mya</string>
+    <string name="silurian_variant_2_4">418.8 mya</string>
+
+    <string name="silurian_question_3">To which era does Silurian belong?</string>
+
+    <string name="silurian_variant_3_1">Paleozoic</string>
+    <string name="silurian_variant_3_2">Mesozoic</string>
+    <string name="silurian_variant_3_3">Famenian</string>
+    <string name="silurian_variant_3_4">Huronian</string>
+
+    <string name="silurian_question_4">Which plant task is decreased, when the gas exchange and sunlight interception increases?</string>
+
+    <string name="silurian_variant_4_1">water conservation</string>
+    <string name="silurian_variant_4_2">coping with external mechanical forces</string>
+    <string name="silurian_variant_4_3">growth</string>
+    <string name="silurian_variant_4_4">lifespan</string>
+
+    <string name="silurian_question_5">During which period first plants appeared?</string>
+
+    <string name="silurian_variant_5_1">Silurian</string>
+    <string name="silurian_variant_5_2">Ordovician</string>
+    <string name="silurian_variant_5_3">Devonian</string>
+    <string name="silurian_variant_5_4">Carboniferous</string>
+
+    <string name="silurian_question_6">What kind of animal is shown in this picture?</string>
+
+    <string name="silurian_variant_6_1">Eurypterus</string>
+    <string name="silurian_variant_6_2">Arthropleura</string>
+    <string name="silurian_variant_6_3">Marrella</string>
+    <string name="silurian_variant_6_4">Wiwaxia</string>
+
+    <string name="silurian_question_7">During which geological period this animal appeared?</string>
+
+    <string name="silurian_variant_7_1">Silurian</string>
+    <string name="silurian_variant_7_2">Cretaceous</string>
+    <string name="silurian_variant_7_3">Cambrian</string>
+    <string name="silurian_variant_7_4">Jurassic</string>
+
+    <string name="silurian_question_8">What kind of animal is shown in this picture?</string>
+
+    <string name="silurian_variant_8_1">Pneumodesmus</string>
+    <string name="silurian_variant_8_2">Arthropleura</string>
+    <string name="silurian_variant_8_3">Tribrachidium</string>
+    <string name="silurian_variant_8_4">Trilobite</string>
+
+    <string name="silurian_question_9">During which geological period this animal appeared?</string>
+
+    <string name="silurian_variant_9_1">Silurian</string>
+    <string name="silurian_variant_9_2">Neogene</string>
+    <string name="silurian_variant_9_3">Cambrian</string>
+    <string name="silurian_variant_9_4">Devonian</string>
+
+    <string name="silurian_question_10">What is the oldest known creature to live on land?</string>
+
+    <string name="silurian_variant_10_1">Pneumodesmus</string>
+    <string name="silurian_variant_10_2">Arthropleura</string>
+    <string name="silurian_variant_10_3">Entelognathus</string>
+    <string name="silurian_variant_10_4">Ichthyostega</string>
+
+    <string name="silurian_question_11">What kind of plant is shown in this picture?</string>
+
+    <string name="silurian_variant_11_1">Cooksonia</string>
+    <string name="silurian_variant_11_2">Welwitschia</string>
+    <string name="silurian_variant_11_3">Archaeopteris</string>
+    <string name="silurian_variant_11_4">Glossopteris</string>
+
+    <string name="silurian_question_12">During which geological period this plant appeared?</string>
+
+    <string name="silurian_variant_12_1">Silurian</string>
+    <string name="silurian_variant_12_2">Carboniferous</string>
+    <string name="silurian_variant_12_3">Devonian</string>
+    <string name="silurian_variant_12_4">Paleogene</string>
+
+    <string name="silurian_question_13">What kind of plant is shown in this picture?</string>
+
+    <string name="silurian_variant_13_1">Baragwanathia</string>
+    <string name="silurian_variant_13_2">Wiwaxia</string>
+    <string name="silurian_variant_13_3">Cooksonia</string>
+    <string name="silurian_variant_13_4">Moss</string>
+
+    <string name="silurian_question_14">During which geological period this plant appeared?</string>
+
+    <string name="silurian_variant_14_1">Silurian</string>
+    <string name="silurian_variant_14_2">Ordovician</string>
+    <string name="silurian_variant_14_3">Devonian</string>
+    <string name="silurian_variant_14_4">Permian</string>
+
+    <string name="silurian_question_15">To which group does this plant belong?</string>
+
+    <string name="silurian_variant_15_1">Lycophyta</string>
+    <string name="silurian_variant_15_2">Equisetophyta</string>
+    <string name="silurian_variant_15_3">Ginkgophyta</string>
+    <string name="silurian_variant_15_4">Pinophyta</string>
+
+    <string name="silurian_question_16">What kind of fish is shown in this picture?</string>
+
+    <string name="silurian_variant_16_1">Acanthodii</string>
+    <string name="silurian_variant_16_2">Entelognathus</string>
+    <string name="silurian_variant_16_3">Dunkleosteus</string>
+    <string name="silurian_variant_16_4">Carcharodon</string>
+
+    <string name="silurian_question_17">During which geological period this fish appeared?</string>
+
+    <string name="silurian_variant_17_1">Silurian</string>
+    <string name="silurian_variant_17_2">Jurassic</string>
+    <string name="silurian_variant_17_3">Devonian</string>
+    <string name="silurian_variant_17_4">Permian</string>
+
+    <string name="silurian_question_18">What kind of fish is shown in this picture?</string>
+
+    <string name="silurian_variant_18_1">Entelognathus</string>
+    <string name="silurian_variant_18_2">Cladoselache</string>
+    <string name="silurian_variant_18_3">Dunkleosteus</string>
+    <string name="silurian_variant_18_4">Bothriolepis</string>
+
+    <string name="silurian_question_19">During which geological period this fish appeared?</string>
+
+    <string name="silurian_variant_19_1">Silurian</string>
+    <string name="silurian_variant_19_2">Carboniferous</string>
+    <string name="silurian_variant_19_3">Devonian</string>
+    <string name="silurian_variant_19_4">Neogene</string>
+
+    <string name="silurian_question_20">Which of these organisms is the earliest known armored fish (Placodermi)?</string>
+
+    <string name="silurian_variant_20_1">Entelognathus</string>
+    <string name="silurian_variant_20_2">Astraspis</string>
+    <string name="silurian_variant_20_3">Dunkleosteus</string>
+    <string name="silurian_variant_20_4">Cladoselache</string>
+
+    <!--     BREAK      -->
+
+    <string name="devonian_question_1">When the Devonian began?</string>
+
+    <string name="devonian_variant_1_1">419.2 mya</string>
+    <string name="devonian_variant_1_2">402.3 mya</string>
+    <string name="devonian_variant_1_3">374.3 mya</string>
+    <string name="devonian_variant_1_4">281.2 mya</string>
+
+    <string name="devonian_question_2">When the Devonian ended?</string>
+
+    <string name="devonian_variant_2_1">358.9 mya</string>
+    <string name="devonian_variant_2_2">321.2 mya</string>
+    <string name="devonian_variant_2_3">523.2 mya</string>
+    <string name="devonian_variant_2_4">282.2 mya</string>
+
+    <string name="devonian_question_3">To which era does Devonian belong?</string>
+
+    <string name="devonian_variant_3_1">Paleozoic</string>
+    <string name="devonian_variant_3_2">Mesozoic</string>
+    <string name="devonian_variant_3_3">Cenozoic</string>
+    <string name="devonian_variant_3_4">Archean</string>
+
+    <string name="devonian_question_4">Which of these fish did not survive after the Late Devonian extinction?</string>
+
+    <string name="devonian_variant_4_1">armoured fish</string>
+    <string name="devonian_variant_4_2">Acanthodii</string>
+    <string name="devonian_variant_4_3">cartilaginous fish</string>
+    <string name="devonian_variant_4_4">Chondrichthyes</string>
+
+    <string name="devonian_question_5">What is the possible cause of the Late Devonian extinction?</string>
+
+    <string name="devonian_variant_5_1">all choices are correct</string>
+    <string name="devonian_variant_5_2">plant evolution</string>
+    <string name="devonian_variant_5_3">magmatism</string>
+    <string name="devonian_variant_5_4">asteroid impact</string>
+
+    <string name="devonian_question_6">During which period plants became dominant on land?</string>
+
+    <string name="devonian_variant_6_1">Devonian</string>
+    <string name="devonian_variant_6_2">Carboniferous</string>
+    <string name="devonian_variant_6_3">Silurian</string>
+    <string name="devonian_variant_6_4">Permian</string>
+
+    <string name="devonian_question_7">How the Devonian is often referred?</string>
+
+    <string name="devonian_variant_7_1">Age of Fish</string>
+    <string name="devonian_variant_7_2">Age of Plants</string>
+    <string name="devonian_variant_7_3">Age of Reptiles</string>
+    <string name="devonian_variant_7_4">Age of Seas</string>
+
+    <string name="devonian_question_8">What kind of organism is shown in this picture?</string>
+
+    <string name="devonian_variant_8_1">Prototaxites</string>
+    <string name="devonian_variant_8_2">Glossopteris</string>
+    <string name="devonian_variant_8_3">Actinomycetes</string>
+    <string name="devonian_variant_8_4">Chondricthyes</string>
+
+    <string name="devonian_question_9">During which geological period this organism appeared?</string>
+
+    <string name="devonian_variant_9_1">Silurian</string>
+    <string name="devonian_variant_9_2">Devonian</string>
+    <string name="devonian_variant_9_3">Carboniferous</string>
+    <string name="devonian_variant_9_4">Ordovician</string>
+
+    <string name="devonian_question_10">How tall was the Prototaxites?</string>
+
+    <string name="devonian_variant_10_1">up to 8 metres</string>
+    <string name="devonian_variant_10_2">up to 2 metres</string>
+    <string name="devonian_variant_10_3">up to 5 metres</string>
+    <string name="devonian_variant_10_4">up to 12 metres</string>
+
+    <string name="devonian_question_11">What kind of plant is shown in this picture?</string>
+
+    <string name="devonian_variant_11_1">Wattieza</string>
+    <string name="devonian_variant_11_2">Glossopteris</string>
+    <string name="devonian_variant_11_3">Lepidodendron</string>
+    <string name="devonian_variant_11_4">Sigillaria</string>
+
+    <string name="devonian_question_12">During which geological period this plant appeared?</string>
+
+    <string name="devonian_variant_12_1">Devonian</string>
+    <string name="devonian_variant_12_2">Silurian</string>
+    <string name="devonian_variant_12_3">Carboniferous</string>
+    <string name="devonian_variant_12_4">Triassic</string>
+
+    <string name="devonian_question_13">What kind of plant is shown in this picture?</string>
+
+    <string name="devonian_variant_13_1">Archaeopteris</string>
+    <string name="devonian_variant_13_2">Lepidodendron</string>
+    <string name="devonian_variant_13_3">Sigillaria</string>
+    <string name="devonian_variant_13_4">Wattieza</string>
+
+    <string name="devonian_question_14">During which geological period this plant appeared?</string>
+
+    <string name="devonian_variant_14_1">Devonian</string>
+    <string name="devonian_variant_14_2">Carboniferous</string>
+    <string name="devonian_variant_14_3">Cretaceous</string>
+    <string name="devonian_variant_14_4">Paleogene</string>
+
+    <string name="devonian_question_15">What kind of animal is shown in this picture?</string>
+
+    <string name="devonian_variant_15_1">Tiktaalik</string>
+    <string name="devonian_variant_15_2">Ichthyostega</string>
+    <string name="devonian_variant_15_3">Proterogyrinus</string>
+    <string name="devonian_variant_15_4">Smilodon</string>
+
+    <string name="devonian_question_16">During which geological period this animal appeared?</string>
+
+    <string name="devonian_variant_16_1">Devonian</string>
+    <string name="devonian_variant_16_2">Carboniferous</string>
+    <string name="devonian_variant_16_3">Permian</string>
+    <string name="devonian_variant_16_4">Ordovician</string>
+
+    <string name="devonian_question_17">To which animal group does Tiktaalik belong to?</string>
+
+    <string name="devonian_variant_17_1">lobe-finned fish</string>
+    <string name="devonian_variant_17_2">amphibians</string>
+    <string name="devonian_variant_17_3">reptiles</string>
+    <string name="devonian_variant_17_4">bony fish</string>
+
+    <string name="devonian_question_18">What kind of animal is shown in this picture?</string>
+
+    <string name="devonian_variant_18_1">Ichthyostega</string>
+    <string name="devonian_variant_18_2">Tiktaalik</string>
+    <string name="devonian_variant_18_3">Hylonomus</string>
+    <string name="devonian_variant_18_4">Pederpes</string>
+
+    <string name="devonian_question_19">During which geological period this animal appeared?</string>
+
+    <string name="devonian_variant_19_1">Devonian</string>
+    <string name="devonian_variant_19_2">Silurian</string>
+    <string name="devonian_variant_19_3">Carboniferous</string>
+    <string name="devonian_variant_19_4">Permian</string>
+
+    <string name="devonian_question_20">Which of these animals is one of the oldest known tetrapod?</string>
+
+    <string name="devonian_variant_20_1">Ichthyostega</string>
+    <string name="devonian_variant_20_2">Tiktaalik</string>
+    <string name="devonian_variant_20_3">Pederpes</string>
+    <string name="devonian_variant_20_4">Hylonomus</string>
+
+    <string name="devonian_question_21">What kind of fish is shown in this picture?</string>
+
+    <string name="devonian_variant_21_1">Bothriolepis</string>
+    <string name="devonian_variant_21_2">Dunkleosteus</string>
+    <string name="devonian_variant_21_3">Astraspis</string>
+    <string name="devonian_variant_21_4">Entelognathus</string>
+
+    <string name="devonian_question_22">During which geological period this fish appeared?</string>
+
+    <string name="devonian_variant_22_1">Devonian</string>
+    <string name="devonian_variant_22_2">Silurian</string>
+    <string name="devonian_variant_22_3">Ordovician</string>
+    <string name="devonian_variant_22_4">Jurassic</string>
+
+    <string name="devonian_question_23">What kind of fish is shown in this picture?</string>
+
+    <string name="devonian_variant_23_1">Cladoselache</string>
+    <string name="devonian_variant_23_2">Carcharodon</string>
+    <string name="devonian_variant_23_3">Akmonistion</string>
+    <string name="devonian_variant_23_4">Megalodon</string>
+
+    <string name="devonian_question_24">During which geological period this fish appeared?</string>
+
+    <string name="devonian_variant_24_1">Devonian</string>
+    <string name="devonian_variant_24_2">Silurian</string>
+    <string name="devonian_variant_24_3">Jurassic</string>
+    <string name="devonian_variant_24_4">Permian</string>
+
+    <string name="devonian_question_25">What kind of fish is shown in this picture?</string>
+
+    <string name="devonian_variant_25_1">Dunkleosteus</string>
+    <string name="devonian_variant_25_2">Bothriolepis</string>
+    <string name="devonian_variant_25_3">Ichthyosauria</string>
+    <string name="devonian_variant_25_4">Mystriosuchus</string>
+
+    <string name="devonian_question_26">During which geological period this fish appeared?</string>
+
+    <string name="devonian_variant_26_1">Devonian</string>
+    <string name="devonian_variant_26_2">Carboniferous</string>
+    <string name="devonian_variant_26_3">Cretaceous</string>
+    <string name="devonian_variant_26_4">Silurian</string>
+
+    <string name="devonian_question_27">How heavy could Dunkleosteus grow?</string>
+
+    <string name="devonian_variant_27_1">up to 1 t</string>
+    <string name="devonian_variant_27_2">up to 2 t</string>
+    <string name="devonian_variant_27_3">up to 500 kg</string>
+    <string name="devonian_variant_27_4">up to 2.5 t</string>
+
+    <!--     BREAK      -->
+
+    <string name="carboniferous_question_1">When the Carboniferous began?</string>
+
+    <string name="carboniferous_variant_1_1">358.9 mya</string>
+    <string name="carboniferous_variant_1_2">402.3 mya</string>
+    <string name="carboniferous_variant_1_3">311.3 mya</string>
+    <string name="carboniferous_variant_1_4">281.2 mya</string>
+
+    <string name="carboniferous_question_2">When the Carboniferous ended?</string>
+
+    <string name="carboniferous_variant_2_1">298.9 mya</string>
+    <string name="carboniferous_variant_2_2">321.2 mya</string>
+    <string name="carboniferous_variant_2_3">216.2 mya</string>
+    <string name="carboniferous_variant_2_4">282.2 mya</string>
+
+    <string name="carboniferous_question_3">To which era does Carboniferous belong?</string>
+
+    <string name="carboniferous_variant_3_1">Paleozoic</string>
+    <string name="carboniferous_variant_3_2">Mesozoic</string>
+    <string name="carboniferous_variant_3_3">Cenozoic</string>
+    <string name="carboniferous_variant_3_4">Proterozoic</string>
+
+    <string name="carboniferous_question_4">What does Carboniferous mean?</string>
+
+    <string name="carboniferous_variant_4_1">coal-bearing</string>
+    <string name="carboniferous_variant_4_2">oil-pouring</string>
+    <string name="carboniferous_variant_4_3">coal-fetching</string>
+    <string name="carboniferous_variant_4_4">oil-saving</string>
+
+    <string name="carboniferous_question_5">Which mountains were formed during the Carboniferous?</string>
+
+    <string name="carboniferous_variant_5_1">Appalachian</string>
+    <string name="carboniferous_variant_5_2">Alps</string>
+    <string name="carboniferous_variant_5_3">Himalayan</string>
+    <string name="carboniferous_variant_5_4">Balkan</string>
+
+    <string name="carboniferous_question_6">What was the oxygen concentration during the Carboniferous?</string>
+
+    <string name="carboniferous_variant_6_1" formatted="false">32.5%</string>
+    <string name="carboniferous_variant_6_2" formatted="false">30.5%</string>
+    <string name="carboniferous_variant_6_3" formatted="false">28.0%</string>
+    <string name="carboniferous_variant_6_4" formatted="false">25.0%</string>
+
+    <string name="carboniferous_question_7">What is endemism?</string>
+
+    <string name="carboniferous_variant_7_1">species uniqueness to the certain geographical location</string>
+    <string name="carboniferous_variant_7_2">global epidemic disease</string>
+    <string name="carboniferous_variant_7_3">parasitic state of the organism</string>
+    <string name="carboniferous_variant_7_4">this word has no sense</string>
+
+    <string name="carboniferous_question_8">Which plants took over after the Carboniferous collapse?</string>
+
+    <string name="carboniferous_variant_8_1">seed ferns</string>
+    <string name="carboniferous_variant_8_2">lycopsids</string>
+    <string name="carboniferous_variant_8_3">horsetails</string>
+    <string name="carboniferous_variant_8_4">conifers</string>
+
+    <string name="carboniferous_question_9">What caused insect gigantism during the Carboniferous?</string>
+
+    <string name="carboniferous_variant_9_1">high oxygen concentration and lack of predators</string>
+    <string name="carboniferous_variant_9_2">high oxygen concentration</string>
+    <string name="carboniferous_variant_9_3">lack of predators</string>
+    <string name="carboniferous_variant_9_4">high sea levels</string>
+
+    <string name="carboniferous_question_10">What kind of land vertebrates were dominant during the Carboniferous?</string>
+
+    <string name="carboniferous_variant_10_1">amphibians</string>
+    <string name="carboniferous_variant_10_2">reptiles</string>
+    <string name="carboniferous_variant_10_3">mammals</string>
+    <string name="carboniferous_variant_10_4">dinosaurs</string>
+
+    <string name="carboniferous_question_11">Which of these plants did NOT exist during the Carboniferous?</string>
+
+    <string name="carboniferous_variant_11_1">Glossopteris</string>
+    <string name="carboniferous_variant_11_2">Lepidodendron</string>
+    <string name="carboniferous_variant_11_3">Sigillaria</string>
+    <string name="carboniferous_variant_11_4">Calamites</string>
+
+    <string name="carboniferous_question_12">What kind of plant is shown in this picture?</string>
+
+    <string name="carboniferous_variant_12_1">Lepidodendron</string>
+    <string name="carboniferous_variant_12_2">Glossopteris</string>
+    <string name="carboniferous_variant_12_3">Sigillaria</string>
+    <string name="carboniferous_variant_12_4">Wattieza</string>
+
+    <string name="carboniferous_question_13">During which geological period this plant appeared?</string>
+
+    <string name="carboniferous_variant_13_1">Carboniferous</string>
+    <string name="carboniferous_variant_13_2">Silurian</string>
+    <string name="carboniferous_variant_13_3">Devonian</string>
+    <string name="carboniferous_variant_13_4">Triassic</string>
+
+    <string name="carboniferous_question_14">What kind of plant is shown in this picture?</string>
+
+    <string name="carboniferous_variant_14_1">Sigillaria</string>
+    <string name="carboniferous_variant_14_2">Cooksonia</string>
+    <string name="carboniferous_variant_14_3">Glossopteris</string>
+    <string name="carboniferous_variant_14_4">Calamites</string>
+
+    <string name="carboniferous_question_15">During which geological period this plant appeared?</string>
+
+    <string name="carboniferous_variant_15_1">Carboniferous</string>
+    <string name="carboniferous_variant_15_2">Triassic</string>
+    <string name="carboniferous_variant_15_3">Jurassic</string>
+    <string name="carboniferous_variant_15_4">Silurian</string>
+
+    <string name="carboniferous_question_16">What kind of plant is shown in this picture?</string>
+
+    <string name="carboniferous_variant_16_1">Calamites</string>
+    <string name="carboniferous_variant_16_2">Welwitschia</string>
+    <string name="carboniferous_variant_16_3">Ginkgo</string>
+    <string name="carboniferous_variant_16_4">Glossopteris</string>
+
+    <string name="carboniferous_question_17">During which geological period this plant appeared?</string>
+
+    <string name="carboniferous_variant_17_1">Carboniferous</string>
+    <string name="carboniferous_variant_17_2">Permian</string>
+    <string name="carboniferous_variant_17_3">Silurian</string>
+    <string name="carboniferous_variant_17_4">Cretaceous</string>
+
+    <string name="carboniferous_question_18">To which group does this plant belong?</string>
+
+    <string name="carboniferous_variant_18_1">horsetails</string>
+    <string name="carboniferous_variant_18_2">conifers</string>
+    <string name="carboniferous_variant_18_3">lycopsids</string>
+    <string name="carboniferous_variant_18_4">magnolias</string>
+
+    <string name="carboniferous_question_19">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_19_1">Akmonistion</string>
+    <string name="carboniferous_variant_19_2">Pederpes</string>
+    <string name="carboniferous_variant_19_3">Helicoprion</string>
+    <string name="carboniferous_variant_19_4">Carcharodon</string>
+
+    <string name="carboniferous_question_20">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_20_1">Carboniferous</string>
+    <string name="carboniferous_variant_20_2">Devonian</string>
+    <string name="carboniferous_variant_20_3">Jurassic</string>
+    <string name="carboniferous_variant_20_4">Paleogene</string>
+
+    <string name="carboniferous_question_21">To which group does this animal belong?</string>
+
+    <string name="carboniferous_variant_21_1">chimaeras</string>
+    <string name="carboniferous_variant_21_2">sharks</string>
+    <string name="carboniferous_variant_21_3">bony fish</string>
+    <string name="carboniferous_variant_21_4">lampreys</string>
+
+    <string name="carboniferous_question_22">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_22_1">Helicoprion</string>
+    <string name="carboniferous_variant_22_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_22_3">Akmonistion</string>
+    <string name="carboniferous_variant_22_4">Megalodon</string>
+
+    <string name="carboniferous_question_23">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_23_1">Carboniferous</string>
+    <string name="carboniferous_variant_23_2">Devonian</string>
+    <string name="carboniferous_variant_23_3">Jurassic</string>
+    <string name="carboniferous_variant_23_4">Triassic</string>
+
+    <string name="carboniferous_question_24">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_24_1">Pederpes</string>
+    <string name="carboniferous_variant_24_2">Hylonomus</string>
+    <string name="carboniferous_variant_24_3">Morganucodon</string>
+    <string name="carboniferous_variant_24_4">Cooksonia</string>
+
+    <string name="carboniferous_question_25">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_25_1">Carboniferous</string>
+    <string name="carboniferous_variant_25_2">Devonian</string>
+    <string name="carboniferous_variant_25_3">Permian</string>
+    <string name="carboniferous_variant_25_4">Triassic</string>
+
+    <string name="carboniferous_question_26">Which of these animals is the earliest known fully terrestrial?</string>
+
+    <string name="carboniferous_variant_26_1">Pederpes</string>
+    <string name="carboniferous_variant_26_2">Hylonomus</string>
+    <string name="carboniferous_variant_26_3">Akmonistion</string>
+    <string name="carboniferous_variant_26_4">Archaeothyris</string>
+
+    <string name="carboniferous_question_27">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_27_1">Proterogyrinus</string>
+    <string name="carboniferous_variant_27_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_27_3">Mystriosuchus</string>
+    <string name="carboniferous_variant_27_4">Anomalocaris</string>
+
+    <string name="carboniferous_question_28">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_28_1">Carboniferous</string>
+    <string name="carboniferous_variant_28_2">Permian</string>
+    <string name="carboniferous_variant_28_3">Triassic</string>
+    <string name="carboniferous_variant_28_4">Neogene</string>
+
+    <string name="carboniferous_question_29">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_29_1">Hylonomus</string>
+    <string name="carboniferous_variant_29_2">Pederpes</string>
+    <string name="carboniferous_variant_29_3">Wattieza</string>
+    <string name="carboniferous_variant_29_4">Megatherium</string>
+
+    <string name="carboniferous_question_30">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_30_1">Carboniferous</string>
+    <string name="carboniferous_variant_30_2">Devonian</string>
+    <string name="carboniferous_variant_30_3">Neogene</string>
+    <string name="carboniferous_variant_30_4">Paleogene</string>
+
+    <string name="carboniferous_question_31">Which of these statements is correct about the Hylonomus?</string>
+
+    <string name="carboniferous_variant_31_1">it is the earliest know unquestionable reptile</string>
+    <string name="carboniferous_variant_31_2">it is the earliest know unquestionable amphibian</string>
+    <string name="carboniferous_variant_31_3">it is a direct ancestor of the dinosaurs</string>
+    <string name="carboniferous_variant_31_4">it first appeared during the Silurian</string>
+
+    <string name="carboniferous_question_32">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_32_1">Archaeothyris</string>
+    <string name="carboniferous_variant_32_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_32_3">Pederpes</string>
+    <string name="carboniferous_variant_32_4">Cynodontia</string>
+
+    <string name="carboniferous_question_33">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_33_1">Carboniferous</string>
+    <string name="carboniferous_variant_33_2">Permian</string>
+    <string name="carboniferous_variant_33_3">Cretaceous</string>
+    <string name="carboniferous_variant_33_4">Triassic</string>
+
+    <string name="carboniferous_question_34">Which of these statements is correct about the Archaeothyris?</string>
+
+    <string name="carboniferous_variant_34_1">it is the oldest known synapsid</string>
+    <string name="carboniferous_variant_34_2">it is the oldest known anapsid</string>
+    <string name="carboniferous_variant_34_3">it is the oldest known sauropsid</string>
+    <string name="carboniferous_variant_34_4">it is the oldest known dinosaur</string>
+
+    <string name="carboniferous_question_35">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_35_1">Pulmonoscorpius</string>
+    <string name="carboniferous_variant_35_2">Pseudoscorpiones</string>
+    <string name="carboniferous_variant_35_3">Gigantoscorpius</string>
+    <string name="carboniferous_variant_35_4">Scorpio heracleus</string>
+
+    <string name="carboniferous_question_36">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_36_1">Carboniferous</string>
+    <string name="carboniferous_variant_36_2">Cretaceous</string>
+    <string name="carboniferous_variant_36_3">Devonian</string>
+    <string name="carboniferous_variant_36_4">Triassic</string>
+
+    <string name="carboniferous_question_37">What kind of animal is shown in this picture?</string>
+
+    <string name="carboniferous_variant_37_1">Arthropleura</string>
+    <string name="carboniferous_variant_37_2">Meganeura</string>
+    <string name="carboniferous_variant_37_3">Gigantoneura</string>
+    <string name="carboniferous_variant_37_4">Vulpes</string>
+
+    <string name="carboniferous_question_38">During which geological period this animal appeared?</string>
+
+    <string name="carboniferous_variant_38_1">Carboniferous</string>
+    <string name="carboniferous_variant_38_2">Permian</string>
+    <string name="carboniferous_variant_38_3">Triassic</string>
+    <string name="carboniferous_variant_38_4">Quaternary</string>
+
+    <string name="carboniferous_question_39">How did the Arthropleura feed?</string>
+
+    <string name="carboniferous_variant_39_1">it was herbivorous</string>
+    <string name="carboniferous_variant_39_2">it was predator</string>
+    <string name="carboniferous_variant_39_3">it was scavenger</string>
+    <string name="carboniferous_variant_39_4">it produced photosynthesis</string>
+
+    <string name="carboniferous_question_40">What kind of insect is shown in this picture?</string>
+
+    <string name="carboniferous_variant_40_1">Meganeura</string>
+    <string name="carboniferous_variant_40_2">Giganeura</string>
+    <string name="carboniferous_variant_40_3">Gigantoneura</string>
+    <string name="carboniferous_variant_40_4">Anax</string>
+
+    <string name="carboniferous_question_41">During which geological period this insect appeared?</string>
+
+    <string name="carboniferous_variant_41_1">Carboniferous</string>
+    <string name="carboniferous_variant_41_2">Permian</string>
+    <string name="carboniferous_variant_41_3">Cretaceous</string>
+    <string name="carboniferous_variant_41_4">Ediacaran</string>
+
+    <string name="carboniferous_question_42">What wingspan did Meganeura have?</string>
+
+    <string name="carboniferous_variant_42_1">65 cm</string>
+    <string name="carboniferous_variant_42_2">120 cm</string>
+    <string name="carboniferous_variant_42_3">45 cm</string>
+    <string name="carboniferous_variant_42_4">85 cm</string>
+
+    <!--     BREAK      -->
+
+    <string name="permian_question_1">When the Permian began?</string>
+
+    <string name="permian_variant_1_1">298.9 mya</string>
+    <string name="permian_variant_1_2">267.4 mya</string>
+    <string name="permian_variant_1_3">311.3 mya</string>
+    <string name="permian_variant_1_4">212.3 mya</string>
+
+    <string name="permian_question_2">When the Permian ended?</string>
+
+    <string name="permian_variant_2_1">252.17 mya</string>
+    <string name="permian_variant_2_2">242.17 mya</string>
+    <string name="permian_variant_2_3">202.17 mya</string>
+    <string name="permian_variant_2_4">272.17 mya</string>
+
+    <string name="permian_question_3">To which era does Permian belong?</string>
+
+    <string name="permian_variant_3_1">Paleozoic</string>
+    <string name="permian_variant_3_2">Mesozoic</string>
+    <string name="permian_variant_3_3">Cenozoic</string>
+    <string name="permian_variant_3_4">Proterozoic</string>
+
+    <string name="permian_question_4">Which of the past extinctions was the most severe?</string>
+
+    <string name="permian_variant_4_1">Permian-Triassic</string>
+    <string name="permian_variant_4_2">Cretaceous-Paleogene</string>
+    <string name="permian_variant_4_3">Cambrian-Ordovician</string>
+    <string name="permian_variant_4_4">Devonian-Carboniferous</string>
+
+    <string name="permian_question_5">Which of these fish died during the Permian Great Dying?</string>
+
+    <string name="permian_variant_5_1">acanthodians</string>
+    <string name="permian_variant_5_2">armored fish</string>
+    <string name="permian_variant_5_3">jawless fish</string>
+    <string name="permian_variant_5_4">tabulates</string>
+
+    <string name="permian_question_6">How many terrestrial species extinct during the Permian Great Dying?</string>
+
+    <string name="permian_variant_6_1" formatted="false">70%</string>
+    <string name="permian_variant_6_2" formatted="false">95%</string>
+    <string name="permian_variant_6_3" formatted="false">80%</string>
+    <string name="permian_variant_6_4" formatted="false">85%</string>
+
+    <string name="permian_question_7">Which of these reef builders were already absent before the Permian?</string>
+
+    <string name="permian_variant_7_1">Archaeocyatha</string>
+    <string name="permian_variant_7_2">Tabulata</string>
+    <string name="permian_variant_7_3">Rugosa</string>
+    <string name="permian_variant_7_4">Chimaera</string>
+
+    <string name="permian_question_8">What kind of plant is shown in this picture?</string>
+
+    <string name="permian_variant_8_1">Glossopteris</string>
+    <string name="permian_variant_8_2">Sigillaria</string>
+    <string name="permian_variant_8_3">Wattieza</string>
+    <string name="permian_variant_8_4">Archaeopteris</string>
+
+    <string name="permian_question_9">During which geological period this plant appeared?</string>
+
+    <string name="permian_variant_9_1">Permian</string>
+    <string name="permian_variant_9_2">Carboniferous</string>
+    <string name="permian_variant_9_3">Cretaceous</string>
+    <string name="permian_variant_9_4">Devonian</string>
+
+    <string name="permian_question_10">To which plant group did Glossopteris belong?</string>
+
+    <string name="permian_variant_10_1">seed ferns</string>
+    <string name="permian_variant_10_2">conifers</string>
+    <string name="permian_variant_10_3">horsetails</string>
+    <string name="permian_variant_10_4">cycads</string>
+
+    <string name="permian_question_11">What kind of animal is shown in this picture?</string>
+
+    <string name="permian_variant_11_1">Dimetrodon</string>
+    <string name="permian_variant_11_2">Mystriosuchus</string>
+    <string name="permian_variant_11_3">Lystrosaurus</string>
+    <string name="permian_variant_11_4">Plateosaurus</string>
+
+    <string name="permian_question_12">During which geological period this animal appeared?</string>
+
+    <string name="permian_variant_12_1">Permian</string>
+    <string name="permian_variant_12_2">Triassic</string>
+    <string name="permian_variant_12_3">Jurassic</string>
+    <string name="permian_variant_12_4">Cretaceous</string>
+
+    <string name="permian_question_13">What kind of animal is shown in this picture?</string>
+
+    <string name="permian_variant_13_1">Titanophoneus</string>
+    <string name="permian_variant_13_2">Estemmenosuchus</string>
+    <string name="permian_variant_13_3">Gorgonops</string>
+    <string name="permian_variant_13_4">Allosaurus</string>
+
+    <string name="permian_question_14">During which geological period this animal appeared?</string>
+
+    <string name="permian_variant_14_1">Permian</string>
+    <string name="permian_variant_14_2">Triassic</string>
+    <string name="permian_variant_14_3">Neogene</string>
+    <string name="permian_variant_14_4">Cretaceous</string>
+
+    <string name="permian_question_15">What kind of animal is shown in this picture?</string>
+
+    <string name="permian_variant_15_1">Estemmenosuchus</string>
+    <string name="permian_variant_15_2">Mystriosuchus</string>
+    <string name="permian_variant_15_3">Cynodontia</string>
+    <string name="permian_variant_15_4">Dunkleosteus</string>
+
+    <string name="permian_question_16">During which geological period this animal appeared?</string>
+
+    <string name="permian_variant_16_1">Permian</string>
+    <string name="permian_variant_16_2">Neogene</string>
+    <string name="permian_variant_16_3">Paleogene</string>
+    <string name="permian_variant_16_4">Triassic</string>
+
+    <string name="permian_question_17">What kind of animal is shown in this picture?</string>
+
+    <string name="permian_variant_17_1">Gorgonops</string>
+    <string name="permian_variant_17_2">Mystriosuchus</string>
+    <string name="permian_variant_17_3">Stegosaurus</string>
+    <string name="permian_variant_17_4">Mamenchisaurus</string>
+
+    <string name="permian_question_18">What kind of animal is shown in this picture?</string>
+
+    <string name="permian_variant_18_1">Cynodontia</string>
+    <string name="permian_variant_18_2">Glossopteris</string>
+    <string name="permian_variant_18_3">Daeodon</string>
+    <string name="permian_variant_18_4">Paraceratherium</string>
+
+    <string name="permian_question_19">During which geological period this animal appeared?</string>
+
+    <string name="permian_variant_19_1">Permian</string>
+    <string name="permian_variant_19_2">Triassic</string>
+    <string name="permian_variant_19_3">Paleogene</string>
+    <string name="permian_variant_19_4">Cambrian</string>
+
+    <string name="permian_question_20">Who are the ancestors of the modern mammals?</string>
+
+    <string name="permian_variant_20_1">nonmammalian cynodonts</string>
+    <string name="permian_variant_20_2">mammalian cynodons</string>
+    <string name="permian_variant_20_3">pelycosaurs</string>
+    <string name="permian_variant_20_4">lobe-finned fish</string>
+
+    <string name="permian_question_21">During which geological period this animal appeared?</string>
+
+    <string name="permian_variant_21_1">Permian</string>
+    <string name="permian_variant_21_2">Neogene</string>
+    <string name="permian_variant_21_3">Paleogene</string>
+    <string name="permian_variant_21_4">Cambrian</string>
+
+    <!--     BREAK      -->
+
+    <string name="triassic_question_1">When the Triassic began?</string>
+
+    <string name="triassic_variant_1_1">252.17 mya</string>
+    <string name="triassic_variant_1_2">242.17 mya</string>
+    <string name="triassic_variant_1_3">298.17 mya</string>
+    <string name="triassic_variant_1_4">123.21 mya</string>
+
+    <string name="triassic_question_2">When the Triassic ended?</string>
+
+    <string name="triassic_variant_2_1">201.3 mya</string>
+    <string name="triassic_variant_2_2">192.2 mya</string>
+    <string name="triassic_variant_2_3">224.2 mya</string>
+    <string name="triassic_variant_2_4">145.2 mya</string>
+
+    <string name="triassic_question_3">To which era does Triassic belong?</string>
+
+    <string name="triassic_variant_3_1">Mesozoic</string>
+    <string name="triassic_variant_3_2">Paleozoic</string>
+    <string name="triassic_variant_3_3">Cenozoic</string>
+    <string name="triassic_variant_3_4">Proterozoic</string>
+
+    <string name="triassic_question_4">During which period Pangea was full assembled?</string>
+
+    <string name="triassic_variant_4_1">Triassic</string>
+    <string name="triassic_variant_4_2">Jurassic</string>
+    <string name="triassic_variant_4_3">Permian</string>
+    <string name="triassic_variant_4_4">Cretaceous</string>
+
+    <string name="triassic_question_5">What does nocturnal bottleneck explains?</string>
+
+    <string name="triassic_variant_5_1">certain mammal traits</string>
+    <string name="triassic_variant_5_2">certain reptile traits</string>
+    <string name="triassic_variant_5_3">certain bird traits</string>
+    <string name="triassic_variant_5_4">space activity</string>
+
+    <string name="triassic_question_6">Which big terrestrial vertebrate was the most abundand during the Early Triassic?</string>
+
+    <string name="triassic_variant_6_1">Lystrosaurus</string>
+    <string name="triassic_variant_6_2">Mamenchisaurus</string>
+    <string name="triassic_variant_6_3">Morganucodon</string>
+    <string name="triassic_variant_6_4">Argentinosaurus</string>
+
+    <string name="triassic_question_7">What kind of plant is shown in this picture?</string>
+
+    <string name="triassic_variant_7_1">Bennettitales</string>
+    <string name="triassic_variant_7_2">cycads</string>
+    <string name="triassic_variant_7_3">Glossopteris</string>
+    <string name="triassic_variant_7_4">Magnolia</string>
+
+    <string name="triassic_question_8">During which geological period this plant appeared?</string>
+
+    <string name="triassic_variant_8_1">Carboniferous</string>
+    <string name="triassic_variant_8_2">Triassic</string>
+    <string name="triassic_variant_8_3">Devonian</string>
+    <string name="triassic_variant_8_4">Jurassic</string>
+
+    <string name="triassic_question_9">Bennettitales are polyphyletic plants. What does it mean?</string>
+
+    <string name="triassic_variant_9_1">they derrived not from the common ancestor</string>
+    <string name="triassic_variant_9_2">all of the have common ancestor</string>
+    <string name="triassic_variant_9_3">they have multiple leaves on their stems</string>
+    <string name="triassic_variant_9_4">they grow on the multiple soils</string>
+
+    <string name="triassic_question_10">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_10_1">Morganucodon</string>
+    <string name="triassic_variant_10_2">Rodent</string>
+    <string name="triassic_variant_10_3">Archaeothyris</string>
+    <string name="triassic_variant_10_4">Pederpes</string>
+
+    <string name="triassic_question_11">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_11_1">Triassic</string>
+    <string name="triassic_variant_11_2">Permian</string>
+    <string name="triassic_variant_11_3">Paleogene</string>
+    <string name="triassic_variant_11_4">Cretaceous</string>
+
+    <string name="triassic_question_12">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_12_1">Lystrosaurus</string>
+    <string name="triassic_variant_12_2">Mystriosuchus</string>
+    <string name="triassic_variant_12_3">Gorgonops</string>
+    <string name="triassic_variant_12_4">Dimetrodon</string>
+
+    <string name="triassic_question_13">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_13_1">Permian</string>
+    <string name="triassic_variant_13_2">Triassic</string>
+    <string name="triassic_variant_13_3">Jurassic</string>
+    <string name="triassic_variant_13_4">Cretaceous</string>
+
+    <string name="triassic_question_14">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_14_1">pterosaur</string>
+    <string name="triassic_variant_14_2">dinosaur</string>
+    <string name="triassic_variant_14_3">mosasaur</string>
+    <string name="triassic_variant_14_4">this is not an animal</string>
+
+    <string name="triassic_question_15">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_15_1">Triassic</string>
+    <string name="triassic_variant_15_2">Cretaceous</string>
+    <string name="triassic_variant_15_3">Jurassic</string>
+    <string name="triassic_variant_15_4">Silurian</string>
+
+    <string name="triassic_question_16">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_16_1">plesiosaur</string>
+    <string name="triassic_variant_16_2">pliosaur</string>
+    <string name="triassic_variant_16_3">ichthyosaur</string>
+    <string name="triassic_variant_16_4">allosaur</string>
+
+    <string name="triassic_question_17">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_17_1">Triassic</string>
+    <string name="triassic_variant_17_2">Jurassic</string>
+    <string name="triassic_variant_17_3">Neogene</string>
+    <string name="triassic_variant_17_4">Cretaceous</string>
+
+    <string name="triassic_question_18">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_18_1">ichthyosaur</string>
+    <string name="triassic_variant_18_2">pliosaur</string>
+    <string name="triassic_variant_18_3">plesiosaur</string>
+    <string name="triassic_variant_18_4">Megalodon</string>
+
+    <string name="triassic_question_19">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_19_1">Triassic</string>
+    <string name="triassic_variant_19_2">Jurassic</string>
+    <string name="triassic_variant_19_3">Devonian</string>
+    <string name="triassic_variant_19_4">Cretaceous</string>
+
+    <string name="triassic_question_20">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_20_1">Mystriosuchus</string>
+    <string name="triassic_variant_20_2">Estemmenosuchus</string>
+    <string name="triassic_variant_20_3">Crocodylus</string>
+    <string name="triassic_variant_20_4">Mosasaurus</string>
+
+    <string name="triassic_question_21">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_21_1">Triassic</string>
+    <string name="triassic_variant_21_2">Jurassic</string>
+    <string name="triassic_variant_21_3">Neogene</string>
+    <string name="triassic_variant_21_4">Paleogene</string>
+
+    <string name="triassic_question_22">What kind of animal is shown in this picture?</string>
+
+    <string name="triassic_variant_22_1">Plateosaurus</string>
+    <string name="triassic_variant_22_2">Diplodocus</string>
+    <string name="triassic_variant_22_3">Mamenchisaurus</string>
+    <string name="triassic_variant_22_4">Brontosaurus</string>
+
+    <string name="triassic_question_23">During which geological period this animal appeared?</string>
+
+    <string name="triassic_variant_23_1">Triassic</string>
+    <string name="triassic_variant_23_2">Jurassic</string>
+    <string name="triassic_variant_23_3">Cretaceous</string>
+    <string name="triassic_variant_23_4">Archean</string>
+
+    <!--     BREAK      -->
+
+    <string name="jurassic_question_1">When the Jurassic began?</string>
+
+    <string name="jurassic_variant_1_1">201.3 mya</string>
+    <string name="jurassic_variant_1_2">198.2 mya</string>
+    <string name="jurassic_variant_1_3">214.5 mya</string>
+    <string name="jurassic_variant_1_4">176.5 mya</string>
+
+    <string name="jurassic_question_2">When the Jurassic ended?</string>
+
+    <string name="jurassic_variant_2_1">145.0 mya</string>
+    <string name="jurassic_variant_2_2">184.3 mya</string>
+    <string name="jurassic_variant_2_3">122.3 mya</string>
+    <string name="jurassic_variant_2_4">90.3 mya</string>
+
+    <string name="jurassic_question_3">To which era does Jurassic belong?</string>
+
+    <string name="jurassic_variant_3_1">Mesozoic</string>
+    <string name="jurassic_variant_3_2">Paleozoic</string>
+    <string name="jurassic_variant_3_3">Cenozoic</string>
+    <string name="jurassic_variant_3_4">Hadean</string>
+
+    <string name="jurassic_question_4">During which period Pangea began to break apart?</string>
+
+    <string name="jurassic_variant_4_1">Jurassic</string>
+    <string name="jurassic_variant_4_2">Triassic</string>
+    <string name="jurassic_variant_4_3">Paleogene</string>
+    <string name="jurassic_variant_4_4">Cretaceous</string>
+
+    <string name="jurassic_question_5">Which of these dinosaurs should not have appeared in the Jurassic Park movie?</string>
+
+    <string name="jurassic_variant_5_1">Tyrannosaurus</string>
+    <string name="jurassic_variant_5_2">Stegosaurus</string>
+    <string name="jurassic_variant_5_3">Allosaurus</string>
+    <string name="jurassic_variant_5_4">Mamenchisaurus</string>
+
+    <string name="jurassic_question_6">What kind of animal is shown in this picture?</string>
+
+    <string name="jurassic_variant_6_1">Archaeopteryx</string>
+    <string name="jurassic_variant_6_2">Archaeopteris</string>
+    <string name="jurassic_variant_6_3">Pterosauria</string>
+    <string name="jurassic_variant_6_4">Gastornis</string>
+
+    <string name="jurassic_question_7">During which geological period this animal appeared?</string>
+
+    <string name="jurassic_variant_7_1">Jurassic</string>
+    <string name="jurassic_variant_7_2">Triassic</string>
+    <string name="jurassic_variant_7_3">Cretaceous</string>
+    <string name="jurassic_variant_7_4">Paleogene</string>
+
+    <string name="jurassic_question_8">What kind of animal is shown in this picture?</string>
+
+    <string name="jurassic_variant_8_1">Allosaurus</string>
+    <string name="jurassic_variant_8_2">Tyrannosaurus</string>
+    <string name="jurassic_variant_8_3">Velociraptor</string>
+    <string name="jurassic_variant_8_4">Triceratops</string>
+
+    <string name="jurassic_question_9">During which geological period this animal appeared?</string>
+
+    <string name="jurassic_variant_9_1">Jurassic</string>
+    <string name="jurassic_variant_9_2">Triassic</string>
+    <string name="jurassic_variant_9_3">Cretaceous</string>
+    <string name="jurassic_variant_9_4">Ordovician</string>
+
+    <string name="jurassic_question_10">What kind of animal is shown in this picture?</string>
+
+    <string name="jurassic_variant_10_1">Mamenchisaurus</string>
+    <string name="jurassic_variant_10_2">Diplodocus</string>
+    <string name="jurassic_variant_10_3">Brontosaurus</string>
+    <string name="jurassic_variant_10_4">Seismosaurus</string>
+
+    <string name="jurassic_question_11">During which geological period this animal appeared?</string>
+
+    <string name="jurassic_variant_11_1">Jurassic</string>
+    <string name="jurassic_variant_11_2">Triassic</string>
+    <string name="jurassic_variant_11_3">Paleogene</string>
+    <string name="jurassic_variant_11_4">Silurian</string>
+
+    <string name="jurassic_question_12">What kind of animal is shown in this picture?</string>
+
+    <string name="jurassic_variant_12_1">Stegosaurus</string>
+    <string name="jurassic_variant_12_2">Mystriosuchus</string>
+    <string name="jurassic_variant_12_3">Triceratops</string>
+    <string name="jurassic_variant_12_4">Dimetrodon</string>
+
+    <string name="jurassic_question_13">During which geological period this animal appeared?</string>
+
+    <string name="jurassic_variant_13_1">Jurassic</string>
+    <string name="jurassic_variant_13_2">Triassic</string>
+    <string name="jurassic_variant_13_3">Carboniferous</string>
+    <string name="jurassic_variant_13_4">Cretaceous</string>
+
+    <!--     BREAK      -->
+
+    <string name="cretaceous_question_1">When the Cretaceous began?</string>
+
+    <string name="cretaceous_variant_1_1">145 mya</string>
+    <string name="cretaceous_variant_1_2">155 mya</string>
+    <string name="cretaceous_variant_1_3">135 mya</string>
+    <string name="cretaceous_variant_1_4">115 mya</string>
+
+    <string name="cretaceous_question_2">When the Cretaceous ended?</string>
+
+    <string name="cretaceous_variant_2_1">66 mya</string>
+    <string name="cretaceous_variant_2_2">60 mya</string>
+    <string name="cretaceous_variant_2_3">56 mya</string>
+    <string name="cretaceous_variant_2_4">70 mya</string>
+
+    <string name="cretaceous_question_3">To which era does Cretaceous belong?</string>
+
+    <string name="cretaceous_variant_3_1">Mesozoic</string>
+    <string name="cretaceous_variant_3_2">Paleozoic</string>
+    <string name="cretaceous_variant_3_3">Cenozoic</string>
+    <string name="cretaceous_variant_3_4">Proterozoic</string>
+
+    <string name="cretaceous_question_4">What is the main cause of the Cretaceous-Paleogene extinction?</string>
+
+    <string name="cretaceous_variant_4_1">asteroid impact</string>
+    <string name="cretaceous_variant_4_2">vulcanism</string>
+    <string name="cretaceous_variant_4_3">climate change</string>
+    <string name="cretaceous_variant_4_4">there was no extinction</string>
+
+    <string name="cretaceous_question_5">Where did the asteroid-dinosaur-killer fall?</string>
+
+    <string name="cretaceous_variant_5_1">Yucatan peninsula</string>
+    <string name="cretaceous_variant_5_2">Arabic peninsula</string>
+    <string name="cretaceous_variant_5_3">Madagascar</string>
+    <string name="cretaceous_variant_5_4">Himalayas</string>
+
+    <string name="cretaceous_question_6">How many percent of species died at the end of the Cretaceous?</string>
+
+    <string name="cretaceous_variant_6_1" formatted="false">75%</string>
+    <string name="cretaceous_variant_6_2" formatted="false">95%</string>
+    <string name="cretaceous_variant_6_3" formatted="false">80%</string>
+    <string name="cretaceous_variant_6_4" formatted="false">60%</string>
+
+    <string name="cretaceous_question_7">During which period did the flowering plants appear?</string>
+
+    <string name="cretaceous_variant_7_1">Cretaceous</string>
+    <string name="cretaceous_variant_7_2">Paleogene</string>
+    <string name="cretaceous_variant_7_3">Jurassic</string>
+    <string name="cretaceous_variant_7_4">Permian</string>
+
+    <string name="cretaceous_question_8">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_8_1">Tyrannosaurus</string>
+    <string name="cretaceous_variant_8_2">Allosaurus</string>
+    <string name="cretaceous_variant_8_3">Spinosaurus</string>
+    <string name="cretaceous_variant_8_4">Lystrosaurus</string>
+
+    <string name="cretaceous_question_9">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_9_1">Cretaceous</string>
+    <string name="cretaceous_variant_9_2">Jurassic</string>
+    <string name="cretaceous_variant_9_3">Triassic</string>
+    <string name="cretaceous_variant_9_4">Permian</string>
+
+    <string name="cretaceous_question_10">Where did the Tyrannosaurus live?</string>
+
+    <string name="cretaceous_variant_10_1">North America</string>
+    <string name="cretaceous_variant_10_2">South America</string>
+    <string name="cretaceous_variant_10_3">Africa</string>
+    <string name="cretaceous_variant_10_4">Europe</string>
+
+    <string name="cretaceous_question_11">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_11_1">Velociraptor</string>
+    <string name="cretaceous_variant_11_2">Archaeopteryx</string>
+    <string name="cretaceous_variant_11_3">Archaeopteris</string>
+    <string name="cretaceous_variant_11_4">Pterosaurus</string>
+
+    <string name="cretaceous_question_12">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_12_1">Cretaceous</string>
+    <string name="cretaceous_variant_12_2">Jurassic</string>
+    <string name="cretaceous_variant_12_3">Triassic</string>
+    <string name="cretaceous_variant_12_4">Ordovician</string>
+
+    <string name="cretaceous_question_13">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_13_1">Spinosaurus</string>
+    <string name="cretaceous_variant_13_2">Ankylosaurus</string>
+    <string name="cretaceous_variant_13_3">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_13_4">Mosasaurus</string>
+
+    <string name="cretaceous_question_14">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_14_1">Cretaceous</string>
+    <string name="cretaceous_variant_14_2">Jurassic</string>
+    <string name="cretaceous_variant_14_3">Triassic</string>
+    <string name="cretaceous_variant_14_4">Paleogene</string>
+
+    <string name="cretaceous_question_15">Where did Spinosaurus live?</string>
+
+    <string name="cretaceous_variant_15_1">both land and water</string>
+    <string name="cretaceous_variant_15_2">land</string>
+    <string name="cretaceous_variant_15_3">water</string>
+    <string name="cretaceous_variant_15_4">air</string>
+
+    <string name="cretaceous_question_16">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_16_1">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_16_2">Mamenchisaurus</string>
+    <string name="cretaceous_variant_16_3">Allosaurus</string>
+    <string name="cretaceous_variant_16_4">Plateosaurus</string>
+
+    <string name="cretaceous_question_17">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_17_1">Cretaceous</string>
+    <string name="cretaceous_variant_17_2">Jurassic</string>
+    <string name="cretaceous_variant_17_3">Triassic</string>
+    <string name="cretaceous_variant_17_4">Neogene</string>
+
+    <string name="cretaceous_question_18">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_18_1">Triceratops</string>
+    <string name="cretaceous_variant_18_2">Stegosaurus</string>
+    <string name="cretaceous_variant_18_3">Lystrosaurus</string>
+    <string name="cretaceous_variant_18_4">Diplodocus</string>
+
+    <string name="cretaceous_question_19">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_19_1">Cretaceous</string>
+    <string name="cretaceous_variant_19_2">Permian</string>
+    <string name="cretaceous_variant_19_3">Jurassic</string>
+    <string name="cretaceous_variant_19_4">Triassic</string>
+
+    <string name="cretaceous_question_20">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_20_1">Ankylosaurus</string>
+    <string name="cretaceous_variant_20_2">Mamenchisaurus</string>
+    <string name="cretaceous_variant_20_3">Stegosaurus</string>
+    <string name="cretaceous_variant_20_4">Dunkleosteus</string>
+
+    <string name="cretaceous_question_21">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_21_1">Cretaceous</string>
+    <string name="cretaceous_variant_21_2">Jurassic</string>
+    <string name="cretaceous_variant_21_3">Triassic</string>
+    <string name="cretaceous_variant_21_4">Devonian</string>
+
+    <string name="cretaceous_question_22">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_22_1">Mosasaurus</string>
+    <string name="cretaceous_variant_22_2">Plesiosaurus</string>
+    <string name="cretaceous_variant_22_3">Mamenchisaurus</string>
+    <string name="cretaceous_variant_22_4">Megalodon</string>
+
+    <string name="cretaceous_question_23">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_23_1">Cretaceous</string>
+    <string name="cretaceous_variant_23_2">Devonian</string>
+    <string name="cretaceous_variant_23_3">Jurassic</string>
+    <string name="cretaceous_variant_23_4">Triassic</string>
+
+    <string name="cretaceous_question_24">To which group did the Mosasaurus belong?</string>
+
+    <string name="cretaceous_variant_24_1">lizards</string>
+    <string name="cretaceous_variant_24_2">dinosaurs</string>
+    <string name="cretaceous_variant_24_3">snakes</string>
+    <string name="cretaceous_variant_24_4">mammals</string>
+
+    <string name="cretaceous_question_25">What kind of animal is shown in this picture?</string>
+
+    <string name="cretaceous_variant_25_1">Ammonite</string>
+    <string name="cretaceous_variant_25_2">Morganucodon</string>
+    <string name="cretaceous_variant_25_3">Tiktaalik</string>
+    <string name="cretaceous_variant_25_4">Bothriolepis</string>
+
+    <string name="cretaceous_question_26">During which geological period this animal appeared?</string>
+
+    <string name="cretaceous_variant_26_1">Devonian</string>
+    <string name="cretaceous_variant_26_2">Cretaceous</string>
+    <string name="cretaceous_variant_26_3">Ordovician</string>
+    <string name="cretaceous_variant_26_4">Jurassic</string>
+
+    <string name="cretaceous_question_27">When did the ammonites extinct?</string>
+
+    <string name="cretaceous_variant_27_1">Cretaceous</string>
+    <string name="cretaceous_variant_27_2">Jurassic</string>
+    <string name="cretaceous_variant_27_3">Neogene</string>
+    <string name="cretaceous_variant_27_4">Permian</string>
+
+    <!--     BREAK      -->
+
+    <string name="paleogene_question_1">When the Paleogene began?</string>
+
+    <string name="paleogene_variant_1_1">66 mya</string>
+    <string name="paleogene_variant_1_2">56 mya</string>
+    <string name="paleogene_variant_1_3">43 mya</string>
+    <string name="paleogene_variant_1_4">73 mya</string>
+
+    <string name="paleogene_question_2">When the Paleogene ended?</string>
+
+    <string name="paleogene_variant_2_1">23.03 mya</string>
+    <string name="paleogene_variant_2_2">33.03 mya</string>
+    <string name="paleogene_variant_2_3">43.03 mya</string>
+    <string name="paleogene_variant_2_4">13.03 mya</string>
+
+    <string name="paleogene_question_3">To which era does Paleogene belong?</string>
+
+    <string name="paleogene_variant_3_1">Cenozoic</string>
+    <string name="paleogene_variant_3_2">Paleozoic</string>
+    <string name="paleogene_variant_3_3">Mesozoic</string>
+    <string name="paleogene_variant_3_4">Hadean</string>
+
+    <string name="paleogene_question_4">When the Eocene Thermal Maximum appeared?</string>
+
+    <string name="paleogene_variant_4_1">55 mya</string>
+    <string name="paleogene_variant_4_2">65 mya</string>
+    <string name="paleogene_variant_4_3">45 mya</string>
+    <string name="paleogene_variant_4_4">35 mya</string>
+
+    <string name="paleogene_question_5">During which period Himalayas were formed?</string>
+
+    <string name="paleogene_variant_5_1">Paleogene</string>
+    <string name="paleogene_variant_5_2">Neogene</string>
+    <string name="paleogene_variant_5_3">Devonian</string>
+    <string name="paleogene_variant_5_4">Jurassic</string>
+
+    <string name="paleogene_question_6">What kind of animal is shown in this picture?</string>
+
+    <string name="paleogene_variant_6_1">Titanoboa</string>
+    <string name="paleogene_variant_6_2">Megaboa</string>
+    <string name="paleogene_variant_6_3">Anaconda</string>
+    <string name="paleogene_variant_6_4">Boa</string>
+
+    <string name="paleogene_question_7">During which geological period this animal appeared?</string>
+
+    <string name="paleogene_variant_7_1">Paleogene</string>
+    <string name="paleogene_variant_7_2">Neogene</string>
+    <string name="paleogene_variant_7_3">Jurassic</string>
+    <string name="paleogene_variant_7_4">Permian</string>
+
+    <string name="paleogene_question_8">What kind of animal is shown in this picture?</string>
+
+    <string name="paleogene_variant_8_1">Gastornis</string>
+    <string name="paleogene_variant_8_2">Argentavis</string>
+    <string name="paleogene_variant_8_3">Moa</string>
+    <string name="paleogene_variant_8_4">Daeodon</string>
+
+    <string name="paleogene_question_9">During which geological period this animal appeared?</string>
+
+    <string name="paleogene_variant_9_1">Paleogene</string>
+    <string name="paleogene_variant_9_2">Neogene</string>
+    <string name="paleogene_variant_9_3">Triassic</string>
+    <string name="paleogene_variant_9_4">Quaternary</string>
+
+    <string name="paleogene_question_10">What kind of animal is shown in this picture?</string>
+
+    <string name="paleogene_variant_10_1">Basilosaurus</string>
+    <string name="paleogene_variant_10_2">Lystrosaurus</string>
+    <string name="paleogene_variant_10_3">Mosasaurus</string>
+    <string name="paleogene_variant_10_4">Pliosaurus</string>
+
+    <string name="paleogene_question_11">During which geological period this animal appeared?</string>
+
+    <string name="paleogene_variant_11_1">Paleogene</string>
+    <string name="paleogene_variant_11_2">Cretaceous</string>
+    <string name="paleogene_variant_11_3">Neogene</string>
+    <string name="paleogene_variant_11_4">Jurassic</string>
+
+    <string name="paleogene_question_12">What kind of animal is shown in this picture?</string>
+
+    <string name="paleogene_variant_12_1">Paraceratherium</string>
+    <string name="paleogene_variant_12_2">Megatherium</string>
+    <string name="paleogene_variant_12_3">Pyrotherium</string>
+    <string name="paleogene_variant_12_4">Opabinia</string>
+
+    <string name="paleogene_question_13">During which geological period this animal appeared?</string>
+
+    <string name="paleogene_variant_13_1">Paleogene</string>
+    <string name="paleogene_variant_13_2">Neogene</string>
+    <string name="paleogene_variant_13_3">Quaternary</string>
+    <string name="paleogene_variant_13_4">Jurassic</string>
+
+    <string name="paleogene_question_14">To which group did the Paraceratherium belong?</string>
+
+    <string name="paleogene_variant_14_1">rhinoceros</string>
+    <string name="paleogene_variant_14_2">elephants</string>
+    <string name="paleogene_variant_14_3">hippopotamus</string>
+    <string name="paleogene_variant_14_4">giraffes</string>
+
+    <string name="paleogene_question_15">What kind of animal is shown in this picture?</string>
+
+    <string name="paleogene_variant_15_1">Daeodon</string>
+    <string name="paleogene_variant_15_2">Megatherium</string>
+    <string name="paleogene_variant_15_3">Pyrotherium</string>
+    <string name="paleogene_variant_15_4">Paraceratherium</string>
+
+    <string name="paleogene_question_16">During which geological period this animal appeared?</string>
+
+    <string name="paleogene_variant_16_1">Paleogene</string>
+    <string name="paleogene_variant_16_2">Neogene</string>
+    <string name="paleogene_variant_16_3">Quaternary</string>
+    <string name="paleogene_variant_16_4">Cretaceous</string>
+
+    <string name="paleogene_question_17">What kind of animal is shown in this picture?</string>
+
+    <string name="paleogene_variant_17_1">Pyrotherium</string>
+    <string name="paleogene_variant_17_2">Paraceratherium</string>
+    <string name="paleogene_variant_17_3">Marrella</string>
+    <string name="paleogene_variant_17_4">Daeodon</string>
+
+    <string name="paleogene_question_18">During which geological period this animal appeared?</string>
+
+    <string name="paleogene_variant_18_1">Paleogene</string>
+    <string name="paleogene_variant_18_2">Neogene</string>
+    <string name="paleogene_variant_18_3">Quaternary</string>
+    <string name="paleogene_variant_18_4">Permian</string>
+
+    <!--     BREAK      -->
+
+    <string name="neogene_question_1">When the Neogene began?</string>
+
+    <string name="neogene_variant_1_1">23.03 mya</string>
+    <string name="neogene_variant_1_2">27.03 mya</string>
+    <string name="neogene_variant_1_3">31.03 mya</string>
+    <string name="neogene_variant_1_4">18.03 mya</string>
+
+    <string name="neogene_question_2">When the Neogene ended?</string>
+
+    <string name="neogene_variant_2_1">2.58 mya</string>
+    <string name="neogene_variant_2_2">5.28 mya</string>
+    <string name="neogene_variant_2_3">7.18 mya</string>
+    <string name="neogene_variant_2_4">3.38 mya</string>
+
+    <string name="neogene_question_3">To which era does Neogene belong?</string>
+
+    <string name="neogene_variant_3_1">Cenozoic</string>
+    <string name="neogene_variant_3_2">Paleozoic</string>
+    <string name="neogene_variant_3_3">Mesozoic</string>
+    <string name="neogene_variant_3_4">Archean</string>
+
+    <string name="neogene_question_4">In which epoch the North America connected with the South America?</string>
+
+    <string name="neogene_variant_4_1">Pliocene</string>
+    <string name="neogene_variant_4_2">Eocene</string>
+    <string name="neogene_variant_4_3">Oligocene</string>
+    <string name="neogene_variant_4_4">Pleistocene</string>
+
+    <string name="neogene_question_5">When the Antarctica became covered by the ice?</string>
+
+    <string name="neogene_variant_5_1">20 mya</string>
+    <string name="neogene_variant_5_2">66 mya</string>
+    <string name="neogene_variant_5_3">5 mya</string>
+    <string name="neogene_variant_5_4">55 mya</string>
+
+    <string name="neogene_question_6">When the first hominids appeared?</string>
+
+    <string name="neogene_variant_6_1">in Neogene</string>
+    <string name="neogene_variant_6_2">in Paleogene</string>
+    <string name="neogene_variant_6_3">in Quaternary</string>
+    <string name="neogene_variant_6_4">in Cretaceous</string>
+
+    <string name="neogene_question_7">What kind of animal is shown in this picture?</string>
+
+    <string name="neogene_variant_7_1">Argentavis</string>
+    <string name="neogene_variant_7_2">Gastornis</string>
+    <string name="neogene_variant_7_3">Archaeopteryx</string>
+    <string name="neogene_variant_7_4">Condor</string>
+
+    <string name="neogene_question_8">During which geological period this animal appeared?</string>
+
+    <string name="neogene_variant_8_1">Neogene</string>
+    <string name="neogene_variant_8_2">Paleogene</string>
+    <string name="neogene_variant_8_3">Quaternary</string>
+    <string name="neogene_variant_8_4">Jurassic</string>
+
+    <string name="neogene_question_9">What kind of animal is shown in this picture?</string>
+
+    <string name="neogene_variant_9_1">Ardipithecus</string>
+    <string name="neogene_variant_9_2">Australopithecus</string>
+    <string name="neogene_variant_9_3">Homo sapiens</string>
+    <string name="neogene_variant_9_4">Homo erectus</string>
+
+    <string name="neogene_question_10">During which geological period this animal appeared?</string>
+
+    <string name="neogene_variant_10_1">Neogene</string>
+    <string name="neogene_variant_10_2">Paleogene</string>
+    <string name="neogene_variant_10_3">Quaternary</string>
+    <string name="neogene_variant_10_4">Cambrian</string>
+
+    <string name="neogene_question_11">In which modern territory Ardipithecus could be found?</string>
+
+    <string name="neogene_variant_11_1">Ethiopia</string>
+    <string name="neogene_variant_11_2">Morocco</string>
+    <string name="neogene_variant_11_3">Canada</string>
+    <string name="neogene_variant_11_4">China</string>
+
+    <string name="neogene_question_12">What kind of animal is shown in this picture?</string>
+
+    <string name="neogene_variant_12_1">Megalodon</string>
+    <string name="neogene_variant_12_2">Basilosaurus</string>
+    <string name="neogene_variant_12_3">White shark</string>
+    <string name="neogene_variant_12_4">Blue whale</string>
+
+    <string name="neogene_question_13">During which geological period this animal appeared?</string>
+
+    <string name="neogene_variant_13_1">Neogene</string>
+    <string name="neogene_variant_13_2">Paleogene</string>
+    <string name="neogene_variant_13_3">Quaternary</string>
+    <string name="neogene_variant_13_4">Jurassic</string>
+
+    <string name="neogene_question_14">What kind of animal is shown in this picture?</string>
+
+    <string name="neogene_variant_14_1">Livyatan</string>
+    <string name="neogene_variant_14_2">Megalodon</string>
+    <string name="neogene_variant_14_3">Basilosaurus</string>
+    <string name="neogene_variant_14_4">sperm whale</string>
+
+    <string name="neogene_question_15">During which geological period this animal appeared?</string>
+
+    <string name="neogene_variant_15_1">Neogene</string>
+    <string name="neogene_variant_15_2">Paleogene</string>
+    <string name="neogene_variant_15_3">Quaternary</string>
+    <string name="neogene_variant_15_4">Cretaceous</string>
+
+    <string name="neogene_question_16">What kind of animal is shown in this picture?</string>
+
+    <string name="neogene_variant_16_1">Titanis</string>
+    <string name="neogene_variant_16_2">Gastornis</string>
+    <string name="neogene_variant_16_3">Quetzalcoatlus</string>
+    <string name="neogene_variant_16_4">Stork</string>
+
+    <string name="neogene_question_17">During which geological period this animal appeared?</string>
+
+    <string name="neogene_variant_17_1">Neogene</string>
+    <string name="neogene_variant_17_2">Paleogene</string>
+    <string name="neogene_variant_17_3">Quaternary</string>
+    <string name="neogene_variant_17_4">Jurassic</string>
+
+    <string name="neogene_question_18">Where did this terror bird lived?</string>
+
+    <string name="neogene_variant_18_1">North America</string>
+    <string name="neogene_variant_18_2">South America</string>
+    <string name="neogene_variant_18_3">Africa</string>
+    <string name="neogene_variant_18_4">Asia</string>
+
+    <string name="neogene_question_19">What kind of animal is shown in this picture?</string>
+
+    <string name="neogene_variant_19_1">Deinotherium</string>
+    <string name="neogene_variant_19_2">Arsinoitherium</string>
+    <string name="neogene_variant_19_3">mammoth</string>
+    <string name="neogene_variant_19_4">elephant</string>
+
+    <string name="neogene_question_20">During which geological period this animal appeared?</string>
+
+    <string name="neogene_variant_20_1">Neogene</string>
+    <string name="neogene_variant_20_2">Paleogene</string>
+    <string name="neogene_variant_20_3">Quaternary</string>
+    <string name="neogene_variant_20_4">Jurassic</string>
+
+    <!--     BREAK      -->
+
+    <string name="quaternary_question_1">When the Quaternary began?</string>
+
+    <string name="quaternary_variant_1_1">2.58 mya</string>
+    <string name="quaternary_variant_1_2">5.12 mya</string>
+    <string name="quaternary_variant_1_3">1.47 mya</string>
+    <string name="quaternary_variant_1_4">3.54 mya</string>
+
+    <string name="quaternary_question_2">When the Quaternary ended?</string>
+
+    <string name="quaternary_variant_2_1">it is still active</string>
+    <string name="quaternary_variant_2_2">0.012 mya</string>
+    <string name="quaternary_variant_2_3">0.018 mya</string>
+    <string name="quaternary_variant_2_4">0.512 mya</string>
+
+    <string name="quaternary_question_3">To which era does Quaternary belong?</string>
+
+    <string name="quaternary_variant_3_1">Cenozoic</string>
+    <string name="quaternary_variant_3_2">Mesozoic</string>
+    <string name="quaternary_variant_3_3">Paleozoic</string>
+    <string name="quaternary_variant_3_4">Proterozoic</string>
+
+    <string name="quaternary_question_4">What is the epoch we live in?</string>
+
+    <string name="quaternary_variant_4_1">Holocene</string>
+    <string name="quaternary_variant_4_2">Pleistocene</string>
+    <string name="quaternary_variant_4_3">Eocene</string>
+    <string name="quaternary_variant_4_4">Oligocene</string>
+
+    <string name="quaternary_question_5">In which epoch the Quaternary megafauna lived?</string>
+
+    <string name="quaternary_variant_5_1">Pleistocene</string>
+    <string name="quaternary_variant_5_2">Pliocene</string>
+    <string name="quaternary_variant_5_3">Oligocene</string>
+    <string name="quaternary_variant_5_4">Paleocene</string>
+
+    <string name="quaternary_question_6">Which cycles define repeating Earth\'s glaciations?</string>
+
+    <string name="quaternary_variant_6_1">Milankovitch</string>
+    <string name="quaternary_variant_6_2">Einstein</string>
+    <string name="quaternary_variant_6_3">Malkovitch</string>
+    <string name="quaternary_variant_6_4">Jordan</string>
+
+    <string name="quaternary_question_7">What is the variable Earth\'s axis tilt?</string>
+
+    <string name="quaternary_variant_7_1">22.1&#8211;24.5 degrees</string>
+    <string name="quaternary_variant_7_2">17.2&#8211;28.2 degrees</string>
+    <string name="quaternary_variant_7_3">0.0&#8211;92.3 degrees</string>
+    <string name="quaternary_variant_7_4">Earth is flat</string>
+
+    <string name="quaternary_question_8">Which of these ancient plants belong to the North America?</string>
+
+    <string name="quaternary_variant_8_1">Taxodium</string>
+    <string name="quaternary_variant_8_2">Ginkgo</string>
+    <string name="quaternary_variant_8_3">Thujopsis</string>
+    <string name="quaternary_variant_8_4">Platanus</string>
+
+    <string name="quaternary_question_9">Which of these ancient plants belong to the Europe?</string>
+
+    <string name="quaternary_variant_9_1">Platanus</string>
+    <string name="quaternary_variant_9_2">Sequoiadendron</string>
+    <string name="quaternary_variant_9_3">Welwitschia</string>
+    <string name="quaternary_variant_9_4">Taxodium</string>
+
+    <string name="quaternary_question_10">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_10_1">Mammuthus</string>
+    <string name="quaternary_variant_10_2">Coelodonta</string>
+    <string name="quaternary_variant_10_3">space elephant</string>
+    <string name="quaternary_variant_10_4">saber-tooth elephant</string>
+
+    <string name="quaternary_question_11">What was the last place Mammuthus lived in?</string>
+
+    <string name="quaternary_variant_11_1">Wrangel island</string>
+    <string name="quaternary_variant_11_2">Madagascar</string>
+    <string name="quaternary_variant_11_3">Western Siberia</string>
+    <string name="quaternary_variant_11_4">North Korea</string>
+
+    <string name="quaternary_question_12">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_12_1">Coelodonta</string>
+    <string name="quaternary_variant_12_2">Mammuthus</string>
+    <string name="quaternary_variant_12_3">wooly unicorn</string>
+    <string name="quaternary_variant_12_4">Megatherium</string>
+
+    <string name="quaternary_question_13">What was the last place wooly rhinoceros lived in?</string>
+
+    <string name="quaternary_variant_13_1">Western Siberia</string>
+    <string name="quaternary_variant_13_2">Western Europe</string>
+    <string name="quaternary_variant_13_3">North America</string>
+    <string name="quaternary_variant_13_4">Eastern Asia</string>
+
+    <string name="quaternary_question_14">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_14_1">Megatherium</string>
+    <string name="quaternary_variant_14_2">Paraceratherium</string>
+    <string name="quaternary_variant_14_3">Pyrotherium</string>
+    <string name="quaternary_variant_14_4">bear</string>
+
+    <string name="quaternary_question_15">Where did the Megatherium live in?</string>
+
+    <string name="quaternary_variant_15_1">South America</string>
+    <string name="quaternary_variant_15_2">North America</string>
+    <string name="quaternary_variant_15_3">Africa</string>
+    <string name="quaternary_variant_15_4">China</string>
+
+    <string name="quaternary_question_16">To which mammal group did the Megatherium belong?</string>
+
+    <string name="quaternary_variant_16_1">ground-sloths</string>
+    <string name="quaternary_variant_16_2">bears</string>
+    <string name="quaternary_variant_16_3">hedgehogs</string>
+    <string name="quaternary_variant_16_4">rhinoceros</string>
+
+    <string name="quaternary_question_17">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_17_1">Smilodon</string>
+    <string name="quaternary_variant_17_2">Megatherium</string>
+    <string name="quaternary_variant_17_3">Puma</string>
+    <string name="quaternary_variant_17_4">Bengal tiger</string>
+
+    <string name="quaternary_question_18">Where did the Smilodon live in?</string>
+
+    <string name="quaternary_variant_18_1">South and North America</string>
+    <string name="quaternary_variant_18_2">Eurasia</string>
+    <string name="quaternary_variant_18_3">Australia</string>
+    <string name="quaternary_variant_18_4">Africa</string>
+
+    <string name="quaternary_question_19">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_19_1">Coelacanth</string>
+    <string name="quaternary_variant_19_2">Dunkleosteus</string>
+    <string name="quaternary_variant_19_3">Entelognathus</string>
+    <string name="quaternary_variant_19_4">Carcharodon carcharias</string>
+
+    <string name="quaternary_question_20">Where Coelacanths can be found now?</string>
+
+    <string name="quaternary_variant_20_1">South Africa</string>
+    <string name="quaternary_variant_20_2">India</string>
+    <string name="quaternary_variant_20_3">Mexico</string>
+    <string name="quaternary_variant_20_4">Australia</string>
+
+    <string name="quaternary_question_21">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_21_1">horse-shoe crab</string>
+    <string name="quaternary_variant_21_2">trilobite</string>
+    <string name="quaternary_variant_21_3">sting ray</string>
+    <string name="quaternary_variant_21_4">this is not an animal</string>
+
+    <string name="quaternary_question_22">What kind of plant is shown in this picture?</string>
+
+    <string name="quaternary_variant_22_1">Ginkgo</string>
+    <string name="quaternary_variant_22_2">Eucalyptus</string>
+    <string name="quaternary_variant_22_3">Quercus</string>
+    <string name="quaternary_variant_22_4">Tilia</string>
+
+    <string name="quaternary_question_23">During which geological period Ginkgophyta appeared?</string>
+
+    <string name="quaternary_variant_23_1">Permian</string>
+    <string name="quaternary_variant_23_2">Devonian</string>
+    <string name="quaternary_variant_23_3">Jurassic</string>
+    <string name="quaternary_variant_23_4">Quaternary</string>
+
+    <string name="quaternary_question_24">Which is the original Ginkgo country?</string>
+
+    <string name="quaternary_variant_24_1">China</string>
+    <string name="quaternary_variant_24_2">Japan</string>
+    <string name="quaternary_variant_24_3">Korea</string>
+    <string name="quaternary_variant_24_4">India</string>
+
+    <string name="quaternary_question_25">What kind of plant is shown in this picture?</string>
+
+    <string name="quaternary_variant_25_1">Welwitschia</string>
+    <string name="quaternary_variant_25_2">Ginkgo</string>
+    <string name="quaternary_variant_25_3">Platanus</string>
+    <string name="quaternary_variant_25_4">Cactus</string>
+
+    <string name="quaternary_question_26">In which desert Welwitschia can be found now?</string>
+
+    <string name="quaternary_variant_26_1">Namib</string>
+    <string name="quaternary_variant_26_2">Sahara</string>
+    <string name="quaternary_variant_26_3">Atacama</string>
+    <string name="quaternary_variant_26_4">Tanami</string>
+
+    <string name="quaternary_question_27">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_27_1">Tuatara</string>
+    <string name="quaternary_variant_27_2">Mosasaurus</string>
+    <string name="quaternary_variant_27_3">Velociraptor</string>
+    <string name="quaternary_variant_27_4">Triceratops</string>
+
+    <string name="quaternary_question_28">Where the tuataras can be found now?</string>
+
+    <string name="quaternary_variant_28_1">New Zealand</string>
+    <string name="quaternary_variant_28_2">Madagascar</string>
+    <string name="quaternary_variant_28_3">Greenland</string>
+    <string name="quaternary_variant_28_4">Canary Islands</string>
+
+    <string name="quaternary_question_29">What kind of animal is shown in this picture?</string>
+
+    <string name="quaternary_variant_29_1">Homo sapiens</string>
+    <string name="quaternary_variant_29_2">Mosasaurus</string>
+    <string name="quaternary_variant_29_3">Homo floresiensis</string>
+    <string name="quaternary_variant_29_4">Megatherium</string>
+
+    <string name="quaternary_question_30">During which geological period this animal appeared?</string>
+
+    <string name="quaternary_variant_30_1">Quaternary</string>
+    <string name="quaternary_variant_30_2">Devonian</string>
+    <string name="quaternary_variant_30_3">Neogene</string>
+    <string name="quaternary_variant_30_4">Paleogene</string>
+
+    <!--     BREAK      -->
+
+    <string name="future_question_1">Does the humanity cause climate change?</string>
+
+    <string name="future_variant_1_1">yes and no</string>
+    <string name="future_variant_1_2">yes</string>
+    <string name="future_variant_1_3">no</string>
+    <string name="future_variant_1_4">definitely no</string>
+
+</resources>

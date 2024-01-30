@@ -46,21 +46,4 @@
         <item name="android:textAlignment">viewStart</item>
     </style>
 
-    <style name="PeriodDescriptionStyle">
-        <item name="android:padding">8dp</item>
-        <item name="android:fontFamily">@font/gentona_book</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
-        <item name="android:textColor">@color/colorPrimaryDark</item>
-        <item name="android:textIsSelectable">true</item>
-        <item name="android:textAlignment">viewStart</item>
-    </style>
-
-    <style name="QuizButtonStyle">
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:fontFamily">@font/gentona_book</item>
-        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
-        <item name="android:textColor">@color/white</item>
-    </style>
-
 </resources>

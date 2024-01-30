@@ -14,6 +14,7 @@ dependencies {
     implementation 'com.github.florent37:viewanimator:1.1.2'
 
     implementation project(':core')
+    implementation project(':features:quiz')
 }
 
 apply plugin: 'com.google.gms.google-services'
