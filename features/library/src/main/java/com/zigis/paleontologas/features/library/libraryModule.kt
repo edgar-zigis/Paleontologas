@@ -9,7 +9,7 @@ import com.zigis.paleontologas.features.library.stories.formavitae.FormaVitaeVie
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodViewModel
 import com.zigis.paleontologas.features.library.factories.GeologicalPeriodAdapterItemFactory
 import org.koin.android.ext.koin.androidContext
-import org.koin.android.viewmodel.dsl.viewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val libraryModule = module {
