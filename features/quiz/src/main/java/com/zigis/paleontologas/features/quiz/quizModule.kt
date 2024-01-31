@@ -26,5 +26,5 @@ val quizModule = module {
 
     viewModel { QuizGameViewModel(get(), get()) }
     viewModel { QuizProgressViewModel(get(), get()) }
-    viewModel { QuizFinalResultViewModel() }
+    viewModel { QuizFinalResultViewModel(get()) }
 }

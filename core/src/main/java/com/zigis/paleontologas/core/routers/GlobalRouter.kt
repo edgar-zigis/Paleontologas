@@ -9,14 +9,14 @@ import kotlinx.coroutines.flow.onEach
 class GlobalRouter {
 
     private val routerBackStackFlow = MutableSharedFlow<Fragment>(extraBufferCapacity = 10)
-    private val routerPopFlow = MutableSharedFlow<Unit>(extraBufferCapacity = 10)
+    private val routerPopFlow = MutableSharedFlow<Boolean>(extraBufferCapacity = 10)
 
     fun pushFragment(fragment: Fragment) {
         routerBackStackFlow.tryEmit(fragment)
     }
 
-    fun popCurrentFragment() {
-        routerPopFlow.tryEmit(Unit)
+    fun popCurrentFragment(isImmediate: Boolean = false) {
+        routerPopFlow.tryEmit(isImmediate)
     }
 
     fun addOnFragmentPushListener(scope: CoroutineScope, action: (Fragment) -> Unit) {
@@ -25,9 +25,9 @@ class GlobalRouter {
         }.launchIn(scope)
     }
 
-    fun addOnFragmentPopListener(scope: CoroutineScope, action: () -> Unit) {
+    fun addOnFragmentPopListener(scope: CoroutineScope, action: (Boolean) -> Unit) {
         routerPopFlow.onEach {
-            action.invoke()
+            action.invoke(it)
         }.launchIn(scope)
     }
 }

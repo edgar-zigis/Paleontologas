@@ -5,6 +5,7 @@ import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
 import android.view.View.LAYOUT_DIRECTION_RTL
+import androidx.activity.addCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -48,6 +49,19 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
         job = Job()
         addLogs()
         supportFragmentManager.addOnBackStackChangedListener(backStackChangeListener)
+        onBackPressedDispatcher.addCallback {
+            with(supportFragmentManager) {
+                if (backStackEntryCount == 1) {
+                    finish()
+                } else {
+                    fragments.firstOrNull { it.isVisible }?.let { fragment ->
+                        if (fragment !is Navigable || !fragment.onBackPressed()) {
+                            onBackPressedDispatcher.onBackPressed()
+                        }
+                    } ?: onBackPressedDispatcher.onBackPressed()
+                }
+            }
+        }
     }
 
     override fun onStart() {
@@ -75,20 +89,6 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
         job.cancel()
         addLogs()
         supportFragmentManager.removeOnBackStackChangedListener(backStackChangeListener)
-    }
-
-    override fun onBackPressed() {
-        with(supportFragmentManager) {
-            if (backStackEntryCount == 1) {
-                finish()
-            } else {
-                fragments.firstOrNull { it.isVisible }?.let { fragment ->
-                    if (fragment !is Navigable || !fragment.onBackPressed()) {
-                        super.onBackPressed()
-                    }
-                } ?: super.onBackPressed()
-            }
-        }
     }
 
     override fun attachBaseContext(newBase: Context?) {
