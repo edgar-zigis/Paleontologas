@@ -2,8 +2,8 @@ package com.zigis.paleontologas.features.launcher.stories.main
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
-import com.zigis.paleontologas.features.main.routers.MainRouter
 import com.zigis.paleontologas.features.launcher.stories.main.LauncherIntent.*
+import com.zigis.paleontologas.features.main.routers.MainRouter
 import kotlinx.coroutines.*
 
 @OptIn(DelicateCoroutinesApi::class)

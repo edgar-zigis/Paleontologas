@@ -76,7 +76,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:adjustViewBounds="true"
-            android:contentDescription="@string/image"
             android:scaleType="centerCrop" />
 
         <TextView

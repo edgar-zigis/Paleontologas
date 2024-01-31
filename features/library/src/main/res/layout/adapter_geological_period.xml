@@ -25,7 +25,6 @@
             android:layout_width="82dp"
             android:layout_height="82dp"
             android:layout_centerHorizontal="true"
-            android:contentDescription="@string/image"
             tools:src="@drawable/item_cretaceous_tyrannosaurus_thumb" />
 
     </androidx.cardview.widget.CardView>

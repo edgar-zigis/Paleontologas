@@ -12,7 +12,6 @@
         android:layout_above="@+id/loader"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
-        android:contentDescription="@string/image"
         android:src="@drawable/logo_big" />
 
     <com.airbnb.lottie.LottieAnimationView
