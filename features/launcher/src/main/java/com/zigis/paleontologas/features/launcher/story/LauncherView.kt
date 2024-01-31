@@ -1,9 +1,9 @@
-package com.zigis.paleontologas.features.launcher.stories.main
+package com.zigis.paleontologas.features.launcher.story
 
 import android.content.Context
 import android.widget.Toast
 import com.zigis.paleontologas.core.architecture.BaseView
-import com.zigis.paleontologas.databinding.FragmentLauncherBinding
+import com.zigis.paleontologas.features.launcher.databinding.FragmentLauncherBinding
 
 class LauncherView(context: Context) : BaseView<LauncherViewState, FragmentLauncherBinding>(context) {
 

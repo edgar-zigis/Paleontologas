@@ -1,0 +1,16 @@
+apply from: "$rootProject.projectDir/shared.build.gradle"
+
+android {
+    namespace 'com.zigis.paleontologas.features.launcher'
+}
+
+dependencies {
+    ksp "androidx.room:room-compiler:$room_version"
+
+    implementation 'com.airbnb.android:lottie:4.2.0'
+
+    implementation project(':core')
+    implementation project(':features:main')
+    implementation project(':features:quiz')
+    implementation project(':features:library')
+}
