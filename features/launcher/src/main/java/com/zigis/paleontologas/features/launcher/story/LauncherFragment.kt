@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.launcher.stories.main
+package com.zigis.paleontologas.features.launcher.story
 
 import android.content.Context
 import com.zigis.paleontologas.core.architecture.BaseFragment

@@ -3,6 +3,7 @@ package com.zigis.paleontologas
 import android.app.Application
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
+import com.zigis.paleontologas.features.launcher.launcherModule
 import com.zigis.paleontologas.features.library.libraryModule
 import com.zigis.paleontologas.features.main.mainModule
 import com.zigis.paleontologas.features.quiz.quizModule
@@ -39,7 +40,8 @@ class PaleoApplication : Application() {
                     applicationModule,
                     mainModule,
                     quizModule,
-                    libraryModule
+                    libraryModule,
+                    launcherModule
                 )
             )
         }
