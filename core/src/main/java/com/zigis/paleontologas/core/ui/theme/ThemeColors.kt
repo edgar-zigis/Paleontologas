@@ -10,7 +10,6 @@ class ThemeColors(
     val contentText: Color,
     val headingText: Color
 ) {
-
     companion object {
 
         val Success = Color(0xFF009688)
