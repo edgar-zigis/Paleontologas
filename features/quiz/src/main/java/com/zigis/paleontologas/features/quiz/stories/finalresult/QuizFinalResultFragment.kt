@@ -27,14 +27,13 @@ class QuizFinalResultFragment : BaseFragment<QuizFinalResultViewState, QuizFinal
     }
 
     override fun onBackPressed(): Boolean {
-        activity?.supportFragmentManager?.popBackStackImmediate()
-        activity?.supportFragmentManager?.popBackStackImmediate()
+        viewModel.intents.sendSafely(InvokeBack)
         return true
     }
 
     //  QuizMarkViewDelegate
 
     override fun onBackInvoked() {
-        onBackPressed()
+        viewModel.intents.sendSafely(InvokeBack)
     }
 }

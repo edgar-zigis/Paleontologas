@@ -29,11 +29,13 @@ class MainActivity : BaseActivity() {
     }
 
     private fun startListeningForRouteRequests() = launch {
-        globalRouter.addOnFragmentPushListener(this) {
-            pushFragment(it, R.id.mainRouterContainer)
+        globalRouter.addOnFragmentPushListener(this) { fragment ->
+            pushFragment(fragment, R.id.mainRouterContainer)
         }
-        globalRouter.addOnFragmentPopListener(this) {
-            onBackPressed()
+        globalRouter.addOnFragmentPopListener(this) { isImmediate ->
+            if (isImmediate) {
+                supportFragmentManager.popBackStackImmediate()
+            } else onBackPressedDispatcher.onBackPressed()
         }
     }
 }

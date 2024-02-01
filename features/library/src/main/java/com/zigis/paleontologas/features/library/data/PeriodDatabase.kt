@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [Period::class], version = 1)
+@Database(entities = [Period::class], version = 1, exportSchema = false)
 abstract class PeriodDatabase : RoomDatabase() {
 
     abstract fun periodDao(): PeriodDao
