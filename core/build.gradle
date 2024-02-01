@@ -6,6 +6,16 @@ android {
 }
 
 dependencies {
+    api platform('androidx.compose:compose-bom:2024.01.00')
+    api 'androidx.lifecycle:lifecycle-viewmodel-compose'
+    api 'androidx.lifecycle:lifecycle-runtime-compose'
+    api 'androidx.activity:activity-compose'
+    api 'androidx.compose.material3:material3'
+    api 'androidx.compose.ui:ui'
+    api 'androidx.compose.ui:ui-graphics'
+    api 'androidx.compose.ui:ui-tooling-preview'
+    debugApi 'androidx.compose.ui:ui-tooling'
+
     api 'androidx.core:core-ktx:1.12.0'
     api 'androidx.appcompat:appcompat:1.6.1'
     api 'androidx.constraintlayout:constraintlayout:2.1.4'
