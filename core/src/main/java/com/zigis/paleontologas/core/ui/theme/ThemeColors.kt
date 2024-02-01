@@ -30,7 +30,7 @@ class ThemeColors(
             contentText = Color(0xFF09203F),
             headingText = Color(0xFF3E5771)
         )
+
+        val Local = staticCompositionLocalOf { LightThemeColors }
     }
 }
-
-internal val LocalThemeColors = staticCompositionLocalOf { ThemeColors.LightThemeColors }
