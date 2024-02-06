@@ -36,6 +36,7 @@ dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
     api "io.insert-koin:koin-android:$koin_version"
+    api "io.insert-koin:koin-androidx-compose:$koin_version"
 
     testApi 'junit:junit:4.13.2'
     androidTestApi 'androidx.test:runner:1.5.2'

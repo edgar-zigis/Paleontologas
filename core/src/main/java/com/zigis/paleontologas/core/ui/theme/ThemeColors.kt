@@ -8,7 +8,8 @@ class ThemeColors(
     val backgroundSecondary: Color,
     val contentBackground: Color,
     val contentText: Color,
-    val headingText: Color
+    val headingText: Color,
+    val headingTextSecondary: Color
 ) {
     companion object {
 
@@ -20,7 +21,8 @@ class ThemeColors(
             backgroundSecondary = Color(0xFF09203F),
             contentBackground = Color(0xFFFFFFFF),
             contentText = Color(0xFF09203F),
-            headingText = Color(0xFF3E5771)
+            headingText = Color(0xFF3E5771),
+            headingTextSecondary = Color(0xFFFFFFFF)
         )
 
         val DarkThemeColors = ThemeColors(
@@ -28,7 +30,8 @@ class ThemeColors(
             backgroundSecondary = Color(0xFF09203F),
             contentBackground = Color(0xFFFFFFFF),
             contentText = Color(0xFF09203F),
-            headingText = Color(0xFF3E5771)
+            headingText = Color(0xFF3E5771),
+            headingTextSecondary = Color(0xFFFFFFFF)
         )
 
         val Local = staticCompositionLocalOf { LightThemeColors }
