@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.features.launcher.story.LauncherScreen
 
 class LauncherActivity : ComponentActivity() {
 
@@ -23,7 +24,7 @@ class LauncherActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize()
                 ) {
-                    //  TODO: Draw launcher content
+                    LauncherScreen()
                 }
             }
         }
