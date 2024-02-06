@@ -51,7 +51,7 @@ fun LauncherScreen(
     }
 
     LifecycleEventHandler {
-        if (it == Lifecycle.Event.ON_CREATE) {
+        if (it == Lifecycle.Event.ON_START) {
             viewModel.sendIntent(LauncherIntent.Initialize)
         }
     }
