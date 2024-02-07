@@ -35,7 +35,7 @@ class ThemeTypography(
                 fontFamily = ThemeFonts.Gilroy,
                 fontWeight = FontWeight.Bold
             ),
-            title1 = TextStyle( //  period item title
+            title1 = TextStyle(
                 fontSize = 19.sp,
                 fontFamily = ThemeFonts.Gentona,
                 fontWeight = FontWeight.Normal
