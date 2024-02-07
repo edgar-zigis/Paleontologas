@@ -1,35 +1,44 @@
 package com.zigis.paleontologas.features.main.stories.language
 
-import android.content.Context
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.core.architecture.interfaces.IView
-import com.zigis.paleontologas.core.extensions.sendSafely
-import com.zigis.paleontologas.features.main.stories.language.LanguageIntent.*
-import org.koin.android.ext.android.inject
-import java.util.Locale
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.ViewCompositionStrategy
+import androidx.fragment.app.Fragment
+import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.features.main.databinding.FragmentComposeBinding
 
-class LanguageFragment : BaseFragment<LanguageViewState, LanguageIntent, LanguageViewModel>(),
-    LanguageViewDelegate {
+class LanguageFragment : Fragment() {
 
-    override val viewModel: LanguageViewModel by inject()
+    private var binding: FragmentComposeBinding? = null
 
-    override fun onCreateView(context: Context): IView<LanguageViewState> {
-        return LanguageView(context).also {
-            it.delegate = this
-        }.also {
-            viewModel.intents.sendSafely(Initialize)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        binding = FragmentComposeBinding.inflate(inflater, container, false)
+        binding?.rootView?.apply {
+            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
+            setContent {
+                ApplicationTheme {
+                    Surface(
+                        modifier = Modifier.fillMaxSize()
+                    ) {
+                        LanguageScreen()
+                    }
+                }
+            }
         }
+        return binding?.root
     }
 
-    //  LanguageViewDelegate
-
-    override fun onLocaleSelected(locale: Locale) {
-        viewModel.intents.sendSafely(
-            ChangeLocale(locale = locale)
-        )
-    }
-
-    override fun onBackInvoked() {
-        viewModel.intents.sendSafely(InvokeBack)
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 }
