@@ -5,22 +5,21 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.compose.ui.platform.ComposeView
-import androidx.compose.ui.platform.ViewCompositionStrategy
+import androidx.compose.runtime.Composable
 import androidx.fragment.app.Fragment
+import androidx.fragment.compose.content
 import com.google.firebase.crashlytics.FirebaseCrashlytics
-import com.zigis.paleontologas.core.databinding.FragmentComposeBinding
 import com.zigis.paleontologas.core.interfaces.Navigable
 import com.zigis.paleontologas.core.providers.SavedStateProvider
 
 abstract class BaseComposableFragment : Fragment(), Navigable {
 
     private val savable = Bundle()
-    private var binding: FragmentComposeBinding? = null
 
     protected fun <T> savedState() = SavedStateProvider.Nullable<T>(savable)
 
-    abstract fun onCreateView(view: ComposeView)
+    @Composable
+    abstract fun ViewContentComposition()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         if (savedInstanceState != null) {
@@ -33,13 +32,8 @@ abstract class BaseComposableFragment : Fragment(), Navigable {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        binding = FragmentComposeBinding.inflate(inflater, container, false)
-        binding?.rootView?.apply {
-            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
-            onCreateView(this)
-        }
-        return binding?.root
+    ) = content {
+        ViewContentComposition()
     }
 
     override fun onBackPressed(): Boolean {
@@ -60,7 +54,6 @@ abstract class BaseComposableFragment : Fragment(), Navigable {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        binding = null
         addLogs()
     }
 
