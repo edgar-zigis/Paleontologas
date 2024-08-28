@@ -7,7 +7,7 @@ android {
 dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
-    implementation 'com.nightonke:boommenu:2.1.1'
+    implementation 'com.nightonke:boommenu:1.0.9'
 
     implementation project(':core')
     implementation project(':features:quiz')
