@@ -8,11 +8,20 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.DividerItemDecoration.VERTICAL
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.nightonke.boommenu.BoomButtons.SimpleCircleButton
+import com.nightonke.boommenu.BoomMenuButton
+import com.nightonke.boommenu.Eases.EaseType
+import com.nightonke.boommenu.Types.BoomType
+import com.nightonke.boommenu.Types.ButtonType
+import com.nightonke.boommenu.Types.ClickEffectType
+import com.nightonke.boommenu.Types.DimType
+import com.nightonke.boommenu.Types.OrderType
+import com.nightonke.boommenu.Types.PlaceType
+import com.nightonke.boommenu.Util
 import com.zigis.paleontologas.core.architecture.BaseView
 import com.zigis.paleontologas.features.main.R
 import com.zigis.paleontologas.features.main.databinding.FragmentHomeBinding
 import com.zigis.paleontologas.features.main.stories.home.adapter.HomeListAdapter
+
 
 class HomeView(
     context: Context
@@ -28,27 +37,42 @@ class HomeView(
 
     init {
         with(requireBinding()) {
-            for (i in 0 until menuButton.piecePlaceEnum.pieceNumber()) {
-                val image = when (i) {
-                    0 -> R.drawable.menu_time_scale
-                    1 -> R.drawable.menu_quiz
-                    2 -> R.drawable.menu_language
-                    3 -> R.drawable.menu_about
-                    else -> 0
-                }
-                val builder = SimpleCircleButton.Builder().listener { index ->
+            val pieceColor = ContextCompat.getColor(context, R.color.colorMenuItem)
+            BoomMenuButton.Builder()
+                .addSubButton(context, R.drawable.menu_time_scale, intArrayOf(pieceColor, pieceColor), "")
+                .addSubButton(context, R.drawable.menu_quiz, intArrayOf(pieceColor, pieceColor), "")
+                .addSubButton(context, R.drawable.menu_language, intArrayOf(pieceColor, pieceColor), "")
+                .addSubButton(context, R.drawable.menu_about, intArrayOf(pieceColor, pieceColor), "")
+                .frames(80)
+                .duration(250)
+                .delay(100)
+                .showOrder(OrderType.RANDOM)
+                .hideOrder(OrderType.RANDOM)
+                .button(ButtonType.CIRCLE)
+                .boom(BoomType.LINE)
+                .place(PlaceType.CIRCLE_4_2)
+                .showMoveEase(EaseType.EaseOutBack)
+                .hideMoveEase(EaseType.EaseOutCirc)
+                .showScaleEase(EaseType.EaseOutBack)
+                .hideScaleType(EaseType.EaseOutCirc)
+                .rotateDegree(720)
+                .showRotateEase(EaseType.EaseOutBack)
+                .hideRotateType(EaseType.Linear)
+                .autoDismiss(true)
+                .cancelable(true)
+                .dim(DimType.DIM_6)
+                .clickEffect(ClickEffectType.RIPPLE)
+                .boomButtonShadow(Util.getInstance().dp2px(2f), Util.getInstance().dp2px(2f))
+                .subButtonsShadow(Util.getInstance().dp2px(2f), Util.getInstance().dp2px(2f))
+                .animator(null)
+                .onSubButtonClick { index ->
                     when (index) {
                         1 -> delegate?.openQuiz()
                         2 -> delegate?.openLanguages()
                         3 -> delegate?.openAbout()
                     }
                 }
-                    .rippleEffect(true)
-                    .normalColor(ContextCompat.getColor(context, R.color.colorMenuItem))
-                    .pieceColor(ContextCompat.getColor(context, R.color.white))
-                    .normalImageRes(image)
-                menuButton.addBuilder(builder)
-            }
+                .init(menuButton)
 
             periodList.adapter = adapter
             periodList.layoutManager = LinearLayoutManager(context)
