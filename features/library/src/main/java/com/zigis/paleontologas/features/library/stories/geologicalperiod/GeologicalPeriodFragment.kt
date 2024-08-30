@@ -1,41 +1,24 @@
 package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
-import android.content.Context
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.core.architecture.interfaces.IView
-import com.zigis.paleontologas.core.extensions.sendSafely
-import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodIntent.*
-import org.koin.android.ext.android.inject
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.zigis.paleontologas.core.architecture.BaseComposableFragment
+import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 
-class GeologicalPeriodFragment :
-    BaseFragment<GeologicalPeriodViewState, GeologicalPeriodIntent, GeologicalPeriodViewModel>(),
-    GeologicalPeriodViewDelegate {
+class GeologicalPeriodFragment : BaseComposableFragment() {
 
     var configuration: GeologicalPeriodConfiguration? by savedState()
 
-    override val viewModel: GeologicalPeriodViewModel by inject()
-
-    override fun onCreateView(context: Context): IView<GeologicalPeriodViewState> {
-        return GeologicalPeriodView(context).also {
-            it.delegate = this
+    @Composable
+    override fun ViewContentComposition() {
+        ApplicationTheme {
+            Surface(
+                modifier = Modifier.fillMaxSize()
+            ) {
+                GeologicalPeriodScreen(configuration = configuration!!)
+            }
         }
-    }
-
-    override fun onAttached() {
-        viewModel.intents.sendSafely(
-            Initialize(periodId = configuration!!.periodId)
-        )
-    }
-
-    //  PeriodViewDelegate
-
-    override fun openLifeForm(lifeFormId: Int) {
-        viewModel.intents.sendSafely(
-            OpenLifeForm(lifeFormId = lifeFormId)
-        )
-    }
-
-    override fun onBackInvoked() {
-        viewModel.intents.sendSafely(InvokeBack)
     }
 }

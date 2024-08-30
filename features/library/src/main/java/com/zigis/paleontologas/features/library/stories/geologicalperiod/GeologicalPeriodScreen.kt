@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library.stories.formavitae
+package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -47,20 +47,21 @@ import com.zigis.paleontologas.features.library.R
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun FormaVitaeScreen(
-    viewModel: FormaVitaeViewModel = koinViewModel(),
-    configuration: FormaVitaeConfiguration
+fun GeologicalPeriodScreen(
+    viewModel: GeologicalPeriodViewModel = koinViewModel(),
+    configuration: GeologicalPeriodConfiguration
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
-    FormaVitaeScreenUiImplementation(viewState = state) {
+    GeologicalPeriodScreenUiImplementation(viewState = state) {
         viewModel.intents.sendSafely(it)
     }
 
     LifecycleEventHandler {
         if (it == Lifecycle.Event.ON_START) {
-            viewModel.intents.sendSafely(FormaVitaeIntent.Initialize(
-                lifeFormId = configuration.lifeFormId
+            viewModel.intents.sendSafely(
+                GeologicalPeriodIntent.Initialize(
+                    periodId = configuration.periodId
             ))
         }
     }
@@ -68,9 +69,9 @@ fun FormaVitaeScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun FormaVitaeScreenUiImplementation(
-    viewState: FormaVitaeViewState,
-    sendIntent: (FormaVitaeIntent) -> Unit?
+private fun GeologicalPeriodScreenUiImplementation(
+    viewState: GeologicalPeriodViewState,
+    sendIntent: (GeologicalPeriodIntent) -> Unit?
 ) {
     val context = LocalContext.current
     val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior(
@@ -107,7 +108,7 @@ private fun FormaVitaeScreenUiImplementation(
                     },
                     navigationIcon = {
                         IconButton(onClick = {
-                            sendIntent(FormaVitaeIntent.InvokeBack)
+                            sendIntent(GeologicalPeriodIntent.InvokeBack)
                         }) {
                             Icon(
                                 painter = painterResource(id = R.drawable.ic_back_button),
@@ -196,6 +197,34 @@ private fun FormaVitaeScreenUiImplementation(
                                 .padding(4.dp)
                         ) {
                             Image(
+                                painter = painterResource(id = R.drawable.ic_physics),
+                                contentDescription = null
+                            )
+                            Text(
+                                text = stringResource(id = R.string.environment),
+                                color = ThemeColors.LightThemeColors.headingTextSecondary,
+                                style = ApplicationTheme.typography.title1,
+                                maxLines = 1,
+                                modifier = Modifier
+                                    .padding(start = 4.dp)
+                            )
+                        }
+
+                        Text(
+                            text = context.getString(viewState.environmentDescription),
+                            color = ThemeColors.LightThemeColors.contentText,
+                            style = ApplicationTheme.typography.content,
+                            modifier = Modifier
+                                .padding(8.dp)
+                        )
+
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .background(ThemeColors.LightThemeColors.headingText)
+                                .padding(4.dp)
+                        ) {
+                            Image(
                                 painter = painterResource(id = R.drawable.ic_description),
                                 contentDescription = null
                             )
@@ -217,13 +246,14 @@ private fun FormaVitaeScreenUiImplementation(
                                 .padding(8.dp)
                         )
 
-                        if (viewState.additionalArtwork.isNotBlank()) {
+                        if (viewState.map.isNotBlank()) {
                             Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
+                                    .padding(4.dp)
                             ) {
                                 Image(
-                                    painterResource(id = context.getDrawableId(viewState.additionalArtwork)),
+                                    painterResource(id = context.getDrawableId(viewState.map)),
                                     contentDescription = "LifeForm image",
                                     contentScale = ContentScale.Crop,
                                     modifier = Modifier
@@ -231,7 +261,10 @@ private fun FormaVitaeScreenUiImplementation(
                                 )
 
                                 Text(
-                                    text = context.getString(viewState.additionalArtworkAuthor),
+                                    text = when (viewState.periodId) {
+                                        3 -> context.getString(R.string.map_author_1)
+                                        else -> context.getString(R.string.map_author_2)
+                                    },
                                     color = ThemeColors.LightThemeColors.headingTextSecondary,
                                     style = ApplicationTheme.typography.caption2,
                                     maxLines = 1,
@@ -241,6 +274,64 @@ private fun FormaVitaeScreenUiImplementation(
                                 )
                             }
                         }
+
+                        if (viewState.additionalTitle.isNotBlank()) {
+                            Row(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .background(ThemeColors.LightThemeColors.headingText)
+                                    .padding(4.dp)
+                            ) {
+                                Image(
+                                    painter = painterResource(id = R.drawable.ic_additional),
+                                    contentDescription = null
+                                )
+                                Text(
+                                    text = context.getString(viewState.additionalTitle),
+                                    color = ThemeColors.LightThemeColors.headingTextSecondary,
+                                    style = ApplicationTheme.typography.title1,
+                                    maxLines = 1,
+                                    modifier = Modifier
+                                        .padding(start = 4.dp)
+                                )
+                            }
+
+                            Text(
+                                text = context.getString(viewState.additionalDescription),
+                                color = ThemeColors.LightThemeColors.contentText,
+                                style = ApplicationTheme.typography.content,
+                                modifier = Modifier
+                                    .padding(8.dp)
+                            )
+                        }
+
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .background(ThemeColors.LightThemeColors.headingText)
+                                .padding(4.dp)
+                        ) {
+                            Image(
+                                painter = painterResource(id = R.drawable.ic_life),
+                                contentDescription = null
+                            )
+                            Text(
+                                text = stringResource(id = R.string.life_forms),
+                                color = ThemeColors.LightThemeColors.headingTextSecondary,
+                                style = ApplicationTheme.typography.title1,
+                                maxLines = 1,
+                                modifier = Modifier
+                                    .padding(start = 4.dp)
+                            )
+                        }
+
+                        Text(
+                            text = context.getString(viewState.lifeFormDescription),
+                            color = ThemeColors.LightThemeColors.contentText,
+                            style = ApplicationTheme.typography.content,
+                            modifier = Modifier
+                                .padding(8.dp)
+                        )
                     }
                 }
             }
@@ -250,16 +341,20 @@ private fun FormaVitaeScreenUiImplementation(
 
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
-private fun FormaVitaeScreenPreview() {
-    FormaVitaeScreenUiImplementation(
-        viewState = FormaVitaeViewState(
-            title = "quaternary_mammutus",
-            artwork = "item_quaternary_mammuthus",
-            artworkAuthor = "",
-            timeScale = "5.332-0.0037",
-            description = "quaternary_mammutus_description",
-            additionalArtworkAuthor = "",
-            additionalArtwork = "item_quaternary_mammuthus_info"
+private fun GeologicalPeriodScreenPreview() {
+    GeologicalPeriodScreenUiImplementation(
+        viewState = GeologicalPeriodViewState(
+            periodId = 0,
+            title = "quaternary",
+            artwork = "item_quaternary",
+            artworkAuthor = "© Masato Hattori",
+            timeScale = "2.58–0",
+            environmentDescription = "quaternary_physics",
+            description = "quaternary_description",
+            map = "item_quaternary_map_1",
+            additionalTitle = "quaternary_additional_title",
+            additionalDescription = "quaternary_additional",
+            lifeFormDescription = "quaternary_life_forms"
         )
     ) {
         //  here intents are being sent
