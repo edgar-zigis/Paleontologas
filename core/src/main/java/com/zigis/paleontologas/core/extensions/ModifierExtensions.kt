@@ -20,7 +20,7 @@ fun Modifier.parallaxLayoutModifier(
     }.graphicsLayer {
         if (!isBlurEnabled) return@graphicsLayer
         if (scrollState.value > 0) {
-            renderEffect = BlurEffect( scrollState.value * 0.02f,  scrollState.value * 0.02f)
+            renderEffect = BlurEffect( 0f,  scrollState.value * 0.04f)
         }
     }
 }

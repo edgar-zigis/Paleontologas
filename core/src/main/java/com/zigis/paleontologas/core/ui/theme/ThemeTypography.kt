@@ -16,7 +16,8 @@ class ThemeTypography(
     val subtitle2: TextStyle,
     val caption1: TextStyle,
     val caption2: TextStyle,
-    val footNote1: TextStyle
+    val footNote1: TextStyle,
+    val content: TextStyle,
 ) {
     companion object {
         val Typography = ThemeTypography(
@@ -74,6 +75,12 @@ class ThemeTypography(
                 fontSize = 13.sp,
                 fontFamily = ThemeFonts.Gilroy,
                 fontWeight = FontWeight.Normal
+            ),
+            content = TextStyle(
+                fontSize = 17.sp,
+                fontFamily = ThemeFonts.Gilroy,
+                fontWeight = FontWeight.Medium,
+                lineHeight = 20.sp
             )
         )
 
