@@ -7,11 +7,12 @@ import com.zigis.paleontologas.core.extensions.getDrawable
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.features.library.databinding.AdapterGeologicalPeriodBinding
+import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItem
 
 class GeologicalPeriodListAdapter(
-    override var items: List<GeologicalPeriodListAdapterItem> = emptyList(),
+    override var items: List<GeologicalPeriodListItem> = emptyList(),
     private val onClick: (Int) -> Unit
-) : BaseListAdapter<GeologicalPeriodListAdapterItem, AdapterGeologicalPeriodBinding>(items) {
+) : BaseListAdapter<GeologicalPeriodListItem, AdapterGeologicalPeriodBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
@@ -23,7 +24,7 @@ class GeologicalPeriodListAdapter(
 
     override fun onBindViewHolder(
         binding: AdapterGeologicalPeriodBinding,
-        item: GeologicalPeriodListAdapterItem,
+        item: GeologicalPeriodListItem,
         position: Int
     ) = with(binding) {
         root.apply {
