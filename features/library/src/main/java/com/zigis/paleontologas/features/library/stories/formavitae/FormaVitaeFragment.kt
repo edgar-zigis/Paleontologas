@@ -1,34 +1,24 @@
 package com.zigis.paleontologas.features.library.stories.formavitae
 
-import android.content.Context
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.core.architecture.interfaces.IView
-import com.zigis.paleontologas.core.extensions.sendSafely
-import com.zigis.paleontologas.features.library.stories.formavitae.FormaVitaeIntent.*
-import org.koin.android.ext.android.inject
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.zigis.paleontologas.core.architecture.BaseComposableFragment
+import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 
-class FormaVitaeFragment : BaseFragment<FormaVitaeViewState, FormaVitaeIntent, FormaVitaeViewModel>(),
-    FormaVitaeViewDelegate {
+class FormaVitaeFragment : BaseComposableFragment() {
 
     var configuration: FormaVitaeConfiguration? by savedState()
 
-    override val viewModel: FormaVitaeViewModel by inject()
-
-    override fun onCreateView(context: Context): IView<FormaVitaeViewState> {
-        return FormaVitaeView(context).also {
-            it.delegate = this
+    @Composable
+    override fun ViewContentComposition() {
+        ApplicationTheme {
+            Surface(
+                modifier = Modifier.fillMaxSize()
+            ) {
+                FormaVitaeScreen(configuration = configuration!!)
+            }
         }
-    }
-
-    override fun onAttached() {
-        viewModel.intents.sendSafely(
-            Initialize(lifeFormId = configuration!!.lifeFormId)
-        )
-    }
-
-    //  LifeFormViewDelegate
-
-    override fun onBackInvoked() {
-        viewModel.intents.sendSafely(InvokeBack)
     }
 }
