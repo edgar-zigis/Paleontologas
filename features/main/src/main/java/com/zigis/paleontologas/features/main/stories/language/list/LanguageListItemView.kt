@@ -25,7 +25,7 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import java.util.Locale
 
 @Composable
-fun LanguageListItem(
+fun LanguageListItemView(
     item: LanguageListItem,
     isSelected: Boolean,
     onClick: (Locale) -> Unit
@@ -73,7 +73,7 @@ fun LanguageListItem(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun LanguageListItemPreview() {
-    LanguageListItem(
+    LanguageListItemView(
         item = LanguageListItem(locale = Locale("lt")),
         isSelected = false
     ) {

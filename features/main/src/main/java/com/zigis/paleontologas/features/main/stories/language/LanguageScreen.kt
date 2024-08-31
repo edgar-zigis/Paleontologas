@@ -22,6 +22,7 @@ import com.zigis.paleontologas.core.ui.PaleoScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.main.R
 import com.zigis.paleontologas.features.main.stories.language.list.LanguageListItem
+import com.zigis.paleontologas.features.main.stories.language.list.LanguageListItemView
 import org.koin.androidx.compose.koinViewModel
 import java.util.Locale
 
@@ -74,7 +75,7 @@ private fun LanguageScreenUiImplementation(
                 .background(ApplicationTheme.colors.contentBackground)
         ) {
             items(items) { item ->
-                LanguageListItem(
+                LanguageListItemView(
                     item = item,
                     isSelected = item.locale == currentLocale,
                     onClick = {
