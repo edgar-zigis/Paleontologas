@@ -35,8 +35,3 @@ fun Context.getString(id: String): String {
 fun Context.getStringId(id: String): Int {
     return resources.getIdentifier(id, "string", packageName)
 }
-
-fun Context.getColorIntWithAlpha(@ColorRes colorId: Int, alpha: Float): Int {
-    val alphaValue = ceil(255 * alpha).toInt()
-    return ContextCompat.getColor(this, colorId).withAlpha(alphaValue)
-}
