@@ -3,13 +3,20 @@ package com.zigis.paleontologas.features.library.stories.geologicalperiod
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -44,6 +51,7 @@ import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.features.library.R
+import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItemView
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -275,7 +283,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                             }
                         }
 
-                        if (viewState.additionalTitle.isNotBlank()) {
+                        if (context.getString(viewState.additionalTitle).isNotBlank()) {
                             Row(
                                 modifier = Modifier
                                     .fillMaxWidth()
@@ -332,6 +340,34 @@ private fun GeologicalPeriodScreenUiImplementation(
                             modifier = Modifier
                                 .padding(8.dp)
                         )
+
+                        if (viewState.lifeFormItems.isNotEmpty()) {
+                            val rowCount = viewState.lifeFormItems.count() / 2
+
+                            Spacer(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(6.dp)
+                                    .background(ThemeColors.LightThemeColors.headingText)
+                            )
+
+                            LazyVerticalGrid(
+                                columns = GridCells.Fixed(2),
+                                verticalArrangement = Arrangement.spacedBy(6.dp),
+                                horizontalArrangement = Arrangement.spacedBy(6.dp),
+                                userScrollEnabled = false,
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(144.dp * rowCount + 6.dp * (rowCount - 1))
+                                    .background(ThemeColors.LightThemeColors.headingText)
+                            ) {
+                                items(viewState.lifeFormItems) { item ->
+                                    GeologicalPeriodListItemView(item = item) {
+                                        sendIntent(GeologicalPeriodIntent.OpenLifeForm(it))
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

@@ -11,7 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -136,7 +136,7 @@ private fun LanguageScreenUiImplementation(
                         )
                         .background(Color.White)
                 ) {
-                    itemsIndexed(localeList) { _, locale ->
+                    items(localeList) { locale ->
                         LanguageListItem(
                             item = locale,
                             isSelected = locale == currentLocale,
