@@ -3,14 +3,14 @@ package com.zigis.paleontologas.features.library.stories.geologicalperiod
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
 import com.zigis.paleontologas.features.library.routers.LibraryRouter
-import com.zigis.paleontologas.features.library.factories.GeologicalPeriodAdapterItemFactory
+import com.zigis.paleontologas.features.library.factories.GeologicalPeriodListItemFactory
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodIntent.*
 import kotlinx.coroutines.delay
 
 class GeologicalPeriodViewModel(
     private val libraryRouter: LibraryRouter,
     private val periodRepository: PeriodRepository,
-    private val geologicalPeriodAdapterItemFactory: GeologicalPeriodAdapterItemFactory
+    private val geologicalPeriodListItemFactory: GeologicalPeriodListItemFactory
 ) : BaseViewModel<GeologicalPeriodViewState, GeologicalPeriodIntent>() {
 
     override fun getInitialData() = GeologicalPeriodViewState()
@@ -43,7 +43,7 @@ class GeologicalPeriodViewModel(
         delay(350)
         updateState {
             it.copy(
-                lifeFormItems = geologicalPeriodAdapterItemFactory.getItems(periodId = periodId)
+                lifeFormItems = geologicalPeriodListItemFactory.getItems(periodId = periodId)
             )
         }
     }

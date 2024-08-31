@@ -26,8 +26,6 @@ import androidx.compose.ui.unit.dp
 import com.zigis.paleontologas.core.extensions.getDrawableId
 import com.zigis.paleontologas.core.extensions.getStringId
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
-import com.zigis.paleontologas.core.ui.theme.ThemeColors
-import java.util.Locale
 
 @Composable
 fun GeologicalPeriodListItemView(
@@ -62,7 +60,7 @@ fun GeologicalPeriodListItemView(
         ) {
             Text(
                 text = stringResource(context.getStringId(item.title)),
-                color = ThemeColors.LightThemeColors.contentText,
+                color = ApplicationTheme.colors.contentText,
                 style = ApplicationTheme.typography.title3,
                 textAlign = TextAlign.Center,
                 maxLines = 2,

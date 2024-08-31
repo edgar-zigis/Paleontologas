@@ -31,7 +31,6 @@ import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
-import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.features.launcher.R
 import org.koin.androidx.compose.koinViewModel
 
@@ -40,6 +39,7 @@ fun LauncherScreen(
     viewModel: LauncherViewModel = koinViewModel()
 ) {
     val context = LocalContext.current
+
     LaunchedEffect(viewModel) {
         viewModel.collectEvents { event ->
             when (event) {
@@ -56,11 +56,11 @@ fun LauncherScreen(
         }
     }
 
-    LauncherScreen()
+    LauncherScreenUiImplementation()
 }
 
 @Composable
-private fun LauncherScreen() {
+private fun LauncherScreenUiImplementation() {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -99,7 +99,7 @@ private fun LauncherScreen() {
 
         Text(
             text = stringResource(R.string.copyright),
-            color = ThemeColors.LightThemeColors.headingTextSecondary,
+            color = ApplicationTheme.colors.headingTextSecondary,
             style = ApplicationTheme.typography.caption1,
             maxLines = 1,
             modifier = Modifier
@@ -112,5 +112,5 @@ private fun LauncherScreen() {
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun LauncherScreenPreview() {
-    LauncherScreen()
+    LauncherScreenUiImplementation()
 }

@@ -11,29 +11,18 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -48,8 +37,8 @@ import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.parallaxLayoutModifier
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
+import com.zigis.paleontologas.core.ui.PaleoScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
-import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.features.library.R
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItemView
 import org.koin.androidx.compose.koinViewModel
@@ -70,7 +59,8 @@ fun GeologicalPeriodScreen(
             viewModel.intents.sendSafely(
                 GeologicalPeriodIntent.Initialize(
                     periodId = configuration.periodId
-            ))
+                )
+            )
         }
     }
 }
@@ -82,290 +72,241 @@ private fun GeologicalPeriodScreenUiImplementation(
     sendIntent: (GeologicalPeriodIntent) -> Unit?
 ) {
     val context = LocalContext.current
-    val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior(
-        rememberTopAppBarState()
-    )
     val scrollState = rememberScrollState()
 
-    Scaffold(
-        modifier = Modifier
-            .nestedScroll(scrollBehavior.nestedScrollConnection)
-            .background(Color.Transparent)
+    PaleoScaffold(
+        title = context.getString(viewState.title),
+        onBack = {
+            sendIntent(GeologicalPeriodIntent.InvokeBack)
+        }
     ) {
-        Box(
+        if (viewState.artwork.isBlank()) {
+            return@PaleoScaffold
+        }
+
+        Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(
-                    brush = Brush.linearGradient(
-                        colors = listOf(
-                            ApplicationTheme.colors.backgroundSecondary,
-                            ApplicationTheme.colors.backgroundPrimary
-                        )
-                    )
-                )
-                .navigationBarsPadding()
+                .padding(start = 8.dp, end = 8.dp, bottom = 8.dp)
+                .background(ApplicationTheme.colors.contentBackground)
+                .verticalScroll(scrollState),
         ) {
-            Column(modifier = Modifier.padding(it)) {
-                TopAppBar(
-                    title = {
-                        Text(
-                            text = context.getString(viewState.title),
-                            color = ThemeColors.LightThemeColors.titleText,
-                            style = ApplicationTheme.typography.headline2,
-                        )
-                    },
-                    navigationIcon = {
-                        IconButton(onClick = {
-                            sendIntent(GeologicalPeriodIntent.InvokeBack)
-                        }) {
-                            Icon(
-                                painter = painterResource(id = R.drawable.ic_back_button),
-                                contentDescription = "back",
-                                tint = ThemeColors.LightThemeColors.titleText
-                            )
-                        }
-                    },
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Transparent
-                    ),
-                    scrollBehavior = scrollBehavior
-                )
-
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .parallaxLayoutModifier(scrollState, 2)
+            ) {
                 Image(
-                    painter = painterResource(id = R.drawable.bg_top_shadow),
-                    contentDescription = null,
+                    painterResource(id = context.getDrawableId(viewState.artwork)),
+                    contentDescription = "LifeForm image",
+                    contentScale = ContentScale.Fit,
                     modifier = Modifier.fillMaxWidth()
                 )
 
-                if (viewState.artwork.isBlank()) {
-                    return@Column
+                Text(
+                    text = context.getString(viewState.artworkAuthor),
+                    color = ApplicationTheme.colors.headingTextSecondary,
+                    style = ApplicationTheme.typography.caption1,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .align(Alignment.TopEnd)
+                        .padding(top = 4.dp, end = 8.dp)
+                )
+            }
+
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(ApplicationTheme.colors.contentBackground)
+            ) {
+                Text(
+                    text = context.getString(viewState.title),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.headline1,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 8.dp, top = 8.dp, end = 8.dp, bottom = 6.dp)
+                )
+
+                Text(
+                    text = context.getString(R.string.mya, viewState.timeScale),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.subtitle1,
+                    fontStyle = FontStyle.Italic,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 8.dp, top = 0.dp, end = 8.dp, bottom = 8.dp)
+                )
+
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 4.dp)
+                        .background(ApplicationTheme.colors.headingText)
+                        .padding(4.dp)
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_physics),
+                        contentDescription = null
+                    )
+                    Text(
+                        text = stringResource(id = R.string.environment),
+                        color = ApplicationTheme.colors.headingTextSecondary,
+                        style = ApplicationTheme.typography.title1,
+                        maxLines = 1,
+                        modifier = Modifier
+                            .padding(start = 4.dp)
+                    )
                 }
 
-                Column(
+                Text(
+                    text = context.getString(viewState.environmentDescription),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.content,
                     modifier = Modifier
-                        .fillMaxSize()
-                        .padding(start = 8.dp, end = 8.dp, bottom = 8.dp)
-                        .background(ThemeColors.LightThemeColors.contentBackground)
-                        .verticalScroll(scrollState),
+                        .padding(8.dp)
+                )
+
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(ApplicationTheme.colors.headingText)
+                        .padding(4.dp)
                 ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_description),
+                        contentDescription = null
+                    )
+                    Text(
+                        text = stringResource(id = R.string.general_information),
+                        color = ApplicationTheme.colors.headingTextSecondary,
+                        style = ApplicationTheme.typography.title1,
+                        maxLines = 1,
+                        modifier = Modifier
+                            .padding(start = 4.dp)
+                    )
+                }
+
+                Text(
+                    text = context.getString(viewState.description),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.content,
+                    modifier = Modifier
+                        .padding(8.dp)
+                )
+
+                if (viewState.map.isNotBlank()) {
                     Box(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .parallaxLayoutModifier(scrollState, 2)
+                            .padding(4.dp)
                     ) {
                         Image(
-                            painterResource(id = context.getDrawableId(viewState.artwork)),
+                            painterResource(id = context.getDrawableId(viewState.map)),
                             contentDescription = "LifeForm image",
-                            contentScale = ContentScale.Fit,
-                            modifier = Modifier.fillMaxWidth()
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxWidth()
                         )
 
                         Text(
-                            text = context.getString(viewState.artworkAuthor),
-                            color = ThemeColors.LightThemeColors.headingTextSecondary,
-                            style = ApplicationTheme.typography.caption1,
+                            text = when (viewState.periodId) {
+                                3 -> context.getString(R.string.map_author_1)
+                                else -> context.getString(R.string.map_author_2)
+                            },
+                            color = ApplicationTheme.colors.headingTextSecondary,
+                            style = ApplicationTheme.typography.caption2,
                             maxLines = 1,
                             modifier = Modifier
-                                .align(Alignment.TopEnd)
-                                .padding(top = 4.dp, end = 8.dp)
+                                .align(Alignment.BottomEnd)
+                                .padding(bottom = 4.dp, end = 8.dp)
+                        )
+                    }
+                }
+
+                if (context.getString(viewState.additionalTitle).isNotBlank()) {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .background(ApplicationTheme.colors.headingText)
+                            .padding(4.dp)
+                    ) {
+                        Image(
+                            painter = painterResource(id = R.drawable.ic_additional),
+                            contentDescription = null
+                        )
+                        Text(
+                            text = context.getString(viewState.additionalTitle),
+                            color = ApplicationTheme.colors.headingTextSecondary,
+                            style = ApplicationTheme.typography.title1,
+                            maxLines = 1,
+                            modifier = Modifier
+                                .padding(start = 4.dp)
                         )
                     }
 
-                    Column(
+                    Text(
+                        text = context.getString(viewState.additionalDescription),
+                        color = ApplicationTheme.colors.contentText,
+                        style = ApplicationTheme.typography.content,
                         modifier = Modifier
-                            .fillMaxSize()
-                            .background(ThemeColors.LightThemeColors.contentBackground)
+                            .padding(8.dp)
+                    )
+                }
+
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .background(ApplicationTheme.colors.headingText)
+                        .padding(4.dp)
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_life),
+                        contentDescription = null
+                    )
+                    Text(
+                        text = stringResource(id = R.string.life_forms),
+                        color = ApplicationTheme.colors.headingTextSecondary,
+                        style = ApplicationTheme.typography.title1,
+                        maxLines = 1,
+                        modifier = Modifier
+                            .padding(start = 4.dp)
+                    )
+                }
+
+                Text(
+                    text = context.getString(viewState.lifeFormDescription),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.content,
+                    modifier = Modifier
+                        .padding(8.dp)
+                )
+
+                if (viewState.lifeFormItems.isNotEmpty()) {
+                    val rowCount = viewState.lifeFormItems.count() / 2
+
+                    Spacer(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(6.dp)
+                            .background(ApplicationTheme.colors.headingText)
+                    )
+
+                    LazyVerticalGrid(
+                        columns = GridCells.Fixed(2),
+                        verticalArrangement = Arrangement.spacedBy(6.dp),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        userScrollEnabled = false,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(144.dp * rowCount + 6.dp * (rowCount - 1))
+                            .background(ApplicationTheme.colors.headingText)
                     ) {
-                        Text(
-                            text = context.getString(viewState.title),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.headline1,
-                            maxLines = 1,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(start = 8.dp, top = 8.dp, end = 8.dp, bottom = 6.dp)
-                        )
-
-                        Text(
-                            text = context.getString(R.string.mya, viewState.timeScale),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.subtitle1,
-                            fontStyle = FontStyle.Italic,
-                            maxLines = 1,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(start = 8.dp, top = 0.dp, end = 8.dp, bottom = 8.dp)
-                        )
-
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(top = 4.dp)
-                                .background(ThemeColors.LightThemeColors.headingText)
-                                .padding(4.dp)
-                        ) {
-                            Image(
-                                painter = painterResource(id = R.drawable.ic_physics),
-                                contentDescription = null
-                            )
-                            Text(
-                                text = stringResource(id = R.string.environment),
-                                color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                style = ApplicationTheme.typography.title1,
-                                maxLines = 1,
-                                modifier = Modifier
-                                    .padding(start = 4.dp)
-                            )
-                        }
-
-                        Text(
-                            text = context.getString(viewState.environmentDescription),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.content,
-                            modifier = Modifier
-                                .padding(8.dp)
-                        )
-
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .background(ThemeColors.LightThemeColors.headingText)
-                                .padding(4.dp)
-                        ) {
-                            Image(
-                                painter = painterResource(id = R.drawable.ic_description),
-                                contentDescription = null
-                            )
-                            Text(
-                                text = stringResource(id = R.string.general_information),
-                                color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                style = ApplicationTheme.typography.title1,
-                                maxLines = 1,
-                                modifier = Modifier
-                                    .padding(start = 4.dp)
-                            )
-                        }
-
-                        Text(
-                            text = context.getString(viewState.description),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.content,
-                            modifier = Modifier
-                                .padding(8.dp)
-                        )
-
-                        if (viewState.map.isNotBlank()) {
-                            Box(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(4.dp)
-                            ) {
-                                Image(
-                                    painterResource(id = context.getDrawableId(viewState.map)),
-                                    contentDescription = "LifeForm image",
-                                    contentScale = ContentScale.Crop,
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                )
-
-                                Text(
-                                    text = when (viewState.periodId) {
-                                        3 -> context.getString(R.string.map_author_1)
-                                        else -> context.getString(R.string.map_author_2)
-                                    },
-                                    color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                    style = ApplicationTheme.typography.caption2,
-                                    maxLines = 1,
-                                    modifier = Modifier
-                                        .align(Alignment.BottomEnd)
-                                        .padding(bottom = 4.dp, end = 8.dp)
-                                )
-                            }
-                        }
-
-                        if (context.getString(viewState.additionalTitle).isNotBlank()) {
-                            Row(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .background(ThemeColors.LightThemeColors.headingText)
-                                    .padding(4.dp)
-                            ) {
-                                Image(
-                                    painter = painterResource(id = R.drawable.ic_additional),
-                                    contentDescription = null
-                                )
-                                Text(
-                                    text = context.getString(viewState.additionalTitle),
-                                    color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                    style = ApplicationTheme.typography.title1,
-                                    maxLines = 1,
-                                    modifier = Modifier
-                                        .padding(start = 4.dp)
-                                )
-                            }
-
-                            Text(
-                                text = context.getString(viewState.additionalDescription),
-                                color = ThemeColors.LightThemeColors.contentText,
-                                style = ApplicationTheme.typography.content,
-                                modifier = Modifier
-                                    .padding(8.dp)
-                            )
-                        }
-
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .background(ThemeColors.LightThemeColors.headingText)
-                                .padding(4.dp)
-                        ) {
-                            Image(
-                                painter = painterResource(id = R.drawable.ic_life),
-                                contentDescription = null
-                            )
-                            Text(
-                                text = stringResource(id = R.string.life_forms),
-                                color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                style = ApplicationTheme.typography.title1,
-                                maxLines = 1,
-                                modifier = Modifier
-                                    .padding(start = 4.dp)
-                            )
-                        }
-
-                        Text(
-                            text = context.getString(viewState.lifeFormDescription),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.content,
-                            modifier = Modifier
-                                .padding(8.dp)
-                        )
-
-                        if (viewState.lifeFormItems.isNotEmpty()) {
-                            val rowCount = viewState.lifeFormItems.count() / 2
-
-                            Spacer(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(6.dp)
-                                    .background(ThemeColors.LightThemeColors.headingText)
-                            )
-
-                            LazyVerticalGrid(
-                                columns = GridCells.Fixed(2),
-                                verticalArrangement = Arrangement.spacedBy(6.dp),
-                                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                                userScrollEnabled = false,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(144.dp * rowCount + 6.dp * (rowCount - 1))
-                                    .background(ThemeColors.LightThemeColors.headingText)
-                            ) {
-                                items(viewState.lifeFormItems) { item ->
-                                    GeologicalPeriodListItemView(item = item) {
-                                        sendIntent(GeologicalPeriodIntent.OpenLifeForm(it))
-                                    }
-                                }
+                        items(viewState.lifeFormItems) { item ->
+                            GeologicalPeriodListItemView(item = item) {
+                                sendIntent(GeologicalPeriodIntent.OpenLifeForm(it))
                             }
                         }
                     }
