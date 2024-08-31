@@ -19,13 +19,3 @@ fun View.setDebounceClickListener(debounceTime: Long = 600L, action: () -> Unit)
         }
     })
 }
-
-fun View.dp(value: Int): Int = (value * resources.displayMetrics.density).toInt()
-
-fun ViewGroup.inflate(@LayoutRes layoutId: Int): View {
-    return LayoutInflater.from(context).inflate(layoutId, this, false)
-}
-
-fun View.isRTL(): Boolean {
-    return resources.configuration.layoutDirection == View.LAYOUT_DIRECTION_RTL
-}

@@ -6,8 +6,6 @@ android {
 
 dependencies {
     ksp "androidx.room:room-compiler:$room_version"
-    
-    implementation 'com.github.chrisbanes.photoview:library:1.2.3'
 
     implementation project(':core')
 }
