@@ -8,25 +8,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -41,8 +31,8 @@ import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.parallaxLayoutModifier
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
+import com.zigis.paleontologas.core.ui.PaleoScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
-import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.features.library.R
 import org.koin.androidx.compose.koinViewModel
 
@@ -59,9 +49,11 @@ fun FormaVitaeScreen(
 
     LifecycleEventHandler {
         if (it == Lifecycle.Event.ON_START) {
-            viewModel.intents.sendSafely(FormaVitaeIntent.Initialize(
-                lifeFormId = configuration.lifeFormId
-            ))
+            viewModel.intents.sendSafely(
+                FormaVitaeIntent.Initialize(
+                    lifeFormId = configuration.lifeFormId
+                )
+            )
         }
     }
 }
@@ -73,174 +65,125 @@ private fun FormaVitaeScreenUiImplementation(
     sendIntent: (FormaVitaeIntent) -> Unit?
 ) {
     val context = LocalContext.current
-    val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior(
-        rememberTopAppBarState()
-    )
     val scrollState = rememberScrollState()
 
-    Scaffold(
-        modifier = Modifier
-            .nestedScroll(scrollBehavior.nestedScrollConnection)
-            .background(Color.Transparent)
+    PaleoScaffold(
+        title = context.getString(viewState.title),
+        onBack = {
+            sendIntent(FormaVitaeIntent.InvokeBack)
+        }
     ) {
-        Box(
+        if (viewState.artwork.isBlank()) {
+            return@PaleoScaffold
+        }
+
+        Column(
             modifier = Modifier
                 .fillMaxSize()
-                .background(
-                    brush = Brush.linearGradient(
-                        colors = listOf(
-                            ApplicationTheme.colors.backgroundSecondary,
-                            ApplicationTheme.colors.backgroundPrimary
-                        )
-                    )
-                )
-                .navigationBarsPadding()
+                .padding(start = 8.dp, end = 8.dp, bottom = 8.dp)
+                .background(ApplicationTheme.colors.contentBackground)
+                .verticalScroll(scrollState),
         ) {
-            Column(modifier = Modifier.padding(it)) {
-                TopAppBar(
-                    title = {
-                        Text(
-                            text = context.getString(viewState.title),
-                            color = ThemeColors.LightThemeColors.titleText,
-                            style = ApplicationTheme.typography.headline2,
-                        )
-                    },
-                    navigationIcon = {
-                        IconButton(onClick = {
-                            sendIntent(FormaVitaeIntent.InvokeBack)
-                        }) {
-                            Icon(
-                                painter = painterResource(id = R.drawable.ic_back_button),
-                                contentDescription = "back",
-                                tint = ThemeColors.LightThemeColors.titleText
-                            )
-                        }
-                    },
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Transparent
-                    ),
-                    scrollBehavior = scrollBehavior
-                )
-
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .parallaxLayoutModifier(scrollState, 2)
+            ) {
                 Image(
-                    painter = painterResource(id = R.drawable.bg_top_shadow),
-                    contentDescription = null,
+                    painterResource(id = context.getDrawableId(viewState.artwork)),
+                    contentDescription = "LifeForm image",
+                    contentScale = ContentScale.Fit,
                     modifier = Modifier.fillMaxWidth()
                 )
 
-                if (viewState.artwork.isBlank()) {
-                    return@Column
+                Text(
+                    text = context.getString(viewState.artworkAuthor),
+                    color = ApplicationTheme.colors.headingTextSecondary,
+                    style = ApplicationTheme.typography.caption1,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .align(Alignment.TopEnd)
+                        .padding(top = 4.dp, end = 8.dp)
+                )
+            }
+
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(ApplicationTheme.colors.contentBackground)
+            ) {
+                Text(
+                    text = context.getString(viewState.title),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.headline1,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 8.dp, top = 8.dp, end = 8.dp, bottom = 6.dp)
+                )
+
+                Text(
+                    text = context.getString(R.string.mya, viewState.timeScale),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.subtitle1,
+                    fontStyle = FontStyle.Italic,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 8.dp, top = 0.dp, end = 8.dp, bottom = 8.dp)
+                )
+
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 4.dp)
+                        .background(ApplicationTheme.colors.headingText)
+                        .padding(4.dp)
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_description),
+                        contentDescription = null
+                    )
+                    Text(
+                        text = stringResource(id = R.string.general_information),
+                        color = ApplicationTheme.colors.headingTextSecondary,
+                        style = ApplicationTheme.typography.title1,
+                        maxLines = 1,
+                        modifier = Modifier
+                            .padding(start = 4.dp)
+                    )
                 }
 
-                Column(
+                Text(
+                    text = context.getString(viewState.description),
+                    color = ApplicationTheme.colors.contentText,
+                    style = ApplicationTheme.typography.content,
                     modifier = Modifier
-                        .fillMaxSize()
-                        .padding(start = 8.dp, end = 8.dp, bottom = 8.dp)
-                        .background(ThemeColors.LightThemeColors.contentBackground)
-                        .verticalScroll(scrollState),
-                ) {
+                        .padding(8.dp)
+                )
+
+                if (viewState.additionalArtwork.isNotBlank()) {
                     Box(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .parallaxLayoutModifier(scrollState, 2)
                     ) {
                         Image(
-                            painterResource(id = context.getDrawableId(viewState.artwork)),
+                            painterResource(id = context.getDrawableId(viewState.additionalArtwork)),
                             contentDescription = "LifeForm image",
-                            contentScale = ContentScale.Fit,
-                            modifier = Modifier.fillMaxWidth()
-                        )
-
-                        Text(
-                            text = context.getString(viewState.artworkAuthor),
-                            color = ThemeColors.LightThemeColors.headingTextSecondary,
-                            style = ApplicationTheme.typography.caption1,
-                            maxLines = 1,
-                            modifier = Modifier
-                                .align(Alignment.TopEnd)
-                                .padding(top = 4.dp, end = 8.dp)
-                        )
-                    }
-
-                    Column(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .background(ThemeColors.LightThemeColors.contentBackground)
-                    ) {
-                        Text(
-                            text = context.getString(viewState.title),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.headline1,
-                            maxLines = 1,
+                            contentScale = ContentScale.Crop,
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(start = 8.dp, top = 8.dp, end = 8.dp, bottom = 6.dp)
                         )
 
                         Text(
-                            text = context.getString(R.string.mya, viewState.timeScale),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.subtitle1,
-                            fontStyle = FontStyle.Italic,
+                            text = context.getString(viewState.additionalArtworkAuthor),
+                            color = ApplicationTheme.colors.headingTextSecondary,
+                            style = ApplicationTheme.typography.caption2,
                             maxLines = 1,
                             modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(start = 8.dp, top = 0.dp, end = 8.dp, bottom = 8.dp)
+                                .align(Alignment.BottomEnd)
+                                .padding(bottom = 4.dp, end = 8.dp)
                         )
-
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(top = 4.dp)
-                                .background(ThemeColors.LightThemeColors.headingText)
-                                .padding(4.dp)
-                        ) {
-                            Image(
-                                painter = painterResource(id = R.drawable.ic_description),
-                                contentDescription = null
-                            )
-                            Text(
-                                text = stringResource(id = R.string.general_information),
-                                color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                style = ApplicationTheme.typography.title1,
-                                maxLines = 1,
-                                modifier = Modifier
-                                    .padding(start = 4.dp)
-                            )
-                        }
-
-                        Text(
-                            text = context.getString(viewState.description),
-                            color = ThemeColors.LightThemeColors.contentText,
-                            style = ApplicationTheme.typography.content,
-                            modifier = Modifier
-                                .padding(8.dp)
-                        )
-
-                        if (viewState.additionalArtwork.isNotBlank()) {
-                            Box(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                            ) {
-                                Image(
-                                    painterResource(id = context.getDrawableId(viewState.additionalArtwork)),
-                                    contentDescription = "LifeForm image",
-                                    contentScale = ContentScale.Crop,
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                )
-
-                                Text(
-                                    text = context.getString(viewState.additionalArtworkAuthor),
-                                    color = ThemeColors.LightThemeColors.headingTextSecondary,
-                                    style = ApplicationTheme.typography.caption2,
-                                    maxLines = 1,
-                                    modifier = Modifier
-                                        .align(Alignment.BottomEnd)
-                                        .padding(bottom = 4.dp, end = 8.dp)
-                                )
-                            }
-                        }
                     }
                 }
             }

@@ -2,12 +2,14 @@ package com.zigis.paleontologas.features.main.stories.language
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
+import com.zigis.paleontologas.features.main.factories.LanguageListItemFactory
 import com.zigis.paleontologas.features.main.routers.MainRouter
 import com.zigis.paleontologas.features.main.stories.language.LanguageIntent.*
 import java.util.Locale
 
 class LanguageViewModel(
     private val mainRouter: MainRouter,
+    private val languageListItemFactory: LanguageListItemFactory,
     private val applicationLocaleManager: ApplicationLocaleManager
 ) : BaseViewModel<LanguageViewState, LanguageIntent>() {
 
@@ -25,7 +27,7 @@ class LanguageViewModel(
         updateState {
             it.copy(
                 currentLocale = applicationLocaleManager.getCurrentLocale(),
-                localeList = applicationLocaleManager.getAvailableLocales()
+                localeItems = languageListItemFactory.getItems()
             )
         }
     }

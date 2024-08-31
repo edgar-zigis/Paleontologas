@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.library.factories
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItem
 
-class GeologicalPeriodAdapterItemFactory(
+class GeologicalPeriodListItemFactory(
     private val lifeFormRepository: LifeFormRepository
 ) {
     suspend fun getItems(periodId: Int): List<GeologicalPeriodListItem> {
