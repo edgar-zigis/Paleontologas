@@ -14,6 +14,7 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -129,7 +130,7 @@ private fun AboutScreenUiImplementation(
                 userScrollEnabled = false,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(168.dp * rowCount)
+                    .height(166.dp * rowCount)
             ) {
                 items(viewState.contributorItems) { item ->
                     AboutListItemView(item = item)
@@ -141,7 +142,6 @@ private fun AboutScreenUiImplementation(
                     .fillMaxWidth()
                     .height(6.dp)
                     .background(ApplicationTheme.colors.headingText)
-                    .padding(top = 6.dp)
             )
 
             Text(
