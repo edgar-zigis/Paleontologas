@@ -15,7 +15,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
@@ -28,11 +27,10 @@ import com.zigis.paleontologas.features.main.R
 fun AboutListItemView(
     item: AboutListItem
 ) {
-    val context = LocalContext.current
-
-    Column(modifier = Modifier
-        .fillMaxWidth()
-        .background(color = ApplicationTheme.colors.contentBackground)
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(color = ApplicationTheme.colors.contentBackground)
     ) {
         Spacer(modifier = Modifier.height(12.dp))
 
@@ -48,6 +46,7 @@ fun AboutListItemView(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
+                .height(64.dp)
                 .padding(start = 12.dp, top = 8.dp, end = 12.dp)
         ) {
             Text(
@@ -69,7 +68,6 @@ fun AboutListItemView(
                 maxLines = 2,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(32.dp)
                     .padding(top = 4.dp)
                     .align(Alignment.CenterHorizontally)
             )

@@ -18,6 +18,6 @@ val mainModule = module {
     factory { LanguageListItemFactory(get()) }
 
     viewModel { HomeViewModel(get(), get(), get(), get()) }
-    viewModel { AboutViewModel(get(), get()) }
+    viewModel { AboutViewModel(get(), get(), get()) }
     viewModel { LanguageViewModel(get(), get(), get()) }
 }
