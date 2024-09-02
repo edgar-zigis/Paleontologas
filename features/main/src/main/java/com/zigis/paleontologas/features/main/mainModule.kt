@@ -1,5 +1,6 @@
 package com.zigis.paleontologas.features.main
 
+import com.zigis.paleontologas.features.main.factories.AboutListItemFactory
 import com.zigis.paleontologas.features.main.factories.HomeListItemFactory
 import com.zigis.paleontologas.features.main.factories.LanguageListItemFactory
 import com.zigis.paleontologas.features.main.routers.MainRouter
@@ -12,6 +13,7 @@ import org.koin.dsl.module
 val mainModule = module {
     single { MainRouter(get(), get()) }
 
+    factory { AboutListItemFactory() }
     factory { HomeListItemFactory(get(), get()) }
     factory { LanguageListItemFactory(get()) }
 

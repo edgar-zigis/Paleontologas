@@ -1,10 +1,8 @@
-package com.zigis.paleontologas.features.library.stories.geologicalperiod.list
+package com.zigis.paleontologas.features.main.stories.about.list
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -23,51 +21,57 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.zigis.paleontologas.core.extensions.getDrawableId
-import com.zigis.paleontologas.core.extensions.getStringId
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.features.main.R
 
 @Composable
-fun GeologicalPeriodListItemView(
-    item: GeologicalPeriodListItem,
-    onClick: (Int) -> Unit
+fun AboutListItemView(
+    item: AboutListItem
 ) {
     val context = LocalContext.current
 
     Column(modifier = Modifier
         .fillMaxWidth()
-        .height(144.dp)
         .background(color = ApplicationTheme.colors.contentBackground)
-        .clickable(enabled = true) {
-            onClick.invoke(item.id)
-        }
     ) {
         Spacer(modifier = Modifier.height(12.dp))
 
         Image(
-            painter = painterResource(id = context.getDrawableId(item.thumbnail)),
+            painter = painterResource(id = item.photoResId),
             contentDescription = null,
             modifier = Modifier
-                .size(82.dp)
+                .size(90.dp)
                 .clip(CircleShape)
                 .align(Alignment.CenterHorizontally)
         )
 
-        Box(
+        Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(50.dp)
-                .padding(start = 4.dp, end = 4.dp)
+                .padding(start = 12.dp, top = 8.dp, end = 12.dp)
         ) {
             Text(
-                text = stringResource(context.getStringId(item.title)),
+                text = stringResource(id = item.fullNameResId),
                 color = ApplicationTheme.colors.contentText,
-                style = ApplicationTheme.typography.title3,
+                style = ApplicationTheme.typography.title2,
                 textAlign = TextAlign.Center,
                 maxLines = 2,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .align(Alignment.Center)
+                    .align(Alignment.CenterHorizontally)
+            )
+
+            Text(
+                text = stringResource(id = item.contributionResId),
+                color = ApplicationTheme.colors.contentText,
+                style = ApplicationTheme.typography.subtitle2,
+                textAlign = TextAlign.Center,
+                maxLines = 2,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(32.dp)
+                    .padding(top = 4.dp)
+                    .align(Alignment.CenterHorizontally)
             )
         }
     }
@@ -76,13 +80,11 @@ fun GeologicalPeriodListItemView(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun LanguageListItemPreview() {
-    GeologicalPeriodListItemView(
-        item = GeologicalPeriodListItem(
-            id = 0,
-            title = "quaternary_mammutus",
-            thumbnail = "item_quaternary_mammuthus_thumb"
+    AboutListItemView(
+        item = AboutListItem(
+            photoResId = R.drawable.photo_edgar_zigis,
+            fullNameResId = R.string.app_contributor_1,
+            contributionResId = R.string.app_contributor_description_1
         )
-    ) {
-        //  ignore
-    }
+    )
 }
