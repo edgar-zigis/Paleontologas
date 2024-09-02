@@ -3,11 +3,11 @@
 
     <string name="copyright">&#169; Edgar Žigis</string>
     <string name="copy">&#169; </string>
-    <string name="contact_email">admin@bio-matic.com</string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
 
     <string name="about_app">Apie programėlę</string>
     <string name="about_app_text_1">Ši programėlė skirta gamtos mylėtojams ir žmonėms, norintiems susipažinti su Žemės istorija. Ji yra pakankamai paprasta populiariajam mokslui ir pakankamai išsami mokymo tikslams. Programėlėje esantys faktai atitinka šiuolaikines paleontologijos žinias ir yra paremti tik pripažintais mokslo straipsniais.</string>
-    <string name="about_app_text_2">Nuotraukos:\nCreative Commons Zero (CC0)\n\nRadę klaidų, norėdami paremti arba prisidėti prie programėlės turinio plėtojimo, kreipkitės el. paštu: admin@bio-matic.com</string>
+    <string name="about_app_text_2">Nuotraukos:\nCreative Commons Zero (CC0)\n\nRadę klaidų, norėdami paremti arba prisidėti prie programėlės turinio plėtojimo, kreipkitės el. paštu: edgar.zigis@gmail.com</string>
     <string name="version_placeholder">v%s</string>
 
     <string name="language_lt">Lietuvių</string>

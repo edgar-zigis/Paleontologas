@@ -3,11 +3,11 @@
 
     <string name="copyright">&#169; Edgar Žigis</string>
     <string name="copy">&#169; </string>
-    <string name="contact_email">admin@bio-matic.com</string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
 
     <string name="about_app">A propos</string>
     <string name="about_app_text_1">Cette application est dédiée à tous les amoureux de la nature et aux personnes désireuses d’en savoir plus sur l’histoire de la Terre. Elle est compréhensible par tous et comporte cependant assez de données pour être utilisée à des fins pédagogiques. Toutes les données de cette application sont issues d’articles scientifiques reconnus de la paléontologie moderne.</string>
-    <string name="about_app_text_2">Photos:\nCreative Commons Zero (CC0)\n\nSi vous avez trouvé des erreurs ou si vous souhaitez faire un don, ou contribuer à améliorer cette application, n’hésitez pas à me contacter par e-mail : admin@bio-matic.com</string>
+    <string name="about_app_text_2">Photos:\nCreative Commons Zero (CC0)\n\nSi vous avez trouvé des erreurs ou si vous souhaitez faire un don, ou contribuer à améliorer cette application, n’hésitez pas à me contacter par e-mail : edgar.zigis@gmail.com</string>
     <string name="version_placeholder">v%s</string>
 
     <string name="language_lt">Lietuvių</string>

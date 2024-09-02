@@ -129,7 +129,7 @@ private fun AboutScreenUiImplementation(
                 userScrollEnabled = false,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(168.dp * rowCount)
+                    .height(166.dp * rowCount)
             ) {
                 items(viewState.contributorItems) { item ->
                     AboutListItemView(item = item)
@@ -141,7 +141,6 @@ private fun AboutScreenUiImplementation(
                     .fillMaxWidth()
                     .height(6.dp)
                     .background(ApplicationTheme.colors.headingText)
-                    .padding(top = 6.dp)
             )
 
             Text(
