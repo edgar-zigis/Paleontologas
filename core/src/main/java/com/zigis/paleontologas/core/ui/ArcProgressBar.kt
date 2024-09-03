@@ -2,7 +2,6 @@ package com.zigis.paleontologas.core.ui
 
 import android.content.res.Configuration
 import androidx.compose.animation.core.Animatable
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.aspectRatio
@@ -10,9 +9,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
@@ -20,7 +17,6 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.drawText
@@ -29,7 +25,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kotlinx.coroutines.launch
 import kotlin.math.abs
 
 @Composable
@@ -55,45 +50,12 @@ fun ArcProgressbar(
         color = Color.Black
     )
 ) {
-    var level by remember {
+    val level by remember {
         mutableIntStateOf(currentValue.toInt() / 100)
     }
 
     val targetAnimatedValue = (abs(currentValue - (100 * level)) / 100) * (startAngle + sweepAngle)
     val progressAnimate = remember { Animatable(targetAnimatedValue) }
-    val scoreAnimate = remember { Animatable(0f) }
-    val coroutineScope = rememberCoroutineScope()
-
-    LaunchedEffect(level, currentValue) {
-        if (currentValue > 0f) {
-            coroutineScope.launch {
-                progressAnimate.animateTo(
-                    targetValue = targetAnimatedValue,
-                    animationSpec = tween(
-                        durationMillis = 1000
-                    )
-                ) {
-                    if (value >= 100f) {
-                        coroutineScope.launch {
-                            level++
-                            progressAnimate.snapTo(0f)
-                        }
-                    }
-                }
-            }
-            coroutineScope.launch {
-                if (scoreAnimate.value > currentValue) {
-                    scoreAnimate.snapTo(0f)
-                }
-                scoreAnimate.animateTo(
-                    targetValue = currentValue,
-                    animationSpec = tween(
-                        durationMillis = 1000
-                    )
-                )
-            }
-        }
-    }
 
     val value = when {
         label.isBlank() -> (currentValue.toInt()).toString().plus(unit)

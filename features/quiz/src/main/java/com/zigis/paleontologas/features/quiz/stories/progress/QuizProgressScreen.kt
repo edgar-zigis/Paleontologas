@@ -82,11 +82,11 @@ private fun QuizProgressScreenUiImplementation(
 
             Box(
                 modifier = Modifier
-                    .size(260.dp)
+                    .size(240.dp)
                     .align(Alignment.CenterHorizontally)
             ) {
                 ArcProgressbar(
-                    currentValue = 67f,
+                    currentValue = viewState.progress,
                     label = stringResource(id = R.string.answered),
                     unit = "%",
                     thickness = 10.dp,

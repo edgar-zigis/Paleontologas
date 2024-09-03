@@ -1,34 +1,22 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
-import android.content.Context
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.core.architecture.interfaces.IView
-import com.zigis.paleontologas.core.extensions.sendSafely
-import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressIntent.*
-import org.koin.android.ext.android.inject
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.zigis.paleontologas.core.architecture.BaseComposableFragment
+import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 
-class QuizProgressFragment : BaseFragment<QuizProgressViewState, QuizProgressIntent, QuizProgressViewModel>(),
-    QuizProgressViewDelegate {
+class QuizProgressFragment : BaseComposableFragment() {
 
-    override val viewModel: QuizProgressViewModel by inject()
-
-    override fun onCreateView(context: Context): IView<QuizProgressViewState> {
-        return QuizProgressView(context).also {
-            it.delegate = this
+    @Composable
+    override fun ViewContentComposition() {
+        ApplicationTheme {
+            Surface(
+                modifier = Modifier.fillMaxSize()
+            ) {
+                QuizProgressScreen()
+            }
         }
-    }
-
-    override fun onAttached() {
-        viewModel.intents.sendSafely(Initialize)
-    }
-
-    //  QuizProgressViewDelegate
-
-    override fun onStartQuiz() {
-        viewModel.intents.sendSafely(StartQuiz)
-    }
-
-    override fun onBackInvoked() {
-        viewModel.intents.sendSafely(InvokeBack)
     }
 }
