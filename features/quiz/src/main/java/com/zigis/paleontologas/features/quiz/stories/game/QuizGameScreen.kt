@@ -1,6 +1,7 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
 import android.content.res.Configuration
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -16,6 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -77,6 +79,8 @@ private fun QuizGameScreenUiImplementation(
             return@PaleoScaffold
         }
 
+        val alpha: Float by animateFloatAsState(if (viewState.isInTransition) 0f else 1f, label = "alpha")
+
         ConstraintLayout(
             modifier = Modifier
                 .fillMaxSize()
@@ -87,10 +91,11 @@ private fun QuizGameScreenUiImplementation(
 
             Image(
                 painterResource(id = context.getDrawableId(viewState.question.artwork)),
-                contentDescription = "LifeForm image",
+                contentDescription = "Quiz image",
                 contentScale = ContentScale.Fit,
                 modifier = Modifier
                     .fillMaxWidth()
+                    .graphicsLayer(alpha = alpha)
                     .constrainAs(artwork) {
                         top.linkTo(parent.top)
                     }
@@ -110,6 +115,7 @@ private fun QuizGameScreenUiImplementation(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(4.dp)
+                    .graphicsLayer(alpha = alpha)
                     .constrainAs(question) {
                         top.linkTo(artwork.bottom)
                         bottom.linkTo(answerOptions.top)
@@ -121,6 +127,7 @@ private fun QuizGameScreenUiImplementation(
                     .padding(start = 8.dp, end = 8.dp)
                     .fillMaxWidth()
                     .fillMaxHeight(fraction = 0.4f)
+                    .graphicsLayer(alpha = alpha)
                     .constrainAs(answerOptions) {
                         bottom.linkTo(parent.bottom)
                     }
@@ -174,6 +181,7 @@ private fun ColumnScope.QuizButton(
         ),
         shape = RoundedCornerShape(0.dp),
         onClick = {
+            if (viewState.chosenOption != null) return@ElevatedButton
             sendIntent(
                 QuizGameIntent.AnswerQuestion(
                     question = viewState.question!!,
