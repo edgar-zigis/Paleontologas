@@ -8,6 +8,7 @@ dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
     implementation 'com.nightonke:boommenu:1.0.9'
+    implementation 'com.exyte:animated-navigation-bar:1.0.0'
 
     implementation project(':core')
     implementation project(':features:quiz')
