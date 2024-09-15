@@ -1,36 +1,22 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
-import android.content.Context
-import com.zigis.paleontologas.core.architecture.BaseFragment
-import com.zigis.paleontologas.core.architecture.interfaces.IView
-import com.zigis.paleontologas.core.extensions.sendSafely
-import com.zigis.paleontologas.features.quiz.stories.game.QuizGameIntent.*
-import com.zigis.paleontologas.features.quiz.data.Question
-import org.koin.android.ext.android.inject
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.zigis.paleontologas.core.architecture.BaseComposableFragment
+import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 
-class QuizGameFragment : BaseFragment<QuizGameViewState, QuizGameIntent, QuizGameViewModel>(),
-    QuizGameViewDelegate {
+class QuizGameFragment : BaseComposableFragment() {
 
-    override val viewModel: QuizGameViewModel by inject()
-
-    override fun onCreateView(context: Context): IView<QuizGameViewState> {
-        return QuizGameView(context).also {
-            it.delegate = this
-        }.also {
-            viewModel.intents.sendSafely(Initialize)
+    @Composable
+    override fun ViewContentComposition() {
+        ApplicationTheme {
+            Surface(
+                modifier = Modifier.fillMaxSize()
+            ) {
+                QuizGameScreen()
+            }
         }
-    }
-
-    //  QuizGameViewDelegate
-
-    override fun answerQuestion(question: Question, answer: Int) {
-        viewModel.intents.sendSafely(AnswerQuestion(
-            question = question,
-            option = answer
-        ))
-    }
-
-    override fun onBackInvoked() {
-        viewModel.intents.sendSafely(InvokeBack)
     }
 }

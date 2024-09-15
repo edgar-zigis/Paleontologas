@@ -4,10 +4,12 @@ import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.Text
@@ -18,9 +20,12 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -30,6 +35,8 @@ import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.PaleoScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.core.ui.theme.ThemeColors
+import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
 import com.zigis.paleontologas.features.quiz.data.Question
 import org.koin.androidx.compose.koinViewModel
@@ -94,9 +101,14 @@ private fun QuizGameScreenUiImplementation(
                     "${viewState.question.periodName}_question_${viewState.question.questionIndex}"
                 ),
                 color = ApplicationTheme.colors.headingText,
-                style = ApplicationTheme.typography.title1,
+                style = TextStyle(
+                    fontSize = 22.sp,
+                    fontFamily = ThemeFonts.Gentona,
+                    fontWeight = FontWeight.Normal
+                ),
                 textAlign = TextAlign.Center,
                 modifier = Modifier
+                    .fillMaxWidth()
                     .padding(4.dp)
                     .constrainAs(question) {
                         top.linkTo(artwork.bottom)
@@ -113,117 +125,97 @@ private fun QuizGameScreenUiImplementation(
                         bottom.linkTo(parent.bottom)
                     }
             ) {
-                ElevatedButton(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .weight(1f)
-                        .padding(bottom = 8.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = ApplicationTheme.colors.backgroundPrimary,
-                        contentColor = ApplicationTheme.colors.contentBackground
-                    ),
-                    onClick = {
-                        sendIntent(
-                            QuizGameIntent.AnswerQuestion(
-                                question = viewState.question,
-                                option = 0
-                            )
-                        )
-                    }
-                ) {
-                    Text(text = context.getString(viewState.question.variantList[0]))
+                QuizButton(index = 0, viewState) {
+                    sendIntent(it)
                 }
 
-                ElevatedButton(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .weight(1f)
-                        .padding(bottom = 8.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = ApplicationTheme.colors.backgroundPrimary,
-                        contentColor = ApplicationTheme.colors.contentBackground
-                    ),
-                    onClick = {
-                        sendIntent(
-                            QuizGameIntent.AnswerQuestion(
-                                question = viewState.question,
-                                option = 1
-                            )
-                        )
-                    }
-                ) {
-                    Text(text = context.getString(viewState.question.variantList[1]))
+                QuizButton(index = 1, viewState) {
+                    sendIntent(it)
                 }
 
-                ElevatedButton(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .weight(1f)
-                        .padding(bottom = 8.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = ApplicationTheme.colors.backgroundPrimary,
-                        contentColor = ApplicationTheme.colors.contentBackground
-                    ),
-                    onClick = {
-                        sendIntent(
-                            QuizGameIntent.AnswerQuestion(
-                                question = viewState.question,
-                                option = 2
-                            )
-                        )
-                    }
-                ) {
-                    Text(text = context.getString(viewState.question.variantList[2]))
+                QuizButton(index = 2, viewState) {
+                    sendIntent(it)
                 }
 
-                ElevatedButton(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .weight(1f)
-                        .padding(bottom = 8.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = ApplicationTheme.colors.backgroundPrimary,
-                        contentColor = ApplicationTheme.colors.contentBackground
-                    ),
-                    onClick = {
-                        sendIntent(
-                            QuizGameIntent.AnswerQuestion(
-                                question = viewState.question,
-                                option = 3
-                            )
-                        )
-                    }
-                ) {
-                    Text(text = context.getString(viewState.question.variantList[3]))
+                QuizButton(index = 3, viewState) {
+                    sendIntent(it)
                 }
             }
         }
     }
 }
 
+@Composable
+private fun ColumnScope.QuizButton(
+    index: Int,
+    viewState: QuizGameViewState,
+    sendIntent: (QuizGameIntent) -> Unit?
+) {
+    val context = LocalContext.current
+
+    val backgroundColor = when {
+        viewState.chosenOption == index -> {
+            if (viewState.chosenOption == viewState.correctOption) {
+                ThemeColors.Success
+            } else ThemeColors.Failure
+        }
+        viewState.correctOption == index -> ThemeColors.Success
+        else -> ApplicationTheme.colors.backgroundPrimary
+    }
+
+    ElevatedButton(
+        modifier = Modifier
+            .fillMaxWidth()
+            .weight(1f)
+            .padding(bottom = 8.dp),
+        colors = ButtonDefaults.buttonColors(
+            containerColor = backgroundColor,
+            contentColor = ApplicationTheme.colors.contentBackground
+        ),
+        shape = RoundedCornerShape(0.dp),
+        onClick = {
+            sendIntent(
+                QuizGameIntent.AnswerQuestion(
+                    question = viewState.question!!,
+                    option = index
+                )
+            )
+        }
+    ) {
+        Text(
+            text = context.getString(viewState.question!!.variantList[index]),
+            style = ApplicationTheme.typography.title1,
+            textAlign = TextAlign.Center
+        )
+    }
+}
+
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 private fun QuizGameScreenPreview() {
+    val mockedQuestion = Question(
+        id = 1,
+        periodId = 1,
+        periodName = "hadean",
+        questionIndex = 3,
+        artwork = "item_hadean",
+        isAnswered = false
+    ).also {
+        it.variantList.addAll(
+            listOf(
+                it.periodName + "_variant_" + it.questionIndex + "_1",
+                it.periodName + "_variant_" + it.questionIndex + "_2",
+                it.periodName + "_variant_" + it.questionIndex + "_3",
+                it.periodName + "_variant_" + it.questionIndex + "_4"
+            )
+        )
+        it.variantList.shuffle()
+    }
     QuizGameScreenUiImplementation(
         viewState = QuizGameViewState(
-            question = Question(
-                id = 1,
-                periodId = 1,
-                periodName = "hadean",
-                questionIndex = 3,
-                artwork = "item_hadean",
-                isAnswered = false
-            ).also {
-                it.variantList.addAll(
-                    listOf(
-                        it.periodName + "_variant_" + it.questionIndex + "_1",
-                        it.periodName + "_variant_" + it.questionIndex + "_2",
-                        it.periodName + "_variant_" + it.questionIndex + "_3",
-                        it.periodName + "_variant_" + it.questionIndex + "_4"
-                    )
-                )
-                it.variantList.shuffle()
-            }
+            question = mockedQuestion,
+            chosenOption = 2,
+            correctOption = mockedQuestion.getCorrectVariantIndex()
         )
     ) {
         //  here intents are being sent
