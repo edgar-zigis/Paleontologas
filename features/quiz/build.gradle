@@ -7,10 +7,10 @@ android {
 dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
-    implementation 'com.airbnb.android:lottie:4.2.0'
     implementation 'com.airbnb.android:lottie-compose:6.3.0'
     implementation 'com.github.florent37:viewanimator:1.1.2'
     implementation 'com.github.chrisbanes.photoview:library:1.2.3'
 
     implementation project(':core')
+    implementation project(':features:library')
 }
