@@ -36,7 +36,7 @@ import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.parallaxLayoutModifier
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
-import com.zigis.paleontologas.core.ui.PaleoScaffold
+import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.library.R
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItemView
@@ -72,14 +72,14 @@ private fun GeologicalPeriodScreenUiImplementation(
     val context = LocalContext.current
     val scrollState = rememberScrollState()
 
-    PaleoScaffold(
+    NavigableScaffold(
         title = context.getString(viewState.title),
         onBack = {
             sendIntent(GeologicalPeriodIntent.InvokeBack)
         }
     ) {
         if (viewState.artwork.isBlank()) {
-            return@PaleoScaffold
+            return@NavigableScaffold
         }
 
         Column(

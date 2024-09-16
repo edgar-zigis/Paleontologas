@@ -6,7 +6,7 @@ android {
 }
 
 dependencies {
-    api platform('androidx.compose:compose-bom:2024.08.00')
+    api platform('androidx.compose:compose-bom:2024.09.01')
     api 'androidx.lifecycle:lifecycle-viewmodel-compose'
     api 'androidx.lifecycle:lifecycle-runtime-compose'
     api 'androidx.activity:activity-compose'
@@ -16,7 +16,7 @@ dependencies {
     api 'androidx.compose.ui:ui-tooling-preview'
     debugApi 'androidx.compose.ui:ui-tooling'
 
-    api 'androidx.fragment:fragment-compose:1.8.2'
+    api 'androidx.fragment:fragment-compose:1.8.3'
     api 'androidx.constraintlayout:constraintlayout-compose:1.0.1'
 
     api 'dev.olshevski.navigation:reimagined:1.5.0'
