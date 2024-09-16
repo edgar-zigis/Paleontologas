@@ -30,7 +30,7 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 @Composable
 fun GeologicalPeriodListItemView(
     item: GeologicalPeriodListItem,
-    onClick: (Int) -> Unit
+    onClick: (Int) -> Unit?
 ) {
     val context = LocalContext.current
 

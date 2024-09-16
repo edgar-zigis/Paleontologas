@@ -72,7 +72,7 @@ fun LanguageListItemView(
 
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
-fun LanguageListItemPreview() {
+private fun LanguageListItemPreview() {
     LanguageListItemView(
         item = LanguageListItem(locale = Locale("lt")),
         isSelected = false
