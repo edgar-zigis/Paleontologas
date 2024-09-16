@@ -24,7 +24,7 @@ class ThemeTypography(
             headline1 = TextStyle(
                 fontSize = 22.sp,
                 fontFamily = ThemeFonts.Gilroy,
-                fontWeight = FontWeight.Bold
+                fontWeight = FontWeight.Bold,
             ),
             headline2 = TextStyle(
                 fontSize = 20.sp,

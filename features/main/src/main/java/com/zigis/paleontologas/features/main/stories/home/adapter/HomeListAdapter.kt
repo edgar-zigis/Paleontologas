@@ -8,11 +8,12 @@ import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.setDebounceClickListener
 import com.zigis.paleontologas.features.main.R
 import com.zigis.paleontologas.features.main.databinding.AdapterHomeBinding
+import com.zigis.paleontologas.features.main.stories.home.list.HomeListItem
 
 class HomeListAdapter(
-    override var items: List<HomeListAdapterItem> = emptyList(),
+    override var items: List<HomeListItem> = emptyList(),
     private val onClick: (Int) -> Unit
-) : BaseListAdapter<HomeListAdapterItem, AdapterHomeBinding>(items) {
+) : BaseListAdapter<HomeListItem, AdapterHomeBinding>(items) {
 
     override fun onBindingRequested(
         inflater: LayoutInflater,
@@ -24,7 +25,7 @@ class HomeListAdapter(
 
     override fun onBindViewHolder(
         binding: AdapterHomeBinding,
-        item: HomeListAdapterItem,
+        item: HomeListItem,
         position: Int
     ) = with(binding) {
         root.apply {
