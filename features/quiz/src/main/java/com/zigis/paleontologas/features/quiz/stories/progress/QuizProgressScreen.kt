@@ -32,7 +32,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.ArcProgressbar
-import com.zigis.paleontologas.core.ui.PaleoScaffold
+import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
@@ -65,7 +65,7 @@ private fun QuizProgressScreenUiImplementation(
 ) {
     val scrollState = rememberScrollState()
 
-    PaleoScaffold(
+    NavigableScaffold(
         title = stringResource(id = R.string.quiz),
         onBack = {
             sendIntent(QuizProgressIntent.InvokeBack)

@@ -31,7 +31,7 @@ import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
-import com.zigis.paleontologas.core.ui.PaleoScaffold
+import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
@@ -67,7 +67,7 @@ private fun QuizFinalResultScreenUiImplementation(
 ) {
     val context = LocalContext.current
 
-    PaleoScaffold(
+    NavigableScaffold(
         title = stringResource(id = R.string.finito),
         onBack = {
             sendIntent(QuizFinalResultIntent.InvokeBack)

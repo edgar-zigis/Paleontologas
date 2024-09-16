@@ -1,7 +1,7 @@
 package com.zigis.paleontologas.features.main.factories
 
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
-import com.zigis.paleontologas.features.main.stories.home.adapter.HomeListAdapterItem
+import com.zigis.paleontologas.features.main.stories.home.list.HomeListItem
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -11,7 +11,7 @@ class HomeListItemFactory(
     private val periodRepository: PeriodRepository,
     private val questionRepository: QuestionRepository
 ) {
-    suspend fun getItems(): List<HomeListAdapterItem> {
+    suspend fun getItems(): List<HomeListItem> {
         val periods = periodRepository.findAll()
         coroutineScope {
             periods.map {
@@ -21,7 +21,7 @@ class HomeListItemFactory(
             }.awaitAll()
         }
         return periods.map {
-            HomeListAdapterItem(
+            HomeListItem(
                 id = it.id,
                 title = it.title,
                 thumbnail = it.thumbnail,

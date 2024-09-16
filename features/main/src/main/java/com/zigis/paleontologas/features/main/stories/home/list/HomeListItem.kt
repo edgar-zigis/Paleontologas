@@ -1,6 +1,6 @@
-package com.zigis.paleontologas.features.main.stories.home.adapter
+package com.zigis.paleontologas.features.main.stories.home.list
 
-data class HomeListAdapterItem(
+data class HomeListItem(
     val id: Int,
     val title: String,
     val thumbnail: String,
