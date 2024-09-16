@@ -38,11 +38,12 @@ import com.zigis.paleontologas.features.main.R
 @Composable
 fun HomeListItemView(
     item: HomeListItem,
+    modifier: Modifier,
     onClick: (Int) -> Unit?
 ) {
     val context = LocalContext.current
 
-    ConstraintLayout(modifier = Modifier
+    ConstraintLayout(modifier = modifier
         .fillMaxWidth()
         .height(120.dp)
         .background(color = ApplicationTheme.colors.contentBackground)
@@ -165,7 +166,8 @@ private fun HomeListItemViewPreview() {
             shortDescription = "permian_short_description",
             timeScale = "298.9–252.17",
             quizProgress = 60
-        )
+        ),
+        modifier = Modifier
     ) {
 
     }

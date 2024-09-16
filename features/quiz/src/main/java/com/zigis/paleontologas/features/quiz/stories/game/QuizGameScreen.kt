@@ -35,7 +35,7 @@ import com.zigis.paleontologas.core.extensions.getDrawableId
 import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
-import com.zigis.paleontologas.core.ui.PaleoScaffold
+import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
@@ -69,14 +69,14 @@ private fun QuizGameScreenUiImplementation(
 ) {
     val context = LocalContext.current
 
-    PaleoScaffold(
+    NavigableScaffold(
         title = stringResource(id = R.string.quiz),
         onBack = {
             sendIntent(QuizGameIntent.InvokeBack)
         }
     ) {
         if (viewState.question == null) {
-            return@PaleoScaffold
+            return@NavigableScaffold
         }
 
         val alpha: Float by animateFloatAsState(if (viewState.isInTransition) 0f else 1f, label = "alpha")

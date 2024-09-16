@@ -1,8 +1,11 @@
 package com.zigis.paleontologas.core.ui
 
+import android.content.res.Configuration
+import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,15 +25,18 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
 import com.zigis.paleontologas.core.R
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PaleoScaffold(
+fun NavigableScaffold(
     title: String,
-    onBack: () -> Unit?,
-    content: @Composable () -> Unit
+    @DrawableRes
+    iconResId: Int = R.drawable.ic_back_button,
+    onBack: (() -> Unit)? = null,
+    content: @Composable BoxScope.() -> Unit
 ) {
     val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior(
         rememberTopAppBarState()
@@ -65,10 +71,10 @@ fun PaleoScaffold(
                     },
                     navigationIcon = {
                         IconButton(onClick = {
-                            onBack()
+                            onBack?.invoke()
                         }) {
                             Icon(
-                                painter = painterResource(id = R.drawable.ic_back_button),
+                                painter = painterResource(id = iconResId),
                                 contentDescription = "back",
                                 tint = ApplicationTheme.colors.titleText
                             )
@@ -86,8 +92,23 @@ fun PaleoScaffold(
                     modifier = Modifier.fillMaxWidth()
                 )
 
-                content()
+                Box(
+                    modifier = Modifier.fillMaxSize()
+                ) {
+                    content()
+                }
             }
         }
+    }
+}
+
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
+@Composable
+private fun NavigableScaffoldPreview() {
+    NavigableScaffold(
+        title = "Title",
+        onBack = { }
+    ) {
+        //  here content is being rendered
     }
 }

@@ -37,7 +37,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
-import com.zigis.paleontologas.core.ui.PaleoScaffold
+import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.main.R
 import com.zigis.paleontologas.features.main.stories.about.list.AboutListItem
@@ -73,7 +73,7 @@ private fun AboutScreenUiImplementation(
     val context = LocalContext.current
     val scrollState = rememberScrollState()
 
-    PaleoScaffold(
+    NavigableScaffold(
         title = stringResource(id = R.string.about_app),
         onBack = {
             sendIntent(AboutIntent.InvokeBack)
