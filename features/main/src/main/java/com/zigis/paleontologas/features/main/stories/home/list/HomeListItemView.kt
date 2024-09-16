@@ -62,7 +62,7 @@ fun HomeListItemView(
 
         Text(
             text = stringResource(context.getStringId(item.title)),
-            color = ApplicationTheme.colors.titleText,
+            color = ApplicationTheme.colors.tintColor,
             style = TextStyle(
                 fontSize = 22.sp,
                 fontFamily = ThemeFonts.Gilroy,
@@ -83,7 +83,7 @@ fun HomeListItemView(
 
         Text(
             text = stringResource(context.getStringId(item.shortDescription)),
-            color = ApplicationTheme.colors.titleText,
+            color = ApplicationTheme.colors.tintColor,
             style = TextStyle(
                 fontSize = 15.sp,
                 fontFamily = ThemeFonts.Gilroy,
@@ -106,7 +106,7 @@ fun HomeListItemView(
 
         Text(
             text = context.getString(R.string.mya, item.timeScale),
-            color = ApplicationTheme.colors.titleText,
+            color = ApplicationTheme.colors.tintColor,
             style = TextStyle(
                 fontSize = 20.sp,
                 fontFamily = ThemeFonts.Gilroy,
@@ -148,7 +148,7 @@ fun HomeListItemView(
                 valueTextStyle = TextStyle(
                     fontSize = 10.sp,
                     fontFamily = ThemeFonts.Gentona,
-                    color = ApplicationTheme.colors.titleText
+                    color = ApplicationTheme.colors.tintColor
                 )
             )
         }

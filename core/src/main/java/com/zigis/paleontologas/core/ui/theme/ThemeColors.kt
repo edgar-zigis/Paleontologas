@@ -8,7 +8,7 @@ class ThemeColors(
     val backgroundSecondary: Color,
     val contentBackground: Color,
     val contentText: Color,
-    val titleText: Color,
+    val tintColor: Color,
     val headingText: Color,
     val headingTextSecondary: Color
 ) {
@@ -22,7 +22,7 @@ class ThemeColors(
             backgroundSecondary = Color(0xFF09203F),
             contentBackground = Color(0xFFFFFFFF),
             contentText = Color(0xFF09203F),
-            titleText = Color(0xFFFFFFFF),
+            tintColor = Color(0xFFFFFFFF),
             headingText = Color(0xFF3E5771),
             headingTextSecondary = Color(0xFFFFFFFF)
         )
@@ -32,7 +32,7 @@ class ThemeColors(
             backgroundSecondary = Color(0xFF09203F),
             contentBackground = Color(0xFFFFFFFF),
             contentText = Color(0xFF09203F),
-            titleText = Color(0xFFFFFFFF),
+            tintColor = Color(0xFFFFFFFF),
             headingText = Color(0xFF3E5771),
             headingTextSecondary = Color(0xFFFFFFFF)
         )

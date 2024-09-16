@@ -33,6 +33,7 @@ import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.ArcProgressbar
 import com.zigis.paleontologas.core.ui.NavigableScaffold
+import com.zigis.paleontologas.core.ui.StaticScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
@@ -65,11 +66,9 @@ private fun QuizProgressScreenUiImplementation(
 ) {
     val scrollState = rememberScrollState()
 
-    NavigableScaffold(
+    StaticScaffold(
         title = stringResource(id = R.string.quiz),
-        onBack = {
-            sendIntent(QuizProgressIntent.InvokeBack)
-        }
+        iconResId = R.drawable.ic_quiz
     ) {
         Column(
             modifier = Modifier
