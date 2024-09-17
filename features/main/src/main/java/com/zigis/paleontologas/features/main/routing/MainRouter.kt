@@ -1,12 +1,10 @@
-package com.zigis.paleontologas.features.main.routers
+package com.zigis.paleontologas.features.main.routing
 
 import android.content.Intent
 import com.zigis.paleontologas.core.architecture.BaseRouter
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.core.routers.GlobalRouter
 import com.zigis.paleontologas.features.main.MainActivity
-import com.zigis.paleontologas.features.main.stories.about.AboutFragment
-import com.zigis.paleontologas.features.main.stories.language.LanguageFragment
 
 class MainRouter(
     override val globalRouter: GlobalRouter,
@@ -22,14 +20,14 @@ class MainRouter(
     }
 
     fun openAboutSection() {
-        globalRouter.pushFragment(
+        /*globalRouter.pushScreen(
             AboutFragment()
-        )
+        )*/
     }
 
     fun openLanguages() {
-        globalRouter.pushFragment(
+        /*globalRouter.pushScreen(
             LanguageFragment()
-        )
+        )*/
     }
 }

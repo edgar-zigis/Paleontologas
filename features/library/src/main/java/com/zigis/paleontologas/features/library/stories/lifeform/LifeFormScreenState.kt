@@ -1,8 +1,8 @@
-package com.zigis.paleontologas.features.library.stories.formavitae
+package com.zigis.paleontologas.features.library.stories.lifeform
 
 import com.zigis.paleontologas.core.architecture.interfaces.IState
 
-data class FormaVitaeViewState(
+data class LifeFormScreenState(
     val title: String = "",
     val artwork: String = "",
     val artworkAuthor: String = "",

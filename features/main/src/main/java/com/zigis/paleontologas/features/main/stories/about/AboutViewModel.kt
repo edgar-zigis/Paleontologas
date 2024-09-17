@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.main.stories.about
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.managers.ApplicationVersionManager
 import com.zigis.paleontologas.features.main.factories.AboutListItemFactory
-import com.zigis.paleontologas.features.main.routers.MainRouter
+import com.zigis.paleontologas.features.main.routing.MainRouter
 import com.zigis.paleontologas.features.main.stories.about.AboutIntent.*
 
 class AboutViewModel(
@@ -17,7 +17,7 @@ class AboutViewModel(
     override suspend fun handleIntent(intent: AboutIntent) {
         when (intent) {
             is Initialize -> initialize()
-            is InvokeBack -> mainRouter.popCurrentFragment()
+            is InvokeBack -> mainRouter.popCurrentScreen()
         }
     }
 

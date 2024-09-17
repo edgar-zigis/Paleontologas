@@ -48,7 +48,6 @@ fun WiggleButton(
     isSelected: Boolean,
     onClick: () -> Unit,
     @DrawableRes icon: Int,
-    @DrawableRes backgroundIcon: Int,
     contentDescription: String? = null,
     backgroundIconColor: Color = Color.White,
     wiggleColor: Color = Color.Blue,
@@ -71,7 +70,7 @@ fun WiggleButton(
                 .size(iconSize)
                 .align(Alignment.Center),
             icon = icon,
-            backgroundIcon = backgroundIcon,
+            backgroundIcon = icon,
             isSelected = isSelected,
             wiggleColor = wiggleColor,
             backgroundIconColor = backgroundIconColor,

@@ -12,24 +12,24 @@ class QuizRouter(
 ) : BaseRouter(globalRouter) {
 
     fun openQuizProgress() {
-        globalRouter.pushFragment(
+        /*globalRouter.pushScreen(
             QuizProgressFragment()
-        )
+        )*/
     }
 
     fun openQuizGame() {
-        globalRouter.pushFragment(
+        /*globalRouter.pushScreen(
             QuizGameFragment()
-        )
+        )*/
     }
 
     fun openQuizFinalResultPreview(mark: Int) {
-        globalRouter.pushFragment(
+        /*globalRouter.pushScreen(
             QuizFinalResultFragment().also {
                 it.configuration = QuizFinalResultConfiguration(
                     mark = mark
                 )
             }
-        )
+        )*/
     }
 }

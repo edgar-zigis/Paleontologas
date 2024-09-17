@@ -4,7 +4,7 @@ import androidx.lifecycle.viewModelScope
 import com.zigis.paleontologas.core.architecture.BaseViewModelV2
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
 import com.zigis.paleontologas.features.launcher.story.LauncherIntent.*
-import com.zigis.paleontologas.features.main.routers.MainRouter
+import com.zigis.paleontologas.features.main.routing.MainRouter
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

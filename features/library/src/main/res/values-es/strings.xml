@@ -1,5 +1,7 @@
 <resources>
 
+    <string name="geological_time_scale">Escala temporal geológica </string>
+
     <string name="environment">Ambiente </string>
     <string name="general_information">Descripción</string>
     <string name="life_forms">Vida </string>

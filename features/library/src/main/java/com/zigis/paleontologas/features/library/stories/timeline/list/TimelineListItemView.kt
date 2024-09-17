@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.main.stories.home.list
+package com.zigis.paleontologas.features.library.stories.timeline.list
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -33,11 +33,11 @@ import com.zigis.paleontologas.core.extensions.getStringId
 import com.zigis.paleontologas.core.ui.ArcProgressbar
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
-import com.zigis.paleontologas.features.main.R
+import com.zigis.paleontologas.features.library.R
 
 @Composable
 fun HomeListItemView(
-    item: HomeListItem,
+    item: TimelineListItem,
     modifier: Modifier,
     onClick: (Int) -> Unit?
 ) {
@@ -159,7 +159,7 @@ fun HomeListItemView(
 @Composable
 private fun HomeListItemViewPreview() {
     HomeListItemView(
-        item = HomeListItem(
+        item = TimelineListItem(
             id = 1,
             title = "permian",
             thumbnail = "period_permian",
