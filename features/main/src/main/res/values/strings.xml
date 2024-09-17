@@ -47,5 +47,6 @@
 
     <string name="info">Info</string>
     <string name="language">Language</string>
+    <string name="settings">Settings</string>
 
 </resources>

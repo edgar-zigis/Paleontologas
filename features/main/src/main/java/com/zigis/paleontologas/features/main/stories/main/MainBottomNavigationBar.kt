@@ -30,8 +30,7 @@ fun MainBottomNavigationBar(
     var selectedItem by remember { mutableIntStateOf(0) }
 
     AnimatedNavigationBar(
-        modifier = modifier
-            .height(85.dp),
+        modifier = modifier.height(85.dp),
         selectedIndex = selectedItem,
         barBrush = Brush.linearGradient(
             colors = listOf(
