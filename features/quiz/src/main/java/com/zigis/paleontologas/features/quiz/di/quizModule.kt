@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.quiz
+package com.zigis.paleontologas.features.quiz.di
 
 import com.zigis.paleontologas.features.quiz.data.QuestionDatabase
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor

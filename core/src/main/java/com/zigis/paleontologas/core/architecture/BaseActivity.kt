@@ -4,16 +4,10 @@ import android.content.Context
 import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
-import android.view.View.LAYOUT_DIRECTION_RTL
-import androidx.activity.addCallback
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
+import androidx.activity.ComponentActivity
 import com.google.firebase.crashlytics.FirebaseCrashlytics
-import com.zigis.paleontologas.core.R
 import com.zigis.paleontologas.core.extensions.android.ContextWrapper
 import com.zigis.paleontologas.core.extensions.getCurrentLocale
-import com.zigis.paleontologas.core.interfaces.Navigable
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -21,22 +15,14 @@ import kotlinx.coroutines.Job
 import org.koin.android.ext.android.inject
 import java.util.*
 import kotlin.coroutines.CoroutineContext
-import kotlin.math.min
 
-abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
+abstract class BaseActivity : ComponentActivity(), CoroutineScope {
 
     private val applicationLocaleManager: ApplicationLocaleManager by inject()
 
     private lateinit var job: Job
     override val coroutineContext: CoroutineContext
         get() = Dispatchers.Main + job
-
-    private val backStackChangeListener = FragmentManager.OnBackStackChangedListener {
-        with(supportFragmentManager) {
-            val index = min(backStackEntryCount - 1, fragments.size - 1)
-            (fragments[index] as? Navigable)?.onAttached()
-        }
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,20 +34,6 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
         }
         job = Job()
         addLogs()
-        supportFragmentManager.addOnBackStackChangedListener(backStackChangeListener)
-        onBackPressedDispatcher.addCallback {
-            with(supportFragmentManager) {
-                if (backStackEntryCount == 1) {
-                    finish()
-                } else {
-                    fragments.firstOrNull { it.isVisible }?.let { fragment ->
-                        if (fragment !is Navigable || !fragment.onBackPressed()) {
-                            onBackPressedDispatcher.onBackPressed()
-                        }
-                    } ?: onBackPressedDispatcher.onBackPressed()
-                }
-            }
-        }
     }
 
     override fun onStart() {
@@ -88,7 +60,6 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
         super.onDestroy()
         job.cancel()
         addLogs()
-        supportFragmentManager.removeOnBackStackChangedListener(backStackChangeListener)
     }
 
     override fun attachBaseContext(newBase: Context?) {
@@ -98,31 +69,6 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
             super.attachBaseContext(context)
         } else {
             super.attachBaseContext(newBase)
-        }
-    }
-
-    protected fun pushFragment(fragment: Fragment, container: Int, animated: Boolean = true) {
-        with(supportFragmentManager.beginTransaction()) {
-            if (animated) {
-                if (resources.configuration.layoutDirection == LAYOUT_DIRECTION_RTL) {
-                    setCustomAnimations(
-                        R.anim.fragment_transition_pop_enter,
-                        R.anim.fragment_transition_pop_exit,
-                        R.anim.fragment_transition_enter,
-                        R.anim.fragment_transition_exit
-                    )
-                } else {
-                    setCustomAnimations(
-                        R.anim.fragment_transition_enter,
-                        R.anim.fragment_transition_exit,
-                        R.anim.fragment_transition_pop_enter,
-                        R.anim.fragment_transition_pop_exit
-                    )
-                }
-            }
-            add(container, fragment)
-                .addToBackStack(null)
-                .commitAllowingStateLoss()
         }
     }
 
