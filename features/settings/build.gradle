@@ -1,0 +1,11 @@
+apply from: "$rootProject.projectDir/shared.build.gradle"
+
+android {
+    namespace 'com.zigis.paleontologas.features.settings'
+}
+
+dependencies {
+    ksp "androidx.room:room-compiler:$room_version"
+
+    implementation project(':core')
+}
