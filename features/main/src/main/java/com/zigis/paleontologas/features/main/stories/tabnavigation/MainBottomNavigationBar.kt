@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.main.stories.main
+package com.zigis.paleontologas.features.main.stories.tabnavigation
 
 import android.view.animation.OvershootInterpolator
 import androidx.compose.animation.core.LinearEasing
@@ -49,7 +49,7 @@ fun MainBottomNavigationBar(
             )
         )
     ) {
-        MenuItem.getAll().forEachIndexed { index, it ->
+        MainBottomNavigationMenuItem.getAll().forEachIndexed { index, it ->
             WiggleButton(
                 modifier = Modifier.fillMaxSize(),
                 isSelected = selectedItem == index,

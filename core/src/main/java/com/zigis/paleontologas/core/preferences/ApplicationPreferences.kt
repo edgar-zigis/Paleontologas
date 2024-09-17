@@ -27,8 +27,20 @@ class ApplicationPreferences(
             }
         }
 
+    var isVibrationEnabled: Boolean
+        get() {
+            return preferences.getBoolean(vibrationSettings, true)
+        }
+        set(value) {
+            with(preferences.edit()) {
+                putBoolean(vibrationSettings, value)
+                commit()
+            }
+        }
+
     companion object {
         private const val localeId = "applicationLocale"
         private const val versionId = "applicationVersion"
+        private const val vibrationSettings = "applicationVibrationSettings"
     }
 }
