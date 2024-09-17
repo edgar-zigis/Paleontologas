@@ -9,8 +9,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphRoutes
 import com.zigis.paleontologas.features.library.stories.timeline.TimelineScreen
-import com.zigis.paleontologas.features.main.stories.about.AboutScreen
-import com.zigis.paleontologas.features.main.stories.language.LanguageScreen
+import com.zigis.paleontologas.features.settings.stories.about.AboutScreen
+import com.zigis.paleontologas.features.settings.stories.language.LanguageScreen
 import com.zigis.paleontologas.features.main.stories.main.MainBottomNavigationBar
 import com.zigis.paleontologas.features.main.stories.main.MenuItem
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressScreen

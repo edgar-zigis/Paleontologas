@@ -7,6 +7,7 @@ import com.zigis.paleontologas.features.launcher.launcherModule
 import com.zigis.paleontologas.features.library.libraryModule
 import com.zigis.paleontologas.features.main.mainModule
 import com.zigis.paleontologas.features.quiz.quizModule
+import com.zigis.paleontologas.features.settings.settingsModule
 import org.koin.android.ext.android.inject
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
@@ -41,6 +42,7 @@ class PaleoApplication : Application() {
                     mainModule,
                     quizModule,
                     libraryModule,
+                    settingsModule,
                     launcherModule
                 )
             )
