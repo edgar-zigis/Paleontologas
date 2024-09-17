@@ -14,7 +14,7 @@ class QuizFinalResultViewModel(
     override suspend fun handleIntent(intent: QuizFinalResultIntent) {
         when (intent) {
             is Initialize -> initialize(mark = intent.mark)
-            is InvokeBack -> quizRouter.popCurrentFragment(
+            is InvokeBack -> quizRouter.popCurrentScreen(
                 isImmediate = true,
                 repeatCount = 2
             )

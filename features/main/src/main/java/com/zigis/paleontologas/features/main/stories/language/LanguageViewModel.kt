@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.main.stories.language
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
 import com.zigis.paleontologas.features.main.factories.LanguageListItemFactory
-import com.zigis.paleontologas.features.main.routers.MainRouter
+import com.zigis.paleontologas.features.main.routing.MainRouter
 import com.zigis.paleontologas.features.main.stories.language.LanguageIntent.*
 import java.util.Locale
 
@@ -19,7 +19,7 @@ class LanguageViewModel(
         when (intent) {
             is Initialize -> initialize()
             is ChangeLocale -> changeLocale(locale = intent.locale)
-            is InvokeBack -> mainRouter.popCurrentFragment()
+            is InvokeBack -> mainRouter.popCurrentScreen()
         }
     }
 

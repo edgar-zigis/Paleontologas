@@ -1,17 +1,17 @@
-package com.zigis.paleontologas.features.main.factories
+package com.zigis.paleontologas.features.library.factories
 
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
-import com.zigis.paleontologas.features.main.stories.home.list.HomeListItem
+import com.zigis.paleontologas.features.library.stories.timeline.list.TimelineListItem
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 
-class HomeListItemFactory(
+class TimelineListItemFactory(
     private val periodRepository: PeriodRepository,
     private val questionRepository: QuestionRepository
 ) {
-    suspend fun getItems(): List<HomeListItem> {
+    suspend fun getItems(): List<TimelineListItem> {
         val periods = periodRepository.findAll()
         coroutineScope {
             periods.map {
@@ -21,7 +21,7 @@ class HomeListItemFactory(
             }.awaitAll()
         }
         return periods.map {
-            HomeListItem(
+            TimelineListItem(
                 id = it.id,
                 title = it.title,
                 thumbnail = it.thumbnail,

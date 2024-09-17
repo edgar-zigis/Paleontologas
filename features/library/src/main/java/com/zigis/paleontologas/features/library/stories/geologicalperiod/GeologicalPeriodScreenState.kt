@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.library.stories.geologicalperiod
 import com.zigis.paleontologas.core.architecture.interfaces.IState
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItem
 
-data class GeologicalPeriodViewState(
+data class GeologicalPeriodScreenState(
     val periodId: Int = 0,
     val title: String = "",
     val artwork: String = "",

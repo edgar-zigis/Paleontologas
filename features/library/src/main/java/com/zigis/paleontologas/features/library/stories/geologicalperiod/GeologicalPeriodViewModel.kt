@@ -2,24 +2,24 @@ package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
-import com.zigis.paleontologas.features.library.routers.LibraryRouter
+import com.zigis.paleontologas.features.library.routing.LibraryRouter
 import com.zigis.paleontologas.features.library.factories.GeologicalPeriodListItemFactory
-import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodIntent.*
+import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodScreenIntent.*
 import kotlinx.coroutines.delay
 
 class GeologicalPeriodViewModel(
     private val libraryRouter: LibraryRouter,
     private val periodRepository: PeriodRepository,
     private val geologicalPeriodListItemFactory: GeologicalPeriodListItemFactory
-) : BaseViewModel<GeologicalPeriodViewState, GeologicalPeriodIntent>() {
+) : BaseViewModel<GeologicalPeriodScreenState, GeologicalPeriodScreenIntent>() {
 
-    override fun getInitialData() = GeologicalPeriodViewState()
+    override fun getInitialData() = GeologicalPeriodScreenState()
 
-    override suspend fun handleIntent(intent: GeologicalPeriodIntent) {
+    override suspend fun handleIntent(intent: GeologicalPeriodScreenIntent) {
         when (intent) {
             is Initialize -> initialize(periodId = intent.periodId)
             is OpenLifeForm -> libraryRouter.openLifeForm(intent.lifeFormId)
-            is InvokeBack -> libraryRouter.popCurrentFragment()
+            is InvokeBack -> libraryRouter.popCurrentScreen()
         }
     }
 

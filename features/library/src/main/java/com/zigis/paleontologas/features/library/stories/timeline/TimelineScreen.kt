@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.main.stories.home
+package com.zigis.paleontologas.features.library.stories.timeline
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -24,34 +23,33 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
-import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.StaticScaffold
-import com.zigis.paleontologas.features.main.R
-import com.zigis.paleontologas.features.main.stories.home.list.HomeListItem
-import com.zigis.paleontologas.features.main.stories.home.list.HomeListItemView
+import com.zigis.paleontologas.features.library.R
+import com.zigis.paleontologas.features.library.stories.timeline.list.TimelineListItem
+import com.zigis.paleontologas.features.library.stories.timeline.list.HomeListItemView
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun HomeScreen(
-    viewModel: HomeViewModel = koinViewModel()
+fun TimelineScreen(
+    viewModel: TimelineViewModel = koinViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
-    HomeScreenUiImplementation(viewState = state) {
+    TimelineScreenUiImplementation(viewState = state) {
         viewModel.intents.sendSafely(it)
     }
 
     LifecycleEventHandler {
         if (it == Lifecycle.Event.ON_START) {
-            viewModel.intents.sendSafely(HomeIntent.Initialize)
+            viewModel.intents.sendSafely(TimelineScreenIntent.Initialize)
         }
     }
 }
 
 @Composable
-private fun HomeScreenUiImplementation(
-    viewState: HomeViewState,
-    sendIntent: (HomeIntent) -> Unit?
+private fun TimelineScreenUiImplementation(
+    viewState: TimelineScreenState,
+    sendIntent: (TimelineScreenIntent) -> Unit?
 ) {
     val context = LocalContext.current
 
@@ -85,12 +83,12 @@ private fun HomeScreenUiImplementation(
                     item = item,
                     modifier = Modifier.animateItem(),
                     onClick = {
-                        sendIntent(HomeIntent.OpenPeriod(periodId = it))
+                        sendIntent(TimelineScreenIntent.OpenPeriod(periodId = it))
                     }
                 )
             }
             item {
-                Spacer(modifier = Modifier.size(32.dp))
+                Spacer(modifier = Modifier.size(34.dp))
             }
         }
     }
@@ -99,10 +97,10 @@ private fun HomeScreenUiImplementation(
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 private fun HomeScreenPreview() {
-    HomeScreenUiImplementation(
-        viewState = HomeViewState(
+    TimelineScreenUiImplementation(
+        viewState = TimelineScreenState(
             periodItems = listOf(
-                HomeListItem(
+                TimelineListItem(
                     id = 1,
                     title = "devonian",
                     thumbnail = "period_devonian",
@@ -110,7 +108,7 @@ private fun HomeScreenPreview() {
                     timeScale = "419.2–358.9",
                     quizProgress = 90
                 ),
-                HomeListItem(
+                TimelineListItem(
                     id = 2,
                     title = "carboniferous",
                     thumbnail = "period_carboniferous",
@@ -118,7 +116,7 @@ private fun HomeScreenPreview() {
                     timeScale = "358.9–298.9",
                     quizProgress = 25
                 ),
-                HomeListItem(
+                TimelineListItem(
                     id = 3,
                     title = "permian",
                     thumbnail = "period_permian",

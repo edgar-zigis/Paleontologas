@@ -1,6 +1,6 @@
-package com.zigis.paleontologas.features.main.stories.home.list
+package com.zigis.paleontologas.features.library.stories.timeline.list
 
-data class HomeListItem(
+data class TimelineListItem(
     val id: Int,
     val title: String,
     val thumbnail: String,

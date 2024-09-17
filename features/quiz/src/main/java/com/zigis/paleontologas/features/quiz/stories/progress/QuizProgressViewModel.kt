@@ -16,7 +16,7 @@ class QuizProgressViewModel(
         when (intent) {
             is Initialize -> initialize()
             is StartQuiz -> quizRouter.openQuizGame()
-            is InvokeBack -> quizRouter.popCurrentFragment()
+            is InvokeBack -> quizRouter.popCurrentScreen()
         }
     }
 

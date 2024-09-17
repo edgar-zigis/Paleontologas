@@ -1,21 +1,21 @@
-package com.zigis.paleontologas.features.library.stories.formavitae
+package com.zigis.paleontologas.features.library.stories.lifeform
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
-import com.zigis.paleontologas.features.library.routers.LibraryRouter
-import com.zigis.paleontologas.features.library.stories.formavitae.FormaVitaeIntent.*
+import com.zigis.paleontologas.features.library.routing.LibraryRouter
+import com.zigis.paleontologas.features.library.stories.lifeform.LifeFormScreenIntent.*
 
-class FormaVitaeViewModel(
+class LifeFormViewModel(
     private val libraryRouter: LibraryRouter,
     private val lifeFormRepository: LifeFormRepository
-) : BaseViewModel<FormaVitaeViewState, FormaVitaeIntent>() {
+) : BaseViewModel<LifeFormScreenState, LifeFormScreenIntent>() {
 
-    override fun getInitialData() = FormaVitaeViewState()
+    override fun getInitialData() = LifeFormScreenState()
 
-    override suspend fun handleIntent(intent: FormaVitaeIntent) {
+    override suspend fun handleIntent(intent: LifeFormScreenIntent) {
         when (intent) {
             is Initialize -> initialize(lifeFormId = intent.lifeFormId)
-            is InvokeBack -> libraryRouter.popCurrentFragment()
+            is InvokeBack -> libraryRouter.popCurrentScreen()
         }
     }
 

@@ -56,7 +56,7 @@ fun GeologicalPeriodScreen(
     LifecycleEventHandler {
         if (it == Lifecycle.Event.ON_START) {
             viewModel.intents.sendSafely(
-                GeologicalPeriodIntent.Initialize(
+                GeologicalPeriodScreenIntent.Initialize(
                     periodId = configuration.periodId
                 )
             )
@@ -66,8 +66,8 @@ fun GeologicalPeriodScreen(
 
 @Composable
 private fun GeologicalPeriodScreenUiImplementation(
-    viewState: GeologicalPeriodViewState,
-    sendIntent: (GeologicalPeriodIntent) -> Unit?
+    viewState: GeologicalPeriodScreenState,
+    sendIntent: (GeologicalPeriodScreenIntent) -> Unit?
 ) {
     val context = LocalContext.current
     val scrollState = rememberScrollState()
@@ -75,7 +75,7 @@ private fun GeologicalPeriodScreenUiImplementation(
     NavigableScaffold(
         title = context.getString(viewState.title),
         onBack = {
-            sendIntent(GeologicalPeriodIntent.InvokeBack)
+            sendIntent(GeologicalPeriodScreenIntent.InvokeBack)
         }
     ) {
         if (viewState.artwork.isBlank()) {
@@ -304,7 +304,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                     ) {
                         items(viewState.lifeFormItems) { item ->
                             GeologicalPeriodListItemView(item = item) {
-                                sendIntent(GeologicalPeriodIntent.OpenLifeForm(it))
+                                sendIntent(GeologicalPeriodScreenIntent.OpenLifeForm(it))
                             }
                         }
                     }
@@ -318,7 +318,7 @@ private fun GeologicalPeriodScreenUiImplementation(
 @Composable
 private fun GeologicalPeriodScreenPreview() {
     GeologicalPeriodScreenUiImplementation(
-        viewState = GeologicalPeriodViewState(
+        viewState = GeologicalPeriodScreenState(
             periodId = 0,
             title = "quaternary",
             artwork = "item_quaternary",

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="geological_time_scale">Geological time scale</string>
+
     <string name="environment">Environment</string>
     <string name="general_information">Description</string>
     <string name="life_forms">Life</string>

@@ -1,5 +1,7 @@
 <resources>
 
+    <string name="geological_time_scale">Geologische Zeitskala</string>
+
     <string name="environment">Umwelt</string>
     <string name="general_information">Beschreibung</string>
     <string name="life_forms">Leben</string>

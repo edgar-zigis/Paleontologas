@@ -21,7 +21,7 @@ class QuizGameViewModel(
                 question = intent.question,
                 option = intent.option
             )
-            is InvokeBack -> quizRouter.popCurrentFragment()
+            is InvokeBack -> quizRouter.popCurrentScreen()
         }
     }
 

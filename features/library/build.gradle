@@ -8,4 +8,5 @@ dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
     implementation project(':core')
+    implementation project(':features:quiz')
 }

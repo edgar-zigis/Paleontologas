@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library.stories.formavitae
+package com.zigis.paleontologas.features.library.stories.lifeform
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -36,20 +36,20 @@ import com.zigis.paleontologas.features.library.R
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
-fun FormaVitaeScreen(
-    viewModel: FormaVitaeViewModel = koinViewModel(),
-    configuration: FormaVitaeConfiguration
+fun LifeFormScreen(
+    viewModel: LifeFormViewModel = koinViewModel(),
+    configuration: LifeFormConfiguration
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
-    FormaVitaeScreenUiImplementation(viewState = state) {
+    LifeFormScreenUiImplementation(viewState = state) {
         viewModel.intents.sendSafely(it)
     }
 
     LifecycleEventHandler {
         if (it == Lifecycle.Event.ON_START) {
             viewModel.intents.sendSafely(
-                FormaVitaeIntent.Initialize(
+                LifeFormScreenIntent.Initialize(
                     lifeFormId = configuration.lifeFormId
                 )
             )
@@ -58,9 +58,9 @@ fun FormaVitaeScreen(
 }
 
 @Composable
-private fun FormaVitaeScreenUiImplementation(
-    viewState: FormaVitaeViewState,
-    sendIntent: (FormaVitaeIntent) -> Unit?
+private fun LifeFormScreenUiImplementation(
+    viewState: LifeFormScreenState,
+    sendIntent: (LifeFormScreenIntent) -> Unit?
 ) {
     val context = LocalContext.current
     val scrollState = rememberScrollState()
@@ -68,7 +68,7 @@ private fun FormaVitaeScreenUiImplementation(
     NavigableScaffold(
         title = context.getString(viewState.title),
         onBack = {
-            sendIntent(FormaVitaeIntent.InvokeBack)
+            sendIntent(LifeFormScreenIntent.InvokeBack)
         }
     ) {
         if (viewState.artwork.isBlank()) {
@@ -191,9 +191,9 @@ private fun FormaVitaeScreenUiImplementation(
 
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
-private fun FormaVitaeScreenPreview() {
-    FormaVitaeScreenUiImplementation(
-        viewState = FormaVitaeViewState(
+private fun LifeFormScreenPreview() {
+    LifeFormScreenUiImplementation(
+        viewState = LifeFormScreenState(
             title = "quaternary_mammutus",
             artwork = "item_quaternary_mammuthus",
             artworkAuthor = "",
