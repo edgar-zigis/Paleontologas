@@ -18,16 +18,4 @@ class MainRouter(
         }
         androidLifecycleProvider.getActivity()?.finish()
     }
-
-    fun openAboutSection() {
-        /*globalRouter.pushScreen(
-            AboutFragment()
-        )*/
-    }
-
-    fun openLanguages() {
-        /*globalRouter.pushScreen(
-            LanguageFragment()
-        )*/
-    }
 }

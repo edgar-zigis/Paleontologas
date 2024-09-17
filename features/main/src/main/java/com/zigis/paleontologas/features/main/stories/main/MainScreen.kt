@@ -18,8 +18,8 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphBuilder
 import com.zigis.paleontologas.features.main.routing.MainNavGraphBuilder
 import com.zigis.paleontologas.features.main.routing.MainNavGraphRoutes
-import com.zigis.paleontologas.features.main.stories.about.AboutScreen
-import com.zigis.paleontologas.features.main.stories.language.LanguageScreen
+import com.zigis.paleontologas.features.settings.stories.about.AboutScreen
+import com.zigis.paleontologas.features.settings.stories.language.LanguageScreen
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressScreen
 
 @Composable
