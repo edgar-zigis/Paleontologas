@@ -43,6 +43,8 @@ dependencies {
     api "io.insert-koin:koin-android:$koin_version"
     api "io.insert-koin:koin-androidx-compose:$koin_version"
 
+    api 'org.greenrobot:eventbus:3.3.1'
+
     testApi 'junit:junit:4.13.2'
     androidTestApi 'androidx.test:runner:1.6.2'
     androidTestApi 'androidx.test.espresso:espresso-core:3.6.1'

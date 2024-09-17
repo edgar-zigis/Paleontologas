@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.library
+package com.zigis.paleontologas.features.library.di
 
 import com.zigis.paleontologas.features.library.data.LifeFormDatabase
 import com.zigis.paleontologas.features.library.data.PeriodDatabase

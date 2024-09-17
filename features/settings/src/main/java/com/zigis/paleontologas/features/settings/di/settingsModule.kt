@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.settings
+package com.zigis.paleontologas.features.settings.di
 
 import com.zigis.paleontologas.features.settings.factories.AboutListItemFactory
 import com.zigis.paleontologas.features.settings.factories.LanguageListItemFactory
@@ -15,5 +15,5 @@ val settingsModule = module {
     factory { LanguageListItemFactory(get()) }
 
     viewModel { AboutViewModel(get(), get(), get()) }
-    viewModel { LanguageViewModel(get(), get(), get()) }
+    viewModel { LanguageViewModel(get(), get(), get(), get()) }
 }

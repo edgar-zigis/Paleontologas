@@ -1,13 +1,16 @@
 package com.zigis.paleontologas.features.settings.stories.language
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
+import com.zigis.paleontologas.core.events.LocaleChangedEvent
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
 import com.zigis.paleontologas.features.settings.factories.LanguageListItemFactory
 import com.zigis.paleontologas.features.settings.routing.SettingsRouter
 import com.zigis.paleontologas.features.settings.stories.language.LanguageScreenIntent.*
+import org.greenrobot.eventbus.EventBus
 import java.util.Locale
 
 class LanguageViewModel(
+    private val eventBus: EventBus,
     private val settingsRouter: SettingsRouter,
     private val languageListItemFactory: LanguageListItemFactory,
     private val applicationLocaleManager: ApplicationLocaleManager
@@ -33,7 +36,6 @@ class LanguageViewModel(
     }
 
     private fun changeLocale(locale: Locale) {
-        applicationLocaleManager.setCurrentLocale(locale)
-        //  TODO: mainRouter.openMainScreen()
+        eventBus.post(LocaleChangedEvent(locale = locale))
     }
 }

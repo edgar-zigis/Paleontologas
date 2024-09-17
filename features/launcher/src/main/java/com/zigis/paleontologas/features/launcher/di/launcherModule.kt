@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.launcher
+package com.zigis.paleontologas.features.launcher.di
 
 import com.zigis.paleontologas.features.launcher.managers.DataMigrationManager
 import com.zigis.paleontologas.features.launcher.story.LauncherViewModel
