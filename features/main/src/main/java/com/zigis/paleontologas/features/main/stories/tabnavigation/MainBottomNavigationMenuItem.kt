@@ -6,6 +6,7 @@ import androidx.compose.animation.core.FiniteAnimationSpec
 import androidx.compose.animation.core.tween
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphRoutes
 import com.zigis.paleontologas.features.main.R
+import com.zigis.paleontologas.features.quiz.routing.QuizNavGraphRoutes
 import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphRoutes
 
 data class MainBottomNavigationMenuItem(
@@ -15,10 +16,6 @@ data class MainBottomNavigationMenuItem(
     val animationSpec: FiniteAnimationSpec<Float> = tween(500),
     val route: String
 ) {
-    enum class Route {
-        QUIZ
-    }
-
     companion object {
         fun getAll(): List<MainBottomNavigationMenuItem> {
             return listOf(
@@ -32,7 +29,7 @@ data class MainBottomNavigationMenuItem(
                     icon = R.drawable.ic_quiz,
                     isSelected = false,
                     description = R.string.quiz,
-                    route = Route.QUIZ.name
+                    route = QuizNavGraphRoutes.QuizProgress.route
                 ),
                 MainBottomNavigationMenuItem(
                     icon = R.drawable.ic_settings,
