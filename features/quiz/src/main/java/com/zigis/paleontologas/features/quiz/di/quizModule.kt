@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.quiz.di
 import com.zigis.paleontologas.features.quiz.data.QuestionDatabase
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
-import com.zigis.paleontologas.features.quiz.routers.QuizRouter
+import com.zigis.paleontologas.features.quiz.routing.QuizRouter
 import com.zigis.paleontologas.features.quiz.stories.game.QuizGameViewModel
 import com.zigis.paleontologas.features.quiz.stories.finalresult.QuizFinalResultViewModel
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressViewModel

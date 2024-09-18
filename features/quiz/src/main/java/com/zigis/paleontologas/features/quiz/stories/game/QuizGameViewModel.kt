@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.quiz.stories.game
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
-import com.zigis.paleontologas.features.quiz.routers.QuizRouter
+import com.zigis.paleontologas.features.quiz.routing.QuizRouter
 import com.zigis.paleontologas.features.quiz.stories.game.QuizGameIntent.*
 import kotlinx.coroutines.delay
 

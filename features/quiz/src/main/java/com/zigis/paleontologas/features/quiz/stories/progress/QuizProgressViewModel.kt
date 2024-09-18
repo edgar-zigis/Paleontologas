@@ -1,7 +1,7 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
-import com.zigis.paleontologas.features.quiz.routers.QuizRouter
+import com.zigis.paleontologas.features.quiz.routing.QuizRouter
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressIntent.*
 

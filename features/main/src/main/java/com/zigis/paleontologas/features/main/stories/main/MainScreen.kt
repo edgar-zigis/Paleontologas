@@ -12,14 +12,12 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphBuilder
 import com.zigis.paleontologas.features.main.routing.MainNavGraphBuilder
 import com.zigis.paleontologas.features.main.routing.MainNavGraphRoutes
-import com.zigis.paleontologas.features.main.stories.tabnavigation.MainBottomNavigationMenuItem
-import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressScreen
+import com.zigis.paleontologas.features.quiz.routing.QuizNavGraphBuilder
 import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphBuilder
 
 @Composable
@@ -44,16 +42,12 @@ fun MainScreen(
         NavHost(
             navController = navController,
             startDestination = MainNavGraphRoutes.TabNavigation.route,
-            modifier = Modifier
-                .fillMaxSize()
+            modifier = Modifier.fillMaxSize()
         ) {
             MainNavGraphBuilder()
             LibraryNavGraphBuilder()
             SettingsNavGraphBuilder()
-
-            composable(MainBottomNavigationMenuItem.Route.QUIZ.name) {
-                QuizProgressScreen()
-            }
+            QuizNavGraphBuilder()
         }
     }
 }
