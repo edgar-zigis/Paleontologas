@@ -27,11 +27,7 @@ class AndroidLifecycleProvider(
     }
 
     fun getActiveContext(): Context {
-        return getActivity() ?: getApplicationContext()
-    }
-
-    fun getApplicationContext(): Context {
-        return applicationContext
+        return getActivity() ?: applicationContext
     }
 
     private fun setActivity(activity: Activity) {
