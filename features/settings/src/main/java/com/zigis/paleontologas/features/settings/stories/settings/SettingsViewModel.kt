@@ -29,7 +29,12 @@ class SettingsViewModel(
         }
     }
 
-    private fun toggleVibration(isEnabled: Boolean) {
+    private suspend fun toggleVibration(isEnabled: Boolean) {
         applicationPreferences.isVibrationEnabled = isEnabled
+        updateState {
+            it.copy(
+                isVibrationEnabled = isEnabled
+            )
+        }
     }
 }

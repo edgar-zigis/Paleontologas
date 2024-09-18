@@ -49,4 +49,7 @@
     <string name="language">Langue</string>
     <string name="settings">Paramètres</string>
 
+    <string name="vibration_enabled">Activer les vibrations</string>
+    <string name="about_this_app">À propos de cette application</string>
+
 </resources>

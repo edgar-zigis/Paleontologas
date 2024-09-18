@@ -18,6 +18,10 @@ class GlobalRouter {
         navHostController?.navigate(route)
     }
 
+    fun pushScreen(route: String) {
+        navHostController?.navigate(route)
+    }
+
     fun popCurrentScreen(destinationRoute: String? = null) {
         navHostController?.popBackStack()
     }

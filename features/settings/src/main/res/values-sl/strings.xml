@@ -49,5 +49,8 @@
     <string name="language">Jezik</string>
     <string name="settings">Nastavitve</string>
 
+    <string name="vibration_enabled">Omogoči vibriranje</string>
+    <string name="about_this_app">O tej aplikaciji</string>
+
 </resources>
 

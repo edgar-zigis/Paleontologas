@@ -45,8 +45,11 @@
     <string name="app_contributor_description_9">Slovėniško turinio redaktorius</string>
     <string name="app_contributor_description_10">Braziliško turinio redaktorė</string>
 
-    <string name="info">Info</string>
+    <string name="info">Informacija</string>
     <string name="language">Kalba</string>
     <string name="settings">Nustatymai</string>
+
+    <string name="vibration_enabled">Įjungti vibraciją</string>
+    <string name="about_this_app">Apie programėlę</string>
 
 </resources>
