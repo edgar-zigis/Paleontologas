@@ -18,9 +18,9 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphBuilder
 import com.zigis.paleontologas.features.main.routing.MainNavGraphBuilder
 import com.zigis.paleontologas.features.main.routing.MainNavGraphRoutes
-import com.zigis.paleontologas.features.settings.stories.about.AboutScreen
-import com.zigis.paleontologas.features.settings.stories.language.LanguageScreen
+import com.zigis.paleontologas.features.main.stories.tabnavigation.MainBottomNavigationMenuItem
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressScreen
+import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphBuilder
 
 @Composable
 fun MainScreen(
@@ -49,15 +49,10 @@ fun MainScreen(
         ) {
             MainNavGraphBuilder()
             LibraryNavGraphBuilder()
+            SettingsNavGraphBuilder()
 
-            composable(MenuItem.Route.QUIZ.name) {
+            composable(MainBottomNavigationMenuItem.Route.QUIZ.name) {
                 QuizProgressScreen()
-            }
-            composable(MenuItem.Route.LANGUAGE.name) {
-                LanguageScreen()
-            }
-            composable(MenuItem.Route.INFO.name) {
-                AboutScreen()
             }
         }
     }

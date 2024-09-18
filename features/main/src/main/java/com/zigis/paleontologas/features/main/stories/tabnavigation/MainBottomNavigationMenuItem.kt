@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.main.stories.main
+package com.zigis.paleontologas.features.main.stories.tabnavigation
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -6,8 +6,9 @@ import androidx.compose.animation.core.FiniteAnimationSpec
 import androidx.compose.animation.core.tween
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphRoutes
 import com.zigis.paleontologas.features.main.R
+import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphRoutes
 
-data class MenuItem(
+data class MainBottomNavigationMenuItem(
     @DrawableRes val icon: Int,
     var isSelected: Boolean,
     @StringRes val description: Int,
@@ -15,35 +16,29 @@ data class MenuItem(
     val route: String
 ) {
     enum class Route {
-        GEOLOGICAL_TIME_SCALE, QUIZ, LANGUAGE, INFO
+        QUIZ
     }
 
     companion object {
-        fun getAll(): List<MenuItem> {
+        fun getAll(): List<MainBottomNavigationMenuItem> {
             return listOf(
-                MenuItem(
+                MainBottomNavigationMenuItem(
                     icon = R.drawable.ic_ammonite,
                     isSelected = false,
                     description = R.string.geological_time_scale,
                     route = LibraryNavGraphRoutes.Timeline.route
                 ),
-                MenuItem(
+                MainBottomNavigationMenuItem(
                     icon = R.drawable.ic_quiz,
                     isSelected = false,
                     description = R.string.quiz,
                     route = Route.QUIZ.name
                 ),
-                MenuItem(
-                    icon = R.drawable.ic_language,
+                MainBottomNavigationMenuItem(
+                    icon = R.drawable.ic_settings,
                     isSelected = false,
-                    description = R.string.language,
-                    route = Route.LANGUAGE.name
-                ),
-                MenuItem(
-                    icon = R.drawable.ic_info,
-                    isSelected = false,
-                    description = R.string.info,
-                    route = Route.INFO.name
+                    description = R.string.settings,
+                    route = SettingsNavGraphRoutes.Settings.route
                 )
             )
         }

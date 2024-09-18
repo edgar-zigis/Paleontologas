@@ -9,11 +9,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.zigis.paleontologas.features.library.routing.LibraryNavGraphRoutes
 import com.zigis.paleontologas.features.library.stories.timeline.TimelineScreen
-import com.zigis.paleontologas.features.settings.stories.about.AboutScreen
-import com.zigis.paleontologas.features.settings.stories.language.LanguageScreen
-import com.zigis.paleontologas.features.main.stories.main.MainBottomNavigationBar
-import com.zigis.paleontologas.features.main.stories.main.MenuItem
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressScreen
+import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphRoutes
+import com.zigis.paleontologas.features.settings.stories.settings.SettingsScreen
 
 @Composable
 fun TabNavigationScreen() {
@@ -35,14 +33,11 @@ fun TabNavigationScreen() {
             composable(LibraryNavGraphRoutes.Timeline.route) {
                 TimelineScreen()
             }
-            composable(MenuItem.Route.QUIZ.name) {
+            composable(MainBottomNavigationMenuItem.Route.QUIZ.name) {
                 QuizProgressScreen()
             }
-            composable(MenuItem.Route.LANGUAGE.name) {
-                LanguageScreen()
-            }
-            composable(MenuItem.Route.INFO.name) {
-                AboutScreen()
+            composable(SettingsNavGraphRoutes.Settings.route) {
+                SettingsScreen()
             }
         }
 

@@ -8,10 +8,14 @@ class SettingsRouter(
 ) : BaseRouter(globalRouter) {
 
     fun openAboutSection() {
-        //  TODO
+        globalRouter.pushScreen(
+            route = SettingsNavGraphRoutes.About.route
+        )
     }
 
     fun openLanguages() {
-        //  TODO
+        globalRouter.pushScreen(
+            route = SettingsNavGraphRoutes.Language.route
+        )
     }
 }
