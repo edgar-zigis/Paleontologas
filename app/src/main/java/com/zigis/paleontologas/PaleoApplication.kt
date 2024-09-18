@@ -36,19 +36,17 @@ class PaleoApplication : Application() {
             )
     }
 
-    private fun injectDependencies() {
-        startKoin {
-            androidContext(this@PaleoApplication)
-            modules(
-                listOf(
-                    applicationModule,
-                    mainModule,
-                    quizModule,
-                    libraryModule,
-                    settingsModule,
-                    launcherModule
-                )
+    private fun injectDependencies() = startKoin {
+        androidContext(this@PaleoApplication)
+        modules(
+            listOf(
+                applicationModule,
+                mainModule,
+                quizModule,
+                libraryModule,
+                settingsModule,
+                launcherModule
             )
-        }
+        )
     }
 }
