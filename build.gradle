@@ -3,7 +3,7 @@ buildscript {
     ext {
         kotlin_version = '2.1.0'
         room_version = '2.6.1'
-        koin_version = '3.5.3'
+        koin_version = '4.0.2'
     }
     repositories {
         google()

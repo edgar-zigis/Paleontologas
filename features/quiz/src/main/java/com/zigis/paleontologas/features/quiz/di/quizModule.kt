@@ -10,7 +10,7 @@ import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressViewMo
 import com.zigis.paleontologas.features.quiz.usecases.QuizGenerateQuestionsUseCase
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
 import org.koin.android.ext.koin.androidContext
-import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val quizModule = module {

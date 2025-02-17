@@ -6,7 +6,7 @@ import com.zigis.paleontologas.features.settings.routing.SettingsRouter
 import com.zigis.paleontologas.features.settings.stories.about.AboutViewModel
 import com.zigis.paleontologas.features.settings.stories.language.LanguageViewModel
 import com.zigis.paleontologas.features.settings.stories.settings.SettingsViewModel
-import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val settingsModule = module {
