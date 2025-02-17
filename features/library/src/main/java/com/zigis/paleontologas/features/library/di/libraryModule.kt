@@ -11,7 +11,7 @@ import com.zigis.paleontologas.features.library.factories.GeologicalPeriodListIt
 import com.zigis.paleontologas.features.library.factories.TimelineListItemFactory
 import com.zigis.paleontologas.features.library.stories.timeline.TimelineViewModel
 import org.koin.android.ext.koin.androidContext
-import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val libraryModule = module {

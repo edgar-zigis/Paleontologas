@@ -25,8 +25,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.ExperimentalTextApi
+import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.UrlAnnotation
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -219,8 +219,8 @@ private fun getAboutBottomText(context: Context): AnnotatedString {
                 start = str.indexOf(it),
                 end = str.indexOf(it) + it.length
             )
-            addUrlAnnotation(
-                UrlAnnotation("mailto:edgar.zigis@gmail.com"),
+            addLink(
+                LinkAnnotation.Url("mailto:edgar.zigis@gmail.com"),
                 start = str.indexOf(it),
                 end = str.indexOf(it) + it.length
             )
