@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -94,11 +95,16 @@ private fun GeologicalPeriodScreenUiImplementation(
                     .fillMaxWidth()
                     .parallaxLayoutModifier(scrollState, 2)
             ) {
+                val artworkResource = painterResource(id = context.getDrawableId(viewState.artwork))
                 Image(
-                    painterResource(id = context.getDrawableId(viewState.artwork)),
+                    artworkResource,
                     contentDescription = "LifeForm image",
                     contentScale = ContentScale.Fit,
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .aspectRatio(
+                            artworkResource.intrinsicSize.width / artworkResource.intrinsicSize.height
+                        )
                 )
 
                 Text(

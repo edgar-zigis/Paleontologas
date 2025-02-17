@@ -3,7 +3,6 @@ package com.zigis.paleontologas.features.library.routing
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
-import com.zigis.paleontologas.core.ui.theme.NavigationTransitions
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodConfiguration
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.GeologicalPeriodScreen
 import com.zigis.paleontologas.features.library.stories.lifeform.LifeFormConfiguration
@@ -14,17 +13,11 @@ sealed class LibraryNavGraphRoutes(val route: String) {
 }
 
 fun NavGraphBuilder.LibraryNavGraphBuilder() {
-    composable<GeologicalPeriodConfiguration>(
-        enterTransition = NavigationTransitions.enterTransition,
-        exitTransition = NavigationTransitions.exitTransition
-    ) {
+    composable<GeologicalPeriodConfiguration>() {
         GeologicalPeriodScreen(configuration = it.toRoute())
     }
 
-    composable<LifeFormConfiguration>(
-        enterTransition = NavigationTransitions.enterTransition,
-        exitTransition = NavigationTransitions.exitTransition
-    ) {
+    composable<LifeFormConfiguration>() {
         LifeFormScreen(configuration = it.toRoute())
     }
 }

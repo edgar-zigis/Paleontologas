@@ -6,6 +6,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -88,13 +89,17 @@ private fun QuizGameScreenUiImplementation(
                 .background(ApplicationTheme.colors.contentBackground)
         ) {
             val (artwork, question, answerOptions) = createRefs()
+            val artworkResource = painterResource(id = context.getDrawableId(viewState.question.artwork))
 
             Image(
-                painterResource(id = context.getDrawableId(viewState.question.artwork)),
+                artworkResource,
                 contentDescription = "Quiz image",
                 contentScale = ContentScale.Fit,
                 modifier = Modifier
                     .fillMaxWidth()
+                    .aspectRatio(
+                        artworkResource.intrinsicSize.width / artworkResource.intrinsicSize.height
+                    )
                     .graphicsLayer(alpha = alpha)
                     .constrainAs(artwork) {
                         top.linkTo(parent.top)
@@ -107,7 +112,7 @@ private fun QuizGameScreenUiImplementation(
                 ),
                 color = ApplicationTheme.colors.headingText,
                 style = TextStyle(
-                    fontSize = 22.sp,
+                    fontSize = 24.sp,
                     fontFamily = ThemeFonts.Gentona,
                     fontWeight = FontWeight.Normal
                 ),
