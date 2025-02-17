@@ -55,7 +55,7 @@ fun StaticScaffold(
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(74.dp)
+                        .height(85.dp)
                 ) {
                     Icon(
                         painter = painterResource(id = iconResId),
@@ -63,7 +63,7 @@ fun StaticScaffold(
                         tint = ApplicationTheme.colors.tintColor,
                         modifier = Modifier
                             .align(Alignment.CenterVertically)
-                            .padding(start = 16.dp, top = 6.dp)
+                            .padding(start = 16.dp, top = 17.dp)
                             .size(32.dp)
                     )
 
@@ -72,7 +72,7 @@ fun StaticScaffold(
                         color = ApplicationTheme.colors.tintColor,
                         style = ApplicationTheme.typography.headline2,
                         modifier = Modifier
-                            .padding(start = 8.dp, top = 6.dp, end = 8.dp)
+                            .padding(start = 16.dp, top = 17.dp, end = 8.dp)
                             .align(Alignment.CenterVertically)
                     )
                 }

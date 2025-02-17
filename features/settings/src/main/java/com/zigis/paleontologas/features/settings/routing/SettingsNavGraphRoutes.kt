@@ -2,7 +2,6 @@ package com.zigis.paleontologas.features.settings.routing
 
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
-import com.zigis.paleontologas.core.ui.theme.NavigationTransitions
 import com.zigis.paleontologas.features.settings.stories.about.AboutScreen
 import com.zigis.paleontologas.features.settings.stories.language.LanguageScreen
 
@@ -13,18 +12,10 @@ sealed class SettingsNavGraphRoutes(val route: String) {
 }
 
 fun NavGraphBuilder.SettingsNavGraphBuilder() {
-    composable(
-        route = SettingsNavGraphRoutes.Language.route,
-        enterTransition = NavigationTransitions.enterTransition,
-        exitTransition = NavigationTransitions.exitTransition
-    ) {
+    composable(route = SettingsNavGraphRoutes.Language.route) {
         LanguageScreen()
     }
-    composable(
-        route = SettingsNavGraphRoutes.About.route,
-        enterTransition = NavigationTransitions.enterTransition,
-        exitTransition = NavigationTransitions.exitTransition
-    ) {
+    composable(route = SettingsNavGraphRoutes.About.route) {
         AboutScreen()
     }
 }

@@ -1,6 +1,9 @@
 package com.zigis.paleontologas.features.main.stories.main
 
 import android.content.res.Configuration
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -42,7 +45,19 @@ fun MainScreen(
         NavHost(
             navController = navController,
             startDestination = MainNavGraphRoutes.TabNavigation.route,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize(),
+            enterTransition = { slideIntoContainer(
+                AnimatedContentTransitionScope.SlideDirection.Start, tween(300)
+            ) },
+            exitTransition = { slideOutOfContainer(
+                AnimatedContentTransitionScope.SlideDirection.Start, tween(300)
+            ) },
+            popEnterTransition = { slideIntoContainer(
+                AnimatedContentTransitionScope.SlideDirection.End, spring()
+            ) },
+            popExitTransition = { slideOutOfContainer(
+                AnimatedContentTransitionScope.SlideDirection.End, spring()
+            ) }
         ) {
             MainNavGraphBuilder()
             LibraryNavGraphBuilder()
