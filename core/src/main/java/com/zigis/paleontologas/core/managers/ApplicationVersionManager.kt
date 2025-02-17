@@ -8,7 +8,7 @@ class ApplicationVersionManager(
 ) {
     fun getApplicationVersionName(): String {
         return try {
-            context.packageManager.getPackageInfo(context.packageName, 0).versionName
+            context.packageManager.getPackageInfo(context.packageName, 0).versionName ?: "3.0.0"
         } catch (e: PackageManager.NameNotFoundException) {
             "unknown"
         }

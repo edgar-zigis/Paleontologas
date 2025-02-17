@@ -7,18 +7,19 @@ apply plugin: 'com.google.devtools.ksp'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlinx-serialization'
+apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
 android {
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
 
         if (this.name == 'app') {
             applicationId "com.zigis.paleontologas"
-            versionName "2.5.2"
-            versionCode 30
+            versionName "3.0.0"
+            versionCode 31
         } else {
             consumerProguardFiles "consumer-rules.pro"
         }
@@ -43,7 +44,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.8"
+        kotlinCompilerExtensionVersion = "1.5.4"
     }
 
     compileOptions {
