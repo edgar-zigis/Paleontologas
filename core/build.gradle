@@ -6,7 +6,7 @@ android {
 }
 
 dependencies {
-    api platform('androidx.compose:compose-bom:2024.09.01')
+    api platform('androidx.compose:compose-bom:2025.02.00')
     api 'androidx.lifecycle:lifecycle-viewmodel-compose'
     api 'androidx.lifecycle:lifecycle-runtime-compose'
     api 'androidx.activity:activity-compose'
@@ -16,25 +16,21 @@ dependencies {
     api 'androidx.compose.ui:ui-tooling-preview'
     debugApi 'androidx.compose.ui:ui-tooling'
 
-    api 'androidx.fragment:fragment-compose:1.8.3'
-    api 'androidx.constraintlayout:constraintlayout-compose:1.0.1'
+    api 'androidx.constraintlayout:constraintlayout-compose:1.1.0'
+    api 'androidx.navigation:navigation-compose:2.8.7'
 
-    api 'androidx.navigation:navigation-compose:2.8.0'
-
-    api 'androidx.core:core-ktx:1.13.1'
+    api 'androidx.core:core-ktx:1.15.0'
     api 'androidx.core:core-splashscreen:1.0.1'
-    api 'androidx.appcompat:appcompat:1.7.0'
-    api 'androidx.constraintlayout:constraintlayout:2.1.4'
     api 'com.google.android.material:material:1.12.0'
 
-    api 'com.google.firebase:firebase-crashlytics:19.0.3'
-    api 'com.google.firebase:firebase-analytics:22.1.0'
+    api 'com.google.firebase:firebase-crashlytics:19.4.0'
+    api 'com.google.firebase:firebase-analytics:22.2.0'
 
     api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0'
-    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4'
-    api 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.4'
+    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7'
+    api 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.7'
 
-    api 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0'
+    api 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3'
 
     api "androidx.room:room-runtime:$room_version"
     api "androidx.room:room-ktx:$room_version"
