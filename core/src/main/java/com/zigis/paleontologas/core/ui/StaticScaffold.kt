@@ -11,8 +11,10 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
@@ -50,12 +52,12 @@ fun StaticScaffold(
             Column(
                 modifier = Modifier
                     .padding(it)
-                    .systemBarsPadding()
+                    .statusBarsPadding()
             ) {
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(85.dp)
+                        .height(56.dp)
                 ) {
                     Icon(
                         painter = painterResource(id = iconResId),
@@ -63,7 +65,8 @@ fun StaticScaffold(
                         tint = ApplicationTheme.colors.tintColor,
                         modifier = Modifier
                             .align(Alignment.CenterVertically)
-                            .padding(start = 16.dp, top = 17.dp)
+                            .offset(y = -(5.dp))
+                            .padding(start = 16.dp)
                             .size(32.dp)
                     )
 
@@ -72,8 +75,9 @@ fun StaticScaffold(
                         color = ApplicationTheme.colors.tintColor,
                         style = ApplicationTheme.typography.headline2,
                         modifier = Modifier
-                            .padding(start = 16.dp, top = 17.dp, end = 8.dp)
                             .align(Alignment.CenterVertically)
+                            .offset(y = -(4.dp))
+                            .padding(start = 16.dp, end = 8.dp)
                     )
                 }
 
