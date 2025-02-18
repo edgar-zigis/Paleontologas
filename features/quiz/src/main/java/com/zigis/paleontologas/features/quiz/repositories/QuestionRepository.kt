@@ -11,7 +11,7 @@ import com.zigis.paleontologas.features.quiz.data.QuestionDao
 class QuestionRepository(
     private val context: Context,
     private val questionDao: QuestionDao
-) : BaseRepository<Question>(questionDao) {
+) : BaseRepository<Question>(questionDao, "quiz_questions") {
 
     @WorkerThread
     override suspend fun initialize() {
@@ -40,7 +40,7 @@ class QuestionRepository(
     }
 
     suspend fun findAll(periodId: Int): List<Question> {
-        val query = SimpleSQLiteQuery("SELECT * FROM question WHERE periodId=${periodId}")
+        val query = SimpleSQLiteQuery("SELECT * FROM quiz_questions WHERE periodId=${periodId}")
         return findAll(query)
     }
 

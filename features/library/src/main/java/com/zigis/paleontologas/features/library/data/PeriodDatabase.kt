@@ -29,7 +29,7 @@ abstract class PeriodDatabase : RoomDatabase() {
             return Room.databaseBuilder(
                 context.applicationContext,
                 PeriodDatabase::class.java,
-                "period"
+                "periods"
             ).fallbackToDestructiveMigration().build()
         }
     }

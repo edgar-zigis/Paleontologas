@@ -10,7 +10,7 @@ import com.zigis.paleontologas.features.library.data.Period
 class PeriodRepository(
     private val context: Context,
     private val periodDao: PeriodDao
-) : BaseRepository<Period>(periodDao) {
+) : BaseRepository<Period>(periodDao, tableName = "periods") {
 
     @WorkerThread
     override suspend fun initialize() {

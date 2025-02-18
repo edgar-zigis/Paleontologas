@@ -29,7 +29,7 @@ abstract class LifeFormDatabase : RoomDatabase() {
             return Room.databaseBuilder(
                 context.applicationContext,
                 LifeFormDatabase::class.java,
-                "lifeform"
+                "life_forms"
             ).fallbackToDestructiveMigration().build()
         }
     }
