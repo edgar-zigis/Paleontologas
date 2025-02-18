@@ -31,33 +31,59 @@
     <string name="result_1">Deja, šiuo atveju vienetas nereiškia, kad esate pirmas..</string>
     <string name="result_0">Taip, tai apvalus nulis!</string>
 
-    <string name="hadean_question_1">Kada prasidėjo hado eonas?</string>
+    <string name="hadean_question_1">Kada prasidėjo Hadėjaus eonas?</string>
+    <string name="hadean_variant_1_1">4560 milijonų metų</string>
+    <string name="hadean_variant_1_2">4700 milijonų metų</string>
+    <string name="hadean_variant_1_3">3890 milijonų metų</string>
+    <string name="hadean_variant_1_4">3200 milijonų metų</string>
 
-    <string name="hadean_variant_1_1">4560 mya</string>
-    <string name="hadean_variant_1_2">4700 mya</string>
-    <string name="hadean_variant_1_3">3890 mya</string>
-    <string name="hadean_variant_1_4">3200 mya</string>
+    <string name="hadean_question_2">Kuo daugiausia buvo padengtas ankstyvosios Hadėjaus Žemės paviršius?</string>
+    <string name="hadean_variant_2_1">Ledu ir vandeniu</string>
+    <string name="hadean_variant_2_2">Ugnikalniais ir išsilydžiusia uoliena</string>
+    <string name="hadean_variant_2_3">Miškais ir vandenynais</string>
+    <string name="hadean_variant_2_4">Lygumomis ir kalnais</string>
 
-    <string name="hadean_question_2">Kada baigėsi hado eonas?</string>
+    <string name="hadean_question_3">Kodėl ankstyvoji Hadėjaus atmosferą dažnai prarasdavo?</string>
+    <string name="hadean_variant_3_1">Ją sugėrė vandenynai</string>
+    <string name="hadean_variant_3_2">Ji buvo nuplėšta dažnų susidūrimų su kosminiais objektais</string>
+    <string name="hadean_variant_3_3">Ji buvo per lengva, kad išliktų Žemės gravitacijoje</string>
+    <string name="hadean_variant_3_4">Atmosferos visai nebuvo</string>
 
-    <string name="hadean_variant_2_1">4000 mya</string>
-    <string name="hadean_variant_2_2">3500 mya</string>
-    <string name="hadean_variant_2_3">2000 mya</string>
-    <string name="hadean_variant_2_4">4500 mya</string>
+    <string name="hadean_question_4">Koks įrodymas rodo, kad prieš 4,4 milijardo metų galėjo egzistuoti skystas vanduo?</string>
+    <string name="hadean_variant_4_1">Nuosėdinės uolienos</string>
+    <string name="hadean_variant_4_2">Fosilizuoti mikroorganizmai</string>
+    <string name="hadean_variant_4_3">Cirkonio kristalai</string>
+    <string name="hadean_variant_4_4">Bazalto dariniai</string>
 
-    <string name="hadean_question_3">Kuris mineralas įrodo vandens egzistavimą hade?</string>
+    <string name="hadean_question_5">Kas buvo vienas pagrindinių organinių molekulių šaltinių ankstyvojoje Žemėje?</string>
+    <string name="hadean_variant_5_1">Vulkaniniai išsiveržimai</string>
+    <string name="hadean_variant_5_2">Anglies turtingi meteoritai</string>
+    <string name="hadean_variant_5_3">Potvynių baseinai</string>
+    <string name="hadean_variant_5_4">Hidroterminiai šaltiniai</string>
 
-    <string name="hadean_variant_3_1">cirkonas</string>
-    <string name="hadean_variant_3_2">varis</string>
-    <string name="hadean_variant_3_3">titanas</string>
-    <string name="hadean_variant_3_4">kvarcas</string>
+    <string name="hadean_question_6">Koks įvykis žymėjo Hadėjaus eono pabaigą?</string>
+    <string name="hadean_variant_6_1">Pirmųjų daugialąsčių organizmų atsiradimas</string>
+    <string name="hadean_variant_6_2">Žemės plutos stabilizacija ir pirmųjų vandenynų susidarymas</string>
+    <string name="hadean_variant_6_3">Pirminių gyvybės formų masinis išnykimas</string>
+    <string name="hadean_variant_6_4">Sudėtingų gyvūnų atsiradimas</string>
 
-    <string name="hadean_question_4">Kokia yra tikėtiniausia mokslinė gyvybės atsiradimo Žemėje priežastis?</string>
+    <string name="hadean_question_7">Kokią temperatūrą galėjo pasiekti ankstyvosios Hadėjaus Žemės paviršius?</string>
+    <string name="hadean_variant_7_1">50°C</string>
+    <string name="hadean_variant_7_2">230°C</string>
+    <string name="hadean_variant_7_3">1000°C</string>
+    <string name="hadean_variant_7_4">10 000°C</string>
 
-    <string name="hadean_variant_4_1">meteoritai</string>
-    <string name="hadean_variant_4_2">Dievas</string>
-    <string name="hadean_variant_4_3">branduolinės reakcijos</string>
-    <string name="hadean_variant_4_4">Donaldas Trumpas</string>
+    <string name="hadean_question_8">Koks buvo vienas pagrindinių veiksnių, dėl kurių ankstyvoji Žemė buvo negyvenama?</string>
+    <string name="hadean_variant_8_1">Deguonies trūkumas</string>
+    <string name="hadean_variant_8_2">Dažni asteroidų smūgiai ir ekstremali vulkaninė veikla</string>
+    <string name="hadean_variant_8_3">Visuotinis ledynmetis</string>
+    <string name="hadean_variant_8_4">Intensyvios magnetinės audros</string>
+
+    <string name="hadean_question_9">Kokia yra labiausiai tikėtina mokslinė gyvybės atsiradimo Žemėje priežastis?</string>
+    <string name="hadean_variant_9_1">Meteorai</string>
+    <string name="hadean_variant_9_2">Dievas</string>
+    <string name="hadean_variant_9_3">Branduolinė sintezė</string>
+    <string name="hadean_variant_9_4">Donaldas Trumpas</string>
 
     <!--     BREAK      -->
 

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--    Total 324   -->
+    <!--    Total 329   -->
 
     <array name="hadean_questions">
-        <!--    4   -->
+        <!--    9   -->
+        <item>item_hadean</item>
+        <item>item_hadean</item>
+        <item>item_hadean</item>
+        <item>item_hadean</item>
+        <item>item_hadean</item>
         <item>item_hadean</item>
         <item>item_hadean</item>
         <item>item_hadean</item>

@@ -31,33 +31,59 @@
     <string name="result_1">Na žalost to ne pomeni, da ste prvi...</string>
     <string name="result_0">Da, samo okrogla ničla!</string>
 
-    <string name="hadean_question_1">Kdaj se je začel eon had?</string>
+    <string name="hadean_question_1">Kdaj se je začel Hadijski eon?</string>
+    <string name="hadean_variant_1_1">4560 milijonov let</string>
+    <string name="hadean_variant_1_2">4700 milijonov let</string>
+    <string name="hadean_variant_1_3">3890 milijonov let</string>
+    <string name="hadean_variant_1_4">3200 milijonov let</string>
 
-    <string name="hadean_variant_1_1">4560 m.l.n.</string>
-    <string name="hadean_variant_1_2">4700 m.l.n.</string>
-    <string name="hadean_variant_1_3">3890 m.l.n.</string>
-    <string name="hadean_variant_1_4">3200 m.l.n.</string>
+    <string name="hadean_question_2">S čim je bila večinoma prekrita površina Zemlje v zgodnjem Hadiju?</string>
+    <string name="hadean_variant_2_1">Led in voda</string>
+    <string name="hadean_variant_2_2">Vulkani in staljena kamnina</string>
+    <string name="hadean_variant_2_3">Gozdovi in oceani</string>
+    <string name="hadean_variant_2_4">Ravnine in gore</string>
 
-    <string name="hadean_question_2">Kdaj se je končal eon had?</string>
+    <string name="hadean_question_3">Zakaj je bila zgodnja hadijska atmosfera pogosto izgubljena?</string>
+    <string name="hadean_variant_3_1">Absorbirali so jo oceani</string>
+    <string name="hadean_variant_3_2">Odnesle so jo pogoste trke s kozmičnimi telesi</string>
+    <string name="hadean_variant_3_3">Bila je prelahka, da bi jo zadržala Zemljina gravitacija</string>
+    <string name="hadean_variant_3_4">Atmosfere sploh ni bilo</string>
 
-    <string name="hadean_variant_2_1">4000 m.l.n.</string>
-    <string name="hadean_variant_2_2">3500 m.l.n.</string>
-    <string name="hadean_variant_2_3">2000 m.l.n.</string>
-    <string name="hadean_variant_2_4">4500 m.l.n.</string>
+    <string name="hadean_question_4">Kateri dokazi kažejo, da bi lahko tekoča voda obstajala pred 4,4 milijarde let?</string>
+    <string name="hadean_variant_4_1">Sedimentne kamnine</string>
+    <string name="hadean_variant_4_2">Fosilizirani mikroorganizmi</string>
+    <string name="hadean_variant_4_3">Cirkonovi kristali</string>
+    <string name="hadean_variant_4_4">Bazaltne formacije</string>
 
-    <string name="hadean_question_3">Kateri mineral dokazuje obstoj vode v hadu?</string>
+    <string name="hadean_question_5">Kaj je bil eden glavnih virov organskih molekul na zgodnji Zemlji?</string>
+    <string name="hadean_variant_5_1">Vulkanski izbruhi</string>
+    <string name="hadean_variant_5_2">Meteoriti bogati z ogljikom</string>
+    <string name="hadean_variant_5_3">Plimne mlake</string>
+    <string name="hadean_variant_5_4">Hidrotermalni vrelci</string>
 
-    <string name="hadean_variant_3_1">cirkon</string>
-    <string name="hadean_variant_3_2">baker</string>
-    <string name="hadean_variant_3_3">titan</string>
-    <string name="hadean_variant_3_4">kamena strela</string>
+    <string name="hadean_question_6">Kateri dogodek je zaznamoval konec Hadijskega eona?</string>
+    <string name="hadean_variant_6_1">Nastanek prvih večceličnih organizmov</string>
+    <string name="hadean_variant_6_2">Stabilizacija Zemljine skorje in nastanek prvih oceanov</string>
+    <string name="hadean_variant_6_3">Masovno izumrtje primitivnih oblik življenja</string>
+    <string name="hadean_variant_6_4">Pojav kompleksnih živali</string>
 
-    <string name="hadean_question_4">Kateri je najverjetnejši znanstveni razlog za pojav življenja na Zemlji?</string>
+    <string name="hadean_question_7">Kakšno temperaturo bi lahko dosegla površina zgodnje Zemlje v Hadiju?</string>
+    <string name="hadean_variant_7_1">50°C</string>
+    <string name="hadean_variant_7_2">230°C</string>
+    <string name="hadean_variant_7_3">1000°C</string>
+    <string name="hadean_variant_7_4">10.000°C</string>
 
-    <string name="hadean_variant_4_1">meteoriti</string>
-    <string name="hadean_variant_4_2">Bog</string>
-    <string name="hadean_variant_4_3">jedrska fuzija</string>
-    <string name="hadean_variant_4_4">Donald Trump</string>
+    <string name="hadean_question_8">Kateri dejavnik je Zemljo v zgodnjem obdobju naredil neprimerljivo za življenje?</string>
+    <string name="hadean_variant_8_1">Pomanjkanje kisika</string>
+    <string name="hadean_variant_8_2">Pogosti trki asteroidov in intenzivna vulkanska dejavnost</string>
+    <string name="hadean_variant_8_3">Globalne ledene dobe</string>
+    <string name="hadean_variant_8_4">Intenzivne magnetne nevihte</string>
+
+    <string name="hadean_question_9">Kaj je najverjetnejši znanstveni razlog za pojav življenja na Zemlji?</string>
+    <string name="hadean_variant_9_1">Meteoriti</string>
+    <string name="hadean_variant_9_2">Bog</string>
+    <string name="hadean_variant_9_3">Jedrska fuzija</string>
+    <string name="hadean_variant_9_4">Donald Trump</string>
 
     <!--     BREAK      -->
 

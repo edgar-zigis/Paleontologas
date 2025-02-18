@@ -31,33 +31,59 @@
     <string name="result_1">Malheureusement, ça ne veut pas dire que vous êtes premier..</string>
     <string name="result_0">Zéro pointé!</string>
 
-    <string name="hadean_question_1">Quand commence l’éon Hadéen?</string>
+    <string name="hadean_question_1">Quand a commencé l’éon Hadéen ?</string>
+    <string name="hadean_variant_1_1">4560 millions d\'années</string>
+    <string name="hadean_variant_1_2">4700 millions d\'années</string>
+    <string name="hadean_variant_1_3">3890 millions d\'années</string>
+    <string name="hadean_variant_1_4">3200 millions d\'années</string>
 
-    <string name="hadean_variant_1_1">Il y a 4560 millions d’années</string>
-    <string name="hadean_variant_1_2">Il y a 4700 millions d’années</string>
-    <string name="hadean_variant_1_3">Il y a 3890 millions d’années</string>
-    <string name="hadean_variant_1_4">Il y a 3200 millions d’années</string>
+    <string name="hadean_question_2">De quoi était principalement recouverte la surface de la Terre à l’époque Hadéenne ?</string>
+    <string name="hadean_variant_2_1">Glace et eau</string>
+    <string name="hadean_variant_2_2">Volcans et roches en fusion</string>
+    <string name="hadean_variant_2_3">Forêts et océans</string>
+    <string name="hadean_variant_2_4">Plaines et montagnes</string>
 
-    <string name="hadean_question_2">Quand se termine l’éon Hadéen?</string>
+    <string name="hadean_question_3">Pourquoi l’atmosphère primitive de l’Hadéen a-t-elle été fréquemment perdue ?</string>
+    <string name="hadean_variant_3_1">Elle a été absorbée par les océans</string>
+    <string name="hadean_variant_3_2">Elle a été arrachée par des collisions fréquentes avec des objets spatiaux</string>
+    <string name="hadean_variant_3_3">Elle était trop légère pour être retenue par la gravité terrestre</string>
+    <string name="hadean_variant_3_4">Il n’y avait pas d’atmosphère</string>
 
-    <string name="hadean_variant_2_1">Il y a 4000 millions d’années</string>
-    <string name="hadean_variant_2_2">Il y a 3500 millions d’années </string>
-    <string name="hadean_variant_2_3">Il y a 2000 millions d’années </string>
-    <string name="hadean_variant_2_4">Il y a 4500 millions d’années </string>
+    <string name="hadean_question_4">Quelle preuve suggère que de l’eau liquide aurait pu exister il y a 4,4 milliards d’années ?</string>
+    <string name="hadean_variant_4_1">Roches sédimentaires</string>
+    <string name="hadean_variant_4_2">Micro-organismes fossilisés</string>
+    <string name="hadean_variant_4_3">Cristaux de zircon</string>
+    <string name="hadean_variant_4_4">Formations de basalte</string>
 
-    <string name="hadean_question_3">Quel minéral apporte la preuve de l’existence d’eau liquide pendant l’Hadéen?</string>
+    <string name="hadean_question_5">Quelle était l’une des principales sources de molécules organiques sur la Terre primitive ?</string>
+    <string name="hadean_variant_5_1">Éruptions volcaniques</string>
+    <string name="hadean_variant_5_2">Météorites riches en carbone</string>
+    <string name="hadean_variant_5_3">Mares de marée</string>
+    <string name="hadean_variant_5_4">Cheminées hydrothermales</string>
 
-    <string name="hadean_variant_3_1">zircon</string>
-    <string name="hadean_variant_3_2">cuivre</string>
-    <string name="hadean_variant_3_3">titane</string>
-    <string name="hadean_variant_3_4">quartz</string>
+    <string name="hadean_question_6">Quel événement a marqué la fin de l’éon Hadéen ?</string>
+    <string name="hadean_variant_6_1">Formation des premiers organismes multicellulaires</string>
+    <string name="hadean_variant_6_2">Stabilisation de la croûte terrestre et formation des premiers océans</string>
+    <string name="hadean_variant_6_3">Extinction massive des formes de vie primitives</string>
+    <string name="hadean_variant_6_4">Apparition des animaux complexes</string>
 
-    <string name="hadean_question_4">Quelle est la cause la plus probable, selon les scientifiques, de l’apparition de la vie sur Terre?</string>
+    <string name="hadean_question_7">Quelle température la surface terrestre pouvait-elle atteindre durant l’Hadéen ?</string>
+    <string name="hadean_variant_7_1">50°C</string>
+    <string name="hadean_variant_7_2">230°C</string>
+    <string name="hadean_variant_7_3">1000°C</string>
+    <string name="hadean_variant_7_4">10 000°C</string>
 
-    <string name="hadean_variant_4_1">Les météorites</string>
-    <string name="hadean_variant_4_2">Dieu</string>
-    <string name="hadean_variant_4_3">La fusion nucléaire</string>
-    <string name="hadean_variant_4_4">Donald Trump</string>
+    <string name="hadean_question_8">Quel facteur a rendu la Terre primitive inhabitable ?</string>
+    <string name="hadean_variant_8_1">Manque d’oxygène</string>
+    <string name="hadean_variant_8_2">Impacts fréquents d’astéroïdes et activité volcanique extrême</string>
+    <string name="hadean_variant_8_3">Périodes glaciaires mondiales</string>
+    <string name="hadean_variant_8_4">Tempêtes magnétiques intenses</string>
+
+    <string name="hadean_question_9">Quelle est la raison scientifique la plus probable de l’apparition de la vie sur Terre ?</string>
+    <string name="hadean_variant_9_1">Météorites</string>
+    <string name="hadean_variant_9_2">Dieu</string>
+    <string name="hadean_variant_9_3">Fusion nucléaire</string>
+    <string name="hadean_variant_9_4">Donald Trump</string>
 
     <!--     BREAK      -->
 

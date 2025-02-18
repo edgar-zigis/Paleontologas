@@ -31,33 +31,59 @@
     <string name="result_1">Sfortunatamente, non significa che tu sia il primo..</string>
     <string name="result_0">Sì, solo uno zero rotondo!</string>
 
-    <string name="hadean_question_1">Quando iniziò l\'Eone Adeano?</string>
+    <string name="hadean_question_1">Quando è iniziato l\'Eone Adeano?</string>
+    <string name="hadean_variant_1_1">4560 milioni di anni fa</string>
+    <string name="hadean_variant_1_2">4700 milioni di anni fa</string>
+    <string name="hadean_variant_1_3">3890 milioni di anni fa</string>
+    <string name="hadean_variant_1_4">3200 milioni di anni fa</string>
 
-    <string name="hadean_variant_1_1">4560 ma</string>
-    <string name="hadean_variant_1_2">4700 ma</string>
-    <string name="hadean_variant_1_3">3890 ma</string>
-    <string name="hadean_variant_1_4">3200 ma</string>
+    <string name="hadean_question_2">Da cosa era principalmente ricoperta la superficie della Terra durante l\'Eone Adeano?</string>
+    <string name="hadean_variant_2_1">Ghiaccio e acqua</string>
+    <string name="hadean_variant_2_2">Vulcani e rocce fuse</string>
+    <string name="hadean_variant_2_3">Foreste e oceani</string>
+    <string name="hadean_variant_2_4">Pianure e montagne</string>
 
-    <string name="hadean_question_2"> Quando terminò l\'Eone Adeano?</string>
+    <string name="hadean_question_3">Perché l\'atmosfera primitiva dell\'Adeano è stata frequentemente persa?</string>
+    <string name="hadean_variant_3_1">È stata assorbita dagli oceani</string>
+    <string name="hadean_variant_3_2">È stata spazzata via da frequenti collisioni con oggetti spaziali</string>
+    <string name="hadean_variant_3_3">Era troppo leggera per essere trattenuta dalla gravità terrestre</string>
+    <string name="hadean_variant_3_4">Non c\'era affatto un\'atmosfera</string>
 
-    <string name="hadean_variant_2_1">4000 ma</string>
-    <string name="hadean_variant_2_2">3500 ma</string>
-    <string name="hadean_variant_2_3">2000 ma</string>
-    <string name="hadean_variant_2_4">4500 ma</string>
+    <string name="hadean_question_4">Quale prova suggerisce che l\'acqua liquida potrebbe essere esistita 4,4 miliardi di anni fa?</string>
+    <string name="hadean_variant_4_1">Rocce sedimentarie</string>
+    <string name="hadean_variant_4_2">Microrganismi fossilizzati</string>
+    <string name="hadean_variant_4_3">Cristalli di zircone</string>
+    <string name="hadean_variant_4_4">Formazioni basaltiche</string>
 
-    <string name="hadean_question_3"> Quale minerale fornisce la prova dell\'esistenza dell\'acqua nell’Adean?</string>
+    <string name="hadean_question_5">Quale fu una delle principali fonti di molecole organiche sulla Terra primordiale?</string>
+    <string name="hadean_variant_5_1">Eruzioni vulcaniche</string>
+    <string name="hadean_variant_5_2">Meteoriti ricchi di carbonio</string>
+    <string name="hadean_variant_5_3">Pozze di marea</string>
+    <string name="hadean_variant_5_4">Camini idrotermali</string>
 
-    <string name="hadean_variant_3_1">zircone</string>
-    <string name="hadean_variant_3_2">rame</string>
-    <string name="hadean_variant_3_3">titanio</string>
-    <string name="hadean_variant_3_4">quarzo</string>
+    <string name="hadean_question_6">Quale evento ha segnato la fine dell\'Eone Adeano?</string>
+    <string name="hadean_variant_6_1">Formazione della prima vita multicellulare</string>
+    <string name="hadean_variant_6_2">Stabilizzazione della crosta terrestre e formazione dei primi oceani</string>
+    <string name="hadean_variant_6_3">Estinzione di massa delle forme di vita primitive</string>
+    <string name="hadean_variant_6_4">Comparsa di animali complessi</string>
 
-    <string name="hadean_question_4"> Qual è la ragione scientifica più probabile dell\'apparizione della vita sulla Terra?</string>
+    <string name="hadean_question_7">Quale temperatura poteva raggiungere la superficie terrestre durante l\'Eone Adeano?</string>
+    <string name="hadean_variant_7_1">50°C</string>
+    <string name="hadean_variant_7_2">230°C</string>
+    <string name="hadean_variant_7_3">1000°C</string>
+    <string name="hadean_variant_7_4">10.000°C</string>
 
-    <string name="hadean_variant_4_1">Meteoriti</string>
-    <string name="hadean_variant_4_2">Dio</string>
-    <string name="hadean_variant_4_3">La fusione nucleare</string>
-    <string name="hadean_variant_4_4">Donald Trump</string>
+    <string name="hadean_question_8">Quale fattore ha reso la Terra primitiva inabitabile?</string>
+    <string name="hadean_variant_8_1">Mancanza di ossigeno</string>
+    <string name="hadean_variant_8_2">Frequenti impatti di asteroidi e intensa attività vulcanica</string>
+    <string name="hadean_variant_8_3">Ere glaciali globali</string>
+    <string name="hadean_variant_8_4">Tempeste magnetiche intense</string>
+
+    <string name="hadean_question_9">Qual è la ragione scientifica più probabile per la comparsa della vita sulla Terra?</string>
+    <string name="hadean_variant_9_1">Meteoriti</string>
+    <string name="hadean_variant_9_2">Dio</string>
+    <string name="hadean_variant_9_3">Fusione nucleare</string>
+    <string name="hadean_variant_9_4">Donald Trump</string>
 
     <!--     BREAK      -->
 
