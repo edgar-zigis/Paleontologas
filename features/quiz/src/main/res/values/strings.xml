@@ -31,33 +31,59 @@
     <string name="result_1">Unfortunately, it doesn\'t mean that you are first..</string>
     <string name="result_0">Yes, just a round zero!</string>
 
-    <string name="hadean_question_1">When the Hadean eon began?</string>
-
+    <string name="hadean_question_1">When did the Hadean Eon begin?</string>
     <string name="hadean_variant_1_1">4560 mya</string>
     <string name="hadean_variant_1_2">4700 mya</string>
     <string name="hadean_variant_1_3">3890 mya</string>
     <string name="hadean_variant_1_4">3200 mya</string>
 
-    <string name="hadean_question_2">When the Hadean eon ended?</string>
+    <string name="hadean_question_2">What was the surface of early Hadean Earth mostly covered by?</string>
+    <string name="hadean_variant_2_1">Ice and water</string>
+    <string name="hadean_variant_2_2">Volcanoes and molten rock</string>
+    <string name="hadean_variant_2_3">Forests and oceans</string>
+    <string name="hadean_variant_2_4">Plains and mountains</string>
 
-    <string name="hadean_variant_2_1">4000 mya</string>
-    <string name="hadean_variant_2_2">3500 mya</string>
-    <string name="hadean_variant_2_3">2000 mya</string>
-    <string name="hadean_variant_2_4">4500 mya</string>
+    <string name="hadean_question_3">Why was the early Hadean atmosphere frequently lost?</string>
+    <string name="hadean_variant_3_1">It was absorbed by the oceans</string>
+    <string name="hadean_variant_3_2">It was stripped away by frequent collisions with space objects</string>
+    <string name="hadean_variant_3_3">It was too light to be retained by Earth\'s gravity</string>
+    <string name="hadean_variant_3_4">There was no atmosphere at all</string>
 
-    <string name="hadean_question_3">What mineral provides evidence for water existence in Hadean?</string>
+    <string name="hadean_question_4">What evidence suggests that liquid water may have existed 4.4 billion years ago?</string>
+    <string name="hadean_variant_4_1">Sedimentary rocks</string>
+    <string name="hadean_variant_4_2">Fossilized microorganisms</string>
+    <string name="hadean_variant_4_3">Zircon crystals</string>
+    <string name="hadean_variant_4_4">Basalt formations</string>
 
-    <string name="hadean_variant_3_1">zircon</string>
-    <string name="hadean_variant_3_2">copper</string>
-    <string name="hadean_variant_3_3">titanium</string>
-    <string name="hadean_variant_3_4">quartz</string>
+    <string name="hadean_question_5">What was one of the main sources of organic molecules on early Earth?</string>
+    <string name="hadean_variant_5_1">Volcanic eruptions</string>
+    <string name="hadean_variant_5_2">Carbon-rich meteorites</string>
+    <string name="hadean_variant_5_3">Tidal pools</string>
+    <string name="hadean_variant_5_4">Hydrothermal vents</string>
 
-    <string name="hadean_question_4">What is the most likely scientific reason of the life appearance in Earth?</string>
+    <string name="hadean_question_6">What event marked the end of the Hadean Eon?</string>
+    <string name="hadean_variant_6_1">Formation of the first multicellular life</string>
+    <string name="hadean_variant_6_2">Stabilization of Earth\'s crust and formation of early oceans</string>
+    <string name="hadean_variant_6_3">Mass extinction of primitive life forms</string>
+    <string name="hadean_variant_6_4">The appearance of complex animal life</string>
 
-    <string name="hadean_variant_4_1">meteorites</string>
-    <string name="hadean_variant_4_2">God</string>
-    <string name="hadean_variant_4_3">nuclear fusion</string>
-    <string name="hadean_variant_4_4">Donald Trump</string>
+    <string name="hadean_question_7">What temperature could the early Hadean surface reach?</string>
+    <string name="hadean_variant_7_1">50°C</string>
+    <string name="hadean_variant_7_2">230°C</string>
+    <string name="hadean_variant_7_3">1000°C</string>
+    <string name="hadean_variant_7_4">10,000°C</string>
+
+    <string name="hadean_question_8">What was a major factor that made early Earth uninhabitable?</string>
+    <string name="hadean_variant_8_1">Lack of oxygen</string>
+    <string name="hadean_variant_8_2">Frequent asteroid impacts and extreme volcanic activity</string>
+    <string name="hadean_variant_8_3">Global ice ages</string>
+    <string name="hadean_variant_8_4">Intense magnetic storms</string>
+
+    <string name="hadean_question_9">What is the most likely scientific reason for the appearance of life on Earth?</string>
+    <string name="hadean_variant_9_1">Meteorites</string>
+    <string name="hadean_variant_9_2">God</string>
+    <string name="hadean_variant_9_3">Nuclear fusion</string>
+    <string name="hadean_variant_9_4">Donald Trump</string>
 
     <!--     BREAK      -->
 

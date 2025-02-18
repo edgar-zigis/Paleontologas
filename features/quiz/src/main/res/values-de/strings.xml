@@ -31,32 +31,58 @@
     <string name="result_0">YES, glatte Null!</string>
 
     <string name="hadean_question_1">Wann begann das Hadaikum?</string>
+    <string name="hadean_variant_1_1">4560 Mio. Jahre</string>
+    <string name="hadean_variant_1_2">4700 Mio. Jahre</string>
+    <string name="hadean_variant_1_3">3890 Mio. Jahre</string>
+    <string name="hadean_variant_1_4">3200 Mio. Jahre</string>
 
-    <string name="hadean_variant_1_1">4560 mya</string>
-    <string name="hadean_variant_1_2">4700 mya</string>
-    <string name="hadean_variant_1_3">3890 mya</string>
-    <string name="hadean_variant_1_4">3200 mya</string>
+    <string name="hadean_question_2">Womit war die Oberfläche der frühen Hadaikum-Erde hauptsächlich bedeckt?</string>
+    <string name="hadean_variant_2_1">Eis und Wasser</string>
+    <string name="hadean_variant_2_2">Vulkane und geschmolzenes Gestein</string>
+    <string name="hadean_variant_2_3">Wälder und Ozeane</string>
+    <string name="hadean_variant_2_4">Ebenen und Berge</string>
 
-    <string name="hadean_question_2">Wann endete das Hadaikum?</string>
+    <string name="hadean_question_3">Warum ging die frühe Hadaikum-Atmosphäre häufig verloren?</string>
+    <string name="hadean_variant_3_1">Sie wurde von den Ozeanen absorbiert</string>
+    <string name="hadean_variant_3_2">Sie wurde durch häufige Kollisionen mit Himmelskörpern abgestreift</string>
+    <string name="hadean_variant_3_3">Sie war zu leicht, um von der Erdgravitation gehalten zu werden</string>
+    <string name="hadean_variant_3_4">Es gab überhaupt keine Atmosphäre</string>
 
-    <string name="hadean_variant_2_1">4000 mya</string>
-    <string name="hadean_variant_2_2">3500 mya</string>
-    <string name="hadean_variant_2_3">2000 mya</string>
-    <string name="hadean_variant_2_4">4500 mya</string>
+    <string name="hadean_question_4">Welcher Beweis deutet darauf hin, dass vor 4,4 Milliarden Jahren flüssiges Wasser existierte?</string>
+    <string name="hadean_variant_4_1">Sedimentgesteine</string>
+    <string name="hadean_variant_4_2">Fossilisierte Mikroorganismen</string>
+    <string name="hadean_variant_4_3">Zirkonkristalle</string>
+    <string name="hadean_variant_4_4">Basaltformationen</string>
 
-    <string name="hadean_question_3">Welches Mineral ist der Beweis für die Existenz von Wasser während des Hadaikums?</string>
+    <string name="hadean_question_5">Was war eine der Hauptquellen organischer Moleküle auf der frühen Erde?</string>
+    <string name="hadean_variant_5_1">Vulkanausbrüche</string>
+    <string name="hadean_variant_5_2">Kohlenstoffreiche Meteoriten</string>
+    <string name="hadean_variant_5_3">Gezeitenbecken</string>
+    <string name="hadean_variant_5_4">Hydrothermale Quellen</string>
 
-    <string name="hadean_variant_3_1">Zirkon</string>
-    <string name="hadean_variant_3_2">Kupfer</string>
-    <string name="hadean_variant_3_3">Titan</string>
-    <string name="hadean_variant_3_4">Quarz</string>
+    <string name="hadean_question_6">Welches Ereignis markierte das Ende des Hadaikums?</string>
+    <string name="hadean_variant_6_1">Die Entstehung des ersten mehrzelligen Lebens</string>
+    <string name="hadean_variant_6_2">Die Stabilisierung der Erdkruste und die Bildung der ersten Ozeane</string>
+    <string name="hadean_variant_6_3">Massenaussterben primitiver Lebensformen</string>
+    <string name="hadean_variant_6_4">Das Erscheinen komplexer Tierformen</string>
 
-    <string name="hadean_question_4">Was ist der wahrscheinlichste wissenschaftliche Grund für das Erscheinen von Leben auf der Erde?</string>
+    <string name="hadean_question_7">Welche Temperatur konnte die Oberfläche der frühen Erde erreichen?</string>
+    <string name="hadean_variant_7_1">50°C</string>
+    <string name="hadean_variant_7_2">230°C</string>
+    <string name="hadean_variant_7_3">1000°C</string>
+    <string name="hadean_variant_7_4">10.000°C</string>
 
-    <string name="hadean_variant_4_1">Meteoriten</string>
-    <string name="hadean_variant_4_2">Gott</string>
-    <string name="hadean_variant_4_3">nukleare Fusion</string>
-    <string name="hadean_variant_4_4">Donald Trump</string>
+    <string name="hadean_question_8">Welcher Faktor machte die frühe Erde unbewohnbar?</string>
+    <string name="hadean_variant_8_1">Mangel an Sauerstoff</string>
+    <string name="hadean_variant_8_2">Häufige Asteroideneinschläge und extreme vulkanische Aktivität</string>
+    <string name="hadean_variant_8_3">Globale Eiszeiten</string>
+    <string name="hadean_variant_8_4">Intensive Magnetstürme</string>
+
+    <string name="hadean_question_9">Was ist der wahrscheinlichste wissenschaftliche Grund für das Erscheinen des Lebens auf der Erde?</string>
+    <string name="hadean_variant_9_1">Meteoriten</string>
+    <string name="hadean_variant_9_2">Gott</string>
+    <string name="hadean_variant_9_3">Kernfusion</string>
+    <string name="hadean_variant_9_4">Donald Trump</string>
 
     <!--     BREAK      -->
 
