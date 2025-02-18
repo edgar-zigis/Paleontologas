@@ -81,7 +81,7 @@ private fun QuizProgressScreenUiImplementation(
 
             Box(
                 modifier = Modifier
-                    .size(240.dp)
+                    .size(210.dp)
                     .align(Alignment.CenterHorizontally)
             ) {
                 ArcProgressbar(

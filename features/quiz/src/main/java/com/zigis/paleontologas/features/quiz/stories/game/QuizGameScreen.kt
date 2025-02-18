@@ -112,7 +112,7 @@ private fun QuizGameScreenUiImplementation(
                 ),
                 color = ApplicationTheme.colors.headingText,
                 style = TextStyle(
-                    fontSize = 24.sp,
+                    fontSize = 22.sp,
                     fontFamily = ThemeFonts.Gentona,
                     fontWeight = FontWeight.Normal
                 ),
