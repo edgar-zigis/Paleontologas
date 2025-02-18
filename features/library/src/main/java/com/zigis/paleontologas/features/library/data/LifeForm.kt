@@ -3,7 +3,7 @@ package com.zigis.paleontologas.features.library.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "life_forms")
 data class LifeForm(
     @PrimaryKey(autoGenerate = true) val id: Int,
     val periodId: Int,

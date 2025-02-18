@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "periods")
 data class Period(
     @PrimaryKey(autoGenerate = true) val id: Int,
     val title: String,

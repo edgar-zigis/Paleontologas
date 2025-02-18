@@ -29,7 +29,7 @@ abstract class QuestionDatabase : RoomDatabase() {
             return Room.databaseBuilder(
                 context.applicationContext,
                 QuestionDatabase::class.java,
-                "question"
+                "quiz_questions"
             ).fallbackToDestructiveMigration().build()
         }
     }

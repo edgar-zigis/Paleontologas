@@ -1,17 +1,17 @@
 package com.zigis.paleontologas.core.architecture
 
 import androidx.sqlite.db.SimpleSQLiteQuery
-import java.lang.reflect.ParameterizedType
 
 abstract class BaseRepository<T>(
-    private val dao: BaseDao<T>
+    private val dao: BaseDao<T>,
+    private val tableName: String
 ) {
     abstract suspend fun initialize()
 
     suspend fun findOne(id: Int): T {
         return dao.findOne(
             SimpleSQLiteQuery(
-                "SELECT * FROM ${databaseName()}  WHERE id=$id"
+                "SELECT * FROM $tableName  WHERE id=$id"
             )
         )
     }
@@ -19,7 +19,7 @@ abstract class BaseRepository<T>(
     suspend fun findAll(): List<T> {
         return dao.findAll(
             SimpleSQLiteQuery(
-                "SELECT * FROM ${databaseName()}"
+                "SELECT * FROM $tableName"
             )
         )
     }
@@ -31,15 +31,8 @@ abstract class BaseRepository<T>(
     protected suspend fun deleteAll(): Int {
         return dao.deleteAll(
             SimpleSQLiteQuery(
-                "DELETE FROM ${databaseName()}"
+                "DELETE FROM $tableName"
             )
         )
-    }
-
-    @Suppress("UNCHECKED_CAST")
-    private fun databaseName(): String {
-        val parameterizedType = javaClass.genericSuperclass as ParameterizedType
-        val classType = parameterizedType.actualTypeArguments[0] as Class<T>
-        return classType.simpleName.lowercase()
     }
 }

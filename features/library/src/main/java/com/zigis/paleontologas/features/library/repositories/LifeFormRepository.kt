@@ -11,7 +11,7 @@ import com.zigis.paleontologas.features.library.data.LifeForm
 class LifeFormRepository(
     private val context: Context,
     private val lifeFormDao: LifeFormDao
-) : BaseRepository<LifeForm>(lifeFormDao) {
+) : BaseRepository<LifeForm>(lifeFormDao, tableName = "life_forms") {
 
     @WorkerThread
     override suspend fun initialize() {
@@ -408,7 +408,7 @@ class LifeFormRepository(
     }
 
     suspend fun findAll(periodId: Int): List<LifeForm> {
-        val query = SimpleSQLiteQuery("SELECT * FROM lifeform WHERE periodId=${periodId}")
+        val query = SimpleSQLiteQuery("SELECT * FROM life_forms WHERE periodId=${periodId}")
         return findAll(query)
     }
 }

@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "quiz_questions")
 data class Question(
     @PrimaryKey(autoGenerate = true) val id: Int,
     val periodId: Int,

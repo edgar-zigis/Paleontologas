@@ -30,9 +30,9 @@ android {
     buildTypes {
         release {
             if (this.name == 'app') {
-                shrinkResources true
+                shrinkResources false
+                minifyEnabled true
             }
-            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
