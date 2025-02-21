@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--    Total 329   -->
+    <!--    Total 342   -->
 
     <array name="hadean_questions">
         <!--    9   -->
@@ -17,20 +17,33 @@
     </array>
 
     <array name="archean_questions">
-        <!--    17   -->
+        <!--    30   -->
         <item>item_archean</item>
         <item>item_archean</item>
         <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean_stromatolites</item>
+        <item>item_archean</item>
+        <item>item_archean_banded_iron_formation</item>
         <item>item_archean</item>
         <item>item_archean</item>
         <item>item_archean_banded_iron_formation</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean_stromatolites</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
+        <item>item_archean</item>
         <item>item_archean_banded_iron_formation</item>
         <item>item_archean_banded_iron_formation</item>
         <item>item_archean_banded_iron_formation</item>
         <item>item_archean_stromatolites</item>
         <item>item_archean_stromatolites</item>
         <item>item_archean_stromatolites</item>
-        <item>item_archean_primaevifilum_amoenum</item>
         <item>item_archean_primaevifilum_amoenum</item>
         <item>item_archean_acritarch</item>
         <item>item_archean_acritarch</item>
