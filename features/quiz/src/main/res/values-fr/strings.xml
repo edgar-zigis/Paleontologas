@@ -87,124 +87,185 @@
 
     <!--     BREAK      -->
 
-    <string name="archean_question_1">Quand commence l’éon Archéen?</string>
+    <string name="archean_question_1">Quand a commencé l\'éon Archéen ?</string>
+    <string name="archean_variant_1_1">4000 millions d\'années</string>
+    <string name="archean_variant_1_2">4500 millions d\'années</string>
+    <string name="archean_variant_1_3">3500 millions d\'années</string>
+    <string name="archean_variant_1_4">2000 millions d\'années</string>
 
-    <string name="archean_variant_1_1">Il y a 4000 millions d’années</string>
-    <string name="archean_variant_1_2">Il y a 4500 millions d’années </string>
-    <string name="archean_variant_1_3">Il y a 3500 millions d’années </string>
-    <string name="archean_variant_1_4">Il y a 2000 millions d’années </string>
+    <string name="archean_question_2">Quelle était la principale raison des températures élevées sur la Terre primitive pendant l\'Archéen ?</string>
+    <string name="archean_variant_2_1">Haute concentration de gaz à effet de serre</string>
+    <string name="archean_variant_2_2">Le Soleil était beaucoup plus brillant</string>
+    <string name="archean_variant_2_3">Impacts fréquents d\'astéroïdes</string>
+    <string name="archean_variant_2_4">Activité volcanique</string>
 
-    <string name="archean_question_2">Quand se termine l’éon Archéen?</string>
+    <string name="archean_question_3">Quelle était la luminosité approximative du Soleil pendant l\'éon Archéen par rapport à aujourd\'hui ?</string>
+    <string name="archean_variant_3_1">70–75%</string>
+    <string name="archean_variant_3_2">50%</string>
+    <string name="archean_variant_3_3">90%</string>
+    <string name="archean_variant_3_4">100%</string>
 
-    <string name="archean_variant_2_1">Il y a 2500 millions d’années</string>
-    <string name="archean_variant_2_2">Il y a 3000 millions d’années </string>
-    <string name="archean_variant_2_3">Il y a 2000 millions d’années </string>
-    <string name="archean_variant_2_4">Il y a 1500 millions d’années </string>
+    <string name="archean_question_4">Quel événement majeur a probablement retardé l\'apparition de la vie au début de l\'Archéen ?</string>
+    <string name="archean_variant_4_1">Grand Bombardement Tardif</string>
+    <string name="archean_variant_4_2">Grand Événement d\'Oxydation</string>
+    <string name="archean_variant_4_3">Formation des supercontinents</string>
+    <string name="archean_variant_4_4">Formation de la Lune</string>
 
-    <string name="archean_question_3">Pour quelle raison la température de la Terre était 2 à 3 fois plus élevée qu’aujourd’hui pendant l’Archéen?</string>
+    <string name="archean_question_5">Combien de cratères de plus de 1 000 km se seraient formés sur Terre pendant le Grand Bombardement Tardif ?</string>
+    <string name="archean_variant_5_1">Environ 40</string>
+    <string name="archean_variant_5_2">Environ 100</string>
+    <string name="archean_variant_5_3">Moins de 10</string>
+    <string name="archean_variant_5_4">Plus de 500</string>
 
-    <string name="archean_variant_3_1">Toutes les réponses sont correctes</string>
-    <string name="archean_variant_3_2">Une grand concentration de gaz à effet de serre</string>
-    <string name="archean_variant_3_3">La chaleur du noyau planétaire</string>
-    <string name="archean_variant_3_4">La croissance physique de la planète</string>
+    <string name="archean_question_6">Quelle est la plus ancienne preuve largement acceptée de la vie datant de l\'Archéen ?</string>
+    <string name="archean_variant_6_1">Stromatolites</string>
+    <string name="archean_variant_6_2">Arche de Noé</string>
+    <string name="archean_variant_6_3">Formations de fer rubané</string>
+    <string name="archean_variant_6_4">Les plus anciennes roches du Groenland</string>
 
-    <string name="archean_question_4">De quand date l’apparition la plus ancienne possible des premiers procaryotes?</string>
+    <string name="archean_question_7">Quelle hypothèse explique la cause du Grand Bombardement Tardif ?</string>
+    <string name="archean_variant_7_1">Migration orbitale des planètes géantes</string>
+    <string name="archean_variant_7_2">Augmentation du rayonnement solaire</string>
+    <string name="archean_variant_7_3">Effondrement d\'une lune astéroïdale</string>
+    <string name="archean_variant_7_4">Éruptions volcaniques massives</string>
 
-    <string name="archean_variant_4_1">D’il y a 3770 millions d’années</string>
-    <string name="archean_variant_4_2">D’il y a 3500 millions d’années </string>
-    <string name="archean_variant_4_3">D’il y a 2700 millions d’années </string>
-    <string name="archean_variant_4_4">D’il y a 2560 millions d’années </string>
+    <string name="archean_question_8">Quel processus a probablement contribué à la formation des formations de fer rubané ?</string>
+    <string name="archean_variant_8_1">Photosynthèse par les premiers microbes</string>
+    <string name="archean_variant_8_2">Dépôts volcaniques abiotiques de fer</string>
+    <string name="archean_variant_8_3">Impacts de météorites</string>
+    <string name="archean_variant_8_4">Forces de marée de la Lune</string>
 
-    <string name="archean_question_5">De quand date l’apparition la plus ancienne possible des premiers eucaryotes? </string>
+    <string name="archean_question_9">Quand les premiers eucaryotes sont-ils probablement apparus, selon les preuves des biomarqueurs lipidiques ?</string>
+    <string name="archean_variant_9_1">Il y a environ 2,7 milliards d\'années</string>
+    <string name="archean_variant_9_2">Au début de l\'Archéen</string>
+    <string name="archean_variant_9_3">Il y a 3,5 milliards d\'années</string>
+    <string name="archean_variant_9_4">Pendant l\'éon Hadéen</string>
 
-    <string name="archean_variant_5_1">D’il y a 2700 millions d’années</string>
-    <string name="archean_variant_5_2">D’il y a 3100 millions d’années</string>
-    <string name="archean_variant_5_3">D’il y a 3450 millions d’années</string>
-    <string name="archean_variant_5_4">D’il y a 3770 millions d’années</string>
+    <string name="archean_question_10">Quelle était une caractéristique clé de la tectonique terrestre à la fin de l\'Archéen ?</string>
+    <string name="archean_variant_10_1">Elle ressemblait à la tectonique des plaques moderne</string>
+    <string name="archean_variant_10_2">Il n\'y avait aucun mouvement tectonique</string>
+    <string name="archean_variant_10_3">Toute la surface était recouverte de magma</string>
+    <string name="archean_variant_10_4">Les supercontinents s\'étaient déjà formés</string>
 
-    <string name="archean_question_6">Qu’est-ce qui est représenté sur cette image?</string>
+    <string name="archean_question_11">Quelle est la plus ancienne apparition connue des formations de fer rubané ?</string>
+    <string name="archean_variant_11_1">3850 millions d\'années</string>
+    <string name="archean_variant_11_2">3650 millions d\'années</string>
+    <string name="archean_variant_11_3">2890 millions d\'années</string>
+    <string name="archean_variant_11_4">3200 millions d\'années</string>
 
-    <string name="archean_variant_6_1">Des formations de fer rubanées</string>
-    <string name="archean_variant_6_2">Des stromatolites</string>
-    <string name="archean_variant_6_3">Des Acritarches</string>
-    <string name="archean_variant_6_4">Des Pierres de quartz</string>
+    <string name="archean_question_12">Quel type de formes de vie dominait l\'éon Archéen ?</string>
+    <string name="archean_variant_12_1">Microorganismes procaryotes</string>
+    <string name="archean_variant_12_2">Animaux multicellulaires</string>
+    <string name="archean_variant_12_3">Plantes à fleurs</string>
+    <string name="archean_variant_12_4">Vertébrés</string>
 
-    <string name="archean_question_7">De quand date l’apparition la plus ancienne connue des formations de fer rubanées?</string>
+    <string name="archean_question_13">Quel type de bactéries a joué un rôle crucial dans l\'oxygénation de l\'atmosphère pendant l\'Archéen ?</string>
+    <string name="archean_variant_13_1">Cyanobactéries</string>
+    <string name="archean_variant_13_2">Méthanogènes</string>
+    <string name="archean_variant_13_3">Halophiles</string>
+    <string name="archean_variant_13_4">Thermophiles</string>
 
-    <string name="archean_variant_7_1">D’il y a 3850 millions d’années</string>
-    <string name="archean_variant_7_2">D’il y a 3650 millions d’années </string>
-    <string name="archean_variant_7_3">D’il y a 2890 millions d’années </string>
-    <string name="archean_variant_7_4">D’il y a 3200 millions d’années </string>
+    <string name="archean_question_14">Quel était le principal processus métabolique utilisé par les premières formes de vie de l\'Archéen ?</string>
+    <string name="archean_variant_14_1">Respiration anaérobie</string>
+    <string name="archean_variant_14_2">Photosynthèse</string>
+    <string name="archean_variant_14_3">Respiration aérobie</string>
+    <string name="archean_variant_14_4">Fermentation</string>
 
-    <string name="archean_question_8">Quelle est la cause possible de l’apparition des formations de fer rubanées?</string>
+    <string name="archean_question_15">Quelles preuves les scientifiques utilisent-ils pour étudier la vie primitive de l\'Archéen ?</string>
+    <string name="archean_variant_15_1">Microfossiles et stromatolithes</string>
+    <string name="archean_variant_15_2">Os de dinosaures</string>
+    <string name="archean_variant_15_3">Insectes conservés dans l\'ambre</string>
+    <string name="archean_variant_15_4">Cernes d\'arbres fossilisés</string>
 
-    <string name="archean_variant_8_1">Les cyanobacteries</string>
-    <string name="archean_variant_8_2">Les bactéries nitrogènes</string>
-    <string name="archean_variant_8_3">La chaleur statique du noyau planétaire</string>
-    <string name="archean_variant_8_4">Des aliens multicellulaires</string>
+    <string name="archean_question_16">Pourquoi l\'atmosphère de l\'Archéen était-elle différente de celle d\'aujourd\'hui ?</string>
+    <string name="archean_variant_16_1">Elle ne contenait pas d\'oxygène libre</string>
+    <string name="archean_variant_16_2">Elle contenait de grandes quantités d\'ozone</string>
+    <string name="archean_variant_16_3">Elle avait des niveaux élevés d\'azote et d\'oxygène</string>
+    <string name="archean_variant_16_4">Elle était principalement composée d\'hélium</string>
 
-    <string name="archean_question_9">Quel type de minéral forme les bandes rouges sur cette image?</string>
+    <string name="archean_question_17">Quelle est l\'importance des stromatolithes dans la période Archéenne ?</string>
+    <string name="archean_variant_17_1">Ils fournissent des preuves de la vie microbienne précoce</string>
+    <string name="archean_variant_17_2">Ce sont des récifs coralliens fossilisés</string>
+    <string name="archean_variant_17_3">Ils ont été formés par une activité volcanique</string>
+    <string name="archean_variant_17_4">Ce sont les restes de poissons primitifs</string>
 
-    <string name="archean_variant_9_1">hématite</string>
-    <string name="archean_variant_9_2">calcite</string>
-    <string name="archean_variant_9_3">améthyste</string>
-    <string name="archean_variant_9_4">aragonite</string>
+    <string name="archean_question_18">Comment la vie de l\'Archéen a-t-elle affecté l\'atmosphère terrestre ?</string>
+    <string name="archean_variant_18_1">Elle a contribué à l\'accumulation d\'oxygène</string>
+    <string name="archean_variant_18_2">Elle a provoqué des extinctions massives</string>
+    <string name="archean_variant_18_3">Elle a augmenté les niveaux de dioxyde de carbone</string>
+    <string name="archean_variant_18_4">Elle a épuisé les réserves d\'azote</string>
 
-    <string name="archean_question_10">Qu’est-ce qui est montré sur cette image?</string>
+    <string name="archean_question_19">Quelle était la principale source d\'énergie pour la vie primitive de l\'Archéen ?</string>
+    <string name="archean_variant_19_1">Sources hydrothermales</string>
+    <string name="archean_variant_19_2">Lumière du Soleil</string>
+    <string name="archean_variant_19_3">Désintégration radioactive</string>
+    <string name="archean_variant_19_4">Éclairs</string>
 
-    <string name="archean_variant_10_1">Des stromatolites</string>
-    <string name="archean_variant_10_2">Des formations de fer rubanées</string>
-    <string name="archean_variant_10_3">Des roches organiques</string>
-    <string name="archean_variant_10_4">Des météorites du grand bombardement tardif</string>
+    <string name="archean_question_20">Quel processus a commencé à augmenter l\'oxygène atmosphérique à la fin de l\'Archéen ?</string>
+    <string name="archean_variant_20_1">Photosynthèse par les cyanobactéries</string>
+    <string name="archean_variant_20_2">Éruptions volcaniques</string>
+    <string name="archean_variant_20_3">Impacts de comètes</string>
+    <string name="archean_variant_20_4">Activité tectonique</string>
 
-    <string name="archean_question_11">De quand date l’apparition la plus ancinne possible des stromatolites?</string>
+    <string name="archean_question_21">Quel type d\'objet est montré sur cette image ?</string>
+    <string name="archean_variant_21_1">Formations de fer rubané</string>
+    <string name="archean_variant_21_2">Stromatolithes</string>
+    <string name="archean_variant_21_3">Acritarcha</string>
+    <string name="archean_variant_21_4">Roches de quartz</string>
 
-    <string name="archean_variant_11_1">D’il y a 3700 millions d’années</string>
-    <string name="archean_variant_11_2">D’il y a 3650 millions d’années </string>
-    <string name="archean_variant_11_3">D’il y a 3210 millions d’années </string>
-    <string name="archean_variant_11_4">D’il y a 3010 millions d’années </string>
+    <string name="archean_question_22">Quelle est la cause possible de la formation des formations de fer rubané ?</string>
+    <string name="archean_variant_22_1">Cyanobactéries</string>
+    <string name="archean_variant_22_2">Bactéries fixatrices d\'azote</string>
+    <string name="archean_variant_22_3">Chaleur statique du noyau de la planète</string>
+    <string name="archean_variant_22_4">Aliens multicellulaires</string>
 
-    <string name="archean_question_12">Où les stromatolites peuvent-ils être observés aujourd’hui? </string>
+    <string name="archean_question_23">Quel type de minéral forme les bandes rouges dans l\'objet montré ?</string>
+    <string name="archean_variant_23_1">Hématite</string>
+    <string name="archean_variant_23_2">Calcite</string>
+    <string name="archean_variant_23_3">Améthyste</string>
+    <string name="archean_variant_23_4">Aragonite</string>
 
-    <string name="archean_variant_12_1">Dans les lacs hypersalins</string>
-    <string name="archean_variant_12_2">Sur les montagnes arides</string>
-    <string name="archean_variant_12_3">Dans l’océan profond près des Mariannes</string>
-    <string name="archean_variant_12_4">Dans l’eau douce</string>
+    <string name="archean_question_24">Quel type d\'objet est montré sur cette image ?</string>
+    <string name="archean_variant_24_1">Stromatolithes</string>
+    <string name="archean_variant_24_2">Formations de fer rubané</string>
+    <string name="archean_variant_24_3">Roches organiques</string>
+    <string name="archean_variant_24_4">Météorites du Grand Bombardement Tardif</string>
 
-    <string name="archean_question_13">Quel type de micro-organisme est montré sur cette image?</string>
+    <string name="archean_question_25">Quelle est la plus ancienne apparition connue des stromatolithes ?</string>
+    <string name="archean_variant_25_1">3450 millions d\'années</string>
+    <string name="archean_variant_25_2">3650 millions d\'années</string>
+    <string name="archean_variant_25_3">3210 millions d\'années</string>
+    <string name="archean_variant_25_4">3010 millions d\'années</string>
 
-    <string name="archean_variant_13_1">Primaevifilum amoneum</string>
-    <string name="archean_variant_13_2">Escherichia coli</string>
-    <string name="archean_variant_13_3">Des traces organiques inconnues</string>
-    <string name="archean_variant_13_4">Clostridium perfringens</string>
+    <string name="archean_question_26">Où peut-on trouver des stromatolithes aujourd\'hui ?</string>
+    <string name="archean_variant_26_1">Lacs hypersalins</string>
+    <string name="archean_variant_26_2">Montagnes sèches</string>
+    <string name="archean_variant_26_3">Océan profond près de la fosse des Mariannes</string>
+    <string name="archean_variant_26_4">Eau douce</string>
 
-    <string name="archean_question_14">De quand date l’apparition la plus ancienne connue de Primaevifilum amoneum?</string>
+    <string name="archean_question_27">Quel type de microorganisme est montré sur cette image ?</string>
+    <string name="archean_variant_27_1">Primaevifilum amoneum</string>
+    <string name="archean_variant_27_2">Escherichia coli</string>
+    <string name="archean_variant_27_3">Traces organiques inconnues</string>
+    <string name="archean_variant_27_4">Clostridium perfringens</string>
 
-    <string name="archean_variant_14_1">D’il y a 3465 millions d’années</string>
-    <string name="archean_variant_14_2">D’il y a 3100 millions d’années </string>
-    <string name="archean_variant_14_3">D’il y a 2320 millions d’années </string>
-    <string name="archean_variant_14_4">D’il y a 3245 millions d’années </string>
+    <string name="archean_question_28">Quel type d\'objet est montré sur cette image ?</string>
+    <string name="archean_variant_28_1">Acritarcha</string>
+    <string name="archean_variant_28_2">Glossopteris</string>
+    <string name="archean_variant_28_3">Archaeopteris</string>
+    <string name="archean_variant_28_4">Cyanobactéries</string>
 
-    <string name="archean_question_15">Qu’est-ce qui est montré sur cette photo?</string>
+    <string name="archean_question_29">Quelle est la plus ancienne apparition connue des acritarcha ?</string>
+    <string name="archean_variant_29_1">3200 millions d\'années</string>
+    <string name="archean_variant_29_2">3400 millions d\'années</string>
+    <string name="archean_variant_29_3">2900 millions d\'années</string>
+    <string name="archean_variant_29_4">2700 millions d\'années</string>
 
-    <string name="archean_variant_15_1">Une acritarche</string>
-    <string name="archean_variant_15_2">Glossopteris</string>
-    <string name="archean_variant_15_3">Archaeopteris</string>
-    <string name="archean_variant_15_4">Une cyanobactérie</string>
-
-    <string name="archean_question_16">De quand date l’apparition la plus ancienne connue des acritarches?</string>
-
-    <string name="archean_variant_16_1">D’il y a 3200 millions d’années</string>
-    <string name="archean_variant_16_2">D’il y a 3400 millions d’années</string>
-    <string name="archean_variant_16_3">D’il y a 2900 millions d’années </string>
-    <string name="archean_variant_16_4">D’il y a 2700 millions d’années </string>
-
-    <string name="archean_question_17">Laquelle de ces propositions est classifiée comme une acritarche?</string>
-
-    <string name="archean_variant_17_1">Des coquilles d’oeufs</string>
-    <string name="archean_variant_17_2">Du sable organique</string>
-    <string name="archean_variant_17_3">Des vers</string>
-    <string name="archean_variant_17_4">Du lichen</string>
+    <string name="archean_question_30">Lequel de ces objets peut être classé comme acritarcha ?</string>
+    <string name="archean_variant_30_1">Enveloppes d\'œufs</string>
+    <string name="archean_variant_30_2">Sable organique</string>
+    <string name="archean_variant_30_3">Vers</string>
+    <string name="archean_variant_30_4">Lichens</string>
 
     <!--     BREAK      -->
 
