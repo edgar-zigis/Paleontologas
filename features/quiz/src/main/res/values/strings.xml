@@ -118,9 +118,9 @@
     <string name="archean_variant_5_4">More than 500</string>
 
     <string name="archean_question_6">What is the earliest widely accepted evidence of life from the Archean?</string>
-    <string name="archean_variant_6_1">3.48-billion-year-old stromatolites</string>
-    <string name="archean_variant_6_2">4.5-billion-year-old fossils</string>
-    <string name="archean_variant_6_3">2.0-billion-year-old banded iron formations</string>
+    <string name="archean_variant_6_1">Stromatolites</string>
+    <string name="archean_variant_6_2">Noah’s Ark</string>
+    <string name="archean_variant_6_3">Banded iron formations</string>
     <string name="archean_variant_6_4">Greenland’s oldest rocks</string>
 
     <string name="archean_question_7">Which hypothesis explains the cause of the Late Heavy Bombardment?</string>
