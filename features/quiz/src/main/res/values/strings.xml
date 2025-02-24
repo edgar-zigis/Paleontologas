@@ -270,144 +270,178 @@
     <!--     BREAK      -->
 
     <string name="proterozoic_question_1">When the Proterozoic eon began?</string>
-
     <string name="proterozoic_variant_1_1">2500 mya</string>
     <string name="proterozoic_variant_1_2">2300 mya</string>
     <string name="proterozoic_variant_1_3">2700 mya</string>
     <string name="proterozoic_variant_1_4">1800 mya</string>
 
     <string name="proterozoic_question_2">When the Proterozoic eon ended?</string>
-
     <string name="proterozoic_variant_2_1">541 mya</string>
     <string name="proterozoic_variant_2_2">635 mya</string>
     <string name="proterozoic_variant_2_3">525 mya</string>
     <string name="proterozoic_variant_2_4">612 mya</string>
 
     <string name="proterozoic_question_3">When the last Snowball Earth event occurred?</string>
-
     <string name="proterozoic_variant_3_1">during the Cryogenian</string>
     <string name="proterozoic_variant_3_2">during the Huronian</string>
     <string name="proterozoic_variant_3_3">during the Ordovician</string>
     <string name="proterozoic_variant_3_4">during the Famenian</string>
 
     <string name="proterozoic_question_4">What is the main cause of the Great Oxidation Event?</string>
-
     <string name="proterozoic_variant_4_1">photosynthesis</string>
     <string name="proterozoic_variant_4_2">depletion of the sulfuric deposits</string>
     <string name="proterozoic_variant_4_3">continental crust</string>
     <string name="proterozoic_variant_4_4">Snowball Earth</string>
 
     <string name="proterozoic_question_5">When the Great Oxidation Event occurred?</string>
-
     <string name="proterozoic_variant_5_1">during the Proterozoic</string>
     <string name="proterozoic_variant_5_2">during the Archean</string>
     <string name="proterozoic_variant_5_3">during the Paleozoic</string>
     <string name="proterozoic_variant_5_4">during the Huronian</string>
 
     <string name="proterozoic_question_6">What kind of organism is shown in this picture?</string>
-
     <string name="proterozoic_variant_6_1">Bangiomorpha pubescens</string>
     <string name="proterozoic_variant_6_2">Nemiana simplex</string>
     <string name="proterozoic_variant_6_3">Archaeocyatha</string>
     <string name="proterozoic_variant_6_4">Welwitschia</string>
 
     <string name="proterozoic_question_7">In which eon did this organism live?</string>
-
     <string name="proterozoic_variant_7_1">Proterozoic</string>
     <string name="proterozoic_variant_7_2">Archean</string>
     <string name="proterozoic_variant_7_3">Paleozoic</string>
     <string name="proterozoic_variant_7_4">Mesozoic</string>
 
     <string name="proterozoic_question_8">To which organism group does this organism belong?</string>
-
     <string name="proterozoic_variant_8_1">red algae</string>
     <string name="proterozoic_variant_8_2">brown algae</string>
     <string name="proterozoic_variant_8_3">marine worm</string>
     <string name="proterozoic_variant_8_4">fungi</string>
 
     <string name="proterozoic_question_9">What kind of organism is shown in this picture?</string>
-
     <string name="proterozoic_variant_9_1">Nemiana simplex</string>
     <string name="proterozoic_variant_9_2">Cloudina</string>
     <string name="proterozoic_variant_9_3">Orthoceras</string>
     <string name="proterozoic_variant_9_4">Gastornis</string>
 
     <string name="proterozoic_question_10">During which geological period this organism appeared?</string>
-
     <string name="proterozoic_variant_10_1">Ediacaran</string>
     <string name="proterozoic_variant_10_2">Ordovician</string>
     <string name="proterozoic_variant_10_3">Silurian</string>
     <string name="proterozoic_variant_10_4">Cambrian</string>
 
     <string name="proterozoic_question_11">What kind of organism is shown in this picture?</string>
-
     <string name="proterozoic_variant_11_1">Tribrachidium heraldicum</string>
     <string name="proterozoic_variant_11_2">Nemiana simplex</string>
     <string name="proterozoic_variant_11_3">Treptichnus pedum</string>
     <string name="proterozoic_variant_11_4">Argentavis</string>
 
     <string name="proterozoic_question_12">During which geological period this organism appeared?</string>
-
     <string name="proterozoic_variant_12_1">Ediacaran</string>
     <string name="proterozoic_variant_12_2">Ordovician</string>
     <string name="proterozoic_variant_12_3">Permian</string>
     <string name="proterozoic_variant_12_4">Dickinsonian</string>
 
     <string name="proterozoic_question_13">What kind of organism is shown in this picture?</string>
-
     <string name="proterozoic_variant_13_1">Dickinsonia</string>
     <string name="proterozoic_variant_13_2">Coelacanth</string>
     <string name="proterozoic_variant_13_3">Paraceratherium</string>
     <string name="proterozoic_variant_13_4">Daeodon</string>
 
     <string name="proterozoic_question_14">During which geological period this organism appeared?</string>
-
     <string name="proterozoic_variant_14_1">Ediacaran</string>
     <string name="proterozoic_variant_14_2">Cretaceous</string>
     <string name="proterozoic_variant_14_3">Carboniferous</string>
     <string name="proterozoic_variant_14_4">Cambrian</string>
 
     <string name="proterozoic_question_15">What kind of symmetry this organism resemble?</string>
-
     <string name="proterozoic_variant_15_1">bilateral</string>
     <string name="proterozoic_variant_15_2">radial</string>
     <string name="proterozoic_variant_15_3">conical</string>
     <string name="proterozoic_variant_15_4">normal</string>
 
     <string name="proterozoic_question_16">What kind of organism is shown in this picture?</string>
-
     <string name="proterozoic_variant_16_1">Cloudina</string>
     <string name="proterozoic_variant_16_2">Wiwaxia</string>
     <string name="proterozoic_variant_16_3">Morganucodon</string>
     <string name="proterozoic_variant_16_4">Coelodonta</string>
 
     <string name="proterozoic_question_17">During which geological period this organism appeared?</string>
-
     <string name="proterozoic_variant_17_1">Ediacaran</string>
     <string name="proterozoic_variant_17_2">Neogene</string>
     <string name="proterozoic_variant_17_3">Paleogene</string>
     <string name="proterozoic_variant_17_4">Silurian</string>
 
     <string name="proterozoic_question_18">What kind of organism is shown in this picture?</string>
-
     <string name="proterozoic_variant_18_1">Charnia</string>
     <string name="proterozoic_variant_18_2">Astraspis</string>
     <string name="proterozoic_variant_18_3">Baragwanathia</string>
     <string name="proterozoic_variant_18_4">Wattieza</string>
 
     <string name="proterozoic_question_19">During which geological period this organism appeared?</string>
-
     <string name="proterozoic_variant_19_1">Ediacaran</string>
     <string name="proterozoic_variant_19_2">Triassic</string>
     <string name="proterozoic_variant_19_3">Cambrian</string>
     <string name="proterozoic_variant_19_4">Cryogenian</string>
 
     <string name="proterozoic_question_20">Which of the following statements about the Charnia is false?</string>
-
     <string name="proterozoic_variant_20_1">they belong to the plants</string>
     <string name="proterozoic_variant_20_2">they lived in the deep ocean</string>
     <string name="proterozoic_variant_20_3">they lived during the Precambrian</string>
     <string name="proterozoic_variant_20_4">they were reproducing sexually</string>
+
+    <string name="proterozoic_question_21">Why couldn\’t Charnia be classified as a plant or algae?</string>
+    <string name="proterozoic_variant_21_1">It lived in deep waters below the photic zone</string>
+    <string name="proterozoic_variant_21_2">It had roots and produced flowers</string>
+    <string name="proterozoic_variant_21_3">It could move freely in the water</string>
+    <string name="proterozoic_variant_21_4">It had a backbone</string>
+
+    <string name="proterozoic_question_22">What major atmospheric event occurred during the early Proterozoic?</string>
+    <string name="proterozoic_variant_22_1">The Great Oxidation Event</string>
+    <string name="proterozoic_variant_22_2">The Cambrian Explosion</string>
+    <string name="proterozoic_variant_22_3">The K-T Extinction</string>
+    <string name="proterozoic_variant_22_4">The Permian-Triassic Extinction</string>
+
+    <string name="proterozoic_question_23">Which type of organisms dominated stromatolite formations during the Proterozoic?</string>
+    <string name="proterozoic_variant_23_1">Cyanobacteria</string>
+    <string name="proterozoic_variant_23_2">Dinoflagellates</string>
+    <string name="proterozoic_variant_23_3">Amoebas</string>
+    <string name="proterozoic_variant_23_4">Corals</string>
+
+    <string name="proterozoic_question_24">What was the significance of Bangiomorpha pubescens?</string>
+    <string name="proterozoic_variant_24_1">It was the earliest known sexually reproducing organism</string>
+    <string name="proterozoic_variant_24_2">It was the first organism to use aerobic respiration</string>
+    <string name="proterozoic_variant_24_3">It was the first predator in the fossil record</string>
+    <string name="proterozoic_variant_24_4">It was the first multicellular animal</string>
+
+    <string name="proterozoic_question_25">Where did Nemiana simplex likely live?</string>
+    <string name="proterozoic_variant_25_1">On the seafloor, possibly absorbing nutrients from the water</string>
+    <string name="proterozoic_variant_25_2">In shallow waters using photosynthesis</string>
+    <string name="proterozoic_variant_25_3">On land in moist environments</string>
+    <string name="proterozoic_variant_25_4">Inside other organisms as a parasite</string>
+
+    <string name="proterozoic_question_26">Which of the following statements is true about Tribrachidium heraldicum?</string>
+    <string name="proterozoic_variant_26_1">It had tri-radial symmetry and used suspension feeding</string>
+    <string name="proterozoic_variant_26_2">It was a bilaterally symmetrical ancestor of vertebrates</string>
+    <string name="proterozoic_variant_26_3">It was a predator that hunted soft-bodied prey</string>
+    <string name="proterozoic_variant_26_4">It was a single-celled prokaryote</string>
+
+    <string name="proterozoic_question_27">How did Dickinsonia likely obtain nutrients?</string>
+    <string name="proterozoic_variant_27_1">By absorbing nutrients from microbial mats</string>
+    <string name="proterozoic_variant_27_2">By hunting small invertebrates</string>
+    <string name="proterozoic_variant_27_3">By filtering plankton from seawater</string>
+    <string name="proterozoic_variant_27_4">By photosynthesis</string>
+
+    <string name="proterozoic_question_28">What is significant about Cloudina in the fossil record?</string>
+    <string name="proterozoic_variant_28_1">It is among the earliest animals with mineralized skeletons</string>
+    <string name="proterozoic_variant_28_2">It is the first known vertebrate</string>
+    <string name="proterozoic_variant_28_3">It is the first land-dwelling organism</string>
+    <string name="proterozoic_variant_28_4">It is the oldest known eukaryotic fossil</string>
+
+    <string name="proterozoic_question_29">Why is Charnia considered an important fossil?</string>
+    <string name="proterozoic_variant_29_1">It was the first Precambrian organism formally described</string>
+    <string name="proterozoic_variant_29_2">It was the first fossilized dinosaur</string>
+    <string name="proterozoic_variant_29_3">It was the first known flying animal</string>
+    <string name="proterozoic_variant_29_4">It was a major predator in early oceans</string>
 
     <!--     BREAK      -->
 
