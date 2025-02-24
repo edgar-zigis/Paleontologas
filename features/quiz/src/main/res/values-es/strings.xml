@@ -16,6 +16,9 @@
     <string name="yes">¡SÍ!</string>
     <string name="no">¡NO!</string>
 
+    <string name="cancel">Cancelar</string>
+    <string name="exit_confirmation">Sí, salir!</string>
+
     <string name="correct_answered">Respuestas correctas </string>
 
     <string name="result_10">¡Su conocimiento es impresionante!\n¿Ha pensado en dedicarse en serio a la paleontología? </string>

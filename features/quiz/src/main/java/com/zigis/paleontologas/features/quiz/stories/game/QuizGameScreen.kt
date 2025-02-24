@@ -12,11 +12,16 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
@@ -69,11 +74,35 @@ private fun QuizGameScreenUiImplementation(
     sendIntent: (QuizGameIntent) -> Unit?
 ) {
     val context = LocalContext.current
+    var showBackConfirmationDialog by remember { mutableStateOf(false) }
+
+    if (showBackConfirmationDialog) {
+        AlertDialog(
+            onDismissRequest = { showBackConfirmationDialog = false },
+            title = { Text(stringResource(R.string.progress_wont_be_counted)) },
+            text = { Text(stringResource(R.string.do_you_really_want_to_exit)) },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        showBackConfirmationDialog = false
+                        sendIntent(QuizGameIntent.InvokeBack)
+                    }
+                ) {
+                    Text(stringResource(R.string.exit_confirmation))
+                }
+            },
+            dismissButton = {
+                Button(onClick = { showBackConfirmationDialog = false }) {
+                    Text(stringResource(R.string.cancel))
+                }
+            }
+        )
+    }
 
     NavigableScaffold(
         title = stringResource(id = R.string.quiz),
         onBack = {
-            sendIntent(QuizGameIntent.InvokeBack)
+            showBackConfirmationDialog = true
         }
     ) {
         if (viewState.question == null) {
@@ -131,7 +160,7 @@ private fun QuizGameScreenUiImplementation(
                 modifier = Modifier
                     .padding(start = 8.dp, end = 8.dp)
                     .fillMaxWidth()
-                    .fillMaxHeight(fraction = 0.4f)
+                    .fillMaxHeight(fraction = 0.42f)
                     .graphicsLayer(alpha = alpha)
                     .constrainAs(answerOptions) {
                         bottom.linkTo(parent.bottom)
@@ -184,7 +213,7 @@ private fun ColumnScope.QuizButton(
             containerColor = backgroundColor,
             contentColor = ApplicationTheme.colors.contentBackground
         ),
-        shape = RoundedCornerShape(0.dp),
+        shape = RoundedCornerShape(4.dp),
         onClick = {
             if (viewState.chosenOption != null) return@ElevatedButton
             sendIntent(

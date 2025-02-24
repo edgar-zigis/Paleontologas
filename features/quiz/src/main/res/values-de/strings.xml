@@ -16,6 +16,9 @@
     <string name="yes">Ja!</string>
     <string name="no">Nein.</string>
 
+    <string name="cancel">Abbrechen</string>
+    <string name="exit_confirmation">Ja, beenden!</string>
+
     <string name="correct_answered">richtig beantwortet</string>
 
     <string name="result_10">Dein Wissen ist beeindruckend!\n Schonmal über eine Karriere in der Paläontologie nachgedacht?</string>
