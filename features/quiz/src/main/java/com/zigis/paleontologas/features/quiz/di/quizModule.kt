@@ -24,7 +24,7 @@ val quizModule = module {
     single { get<QuestionDatabase>().questionDao() }
     single { QuestionRepository(androidContext(), get()) }
 
-    viewModel { QuizGameViewModel(get(), get()) }
+    viewModel { QuizGameViewModel(get(), get(), get(), get()) }
     viewModel { QuizProgressViewModel(get(), get()) }
     viewModel { QuizFinalResultViewModel(get()) }
 }

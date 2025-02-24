@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import com.zigis.paleontologas.EventBusInitializer
 import com.zigis.paleontologas.core.managers.ApplicationLocaleManager
 import com.zigis.paleontologas.core.managers.ApplicationVersionManager
+import com.zigis.paleontologas.core.managers.VibrationManager
 import com.zigis.paleontologas.core.preferences.ApplicationPreferences
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.core.routers.GlobalRouter
@@ -21,6 +22,7 @@ val applicationModule = module {
     single { ApplicationPreferences(get(named("applicationPreferences"))) }
     single { ApplicationVersionManager(androidContext()) }
     single { ApplicationLocaleManager(get()) }
+    single { VibrationManager(androidContext()) }
 
     single { GlobalRouter() }
 
