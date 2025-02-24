@@ -1,6 +1,8 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
 import com.zigis.paleontologas.core.architecture.BaseViewModel
+import com.zigis.paleontologas.core.managers.VibrationManager
+import com.zigis.paleontologas.core.preferences.ApplicationPreferences
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 import com.zigis.paleontologas.features.quiz.routing.QuizRouter
@@ -9,7 +11,9 @@ import kotlinx.coroutines.delay
 
 class QuizGameViewModel(
     private val quizRouter: QuizRouter,
-    private val quizGameProcessor: QuizGameProcessor
+    private val vibrationManager: VibrationManager,
+    private val quizGameProcessor: QuizGameProcessor,
+    private val applicationPreferences: ApplicationPreferences
 ) : BaseViewModel<QuizGameViewState, QuizGameIntent>() {
 
     override fun getInitialData() = QuizGameViewState()
@@ -34,6 +38,11 @@ class QuizGameViewModel(
     }
 
     private suspend fun answerQuestion(question: Question, option: Int) {
+        if (option != question.getCorrectVariantIndex()) {
+            if (applicationPreferences.isVibrationEnabled) {
+                vibrationManager.vibrate()
+            }
+        }
         updateState {
             it.copy(
                 chosenOption = option,
