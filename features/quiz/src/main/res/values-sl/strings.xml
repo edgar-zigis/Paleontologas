@@ -17,6 +17,9 @@
     <string name="yes">DA!</string>
     <string name="no">NE!</string>
 
+    <string name="cancel">Prekliči</string>
+    <string name="exit_confirmation">Da, izhod!</string>
+
     <string name="correct_answered">Pravilni odgovori</string>
 
     <string name="result_10">Vaše znanje je neverjetno! Ste kdaj razmišljali o paleontološki karieri?</string>

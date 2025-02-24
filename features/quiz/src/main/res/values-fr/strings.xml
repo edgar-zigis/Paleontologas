@@ -17,6 +17,9 @@
     <string name="yes">OUI!</string>
     <string name="no">NON!</string>
 
+    <string name="cancel">Annuler</string>
+    <string name="exit_confirmation">Oui, quitter !</string>
+
     <string name="correct_answered">Réponses correctes</string>
 
     <string name="result_10">Vos connaissances sont juste monstrueuses! Vous devriez songer à une carrière paléontologique?</string>
