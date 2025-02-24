@@ -51,7 +51,7 @@
     </array>
 
     <array name="proterozoic_questions">
-        <!--    20   -->
+        <!--    29   -->
         <item>item_proterozoic</item>
         <item>item_proterozoic</item>
         <item>item_proterozoic</item>
@@ -71,6 +71,15 @@
         <item>item_proterozoic_cloudina</item>
         <item>item_proterozoic_charnia</item>
         <item>item_proterozoic_charnia</item>
+        <item>item_proterozoic_charnia</item>
+        <item>item_proterozoic_charnia</item>
+        <item>item_proterozoic</item>
+        <item>item_proterozoic</item>
+        <item>item_proterozoic_bangiomorpha_pubescens</item>
+        <item>item_proterozoic_nemiana_simplex</item>
+        <item>item_proterozoic_tribrachidium_heraldicum</item>
+        <item>item_proterozoic_dickinsonia</item>
+        <item>item_proterozoic_cloudina</item>
         <item>item_proterozoic_charnia</item>
     </array>
 

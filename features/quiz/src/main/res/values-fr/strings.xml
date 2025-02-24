@@ -409,6 +409,60 @@
     <string name="proterozoic_variant_20_3">Ils vivaient pendant le Précambrien</string>
     <string name="proterozoic_variant_20_4">Ils se reproduisaient sexuellement</string>
 
+    <string name="proterozoic_question_21">Pourquoi Charnia ne pouvait-elle pas être classée comme une plante ou une algue ?</string>
+    <string name="proterozoic_variant_21_1">Elle vivait dans des eaux profondes en dessous de la zone photique</string>
+    <string name="proterozoic_variant_21_2">Elle avait des racines et produisait des fleurs</string>
+    <string name="proterozoic_variant_21_3">Elle pouvait se déplacer librement dans l\'eau</string>
+    <string name="proterozoic_variant_21_4">Elle avait une colonne vertébrale</string>
+
+    <string name="proterozoic_question_22">Quel événement atmosphérique majeur s\'est produit au début du Protérozoïque ?</string>
+    <string name="proterozoic_variant_22_1">Le Grand Événement d\'Oxydation</string>
+    <string name="proterozoic_variant_22_2">L\'Explosion Cambrienne</string>
+    <string name="proterozoic_variant_22_3">L\'Extinction K-T</string>
+    <string name="proterozoic_variant_22_4">L\'Extinction Permien-Trias</string>
+
+    <string name="proterozoic_question_23">Quel type d\'organismes dominait les formations de stromatolithes pendant le Protérozoïque ?</string>
+    <string name="proterozoic_variant_23_1">Les cyanobactéries</string>
+    <string name="proterozoic_variant_23_2">Les dinoflagellés</string>
+    <string name="proterozoic_variant_23_3">Les amibes</string>
+    <string name="proterozoic_variant_23_4">Les coraux</string>
+
+    <string name="proterozoic_question_24">Quelle est l\'importance de Bangiomorpha pubescens ?</string>
+    <string name="proterozoic_variant_24_1">C\'est le plus ancien organisme connu à se reproduire sexuellement</string>
+    <string name="proterozoic_variant_24_2">C\'est le premier organisme à utiliser la respiration aérobie</string>
+    <string name="proterozoic_variant_24_3">C\'est le premier prédateur dans les archives fossiles</string>
+    <string name="proterozoic_variant_24_4">C\'est le premier animal multicellulaire</string>
+
+    <string name="proterozoic_question_25">Où vivait probablement Nemiana simplex ?</string>
+    <string name="proterozoic_variant_25_1">Sur le fond marin, absorbant peut-être des nutriments de l\'eau</string>
+    <string name="proterozoic_variant_25_2">Dans les eaux peu profondes en utilisant la photosynthèse</string>
+    <string name="proterozoic_variant_25_3">Sur terre, dans des environnements humides</string>
+    <string name="proterozoic_variant_25_4">À l\'intérieur d\'autres organismes en tant que parasite</string>
+
+    <string name="proterozoic_question_26">Laquelle des affirmations suivantes est vraie à propos de Tribrachidium heraldicum ?</string>
+    <string name="proterozoic_variant_26_1">Il avait une symétrie tri-radiée et utilisait l\'alimentation par suspension</string>
+    <string name="proterozoic_variant_26_2">C\'était un ancêtre bilatéral des vertébrés</string>
+    <string name="proterozoic_variant_26_3">C\'était un prédateur qui chassait des proies à corps mou</string>
+    <string name="proterozoic_variant_26_4">C\'était un procaryote unicellulaire</string>
+
+    <string name="proterozoic_question_27">Comment Dickinsonia obtenait-elle probablement ses nutriments ?</string>
+    <string name="proterozoic_variant_27_1">En absorbant des nutriments à partir de tapis microbiens</string>
+    <string name="proterozoic_variant_27_2">En chassant de petits invertébrés</string>
+    <string name="proterozoic_variant_27_3">En filtrant du plancton dans l\'eau de mer</string>
+    <string name="proterozoic_variant_27_4">Par la photosynthèse</string>
+
+    <string name="proterozoic_question_28">Pourquoi Cloudina est-elle importante dans les archives fossiles ?</string>
+    <string name="proterozoic_variant_28_1">Elle fait partie des premiers animaux avec un squelette minéralisé</string>
+    <string name="proterozoic_variant_28_2">C\'est le premier vertébré connu</string>
+    <string name="proterozoic_variant_28_3">C\'est le premier organisme terrestre</string>
+    <string name="proterozoic_variant_28_4">C\'est le plus ancien fossile eucaryote connu</string>
+
+    <string name="proterozoic_question_29">Pourquoi Charnia est-elle considérée comme un fossile important ?</string>
+    <string name="proterozoic_variant_29_1">C\'était le premier organisme précambrien décrit formellement</string>
+    <string name="proterozoic_variant_29_2">C\'était le premier dinosaure fossile</string>
+    <string name="proterozoic_variant_29_3">C\'était le premier animal volant connu</string>
+    <string name="proterozoic_variant_29_4">C\'était un prédateur majeur dans les océans primitifs</string>
+
     <!--     BREAK      -->
 
     <string name="cambrian_question_1">Quand commença le Cambrien?</string>
