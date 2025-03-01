@@ -665,6 +665,108 @@
     <string name="cambrian_variant_31_3">Carboniferous</string>
     <string name="cambrian_variant_31_4">Cryogenian</string>
 
+    <string name="cambrian_question_32">Which fossil is used to define the boundary between the Ediacaran and Cambrian periods?</string>
+    <string name="cambrian_variant_32_1">Treptichnus pedum</string>
+    <string name="cambrian_variant_32_2">Marrella</string>
+    <string name="cambrian_variant_32_3">Hallucigenia</string>
+    <string name="cambrian_variant_32_4">Pikaia</string>
+
+    <string name="cambrian_question_33">What was the dominant group of animals in Cambrian oceans?</string>
+    <string name="cambrian_variant_33_1">Arthropods</string>
+    <string name="cambrian_variant_33_2">Echinoderms</string>
+    <string name="cambrian_variant_33_3">Chordates</string>
+    <string name="cambrian_variant_33_4">Cnidarians</string>
+
+    <string name="cambrian_question_34">Which event is known for the rapid diversification of life in the Cambrian?</string>
+    <string name="cambrian_variant_34_1">Cambrian Explosion</string>
+    <string name="cambrian_variant_34_2">Permian Extinction</string>
+    <string name="cambrian_variant_34_3">Great Oxygenation Event</string>
+    <string name="cambrian_variant_34_4">Silurian Radiation</string>
+
+    <string name="cambrian_question_35">What material were archaeocyathan skeletons made of?</string>
+    <string name="cambrian_variant_35_1">Calcite</string>
+    <string name="cambrian_variant_35_2">Silica</string>
+    <string name="cambrian_variant_35_3">Chitin</string>
+    <string name="cambrian_variant_35_4">Collagen</string>
+
+    <string name="cambrian_question_36">Which Cambrian predator had sophisticated compound eyes with at least 16,000 lenses?</string>
+    <string name="cambrian_variant_36_1">Anomalocaris</string>
+    <string name="cambrian_variant_36_2">Opabinia</string>
+    <string name="cambrian_variant_36_3">Hallucigenia</string>
+    <string name="cambrian_variant_36_4">Wiwaxia</string>
+
+    <string name="cambrian_question_37">What was a key function of Opabinia\'s proboscis?</string>
+    <string name="cambrian_variant_37_1">Grasping and transferring food</string>
+    <string name="cambrian_variant_37_2">Swimming</string>
+    <string name="cambrian_variant_37_3">Producing toxins</string>
+    <string name="cambrian_variant_37_4">Detecting temperature changes</string>
+
+    <string name="cambrian_question_38">Which Cambrian creature had five eyes and a backward-facing mouth?</string>
+    <string name="cambrian_variant_38_1">Opabinia</string>
+    <string name="cambrian_variant_38_2">Anomalocaris</string>
+    <string name="cambrian_variant_38_3">Wiwaxia</string>
+    <string name="cambrian_variant_38_4">Marrella</string>
+
+    <string name="cambrian_question_39">Which of these is considered a stem-group arthropod?</string>
+    <string name="cambrian_variant_39_1">Marrella</string>
+    <string name="cambrian_variant_39_2">Pikaia</string>
+    <string name="cambrian_variant_39_3">Conodonts</string>
+    <string name="cambrian_variant_39_4">Hallucigenia</string>
+
+    <string name="cambrian_question_40">What was the primary role of trilobites in the Cambrian ecosystem?</string>
+    <string name="cambrian_variant_40_1">Scavengers, predators, and filter feeders</string>
+    <string name="cambrian_variant_40_2">Top apex predators</string>
+    <string name="cambrian_variant_40_3">Terrestrial herbivores</string>
+    <string name="cambrian_variant_40_4">Reef builders</string>
+
+    <string name="cambrian_question_41">What is the likely modern relative of Hallucigenia?</string>
+    <string name="cambrian_variant_41_1">Velvet worms (onychophorans)</string>
+    <string name="cambrian_variant_41_2">Mollusks</string>
+    <string name="cambrian_variant_41_3">Jellyfish</string>
+    <string name="cambrian_variant_41_4">Echinoderms</string>
+
+    <string name="cambrian_question_42">What type of fossils are conodont elements?</string>
+    <string name="cambrian_variant_42_1">Tooth-like structures</string>
+    <string name="cambrian_variant_42_2">Bony skeletons</string>
+    <string name="cambrian_variant_42_3">Feathers</string>
+    <string name="cambrian_variant_42_4">Soft tissues</string>
+
+    <string name="cambrian_question_43">What was Myllokunmingia’s skeleton made of?</string>
+    <string name="cambrian_variant_43_1">Cartilage</string>
+    <string name="cambrian_variant_43_2">Bone</string>
+    <string name="cambrian_variant_43_3">Chitin</string>
+    <string name="cambrian_variant_43_4">Silica</string>
+
+    <string name="cambrian_question_44">Which Cambrian organism had a dorsal armor of spines and scales?</string>
+    <string name="cambrian_variant_44_1">Wiwaxia</string>
+    <string name="cambrian_variant_44_2">Pikaia</string>
+    <string name="cambrian_variant_44_3">Anomalocaris</string>
+    <string name="cambrian_variant_44_4">Marrella</string>
+
+    <string name="cambrian_question_45">Which organism is considered an early relative of vertebrates?</string>
+    <string name="cambrian_variant_45_1">Pikaia</string>
+    <string name="cambrian_variant_45_2">Hallucigenia</string>
+    <string name="cambrian_variant_45_3">Marrella</string>
+    <string name="cambrian_variant_45_4">Wiwaxia</string>
+
+    <string name="cambrian_question_46">What were the main reef builders of the Cambrian period?</string>
+    <string name="cambrian_variant_46_1">Archaeocyaths</string>
+    <string name="cambrian_variant_46_2">Trilobites</string>
+    <string name="cambrian_variant_46_3">Conodonts</string>
+    <string name="cambrian_variant_46_4">Hallucigenia</string>
+
+    <string name="cambrian_question_47">What type of environment did most Cambrian animals inhabit?</string>
+    <string name="cambrian_variant_47_1">Marine</string>
+    <string name="cambrian_variant_47_2">Terrestrial</string>
+    <string name="cambrian_variant_47_3">Freshwater</string>
+    <string name="cambrian_variant_47_4">Aerial</string>
+
+    <string name="cambrian_question_48">Which Cambrian organism is best known for its bizarre appearance and multiple misinterpretations in early research?</string>
+    <string name="cambrian_variant_48_1">Hallucigenia</string>
+    <string name="cambrian_variant_48_2">Pikaia</string>
+    <string name="cambrian_variant_48_3">Wiwaxia</string>
+    <string name="cambrian_variant_48_4">Marrella</string>
+
     <!--     BREAK      -->
 
     <string name="ordovician_question_1">When the Ordovician began?</string>
