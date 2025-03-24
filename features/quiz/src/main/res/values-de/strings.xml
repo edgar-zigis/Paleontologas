@@ -684,6 +684,108 @@
     <string name="cambrian_variant_31_3">Karbon</string>
     <string name="cambrian_variant_31_4">Cryogen</string>
 
+    <string name="cambrian_question_32">Welches Fossil wird zur Definition der Grenze zwischen dem Ediacarium und dem Kambrium verwendet?</string>
+    <string name="cambrian_variant_32_1">Treptichnus pedum</string>
+    <string name="cambrian_variant_32_2">Marrella</string>
+    <string name="cambrian_variant_32_3">Hallucigenia</string>
+    <string name="cambrian_variant_32_4">Pikaia</string>
+
+    <string name="cambrian_question_33">Welche Tiergruppe dominierte die Ozeane des Kambriums?</string>
+    <string name="cambrian_variant_33_1">Arthropoden</string>
+    <string name="cambrian_variant_33_2">Echinodermen</string>
+    <string name="cambrian_variant_33_3">Chordaten</string>
+    <string name="cambrian_variant_33_4">Nesseltiere</string>
+
+    <string name="cambrian_question_34">Welches Ereignis ist für die schnelle Diversifikation des Lebens im Kambrium bekannt?</string>
+    <string name="cambrian_variant_34_1">Kambrische Explosion</string>
+    <string name="cambrian_variant_34_2">Permische Auslöschung</string>
+    <string name="cambrian_variant_34_3">Großes Sauerstoffereignis</string>
+    <string name="cambrian_variant_34_4">Silurische Radiation</string>
+
+    <string name="cambrian_question_35">Aus welchem Material bestanden die Skelette der Archaeocyathen?</string>
+    <string name="cambrian_variant_35_1">Calcit</string>
+    <string name="cambrian_variant_35_2">Silizium</string>
+    <string name="cambrian_variant_35_3">Chitin</string>
+    <string name="cambrian_variant_35_4">Kollagen</string>
+
+    <string name="cambrian_question_36">Welcher kambrische Räuber hatte hochentwickelte Facettenaugen mit mindestens 16.000 Linsen?</string>
+    <string name="cambrian_variant_36_1">Anomalocaris</string>
+    <string name="cambrian_variant_36_2">Opabinia</string>
+    <string name="cambrian_variant_36_3">Hallucigenia</string>
+    <string name="cambrian_variant_36_4">Wiwaxia</string>
+
+    <string name="cambrian_question_37">Welche Hauptfunktion hatte der Rüssel von Opabinia?</string>
+    <string name="cambrian_variant_37_1">Ergreifen und Übertragen von Nahrung</string>
+    <string name="cambrian_variant_37_2">Schwimmen</string>
+    <string name="cambrian_variant_37_3">Toxine produzieren</string>
+    <string name="cambrian_variant_37_4">Temperaturveränderungen wahrnehmen</string>
+
+    <string name="cambrian_question_38">Welches kambrische Lebewesen hatte fünf Augen und ein rückwärts gerichtetes Maul?</string>
+    <string name="cambrian_variant_38_1">Opabinia</string>
+    <string name="cambrian_variant_38_2">Anomalocaris</string>
+    <string name="cambrian_variant_38_3">Wiwaxia</string>
+    <string name="cambrian_variant_38_4">Marrella</string>
+
+    <string name="cambrian_question_39">Welches dieser Lebewesen gilt als Stammgruppen-Arthropode?</string>
+    <string name="cambrian_variant_39_1">Marrella</string>
+    <string name="cambrian_variant_39_2">Pikaia</string>
+    <string name="cambrian_variant_39_3">Conodonten</string>
+    <string name="cambrian_variant_39_4">Hallucigenia</string>
+
+    <string name="cambrian_question_40">Welche Hauptrolle spielten Trilobiten im kambrischen Ökosystem?</string>
+    <string name="cambrian_variant_40_1">Aasfresser, Räuber und Filtrierer</string>
+    <string name="cambrian_variant_40_2">Top-Raubtiere</string>
+    <string name="cambrian_variant_40_3">Landbewohnende Pflanzenfresser</string>
+    <string name="cambrian_variant_40_4">Riffbauer</string>
+
+    <string name="cambrian_question_41">Was ist der wahrscheinlichste moderne Verwandte von Hallucigenia?</string>
+    <string name="cambrian_variant_41_1">Stummelfüßer (Onychophoren)</string>
+    <string name="cambrian_variant_41_2">Weichtiere</string>
+    <string name="cambrian_variant_41_3">Quallen</string>
+    <string name="cambrian_variant_41_4">Stachelhäuter</string>
+
+    <string name="cambrian_question_42">Welche Art von Fossilien sind Conodontenelemente?</string>
+    <string name="cambrian_variant_42_1">Zahnartige Strukturen</string>
+    <string name="cambrian_variant_42_2">Knochenskelette</string>
+    <string name="cambrian_variant_42_3">Federn</string>
+    <string name="cambrian_variant_42_4">Weichgewebe</string>
+
+    <string name="cambrian_question_43">Woraus bestand das Skelett von Myllokunmingia?</string>
+    <string name="cambrian_variant_43_1">Knorpel</string>
+    <string name="cambrian_variant_43_2">Knochen</string>
+    <string name="cambrian_variant_43_3">Chitin</string>
+    <string name="cambrian_variant_43_4">Silizium</string>
+
+    <string name="cambrian_question_44">Welches kambrische Lebewesen besaß eine Rückenpanzerung aus Stacheln und Schuppen?</string>
+    <string name="cambrian_variant_44_1">Wiwaxia</string>
+    <string name="cambrian_variant_44_2">Pikaia</string>
+    <string name="cambrian_variant_44_3">Anomalocaris</string>
+    <string name="cambrian_variant_44_4">Marrella</string>
+
+    <string name="cambrian_question_45">Welches Lebewesen gilt als früher Verwandter der Wirbeltiere?</string>
+    <string name="cambrian_variant_45_1">Pikaia</string>
+    <string name="cambrian_variant_45_2">Hallucigenia</string>
+    <string name="cambrian_variant_45_3">Marrella</string>
+    <string name="cambrian_variant_45_4">Wiwaxia</string>
+
+    <string name="cambrian_question_46">Welche waren die wichtigsten Riffbauer im Kambrium?</string>
+    <string name="cambrian_variant_46_1">Archaeocyathen</string>
+    <string name="cambrian_variant_46_2">Trilobiten</string>
+    <string name="cambrian_variant_46_3">Conodonten</string>
+    <string name="cambrian_variant_46_4">Hallucigenia</string>
+
+    <string name="cambrian_question_47">Welches Lebensumfeld bewohnten die meisten kambrischen Tiere?</string>
+    <string name="cambrian_variant_47_1">Marine</string>
+    <string name="cambrian_variant_47_2">Terrestrisch</string>
+    <string name="cambrian_variant_47_3">Süßwasser</string>
+    <string name="cambrian_variant_47_4">Luft</string>
+
+    <string name="cambrian_question_48">Welches kambrische Lebewesen ist bekannt für sein bizarreres Aussehen und zahlreiche Fehlinterpretationen in der frühen Forschung?</string>
+    <string name="cambrian_variant_48_1">Hallucigenia</string>
+    <string name="cambrian_variant_48_2">Pikaia</string>
+    <string name="cambrian_variant_48_3">Wiwaxia</string>
+    <string name="cambrian_variant_48_4">Marrella</string>
+
     <!--     BREAK      -->
 
     <string name="ordovician_question_1">Wann begann das Ordovizium?</string>

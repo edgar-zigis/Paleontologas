@@ -685,6 +685,108 @@
     <string name="cambrian_variant_31_3">karbon</string>
     <string name="cambrian_variant_31_4">kriogenij</string>
 
+    <string name="cambrian_question_32">Kateri fosil se uporablja za določitev meje med ediakarijem in kambrijem?</string>
+    <string name="cambrian_variant_32_1">Treptichnus pedum</string>
+    <string name="cambrian_variant_32_2">Marrella</string>
+    <string name="cambrian_variant_32_3">Hallucigenia</string>
+    <string name="cambrian_variant_32_4">Pikaia</string>
+
+    <string name="cambrian_question_33">Katera skupina živali je prevladovala v kambrijskih oceanih?</string>
+    <string name="cambrian_variant_33_1">Členonožci</string>
+    <string name="cambrian_variant_33_2">Iglokožci</string>
+    <string name="cambrian_variant_33_3">Strunarji</string>
+    <string name="cambrian_variant_33_4">Ožigalkarji</string>
+
+    <string name="cambrian_question_34">Kateri dogodek je znan po hitri raznolikosti življenja v kambriju?</string>
+    <string name="cambrian_variant_34_1">Kambrijska eksplozija</string>
+    <string name="cambrian_variant_34_2">Permsko izumrtje</string>
+    <string name="cambrian_variant_34_3">Veliki dogodek oksigenacije</string>
+    <string name="cambrian_variant_34_4">Silurska radiacija</string>
+
+    <string name="cambrian_question_35">Iz katerega materiala so bili sestavljeni skeleti arheociatov?</string>
+    <string name="cambrian_variant_35_1">Kalcit</string>
+    <string name="cambrian_variant_35_2">Silicij</string>
+    <string name="cambrian_variant_35_3">Hitin</string>
+    <string name="cambrian_variant_35_4">Kolagen</string>
+
+    <string name="cambrian_question_36">Kateri plenilec iz kambrija je imel izpopolnjene sestavljene oči z najmanj 16.000 lečami?</string>
+    <string name="cambrian_variant_36_1">Anomalocaris</string>
+    <string name="cambrian_variant_36_2">Opabinia</string>
+    <string name="cambrian_variant_36_3">Hallucigenia</string>
+    <string name="cambrian_variant_36_4">Wiwaxia</string>
+
+    <string name="cambrian_question_37">Kakšna je bila glavna funkcija rilca pri Opabiniji?</string>
+    <string name="cambrian_variant_37_1">Lovljenje in prenašanje hrane</string>
+    <string name="cambrian_variant_37_2">Plavanje</string>
+    <string name="cambrian_variant_37_3">Proizvodnja toksinov</string>
+    <string name="cambrian_variant_37_4">Zaznavanje temperaturnih sprememb</string>
+
+    <string name="cambrian_question_38">Katera kambrijska žival je imela pet oči in usta, obrnjena nazaj?</string>
+    <string name="cambrian_variant_38_1">Opabinia</string>
+    <string name="cambrian_variant_38_2">Anomalocaris</string>
+    <string name="cambrian_variant_38_3">Wiwaxia</string>
+    <string name="cambrian_variant_38_4">Marrella</string>
+
+    <string name="cambrian_question_39">Katera od teh živali velja za členonožca iz osnovne skupine?</string>
+    <string name="cambrian_variant_39_1">Marrella</string>
+    <string name="cambrian_variant_39_2">Pikaia</string>
+    <string name="cambrian_variant_39_3">Konodonti</string>
+    <string name="cambrian_variant_39_4">Hallucigenia</string>
+
+    <string name="cambrian_question_40">Kakšna je bila glavna vloga trilobitov v kambrijskem ekosistemu?</string>
+    <string name="cambrian_variant_40_1">Mrhovinarji, plenilci in filtratorji</string>
+    <string name="cambrian_variant_40_2">Vrhunski plenilci</string>
+    <string name="cambrian_variant_40_3">Kopenski rastlinojedci</string>
+    <string name="cambrian_variant_40_4">Graditelji grebenov</string>
+
+    <string name="cambrian_question_41">Kateri sodobni sorodnik je najbolj verjetno povezan s Hallucigenijo?</string>
+    <string name="cambrian_variant_41_1">Žametni črvi (onihofori)</string>
+    <string name="cambrian_variant_41_2">Mehkužci</string>
+    <string name="cambrian_variant_41_3">Meduze</string>
+    <string name="cambrian_variant_41_4">Iglokožci</string>
+
+    <string name="cambrian_question_42">Kakšne vrste fosili so konodontski elementi?</string>
+    <string name="cambrian_variant_42_1">Zobem podobne strukture</string>
+    <string name="cambrian_variant_42_2">Kostni skeleti</string>
+    <string name="cambrian_variant_42_3">Perje</string>
+    <string name="cambrian_variant_42_4">Mehka tkiva</string>
+
+    <string name="cambrian_question_43">Iz česa je bil sestavljen skelet Myllokunmingie?</string>
+    <string name="cambrian_variant_43_1">Hrustanec</string>
+    <string name="cambrian_variant_43_2">Kost</string>
+    <string name="cambrian_variant_43_3">Hitin</string>
+    <string name="cambrian_variant_43_4">Silicij</string>
+
+    <string name="cambrian_question_44">Kateri kambrijski organizem je imel hrbtni oklep iz bodic in lusk?</string>
+    <string name="cambrian_variant_44_1">Wiwaxia</string>
+    <string name="cambrian_variant_44_2">Pikaia</string>
+    <string name="cambrian_variant_44_3">Anomalocaris</string>
+    <string name="cambrian_variant_44_4">Marrella</string>
+
+    <string name="cambrian_question_45">Kateri organizem velja za zgodnjega sorodnika vretenčarjev?</string>
+    <string name="cambrian_variant_45_1">Pikaia</string>
+    <string name="cambrian_variant_45_2">Hallucigenia</string>
+    <string name="cambrian_variant_45_3">Marrella</string>
+    <string name="cambrian_variant_45_4">Wiwaxia</string>
+
+    <string name="cambrian_question_46">Kateri organizmi so bili glavni graditelji grebenov v kambriju?</string>
+    <string name="cambrian_variant_46_1">Arheociati</string>
+    <string name="cambrian_variant_46_2">Trilobiti</string>
+    <string name="cambrian_variant_46_3">Konodonti</string>
+    <string name="cambrian_variant_46_4">Hallucigenia</string>
+
+    <string name="cambrian_question_47">Kakšno okolje je poseljevala večina kambrijskih živali?</string>
+    <string name="cambrian_variant_47_1">Morsko</string>
+    <string name="cambrian_variant_47_2">Kopensko</string>
+    <string name="cambrian_variant_47_3">Sladkovodno</string>
+    <string name="cambrian_variant_47_4">Zračno</string>
+
+    <string name="cambrian_question_48">Kateri organizem iz kambrija je znan po svojem nenavadnem videzu in številnih napačnih interpretacijah v zgodnjih raziskavah?</string>
+    <string name="cambrian_variant_48_1">Hallucigenia</string>
+    <string name="cambrian_variant_48_2">Pikaia</string>
+    <string name="cambrian_variant_48_3">Wiwaxia</string>
+    <string name="cambrian_variant_48_4">Marrella</string>
+
     <!--     BREAK      -->
 
     <string name="ordovician_question_1">Kdaj se je začel ordovicij?</string>

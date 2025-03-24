@@ -685,6 +685,108 @@
     <string name="cambrian_variant_31_3">Carbonifère</string>
     <string name="cambrian_variant_31_4">Cryogénien</string>
 
+    <string name="cambrian_question_32">Quel fossile est utilisé pour définir la limite entre les périodes Édiacarien et Cambrien ?</string>
+    <string name="cambrian_variant_32_1">Treptichnus pedum</string>
+    <string name="cambrian_variant_32_2">Marrella</string>
+    <string name="cambrian_variant_32_3">Hallucigenia</string>
+    <string name="cambrian_variant_32_4">Pikaia</string>
+
+    <string name="cambrian_question_33">Quel groupe d\'animaux dominait les océans du Cambrien ?</string>
+    <string name="cambrian_variant_33_1">Arthropodes</string>
+    <string name="cambrian_variant_33_2">Échinodermes</string>
+    <string name="cambrian_variant_33_3">Chordés</string>
+    <string name="cambrian_variant_33_4">Cnidaires</string>
+
+    <string name="cambrian_question_34">Quel événement est connu pour la diversification rapide de la vie au Cambrien ?</string>
+    <string name="cambrian_variant_34_1">Explosion cambrienne</string>
+    <string name="cambrian_variant_34_2">Extinction du Permien</string>
+    <string name="cambrian_variant_34_3">Grand événement d\'oxygénation</string>
+    <string name="cambrian_variant_34_4">Radiation silurienne</string>
+
+    <string name="cambrian_question_35">De quel matériau étaient faits les squelettes des archéocyathes ?</string>
+    <string name="cambrian_variant_35_1">Calcite</string>
+    <string name="cambrian_variant_35_2">Silice</string>
+    <string name="cambrian_variant_35_3">Chitine</string>
+    <string name="cambrian_variant_35_4">Collagène</string>
+
+    <string name="cambrian_question_36">Quel prédateur du Cambrien possédait des yeux composés sophistiqués avec au moins 16 000 lentilles ?</string>
+    <string name="cambrian_variant_36_1">Anomalocaris</string>
+    <string name="cambrian_variant_36_2">Opabinia</string>
+    <string name="cambrian_variant_36_3">Hallucigenia</string>
+    <string name="cambrian_variant_36_4">Wiwaxia</string>
+
+    <string name="cambrian_question_37">Quelle était la fonction principale de la trompe d\'Opabinia ?</string>
+    <string name="cambrian_variant_37_1">Attraper et transférer la nourriture</string>
+    <string name="cambrian_variant_37_2">Nager</string>
+    <string name="cambrian_variant_37_3">Produire des toxines</string>
+    <string name="cambrian_variant_37_4">Détecter les changements de température</string>
+
+    <string name="cambrian_question_38">Quelle créature cambrienne possédait cinq yeux et une bouche orientée vers l’arrière ?</string>
+    <string name="cambrian_variant_38_1">Opabinia</string>
+    <string name="cambrian_variant_38_2">Anomalocaris</string>
+    <string name="cambrian_variant_38_3">Wiwaxia</string>
+    <string name="cambrian_variant_38_4">Marrella</string>
+
+    <string name="cambrian_question_39">Lequel de ces organismes est considéré comme un arthropode du groupe souche ?</string>
+    <string name="cambrian_variant_39_1">Marrella</string>
+    <string name="cambrian_variant_39_2">Pikaia</string>
+    <string name="cambrian_variant_39_3">Conodontes</string>
+    <string name="cambrian_variant_39_4">Hallucigenia</string>
+
+    <string name="cambrian_question_40">Quel rôle principal jouaient les trilobites dans l’écosystème cambrien ?</string>
+    <string name="cambrian_variant_40_1">Charognards, prédateurs et filtreurs</string>
+    <string name="cambrian_variant_40_2">Prédateurs dominants</string>
+    <string name="cambrian_variant_40_3">Herbivores terrestres</string>
+    <string name="cambrian_variant_40_4">Constructeurs de récifs</string>
+
+    <string name="cambrian_question_41">Quel est le parent moderne le plus probable d\'Hallucigenia ?</string>
+    <string name="cambrian_variant_41_1">Vers de velours (onychophores)</string>
+    <string name="cambrian_variant_41_2">Mollusques</string>
+    <string name="cambrian_variant_41_3">Méduses</string>
+    <string name="cambrian_variant_41_4">Échinodermes</string>
+
+    <string name="cambrian_question_42">Quel type de fossiles sont les éléments conodontes ?</string>
+    <string name="cambrian_variant_42_1">Structures semblables à des dents</string>
+    <string name="cambrian_variant_42_2">Squelettes osseux</string>
+    <string name="cambrian_variant_42_3">Plumes</string>
+    <string name="cambrian_variant_42_4">Tissus mous</string>
+
+    <string name="cambrian_question_43">De quoi était fait le squelette de Myllokunmingia ?</string>
+    <string name="cambrian_variant_43_1">Cartilage</string>
+    <string name="cambrian_variant_43_2">Os</string>
+    <string name="cambrian_variant_43_3">Chitine</string>
+    <string name="cambrian_variant_43_4">Silice</string>
+
+    <string name="cambrian_question_44">Quel organisme cambrien possédait une armure dorsale de pointes et d’écailles ?</string>
+    <string name="cambrian_variant_44_1">Wiwaxia</string>
+    <string name="cambrian_variant_44_2">Pikaia</string>
+    <string name="cambrian_variant_44_3">Anomalocaris</string>
+    <string name="cambrian_variant_44_4">Marrella</string>
+
+    <string name="cambrian_question_45">Quel organisme est considéré comme un ancêtre précoce des vertébrés ?</string>
+    <string name="cambrian_variant_45_1">Pikaia</string>
+    <string name="cambrian_variant_45_2">Hallucigenia</string>
+    <string name="cambrian_variant_45_3">Marrella</string>
+    <string name="cambrian_variant_45_4">Wiwaxia</string>
+
+    <string name="cambrian_question_46">Quels étaient les principaux constructeurs de récifs au Cambrien ?</string>
+    <string name="cambrian_variant_46_1">Archéocyathes</string>
+    <string name="cambrian_variant_46_2">Trilobites</string>
+    <string name="cambrian_variant_46_3">Conodontes</string>
+    <string name="cambrian_variant_46_4">Hallucigenia</string>
+
+    <string name="cambrian_question_47">Quel type d’environnement habitaient la plupart des animaux du Cambrien ?</string>
+    <string name="cambrian_variant_47_1">Marin</string>
+    <string name="cambrian_variant_47_2">Terrestre</string>
+    <string name="cambrian_variant_47_3">Eau douce</string>
+    <string name="cambrian_variant_47_4">Aérien</string>
+
+    <string name="cambrian_question_48">Quel organisme cambrien est connu pour son apparence étrange et les multiples erreurs d\'interprétation dans les premières recherches ?</string>
+    <string name="cambrian_variant_48_1">Hallucigenia</string>
+    <string name="cambrian_variant_48_2">Pikaia</string>
+    <string name="cambrian_variant_48_3">Wiwaxia</string>
+    <string name="cambrian_variant_48_4">Marrella</string>
+
     <!--     BREAK      -->
 
     <string name="ordovician_question_1">Quand commença l’Ordovicien?</string>

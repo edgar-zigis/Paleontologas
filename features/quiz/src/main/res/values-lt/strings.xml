@@ -685,6 +685,108 @@
     <string name="cambrian_variant_31_3">karbone</string>
     <string name="cambrian_variant_31_4">kriogene</string>
 
+    <string name="cambrian_question_32">Kuri fosilija naudojama apibrėžti ribą tarp Ediakaro ir Kambro?</string>
+    <string name="cambrian_variant_32_1">Treptichnus pedum</string>
+    <string name="cambrian_variant_32_2">Marrella</string>
+    <string name="cambrian_variant_32_3">Hallucigenia</string>
+    <string name="cambrian_variant_32_4">Pikaia</string>
+
+    <string name="cambrian_question_33">Kuri gyvūnų grupė dominavo Kambro vandenynuose?</string>
+    <string name="cambrian_variant_33_1">Nariuotakojai</string>
+    <string name="cambrian_variant_33_2">Dygiaodžiai</string>
+    <string name="cambrian_variant_33_3">Chordiniai</string>
+    <string name="cambrian_variant_33_4">Duobagyviai</string>
+
+    <string name="cambrian_question_34">Koks įvykis siejamas su staigiu gyvybės įvairovės augimu Kambro periode?</string>
+    <string name="cambrian_variant_34_1">Kambro sprogimas</string>
+    <string name="cambrian_variant_34_2">Permo išnykimas</string>
+    <string name="cambrian_variant_34_3">Didysis deguonies įvykis</string>
+    <string name="cambrian_variant_34_4">Silūro radiacija</string>
+
+    <string name="cambrian_question_35">Iš kokios medžiagos buvo sudaryti archeociatų skeletai?</string>
+    <string name="cambrian_variant_35_1">Kalcio karbonatas</string>
+    <string name="cambrian_variant_35_2">Silicis</string>
+    <string name="cambrian_variant_35_3">Chitinas</string>
+    <string name="cambrian_variant_35_4">Kolagenas</string>
+
+    <string name="cambrian_question_36">Kuris Kambro plėšrūnas turėjo sudėtingas sudėtines akis su bent 16 000 lęšių?</string>
+    <string name="cambrian_variant_36_1">Anomalocaris</string>
+    <string name="cambrian_variant_36_2">Opabinia</string>
+    <string name="cambrian_variant_36_3">Hallucigenia</string>
+    <string name="cambrian_variant_36_4">Wiwaxia</string>
+
+    <string name="cambrian_question_37">Kokia buvo pagrindinė Opabinia straublio funkcija?</string>
+    <string name="cambrian_variant_37_1">Gaudyti ir perkelti maistą</string>
+    <string name="cambrian_variant_37_2">Plaukti</string>
+    <string name="cambrian_variant_37_3">Gaminti toksinus</string>
+    <string name="cambrian_variant_37_4">Aptikti temperatūros pokyčius</string>
+
+    <string name="cambrian_question_38">Kuris Kambro organizmas turėjo penkias akis ir burną nukreiptą atgal?</string>
+    <string name="cambrian_variant_38_1">Opabinia</string>
+    <string name="cambrian_variant_38_2">Anomalocaris</string>
+    <string name="cambrian_variant_38_3">Wiwaxia</string>
+    <string name="cambrian_variant_38_4">Marrella</string>
+
+    <string name="cambrian_question_39">Kuris iš šių organizmų laikomas pirminės grupės nariuotakoju?</string>
+    <string name="cambrian_variant_39_1">Marrella</string>
+    <string name="cambrian_variant_39_2">Pikaia</string>
+    <string name="cambrian_variant_39_3">Konodontai</string>
+    <string name="cambrian_variant_39_4">Hallucigenia</string>
+
+    <string name="cambrian_question_40">Koks buvo trilobitų pagrindinis vaidmuo Kambro ekosistemose?</string>
+    <string name="cambrian_variant_40_1">Detritus ėdantys gyvūnai, plėšrūnai ir filtruotojai</string>
+    <string name="cambrian_variant_40_2">Aukščiausio lygmens plėšrūnai</string>
+    <string name="cambrian_variant_40_3">Sausumos žolėdžiai</string>
+    <string name="cambrian_variant_40_4">Rifų statytojai</string>
+
+    <string name="cambrian_question_41">Koks yra tikėtinas Hallucigenia šiuolaikinis giminaitis?</string>
+    <string name="cambrian_variant_41_1">Onychophora</string>
+    <string name="cambrian_variant_41_2">Moliuskai</string>
+    <string name="cambrian_variant_41_3">Medūzos</string>
+    <string name="cambrian_variant_41_4">Dygiaodžiai</string>
+
+    <string name="cambrian_question_42">Kokio tipo fosilijos yra siejamos su konodontais?</string>
+    <string name="cambrian_variant_42_1">Dantų pavidalo struktūros</string>
+    <string name="cambrian_variant_42_2">Kauliniai griaučiai</string>
+    <string name="cambrian_variant_42_3">Plunksnos</string>
+    <string name="cambrian_variant_42_4">Minkštieji audiniai</string>
+
+    <string name="cambrian_question_43">Iš ko buvo sudarytas Myllokunmingia skeletas?</string>
+    <string name="cambrian_variant_43_1">Kremzlės</string>
+    <string name="cambrian_variant_43_2">Kaulų</string>
+    <string name="cambrian_variant_43_3">Chitino</string>
+    <string name="cambrian_variant_43_4">Silicio</string>
+
+    <string name="cambrian_question_44">Kuris Kambro organizmas turėjo nugarinį šarvą iš dyglių ir žvynų?</string>
+    <string name="cambrian_variant_44_1">Wiwaxia</string>
+    <string name="cambrian_variant_44_2">Pikaia</string>
+    <string name="cambrian_variant_44_3">Anomalocaris</string>
+    <string name="cambrian_variant_44_4">Marrella</string>
+
+    <string name="cambrian_question_45">Kuris organizmas laikomas ankstyvuoju stuburinių protėviu?</string>
+    <string name="cambrian_variant_45_1">Pikaia</string>
+    <string name="cambrian_variant_45_2">Hallucigenia</string>
+    <string name="cambrian_variant_45_3">Marrella</string>
+    <string name="cambrian_variant_45_4">Wiwaxia</string>
+
+    <string name="cambrian_question_46">Kas buvo pagrindiniai rifų statytojai Kambro periode?</string>
+    <string name="cambrian_variant_46_1">Archeociatai</string>
+    <string name="cambrian_variant_46_2">Trilobitai</string>
+    <string name="cambrian_variant_46_3">Konodontai</string>
+    <string name="cambrian_variant_46_4">Hallucigenia</string>
+
+    <string name="cambrian_question_47">Kokioje aplinkoje gyveno dauguma Kambro faunos?</string>
+    <string name="cambrian_variant_47_1">Jūrinėje</string>
+    <string name="cambrian_variant_47_2">Sausumos</string>
+    <string name="cambrian_variant_47_3">Gėlo vandens</string>
+    <string name="cambrian_variant_47_4">Oro</string>
+
+    <string name="cambrian_question_48">Kuris Kambro organizmas žinomas dėl savo keistos išvaizdos ir daugybės klaidingų ankstyvųjų interpretacijų?</string>
+    <string name="cambrian_variant_48_1">Hallucigenia</string>
+    <string name="cambrian_variant_48_2">Pikaia</string>
+    <string name="cambrian_variant_48_3">Wiwaxia</string>
+    <string name="cambrian_variant_48_4">Marrella</string>
+
     <!--     BREAK      -->
 
     <string name="ordovician_question_1">Kada prasidėjo ordovikas?</string>
