@@ -901,6 +901,96 @@
     <string name="ordovician_variant_16_3">piškur</string>
     <string name="ordovician_variant_16_4">Carcharodon</string>
 
+    <string name="ordovician_question_17">Kateri pomemben dogodek je med ordovicijem zaznamoval vrhunec morske biotske raznovrstnosti?</string>
+    <string name="ordovician_variant_17_1">Veliki ordovicijski dogodek biodiverzifikacije (GOBE)</string>
+    <string name="ordovician_variant_17_2">Kambrijska eksplozija</string>
+    <string name="ordovician_variant_17_3">Permsko-triasno izumrtje</string>
+    <string name="ordovician_variant_17_4">Mezozojska morska revolucija</string>
+
+    <string name="ordovician_question_18">Kateri kontinenti so obstajali v obdobju ordovicija?</string>
+    <string name="ordovician_variant_18_1">Laurencija, Baltika, Sibirija, Gondvana</string>
+    <string name="ordovician_variant_18_2">Evrazija, Afrika, Avstralija, Južna Amerika</string>
+    <string name="ordovician_variant_18_3">Pangea, Lavrazija, Gondvana, Rodinija</string>
+    <string name="ordovician_variant_18_4">Azija, Evropa, Amerika, Antarktika</string>
+
+    <string name="ordovician_question_19">Katero veliko izumrtje se je zgodilo ob koncu ordovicija?</string>
+    <string name="ordovician_variant_19_1">Drugo največje izumrtje v zgodovini Zemlje</string>
+    <string name="ordovician_variant_19_2">K-Pg izumrtje</string>
+    <string name="ordovician_variant_19_3">Triasno-jurajsko izumrtje</string>
+    <string name="ordovician_variant_19_4">Mezozojsko izumrtje</string>
+
+    <string name="ordovician_question_20">Katera oblika življenja je prevladovala v ordovicijskih morjih?</string>
+    <string name="ordovician_variant_20_1">Morski nevretenčarji, kot so trilobiti, brahiopodi in korale</string>
+    <string name="ordovician_variant_20_2">Veliki kopenski plazilci in dvoživke</string>
+    <string name="ordovician_variant_20_3">Cvetnice in sesalci</string>
+    <string name="ordovician_variant_20_4">Dinozavri in morski plazilci</string>
+
+    <string name="ordovician_question_21">Kako se imenuje čeljustnica brez čeljusti s ščitom na glavi in lateralno linijo?</string>
+    <string name="ordovician_variant_21_1">Sacabambaspis</string>
+    <string name="ordovician_variant_21_2">Coelacanth</string>
+    <string name="ordovician_variant_21_3">Tiktaalik</string>
+    <string name="ordovician_variant_21_4">Ichthyostega</string>
+
+    <string name="ordovician_question_22">Kateri ordovicijski evripterid je lahko dosegel dolžino do 1,83 metra?</string>
+    <string name="ordovician_variant_22_1">Pentecopterus decorahensis</string>
+    <string name="ordovician_variant_22_2">Eurypterus remipes</string>
+    <string name="ordovician_variant_22_3">Pterygotus anglicus</string>
+    <string name="ordovician_variant_22_4">Megalograptus</string>
+
+    <string name="ordovician_question_23">Kateri izumrli nautiloid je imel ravno stožčasto lupino?</string>
+    <string name="ordovician_variant_23_1">Orthoceras</string>
+    <string name="ordovician_variant_23_2">Amonit</string>
+    <string name="ordovician_variant_23_3">Belemnit</string>
+    <string name="ordovician_variant_23_4">Nautilus</string>
+
+    <string name="ordovician_question_24">Iz katerega materiala so bili sestavljeni okostji koral Rugosa?</string>
+    <string name="ordovician_variant_24_1">Kalcit</string>
+    <string name="ordovician_variant_24_2">Silicij</string>
+    <string name="ordovician_variant_24_3">Hitin</string>
+    <string name="ordovician_variant_24_4">Fosfat</string>
+
+    <string name="ordovician_question_25">Kakšno je splošno ime za samotne korale Rugosa?</string>
+    <string name="ordovician_variant_25_1">Rogaste korale</string>
+    <string name="ordovician_variant_25_2">Cevaste korale</string>
+    <string name="ordovician_variant_25_3">Pahljačaste korale</string>
+    <string name="ordovician_variant_25_4">Razvejane korale</string>
+
+    <string name="ordovician_question_26">Katera skupina koral je imela strukturo podobno satovju?</string>
+    <string name="ordovician_variant_26_1">Tabulata</string>
+    <string name="ordovician_variant_26_2">Rugosa</string>
+    <string name="ordovician_variant_26_3">Scleractinia</string>
+    <string name="ordovician_variant_26_4">Octocorallia</string>
+
+    <string name="ordovician_question_27">Kaj je povzročilo povečanje pretoka hranil v ordovicijskih morjih, kar je spodbudilo biotsko raznovrstnost?</string>
+    <string name="ordovician_variant_27_1">Intenzivna orogeneza in erozija</string>
+    <string name="ordovician_variant_27_2">Oblaki vulkanskega pepela</string>
+    <string name="ordovician_variant_27_3">Trki asteroidov</string>
+    <string name="ordovician_variant_27_4">Razcvet alg</string>
+
+    <string name="ordovician_question_28">Katera starodavna oklepljena riba brez čeljusti je imela gibljiv rep, prekrit z majhnimi ploščami?</string>
+    <string name="ordovician_variant_28_1">Astraspis</string>
+    <string name="ordovician_variant_28_2">Dunkleosteus</string>
+    <string name="ordovician_variant_28_3">Entelognathus</string>
+    <string name="ordovician_variant_28_4">Bothriolepis</string>
+
+    <string name="ordovician_question_29">Kateri senzorični sistem pri Sacabambaspisu je še vedno prisoten pri sodobnih ribah?</string>
+    <string name="ordovician_variant_29_1">Stranski linijski sistem</string>
+    <string name="ordovician_variant_29_2">Plavalni mehur</string>
+    <string name="ordovician_variant_29_3">Lorenzinijeve ampule</string>
+    <string name="ordovician_variant_29_4">Polkrožni kanali</string>
+
+    <string name="ordovician_question_30">Kako se je Orthoceras verjetno gibal v vodi?</string>
+    <string name="ordovician_variant_30_1">Z reaktivnim pogonom</string>
+    <string name="ordovician_variant_30_2">Plazeč se po morskem dnu</string>
+    <string name="ordovician_variant_30_3">Plavajoč s tokom</string>
+    <string name="ordovician_variant_30_4">Uporabljajoč plavutim podobne okončine</string>
+
+    <string name="ordovician_question_31">Kaj je povzročilo množično izumrtje ob koncu ordovicija?</string>
+    <string name="ordovician_variant_31_1">Globalno ohlajanje in spremembe morske gladine zaradi poledenitve</string>
+    <string name="ordovician_variant_31_2">Masivne vulkanske izbruhe</string>
+    <string name="ordovician_variant_31_3">Trk asteroida v Jukatanu</string>
+    <string name="ordovician_variant_31_4">Sproščanje metana iz morskega dna</string>
+
     <!--     BREAK      -->
 
     <string name="silurian_question_1">Kdaj se je začel silur?</string>

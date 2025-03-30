@@ -901,6 +901,96 @@
     <string name="ordovician_variant_16_3">Lampreia</string>
     <string name="ordovician_variant_16_4">Carcharodon</string>
 
+    <string name="ordovician_question_17">Qual evento importante marcou um pico na biodiversidade marinha durante o Ordoviciano?</string>
+    <string name="ordovician_variant_17_1">O Grande Evento de Diversificação Ordoviciana (GOBE)</string>
+    <string name="ordovician_variant_17_2">A Explosão Cambriana</string>
+    <string name="ordovician_variant_17_3">A Extinção Permiano-Triássica</string>
+    <string name="ordovician_variant_17_4">A Revolução Marinha Mesozóica</string>
+
+    <string name="ordovician_question_18">Quais continentes existiam durante o período Ordoviciano?</string>
+    <string name="ordovician_variant_18_1">Laurência, Báltica, Sibéria, Gondwana</string>
+    <string name="ordovician_variant_18_2">Eurásia, África, Austrália, América do Sul</string>
+    <string name="ordovician_variant_18_3">Pangeia, Laurásia, Gondwana, Rodínia</string>
+    <string name="ordovician_variant_18_4">Ásia, Europa, América, Antártica</string>
+
+    <string name="ordovician_question_19">Qual grande extinção ocorreu no final do Ordoviciano?</string>
+    <string name="ordovician_variant_19_1">A segunda maior extinção da história da Terra</string>
+    <string name="ordovician_variant_19_2">A extinção K-Pg</string>
+    <string name="ordovician_variant_19_3">A extinção Triássico-Jurássica</string>
+    <string name="ordovician_variant_19_4">A extinção Mesozóica</string>
+
+    <string name="ordovician_question_20">Que tipo de vida dominava os mares ordovicianos?</string>
+    <string name="ordovician_variant_20_1">Invertebrados marinhos como trilobitas, braquiópodes e corais</string>
+    <string name="ordovician_variant_20_2">Grandes répteis terrestres e anfíbios</string>
+    <string name="ordovician_variant_20_3">Plantas com flores e mamíferos</string>
+    <string name="ordovician_variant_20_4">Dinossauros e répteis marinhos</string>
+
+    <string name="ordovician_question_21">Qual é o nome do peixe sem mandíbula com escudo cefálico e sistema de linha lateral?</string>
+    <string name="ordovician_variant_21_1">Sacabambaspis</string>
+    <string name="ordovician_variant_21_2">Celacanto</string>
+    <string name="ordovician_variant_21_3">Tiktaalik</string>
+    <string name="ordovician_variant_21_4">Ichthyostega</string>
+
+    <string name="ordovician_question_22">Qual euriptérido ordoviciano podia atingir até 1,83 metros de comprimento?</string>
+    <string name="ordovician_variant_22_1">Pentecopterus decorahensis</string>
+    <string name="ordovician_variant_22_2">Eurypterus remipes</string>
+    <string name="ordovician_variant_22_3">Pterygotus anglicus</string>
+    <string name="ordovician_variant_22_4">Megalograptus</string>
+
+    <string name="ordovician_question_23">Qual nautiloide extinto possuía uma concha cônica reta?</string>
+    <string name="ordovician_variant_23_1">Orthoceras</string>
+    <string name="ordovician_variant_23_2">Amonite</string>
+    <string name="ordovician_variant_23_3">Belemnite</string>
+    <string name="ordovician_variant_23_4">Nautilus</string>
+
+    <string name="ordovician_question_24">De que material eram feitos os esqueletos dos corais Rugosa?</string>
+    <string name="ordovician_variant_24_1">Calcita</string>
+    <string name="ordovician_variant_24_2">Sílica</string>
+    <string name="ordovician_variant_24_3">Quitina</string>
+    <string name="ordovician_variant_24_4">Fosfato</string>
+
+    <string name="ordovician_question_25">Qual é o nome comum dos corais Rugosa solitários?</string>
+    <string name="ordovician_variant_25_1">Corais-chifre</string>
+    <string name="ordovician_variant_25_2">Corais-tubo</string>
+    <string name="ordovician_variant_25_3">Corais-leque</string>
+    <string name="ordovician_variant_25_4">Corais-ramificados</string>
+
+    <string name="ordovician_question_26">Qual grupo de corais tinha uma estrutura semelhante a um favo de mel?</string>
+    <string name="ordovician_variant_26_1">Tabulata</string>
+    <string name="ordovician_variant_26_2">Rugosa</string>
+    <string name="ordovician_variant_26_3">Escleractíneos</string>
+    <string name="ordovician_variant_26_4">Octocorallia</string>
+
+    <string name="ordovician_question_27">O que causou o aumento do fluxo de nutrientes nos mares ordovicianos, promovendo a biodiversidade?</string>
+    <string name="ordovician_variant_27_1">Orogênese intensa e erosão</string>
+    <string name="ordovician_variant_27_2">Nuvens de cinzas vulcânicas</string>
+    <string name="ordovician_variant_27_3">Impactos de asteroides</string>
+    <string name="ordovician_variant_27_4">Florações de algas</string>
+
+    <string name="ordovician_question_28">Qual peixe antigo e blindado, sem mandíbula, tinha uma cauda flexível coberta por pequenas placas?</string>
+    <string name="ordovician_variant_28_1">Astraspis</string>
+    <string name="ordovician_variant_28_2">Dunkleosteus</string>
+    <string name="ordovician_variant_28_3">Entelognathus</string>
+    <string name="ordovician_variant_28_4">Bothriolepis</string>
+
+    <string name="ordovician_question_29">Qual sistema sensorial em Sacabambaspis ainda está presente nos peixes modernos?</string>
+    <string name="ordovician_variant_29_1">Sistema de linha lateral</string>
+    <string name="ordovician_variant_29_2">Bexiga natatória</string>
+    <string name="ordovician_variant_29_3">Ampolas de Lorenzini</string>
+    <string name="ordovician_variant_29_4">Canais semicirculares</string>
+
+    <string name="ordovician_question_30">Como o Orthoceras provavelmente se movia na água?</string>
+    <string name="ordovician_variant_30_1">Usando propulsão a jato</string>
+    <string name="ordovician_variant_30_2">Rastejando no fundo do mar</string>
+    <string name="ordovician_variant_30_3">Flutuando com as correntes</string>
+    <string name="ordovician_variant_30_4">Usando apêndices semelhantes a nadadeiras</string>
+
+    <string name="ordovician_question_31">O que causou a extinção em massa no final do Ordoviciano?</string>
+    <string name="ordovician_variant_31_1">Resfriamento global e variações do nível do mar devido à glaciação</string>
+    <string name="ordovician_variant_31_2">Erupções vulcânicas maciças</string>
+    <string name="ordovician_variant_31_3">Impacto de asteroide em Yucatán</string>
+    <string name="ordovician_variant_31_4">Liberação de metano do fundo do mar</string>
+
     <!--     BREAK      -->
 
     <string name="silurian_question_1">Quando o Siluriano começou?</string>
