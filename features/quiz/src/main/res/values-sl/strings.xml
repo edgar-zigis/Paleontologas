@@ -991,6 +991,96 @@
     <string name="ordovician_variant_31_3">Trk asteroida v Jukatanu</string>
     <string name="ordovician_variant_31_4">Sproščanje metana iz morskega dna</string>
 
+    <string name="silurian_question_21">Kako dolgo je trajalo silursko obdobje?</string>
+    <string name="silurian_variant_21_1">Približno 24 do 28 milijonov let</string>
+    <string name="silurian_variant_21_2">10 do 15 milijonov let</string>
+    <string name="silurian_variant_21_3">40 do 50 milijonov let</string>
+    <string name="silurian_variant_21_4">60 do 70 milijonov let</string>
+
+    <string name="silurian_question_22">Kateri pomemben evolucijski razvoj je zaznamoval silursko obdobje?</string>
+    <string name="silurian_variant_22_1">Pojav žilnih kopenskih rastlin</string>
+    <string name="silurian_variant_22_2">Pojav cvetočih rastlin</string>
+    <string name="silurian_variant_22_3">Razvoj sesalcev</string>
+    <string name="silurian_variant_22_4">Izumrtje dinozavrov</string>
+
+    <string name="silurian_question_23">Kateri členonožci so se prvič pojavili na kopnem v silurskem obdobju?</string>
+    <string name="silurian_variant_23_1">Primitivni stonogi in pajkovci</string>
+    <string name="silurian_variant_23_2">Žuželke in raki</string>
+    <string name="silurian_variant_23_3">Dvoživke in plazilci</string>
+    <string name="silurian_variant_23_4">Dinozavri in ptice</string>
+
+    <string name="silurian_question_24">Katera skupina rib se je med silurskim obdobjem znatno razvejala?</string>
+    <string name="silurian_variant_24_1">Kostne ribe (Osteichthyes)</string>
+    <string name="silurian_variant_24_2">Hrustančne ribe (Chondrichthyes)</string>
+    <string name="silurian_variant_24_3">Dvoživke</string>
+    <string name="silurian_variant_24_4">Plazilci</string>
+
+    <string name="silurian_question_25">Katera edinstvena lastnost je bila značilna za Eurypterus?</string>
+    <string name="silurian_variant_25_1">Sposobnost dihanja zraka in hoje po kopnem za kratek čas</string>
+    <string name="silurian_variant_25_2">Sposobnost letenja</string>
+    <string name="silurian_variant_25_3">Sposobnost fotosinteze</string>
+    <string name="silurian_variant_25_4">Sposobnost proizvodnje strupa</string>
+
+    <string name="silurian_question_26">Zakaj je Pneumodesmus pomemben v evolucijski zgodovini?</string>
+    <string name="silurian_variant_26_1">Je najstarejša znana kopenska žival, ki je dihala kisik</string>
+    <string name="silurian_variant_26_2">Bil je prva žival, ki je letela</string>
+    <string name="silurian_variant_26_3">Bil je prvi vretenčar s hrbtenico</string>
+    <string name="silurian_variant_26_4">Bil je prva riba z razvitimi čeljustmi</string>
+
+    <string name="silurian_question_27">Katera rastlina velja za eno najzgodnejših žilnih rastlin?</string>
+    <string name="silurian_variant_27_1">Cooksonia</string>
+    <string name="silurian_variant_27_2">Praproti</string>
+    <string name="silurian_variant_27_3">Cvetoče rastline</string>
+    <string name="silurian_variant_27_4">Iglavci</string>
+
+    <string name="silurian_question_28">Katera lastnost je razlikovala Cooksonia od prejšnjih rastlin?</string>
+    <string name="silurian_variant_28_1">Prisotnost žilnega tkiva</string>
+    <string name="silurian_variant_28_2">Sposobnost proizvodnje semen</string>
+    <string name="silurian_variant_28_3">Prisotnost cvetov in plodov</string>
+    <string name="silurian_variant_28_4">Veliki listi</string>
+
+    <string name="silurian_question_29">Kakšen tip žilnega svežnja je imel Baragwanathia?</string>
+    <string name="silurian_variant_29_1">Actinostele</string>
+    <string name="silurian_variant_29_2">Protostele</string>
+    <string name="silurian_variant_29_3">Sifonostele</string>
+    <string name="silurian_variant_29_4">Eustele</string>
+
+    <string name="silurian_question_30">S katero skupino rib so povezani akanthodiji?</string>
+    <string name="silurian_variant_30_1">Hrustančne ribe (Chondrichthyes)</string>
+    <string name="silurian_variant_30_2">Dvoživke</string>
+    <string name="silurian_variant_30_3">Plazilci</string>
+    <string name="silurian_variant_30_4">Sesalci</string>
+
+    <string name="silurian_question_31">Katero evolucijsko značilnost je uvedel Entelognathus?</string>
+    <string name="silurian_variant_31_1">Dermalni čeljustni kosti</string>
+    <string name="silurian_variant_31_2">Krila za letenje</string>
+    <string name="silurian_variant_31_3">Kompleksne pljučne strukture</string>
+    <string name="silurian_variant_31_4">Sposobnost polaganja jajc na kopnem</string>
+
+    <string name="silurian_question_32">Kateri veliki okoljski izziv so morale premagati prve kopenske rastline?</string>
+    <string name="silurian_variant_32_1">Ohranjanje vode in mehanska podpora</string>
+    <string name="silurian_variant_32_2">Plenjenje dinozavrov</string>
+    <string name="silurian_variant_32_3">Izjemno hladne temperature</string>
+    <string name="silurian_variant_32_4">Pogosti vulkanski izbruhi</string>
+
+    <string name="silurian_question_33">Zakaj se je evolucija rastlin med silurskim obdobjem hitreje razvijala kot evolucija živali?</string>
+    <string name="silurian_variant_33_1">Rastline so se morale prilagoditi raznovrstnim in zahtevnim kopenskim razmeram</string>
+    <string name="silurian_variant_33_2">Živali so bile že dobro prilagojene kopnemu</string>
+    <string name="silurian_variant_33_3">Rastline so se razvile iz ptic</string>
+    <string name="silurian_variant_33_4">Živali so se preselile v vodna okolja</string>
+
+    <string name="silurian_question_34">Kateri okoljski dejavnik je prispeval k mutacijam pri prvih kopenskih rastlinah?</string>
+    <string name="silurian_variant_34_1">Večja izpostavljenost ultravijolični svetlobi</string>
+    <string name="silurian_variant_34_2">Pomanjkanje kisika</string>
+    <string name="silurian_variant_34_3">Stalne temperature</string>
+    <string name="silurian_variant_34_4">Obilje plenilcev</string>
+
+    <string name="silurian_question_35">Kakšen je bil evolucijski pomen diverzifikacije kostnih rib?</string>
+    <string name="silurian_variant_35_1">Postavila je temelje za sodobne ribje linije</string>
+    <string name="silurian_variant_35_2">Povzročila je izumrtje dvoživk</string>
+    <string name="silurian_variant_35_3">Neposredno je vodila do razvoja sesalcev</string>
+    <string name="silurian_variant_35_4">Uvedla je letenje pri morskih živalih</string>
+
     <!--     BREAK      -->
 
     <string name="silurian_question_1">Kdaj se je začel silur?</string>
