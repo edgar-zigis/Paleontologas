@@ -1133,6 +1133,96 @@
     <string name="silurian_variant_20_3">Dunkleosteus</string>
     <string name="silurian_variant_20_4">Cladoselache</string>
 
+    <string name="silurian_question_21">Quanto tempo durou o período Siluriano?</string>
+    <string name="silurian_variant_21_1">Aproximadamente 24 a 28 milhões de anos</string>
+    <string name="silurian_variant_21_2">10 a 15 milhões de anos</string>
+    <string name="silurian_variant_21_3">40 a 50 milhões de anos</string>
+    <string name="silurian_variant_21_4">60 a 70 milhões de anos</string>
+
+    <string name="silurian_question_22">Qual desenvolvimento evolutivo significativo marcou o período Siluriano?</string>
+    <string name="silurian_variant_22_1">O aparecimento de plantas vasculares terrestres</string>
+    <string name="silurian_variant_22_2">O surgimento de plantas com flores</string>
+    <string name="silurian_variant_22_3">A evolução dos mamíferos</string>
+    <string name="silurian_variant_22_4">A extinção dos dinossauros</string>
+
+    <string name="silurian_question_23">Quais artrópodes apareceram pela primeira vez em terra durante o Siluriano?</string>
+    <string name="silurian_variant_23_1">Milípedes primitivos e aracnídeos</string>
+    <string name="silurian_variant_23_2">Insetos e caranguejos</string>
+    <string name="silurian_variant_23_3">Anfíbios e répteis</string>
+    <string name="silurian_variant_23_4">Dinossauros e aves</string>
+
+    <string name="silurian_question_24">Qual grupo de peixes se diversificou significativamente durante o período Siluriano?</string>
+    <string name="silurian_variant_24_1">Peixes ósseos (Osteichthyes)</string>
+    <string name="silurian_variant_24_2">Peixes cartilaginosos (Chondrichthyes)</string>
+    <string name="silurian_variant_24_3">Anfíbios</string>
+    <string name="silurian_variant_24_4">Répteis</string>
+
+    <string name="silurian_question_25">Qual característica única Eurypterus possuía?</string>
+    <string name="silurian_variant_25_1">Capacidade de respirar ar e caminhar em terra por curtos períodos</string>
+    <string name="silurian_variant_25_2">Capacidade de voar</string>
+    <string name="silurian_variant_25_3">Capacidade de realizar fotossíntese</string>
+    <string name="silurian_variant_25_4">Capacidade de produzir veneno</string>
+
+    <string name="silurian_question_26">Por que Pneumodesmus é significativo na história evolutiva?</string>
+    <string name="silurian_variant_26_1">É o mais antigo animal terrestre conhecido que respirava oxigênio</string>
+    <string name="silurian_variant_26_2">Foi o primeiro animal a voar</string>
+    <string name="silurian_variant_26_3">Foi o primeiro vertebrado a desenvolver uma coluna vertebral</string>
+    <string name="silurian_variant_26_4">Foi o primeiro peixe a desenvolver mandíbulas</string>
+
+    <string name="silurian_question_27">Qual planta é considerada uma das primeiras plantas vasculares?</string>
+    <string name="silurian_variant_27_1">Cooksonia</string>
+    <string name="silurian_variant_27_2">Samambaias</string>
+    <string name="silurian_variant_27_3">Plantas com flores</string>
+    <string name="silurian_variant_27_4">Coníferas</string>
+
+    <string name="silurian_question_28">Qual característica distinguia Cooksonia das plantas anteriores?</string>
+    <string name="silurian_variant_28_1">Presença de tecido vascular</string>
+    <string name="silurian_variant_28_2">Capacidade de produzir sementes</string>
+    <string name="silurian_variant_28_3">Flores e frutos</string>
+    <string name="silurian_variant_28_4">Folhas grandes</string>
+
+    <string name="silurian_question_29">Que tipo de feixe vascular Baragwanathia possuía?</string>
+    <string name="silurian_variant_29_1">Actinostele</string>
+    <string name="silurian_variant_29_2">Protostele</string>
+    <string name="silurian_variant_29_3">Sifonostele</string>
+    <string name="silurian_variant_29_4">Eustele</string>
+
+    <string name="silurian_question_30">A qual grupo de peixes os acantódios estão relacionados?</string>
+    <string name="silurian_variant_30_1">Peixes cartilaginosos (Chondrichthyes)</string>
+    <string name="silurian_variant_30_2">Anfíbios</string>
+    <string name="silurian_variant_30_3">Répteis</string>
+    <string name="silurian_variant_30_4">Mamíferos</string>
+
+    <string name="silurian_question_31">Qual característica evolutiva Entelognathus introduziu?</string>
+    <string name="silurian_variant_31_1">Ossos mandibulares marginais dérmicos</string>
+    <string name="silurian_variant_31_2">Asas para voar</string>
+    <string name="silurian_variant_31_3">Estruturas pulmonares complexas</string>
+    <string name="silurian_variant_31_4">Capacidade de colocar ovos em terra</string>
+
+    <string name="silurian_question_32">Qual grande desafio ambiental as primeiras plantas terrestres enfrentaram?</string>
+    <string name="silurian_variant_32_1">Conservação da água e suporte mecânico</string>
+    <string name="silurian_variant_32_2">Predação por dinossauros</string>
+    <string name="silurian_variant_32_3">Climas extremamente frios</string>
+    <string name="silurian_variant_32_4">Erupções vulcânicas frequentes</string>
+
+    <string name="silurian_question_33">Por que a evolução das plantas progrediu mais rapidamente do que a dos animais durante o Siluriano?</string>
+    <string name="silurian_variant_33_1">As plantas precisavam se adaptar a condições terrestres mais variadas e desafiadoras</string>
+    <string name="silurian_variant_33_2">Os animais já estavam bem adaptados à terra</string>
+    <string name="silurian_variant_33_3">As plantas evoluíram a partir de aves</string>
+    <string name="silurian_variant_33_4">Os animais migraram para habitats aquáticos</string>
+
+    <string name="silurian_question_34">Qual fator ambiental contribuiu para as mutações nas primeiras plantas terrestres?</string>
+    <string name="silurian_variant_34_1">Maior exposição à luz ultravioleta</string>
+    <string name="silurian_variant_34_2">Falta de oxigênio</string>
+    <string name="silurian_variant_34_3">Temperaturas constantes</string>
+    <string name="silurian_variant_34_4">Abundância de predadores</string>
+
+    <string name="silurian_question_35">Qual foi a importância evolutiva da diversificação dos peixes ósseos?</string>
+    <string name="silurian_variant_35_1">Lançou as bases para as linhagens modernas de peixes</string>
+    <string name="silurian_variant_35_2">Causou a extinção dos anfíbios</string>
+    <string name="silurian_variant_35_3">Levou diretamente à evolução dos mamíferos</string>
+    <string name="silurian_variant_35_4">Introduziu o voo nos animais marinhos</string>
+
     <!--     BREAK      -->
 
     <string name="devonian_question_1">Quando o Devoniano começou?</string>
