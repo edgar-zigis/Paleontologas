@@ -1394,6 +1394,96 @@
     <string name="devonian_variant_27_3">up to 500 kg</string>
     <string name="devonian_variant_27_4">up to 2.5 t</string>
 
+    <string name="devonian_question_28">What time period did the Devonian span?</string>
+    <string name="devonian_variant_28_1">419 to 359 million years ago</string>
+    <string name="devonian_variant_28_2">300 to 250 million years ago</string>
+    <string name="devonian_variant_28_3">500 to 450 million years ago</string>
+    <string name="devonian_variant_28_4">100 to 50 million years ago</string>
+
+    <string name="devonian_question_29">What is the nickname given to the Devonian period?</string>
+    <string name="devonian_variant_29_1">Age of Fish</string>
+    <string name="devonian_variant_29_2">Age of Mammals</string>
+    <string name="devonian_variant_29_3">Age of Insects</string>
+    <string name="devonian_variant_29_4">Age of Reptiles</string>
+
+    <string name="devonian_question_30">What genus of prehistoric tree is considered the oldest known on Earth?</string>
+    <string name="devonian_variant_30_1">Wattieza</string>
+    <string name="devonian_variant_30_2">Archaeopteris</string>
+    <string name="devonian_variant_30_3">Prototaxites</string>
+    <string name="devonian_variant_30_4">Tiktaalik</string>
+
+    <string name="devonian_question_31">Which organism from the Devonian is considered a key representative of the transition from fish to amphibians?</string>
+    <string name="devonian_variant_31_1">Tiktaalik</string>
+    <string name="devonian_variant_31_2">Cladoselache</string>
+    <string name="devonian_variant_31_3">Bothriolepis</string>
+    <string name="devonian_variant_31_4">Dunkleosteus</string>
+
+    <string name="devonian_question_32">Which genus of placoderm fish was known as a hypercarnivorous apex predator?</string>
+    <string name="devonian_variant_32_1">Dunkleosteus</string>
+    <string name="devonian_variant_32_2">Cladoselache</string>
+    <string name="devonian_variant_32_3">Materpiscis</string>
+    <string name="devonian_variant_32_4">Acanthostega</string>
+
+    <string name="devonian_question_33">What is the significance of Materpiscis in vertebrate evolution?</string>
+    <string name="devonian_variant_33_1">Oldest known vertebrate to exhibit viviparity</string>
+    <string name="devonian_variant_33_2">First known tetrapod</string>
+    <string name="devonian_variant_33_3">Largest Devonian fish</string>
+    <string name="devonian_variant_33_4">First fish to develop lungs</string>
+
+    <string name="devonian_question_34">What adaptation did Acanthostega primarily have?</string>
+    <string name="devonian_variant_34_1">Lungs and limbs for shallow water navigation</string>
+    <string name="devonian_variant_34_2">Cartilaginous skeleton for fast swimming</string>
+    <string name="devonian_variant_34_3">Sharp bony plates for predation</string>
+    <string name="devonian_variant_34_4">Armored exterior for protection</string>
+
+    <string name="devonian_question_35">Which genus of fish was fast, agile, and had 5 to 7 gill slits?</string>
+    <string name="devonian_variant_35_1">Cladoselache</string>
+    <string name="devonian_variant_35_2">Dunkleosteus</string>
+    <string name="devonian_variant_35_3">Bothriolepis</string>
+    <string name="devonian_variant_35_4">Wattieza</string>
+
+    <string name="devonian_question_36">Which genus of stem-tetrapod had 8 digits on each hand linked by webbing?</string>
+    <string name="devonian_variant_36_1">Acanthostega</string>
+    <string name="devonian_variant_36_2">Ichthyostega</string>
+    <string name="devonian_variant_36_3">Tiktaalik</string>
+    <string name="devonian_variant_36_4">Cladoselache</string>
+
+    <string name="devonian_question_37">Which genus of ancient organism likely formed lichen rather than being a true fungus?</string>
+    <string name="devonian_variant_37_1">Prototaxites</string>
+    <string name="devonian_variant_37_2">Wattieza</string>
+    <string name="devonian_variant_37_3">Archaeopteris</string>
+    <string name="devonian_variant_37_4">Materpiscis</string>
+
+    <string name="devonian_question_38">What did Bothriolepis primarily feed on?</string>
+    <string name="devonian_variant_38_1">Detritus, algae, and small microorganisms</string>
+    <string name="devonian_variant_38_2">Large vertebrates</string>
+    <string name="devonian_variant_38_3">Plankton</string>
+    <string name="devonian_variant_38_4">Insects</string>
+
+    <string name="devonian_question_39">Which Devonian extinction event is characterized by the Kellwasser and Hangenberg events?</string>
+    <string name="devonian_variant_39_1">Late Devonian extinction</string>
+    <string name="devonian_variant_39_2">Permian extinction</string>
+    <string name="devonian_variant_39_3">Ordovician extinction</string>
+    <string name="devonian_variant_39_4">Triassic extinction</string>
+
+    <string name="devonian_question_40">What kind of environment did Ichthyostega likely inhabit?</string>
+    <string name="devonian_variant_40_1">Shallow, swampy waters</string>
+    <string name="devonian_variant_40_2">Deep ocean trenches</string>
+    <string name="devonian_variant_40_3">Mountainous terrains</string>
+    <string name="devonian_variant_40_4">Arid deserts</string>
+
+    <string name="devonian_question_41">Which of the following is a correct characteristic of Archaeopteris?</string>
+    <string name="devonian_variant_41_1">Tree-like plants with fern-like leaves</string>
+    <string name="devonian_variant_41_2">Aquatic placoderm fish</string>
+    <string name="devonian_variant_41_3">Lobe-finned fish with limbs</string>
+    <string name="devonian_variant_41_4">Earliest known shark</string>
+
+    <string name="devonian_question_42">What was the primary ecological role of Dunkleosteus?</string>
+    <string name="devonian_variant_42_1">Apex predator</string>
+    <string name="devonian_variant_42_2">Herbivorous grazer</string>
+    <string name="devonian_variant_42_3">Filter feeder</string>
+    <string name="devonian_variant_42_4">Scavenger</string>
+
     <!--     BREAK      -->
 
     <string name="carboniferous_question_1">When the Carboniferous began?</string>
