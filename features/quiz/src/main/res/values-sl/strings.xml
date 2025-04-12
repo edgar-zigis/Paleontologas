@@ -1414,6 +1414,96 @@
     <string name="devonian_variant_27_3">do 500 kg</string>
     <string name="devonian_variant_27_4">do 2.5 t</string>
 
+    <string name="devonian_question_28">Katero obdobje zajema devon?</string>
+    <string name="devonian_variant_28_1">419 do 359 milijonov let nazaj</string>
+    <string name="devonian_variant_28_2">300 do 250 milijonov let nazaj</string>
+    <string name="devonian_variant_28_3">500 do 450 milijonov let nazaj</string>
+    <string name="devonian_variant_28_4">100 do 50 milijonov let nazaj</string>
+
+    <string name="devonian_question_29">Kakšen je vzdevek za devonsko obdobje?</string>
+    <string name="devonian_variant_29_1">Doba rib</string>
+    <string name="devonian_variant_29_2">Doba sesalcev</string>
+    <string name="devonian_variant_29_3">Doba insektov</string>
+    <string name="devonian_variant_29_4">Doba plazilcev</string>
+
+    <string name="devonian_question_30">Kateri rod prazgodovinskih dreves velja za najstarejšega na Zemlji?</string>
+    <string name="devonian_variant_30_1">Wattieza</string>
+    <string name="devonian_variant_30_2">Archaeopteris</string>
+    <string name="devonian_variant_30_3">Prototaxites</string>
+    <string name="devonian_variant_30_4">Tiktaalik</string>
+
+    <string name="devonian_question_31">Kateri organizem iz devona velja za ključnega predstavnika prehoda iz rib v dvoživke?</string>
+    <string name="devonian_variant_31_1">Tiktaalik</string>
+    <string name="devonian_variant_31_2">Cladoselache</string>
+    <string name="devonian_variant_31_3">Bothriolepis</string>
+    <string name="devonian_variant_31_4">Dunkleosteus</string>
+
+    <string name="devonian_question_32">Kateri rod placodermnih rib je bil znan kot hiperkarnivorski vršni plenilec?</string>
+    <string name="devonian_variant_32_1">Dunkleosteus</string>
+    <string name="devonian_variant_32_2">Cladoselache</string>
+    <string name="devonian_variant_32_3">Materpiscis</string>
+    <string name="devonian_variant_32_4">Acanthostega</string>
+
+    <string name="devonian_question_33">Kakšen pomen ima Materpiscis v evoluciji vretenčarjev?</string>
+    <string name="devonian_variant_33_1">Najstarejši znani vretenčar, ki kaže viviparnost</string>
+    <string name="devonian_variant_33_2">Prvi znani tetrapod</string>
+    <string name="devonian_variant_33_3">Največja devonska riba</string>
+    <string name="devonian_variant_33_4">Prva riba s pljuči</string>
+
+    <string name="devonian_question_34">Kakšna je bila glavna prilagoditev Acanthostega?</string>
+    <string name="devonian_variant_34_1">Pljuča in okončine za gibanje v plitvih vodah</string>
+    <string name="devonian_variant_34_2">Hrustančno okostje za hitro plavanje</string>
+    <string name="devonian_variant_34_3">Ostre koščene plošče za plenjenje</string>
+    <string name="devonian_variant_34_4">Oklepna zunanjost za zaščito</string>
+
+    <string name="devonian_question_35">Kateri rod rib je bil hiter, agilen in je imel 5 do 7 škržnih rež?</string>
+    <string name="devonian_variant_35_1">Cladoselache</string>
+    <string name="devonian_variant_35_2">Dunkleosteus</string>
+    <string name="devonian_variant_35_3">Bothriolepis</string>
+    <string name="devonian_variant_35_4">Wattieza</string>
+
+    <string name="devonian_question_36">Kateri rod primitivnih tetrapodov je imel 8 prstov na vsaki roki, povezanih z mreno?</string>
+    <string name="devonian_variant_36_1">Acanthostega</string>
+    <string name="devonian_variant_36_2">Ichthyostega</string>
+    <string name="devonian_variant_36_3">Tiktaalik</string>
+    <string name="devonian_variant_36_4">Cladoselache</string>
+
+    <string name="devonian_question_37">Kateri rod starodavnih organizmov je verjetno tvoril lišaje namesto čiste glive?</string>
+    <string name="devonian_variant_37_1">Prototaxites</string>
+    <string name="devonian_variant_37_2">Wattieza</string>
+    <string name="devonian_variant_37_3">Archaeopteris</string>
+    <string name="devonian_variant_37_4">Materpiscis</string>
+
+    <string name="devonian_question_38">S čim se je večinoma prehranjeval Bothriolepis?</string>
+    <string name="devonian_variant_38_1">Detritusom, algami in majhnimi mikroorganizmi</string>
+    <string name="devonian_variant_38_2">Velikimi vretenčarji</string>
+    <string name="devonian_variant_38_3">Planktonom</string>
+    <string name="devonian_variant_38_4">Žuželkami</string>
+
+    <string name="devonian_question_39">Kateri devonski izumrtveni dogodek je označen z dogodkoma Kellwasser in Hangenberg?</string>
+    <string name="devonian_variant_39_1">Poznodevonsko izumrtje</string>
+    <string name="devonian_variant_39_2">Permsko izumrtje</string>
+    <string name="devonian_variant_39_3">Ordovicijsko izumrtje</string>
+    <string name="devonian_variant_39_4">Triasno izumrtje</string>
+
+    <string name="devonian_question_40">V kakšnem okolju je verjetno živel Ichthyostega?</string>
+    <string name="devonian_variant_40_1">Plitke, močvirnate vode</string>
+    <string name="devonian_variant_40_2">Globoke oceanske jarke</string>
+    <string name="devonian_variant_40_3">Gorska območja</string>
+    <string name="devonian_variant_40_4">Sušne puščave</string>
+
+    <string name="devonian_question_41">Katera lastnost pravilno opisuje Archaeopteris?</string>
+    <string name="devonian_variant_41_1">Drevesom podobne rastline s praprotastimi listi</string>
+    <string name="devonian_variant_41_2">Vodna placodermna riba</string>
+    <string name="devonian_variant_41_3">Riba z režastimi plavutmi in okončinami</string>
+    <string name="devonian_variant_41_4">Najstarejši znani morski pes</string>
+
+    <string name="devonian_question_42">Kakšna je bila glavna ekološka vloga Dunkleosteusa?</string>
+    <string name="devonian_variant_42_1">Vrhunski plenilec</string>
+    <string name="devonian_variant_42_2">Rastlinojed</string>
+    <string name="devonian_variant_42_3">Filtrator</string>
+    <string name="devonian_variant_42_4">Mrhovinar</string>
+
     <!--     BREAK      -->
 
     <string name="carboniferous_question_1">Kdaj se je začel karbon?</string>

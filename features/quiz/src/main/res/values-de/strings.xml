@@ -1413,6 +1413,96 @@
     <string name="devonian_variant_27_3">bis zu 500 kg</string>
     <string name="devonian_variant_27_4">bis zu 2.5 t</string>
 
+    <string name="devonian_question_28">In welchem Zeitraum erstreckte sich das Devon?</string>
+    <string name="devonian_variant_28_1">419 bis 359 Millionen Jahre vor heute</string>
+    <string name="devonian_variant_28_2">300 bis 250 Millionen Jahre vor heute</string>
+    <string name="devonian_variant_28_3">500 bis 450 Millionen Jahre vor heute</string>
+    <string name="devonian_variant_28_4">100 bis 50 Millionen Jahre vor heute</string>
+
+    <string name="devonian_question_29">Welchen Spitznamen erhielt das Devon?</string>
+    <string name="devonian_variant_29_1">Zeitalter der Fische</string>
+    <string name="devonian_variant_29_2">Zeitalter der Säugetiere</string>
+    <string name="devonian_variant_29_3">Zeitalter der Insekten</string>
+    <string name="devonian_variant_29_4">Zeitalter der Reptilien</string>
+
+    <string name="devonian_question_30">Welche Gattung prähistorischer Bäume gilt als die älteste bekannte der Erde?</string>
+    <string name="devonian_variant_30_1">Wattieza</string>
+    <string name="devonian_variant_30_2">Archaeopteris</string>
+    <string name="devonian_variant_30_3">Prototaxites</string>
+    <string name="devonian_variant_30_4">Tiktaalik</string>
+
+    <string name="devonian_question_31">Welches Organismus aus dem Devon gilt als Schlüsselvertreter des Übergangs von Fischen zu Amphibien?</string>
+    <string name="devonian_variant_31_1">Tiktaalik</string>
+    <string name="devonian_variant_31_2">Cladoselache</string>
+    <string name="devonian_variant_31_3">Bothriolepis</string>
+    <string name="devonian_variant_31_4">Dunkleosteus</string>
+
+    <string name="devonian_question_32">Welche Gattung von Placodermen war als hyperkarnivorer Spitzenprädator bekannt?</string>
+    <string name="devonian_variant_32_1">Dunkleosteus</string>
+    <string name="devonian_variant_32_2">Cladoselache</string>
+    <string name="devonian_variant_32_3">Materpiscis</string>
+    <string name="devonian_variant_32_4">Acanthostega</string>
+
+    <string name="devonian_question_33">Welche Bedeutung hat Materpiscis in der Wirbeltierentwicklung?</string>
+    <string name="devonian_variant_33_1">Ältester bekannter Wirbeltier, das Viviparie zeigt</string>
+    <string name="devonian_variant_33_2">Erstes bekanntes Tetrapode</string>
+    <string name="devonian_variant_33_3">Größter devonischer Fisch</string>
+    <string name="devonian_variant_33_4">Erster Fisch mit Lungen</string>
+
+    <string name="devonian_question_34">Welche Anpassung hatte Acanthostega hauptsächlich?</string>
+    <string name="devonian_variant_34_1">Lungen und Gliedmaßen zur Fortbewegung in flachen Gewässern</string>
+    <string name="devonian_variant_34_2">Knorpeliges Skelett für schnelles Schwimmen</string>
+    <string name="devonian_variant_34_3">Scharfe Knochenplatten für die Jagd</string>
+    <string name="devonian_variant_34_4">Gepanzerte Außenhaut zum Schutz</string>
+
+    <string name="devonian_question_35">Welche Gattung von Fischen war schnell, wendig und hatte 5 bis 7 Kiemenspalten?</string>
+    <string name="devonian_variant_35_1">Cladoselache</string>
+    <string name="devonian_variant_35_2">Dunkleosteus</string>
+    <string name="devonian_variant_35_3">Bothriolepis</string>
+    <string name="devonian_variant_35_4">Wattieza</string>
+
+    <string name="devonian_question_36">Welche Gattung von Stamm-Tetrapoden hatte 8 Finger an jeder Hand, die durch Schwimmhäute verbunden waren?</string>
+    <string name="devonian_variant_36_1">Acanthostega</string>
+    <string name="devonian_variant_36_2">Ichthyostega</string>
+    <string name="devonian_variant_36_3">Tiktaalik</string>
+    <string name="devonian_variant_36_4">Cladoselache</string>
+
+    <string name="devonian_question_37">Welche Gattung von Urorganismen bildete wahrscheinlich Flechten anstatt reiner Pilze?</string>
+    <string name="devonian_variant_37_1">Prototaxites</string>
+    <string name="devonian_variant_37_2">Wattieza</string>
+    <string name="devonian_variant_37_3">Archaeopteris</string>
+    <string name="devonian_variant_37_4">Materpiscis</string>
+
+    <string name="devonian_question_38">Wovon ernährte sich Bothriolepis hauptsächlich?</string>
+    <string name="devonian_variant_38_1">Detritus, Algen und kleine Mikroorganismen</string>
+    <string name="devonian_variant_38_2">Große Wirbeltiere</string>
+    <string name="devonian_variant_38_3">Plankton</string>
+    <string name="devonian_variant_38_4">Insekten</string>
+
+    <string name="devonian_question_39">Welches devonische Aussterbeereignis ist durch die Kellwasser- und Hangenberg-Ereignisse gekennzeichnet?</string>
+    <string name="devonian_variant_39_1">Spätdevonisches Aussterben</string>
+    <string name="devonian_variant_39_2">Permisches Aussterben</string>
+    <string name="devonian_variant_39_3">Ordovizisches Aussterben</string>
+    <string name="devonian_variant_39_4">Triassisches Aussterben</string>
+
+    <string name="devonian_question_40">In welcher Umgebung lebte Ichthyostega wahrscheinlich?</string>
+    <string name="devonian_variant_40_1">Flache, sumpfige Gewässer</string>
+    <string name="devonian_variant_40_2">Tiefseegräben</string>
+    <string name="devonian_variant_40_3">Gebirgige Regionen</string>
+    <string name="devonian_variant_40_4">Trockene Wüsten</string>
+
+    <string name="devonian_question_41">Welches der folgenden Merkmale beschreibt Archaeopteris korrekt?</string>
+    <string name="devonian_variant_41_1">Baumartige Pflanzen mit farnartigen Blättern</string>
+    <string name="devonian_variant_41_2">Aquatischer Placoderm-Fisch</string>
+    <string name="devonian_variant_41_3">Lappenflosser mit Gliedmaßen</string>
+    <string name="devonian_variant_41_4">Ältester bekannter Hai</string>
+
+    <string name="devonian_question_42">Welche ökologische Rolle hatte Dunkleosteus hauptsächlich?</string>
+    <string name="devonian_variant_42_1">Spitzenprädator</string>
+    <string name="devonian_variant_42_2">Herbivorer Weidegänger</string>
+    <string name="devonian_variant_42_3">Filtrierer</string>
+    <string name="devonian_variant_42_4">Aasfresser</string>
+
     <!--     BREAK      -->
 
     <string name="carboniferous_question_1">Wann begann das Karbon?</string>
