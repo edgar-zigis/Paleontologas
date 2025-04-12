@@ -1408,6 +1408,96 @@
     <string name="devonian_variant_27_3">iki 500 kg</string>
     <string name="devonian_variant_27_4">iki 2.5 tonos</string>
 
+    <string name="devonian_question_28">Koks laikotarpis apima Devono periodą?</string>
+    <string name="devonian_variant_28_1">Nuo 419 iki 359 milijonų metų</string>
+    <string name="devonian_variant_28_2">Nuo 300 iki 250 milijonų metų</string>
+    <string name="devonian_variant_28_3">Nuo 500 iki 450 milijonų metų</string>
+    <string name="devonian_variant_28_4">Nuo 100 iki 50 milijonų metų</string>
+
+    <string name="devonian_question_29">Kaip dar kitaip vadinamas Devono periodas?</string>
+    <string name="devonian_variant_29_1">Žuvų amžius</string>
+    <string name="devonian_variant_29_2">Žinduolių amžius</string>
+    <string name="devonian_variant_29_3">Vabzdžių amžius</string>
+    <string name="devonian_variant_29_4">Roplių amžius</string>
+
+    <string name="devonian_question_30">Kokia priešistorinių medžių gentis laikoma seniausia Žemėje?</string>
+    <string name="devonian_variant_30_1">Wattieza</string>
+    <string name="devonian_variant_30_2">Archaeopteris</string>
+    <string name="devonian_variant_30_3">Prototaxites</string>
+    <string name="devonian_variant_30_4">Tiktaalik</string>
+
+    <string name="devonian_question_31">Kuris Devono laikotarpio organizmas laikomas svarbia grandimi tarp žuvų ir varliagyvių?</string>
+    <string name="devonian_variant_31_1">Tiktaalik</string>
+    <string name="devonian_variant_31_2">Cladoselache</string>
+    <string name="devonian_variant_31_3">Bothriolepis</string>
+    <string name="devonian_variant_31_4">Dunkleosteus</string>
+
+    <string name="devonian_question_32">Kokia šarvuotųjų žuvų gentis buvo plėšri?</string>
+    <string name="devonian_variant_32_1">Dunkleosteus</string>
+    <string name="devonian_variant_32_2">Cladoselache</string>
+    <string name="devonian_variant_32_3">Materpiscis</string>
+    <string name="devonian_variant_32_4">Acanthostega</string>
+
+    <string name="devonian_question_33">Kokia Materpiscis reikšmė stuburinių evoliucijoje?</string>
+    <string name="devonian_variant_33_1">Seniausias žinomas stuburinis kuris vedė gyvus jauniklius</string>
+    <string name="devonian_variant_33_2">Pirmasis žinomas keturkojis</string>
+    <string name="devonian_variant_33_3">Didžiausia Devono žuvis</string>
+    <string name="devonian_variant_33_4">Pirmoji žuvis su plaučiais</string>
+
+    <string name="devonian_question_34">Kokia adaptacija pasižymėjo Acanthostega?</string>
+    <string name="devonian_variant_34_1">Plaučiai ir galūnės judėjimui sėkliuose vandenyse</string>
+    <string name="devonian_variant_34_2">Kremzlinis skeletas greitam plaukimui</string>
+    <string name="devonian_variant_34_3">Aštrios kaulinės plokštės medžioklei</string>
+    <string name="devonian_variant_34_4">Šarvuotas išorinis skeletas apsaugai</string>
+
+    <string name="devonian_question_35">Kokia žuvų gentis buvo greita, judri ir turėjo 5–7 žiaunų plyšius?</string>
+    <string name="devonian_variant_35_1">Cladoselache</string>
+    <string name="devonian_variant_35_2">Dunkleosteus</string>
+    <string name="devonian_variant_35_3">Bothriolepis</string>
+    <string name="devonian_variant_35_4">Wattieza</string>
+
+    <string name="devonian_question_36">Kokia primityvi keturkojų gentis turėjo 8 plėviškus pirštus kiekvienoje galūnėje?</string>
+    <string name="devonian_variant_36_1">Acanthostega</string>
+    <string name="devonian_variant_36_2">Ichthyostega</string>
+    <string name="devonian_variant_36_3">Tiktaalik</string>
+    <string name="devonian_variant_36_4">Cladoselache</string>
+
+    <string name="devonian_question_37">Kokia senovinių organizmų gentis greičiausiai buvo kerpė, o ne grybas?</string>
+    <string name="devonian_variant_37_1">Prototaxites</string>
+    <string name="devonian_variant_37_2">Wattieza</string>
+    <string name="devonian_variant_37_3">Archaeopteris</string>
+    <string name="devonian_variant_37_4">Materpiscis</string>
+
+    <string name="devonian_question_38">Kuo daugiausiai maitinosi Bothriolepis?</string>
+    <string name="devonian_variant_38_1">Detritu, dumbliais ir mažais mikroorganizmais</string>
+    <string name="devonian_variant_38_2">Dideliais stuburiniais</string>
+    <string name="devonian_variant_38_3">Planktonu</string>
+    <string name="devonian_variant_38_4">Vabzdžiais</string>
+
+    <string name="devonian_question_39">Kas nutiko per Kellwasser ir Hangenberg įvykį?</string>
+    <string name="devonian_variant_39_1">Vėlyvojo Devono išnykimas</string>
+    <string name="devonian_variant_39_2">Permo išnykimas</string>
+    <string name="devonian_variant_39_3">Ordoviko išnykimas</string>
+    <string name="devonian_variant_39_4">Triaso išnykimas</string>
+
+    <string name="devonian_question_40">Kokioje aplinkoje greičiausiai gyveno Ichthyostega?</string>
+    <string name="devonian_variant_40_1">Sekliuose, pelkėtuose vandenyse</string>
+    <string name="devonian_variant_40_2">Giliose vandenyno įdubose</string>
+    <string name="devonian_variant_40_3">Kalnuotose vietovėse</string>
+    <string name="devonian_variant_40_4">Sausose dykumose</string>
+
+    <string name="devonian_question_41">Koks teiginys teisingai apibūdina Archaeopteris?</string>
+    <string name="devonian_variant_41_1">Medžiai su paparčius primenančiais lapais</string>
+    <string name="devonian_variant_41_2">Vandens šarvuotoji žuvis</string>
+    <string name="devonian_variant_41_3">Žvynuotoji žuvis su galūnėmis</string>
+    <string name="devonian_variant_41_4">Seniausias žinomas ryklys</string>
+
+    <string name="devonian_question_42">Koks buvo pagrindinis Dunkleosteus ekologinis vaidmuo?</string>
+    <string name="devonian_variant_42_1">Pagrindinis plėšrūnas</string>
+    <string name="devonian_variant_42_2">Žolėdis</string>
+    <string name="devonian_variant_42_3">Filtratorius</string>
+    <string name="devonian_variant_42_4">Dvikampis</string>
+
     <!--     BREAK      -->
 
     <string name="carboniferous_question_1">Kada prasidėjo karbonas?</string>

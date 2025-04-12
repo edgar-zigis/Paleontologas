@@ -1414,6 +1414,96 @@
     <string name="devonian_variant_27_3">500 kg</string>
     <string name="devonian_variant_27_4">2.5 T</string>
 
+    <string name="devonian_question_28">Quelle est la période couverte par le Dévonien ?</string>
+    <string name="devonian_variant_28_1">419 à 359 millions d\'années</string>
+    <string name="devonian_variant_28_2">300 à 250 millions d\'années</string>
+    <string name="devonian_variant_28_3">500 à 450 millions d\'années</string>
+    <string name="devonian_variant_28_4">100 à 50 millions d\'années</string>
+
+    <string name="devonian_question_29">Quel est le surnom donné à la période dévonienne ?</string>
+    <string name="devonian_variant_29_1">L\'Âge des Poissons</string>
+    <string name="devonian_variant_29_2">L\'Âge des Mammifères</string>
+    <string name="devonian_variant_29_3">L\'Âge des Insectes</string>
+    <string name="devonian_variant_29_4">L\'Âge des Reptiles</string>
+
+    <string name="devonian_question_30">Quel genre d\'arbres préhistoriques est considéré comme le plus ancien connu sur Terre ?</string>
+    <string name="devonian_variant_30_1">Wattieza</string>
+    <string name="devonian_variant_30_2">Archaeopteris</string>
+    <string name="devonian_variant_30_3">Prototaxites</string>
+    <string name="devonian_variant_30_4">Tiktaalik</string>
+
+    <string name="devonian_question_31">Quel organisme du Dévonien est considéré comme un représentant clé de la transition des poissons aux amphibiens ?</string>
+    <string name="devonian_variant_31_1">Tiktaalik</string>
+    <string name="devonian_variant_31_2">Cladoselache</string>
+    <string name="devonian_variant_31_3">Bothriolepis</string>
+    <string name="devonian_variant_31_4">Dunkleosteus</string>
+
+    <string name="devonian_question_32">Quel genre de poisson placoderme était connu comme prédateur hypercarnivore au sommet de la chaîne alimentaire ?</string>
+    <string name="devonian_variant_32_1">Dunkleosteus</string>
+    <string name="devonian_variant_32_2">Cladoselache</string>
+    <string name="devonian_variant_32_3">Materpiscis</string>
+    <string name="devonian_variant_32_4">Acanthostega</string>
+
+    <string name="devonian_question_33">Quelle est l\'importance de Materpiscis dans l\'évolution des vertébrés ?</string>
+    <string name="devonian_variant_33_1">Le plus ancien vertébré connu à présenter la viviparité</string>
+    <string name="devonian_variant_33_2">Le premier tétrapode connu</string>
+    <string name="devonian_variant_33_3">Le plus grand poisson dévonien</string>
+    <string name="devonian_variant_33_4">Le premier poisson à développer des poumons</string>
+
+    <string name="devonian_question_34">Quelle adaptation possédait principalement Acanthostega ?</string>
+    <string name="devonian_variant_34_1">Poumons et membres pour la navigation dans les eaux peu profondes</string>
+    <string name="devonian_variant_34_2">Squelette cartilagineux pour la nage rapide</string>
+    <string name="devonian_variant_34_3">Plaques osseuses tranchantes pour la prédation</string>
+    <string name="devonian_variant_34_4">Extérieur blindé pour la protection</string>
+
+    <string name="devonian_question_35">Quel genre de poisson était rapide, agile et possédait de 5 à 7 fentes branchiales ?</string>
+    <string name="devonian_variant_35_1">Cladoselache</string>
+    <string name="devonian_variant_35_2">Dunkleosteus</string>
+    <string name="devonian_variant_35_3">Bothriolepis</string>
+    <string name="devonian_variant_35_4">Wattieza</string>
+
+    <string name="devonian_question_36">Quel genre de tétrapode primitif avait 8 doigts sur chaque main reliés par des membranes ?</string>
+    <string name="devonian_variant_36_1">Acanthostega</string>
+    <string name="devonian_variant_36_2">Ichthyostega</string>
+    <string name="devonian_variant_36_3">Tiktaalik</string>
+    <string name="devonian_variant_36_4">Cladoselache</string>
+
+    <string name="devonian_question_37">Quel genre d\'organisme ancien formait probablement des lichens plutôt que d\'être un champignon pur ?</string>
+    <string name="devonian_variant_37_1">Prototaxites</string>
+    <string name="devonian_variant_37_2">Wattieza</string>
+    <string name="devonian_variant_37_3">Archaeopteris</string>
+    <string name="devonian_variant_37_4">Materpiscis</string>
+
+    <string name="devonian_question_38">De quoi se nourrissait principalement Bothriolepis ?</string>
+    <string name="devonian_variant_38_1">Débris, algues et petits micro-organismes</string>
+    <string name="devonian_variant_38_2">Grands vertébrés</string>
+    <string name="devonian_variant_38_3">Plancton</string>
+    <string name="devonian_variant_38_4">Insectes</string>
+
+    <string name="devonian_question_39">Quel événement d\'extinction dévonien est caractérisé par les événements Kellwasser et Hangenberg ?</string>
+    <string name="devonian_variant_39_1">Extinction du Dévonien supérieur</string>
+    <string name="devonian_variant_39_2">Extinction du Permien</string>
+    <string name="devonian_variant_39_3">Extinction de l\'Ordovicien</string>
+    <string name="devonian_variant_39_4">Extinction du Trias</string>
+
+    <string name="devonian_question_40">Quel type d\'environnement Ichthyostega habitait-il probablement ?</string>
+    <string name="devonian_variant_40_1">Eaux peu profondes et marécageuses</string>
+    <string name="devonian_variant_40_2">Fosses océaniques profondes</string>
+    <string name="devonian_variant_40_3">Régions montagneuses</string>
+    <string name="devonian_variant_40_4">Déserts arides</string>
+
+    <string name="devonian_question_41">Quelle caractéristique décrit correctement Archaeopteris ?</string>
+    <string name="devonian_variant_41_1">Plantes arborescentes aux feuilles ressemblant à des fougères</string>
+    <string name="devonian_variant_41_2">Poisson placoderme aquatique</string>
+    <string name="devonian_variant_41_3">Poisson à nageoires charnues avec des membres</string>
+    <string name="devonian_variant_41_4">Le plus ancien requin connu</string>
+
+    <string name="devonian_question_42">Quel rôle écologique principal avait Dunkleosteus ?</string>
+    <string name="devonian_variant_42_1">Prédateur de pointe</string>
+    <string name="devonian_variant_42_2">Herbivore</string>
+    <string name="devonian_variant_42_3">Filtreur</string>
+    <string name="devonian_variant_42_4">Charognard</string>
+
     <!--     BREAK      -->
 
     <string name="carboniferous_question_1">Quand commença le Carbonifère?</string>
