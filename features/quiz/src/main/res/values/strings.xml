@@ -1780,6 +1780,96 @@
     <string name="carboniferous_variant_42_3">45 cm</string>
     <string name="carboniferous_variant_42_4">85 cm</string>
 
+    <string name="carboniferous_question_43">What does the name "Carboniferous" refer to?</string>
+    <string name="carboniferous_variant_43_1">The formation of extensive coal deposits</string>
+    <string name="carboniferous_variant_43_2">A type of igneous rock</string>
+    <string name="carboniferous_variant_43_3">The rise of mammals</string>
+    <string name="carboniferous_variant_43_4">A fossil-rich limestone layer</string>
+
+    <string name="carboniferous_question_44">What major ecological event fragmented tropical forests and caused species extinction around 305 million years ago?</string>
+    <string name="carboniferous_variant_44_1">Carboniferous Rainforest Collapse</string>
+    <string name="carboniferous_variant_44_2">Great Dying</string>
+    <string name="carboniferous_variant_44_3">End-Triassic Extinction</string>
+    <string name="carboniferous_variant_44_4">Permian Plunge</string>
+
+    <string name="carboniferous_question_45">What atmospheric condition in the Carboniferous allowed arthropods to grow to enormous sizes?</string>
+    <string name="carboniferous_variant_45_1">Higher oxygen levels</string>
+    <string name="carboniferous_variant_45_2">Stronger UV radiation</string>
+    <string name="carboniferous_variant_45_3">Low nitrogen concentration</string>
+    <string name="carboniferous_variant_45_4">High carbon monoxide levels</string>
+
+    <string name="carboniferous_question_46">Which plant genus formed part of the dominant vegetation in the Carboniferous coal forests and could grow over 30 meters tall?</string>
+    <string name="carboniferous_variant_46_1">Lepidodendron</string>
+    <string name="carboniferous_variant_46_2">Sequoia</string>
+    <string name="carboniferous_variant_46_3">Cycad</string>
+    <string name="carboniferous_variant_46_4">Ginkgo</string>
+
+    <string name="carboniferous_question_47">What plant is known for vertical leaf scars and was closely related to Lepidodendron?</string>
+    <string name="carboniferous_variant_47_1">Sigillaria</string>
+    <string name="carboniferous_variant_47_2">Ferns</string>
+    <string name="carboniferous_variant_47_3">Welwitschia</string>
+    <string name="carboniferous_variant_47_4">Cordaites</string>
+
+    <string name="carboniferous_question_48">Which tree-like horsetail contributed significantly to the formation of coal in the Carboniferous?</string>
+    <string name="carboniferous_variant_48_1">Calamites</string>
+    <string name="carboniferous_variant_48_2">Bennettites</string>
+    <string name="carboniferous_variant_48_3">Tree ferns</string>
+    <string name="carboniferous_variant_48_4">Clubmoss</string>
+
+    <string name="carboniferous_question_49">Which extinct fish had a unique spiral tooth whorl and could grow over 7 meters long?</string>
+    <string name="carboniferous_variant_49_1">Helicoprion</string>
+    <string name="carboniferous_variant_49_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_49_3">Tiktaalik</string>
+    <string name="carboniferous_variant_49_4">Carcharodon</string>
+
+    <string name="carboniferous_question_50">Which early tetrapod had forward-facing feet and is considered the earliest fully terrestrial vertebrate?</string>
+    <string name="carboniferous_variant_50_1">Pederpes</string>
+    <string name="carboniferous_variant_50_2">Ichthyostega</string>
+    <string name="carboniferous_variant_50_3">Eryops</string>
+    <string name="carboniferous_variant_50_4">Temnospondylus</string>
+
+    <string name="carboniferous_question_51">Which reptile-like amphibian was likely a top predator on both land and in water?</string>
+    <string name="carboniferous_variant_51_1">Proterogyrinus</string>
+    <string name="carboniferous_variant_51_2">Hylonomus</string>
+    <string name="carboniferous_variant_51_3">Meganeura</string>
+    <string name="carboniferous_variant_51_4">Greererpeton</string>
+
+    <string name="carboniferous_question_52">Which is the earliest unquestionable reptile, known from fossilized tree stumps?</string>
+    <string name="carboniferous_variant_52_1">Hylonomus</string>
+    <string name="carboniferous_variant_52_2">Petrolacosaurus</string>
+    <string name="carboniferous_variant_52_3">Seymouria</string>
+    <string name="carboniferous_variant_52_4">Pelycosaur</string>
+
+    <string name="carboniferous_question_53">Which early synapsid resembled a lizard and was among the largest carnivores in Carboniferous forests?</string>
+    <string name="carboniferous_variant_53_1">Archaeothyris</string>
+    <string name="carboniferous_variant_53_2">Dimetrodon</string>
+    <string name="carboniferous_variant_53_3">Captorhinus</string>
+    <string name="carboniferous_variant_53_4">Pelycosaur</string>
+
+    <string name="carboniferous_question_54">Which extinct scorpion species reached lengths of up to 70 centimeters?</string>
+    <string name="carboniferous_variant_54_1">Pulmonoscorpius</string>
+    <string name="carboniferous_variant_54_2">Brontoscorpio</string>
+    <string name="carboniferous_variant_54_3">Palaeophonus</string>
+    <string name="carboniferous_variant_54_4">Gigantoscorpio</string>
+
+    <string name="carboniferous_question_55">Which massive millipede-like arthropod could grow over 2 meters long and was herbivorous?</string>
+    <string name="carboniferous_variant_55_1">Arthropleura</string>
+    <string name="carboniferous_variant_55_2">Hallucigenia</string>
+    <string name="carboniferous_variant_55_3">Anomalocaris</string>
+    <string name="carboniferous_variant_55_4">Eurypterus</string>
+
+    <string name="carboniferous_question_56">Why did giant arthropods like Arthropleura disappear after the Carboniferous?</string>
+    <string name="carboniferous_variant_56_1">A drop in oxygen levels and rise of large predators</string>
+    <string name="carboniferous_variant_56_2">Sudden volcanic winter</string>
+    <string name="carboniferous_variant_56_3">Magnetic field collapse</string>
+    <string name="carboniferous_variant_56_4">Global tsunami event</string>
+
+    <string name="carboniferous_question_57">What is Meganeura best known for?</string>
+    <string name="carboniferous_variant_57_1">Being one of the largest flying insects in Earth’s history</string>
+    <string name="carboniferous_variant_57_2">Building communal nests</string>
+    <string name="carboniferous_variant_57_3">Feeding on fish in rivers</string>
+    <string name="carboniferous_variant_57_4">Having scales and claws like a reptile</string>
+
     <!--     BREAK      -->
 
     <string name="permian_question_1">When the Permian began?</string>
