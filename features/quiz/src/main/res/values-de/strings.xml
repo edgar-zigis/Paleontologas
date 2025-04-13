@@ -2038,6 +2038,96 @@
     <string name="permian_variant_21_3">Paläogen</string>
     <string name="permian_variant_21_4">Kambrium</string>
 
+    <string name="permian_question_22">Welches Großereignis beendete die Perm-Periode?</string>
+    <string name="permian_variant_22_1">Das Perm-Trias-Massenaussterben</string>
+    <string name="permian_variant_22_2">Der Asteroideneinschlag, der die Dinosaurier auslöschte</string>
+    <string name="permian_variant_22_3">Die Bildung der ersten Erdatmosphäre</string>
+    <string name="permian_variant_22_4">Das Aussterben während der Eiszeit</string>
+
+    <string name="permian_question_23">Welche zwei großen Landmassen existierten während des Perms?</string>
+    <string name="permian_variant_23_1">Pangäa und Sibirien</string>
+    <string name="permian_variant_23_2">Laurasien und Gondwana</string>
+    <string name="permian_variant_23_3">Eurasien und Nordamerika</string>
+    <string name="permian_variant_23_4">Afrika und Antarktika</string>
+
+    <string name="permian_question_24">Welcher Prozentsatz der Meeresarten starb während des „Großen Sterbens“ aus?</string>
+    <string name="permian_variant_24_1">Etwa 95 %</string>
+    <string name="permian_variant_24_2">Etwa 50 %</string>
+    <string name="permian_variant_24_3">Etwa 25 %</string>
+    <string name="permian_variant_24_4">Etwa 10 %</string>
+
+    <string name="permian_question_25">Zu welcher Tiergruppe gehörte Dimetrodon?</string>
+    <string name="permian_variant_25_1">Synapsiden</string>
+    <string name="permian_variant_25_2">Archosaurier</string>
+    <string name="permian_variant_25_3">Dinosaurier</string>
+    <string name="permian_variant_25_4">Amphibien</string>
+
+    <string name="permian_question_26">Welche vermutliche Funktion hatte das Rückensegel des Dimetrodon?</string>
+    <string name="permian_variant_26_1">Thermoregulation</string>
+    <string name="permian_variant_26_2">Flug</string>
+    <string name="permian_variant_26_3">Schwimmen</string>
+    <string name="permian_variant_26_4">Verteidigung gegen Räuber</string>
+
+    <string name="permian_question_27">Welche Pflanzengruppe dominierte Gondwana während des Perms?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Farne</string>
+    <string name="permian_variant_27_3">Kakteen</string>
+    <string name="permian_variant_27_4">Blütenpflanzen</string>
+
+    <string name="permian_question_28">Zu welcher Gruppe von Therapsiden gehörte Titanophoneus?</string>
+    <string name="permian_variant_28_1">Dinocephalier</string>
+    <string name="permian_variant_28_2">Cynodonten</string>
+    <string name="permian_variant_28_3">Archosaurier</string>
+    <string name="permian_variant_28_4">Amnioten</string>
+
+    <string name="permian_question_29">Welche Eigenschaft machte Estemmenosuchus optisch besonders auffällig?</string>
+    <string name="permian_variant_29_1">Hörnerartige Strukturen auf dem Schädel</string>
+    <string name="permian_variant_29_2">Ein Rückensegel</string>
+    <string name="permian_variant_29_3">Federn</string>
+    <string name="permian_variant_29_4">Ein langer Greifschwanz</string>
+
+    <string name="permian_question_30">Welche Therapsiden-Gruppe war die dominierenden Raubtiere im späten Perm?</string>
+    <string name="permian_variant_30_1">Gorgonopsiden</string>
+    <string name="permian_variant_30_2">Cynodonten</string>
+    <string name="permian_variant_30_3">Lystrosaurier</string>
+    <string name="permian_variant_30_4">Estemmenosuchiden</string>
+
+    <string name="permian_question_31">Welches Merkmal deutet darauf hin, dass Cynodonten warmblütig waren?</string>
+    <string name="permian_variant_31_1">Vorhandensein von Fell</string>
+    <string name="permian_variant_31_2">Lange Schwänze</string>
+    <string name="permian_variant_31_3">Segelartige Strukturen</string>
+    <string name="permian_variant_31_4">Gehörnte Schädel</string>
+
+    <string name="permian_question_32">Welche heutigen Tiere stammen von den Cynodonten ab?</string>
+    <string name="permian_variant_32_1">Säugetiere</string>
+    <string name="permian_variant_32_2">Amphibien</string>
+    <string name="permian_variant_32_3">Reptilien</string>
+    <string name="permian_variant_32_4">Vögel</string>
+
+    <string name="permian_question_33">Welche Vulkanregion wird mit dem Perm-Trias-Aussterben in Verbindung gebracht?</string>
+    <string name="permian_variant_33_1">Sibirische Trapp-Basalte</string>
+    <string name="permian_variant_33_2">Himalaya-Plateau</string>
+    <string name="permian_variant_33_3">Mittelatlantischer Rücken</string>
+    <string name="permian_variant_33_4">Dekkan-Trapp</string>
+
+    <string name="permian_question_34">Welche Umweltveränderung führte zu einer starken Versauerung der Ozeane am Ende des Perms?</string>
+    <string name="permian_variant_34_1">Freisetzung von Treibhausgasen und Schwefelwasserstoff</string>
+    <string name="permian_variant_34_2">Meteoriteneinschlag</string>
+    <string name="permian_variant_34_3">Ausdehnung des Polareises</string>
+    <string name="permian_variant_34_4">Sonnenstürme</string>
+
+    <string name="permian_question_35">Welche Gemeinsamkeit hatten frühe Insekten des Perms?</string>
+    <string name="permian_variant_35_1">Sie waren primitive Verwandte von Schaben und Libellen</string>
+    <string name="permian_variant_35_2">Sie hatten leuchtende Flügel</string>
+    <string name="permian_variant_35_3">Sie lebten unter Wasser</string>
+    <string name="permian_variant_35_4">Sie waren gepanzert wie Trilobiten</string>
+
+    <string name="permian_question_36">Welche Funktion hatte die Ozonschicht, die während des „Großen Sterbens“ geschädigt wurde?</string>
+    <string name="permian_variant_36_1">Schutz des Lebens vor ultravioletter Strahlung</string>
+    <string name="permian_variant_36_2">Aufrechterhaltung des Sauerstoffgehalts</string>
+    <string name="permian_variant_36_3">Kontrolle von Vulkanausbrüchen</string>
+    <string name="permian_variant_36_4">Aufnahme von Kohlendioxid</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">Wann begann die Trias?</string>

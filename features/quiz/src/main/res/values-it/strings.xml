@@ -2039,6 +2039,96 @@
     <string name="permian_variant_21_3">Paleogene</string>
     <string name="permian_variant_21_4">Cambriano</string>
 
+    <string name="permian_question_22">Quale evento importante ha segnato la fine del periodo Permiano?</string>
+    <string name="permian_variant_22_1">L\'estinzione di massa del Permiano-Triassico</string>
+    <string name="permian_variant_22_2">L\'impatto dell\'asteroide che uccise i dinosauri</string>
+    <string name="permian_variant_22_3">La formazione della prima atmosfera terrestre</string>
+    <string name="permian_variant_22_4">L\'estinzione dell\'era glaciale</string>
+
+    <string name="permian_question_23">Quali due grandi masse terrestri esistevano durante il Permiano?</string>
+    <string name="permian_variant_23_1">Pangea e Siberia</string>
+    <string name="permian_variant_23_2">Laurasia e Gondwana</string>
+    <string name="permian_variant_23_3">Eurasia e Nord America</string>
+    <string name="permian_variant_23_4">Africa e Antartide</string>
+
+    <string name="permian_question_24">Quale percentuale di specie marine si estinse durante la Grande Estinzione?</string>
+    <string name="permian_variant_24_1">Circa il 95%</string>
+    <string name="permian_variant_24_2">Circa il 50%</string>
+    <string name="permian_variant_24_3">Circa il 25%</string>
+    <string name="permian_variant_24_4">Circa il 10%</string>
+
+    <string name="permian_question_25">A quale gruppo apparteneva il Dimetrodon?</string>
+    <string name="permian_variant_25_1">Sinapsidi</string>
+    <string name="permian_variant_25_2">Arcosauri</string>
+    <string name="permian_variant_25_3">Dinosauri</string>
+    <string name="permian_variant_25_4">Anfibi</string>
+
+    <string name="permian_question_26">Qual era una possibile funzione della vela dorsale del Dimetrodon?</string>
+    <string name="permian_variant_26_1">Termoregolazione</string>
+    <string name="permian_variant_26_2">Volo</string>
+    <string name="permian_variant_26_3">Nuoto</string>
+    <string name="permian_variant_26_4">Difesa dai predatori</string>
+
+    <string name="permian_question_27">Quale gruppo di piante dominava il Gondwana durante il Permiano?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Felci</string>
+    <string name="permian_variant_27_3">Cactus</string>
+    <string name="permian_variant_27_4">Piante da fiore</string>
+
+    <string name="permian_question_28">A quale gruppo di terapsidi apparteneva il Titanophoneus?</string>
+    <string name="permian_variant_28_1">Dinocefali</string>
+    <string name="permian_variant_28_2">Cynodonti</string>
+    <string name="permian_variant_28_3">Arcosauri</string>
+    <string name="permian_variant_28_4">Amnioti</string>
+
+    <string name="permian_question_29">Quale caratteristica rendeva visivamente distintivo l\'Estemmenosuchus?</string>
+    <string name="permian_variant_29_1">Strutture simili a corna sul cranio</string>
+    <string name="permian_variant_29_2">Una vela dorsale</string>
+    <string name="permian_variant_29_3">Piume</string>
+    <string name="permian_variant_29_4">Una lunga coda prensile</string>
+
+    <string name="permian_question_30">Quale gruppo di terapsidi era il principale predatore nel Permiano tardo?</string>
+    <string name="permian_variant_30_1">Gorgonopsidi</string>
+    <string name="permian_variant_30_2">Cynodonti</string>
+    <string name="permian_variant_30_3">Lystrosauri</string>
+    <string name="permian_variant_30_4">Estemmenosuchidi</string>
+
+    <string name="permian_question_31">Quale caratteristica suggerisce che i cynodonti fossero a sangue caldo?</string>
+    <string name="permian_variant_31_1">Presenza di pelliccia</string>
+    <string name="permian_variant_31_2">Lunghe code</string>
+    <string name="permian_variant_31_3">Strutture simili a vele</string>
+    <string name="permian_variant_31_4">Crani cornuti</string>
+
+    <string name="permian_question_32">Quali animali moderni discendono dai cynodonti?</string>
+    <string name="permian_variant_32_1">Mammiferi</string>
+    <string name="permian_variant_32_2">Anfibi</string>
+    <string name="permian_variant_32_3">Rettili</string>
+    <string name="permian_variant_32_4">Uccelli</string>
+
+    <string name="permian_question_33">Quale regione vulcanica è collegata all\'estinzione Permiano-Triassico?</string>
+    <string name="permian_variant_33_1">Trappi siberiani</string>
+    <string name="permian_variant_33_2">Altopiano dell\'Himalaya</string>
+    <string name="permian_variant_33_3">Dorsale medio-atlantica</string>
+    <string name="permian_variant_33_4">Trappi del Deccan</string>
+
+    <string name="permian_question_34">Quale cambiamento ambientale causò l’acidificazione degli oceani alla fine del Permiano?</string>
+    <string name="permian_variant_34_1">Rilascio di gas serra e solfuro di idrogeno</string>
+    <string name="permian_variant_34_2">Impatto di un meteorite</string>
+    <string name="permian_variant_34_3">Espansione dei ghiacci polari</string>
+    <string name="permian_variant_34_4">Tempeste solari</string>
+
+    <string name="permian_question_35">Quale caratteristica avevano in comune gli insetti primitivi del Permiano?</string>
+    <string name="permian_variant_35_1">Erano parenti primitivi di scarafaggi e libellule</string>
+    <string name="permian_variant_35_2">Avevano ali bioluminescenti</string>
+    <string name="permian_variant_35_3">Vivevano sott\'acqua</string>
+    <string name="permian_variant_35_4">Erano corazzati come i trilobiti</string>
+
+    <string name="permian_question_36">Qual era la funzione dello strato di ozono danneggiato durante la Grande Estinzione?</string>
+    <string name="permian_variant_36_1">Proteggere la vita dai raggi ultravioletti</string>
+    <string name="permian_variant_36_2">Mantenere i livelli di ossigeno</string>
+    <string name="permian_variant_36_3">Controllare le eruzioni vulcaniche</string>
+    <string name="permian_variant_36_4">Assorbire anidride carbonica</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">Quando ebbe inizio il Triassico?</string>
