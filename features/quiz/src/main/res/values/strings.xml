@@ -2019,6 +2019,96 @@
     <string name="permian_variant_21_3">Paleogene</string>
     <string name="permian_variant_21_4">Cambrian</string>
 
+    <string name="permian_question_22">What major event ended the Permian period?</string>
+    <string name="permian_variant_22_1">The Permian-Triassic mass extinction</string>
+    <string name="permian_variant_22_2">The asteroid impact that killed the dinosaurs</string>
+    <string name="permian_variant_22_3">The formation of Earth’s first atmosphere</string>
+    <string name="permian_variant_22_4">The Ice Age extinction</string>
+
+    <string name="permian_question_23">Which two major landmasses existed during the Permian?</string>
+    <string name="permian_variant_23_1">Pangaea and Siberia</string>
+    <string name="permian_variant_23_2">Laurasia and Gondwana</string>
+    <string name="permian_variant_23_3">Eurasia and North America</string>
+    <string name="permian_variant_23_4">Africa and Antarctica</string>
+
+    <string name="permian_question_24">What percentage of marine species went extinct during the Great Dying?</string>
+    <string name="permian_variant_24_1">About 95%</string>
+    <string name="permian_variant_24_2">About 50%</string>
+    <string name="permian_variant_24_3">About 25%</string>
+    <string name="permian_variant_24_4">About 10%</string>
+
+    <string name="permian_question_25">What group of animals does Dimetrodon belong to?</string>
+    <string name="permian_variant_25_1">Synapsids</string>
+    <string name="permian_variant_25_2">Archosaurs</string>
+    <string name="permian_variant_25_3">Dinosaurs</string>
+    <string name="permian_variant_25_4">Amphibians</string>
+
+    <string name="permian_question_26">What was one likely function of Dimetrodon\'s sail?</string>
+    <string name="permian_variant_26_1">Thermoregulation</string>
+    <string name="permian_variant_26_2">Flight</string>
+    <string name="permian_variant_26_3">Swimming</string>
+    <string name="permian_variant_26_4">Defense against predators</string>
+
+    <string name="permian_question_27">What major plant group dominated southern Gondwana during the Permian?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Ferns</string>
+    <string name="permian_variant_27_3">Cacti</string>
+    <string name="permian_variant_27_4">Flowering plants</string>
+
+    <string name="permian_question_28">What group of therapsids was Titanophoneus a part of?</string>
+    <string name="permian_variant_28_1">Dinocephalians</string>
+    <string name="permian_variant_28_2">Cynodonts</string>
+    <string name="permian_variant_28_3">Archosaurs</string>
+    <string name="permian_variant_28_4">Amniotes</string>
+
+    <string name="permian_question_29">What characteristic made Estemmenosuchus visually distinctive?</string>
+    <string name="permian_variant_29_1">Horn-like structures on its skull</string>
+    <string name="permian_variant_29_2">A sail on its back</string>
+    <string name="permian_variant_29_3">Feathers</string>
+    <string name="permian_variant_29_4">A long prehensile tail</string>
+
+    <string name="permian_question_30">Which group of therapsids were dominant predators in the Late Permian?</string>
+    <string name="permian_variant_30_1">Gorgonopsians</string>
+    <string name="permian_variant_30_2">Cynodonts</string>
+    <string name="permian_variant_30_3">Lystrosaurs</string>
+    <string name="permian_variant_30_4">Estemmenosuchids</string>
+
+    <string name="permian_question_31">What feature suggests cynodonts may have been warm-blooded?</string>
+    <string name="permian_variant_31_1">Presence of fur</string>
+    <string name="permian_variant_31_2">Long tails</string>
+    <string name="permian_variant_31_3">Sail-like structures</string>
+    <string name="permian_variant_31_4">Horned skulls</string>
+
+    <string name="permian_question_32">Which animals are modern descendants of cynodonts?</string>
+    <string name="permian_variant_32_1">Mammals</string>
+    <string name="permian_variant_32_2">Amphibians</string>
+    <string name="permian_variant_32_3">Reptiles</string>
+    <string name="permian_variant_32_4">Birds</string>
+
+    <string name="permian_question_33">Which volcanic region is linked to the Permian-Triassic extinction?</string>
+    <string name="permian_variant_33_1">Siberian Traps</string>
+    <string name="permian_variant_33_2">Himalayan Plateau</string>
+    <string name="permian_variant_33_3">Mid-Atlantic Ridge</string>
+    <string name="permian_variant_33_4">Deccan Traps</string>
+
+    <string name="permian_question_34">What environmental change led to massive ocean acidification at the end of the Permian?</string>
+    <string name="permian_variant_34_1">Release of greenhouse gases and hydrogen sulfide</string>
+    <string name="permian_variant_34_2">Meteor impact</string>
+    <string name="permian_variant_34_3">Rise in polar ice coverage</string>
+    <string name="permian_variant_34_4">Solar flares</string>
+
+    <string name="permian_question_35">Which trait did early Permian insects share?</string>
+    <string name="permian_variant_35_1">They were primitive relatives of cockroaches and dragonflies</string>
+    <string name="permian_variant_35_2">They had bioluminescent wings</string>
+    <string name="permian_variant_35_3">They could live underwater</string>
+    <string name="permian_variant_35_4">They were armored like trilobites</string>
+
+    <string name="permian_question_36">What was one function of the ozone layer damaged during the Great Dying?</string>
+    <string name="permian_variant_36_1">Shielding life from ultraviolet radiation</string>
+    <string name="permian_variant_36_2">Maintaining oxygen levels</string>
+    <string name="permian_variant_36_3">Controlling volcanic eruptions</string>
+    <string name="permian_variant_36_4">Absorbing carbon dioxide</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">When the Triassic began?</string>
