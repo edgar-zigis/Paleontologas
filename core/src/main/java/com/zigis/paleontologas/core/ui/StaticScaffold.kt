@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -55,7 +56,7 @@ fun StaticScaffold(
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(85.dp)
+                        .height(56.dp)
                 ) {
                     Icon(
                         painter = painterResource(id = iconResId),
@@ -63,7 +64,7 @@ fun StaticScaffold(
                         tint = ApplicationTheme.colors.tintColor,
                         modifier = Modifier
                             .align(Alignment.CenterVertically)
-                            .padding(start = 16.dp, top = 17.dp)
+                            .padding(start = 16.dp)
                             .size(32.dp)
                     )
 
@@ -73,7 +74,7 @@ fun StaticScaffold(
                         style = ApplicationTheme.typography.headline2,
                         modifier = Modifier
                             .align(Alignment.CenterVertically)
-                            .padding(start = 16.dp, top = 17.dp, end = 8.dp)
+                            .padding(start = 16.dp, end = 8.dp)
                     )
                 }
 
