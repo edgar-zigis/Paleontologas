@@ -1800,6 +1800,96 @@
     <string name="carboniferous_variant_42_3">45 cm</string>
     <string name="carboniferous_variant_42_4">85 cm</string>
 
+    <string name="carboniferous_question_43">A cosa si riferisce il nome "Carbonifero"?</string>
+    <string name="carboniferous_variant_43_1">Alla formazione di vasti giacimenti di carbone</string>
+    <string name="carboniferous_variant_43_2">A un tipo di roccia ignea</string>
+    <string name="carboniferous_variant_43_3">All\'origine dei mammiferi</string>
+    <string name="carboniferous_variant_43_4">A uno strato calcareo ricco di fossili</string>
+
+    <string name="carboniferous_question_44">Quale importante evento ecologico ha frammentato le foreste tropicali e causato estinzioni circa 305 milioni di anni fa?</string>
+    <string name="carboniferous_variant_44_1">Collasso delle foreste pluviali del Carbonifero</string>
+    <string name="carboniferous_variant_44_2">Grande Estinzione</string>
+    <string name="carboniferous_variant_44_3">Estinzione del Triassico</string>
+    <string name="carboniferous_variant_44_4">Crollo Permiano</string>
+
+    <string name="carboniferous_question_45">Quale condizione atmosferica durante il Carbonifero ha permesso agli artropodi di raggiungere dimensioni enormi?</string>
+    <string name="carboniferous_variant_45_1">Livelli più elevati di ossigeno</string>
+    <string name="carboniferous_variant_45_2">Maggiore radiazione UV</string>
+    <string name="carboniferous_variant_45_3">Basso contenuto di azoto</string>
+    <string name="carboniferous_variant_45_4">Alti livelli di monossido di carbonio</string>
+
+    <string name="carboniferous_question_46">Quale genere di piante dominava le foreste carbonifere e poteva superare i 30 metri di altezza?</string>
+    <string name="carboniferous_variant_46_1">Lepidodendron</string>
+    <string name="carboniferous_variant_46_2">Sequoia</string>
+    <string name="carboniferous_variant_46_3">Cicadee</string>
+    <string name="carboniferous_variant_46_4">Ginkgo</string>
+
+    <string name="carboniferous_question_47">Quale pianta, strettamente imparentata con Lepidodendron, è nota per le sue cicatrici fogliari verticali?</string>
+    <string name="carboniferous_variant_47_1">Sigillaria</string>
+    <string name="carboniferous_variant_47_2">Felci</string>
+    <string name="carboniferous_variant_47_3">Welwitschia</string>
+    <string name="carboniferous_variant_47_4">Cordaites</string>
+
+    <string name="carboniferous_question_48">Quale equiseto arboreo contribuì significativamente alla formazione del carbone nel Carbonifero?</string>
+    <string name="carboniferous_variant_48_1">Calamites</string>
+    <string name="carboniferous_variant_48_2">Bennettitali</string>
+    <string name="carboniferous_variant_48_3">Felci arboree</string>
+    <string name="carboniferous_variant_48_4">Licopodi</string>
+
+    <string name="carboniferous_question_49">Quale pesce estinto possedeva una spirale dentale unica e poteva superare i 7 metri di lunghezza?</string>
+    <string name="carboniferous_variant_49_1">Helicoprion</string>
+    <string name="carboniferous_variant_49_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_49_3">Tiktaalik</string>
+    <string name="carboniferous_variant_49_4">Carcharodon</string>
+
+    <string name="carboniferous_question_50">Quale primo tetrapode aveva piedi rivolti in avanti ed è considerato il più antico vertebrato completamente terrestre conosciuto?</string>
+    <string name="carboniferous_variant_50_1">Pederpes</string>
+    <string name="carboniferous_variant_50_2">Ichthyostega</string>
+    <string name="carboniferous_variant_50_3">Eryops</string>
+    <string name="carboniferous_variant_50_4">Temnospondyli</string>
+
+    <string name="carboniferous_question_51">Quale anfibio simile a un rettile era probabilmente un predatore dominante sia sulla terraferma che in acqua?</string>
+    <string name="carboniferous_variant_51_1">Proterogyrinus</string>
+    <string name="carboniferous_variant_51_2">Hylonomus</string>
+    <string name="carboniferous_variant_51_3">Meganeura</string>
+    <string name="carboniferous_variant_51_4">Greererpeton</string>
+
+    <string name="carboniferous_question_52">Qual è il più antico rettile riconosciuto con certezza, i cui fossili sono stati trovati all\'interno di ceppi fossili?</string>
+    <string name="carboniferous_variant_52_1">Hylonomus</string>
+    <string name="carboniferous_variant_52_2">Petrolacosaurus</string>
+    <string name="carboniferous_variant_52_3">Seymouria</string>
+    <string name="carboniferous_variant_52_4">Pterosauro</string>
+
+    <string name="carboniferous_question_53">Quale antico sinapside assomigliava a una lucertola ed era uno dei più grandi carnivori delle foreste carbonifere?</string>
+    <string name="carboniferous_variant_53_1">Archaeothyris</string>
+    <string name="carboniferous_variant_53_2">Dimetrodon</string>
+    <string name="carboniferous_variant_53_3">Captorhinus</string>
+    <string name="carboniferous_variant_53_4">Pelicosauro</string>
+
+    <string name="carboniferous_question_54">Quale specie estinta di scorpione poteva raggiungere i 70 centimetri di lunghezza?</string>
+    <string name="carboniferous_variant_54_1">Pulmonoscorpius</string>
+    <string name="carboniferous_variant_54_2">Brontoscorpio</string>
+    <string name="carboniferous_variant_54_3">Palaeophonus</string>
+    <string name="carboniferous_variant_54_4">Gigantoscorpio</string>
+
+    <string name="carboniferous_question_55">Quale artropode gigante simile a un millepiedi poteva superare i 2 metri di lunghezza ed era erbivoro?</string>
+    <string name="carboniferous_variant_55_1">Arthropleura</string>
+    <string name="carboniferous_variant_55_2">Hallucigenia</string>
+    <string name="carboniferous_variant_55_3">Anomalocaris</string>
+    <string name="carboniferous_variant_55_4">Eurypterus</string>
+
+    <string name="carboniferous_question_56">Perché gli artropodi giganti come Arthropleura scomparvero dopo il Carbonifero?</string>
+    <string name="carboniferous_variant_56_1">A causa del calo di ossigeno e dell\'emergere di grandi predatori</string>
+    <string name="carboniferous_variant_56_2">Per un improvviso inverno vulcanico</string>
+    <string name="carboniferous_variant_56_3">Per il collasso del campo magnetico</string>
+    <string name="carboniferous_variant_56_4">A causa di uno tsunami globale</string>
+
+    <string name="carboniferous_question_57">Per cosa è più conosciuta Meganeura?</string>
+    <string name="carboniferous_variant_57_1">Per essere uno degli insetti volanti più grandi della storia</string>
+    <string name="carboniferous_variant_57_2">Per costruire nidi collettivi</string>
+    <string name="carboniferous_variant_57_3">Per cacciare pesci nei fiumi</string>
+    <string name="carboniferous_variant_57_4">Per avere squame e artigli simili a quelli dei rettili</string>
+
     <!--     BREAK      -->
 
     <string name="permian_question_1">Quando ebbe inizio il Permiano?</string>

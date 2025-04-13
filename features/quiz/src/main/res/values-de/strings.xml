@@ -1799,6 +1799,96 @@
     <string name="carboniferous_variant_42_3">45 cm</string>
     <string name="carboniferous_variant_42_4">85 cm</string>
 
+    <string name="carboniferous_question_43">Worauf bezieht sich der Name „Karbon“?</string>
+    <string name="carboniferous_variant_43_1">Auf die Bildung umfangreicher Kohlelagerstätten</string>
+    <string name="carboniferous_variant_43_2">Auf eine Art magmatisches Gestein</string>
+    <string name="carboniferous_variant_43_3">Auf den Aufstieg der Säugetiere</string>
+    <string name="carboniferous_variant_43_4">Auf eine fossilreiche Kalksteinschicht</string>
+
+    <string name="carboniferous_question_44">Welches große ökologische Ereignis zerschlug tropische Wälder und führte vor etwa 305 Millionen Jahren zu Artensterben?</string>
+    <string name="carboniferous_variant_44_1">Karbon-Regenwald-Kollaps</string>
+    <string name="carboniferous_variant_44_2">Das große Sterben</string>
+    <string name="carboniferous_variant_44_3">Trias-Massenaussterben</string>
+    <string name="carboniferous_variant_44_4">Permischer Absturz</string>
+
+    <string name="carboniferous_question_45">Welche atmosphärische Bedingung im Karbon erlaubte es Gliederfüßern, enorme Größen zu erreichen?</string>
+    <string name="carboniferous_variant_45_1">Ein höherer Sauerstoffgehalt</string>
+    <string name="carboniferous_variant_45_2">Stärkere UV-Strahlung</string>
+    <string name="carboniferous_variant_45_3">Niedriger Stickstoffgehalt</string>
+    <string name="carboniferous_variant_45_4">Hoher Kohlenmonoxid-Gehalt</string>
+
+    <string name="carboniferous_question_46">Welche Pflanzengattung war ein dominierender Bestandteil der Kohlewälder im Karbon und konnte über 30 Meter hoch werden?</string>
+    <string name="carboniferous_variant_46_1">Lepidodendron</string>
+    <string name="carboniferous_variant_46_2">Sequoia</string>
+    <string name="carboniferous_variant_46_3">Cycadee</string>
+    <string name="carboniferous_variant_46_4">Ginkgo</string>
+
+    <string name="carboniferous_question_47">Welche Pflanze ist bekannt für ihre vertikalen Blattnarben und war eng mit Lepidodendron verwandt?</string>
+    <string name="carboniferous_variant_47_1">Sigillaria</string>
+    <string name="carboniferous_variant_47_2">Farne</string>
+    <string name="carboniferous_variant_47_3">Welwitschia</string>
+    <string name="carboniferous_variant_47_4">Cordaites</string>
+
+    <string name="carboniferous_question_48">Welche baumartige Schachtelhalmart trug wesentlich zur Bildung von Kohle im Karbon bei?</string>
+    <string name="carboniferous_variant_48_1">Calamites</string>
+    <string name="carboniferous_variant_48_2">Bennettiten</string>
+    <string name="carboniferous_variant_48_3">Baumfarne</string>
+    <string name="carboniferous_variant_48_4">Bärlappe</string>
+
+    <string name="carboniferous_question_49">Welcher ausgestorbene Fisch hatte eine einzigartige spiralförmige Zahnreihe und konnte über 7 Meter lang werden?</string>
+    <string name="carboniferous_variant_49_1">Helicoprion</string>
+    <string name="carboniferous_variant_49_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_49_3">Tiktaalik</string>
+    <string name="carboniferous_variant_49_4">Carcharodon</string>
+
+    <string name="carboniferous_question_50">Welcher frühe Tetrapode hatte nach vorne gerichtete Füße und gilt als das früheste vollständig landlebende Wirbeltier?</string>
+    <string name="carboniferous_variant_50_1">Pederpes</string>
+    <string name="carboniferous_variant_50_2">Ichthyostega</string>
+    <string name="carboniferous_variant_50_3">Eryops</string>
+    <string name="carboniferous_variant_50_4">Temnospondylus</string>
+
+    <string name="carboniferous_question_51">Welches reptilienähnliche Amphibium war wahrscheinlich ein Spitzenprädator sowohl an Land als auch im Wasser?</string>
+    <string name="carboniferous_variant_51_1">Proterogyrinus</string>
+    <string name="carboniferous_variant_51_2">Hylonomus</string>
+    <string name="carboniferous_variant_51_3">Meganeura</string>
+    <string name="carboniferous_variant_51_4">Greererpeton</string>
+
+    <string name="carboniferous_question_52">Welches ist das früheste zweifelsfrei als Reptil identifizierte Tier, dessen Fossilien in fossilen Baumstümpfen gefunden wurden?</string>
+    <string name="carboniferous_variant_52_1">Hylonomus</string>
+    <string name="carboniferous_variant_52_2">Petrolacosaurus</string>
+    <string name="carboniferous_variant_52_3">Seymouria</string>
+    <string name="carboniferous_variant_52_4">Pelycosaurier</string>
+
+    <string name="carboniferous_question_53">Welcher frühe Synapside ähnelte einer Eidechse und war einer der größten Fleischfresser in den karbonischen Wäldern?</string>
+    <string name="carboniferous_variant_53_1">Archaeothyris</string>
+    <string name="carboniferous_variant_53_2">Dimetrodon</string>
+    <string name="carboniferous_variant_53_3">Captorhinus</string>
+    <string name="carboniferous_variant_53_4">Pelycosaurier</string>
+
+    <string name="carboniferous_question_54">Welche ausgestorbene Skorpionart konnte eine Länge von bis zu 70 Zentimetern erreichen?</string>
+    <string name="carboniferous_variant_54_1">Pulmonoscorpius</string>
+    <string name="carboniferous_variant_54_2">Brontoscorpio</string>
+    <string name="carboniferous_variant_54_3">Palaeophonus</string>
+    <string name="carboniferous_variant_54_4">Gigantoscorpio</string>
+
+    <string name="carboniferous_question_55">Welches riesige, millipedenähnliche Gliederfüßer konnte über 2 Meter lang werden und war pflanzenfressend?</string>
+    <string name="carboniferous_variant_55_1">Arthropleura</string>
+    <string name="carboniferous_variant_55_2">Hallucigenia</string>
+    <string name="carboniferous_variant_55_3">Anomalocaris</string>
+    <string name="carboniferous_variant_55_4">Eurypterus</string>
+
+    <string name="carboniferous_question_56">Warum verschwanden riesige Gliederfüßer wie Arthropleura nach dem Karbon?</string>
+    <string name="carboniferous_variant_56_1">Ein Rückgang des Sauerstoffgehalts und das Aufkommen großer Räuber</string>
+    <string name="carboniferous_variant_56_2">Ein plötzlicher vulkanischer Winter</string>
+    <string name="carboniferous_variant_56_3">Zusammenbruch des Magnetfelds</string>
+    <string name="carboniferous_variant_56_4">Globale Tsunami-Katastrophe</string>
+
+    <string name="carboniferous_question_57">Wofür ist Meganeura am besten bekannt?</string>
+    <string name="carboniferous_variant_57_1">Als eines der größten fliegenden Insekten der Erdgeschichte</string>
+    <string name="carboniferous_variant_57_2">Für den Bau von Gemeinschaftsnestern</string>
+    <string name="carboniferous_variant_57_3">Für das Jagen von Fischen in Flüssen</string>
+    <string name="carboniferous_variant_57_4">Für Schuppen und Krallen wie ein Reptil</string>
+
     <!--     BREAK      -->
 
     <string name="permian_question_1">Wann begann das Perm?</string>
