@@ -1800,6 +1800,96 @@
     <string name="carboniferous_variant_42_3">45 cm</string>
     <string name="carboniferous_variant_42_4">85 cm</string>
 
+    <string name="carboniferous_question_43">Na kaj se nanaša ime »karbon«?</string>
+    <string name="carboniferous_variant_43_1">Na nastanek obsežnih nahajališč premoga</string>
+    <string name="carboniferous_variant_43_2">Na vrsto magmatske kamnine</string>
+    <string name="carboniferous_variant_43_3">Na pojav sesalcev</string>
+    <string name="carboniferous_variant_43_4">Na apnenčasto plast, bogato s fosili</string>
+
+    <string name="carboniferous_question_44">Kateri pomemben ekološki dogodek je razdrobil tropske gozdove in povzročil izumrtja pred približno 305 milijoni let?</string>
+    <string name="carboniferous_variant_44_1">Kolaps karbonifernih deževnih gozdov</string>
+    <string name="carboniferous_variant_44_2">Veliko izumrtje</string>
+    <string name="carboniferous_variant_44_3">Triasično izumrtje</string>
+    <string name="carboniferous_variant_44_4">Permski zlom</string>
+
+    <string name="carboniferous_question_45">Kateri atmosferski pogoj v karbonskem obdobju je omogočil, da so členonožci dosegli ogromne velikosti?</string>
+    <string name="carboniferous_variant_45_1">Višja raven kisika</string>
+    <string name="carboniferous_variant_45_2">Močnejše UV sevanje</string>
+    <string name="carboniferous_variant_45_3">Nizka koncentracija dušika</string>
+    <string name="carboniferous_variant_45_4">Visoke ravni ogljikovega monoksida</string>
+
+    <string name="carboniferous_question_46">Katera rastlinska vrsta je prevladovala v karbonifernih premogovnih gozdovih in je lahko zrasla več kot 30 metrov visoko?</string>
+    <string name="carboniferous_variant_46_1">Lepidodendron</string>
+    <string name="carboniferous_variant_46_2">Sekvoja</string>
+    <string name="carboniferous_variant_46_3">Cikasa</string>
+    <string name="carboniferous_variant_46_4">Ginko</string>
+
+    <string name="carboniferous_question_47">Katera rastlina, sorodna Lepidodendronu, je znana po svojih navpičnih listnih brazgotinah?</string>
+    <string name="carboniferous_variant_47_1">Sigillaria</string>
+    <string name="carboniferous_variant_47_2">Praproti</string>
+    <string name="carboniferous_variant_47_3">Welwitschia</string>
+    <string name="carboniferous_variant_47_4">Cordaites</string>
+
+    <string name="carboniferous_question_48">Katera drevesasta preslica je pomembno prispevala k tvorbi premoga v karbonu?</string>
+    <string name="carboniferous_variant_48_1">Calamites</string>
+    <string name="carboniferous_variant_48_2">Bennettitales</string>
+    <string name="carboniferous_variant_48_3">Drevesne praproti</string>
+    <string name="carboniferous_variant_48_4">Lycopodi</string>
+
+    <string name="carboniferous_question_49">Katera izumrla riba je imela edinstveno spiralno strukturo zob in je lahko zrasla več kot 7 metrov?</string>
+    <string name="carboniferous_variant_49_1">Helicoprion</string>
+    <string name="carboniferous_variant_49_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_49_3">Tiktaalik</string>
+    <string name="carboniferous_variant_49_4">Carcharodon</string>
+
+    <string name="carboniferous_question_50">Kateri zgodnji štirinožec je imel naprej usmerjene noge in velja za najstarejšo znano povsem kopensko vretenčarko?</string>
+    <string name="carboniferous_variant_50_1">Pederpes</string>
+    <string name="carboniferous_variant_50_2">Ichthyostega</string>
+    <string name="carboniferous_variant_50_3">Eryops</string>
+    <string name="carboniferous_variant_50_4">Temnospondyl</string>
+
+    <string name="carboniferous_question_51">Kateri dvoživka, podobna plazilcu, je bila verjetno vrhovni plenilec tako na kopnem kot v vodi?</string>
+    <string name="carboniferous_variant_51_1">Proterogyrinus</string>
+    <string name="carboniferous_variant_51_2">Hylonomus</string>
+    <string name="carboniferous_variant_51_3">Meganeura</string>
+    <string name="carboniferous_variant_51_4">Greererpeton</string>
+
+    <string name="carboniferous_question_52">Katera je najstarejša nesporno prepoznana plazilka, katere fosili so bili najdeni v fosiliziranih štorih?</string>
+    <string name="carboniferous_variant_52_1">Hylonomus</string>
+    <string name="carboniferous_variant_52_2">Petrolacosaurus</string>
+    <string name="carboniferous_variant_52_3">Seymouria</string>
+    <string name="carboniferous_variant_52_4">Pelycosaurus</string>
+
+    <string name="carboniferous_question_53">Kateri sinapsid je bil podoben kuščarju in je bil eden največjih plenilcev v karbonifernih gozdovih?</string>
+    <string name="carboniferous_variant_53_1">Archaeothyris</string>
+    <string name="carboniferous_variant_53_2">Dimetrodon</string>
+    <string name="carboniferous_variant_53_3">Captorhinus</string>
+    <string name="carboniferous_variant_53_4">Pelycosaurus</string>
+
+    <string name="carboniferous_question_54">Katera izumrla vrsta škorpijona je lahko dosegla dolžino do 70 centimetrov?</string>
+    <string name="carboniferous_variant_54_1">Pulmonoscorpius</string>
+    <string name="carboniferous_variant_54_2">Brontoscorpio</string>
+    <string name="carboniferous_variant_54_3">Palaeophonus</string>
+    <string name="carboniferous_variant_54_4">Gigantoscorpio</string>
+
+    <string name="carboniferous_question_55">Kateri velik členonožec, podoben stonogi, je lahko zrasel več kot 2 metra in je bil rastlinojed?</string>
+    <string name="carboniferous_variant_55_1">Arthropleura</string>
+    <string name="carboniferous_variant_55_2">Hallucigenia</string>
+    <string name="carboniferous_variant_55_3">Anomalocaris</string>
+    <string name="carboniferous_variant_55_4">Eurypterus</string>
+
+    <string name="carboniferous_question_56">Zakaj so ogromni členonožci, kot je Arthropleura, izumrli po karbonskem obdobju?</string>
+    <string name="carboniferous_variant_56_1">Zaradi padca ravni kisika in pojava velikih plenilcev</string>
+    <string name="carboniferous_variant_56_2">Zaradi nenadne vulkanske zime</string>
+    <string name="carboniferous_variant_56_3">Zaradi kolapsa magnetnega polja</string>
+    <string name="carboniferous_variant_56_4">Zaradi globalnega cunamija</string>
+
+    <string name="carboniferous_question_57">Po čem je Meganeura najbolj znana?</string>
+    <string name="carboniferous_variant_57_1">Po tem, da je bila eden največjih letečih žuželk v zgodovini Zemlje</string>
+    <string name="carboniferous_variant_57_2">Po gradnji skupinskih gnezd</string>
+    <string name="carboniferous_variant_57_3">Po lovu na ribe v rekah</string>
+    <string name="carboniferous_variant_57_4">Po tem, da je imela luske in kremplje kot plazilci</string>
+
     <!--     BREAK      -->
 
     <string name="permian_question_1">Kdaj se je začel perm?</string>

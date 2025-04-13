@@ -1794,6 +1794,96 @@
     <string name="carboniferous_variant_42_3">45 cm</string>
     <string name="carboniferous_variant_42_4">85 cm</string>
 
+    <string name="carboniferous_question_43">Ką gali priminti žodis „Karbonas“?</string>
+    <string name="carboniferous_variant_43_1">Didelių anglies telkinių susidarymą</string>
+    <string name="carboniferous_variant_43_2">Magminės uolienos tipą</string>
+    <string name="carboniferous_variant_43_3">Žinduolių atsiradimą</string>
+    <string name="carboniferous_variant_43_4">Fosilijų turtingą klinties sluoksnį</string>
+
+    <string name="carboniferous_question_44">Koks svarbus ekologinis įvykis suskaldė atogrąžų miškus ir sukėlė stambų išnykimą maždaug prieš 305 mln. metų?</string>
+    <string name="carboniferous_variant_44_1">Karbono atogrąžų miškų žlugimas</string>
+    <string name="carboniferous_variant_44_2">Didysis išnykimas</string>
+    <string name="carboniferous_variant_44_3">Triašo išnykimas</string>
+    <string name="carboniferous_variant_44_4">Permo griūtis</string>
+
+    <string name="carboniferous_question_45">Kas leido Karbono nariuotakojams pasiekti milžinišką dydį?</string>
+    <string name="carboniferous_variant_45_1">Aukštas deguonies lygis</string>
+    <string name="carboniferous_variant_45_2">Stipresnė UV spinduliuotė</string>
+    <string name="carboniferous_variant_45_3">Žemas azoto lygis</string>
+    <string name="carboniferous_variant_45_4">Padidėjęs anglies monoksido lygis</string>
+
+    <string name="carboniferous_question_46">Kurie augalai dominavo Karbono miškuose ir galėjo užaugti virš 30 metrų?</string>
+    <string name="carboniferous_variant_46_1">Lepidodendron</string>
+    <string name="carboniferous_variant_46_2">Sequoia</string>
+    <string name="carboniferous_variant_46_3">Cikai</string>
+    <string name="carboniferous_variant_46_4">Ginkmedžiai</string>
+
+    <string name="carboniferous_question_47">Kuris iš šių augalų yra artimas Lepidodendron augalams?</string>
+    <string name="carboniferous_variant_47_1">Sigillaria</string>
+    <string name="carboniferous_variant_47_2">Urtica</string>
+    <string name="carboniferous_variant_47_3">Welwitschia</string>
+    <string name="carboniferous_variant_47_4">Quercus</string>
+
+    <string name="carboniferous_question_48">Kurie augalai labai prisidėjo prie anglies susidarymo Karbone?</string>
+    <string name="carboniferous_variant_48_1">Calamites</string>
+    <string name="carboniferous_variant_48_2">Bennettitales</string>
+    <string name="carboniferous_variant_48_3">Fabaceae</string>
+    <string name="carboniferous_variant_48_4">Asteraceae</string>
+
+    <string name="carboniferous_question_49">Kokia išnykusi žuvis turėjo unikalų spiralinį dantų darinį ir galėjo užaugti daugiau nei 7 metrus?</string>
+    <string name="carboniferous_variant_49_1">Helicoprion</string>
+    <string name="carboniferous_variant_49_2">Dunkleosteus</string>
+    <string name="carboniferous_variant_49_3">Tiktaalik</string>
+    <string name="carboniferous_variant_49_4">Carcharodon</string>
+
+    <string name="carboniferous_question_50">Kuris ankstyvasis keturkojis yra laikomas seniausiu žinomu visiškai sausumos stuburiniu?</string>
+    <string name="carboniferous_variant_50_1">Pederpes</string>
+    <string name="carboniferous_variant_50_2">Ichthyostega</string>
+    <string name="carboniferous_variant_50_3">Eryops</string>
+    <string name="carboniferous_variant_50_4">Temnospondylus</string>
+
+    <string name="carboniferous_question_51">Kuris varliagyvis buvo dominuojantis plėšrūnas tiek sausumoje, tiek vandenyje?</string>
+    <string name="carboniferous_variant_51_1">Proterogyrinus</string>
+    <string name="carboniferous_variant_51_2">Hylonomus</string>
+    <string name="carboniferous_variant_51_3">Meganeura</string>
+    <string name="carboniferous_variant_51_4">Greererpeton</string>
+
+    <string name="carboniferous_question_52">Kuris iš šių gyvūnų yra seniausias žinomas roplys?</string>
+    <string name="carboniferous_variant_52_1">Hylonomus</string>
+    <string name="carboniferous_variant_52_2">Petrolacosaurus</string>
+    <string name="carboniferous_variant_52_3">Seymouria</string>
+    <string name="carboniferous_variant_52_4">Pelycosaurus</string>
+
+    <string name="carboniferous_question_53">Koks gyvūnas buvo vienas didžiausių plėšrūnų Karbono miškuose?</string>
+    <string name="carboniferous_variant_53_1">Archaeothyris</string>
+    <string name="carboniferous_variant_53_2">Dimetrodon</string>
+    <string name="carboniferous_variant_53_3">Captorhinus</string>
+    <string name="carboniferous_variant_53_4">Pelycosaurus</string>
+
+    <string name="carboniferous_question_54">Kokia išnykusi skorpionų rūšis galėjo pasiekti net 70 centimetrų ilgį?</string>
+    <string name="carboniferous_variant_54_1">Pulmonoscorpius</string>
+    <string name="carboniferous_variant_54_2">Brontoscorpio</string>
+    <string name="carboniferous_variant_54_3">Palaeophonus</string>
+    <string name="carboniferous_variant_54_4">Gigantoscorpio</string>
+
+    <string name="carboniferous_question_55">Kuris milžiniškas nariuotakojis, panašus į šimtakojį, galėjo pasiekti 2 metrų ilgį?</string>
+    <string name="carboniferous_variant_55_1">Arthropleura</string>
+    <string name="carboniferous_variant_55_2">Hallucigenia</string>
+    <string name="carboniferous_variant_55_3">Anomalocaris</string>
+    <string name="carboniferous_variant_55_4">Eurypterus</string>
+
+    <string name="carboniferous_question_56">Kodėl tokie milžiniški nariuotakojai kaip Arthropleura išnyko po Karbono laikotarpio?</string>
+    <string name="carboniferous_variant_56_1">Dėl deguonies kiekio sumažėjimo ir stambių plėšrūnų atsiradimo</string>
+    <string name="carboniferous_variant_56_2">Dėl staigaus vulkaninės žiemos efekto</string>
+    <string name="carboniferous_variant_56_3">Dėl magnetinio lauko žlugimo</string>
+    <string name="carboniferous_variant_56_4">Dėl pasaulinio cunamio</string>
+
+    <string name="carboniferous_question_57">Kuo labiausiai garsėjo Meganeura?</string>
+    <string name="carboniferous_variant_57_1">Buvo vienas didžiausių skraidančių vabzdžių Žemės istorijoje</string>
+    <string name="carboniferous_variant_57_2">Kūrė bendruomeninius lizdus</string>
+    <string name="carboniferous_variant_57_3">Maitinosi žuvimis upėse</string>
+    <string name="carboniferous_variant_57_4">Turėjo žvynus ir nagus kaip roplys</string>
+
     <!--     BREAK      -->
 
     <string name="permian_question_1">Kada prasidėjo permas?</string>
