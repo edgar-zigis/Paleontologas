@@ -2039,6 +2039,96 @@
     <string name="permian_variant_21_3">Paléogène</string>
     <string name="permian_variant_21_4">Cambrien</string>
 
+    <string name="permian_question_22">Quel événement majeur a marqué la fin de la période Permienne ?</string>
+    <string name="permian_variant_22_1">L\'extinction massive du Permien-Trias</string>
+    <string name="permian_variant_22_2">L\'impact de l\'astéroïde qui a tué les dinosaures</string>
+    <string name="permian_variant_22_3">La formation de la première atmosphère terrestre</string>
+    <string name="permian_variant_22_4">L\'extinction de l\'Âge de glace</string>
+
+    <string name="permian_question_23">Quelles étaient les deux grandes masses terrestres pendant le Permien ?</string>
+    <string name="permian_variant_23_1">Pangée et Sibérie</string>
+    <string name="permian_variant_23_2">Laurasie et Gondwana</string>
+    <string name="permian_variant_23_3">Eurasie et Amérique du Nord</string>
+    <string name="permian_variant_23_4">Afrique et Antarctique</string>
+
+    <string name="permian_question_24">Quel pourcentage des espèces marines a disparu pendant la Grande Mort ?</string>
+    <string name="permian_variant_24_1">Environ 95 %</string>
+    <string name="permian_variant_24_2">Environ 50 %</string>
+    <string name="permian_variant_24_3">Environ 25 %</string>
+    <string name="permian_variant_24_4">Environ 10 %</string>
+
+    <string name="permian_question_25">À quel groupe appartenait Dimétrodon ?</string>
+    <string name="permian_variant_25_1">Synapsides</string>
+    <string name="permian_variant_25_2">Archosaures</string>
+    <string name="permian_variant_25_3">Dinosaures</string>
+    <string name="permian_variant_25_4">Amphibiens</string>
+
+    <string name="permian_question_26">Quelle était l\'une des fonctions possibles de la voile dorsale de Dimétrodon ?</string>
+    <string name="permian_variant_26_1">La thermorégulation</string>
+    <string name="permian_variant_26_2">Le vol</string>
+    <string name="permian_variant_26_3">La nage</string>
+    <string name="permian_variant_26_4">La défense contre les prédateurs</string>
+
+    <string name="permian_question_27">Quel groupe de plantes dominait le Gondwana pendant le Permien ?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Fougères</string>
+    <string name="permian_variant_27_3">Cactus</string>
+    <string name="permian_variant_27_4">Plantes à fleurs</string>
+
+    <string name="permian_question_28">À quel groupe de thérapsides appartenait Titanophoneus ?</string>
+    <string name="permian_variant_28_1">Dinocephaliens</string>
+    <string name="permian_variant_28_2">Cynodontes</string>
+    <string name="permian_variant_28_3">Archosaures</string>
+    <string name="permian_variant_28_4">Amniotes</string>
+
+    <string name="permian_question_29">Quelle caractéristique rendait Estemmenosuchus visuellement distinctif ?</string>
+    <string name="permian_variant_29_1">Des structures cornues sur le crâne</string>
+    <string name="permian_variant_29_2">Une voile dorsale</string>
+    <string name="permian_variant_29_3">Des plumes</string>
+    <string name="permian_variant_29_4">Une longue queue préhensile</string>
+
+    <string name="permian_question_30">Quel groupe de thérapsides était le prédateur dominant à la fin du Permien ?</string>
+    <string name="permian_variant_30_1">Gorgonopsiens</string>
+    <string name="permian_variant_30_2">Cynodontes</string>
+    <string name="permian_variant_30_3">Lystrosaures</string>
+    <string name="permian_variant_30_4">Estemmenosuchidés</string>
+
+    <string name="permian_question_31">Quel trait suggère que les cynodontes étaient à sang chaud ?</string>
+    <string name="permian_variant_31_1">La présence de fourrure</string>
+    <string name="permian_variant_31_2">De longues queues</string>
+    <string name="permian_variant_31_3">Des structures en forme de voile</string>
+    <string name="permian_variant_31_4">Des crânes cornus</string>
+
+    <string name="permian_question_32">Quels animaux modernes descendent des cynodontes ?</string>
+    <string name="permian_variant_32_1">Les mammifères</string>
+    <string name="permian_variant_32_2">Les amphibiens</string>
+    <string name="permian_variant_32_3">Les reptiles</string>
+    <string name="permian_variant_32_4">Les oiseaux</string>
+
+    <string name="permian_question_33">Quelle région volcanique est liée à l\'extinction Permien-Trias ?</string>
+    <string name="permian_variant_33_1">Les traps de Sibérie</string>
+    <string name="permian_variant_33_2">Le plateau de l’Himalaya</string>
+    <string name="permian_variant_33_3">La dorsale médio-atlantique</string>
+    <string name="permian_variant_33_4">Les traps du Deccan</string>
+
+    <string name="permian_question_34">Quel changement environnemental a causé l\'acidification des océans à la fin du Permien ?</string>
+    <string name="permian_variant_34_1">Le dégagement de gaz à effet de serre et de sulfure d’hydrogène</string>
+    <string name="permian_variant_34_2">L\'impact d\'une météorite</string>
+    <string name="permian_variant_34_3">L’extension des calottes glaciaires</string>
+    <string name="permian_variant_34_4">Les éruptions solaires</string>
+
+    <string name="permian_question_35">Quelle caractéristique partageaient les premiers insectes du Permien ?</string>
+    <string name="permian_variant_35_1">Ils étaient des parents primitifs des blattes et des libellules</string>
+    <string name="permian_variant_35_2">Ils avaient des ailes bioluminescentes</string>
+    <string name="permian_variant_35_3">Ils vivaient sous l’eau</string>
+    <string name="permian_variant_35_4">Ils étaient blindés comme les trilobites</string>
+
+    <string name="permian_question_36">Quelle était la fonction de la couche d’ozone endommagée pendant la Grande Mort ?</string>
+    <string name="permian_variant_36_1">Protéger la vie des rayons ultraviolets</string>
+    <string name="permian_variant_36_2">Maintenir le taux d’oxygène</string>
+    <string name="permian_variant_36_3">Contrôler les éruptions volcaniques</string>
+    <string name="permian_variant_36_4">Absorber le dioxyde de carbone</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">Quand commença le Trias?</string>

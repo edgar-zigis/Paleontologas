@@ -2033,6 +2033,96 @@
     <string name="permian_variant_21_3">paleogene</string>
     <string name="permian_variant_21_4">kambre</string>
 
+    <string name="permian_question_22">Koks svarbus įvykis užbaigė Permo periodą?</string>
+    <string name="permian_variant_22_1">Permo ir triaso masinis išnykimas</string>
+    <string name="permian_variant_22_2">Asteroido smūgis, sunaikinęs dinozaurus</string>
+    <string name="permian_variant_22_3">Pirmosios Žemės atmosferos susidarymas</string>
+    <string name="permian_variant_22_4">Ledynmečio rūšių išnykimas</string>
+
+    <string name="permian_question_23">Kokios dvi didžiosios žemyninės masės egzistavo Permo laikotarpiu?</string>
+    <string name="permian_variant_23_1">Pangėja ir Sibiras</string>
+    <string name="permian_variant_23_2">Laurasija ir Gondvana</string>
+    <string name="permian_variant_23_3">Eurazija ir Šiaurės Amerika</string>
+    <string name="permian_variant_23_4">Afrika ir Antarktida</string>
+
+    <string name="permian_question_24">Kiek procentų jūrinių rūšių išnyko per Didįjį mirimą?</string>
+    <string name="permian_variant_24_1">Apie 95 %</string>
+    <string name="permian_variant_24_2">Apie 50 %</string>
+    <string name="permian_variant_24_3">Apie 25 %</string>
+    <string name="permian_variant_24_4">Apie 10 %</string>
+
+    <string name="permian_question_25">Kuriai gyvūnų grupei priklausė Dimetrodonas?</string>
+    <string name="permian_variant_25_1">Sinapsidams</string>
+    <string name="permian_variant_25_2">Archozaurams</string>
+    <string name="permian_variant_25_3">Dinozaurams</string>
+    <string name="permian_variant_25_4">Amfibijoms</string>
+
+    <string name="permian_question_26">Kokia galėjo būti Dimetrodono nugaros burės paskirtis?</string>
+    <string name="permian_variant_26_1">Termoreguliacija</string>
+    <string name="permian_variant_26_2">Skraidymas</string>
+    <string name="permian_variant_26_3">Plaukimas</string>
+    <string name="permian_variant_26_4">Apsauga nuo plėšrūnų</string>
+
+    <string name="permian_question_27">Kokia augalų grupė dominavo Gondvanoje Permo laikotarpiu?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Paparčiai</string>
+    <string name="permian_variant_27_3">Kaktusai</string>
+    <string name="permian_variant_27_4">Žiediniai augalai</string>
+
+    <string name="permian_question_28">Kuriai terapsidų grupei priklausė Titanophoneus?</string>
+    <string name="permian_variant_28_1">Dinocefalams</string>
+    <string name="permian_variant_28_2">Cinodontams</string>
+    <string name="permian_variant_28_3">Archozaurams</string>
+    <string name="permian_variant_28_4">Amniotams</string>
+
+    <string name="permian_question_29">Kuo Estemmenosuchus išsiskyrė išvaizda?</string>
+    <string name="permian_variant_29_1">Raginėmis struktūromis ant kaukolės</string>
+    <string name="permian_variant_29_2">Nugaros bure</string>
+    <string name="permian_variant_29_3">Plunksnomis</string>
+    <string name="permian_variant_29_4">Ilga griebiamąja uodega</string>
+
+    <string name="permian_question_30">Kuri terapsidų grupė buvo pagrindiniai plėšrūnai vėlyvuoju Permo laikotarpiu?</string>
+    <string name="permian_variant_30_1">Gorgonopsidai</string>
+    <string name="permian_variant_30_2">Cinodontai</string>
+    <string name="permian_variant_30_3">Lystrosaurai</string>
+    <string name="permian_variant_30_4">Estemmenosuchidai</string>
+
+    <string name="permian_question_31">Kuris požymis rodo, kad cinodontai galėjo būti šiltakraujai?</string>
+    <string name="permian_variant_31_1">Kailio buvimas</string>
+    <string name="permian_variant_31_2">Ilgos uodegos</string>
+    <string name="permian_variant_31_3">Burės formos struktūros</string>
+    <string name="permian_variant_31_4">Ragais padengta kaukolė</string>
+
+    <string name="permian_question_32">Kurie šiuolaikiniai gyvūnai yra cinodontų palikuonys?</string>
+    <string name="permian_variant_32_1">Žinduoliai</string>
+    <string name="permian_variant_32_2">Amfibijos</string>
+    <string name="permian_variant_32_3">Ropliai</string>
+    <string name="permian_variant_32_4">Paukščiai</string>
+
+    <string name="permian_question_33">Kuris ugnikalnių regionas susijęs su Permo-triaso išnykimu?</string>
+    <string name="permian_variant_33_1">Sibiro trapai</string>
+    <string name="permian_variant_33_2">Himalajų plynaukštė</string>
+    <string name="permian_variant_33_3">Vidurio Atlanto kalnagūbris</string>
+    <string name="permian_variant_33_4">Dekano trapai</string>
+
+    <string name="permian_question_34">Koks aplinkos pokytis sukėlė stiprų vandenynų rūgštėjimą Permo pabaigoje?</string>
+    <string name="permian_variant_34_1">Šiltnamio efektą sukeliančių dujų ir vandenilio sulfido išsiskyrimas</string>
+    <string name="permian_variant_34_2">Meteorito smūgis</string>
+    <string name="permian_variant_34_3">Aštrus ledo dangos išplitimas</string>
+    <string name="permian_variant_34_4">Saulės audros</string>
+
+    <string name="permian_question_35">Ką bendro turėjo ankstyvieji Permo vabzdžiai?</string>
+    <string name="permian_variant_35_1">Buvo primityvūs tarakonų ir laumių muselių giminaičiai</string>
+    <string name="permian_variant_35_2">Turėjo bioliuminescencinius sparnus</string>
+    <string name="permian_variant_35_3">Gyveno po vandeniu</string>
+    <string name="permian_variant_35_4">Buvo šarvuoti kaip trilobitai</string>
+
+    <string name="permian_question_36">Kokia buvo ozono sluoksnio, kuris buvo pažeistas per Didįjį mirimą, funkcija?</string>
+    <string name="permian_variant_36_1">Apsaugoti gyvybę nuo ultravioletinių spindulių</string>
+    <string name="permian_variant_36_2">Palaikyti deguonies lygį</string>
+    <string name="permian_variant_36_3">Valdyti vulkaninius išsiveržimus</string>
+    <string name="permian_variant_36_4">Sugerti anglies dioksidą</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">Kada prasidėjo triasas?</string>

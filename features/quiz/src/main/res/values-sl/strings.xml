@@ -2039,6 +2039,96 @@
     <string name="permian_variant_21_3">paleogen</string>
     <string name="permian_variant_21_4">kambrij</string>
 
+    <string name="permian_question_22">Kateri pomemben dogodek je končal permsko obdobje?</string>
+    <string name="permian_variant_22_1">Permsko-triasno množično izumrtje</string>
+    <string name="permian_variant_22_2">Udar asteroida, ki je uničil dinozavre</string>
+    <string name="permian_variant_22_3">Nastanek prve Zemljine atmosfere</string>
+    <string name="permian_variant_22_4">Izumrtje med ledeno dobo</string>
+
+    <string name="permian_question_23">Kateri dve veliki kopenski masi sta obstajali v permskem obdobju?</string>
+    <string name="permian_variant_23_1">Pangea in Sibirija</string>
+    <string name="permian_variant_23_2">Laurazija in Gondvana</string>
+    <string name="permian_variant_23_3">Evrazija in Severna Amerika</string>
+    <string name="permian_variant_23_4">Afrika in Antarktika</string>
+
+    <string name="permian_question_24">Kolikšen odstotek morskih vrst je izumrl med Velikim izumrtjem?</string>
+    <string name="permian_variant_24_1">Približno 95 %</string>
+    <string name="permian_variant_24_2">Približno 50 %</string>
+    <string name="permian_variant_24_3">Približno 25 %</string>
+    <string name="permian_variant_24_4">Približno 10 %</string>
+
+    <string name="permian_question_25">Kateri skupini je pripadal Dimetrodon?</string>
+    <string name="permian_variant_25_1">Sinapsidom</string>
+    <string name="permian_variant_25_2">Arhozavrom</string>
+    <string name="permian_variant_25_3">Dinozavrom</string>
+    <string name="permian_variant_25_4">Dvoživkam</string>
+
+    <string name="permian_question_26">Kaj je bila verjetna funkcija Dimetrodonove hrbtne jadrovine?</string>
+    <string name="permian_variant_26_1">Termoregulacija</string>
+    <string name="permian_variant_26_2">Letenje</string>
+    <string name="permian_variant_26_3">Plavanje</string>
+    <string name="permian_variant_26_4">Obramba pred plenilci</string>
+
+    <string name="permian_question_27">Katera skupina rastlin je v permskem času prevladovala v Gondvani?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Praproti</string>
+    <string name="permian_variant_27_3">Kaktusi</string>
+    <string name="permian_variant_27_4">Cvetnice</string>
+
+    <string name="permian_question_28">Kateri skupini terapsidov je pripadal Titanophoneus?</string>
+    <string name="permian_variant_28_1">Dinocefalom</string>
+    <string name="permian_variant_28_2">Cinodontom</string>
+    <string name="permian_variant_28_3">Arhozavrom</string>
+    <string name="permian_variant_28_4">Amniotom</string>
+
+    <string name="permian_question_29">Po čem je bil Estemmenosuchus vizualno najbolj prepoznaven?</string>
+    <string name="permian_variant_29_1">Po rogovju na lobanji</string>
+    <string name="permian_variant_29_2">Po hrbtnem jadru</string>
+    <string name="permian_variant_29_3">Po peresih</string>
+    <string name="permian_variant_29_4">Po dolgem oprijemalnem repu</string>
+
+    <string name="permian_question_30">Katera skupina terapsidov je bila vrhovni plenilec v poznem permu?</string>
+    <string name="permian_variant_30_1">Gorgonopsidi</string>
+    <string name="permian_variant_30_2">Cinodonti</string>
+    <string name="permian_variant_30_3">Listrozavri</string>
+    <string name="permian_variant_30_4">Estemmenosuchidi</string>
+
+    <string name="permian_question_31">Katera značilnost nakazuje, da so bili cinodonti toplokrvni?</string>
+    <string name="permian_variant_31_1">Prisotnost kožuha</string>
+    <string name="permian_variant_31_2">Dolgi repi</string>
+    <string name="permian_variant_31_3">Strukture v obliki jadra</string>
+    <string name="permian_variant_31_4">Lobanja s rogi</string>
+
+    <string name="permian_question_32">Kateri sodobni organizmi izvirajo iz cinodontov?</string>
+    <string name="permian_variant_32_1">Sesalci</string>
+    <string name="permian_variant_32_2">Dvoživke</string>
+    <string name="permian_variant_32_3">Plazilci</string>
+    <string name="permian_variant_32_4">Ptiči</string>
+
+    <string name="permian_question_33">Katera vulkanska regija je povezana s permsko-triasnim izumrtjem?</string>
+    <string name="permian_variant_33_1">Sibirski trapi</string>
+    <string name="permian_variant_33_2">Himalajska planota</string>
+    <string name="permian_variant_33_3">Srednjeatlantski hrbet</string>
+    <string name="permian_variant_33_4">Dekanski trapi</string>
+
+    <string name="permian_question_34">Katera okoljska sprememba je povzročila zakisanje oceanov ob koncu perma?</string>
+    <string name="permian_variant_34_1">Izpusti toplogrednih plinov in vodikovega sulfida</string>
+    <string name="permian_variant_34_2">Udar meteorita</string>
+    <string name="permian_variant_34_3">Širjenje polarnega ledu</string>
+    <string name="permian_variant_34_4">Sončne nevihte</string>
+
+    <string name="permian_question_35">Kaj je bilo skupno zgodnjim žuželkam permskega obdobja?</string>
+    <string name="permian_variant_35_1">Bile so sorodnice današnjih ščurkov in kačjih pastirjev</string>
+    <string name="permian_variant_35_2">Imeli so bioluminiscentna krila</string>
+    <string name="permian_variant_35_3">Živele so pod vodo</string>
+    <string name="permian_variant_35_4">Bile so oklepne kot trilobiti</string>
+
+    <string name="permian_question_36">Kakšna je bila funkcija ozonske plasti, ki je bila poškodovana med Velikim izumrtjem?</string>
+    <string name="permian_variant_36_1">Zaščita življenja pred ultravijoličnim sevanjem</string>
+    <string name="permian_variant_36_2">Ohranjanje ravni kisika</string>
+    <string name="permian_variant_36_3">Nadzor nad vulkanskimi izbruhi</string>
+    <string name="permian_variant_36_4">Absorpcija ogljikovega dioksida</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">Kdaj se je začel trias?</string>

@@ -2038,6 +2038,96 @@
     <string name="permian_variant_21_3">Paleógeno </string>
     <string name="permian_variant_21_4">Cámbrico </string>
 
+    <string name="permian_question_22">¿Qué evento importante marcó el final del período Pérmico?</string>
+    <string name="permian_variant_22_1">La extinción masiva del Pérmico-Triásico</string>
+    <string name="permian_variant_22_2">El impacto del asteroide que mató a los dinosaurios</string>
+    <string name="permian_variant_22_3">La formación de la primera atmósfera terrestre</string>
+    <string name="permian_variant_22_4">La extinción de la Edad de Hielo</string>
+
+    <string name="permian_question_23">¿Cuáles eran las dos masas de tierra principales durante el Pérmico?</string>
+    <string name="permian_variant_23_1">Pangea y Siberia</string>
+    <string name="permian_variant_23_2">Laurasia y Gondwana</string>
+    <string name="permian_variant_23_3">Eurasia y América del Norte</string>
+    <string name="permian_variant_23_4">África y la Antártida</string>
+
+    <string name="permian_question_24">¿Qué porcentaje de especies marinas se extinguió durante la Gran Mortandad?</string>
+    <string name="permian_variant_24_1">Aproximadamente el 95 %</string>
+    <string name="permian_variant_24_2">Aproximadamente el 50 %</string>
+    <string name="permian_variant_24_3">Aproximadamente el 25 %</string>
+    <string name="permian_variant_24_4">Aproximadamente el 10 %</string>
+
+    <string name="permian_question_25">¿A qué grupo pertenecía el Dimetrodon?</string>
+    <string name="permian_variant_25_1">Sínapsidos</string>
+    <string name="permian_variant_25_2">Arcosaurios</string>
+    <string name="permian_variant_25_3">Dinosaurios</string>
+    <string name="permian_variant_25_4">Anfibios</string>
+
+    <string name="permian_question_26">¿Cuál fue una posible función de la vela dorsal del Dimetrodon?</string>
+    <string name="permian_variant_26_1">Termorregulación</string>
+    <string name="permian_variant_26_2">Volar</string>
+    <string name="permian_variant_26_3">Nadar</string>
+    <string name="permian_variant_26_4">Defensa contra depredadores</string>
+
+    <string name="permian_question_27">¿Qué grupo de plantas dominaba Gondwana durante el Pérmico?</string>
+    <string name="permian_variant_27_1">Glossopteris</string>
+    <string name="permian_variant_27_2">Helechos</string>
+    <string name="permian_variant_27_3">Cactus</string>
+    <string name="permian_variant_27_4">Plantas con flores</string>
+
+    <string name="permian_question_28">¿A qué grupo de terápsidos pertenecía el Titanophoneus?</string>
+    <string name="permian_variant_28_1">Dinocefalios</string>
+    <string name="permian_variant_28_2">Cynodontes</string>
+    <string name="permian_variant_28_3">Arcosaurios</string>
+    <string name="permian_variant_28_4">Amniotas</string>
+
+    <string name="permian_question_29">¿Qué característica hacía visualmente distintivo al Estemmenosuchus?</string>
+    <string name="permian_variant_29_1">Estructuras en forma de cuernos en el cráneo</string>
+    <string name="permian_variant_29_2">Una vela dorsal</string>
+    <string name="permian_variant_29_3">Plumas</string>
+    <string name="permian_variant_29_4">Una larga cola prensil</string>
+
+    <string name="permian_question_30">¿Qué grupo de terápsidos fue el principal depredador en el Pérmico tardío?</string>
+    <string name="permian_variant_30_1">Gorgonópsidos</string>
+    <string name="permian_variant_30_2">Cynodontes</string>
+    <string name="permian_variant_30_3">Lystrosaurios</string>
+    <string name="permian_variant_30_4">Estemmenosúquidos</string>
+
+    <string name="permian_question_31">¿Qué característica sugiere que los cynodontes eran de sangre caliente?</string>
+    <string name="permian_variant_31_1">Presencia de pelaje</string>
+    <string name="permian_variant_31_2">Colas largas</string>
+    <string name="permian_variant_31_3">Estructuras similares a velas</string>
+    <string name="permian_variant_31_4">Cráneos con cuernos</string>
+
+    <string name="permian_question_32">¿Qué animales modernos descienden de los cynodontes?</string>
+    <string name="permian_variant_32_1">Mamíferos</string>
+    <string name="permian_variant_32_2">Anfibios</string>
+    <string name="permian_variant_32_3">Reptiles</string>
+    <string name="permian_variant_32_4">Aves</string>
+
+    <string name="permian_question_33">¿Qué región volcánica está relacionada con la extinción del Pérmico-Triásico?</string>
+    <string name="permian_variant_33_1">Traps Siberianos</string>
+    <string name="permian_variant_33_2">Meseta del Himalaya</string>
+    <string name="permian_variant_33_3">Dorsal Mesoatlántica</string>
+    <string name="permian_variant_33_4">Traps del Decán</string>
+
+    <string name="permian_question_34">¿Qué cambio ambiental provocó una fuerte acidificación oceánica al final del Pérmico?</string>
+    <string name="permian_variant_34_1">Liberación de gases de efecto invernadero y sulfuro de hidrógeno</string>
+    <string name="permian_variant_34_2">Impacto de un meteorito</string>
+    <string name="permian_variant_34_3">Aumento del hielo polar</string>
+    <string name="permian_variant_34_4">Erupciones solares</string>
+
+    <string name="permian_question_35">¿Qué característica compartían los insectos tempranos del Pérmico?</string>
+    <string name="permian_variant_35_1">Eran parientes primitivos de cucarachas y libélulas</string>
+    <string name="permian_variant_35_2">Tenían alas bioluminiscentes</string>
+    <string name="permian_variant_35_3">Vivían bajo el agua</string>
+    <string name="permian_variant_35_4">Estaban blindados como los trilobites</string>
+
+    <string name="permian_question_36">¿Cuál era una función de la capa de ozono que fue dañada durante la Gran Mortandad?</string>
+    <string name="permian_variant_36_1">Proteger la vida de la radiación ultravioleta</string>
+    <string name="permian_variant_36_2">Mantener los niveles de oxígeno</string>
+    <string name="permian_variant_36_3">Controlar las erupciones volcánicas</string>
+    <string name="permian_variant_36_4">Absorber dióxido de carbono</string>
+
     <!--     BREAK      -->
 
     <string name="triassic_question_1">¿Hace cuánto tiempo comenzó el Triásico? </string>
