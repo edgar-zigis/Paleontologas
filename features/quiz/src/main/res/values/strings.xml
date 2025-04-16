@@ -2272,6 +2272,96 @@
     <string name="triassic_variant_23_3">Cretaceous</string>
     <string name="triassic_variant_23_4">Archean</string>
 
+    <string name="triassic_question_24">Which group of animals became dominant after the decline of large therapsids in the Middle Triassic?</string>
+    <string name="triassic_variant_24_1">Archosaurs</string>
+    <string name="triassic_variant_24_2">Plesiosaurs</string>
+    <string name="triassic_variant_24_3">Synapsids</string>
+    <string name="triassic_variant_24_4">Amphibians</string>
+
+    <string name="triassic_question_25">What was the primary diet of Morganucodon, an early mammaliaform?</string>
+    <string name="triassic_variant_25_1">Insects</string>
+    <string name="triassic_variant_25_2">Plants</string>
+    <string name="triassic_variant_25_3">Fish</string>
+    <string name="triassic_variant_25_4">Fruits</string>
+
+    <string name="triassic_question_26">Which trait is associated with the "nocturnal bottleneck" hypothesis in early mammals?</string>
+    <string name="triassic_variant_26_1">Warm-bloodedness</string>
+    <string name="triassic_variant_26_2">Colorful feathers</string>
+    <string name="triassic_variant_26_3">Flight ability</string>
+    <string name="triassic_variant_26_4">Large body size</string>
+
+    <string name="triassic_question_27">Which plant group thrived in the Northern Hemisphere during the Triassic?</string>
+    <string name="triassic_variant_27_1">Conifers</string>
+    <string name="triassic_variant_27_2">Glossopteris</string>
+    <string name="triassic_variant_27_3">Mosses</string>
+    <string name="triassic_variant_27_4">Angiosperms</string>
+
+    <string name="triassic_question_28">Which marine reptile had a dolphin-like shape and was a top predator during the Triassic?</string>
+    <string name="triassic_variant_28_1">Ichthyosaur</string>
+    <string name="triassic_variant_28_2">Pterosaur</string>
+    <string name="triassic_variant_28_3">Cynodont</string>
+    <string name="triassic_variant_28_4">Archosaur</string>
+
+    <string name="triassic_question_29">What distinguishes pterosaurs from true dinosaurs?</string>
+    <string name="triassic_variant_29_1">They belong to a separate clade outside Dinosauria</string>
+    <string name="triassic_variant_29_2">They lived only during the Jurassic</string>
+    <string name="triassic_variant_29_3">They were amphibians</string>
+    <string name="triassic_variant_29_4">They did not fly</string>
+
+    <string name="triassic_question_30">Which reptile had extremely long hindlimbs with membranes for gliding?</string>
+    <string name="triassic_variant_30_1">Sharovipteryx</string>
+    <string name="triassic_variant_30_2">Tanystropheus</string>
+    <string name="triassic_variant_30_3">Desmatosuchus</string>
+    <string name="triassic_variant_30_4">Lystrosaurus</string>
+
+    <string name="triassic_question_31">Which genus dominated land vertebrate populations just after the Permian-Triassic extinction?</string>
+    <string name="triassic_variant_31_1">Lystrosaurus</string>
+    <string name="triassic_variant_31_2">Plateosaurus</string>
+    <string name="triassic_variant_31_3">Morganucodon</string>
+    <string name="triassic_variant_31_4">Glossopteris</string>
+
+    <string name="triassic_question_32">What was the likely diet of Tanystropheus, with its elongated neck?</string>
+    <string name="triassic_variant_32_1">Fish</string>
+    <string name="triassic_variant_32_2">Grasses</string>
+    <string name="triassic_variant_32_3">Leaves</string>
+    <string name="triassic_variant_32_4">Insects</string>
+
+    <string name="triassic_question_33">Which reptile had long scale-like appendages on its back and was once linked to bird origins?</string>
+    <string name="triassic_variant_33_1">Longisquama</string>
+    <string name="triassic_variant_33_2">Plesiosaurus</string>
+    <string name="triassic_variant_33_3">Prolacerta</string>
+    <string name="triassic_variant_33_4">Plateosaurus</string>
+
+    <string name="triassic_question_34">Which Triassic plant group is sometimes debated for its possible connection to angiosperms?</string>
+    <string name="triassic_variant_34_1">Bennettitales</string>
+    <string name="triassic_variant_34_2">Cycads</string>
+    <string name="triassic_variant_34_3">Ferns</string>
+    <string name="triassic_variant_34_4">Ginkgos</string>
+
+    <string name="triassic_question_35">What did the archosaur Mystriosuchus likely eat?</string>
+    <string name="triassic_variant_35_1">Fish</string>
+    <string name="triassic_variant_35_2">Seeds</string>
+    <string name="triassic_variant_35_3">Insects</string>
+    <string name="triassic_variant_35_4">Leaves</string>
+
+    <string name="triassic_question_36">Which dinosaur genus was an early sauropodomorph and grew up to 10 meters in length?</string>
+    <string name="triassic_variant_36_1">Plateosaurus</string>
+    <string name="triassic_variant_36_2">Coelophysis</string>
+    <string name="triassic_variant_36_3">Desmatosuchus</string>
+    <string name="triassic_variant_36_4">Lystrosaurus</string>
+
+    <string name="triassic_question_37">What notable feature did Desmatosuchus have along its shoulders?</string>
+    <string name="triassic_variant_37_1">Long defensive spikes</string>
+    <string name="triassic_variant_37_2">Feather-like crests</string>
+    <string name="triassic_variant_37_3">Glandular pores</string>
+    <string name="triassic_variant_37_4">Wings</string>
+
+    <string name="triassic_question_38">How did plesiosaurs reproduce?</string>
+    <string name="triassic_variant_38_1">They gave birth to live young</string>
+    <string name="triassic_variant_38_2">They laid eggs in burrows</string>
+    <string name="triassic_variant_38_3">They reproduced by budding</string>
+    <string name="triassic_variant_38_4">They laid eggs in nests on land</string>
+
     <!--     BREAK      -->
 
     <string name="jurassic_question_1">When the Jurassic began?</string>
