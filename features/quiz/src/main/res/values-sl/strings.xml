@@ -2292,6 +2292,96 @@
     <string name="triassic_variant_23_3">kreda</string>
     <string name="triassic_variant_23_4">arhaik</string>
 
+    <string name="triassic_question_24">Katera skupina živali je postala prevladujoča po upadu velikih terapsidov v srednjem triasu?</string>
+    <string name="triassic_variant_24_1">Arhozauri</string>
+    <string name="triassic_variant_24_2">Pleziozavri</string>
+    <string name="triassic_variant_24_3">Sinapsidi</string>
+    <string name="triassic_variant_24_4">Dvoživke</string>
+
+    <string name="triassic_question_25">S čim se je večinoma prehranjeval Morganucodon, zgodnji predstavnik sesalcem podobnih živali?</string>
+    <string name="triassic_variant_25_1">Z insekti</string>
+    <string name="triassic_variant_25_2">Z rastlinami</string>
+    <string name="triassic_variant_25_3">Z ribami</string>
+    <string name="triassic_variant_25_4">S sadjem</string>
+
+    <string name="triassic_question_26">Katera značilnost je povezana s hipotezo o »nočni ozki grli« (nočnem ozkem grlu) pri zgodnjih sesalcih?</string>
+    <string name="triassic_variant_26_1">Toplokrvnost</string>
+    <string name="triassic_variant_26_2">Pisane peruti</string>
+    <string name="triassic_variant_26_3">Sposobnost letenja</string>
+    <string name="triassic_variant_26_4">Velika telesna velikost</string>
+
+    <string name="triassic_question_27">Katera skupina rastlin je prevladovala na severni polobli v času triasa?</string>
+    <string name="triassic_variant_27_1">Iglavci</string>
+    <string name="triassic_variant_27_2">Glossopteris</string>
+    <string name="triassic_variant_27_3">Mahovi</string>
+    <string name="triassic_variant_27_4">Kritosemenke</string>
+
+    <string name="triassic_question_28">Kateri morski plazilec, podoben delfinu, je bil glavni plenilec v triasu?</string>
+    <string name="triassic_variant_28_1">Ihtiozaver</string>
+    <string name="triassic_variant_28_2">Pterozaver</string>
+    <string name="triassic_variant_28_3">Cinodont</string>
+    <string name="triassic_variant_28_4">Arhozaver</string>
+
+    <string name="triassic_question_29">Po čem se pterozavri razlikujejo od pravih dinozavrov?</string>
+    <string name="triassic_variant_29_1">Spadali so v ločeno skupino zunaj klada Dinosauria</string>
+    <string name="triassic_variant_29_2">Živeli so le v juri</string>
+    <string name="triassic_variant_29_3">Bili so dvoživke</string>
+    <string name="triassic_variant_29_4">Niso znali leteti</string>
+
+    <string name="triassic_question_30">Kateri plazilec je imel dolge zadnje okončine z membranami za jadranje?</string>
+    <string name="triassic_variant_30_1">Sharovipteryx</string>
+    <string name="triassic_variant_30_2">Tanystropheus</string>
+    <string name="triassic_variant_30_3">Desmatosuchus</string>
+    <string name="triassic_variant_30_4">Lystrosaurus</string>
+
+    <string name="triassic_question_31">Kateri rod je prevladoval med kopenskimi vretenčarji takoj po permskem množičnem izumrtju?</string>
+    <string name="triassic_variant_31_1">Lystrosaurus</string>
+    <string name="triassic_variant_31_2">Plateosaurus</string>
+    <string name="triassic_variant_31_3">Morganucodon</string>
+    <string name="triassic_variant_31_4">Glossopteris</string>
+
+    <string name="triassic_question_32">S čim se je najverjetneje prehranjeval Tanystropheus, plazilec z izjemno dolgim vratom?</string>
+    <string name="triassic_variant_32_1">Z ribami</string>
+    <string name="triassic_variant_32_2">Z travo</string>
+    <string name="triassic_variant_32_3">Z listi</string>
+    <string name="triassic_variant_32_4">Z insekti</string>
+
+    <string name="triassic_question_33">Kateri rod plazilcev je imel hrbtne strukture podobne luskam in je bil nekoč povezan z nastankom ptic?</string>
+    <string name="triassic_variant_33_1">Longisquama</string>
+    <string name="triassic_variant_33_2">Pleziozaver</string>
+    <string name="triassic_variant_33_3">Prolacerta</string>
+    <string name="triassic_variant_33_4">Plateosaurus</string>
+
+    <string name="triassic_question_34">Katera skupina triasnih rastlin je bila obravnavana kot morebiten sorodnik kritosemenk?</string>
+    <string name="triassic_variant_34_1">Bennettitales</string>
+    <string name="triassic_variant_34_2">Cikade</string>
+    <string name="triassic_variant_34_3">Praproti</string>
+    <string name="triassic_variant_34_4">Ginkoji</string>
+
+    <string name="triassic_question_35">S čim se je najverjetneje prehranjeval arhozaver Mystriosuchus?</string>
+    <string name="triassic_variant_35_1">Z ribami</string>
+    <string name="triassic_variant_35_2">S semeni</string>
+    <string name="triassic_variant_35_3">Z insekti</string>
+    <string name="triassic_variant_35_4">Z listi</string>
+
+    <string name="triassic_question_36">Kateri rod dinozavrov je bil zgodnji sauropodomorf, ki je lahko dosegel do 10 metrov dolžine?</string>
+    <string name="triassic_variant_36_1">Plateosaurus</string>
+    <string name="triassic_variant_36_2">Coelophysis</string>
+    <string name="triassic_variant_36_3">Desmatosuchus</string>
+    <string name="triassic_variant_36_4">Lystrosaurus</string>
+
+    <string name="triassic_question_37">Katero značilno lastnost je imel Desmatosuchus na ramenih?</string>
+    <string name="triassic_variant_37_1">Dolge obrambne bodice</string>
+    <string name="triassic_variant_37_2">Grebenaste strukture podobne perju</string>
+    <string name="triassic_variant_37_3">Žlezne pore</string>
+    <string name="triassic_variant_37_4">Krila</string>
+
+    <string name="triassic_question_38">Kako so se razmnoževali pleziozavri?</string>
+    <string name="triassic_variant_38_1">Kot žive mladiče</string>
+    <string name="triassic_variant_38_2">Z nesenjem jajc v rovih</string>
+    <string name="triassic_variant_38_3">Z brstenjem</string>
+    <string name="triassic_variant_38_4">Z nesenjem jajc v gnezdih na kopnem</string>
+
     <!--     BREAK      -->
 
     <string name="jurassic_question_1">Kdaj se je začela jura?</string>

@@ -2292,6 +2292,96 @@
     <string name="triassic_variant_23_3">Cretáceo</string>
     <string name="triassic_variant_23_4">Arqueano</string>
 
+    <string name="triassic_question_24">Qual grupo de animais se tornou dominante após o declínio dos grandes terápsidos no período Triássico Médio?</string>
+    <string name="triassic_variant_24_1">Arcossauros</string>
+    <string name="triassic_variant_24_2">Plesiossauros</string>
+    <string name="triassic_variant_24_3">Sinápsidos</string>
+    <string name="triassic_variant_24_4">Anfíbios</string>
+
+    <string name="triassic_question_25">Qual era a principal dieta do Morganucodon, um dos primeiros mamaliformes?</string>
+    <string name="triassic_variant_25_1">Insetos</string>
+    <string name="triassic_variant_25_2">Plantas</string>
+    <string name="triassic_variant_25_3">Peixes</string>
+    <string name="triassic_variant_25_4">Frutas</string>
+
+    <string name="triassic_question_26">Qual característica está associada à hipótese do "gargalo noturno" nos primeiros mamíferos?</string>
+    <string name="triassic_variant_26_1">Sangue quente</string>
+    <string name="triassic_variant_26_2">Penas coloridas</string>
+    <string name="triassic_variant_26_3">Capacidade de voar</string>
+    <string name="triassic_variant_26_4">Grande porte físico</string>
+
+    <string name="triassic_question_27">Qual grupo de plantas dominava o hemisfério norte durante o período Triássico?</string>
+    <string name="triassic_variant_27_1">Coníferas</string>
+    <string name="triassic_variant_27_2">Glossopteris</string>
+    <string name="triassic_variant_27_3">Musgos</string>
+    <string name="triassic_variant_27_4">Angiospermas</string>
+
+    <string name="triassic_question_28">Qual réptil marinho, com formato semelhante ao de um golfinho, era um dos principais predadores no Triássico?</string>
+    <string name="triassic_variant_28_1">Ictiossauro</string>
+    <string name="triassic_variant_28_2">Pterossauro</string>
+    <string name="triassic_variant_28_3">Cinodonte</string>
+    <string name="triassic_variant_28_4">Arcossauro</string>
+
+    <string name="triassic_question_29">O que diferencia os pterossauros dos verdadeiros dinossauros?</string>
+    <string name="triassic_variant_29_1">Eles pertenciam a um grupo distinto fora do clado Dinosauria</string>
+    <string name="triassic_variant_29_2">Viveram apenas durante o Jurássico</string>
+    <string name="triassic_variant_29_3">Eram anfíbios</string>
+    <string name="triassic_variant_29_4">Não conseguiam voar</string>
+
+    <string name="triassic_question_30">Qual réptil possuía pernas traseiras longas com membranas para planar?</string>
+    <string name="triassic_variant_30_1">Sharovipteryx</string>
+    <string name="triassic_variant_30_2">Tanystropheus</string>
+    <string name="triassic_variant_30_3">Desmatosuchus</string>
+    <string name="triassic_variant_30_4">Lystrosaurus</string>
+
+    <string name="triassic_question_31">Qual gênero dominava as populações de vertebrados terrestres logo após a extinção em massa do Permiano?</string>
+    <string name="triassic_variant_31_1">Lystrosaurus</string>
+    <string name="triassic_variant_31_2">Plateosaurus</string>
+    <string name="triassic_variant_31_3">Morganucodon</string>
+    <string name="triassic_variant_31_4">Glossopteris</string>
+
+    <string name="triassic_question_32">Qual era a provável dieta do Tanystropheus, um réptil de pescoço extremamente longo?</string>
+    <string name="triassic_variant_32_1">Peixes</string>
+    <string name="triassic_variant_32_2">Capim</string>
+    <string name="triassic_variant_32_3">Folhas</string>
+    <string name="triassic_variant_32_4">Insetos</string>
+
+    <string name="triassic_question_33">Qual gênero de réptil possuía estruturas dorsais semelhantes a escamas e já foi associado à origem das aves?</string>
+    <string name="triassic_variant_33_1">Longisquama</string>
+    <string name="triassic_variant_33_2">Plesiossauro</string>
+    <string name="triassic_variant_33_3">Prolacerta</string>
+    <string name="triassic_variant_33_4">Plateosaurus</string>
+
+    <string name="triassic_question_34">Qual grupo de plantas do Triássico já foi discutido como potencial parente das angiospermas?</string>
+    <string name="triassic_variant_34_1">Bennettitales</string>
+    <string name="triassic_variant_34_2">Cicadáceas</string>
+    <string name="triassic_variant_34_3">Samambaias</string>
+    <string name="triassic_variant_34_4">Ginkgos</string>
+
+    <string name="triassic_question_35">O que o arcossauro Mystriosuchus provavelmente comia?</string>
+    <string name="triassic_variant_35_1">Peixes</string>
+    <string name="triassic_variant_35_2">Sementes</string>
+    <string name="triassic_variant_35_3">Insetos</string>
+    <string name="triassic_variant_35_4">Folhas</string>
+
+    <string name="triassic_question_36">Qual gênero de dinossauro era um sauropodomorfo primitivo que podia atingir até 10 metros de comprimento?</string>
+    <string name="triassic_variant_36_1">Plateosaurus</string>
+    <string name="triassic_variant_36_2">Coelophysis</string>
+    <string name="triassic_variant_36_3">Desmatosuchus</string>
+    <string name="triassic_variant_36_4">Lystrosaurus</string>
+
+    <string name="triassic_question_37">Qual característica marcante o Desmatosuchus possuía na região dos ombros?</string>
+    <string name="triassic_variant_37_1">Espinhos defensivos longos</string>
+    <string name="triassic_variant_37_2">Cristas parecidas com penas</string>
+    <string name="triassic_variant_37_3">Poros glandulares</string>
+    <string name="triassic_variant_37_4">Asas</string>
+
+    <string name="triassic_question_38">Como os plesiossauros se reproduziam?</string>
+    <string name="triassic_variant_38_1">Davam à luz filhotes vivos</string>
+    <string name="triassic_variant_38_2">Depositavam ovos em tocas</string>
+    <string name="triassic_variant_38_3">Reproduziam-se por brotamento</string>
+    <string name="triassic_variant_38_4">Depositavam ovos em ninhos terrestres</string>
+
     <!--     BREAK      -->
 
     <string name="jurassic_question_1">Quando o Jurássico começou?</string>

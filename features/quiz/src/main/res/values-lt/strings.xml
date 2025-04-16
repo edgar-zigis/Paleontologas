@@ -2286,6 +2286,96 @@
     <string name="triassic_variant_23_3">kreidoje</string>
     <string name="triassic_variant_23_4">archėjuje</string>
 
+    <string name="triassic_question_24">Kuri gyvūnų grupė tapo dominuojančia po didžiųjų terapsidų nykimo viduriniuoju triaso laikotarpiu?</string>
+    <string name="triassic_variant_24_1">Archozaurai</string>
+    <string name="triassic_variant_24_2">Pleziozaurai</string>
+    <string name="triassic_variant_24_3">Sinapsidai</string>
+    <string name="triassic_variant_24_4">Amfibijos</string>
+
+    <string name="triassic_question_25">Kuo daugiausia maitinosi Morganucodon – ankstyvasis žinduolių protėvis?</string>
+    <string name="triassic_variant_25_1">Vabzdžiais</string>
+    <string name="triassic_variant_25_2">Augalais</string>
+    <string name="triassic_variant_25_3">Žuvimis</string>
+    <string name="triassic_variant_25_4">Vaisiais</string>
+
+    <string name="triassic_question_26">Kokiu bruožu siejama „naktinio butelio kaklelio“ hipotezė apie ankstyvuosius žinduolius?</string>
+    <string name="triassic_variant_26_1">Šiltakraujiškumu</string>
+    <string name="triassic_variant_26_2">Spalvingais plunksnomis</string>
+    <string name="triassic_variant_26_3">Gebėjimu skraidyti</string>
+    <string name="triassic_variant_26_4">Dideliu kūno dydžiu</string>
+
+    <string name="triassic_question_27">Kuri augalų grupė dominavo šiauriniame pusrutulyje triaso laikotarpiu?</string>
+    <string name="triassic_variant_27_1">Spygliuočiai</string>
+    <string name="triassic_variant_27_2">Glossopteris</string>
+    <string name="triassic_variant_27_3">Samanos</string>
+    <string name="triassic_variant_27_4">Magnolijūnai</string>
+
+    <string name="triassic_question_28">Kuris jūrinis roplys, primenantis delfiną, buvo vienas pagrindinių plėšrūnų triaso laikotarpiu?</string>
+    <string name="triassic_variant_28_1">Ichtiozauras</string>
+    <string name="triassic_variant_28_2">Pterozauras</string>
+    <string name="triassic_variant_28_3">Cinodontas</string>
+    <string name="triassic_variant_28_4">Archozauras</string>
+
+    <string name="triassic_question_29">Kuo pterozaurai skyrėsi nuo tikrųjų dinozaurų?</string>
+    <string name="triassic_variant_29_1">Jie priklausė atskiram kladui už dinozaurų ribų</string>
+    <string name="triassic_variant_29_2">Jie gyveno tik juros laikotarpiu</string>
+    <string name="triassic_variant_29_3">Jie buvo varliagyviai</string>
+    <string name="triassic_variant_29_4">Jie nemokėjo skraidyti</string>
+
+    <string name="triassic_question_30">Kuris roplys turėjo ilgas užpakalines galūnes su sklandymui skirtomis plėvėmis?</string>
+    <string name="triassic_variant_30_1">Sharovipteryx</string>
+    <string name="triassic_variant_30_2">Tanystropheus</string>
+    <string name="triassic_variant_30_3">Desmatosuchus</string>
+    <string name="triassic_variant_30_4">Lystrosaurus</string>
+
+    <string name="triassic_question_31">Kuri gentis dominavo sausumos stuburinių tarpe iškart po permo masinio išnykimo?</string>
+    <string name="triassic_variant_31_1">Lystrosaurus</string>
+    <string name="triassic_variant_31_2">Plateosaurus</string>
+    <string name="triassic_variant_31_3">Morganucodon</string>
+    <string name="triassic_variant_31_4">Glossopteris</string>
+
+    <string name="triassic_question_32">Kuo tikėtina, kad maitinosi Tanystropheus – roplys su itin ilgu kaklu?</string>
+    <string name="triassic_variant_32_1">Žuvimis</string>
+    <string name="triassic_variant_32_2">Žole</string>
+    <string name="triassic_variant_32_3">Lapeliais</string>
+    <string name="triassic_variant_32_4">Vabzdžiais</string>
+
+    <string name="triassic_question_33">Kuris roplių genties narys turėjo nugarines ataugas, primenančias žvynus, ir buvo siejamas su paukščių kilme?</string>
+    <string name="triassic_variant_33_1">Longisquama</string>
+    <string name="triassic_variant_33_2">Pleziozauras</string>
+    <string name="triassic_variant_33_3">Prolacerta</string>
+    <string name="triassic_variant_33_4">Plateosaurus</string>
+
+    <string name="triassic_question_34">Kuri triaso augalų grupė kartais laikoma galimu giminaičiu su žiediniais augalais?</string>
+    <string name="triassic_variant_34_1">Bennettitales</string>
+    <string name="triassic_variant_34_2">Cikadiniai</string>
+    <string name="triassic_variant_34_3">Paparčiai</string>
+    <string name="triassic_variant_34_4">Ginkmedžiai</string>
+
+    <string name="triassic_question_35">Kuo, tikėtina, maitinosi archozauras Mystriosuchus?</string>
+    <string name="triassic_variant_35_1">Žuvimis</string>
+    <string name="triassic_variant_35_2">Sėklomis</string>
+    <string name="triassic_variant_35_3">Vabzdžiais</string>
+    <string name="triassic_variant_35_4">Lapeliais</string>
+
+    <string name="triassic_question_36">Kurios dinozaurų genties gyvūnai galėjo pasiekti iki 10 metrų ilgį?</string>
+    <string name="triassic_variant_36_1">Plateosaurus</string>
+    <string name="triassic_variant_36_2">Coelophysis</string>
+    <string name="triassic_variant_36_3">Desmatosuchus</string>
+    <string name="triassic_variant_36_4">Lystrosaurus</string>
+
+    <string name="triassic_question_37">Kokį išskirtinį bruožą Desmatosuchus turėjo ties pečiais?</string>
+    <string name="triassic_variant_37_1">Ilgas gynybines spyglius</string>
+    <string name="triassic_variant_37_2">Plunksnas primenančius keterus</string>
+    <string name="triassic_variant_37_3">Liaukų poras</string>
+    <string name="triassic_variant_37_4">Sparnus</string>
+
+    <string name="triassic_question_38">Kaip dauginosi pleziozaurai?</string>
+    <string name="triassic_variant_38_1">Gimdė gyvus jauniklius</string>
+    <string name="triassic_variant_38_2">Dėdavo kiaušinius urvuose</string>
+    <string name="triassic_variant_38_3">Dauginosi pumpuravimu</string>
+    <string name="triassic_variant_38_4">Dėdavo kiaušinius sausumos lizduose</string>
+
     <!--     BREAK      -->
 
     <string name="jurassic_question_1">Kada prasidėjo jura?</string>
