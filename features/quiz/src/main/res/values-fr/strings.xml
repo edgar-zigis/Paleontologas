@@ -2292,6 +2292,96 @@
     <string name="triassic_variant_23_3">Crétacé</string>
     <string name="triassic_variant_23_4">Archéen</string>
 
+    <string name="triassic_question_24">Quel groupe d’animaux est devenu dominant après le déclin des grands thérapsides au Trias moyen ?</string>
+    <string name="triassic_variant_24_1">Archosaures</string>
+    <string name="triassic_variant_24_2">Plésiosaures</string>
+    <string name="triassic_variant_24_3">Synapsides</string>
+    <string name="triassic_variant_24_4">Amphibiens</string>
+
+    <string name="triassic_question_25">Quel était le principal régime alimentaire de Morganucodon, un mammaliforme primitif ?</string>
+    <string name="triassic_variant_25_1">Insectes</string>
+    <string name="triassic_variant_25_2">Plantes</string>
+    <string name="triassic_variant_25_3">Poissons</string>
+    <string name="triassic_variant_25_4">Fruits</string>
+
+    <string name="triassic_question_26">Quelle caractéristique est associée à l’hypothèse du « goulot d’étranglement nocturne » chez les premiers mammifères ?</string>
+    <string name="triassic_variant_26_1">Sang chaud</string>
+    <string name="triassic_variant_26_2">Plumes colorées</string>
+    <string name="triassic_variant_26_3">Capacité de voler</string>
+    <string name="triassic_variant_26_4">Grande taille corporelle</string>
+
+    <string name="triassic_question_27">Quel groupe de plantes dominait l’hémisphère nord pendant le Trias ?</string>
+    <string name="triassic_variant_27_1">Conifères</string>
+    <string name="triassic_variant_27_2">Glossopteris</string>
+    <string name="triassic_variant_27_3">Mousses</string>
+    <string name="triassic_variant_27_4">Angiospermes</string>
+
+    <string name="triassic_question_28">Quel reptile marin, de forme semblable à celle d’un dauphin, était un grand prédateur pendant le Trias ?</string>
+    <string name="triassic_variant_28_1">Ichthyosaure</string>
+    <string name="triassic_variant_28_2">Ptérosaure</string>
+    <string name="triassic_variant_28_3">Cynodonte</string>
+    <string name="triassic_variant_28_4">Archosaure</string>
+
+    <string name="triassic_question_29">Qu’est-ce qui distingue les ptérosaures des véritables dinosaures ?</string>
+    <string name="triassic_variant_29_1">Ils appartiennent à un groupe distinct en dehors du clade des dinosaures</string>
+    <string name="triassic_variant_29_2">Ils ont vécu uniquement au Jurassique</string>
+    <string name="triassic_variant_29_3">Ce sont des amphibiens</string>
+    <string name="triassic_variant_29_4">Ils ne pouvaient pas voler</string>
+
+    <string name="triassic_question_30">Quel reptile possédait de longues pattes postérieures avec des membranes de vol plané ?</string>
+    <string name="triassic_variant_30_1">Sharovipteryx</string>
+    <string name="triassic_variant_30_2">Tanystropheus</string>
+    <string name="triassic_variant_30_3">Desmatosuchus</string>
+    <string name="triassic_variant_30_4">Lystrosaurus</string>
+
+    <string name="triassic_question_31">Quel genre dominait les populations de vertébrés terrestres juste après l’extinction du Permien ?</string>
+    <string name="triassic_variant_31_1">Lystrosaurus</string>
+    <string name="triassic_variant_31_2">Plateosaurus</string>
+    <string name="triassic_variant_31_3">Morganucodon</string>
+    <string name="triassic_variant_31_4">Glossopteris</string>
+
+    <string name="triassic_question_32">Quel était le régime alimentaire probable de Tanystropheus, le reptile au cou extrêmement long ?</string>
+    <string name="triassic_variant_32_1">Poissons</string>
+    <string name="triassic_variant_32_2">Herbe</string>
+    <string name="triassic_variant_32_3">Feuilles</string>
+    <string name="triassic_variant_32_4">Insectes</string>
+
+    <string name="triassic_question_33">Quel genre de reptiles possédait des structures dorsales ressemblant à des écailles et a été un temps lié à l’origine des oiseaux ?</string>
+    <string name="triassic_variant_33_1">Longisquama</string>
+    <string name="triassic_variant_33_2">Plésiosaure</string>
+    <string name="triassic_variant_33_3">Prolacerta</string>
+    <string name="triassic_variant_33_4">Plateosaurus</string>
+
+    <string name="triassic_question_34">Quel groupe de plantes du Trias a été parfois proposé comme parent possible des angiospermes ?</string>
+    <string name="triassic_variant_34_1">Bennettitales</string>
+    <string name="triassic_variant_34_2">Cycadales</string>
+    <string name="triassic_variant_34_3">Fougères</string>
+    <string name="triassic_variant_34_4">Ginkgos</string>
+
+    <string name="triassic_question_35">Que mangeait probablement l’archosaure Mystriosuchus ?</string>
+    <string name="triassic_variant_35_1">Poissons</string>
+    <string name="triassic_variant_35_2">Graines</string>
+    <string name="triassic_variant_35_3">Insectes</string>
+    <string name="triassic_variant_35_4">Feuilles</string>
+
+    <string name="triassic_question_36">Quel genre de dinosaure était un sauropodomorphe primitif pouvant atteindre 10 mètres de long ?</string>
+    <string name="triassic_variant_36_1">Plateosaurus</string>
+    <string name="triassic_variant_36_2">Coelophysis</string>
+    <string name="triassic_variant_36_3">Desmatosuchus</string>
+    <string name="triassic_variant_36_4">Lystrosaurus</string>
+
+    <string name="triassic_question_37">Quelle caractéristique remarquable Desmatosuchus possédait-il au niveau des épaules ?</string>
+    <string name="triassic_variant_37_1">De longues pointes défensives</string>
+    <string name="triassic_variant_37_2">Des crêtes semblables à des plumes</string>
+    <string name="triassic_variant_37_3">Des pores glandulaires</string>
+    <string name="triassic_variant_37_4">Des ailes</string>
+
+    <string name="triassic_question_38">Comment les plésiosaures se reproduisaient-ils ?</string>
+    <string name="triassic_variant_38_1">Ils donnaient naissance à des petits vivants</string>
+    <string name="triassic_variant_38_2">Ils pondaient des œufs dans des terriers</string>
+    <string name="triassic_variant_38_3">Ils se reproduisaient par bourgeonnement</string>
+    <string name="triassic_variant_38_4">Ils pondaient des œufs dans des nids terrestres</string>
+
     <!--     BREAK      -->
 
     <string name="jurassic_question_1">Quand commença le Jurassique?</string>
