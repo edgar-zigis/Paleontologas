@@ -2475,6 +2475,96 @@
     <string name="jurassic_variant_13_3">Carbonifère</string>
     <string name="jurassic_variant_13_4">Crétacé</string>
 
+    <string name="jurassic_question_14">Quel événement géologique majeur a commencé pendant le Jurassique ?</string>
+    <string name="jurassic_variant_14_1">La fragmentation du supercontinent Pangée</string>
+    <string name="jurassic_variant_14_2">La formation de l’Himalaya</string>
+    <string name="jurassic_variant_14_3">L’impact de l’astéroïde qui a causé l’extinction des dinosaures</string>
+    <string name="jurassic_variant_14_4">L’apparition des mammifères modernes</string>
+
+    <string name="jurassic_question_15">Quel genre de dinosaure est connu pour son cou exceptionnellement long, représentant environ la moitié de sa longueur totale ?</string>
+    <string name="jurassic_variant_15_1">Mamenchisaurus</string>
+    <string name="jurassic_variant_15_2">Tyrannosaurus</string>
+    <string name="jurassic_variant_15_3">Triceratops</string>
+    <string name="jurassic_variant_15_4">Pachycéphalosaure</string>
+
+    <string name="jurassic_question_16">Quel trait physique distinctif caractérisait l’Allosaurus ?</string>
+    <string name="jurassic_variant_16_1">Une paire de crêtes sur le crâne</string>
+    <string name="jurassic_variant_16_2">Un collerette osseux orné de cornes</string>
+    <string name="jurassic_variant_16_3">Une voile dorsale</string>
+    <string name="jurassic_variant_16_4">Une massue osseuse sur la queue</string>
+
+    <string name="jurassic_question_17">Quel dinosaure a été représenté de façon incorrecte dans les films comme un animal qui crache du venin et possède une collerette ?</string>
+    <string name="jurassic_variant_17_1">Dilophosaurus</string>
+    <string name="jurassic_variant_17_2">Vélociraptor</string>
+    <string name="jurassic_variant_17_3">Spinosaurus</string>
+    <string name="jurassic_variant_17_4">Ankylosaurus</string>
+
+    <string name="jurassic_question_18">À quoi servaient probablement les longues plumes de l’Epidexipteryx ?</string>
+    <string name="jurassic_variant_18_1">À la parade nuptiale ou à la reconnaissance entre espèces</string>
+    <string name="jurassic_variant_18_2">Au vol longue distance</string>
+    <string name="jurassic_variant_18_3">À la nage sous-marine</string>
+    <string name="jurassic_variant_18_4">À l’isolation thermique</string>
+
+    <string name="jurassic_question_19">Quel petit dinosaure arboricole du Jurassique avait des doigts allongés et se nourrissait probablement d’insectes ?</string>
+    <string name="jurassic_variant_19_1">Epidendrosaurus</string>
+    <string name="jurassic_variant_19_2">Stegosaurus</string>
+    <string name="jurassic_variant_19_3">Liopleurodon</string>
+    <string name="jurassic_variant_19_4">Allosaurus</string>
+
+    <string name="jurassic_question_20">Quelle caractéristique anatomique aidait le Kentrosaurus à se défendre contre les prédateurs ?</string>
+    <string name="jurassic_variant_20_1">Des rangées de plaques osseuses et des pointes sur la queue</string>
+    <string name="jurassic_variant_20_2">Une morsure venimeuse</string>
+    <string name="jurassic_variant_20_3">Une grande crête crânienne</string>
+    <string name="jurassic_variant_20_4">Des pattes palmées</string>
+
+    <string name="jurassic_question_21">Quel genre de reptile marin du Jurassique était un excellent nageur doté de puissantes nageoires ?</string>
+    <string name="jurassic_variant_21_1">Liopleurodon</string>
+    <string name="jurassic_variant_21_2">Iguanodon</string>
+    <string name="jurassic_variant_21_3">Pachyrhinosaure</string>
+    <string name="jurassic_variant_21_4">Parasaurolophus</string>
+
+    <string name="jurassic_question_22">Quelle caractéristique lie Archaeopteryx aux oiseaux modernes ?</string>
+    <string name="jurassic_variant_22_1">Des plumes</string>
+    <string name="jurassic_variant_22_2">Un bec sans dents</string>
+    <string name="jurassic_variant_22_3">Un cerveau très développé</string>
+    <string name="jurassic_variant_22_4">Quatre ailes</string>
+
+    <string name="jurassic_question_23">À quoi fait référence le nom «Dimorphodon» ?</string>
+    <string name="jurassic_variant_23_1">À ses deux types de dents</string>
+    <string name="jurassic_variant_23_2">À sa double structure alaire</string>
+    <string name="jurassic_variant_23_3">À ses deux crêtes crâniennes</string>
+    <string name="jurassic_variant_23_4">À sa queue bifide</string>
+
+    <string name="jurassic_question_24">Lequel de ces dinosaures a vécu au Jurassique supérieur et est connu pour ses plaques osseuses et sa queue hérissée de pointes ?</string>
+    <string name="jurassic_variant_24_1">Stegosaurus</string>
+    <string name="jurassic_variant_24_2">Vélociraptor</string>
+    <string name="jurassic_variant_24_3">Camarasaurus</string>
+    <string name="jurassic_variant_24_4">Carnotaurus</string>
+
+    <string name="jurassic_question_25">Quel type d’habitat était probablement occupé par la plupart des sauropodes ?</string>
+    <string name="jurassic_variant_25_1">Des forêts denses riches en végétation</string>
+    <string name="jurassic_variant_25_2">Des toundras froides</string>
+    <string name="jurassic_variant_25_3">Des sommets montagneux élevés</string>
+    <string name="jurassic_variant_25_4">Les fonds marins profonds</string>
+
+    <string name="jurassic_question_26">Quel groupe de plantes dominait les paysages durant le Jurassique ?</string>
+    <string name="jurassic_variant_26_1">Les conifères</string>
+    <string name="jurassic_variant_26_2">Les plantes à fleurs</string>
+    <string name="jurassic_variant_26_3">Les graminées</string>
+    <string name="jurassic_variant_26_4">Les cactus</string>
+
+    <string name="jurassic_question_27">Quel groupe de dinosaures est le seul à avoir survécu à l’extinction Crétacé-Paléogène ?</string>
+    <string name="jurassic_variant_27_1">Les oiseaux</string>
+    <string name="jurassic_variant_27_2">Les sauropodes</string>
+    <string name="jurassic_variant_27_3">Les stégosauriens</string>
+    <string name="jurassic_variant_27_4">Les pliosaures</string>
+
+    <string name="jurassic_question_28">Quel type de vol attribue-t-on au Dimorphodon ?</string>
+    <string name="jurassic_variant_28_1">Des vols courts avec battements rapides, comme les poules</string>
+    <string name="jurassic_variant_28_2">Le vol plané comme les aigles</string>
+    <string name="jurassic_variant_28_3">Le vol stationnaire comme les colibris</string>
+    <string name="jurassic_variant_28_4">Le vol plané depuis de hautes falaises</string>
+
     <!--     BREAK      -->
 
     <string name="cretaceous_question_1">Quand commença le Crétacé?</string>
