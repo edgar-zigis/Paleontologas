@@ -2475,6 +2475,96 @@
     <string name="jurassic_variant_13_3">Carbonífero</string>
     <string name="jurassic_variant_13_4">Cretáceo</string>
 
+    <string name="jurassic_question_14">Qual importante evento geológico começou durante o período Jurássico?</string>
+    <string name="jurassic_variant_14_1">A fragmentação do supercontinente Pangeia</string>
+    <string name="jurassic_variant_14_2">A formação do Himalaia</string>
+    <string name="jurassic_variant_14_3">O impacto do asteroide que causou a extinção dos dinossauros</string>
+    <string name="jurassic_variant_14_4">O surgimento dos mamíferos modernos</string>
+
+    <string name="jurassic_question_15">Qual gênero de dinossauro é conhecido por ter um pescoço extremamente longo, que representava cerca de metade do comprimento total do corpo?</string>
+    <string name="jurassic_variant_15_1">Mamenchissauro</string>
+    <string name="jurassic_variant_15_2">Tiranossauro</string>
+    <string name="jurassic_variant_15_3">Tricerátopo</string>
+    <string name="jurassic_variant_15_4">Paquicefalossauro</string>
+
+    <string name="jurassic_question_16">Qual característica física marcante o Alossauro possuía?</string>
+    <string name="jurassic_variant_16_1">Um par de cristas no crânio</string>
+    <string name="jurassic_variant_16_2">Uma gola óssea com chifres</string>
+    <string name="jurassic_variant_16_3">Uma vela dorsal</string>
+    <string name="jurassic_variant_16_4">Uma clava óssea na cauda</string>
+
+    <string name="jurassic_question_17">Qual dinossauro foi retratado incorretamente nos filmes como capaz de cuspir veneno e com uma gola expansível?</string>
+    <string name="jurassic_variant_17_1">Dilofossauro</string>
+    <string name="jurassic_variant_17_2">Velociraptor</string>
+    <string name="jurassic_variant_17_3">Espinossauro</string>
+    <string name="jurassic_variant_17_4">Anquilossauro</string>
+
+    <string name="jurassic_question_18">Qual era provavelmente a função das longas penas do Epidexipteryx?</string>
+    <string name="jurassic_variant_18_1">Exibição, como em rituais de acasalamento ou reconhecimento entre espécies</string>
+    <string name="jurassic_variant_18_2">Voos de longa distância</string>
+    <string name="jurassic_variant_18_3">Natação subaquática</string>
+    <string name="jurassic_variant_18_4">Isolamento térmico</string>
+
+    <string name="jurassic_question_19">Qual pequeno dinossauro arborícola do Jurássico tinha dedos alongados e provavelmente se alimentava de insetos?</string>
+    <string name="jurassic_variant_19_1">Epidendrossauro</string>
+    <string name="jurassic_variant_19_2">Estegossauro</string>
+    <string name="jurassic_variant_19_3">Liopleurodonte</string>
+    <string name="jurassic_variant_19_4">Alossauro</string>
+
+    <string name="jurassic_question_20">Qual característica anatômica ajudava o Kentrossauro a se defender dos predadores?</string>
+    <string name="jurassic_variant_20_1">Linhas de placas ósseas e espinhos ao longo das costas e da cauda</string>
+    <string name="jurassic_variant_20_2">Mordida venenosa</string>
+    <string name="jurassic_variant_20_3">Grande crista no crânio</string>
+    <string name="jurassic_variant_20_4">Patas com membranas</string>
+
+    <string name="jurassic_question_21">Qual gênero de réptil marinho do Jurássico era um nadador poderoso com nadadeiras fortes?</string>
+    <string name="jurassic_variant_21_1">Liopleurodonte</string>
+    <string name="jurassic_variant_21_2">Iguanodonte</string>
+    <string name="jurassic_variant_21_3">Pachirrinosauro</string>
+    <string name="jurassic_variant_21_4">Parassaurolofo</string>
+
+    <string name="jurassic_question_22">Qual característica aproxima o Archaeopteryx das aves modernas?</string>
+    <string name="jurassic_variant_22_1">Penas</string>
+    <string name="jurassic_variant_22_2">Um bico sem dentes</string>
+    <string name="jurassic_variant_22_3">Cérebro altamente desenvolvido</string>
+    <string name="jurassic_variant_22_4">Quatro asas</string>
+
+    <string name="jurassic_question_23">A que se refere o nome “Dimorphodon”?</string>
+    <string name="jurassic_variant_23_1">A dois tipos diferentes de dentes</string>
+    <string name="jurassic_variant_23_2">À estrutura dupla das asas</string>
+    <string name="jurassic_variant_23_3">A duas cristas no crânio</string>
+    <string name="jurassic_variant_23_4">À cauda bifurcada</string>
+
+    <string name="jurassic_question_24">Qual desses dinossauros viveu no Jurássico Superior e é conhecido por placas ósseas e cauda com espinhos?</string>
+    <string name="jurassic_variant_24_1">Estegossauro</string>
+    <string name="jurassic_variant_24_2">Velociraptor</string>
+    <string name="jurassic_variant_24_3">Camarassauro</string>
+    <string name="jurassic_variant_24_4">Carnotauro</string>
+
+    <string name="jurassic_question_25">Que tipo de habitat era provavelmente ocupado pela maioria dos saurópodes?</string>
+    <string name="jurassic_variant_25_1">Florestas densas com vegetação abundante</string>
+    <string name="jurassic_variant_25_2">Tundras geladas</string>
+    <string name="jurassic_variant_25_3">Picos montanhosos elevados</string>
+    <string name="jurassic_variant_25_4">Fundos oceânicos profundos</string>
+
+    <string name="jurassic_question_26">Qual grupo de plantas dominava as paisagens durante o Jurássico?</string>
+    <string name="jurassic_variant_26_1">Coníferas</string>
+    <string name="jurassic_variant_26_2">Plantas com flores</string>
+    <string name="jurassic_variant_26_3">Gramíneas</string>
+    <string name="jurassic_variant_26_4">Cactos</string>
+
+    <string name="jurassic_question_27">Qual grupo de dinossauros foi o único a sobreviver à extinção do Cretáceo-Paleógeno?</string>
+    <string name="jurassic_variant_27_1">Aves</string>
+    <string name="jurassic_variant_27_2">Saurópodes</string>
+    <string name="jurassic_variant_27_3">Estegossauros</string>
+    <string name="jurassic_variant_27_4">Pliossauros</string>
+
+    <string name="jurassic_question_28">Que tipo de voo se acredita que o Dimorphodon realizava?</string>
+    <string name="jurassic_variant_28_1">Voos curtos com batidas rápidas de asas, como galinhas</string>
+    <string name="jurassic_variant_28_2">Planeio como águias</string>
+    <string name="jurassic_variant_28_3">Voo parado como os beija-flores</string>
+    <string name="jurassic_variant_28_4">Planeio a partir de penhascos altos</string>
+
     <!--     BREAK      -->
 
     <string name="cretaceous_question_1">Quando o Cretáceo começou?</string>
