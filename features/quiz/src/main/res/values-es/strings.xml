@@ -2755,6 +2755,96 @@
     <string name="cretaceous_variant_27_3">Neógeno </string>
     <string name="cretaceous_variant_27_4">Pérmico </string>
 
+    <string name="cretaceous_question_28">¿Qué tipo de alimentación tenía el Triceratops?</string>
+    <string name="cretaceous_variant_28_1">Herbívoro</string>
+    <string name="cretaceous_variant_28_2">Carnívoro</string>
+    <string name="cretaceous_variant_28_3">Omnívoro</string>
+    <string name="cretaceous_variant_28_4">Detritívoro</string>
+
+    <string name="cretaceous_question_29">¿Qué dinosaurio tenía una cola en forma de maza que probablemente usaba para defenderse?</string>
+    <string name="cretaceous_variant_29_1">Ankylosaurus</string>
+    <string name="cretaceous_variant_29_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_29_3">Velociraptor</string>
+    <string name="cretaceous_variant_29_4">Therizinosaurus</string>
+
+    <string name="cretaceous_question_30">¿Cuál era la envergadura estimada del Quetzalcoatlus?</string>
+    <string name="cretaceous_variant_30_1">10–11 metros</string>
+    <string name="cretaceous_variant_30_2">3–4 metros</string>
+    <string name="cretaceous_variant_30_3">6–7 metros</string>
+    <string name="cretaceous_variant_30_4">15–16 metros</string>
+
+    <string name="cretaceous_question_31">¿Qué dinosaurio tenía las garras más largas conocidas de cualquier animal?</string>
+    <string name="cretaceous_variant_31_1">Therizinosaurus</string>
+    <string name="cretaceous_variant_31_2">Deinocheirus</string>
+    <string name="cretaceous_variant_31_3">Spinosaurus</string>
+    <string name="cretaceous_variant_31_4">Microraptor</string>
+
+    <string name="cretaceous_question_32">¿Qué dinosaurio tenía un solo dedo funcional?</string>
+    <string name="cretaceous_variant_32_1">Linhenykus</string>
+    <string name="cretaceous_variant_32_2">Giganotosaurus</string>
+    <string name="cretaceous_variant_32_3">Tyrannosaurus</string>
+    <string name="cretaceous_variant_32_4">Tsintaosaurus</string>
+
+    <string name="cretaceous_question_33">¿Qué reptil marino podía medir hasta 17 metros de largo y cazaba peces y tortugas?</string>
+    <string name="cretaceous_variant_33_1">Mosasaurus</string>
+    <string name="cretaceous_variant_33_2">Ichthyosaurus</string>
+    <string name="cretaceous_variant_33_3">Plesiosaurus</string>
+    <string name="cretaceous_variant_33_4">Sarcosuchus</string>
+
+    <string name="cretaceous_question_34">¿Cuál era el peso estimado de un Triceratops adulto?</string>
+    <string name="cretaceous_variant_34_1">Aproximadamente 12 toneladas</string>
+    <string name="cretaceous_variant_34_2">6 toneladas</string>
+    <string name="cretaceous_variant_34_3">3 toneladas</string>
+    <string name="cretaceous_variant_34_4">1 tonelada</string>
+
+    <string name="cretaceous_question_35">¿Qué dinosaurio probablemente era omnívoro y tenía una estructura parecida a una vela sobre el lomo?</string>
+    <string name="cretaceous_variant_35_1">Deinocheirus</string>
+    <string name="cretaceous_variant_35_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_35_3">Tyrannosaurus</string>
+    <string name="cretaceous_variant_35_4">Ankylosaurus</string>
+
+    <string name="cretaceous_question_36">¿A qué grupo pertenecía el Microraptor?</string>
+    <string name="cretaceous_variant_36_1">Dinosaurios paravianos</string>
+    <string name="cretaceous_variant_36_2">Sauropodos</string>
+    <string name="cretaceous_variant_36_3">Hadrosaurios</string>
+    <string name="cretaceous_variant_36_4">Ceratopsios</string>
+
+    <string name="cretaceous_question_37">¿Qué dinosaurio tenía un hocico en forma de pico de pato y posiblemente una cresta parecida a un cuerno?</string>
+    <string name="cretaceous_variant_37_1">Tsintaosaurus</string>
+    <string name="cretaceous_variant_37_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_37_3">Velociraptor</string>
+    <string name="cretaceous_variant_37_4">Tyrannosaurus</string>
+
+    <string name="cretaceous_question_38">¿Qué tipo de animal era el Sarcosuchus?</string>
+    <string name="cretaceous_variant_38_1">Un pariente gigante de los cocodrilos</string>
+    <string name="cretaceous_variant_38_2">Un dinosaurio marino</string>
+    <string name="cretaceous_variant_38_3">Un anfibio gigante</string>
+    <string name="cretaceous_variant_38_4">Un reptil volador</string>
+
+    <string name="cretaceous_question_39">¿Qué papel juegan los ammonites en la paleontología?</string>
+    <string name="cretaceous_variant_39_1">Son excelentes fósiles guía</string>
+    <string name="cretaceous_variant_39_2">Fueron antecesores de los mamíferos</string>
+    <string name="cretaceous_variant_39_3">Construyeron arrecifes de coral</string>
+    <string name="cretaceous_variant_39_4">Sobrevivieron a la extinción del K–Pg</string>
+
+    <string name="cretaceous_question_40">¿Qué dinosaurio fue representado en películas como muy grande, pero en realidad era del tamaño de un pavo?</string>
+    <string name="cretaceous_variant_40_1">Velociraptor</string>
+    <string name="cretaceous_variant_40_2">Tyrannosaurus</string>
+    <string name="cretaceous_variant_40_3">Spinosaurus</string>
+    <string name="cretaceous_variant_40_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_41">¿Cuál era la presa principal del Spinosaurus?</string>
+    <string name="cretaceous_variant_41_1">Peces</string>
+    <string name="cretaceous_variant_41_2">Insectos</string>
+    <string name="cretaceous_variant_41_3">Pequeños mamíferos</string>
+    <string name="cretaceous_variant_41_4">Reptiles voladores</string>
+
+    <string name="cretaceous_question_42">¿Qué dinosaurio vivió en Argentina y rivalizaba en tamaño con el Tyrannosaurus?</string>
+    <string name="cretaceous_variant_42_1">Giganotosaurus</string>
+    <string name="cretaceous_variant_42_2">Tsintaosaurus</string>
+    <string name="cretaceous_variant_42_3">Deinocheirus</string>
+    <string name="cretaceous_variant_42_4">Linhenykus</string>
+
     <!--     BREAK      -->
 
     <string name="paleogene_question_1">¿Hace cuánto tiempo comenzó el Paleógeno? </string>

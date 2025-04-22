@@ -2756,6 +2756,96 @@
     <string name="cretaceous_variant_27_3">Néogène</string>
     <string name="cretaceous_variant_27_4">Permien</string>
 
+    <string name="cretaceous_question_28">Quel type de régime alimentaire avait le Triceratops ?</string>
+    <string name="cretaceous_variant_28_1">Herbivore</string>
+    <string name="cretaceous_variant_28_2">Carnivore</string>
+    <string name="cretaceous_variant_28_3">Omnivore</string>
+    <string name="cretaceous_variant_28_4">Détritivore</string>
+
+    <string name="cretaceous_question_29">Quel dinosaure possédait une queue en forme de massue utilisée pour la défense ?</string>
+    <string name="cretaceous_variant_29_1">Ankylosaurus</string>
+    <string name="cretaceous_variant_29_2">Pachycéphalosaure</string>
+    <string name="cretaceous_variant_29_3">Vélociraptor</string>
+    <string name="cretaceous_variant_29_4">Thérizinosaure</string>
+
+    <string name="cretaceous_question_30">Quelle était l\'envergure estimée du Quetzalcoatlus ?</string>
+    <string name="cretaceous_variant_30_1">10 à 11 mètres</string>
+    <string name="cretaceous_variant_30_2">3 à 4 mètres</string>
+    <string name="cretaceous_variant_30_3">6 à 7 mètres</string>
+    <string name="cretaceous_variant_30_4">15 à 16 mètres</string>
+
+    <string name="cretaceous_question_31">Quel dinosaure possédait les griffes les plus longues jamais connues ?</string>
+    <string name="cretaceous_variant_31_1">Thérizinosaure</string>
+    <string name="cretaceous_variant_31_2">Déinocheirus</string>
+    <string name="cretaceous_variant_31_3">Spinosaurus</string>
+    <string name="cretaceous_variant_31_4">Microraptor</string>
+
+    <string name="cretaceous_question_32">Quel dinosaure avait un seul doigt fonctionnel ?</string>
+    <string name="cretaceous_variant_32_1">Linhenykus</string>
+    <string name="cretaceous_variant_32_2">Giganotosaurus</string>
+    <string name="cretaceous_variant_32_3">Tyrannosaurus</string>
+    <string name="cretaceous_variant_32_4">Tsintaosaurus</string>
+
+    <string name="cretaceous_question_33">Quel reptile marin pouvait atteindre 17 mètres de long et chassait des poissons et des tortues ?</string>
+    <string name="cretaceous_variant_33_1">Mosasaurus</string>
+    <string name="cretaceous_variant_33_2">Ichthyosaurus</string>
+    <string name="cretaceous_variant_33_3">Plésiosaure</string>
+    <string name="cretaceous_variant_33_4">Sarcosuchus</string>
+
+    <string name="cretaceous_question_34">Quel était le poids estimé d’un Triceratops adulte ?</string>
+    <string name="cretaceous_variant_34_1">Environ 12 tonnes</string>
+    <string name="cretaceous_variant_34_2">6 tonnes</string>
+    <string name="cretaceous_variant_34_3">3 tonnes</string>
+    <string name="cretaceous_variant_34_4">1 tonne</string>
+
+    <string name="cretaceous_question_35">Quel dinosaure était probablement omnivore et possédait une structure en forme de voile sur le dos ?</string>
+    <string name="cretaceous_variant_35_1">Déinocheirus</string>
+    <string name="cretaceous_variant_35_2">Pachycéphalosaure</string>
+    <string name="cretaceous_variant_35_3">Tyrannosaurus</string>
+    <string name="cretaceous_variant_35_4">Ankylosaurus</string>
+
+    <string name="cretaceous_question_36">À quel groupe appartenait le Microraptor ?</string>
+    <string name="cretaceous_variant_36_1">Dinosaures paraviens</string>
+    <string name="cretaceous_variant_36_2">Sauropodes</string>
+    <string name="cretaceous_variant_36_3">Hadrosauridés</string>
+    <string name="cretaceous_variant_36_4">Cératopsidés</string>
+
+    <string name="cretaceous_question_37">Quel dinosaure avait un museau en forme de bec de canard et peut-être une crête semblable à une corne ?</string>
+    <string name="cretaceous_variant_37_1">Tsintaosaurus</string>
+    <string name="cretaceous_variant_37_2">Pachycéphalosaure</string>
+    <string name="cretaceous_variant_37_3">Vélociraptor</string>
+    <string name="cretaceous_variant_37_4">Tyrannosaurus</string>
+
+    <string name="cretaceous_question_38">Quel type d’animal était le Sarcosuchus ?</string>
+    <string name="cretaceous_variant_38_1">Un parent géant des crocodiles</string>
+    <string name="cretaceous_variant_38_2">Un dinosaure marin</string>
+    <string name="cretaceous_variant_38_3">Un amphibien géant</string>
+    <string name="cretaceous_variant_38_4">Un reptile volant</string>
+
+    <string name="cretaceous_question_39">Quel rôle les ammonites jouent-elles en paléontologie ?</string>
+    <string name="cretaceous_variant_39_1">Ce sont d’excellents fossiles stratigraphiques</string>
+    <string name="cretaceous_variant_39_2">Elles sont les ancêtres des mammifères</string>
+    <string name="cretaceous_variant_39_3">Elles ont construit des récifs coralliens</string>
+    <string name="cretaceous_variant_39_4">Elles ont survécu à l’extinction du Crétacé</string>
+
+    <string name="cretaceous_question_40">Quel dinosaure est représenté comme très grand dans les films, mais faisait en réalité la taille d’une dinde ?</string>
+    <string name="cretaceous_variant_40_1">Vélociraptor</string>
+    <string name="cretaceous_variant_40_2">Tyrannosaurus</string>
+    <string name="cretaceous_variant_40_3">Spinosaurus</string>
+    <string name="cretaceous_variant_40_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_41">Quelle était la proie principale du Spinosaurus ?</string>
+    <string name="cretaceous_variant_41_1">Les poissons</string>
+    <string name="cretaceous_variant_41_2">Les insectes</string>
+    <string name="cretaceous_variant_41_3">Les petits mammifères</string>
+    <string name="cretaceous_variant_41_4">Les reptiles volants</string>
+
+    <string name="cretaceous_question_42">Quel dinosaure vivait en Argentine et rivalisait en taille avec le Tyrannosaurus ?</string>
+    <string name="cretaceous_variant_42_1">Giganotosaurus</string>
+    <string name="cretaceous_variant_42_2">Tsintaosaurus</string>
+    <string name="cretaceous_variant_42_3">Déinocheirus</string>
+    <string name="cretaceous_variant_42_4">Linhenykus</string>
+
     <!--     BREAK      -->
 
     <string name="paleogene_question_1">Quand commença le Paléogène?</string>
