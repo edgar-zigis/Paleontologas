@@ -985,6 +985,12 @@
     <string name="ordovician_variant_30_3">Dreifuojant pasroviui</string>
     <string name="ordovician_variant_30_4">Naudojant pelekus</string>
 
+    <string name="ordovician_question_31">Kas sukėlė masinį išnykimą Ordoviko periodo pabaigoje?</string>
+    <string name="ordovician_variant_31_1">Globalus atšalimas ir jūros lygio pokyčiai dėl apledėjimo</string>
+    <string name="ordovician_variant_31_2">Didžiuliai ugnikalnių išsiveržimai</string>
+    <string name="ordovician_variant_31_3">Asteroido smūgis Jukatano pusiasalyje</string>
+    <string name="ordovician_variant_31_4">Metano išsiskyrimas iš vandenyno dugno</string>
+
     <!--     BREAK      -->
 
     <string name="silurian_question_1">Kada prasidėjo silūras?</string>
