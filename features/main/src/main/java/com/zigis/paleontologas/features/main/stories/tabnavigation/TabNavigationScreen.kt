@@ -2,6 +2,9 @@ package com.zigis.paleontologas.features.main.stories.tabnavigation
 
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -46,6 +49,12 @@ fun TabNavigationScreen() {
         NavHost(
             navController = navController,
             startDestination = LibraryNavGraphRoutes.Timeline.route,
+            enterTransition = {
+                fadeIn(animationSpec = tween(250))
+            },
+            exitTransition = {
+                fadeOut(animationSpec = tween(250))
+            },
             modifier = Modifier
                 .fillMaxSize()
                 .constrainAs(navHost) {

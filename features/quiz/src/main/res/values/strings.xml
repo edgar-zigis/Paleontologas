@@ -2736,6 +2736,96 @@
     <string name="cretaceous_variant_27_3">Neogene</string>
     <string name="cretaceous_variant_27_4">Permian</string>
 
+    <string name="cretaceous_question_28">What type of diet did Triceratops have?</string>
+    <string name="cretaceous_variant_28_1">Herbivorous</string>
+    <string name="cretaceous_variant_28_2">Carnivorous</string>
+    <string name="cretaceous_variant_28_3">Omnivorous</string>
+    <string name="cretaceous_variant_28_4">Detritivorous</string>
+
+    <string name="cretaceous_question_29">Which dinosaur had a massive tail club likely used for defense?</string>
+    <string name="cretaceous_variant_29_1">Ankylosaurus</string>
+    <string name="cretaceous_variant_29_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_29_3">Velociraptor</string>
+    <string name="cretaceous_variant_29_4">Therizinosaurus</string>
+
+    <string name="cretaceous_question_30">What was the wingspan of Quetzalcoatlus?</string>
+    <string name="cretaceous_variant_30_1">10–11 meters</string>
+    <string name="cretaceous_variant_30_2">3–4 meters</string>
+    <string name="cretaceous_variant_30_3">6–7 meters</string>
+    <string name="cretaceous_variant_30_4">15–16 meters</string>
+
+    <string name="cretaceous_question_31">Which dinosaur had the longest known claws of any animal?</string>
+    <string name="cretaceous_variant_31_1">Therizinosaurus</string>
+    <string name="cretaceous_variant_31_2">Deinocheirus</string>
+    <string name="cretaceous_variant_31_3">Spinosaurus</string>
+    <string name="cretaceous_variant_31_4">Microraptor</string>
+
+    <string name="cretaceous_question_32">Which dinosaur had only one functional finger?</string>
+    <string name="cretaceous_variant_32_1">Linhenykus</string>
+    <string name="cretaceous_variant_32_2">Giganotosaurus</string>
+    <string name="cretaceous_variant_32_3">Tyrannosaurus</string>
+    <string name="cretaceous_variant_32_4">Tsintaosaurus</string>
+
+    <string name="cretaceous_question_33">Which marine reptile could reach up to 17 meters in length and hunted fish and turtles?</string>
+    <string name="cretaceous_variant_33_1">Mosasaurus</string>
+    <string name="cretaceous_variant_33_2">Ichthyosaurus</string>
+    <string name="cretaceous_variant_33_3">Plesiosaurus</string>
+    <string name="cretaceous_variant_33_4">Sarcosuchus</string>
+
+    <string name="cretaceous_question_34">What is the estimated weight of an adult Triceratops?</string>
+    <string name="cretaceous_variant_34_1">About 12 tonnes</string>
+    <string name="cretaceous_variant_34_2">6 tonnes</string>
+    <string name="cretaceous_variant_34_3">3 tonnes</string>
+    <string name="cretaceous_variant_34_4">1 tonne</string>
+
+    <string name="cretaceous_question_35">Which dinosaur was likely omnivorous and had a sail-like structure on its back?</string>
+    <string name="cretaceous_variant_35_1">Deinocheirus</string>
+    <string name="cretaceous_variant_35_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_35_3">Tyrannosaurus</string>
+    <string name="cretaceous_variant_35_4">Ankylosaurus</string>
+
+    <string name="cretaceous_question_36">What group did Microraptor belong to?</string>
+    <string name="cretaceous_variant_36_1">Paravian dinosaurs</string>
+    <string name="cretaceous_variant_36_2">Sauropods</string>
+    <string name="cretaceous_variant_36_3">Hadrosaurs</string>
+    <string name="cretaceous_variant_36_4">Ceratopsians</string>
+
+    <string name="cretaceous_question_37">Which dinosaur is known for a duck-billed snout and may have had a unicorn-like crest?</string>
+    <string name="cretaceous_variant_37_1">Tsintaosaurus</string>
+    <string name="cretaceous_variant_37_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_37_3">Velociraptor</string>
+    <string name="cretaceous_variant_37_4">Tyrannosaurus</string>
+
+    <string name="cretaceous_question_38">What kind of animal was Sarcosuchus?</string>
+    <string name="cretaceous_variant_38_1">A giant crocodyliform</string>
+    <string name="cretaceous_variant_38_2">A marine dinosaur</string>
+    <string name="cretaceous_variant_38_3">A giant amphibian</string>
+    <string name="cretaceous_variant_38_4">A flying reptile</string>
+
+    <string name="cretaceous_question_39">What role did ammonites play in paleontology?</string>
+    <string name="cretaceous_variant_39_1">They are excellent index fossils</string>
+    <string name="cretaceous_variant_39_2">They were ancestors of mammals</string>
+    <string name="cretaceous_variant_39_3">They built coral reefs</string>
+    <string name="cretaceous_variant_39_4">They survived the K–Pg extinction</string>
+
+    <string name="cretaceous_question_40">Which dinosaur was featured prominently in movies but was actually the size of a turkey?</string>
+    <string name="cretaceous_variant_40_1">Velociraptor</string>
+    <string name="cretaceous_variant_40_2">Tyrannosaurus</string>
+    <string name="cretaceous_variant_40_3">Spinosaurus</string>
+    <string name="cretaceous_variant_40_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_41">What was the primary prey of Spinosaurus?</string>
+    <string name="cretaceous_variant_41_1">Fish</string>
+    <string name="cretaceous_variant_41_2">Insects</string>
+    <string name="cretaceous_variant_41_3">Small mammals</string>
+    <string name="cretaceous_variant_41_4">Flying reptiles</string>
+
+    <string name="cretaceous_question_42">Which dinosaur lived in Argentina and rivaled Tyrannosaurus in size?</string>
+    <string name="cretaceous_variant_42_1">Giganotosaurus</string>
+    <string name="cretaceous_variant_42_2">Tsintaosaurus</string>
+    <string name="cretaceous_variant_42_3">Deinocheirus</string>
+    <string name="cretaceous_variant_42_4">Linhenykus</string>
+
     <!--     BREAK      -->
 
     <string name="paleogene_question_1">When the Paleogene began?</string>
