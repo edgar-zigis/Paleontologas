@@ -2756,6 +2756,96 @@
     <string name="cretaceous_variant_27_3">neogene</string>
     <string name="cretaceous_variant_27_4">perme</string>
 
+    <string name="cretaceous_question_28">Kokiu maistu mito triceratopsas?</string>
+    <string name="cretaceous_variant_28_1">Augaliniu</string>
+    <string name="cretaceous_variant_28_2">Mėsiniu</string>
+    <string name="cretaceous_variant_28_3">Įvairiu (augaliniu ir mėsiniu)</string>
+    <string name="cretaceous_variant_28_4">Puvenomis</string>
+
+    <string name="cretaceous_question_29">Kuris dinozauras turėjo masyvią, kuoką primenančią uodegą, naudotą gynybai?</string>
+    <string name="cretaceous_variant_29_1">Ankilozauras</string>
+    <string name="cretaceous_variant_29_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_29_3">Velociraptorius</string>
+    <string name="cretaceous_variant_29_4">Terizinozauras</string>
+
+    <string name="cretaceous_question_30">Koks buvo apytikslis quetzalcoatlo sparnų ilgis?</string>
+    <string name="cretaceous_variant_30_1">10–11 metrų</string>
+    <string name="cretaceous_variant_30_2">3–4 metrai</string>
+    <string name="cretaceous_variant_30_3">6–7 metrai</string>
+    <string name="cretaceous_variant_30_4">15–16 metrų</string>
+
+    <string name="cretaceous_question_31">Kuris dinozauras turėjo ilgiausius nagus iš visų žinomų gyvūnų?</string>
+    <string name="cretaceous_variant_31_1">Terizinozauras</string>
+    <string name="cretaceous_variant_31_2">Deinocheiras</string>
+    <string name="cretaceous_variant_31_3">Spinozauras</string>
+    <string name="cretaceous_variant_31_4">Mikroraptorius</string>
+
+    <string name="cretaceous_question_32">Kuris dinozauras turėjo tik vieną veikiantį pirštą?</string>
+    <string name="cretaceous_variant_32_1">Linhenykus</string>
+    <string name="cretaceous_variant_32_2">Giganotozauras</string>
+    <string name="cretaceous_variant_32_3">Tironzauras</string>
+    <string name="cretaceous_variant_32_4">Tsintaosaurus</string>
+
+    <string name="cretaceous_question_33">Kuris jūrinis roplys galėjo užaugti iki 17 metrų ir maitinosi žuvimis bei vėžliais?</string>
+    <string name="cretaceous_variant_33_1">Mozazauras</string>
+    <string name="cretaceous_variant_33_2">Ichtiozauras</string>
+    <string name="cretaceous_variant_33_3">Pleziozauras</string>
+    <string name="cretaceous_variant_33_4">Sarkozuchas</string>
+
+    <string name="cretaceous_question_34">Kiek galėjo sverti suaugęs triceratopsas?</string>
+    <string name="cretaceous_variant_34_1">Apie 12 tonų</string>
+    <string name="cretaceous_variant_34_2">6 tonos</string>
+    <string name="cretaceous_variant_34_3">3 tonos</string>
+    <string name="cretaceous_variant_34_4">1 tona</string>
+
+    <string name="cretaceous_question_35">Kuris dinozauras greičiausiai buvo visaėdis ir turėjo burę primenančią struktūrą ant nugaros?</string>
+    <string name="cretaceous_variant_35_1">Deinocheiras</string>
+    <string name="cretaceous_variant_35_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_35_3">Tironzauras</string>
+    <string name="cretaceous_variant_35_4">Ankilozauras</string>
+
+    <string name="cretaceous_question_36">Kuriai grupei priklausė mikroraptorius?</string>
+    <string name="cretaceous_variant_36_1">Paravijams</string>
+    <string name="cretaceous_variant_36_2">Sauropodams</string>
+    <string name="cretaceous_variant_36_3">Hadrosaurams</string>
+    <string name="cretaceous_variant_36_4">Ceratopsidams</string>
+
+    <string name="cretaceous_question_37">Kuris dinozauras turėjo snapą primenančią nosį ir, manoma, viengubą keterą ant galvos?</string>
+    <string name="cretaceous_variant_37_1">Tsintaosaurus</string>
+    <string name="cretaceous_variant_37_2">Pachycephalosaurus</string>
+    <string name="cretaceous_variant_37_3">Velociraptorius</string>
+    <string name="cretaceous_variant_37_4">Tironzauras</string>
+
+    <string name="cretaceous_question_38">Kokio tipo gyvūnas buvo sarkozuchas?</string>
+    <string name="cretaceous_variant_38_1">Milžiniškas krokodilų giminaitis</string>
+    <string name="cretaceous_variant_38_2">Jūrinis dinozauras</string>
+    <string name="cretaceous_variant_38_3">Milžiniškas varliagyvis</string>
+    <string name="cretaceous_variant_38_4">Skrendantis roplys</string>
+
+    <string name="cretaceous_question_39">Kokią reikšmę paleontologijoje turi amonitai?</string>
+    <string name="cretaceous_variant_39_1">Jie yra puikūs stratigrafiniai rodikliai (vadinamosios gairės)</string>
+    <string name="cretaceous_variant_39_2">Jie buvo žinduolių protėviai</string>
+    <string name="cretaceous_variant_39_3">Jie statė rifus</string>
+    <string name="cretaceous_variant_39_4">Jie išgyveno K–Pg išnykimą</string>
+
+    <string name="cretaceous_question_40">Kuris dinozauras filmuose vaizduojamas kaip labai didelis, nors iš tikrųjų buvo kalakuto dydžio?</string>
+    <string name="cretaceous_variant_40_1">Velociraptorius</string>
+    <string name="cretaceous_variant_40_2">Tironzauras</string>
+    <string name="cretaceous_variant_40_3">Spinozauras</string>
+    <string name="cretaceous_variant_40_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_41">Kuo dažniausiai maitinosi spinozauras?</string>
+    <string name="cretaceous_variant_41_1">Žuvimis</string>
+    <string name="cretaceous_variant_41_2">Vabzdžiais</string>
+    <string name="cretaceous_variant_41_3">Smulkiais žinduoliais</string>
+    <string name="cretaceous_variant_41_4">Skraidančiais ropliais</string>
+
+    <string name="cretaceous_question_42">Kuris dinozauras gyveno dabartinėje Argentinoje ir dydžiu prilygo tironzaurui?</string>
+    <string name="cretaceous_variant_42_1">Giganotozauras</string>
+    <string name="cretaceous_variant_42_2">Tsintaosaurus</string>
+    <string name="cretaceous_variant_42_3">Deinocheiras</string>
+    <string name="cretaceous_variant_42_4">Linhenykus</string>
+
     <!--     BREAK      -->
 
     <string name="paleogene_question_1">Kada prasidėjo paleogenas?</string>

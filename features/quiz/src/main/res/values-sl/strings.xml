@@ -2756,6 +2756,96 @@
     <string name="cretaceous_variant_27_3">neogen</string>
     <string name="cretaceous_variant_27_4">perm</string>
 
+    <string name="cretaceous_question_28">Kakšna je bila prehrana triceratopsa?</string>
+    <string name="cretaceous_variant_28_1">Rastlinojeda</string>
+    <string name="cretaceous_variant_28_2">Mesojeda</string>
+    <string name="cretaceous_variant_28_3">Vsejeda</string>
+    <string name="cretaceous_variant_28_4">Mrhovinojeda</string>
+
+    <string name="cretaceous_question_29">Kateri dinozaver je imel rep v obliki gorjače, ki ga je verjetno uporabljal za obrambo?</string>
+    <string name="cretaceous_variant_29_1">Ankilozaver</string>
+    <string name="cretaceous_variant_29_2">Pahicefalozaver</string>
+    <string name="cretaceous_variant_29_3">Velociraptor</string>
+    <string name="cretaceous_variant_29_4">Terezinozaver</string>
+
+    <string name="cretaceous_question_30">Kakšna je bila ocenjena razpetina kril pri quetzalcoatlusu?</string>
+    <string name="cretaceous_variant_30_1">10–11 metrov</string>
+    <string name="cretaceous_variant_30_2">3–4 metre</string>
+    <string name="cretaceous_variant_30_3">6–7 metrov</string>
+    <string name="cretaceous_variant_30_4">15–16 metrov</string>
+
+    <string name="cretaceous_question_31">Kateri dinozaver je imel najdaljše znane kremplje med vsemi živalmi?</string>
+    <string name="cretaceous_variant_31_1">Terezinozaver</string>
+    <string name="cretaceous_variant_31_2">Deinoher</string>
+    <string name="cretaceous_variant_31_3">Spinozaver</string>
+    <string name="cretaceous_variant_31_4">Mikroraptor</string>
+
+    <string name="cretaceous_question_32">Kateri dinozaver je imel le en delujoč prst?</string>
+    <string name="cretaceous_variant_32_1">Linhenikus</string>
+    <string name="cretaceous_variant_32_2">Giganotozaver</string>
+    <string name="cretaceous_variant_32_3">Tiranozaver</string>
+    <string name="cretaceous_variant_32_4">Cintaozaver</string>
+
+    <string name="cretaceous_question_33">Kateri morski plazilec je lahko zrasel do 17 metrov in se prehranjeval z ribami ter želvami?</string>
+    <string name="cretaceous_variant_33_1">Mosasaver</string>
+    <string name="cretaceous_variant_33_2">Ihtiozaver</string>
+    <string name="cretaceous_variant_33_3">Pleziozaver</string>
+    <string name="cretaceous_variant_33_4">Sarkozuh</string>
+
+    <string name="cretaceous_question_34">Koliko je približno tehtal odrasel triceratops?</string>
+    <string name="cretaceous_variant_34_1">Približno 12 ton</string>
+    <string name="cretaceous_variant_34_2">6 ton</string>
+    <string name="cretaceous_variant_34_3">3 tone</string>
+    <string name="cretaceous_variant_34_4">1 tona</string>
+
+    <string name="cretaceous_question_35">Kateri dinozaver je bil verjetno vsejed in je imel na hrbtu strukturo podobno jadru?</string>
+    <string name="cretaceous_variant_35_1">Deinoher</string>
+    <string name="cretaceous_variant_35_2">Pahicefalozaver</string>
+    <string name="cretaceous_variant_35_3">Tiranozaver</string>
+    <string name="cretaceous_variant_35_4">Ankilozaver</string>
+
+    <string name="cretaceous_question_36">Kateri skupini je pripadal mikroraptor?</string>
+    <string name="cretaceous_variant_36_1">Paravijem</string>
+    <string name="cretaceous_variant_36_2">Savaropodom</string>
+    <string name="cretaceous_variant_36_3">Hadrozavrom</string>
+    <string name="cretaceous_variant_36_4">Ceratopsidom</string>
+
+    <string name="cretaceous_question_37">Kateri dinozaver je imel gobec podoben račjemu kljunu in verjetno rogasto čelno izrastlino?</string>
+    <string name="cretaceous_variant_37_1">Cintaozaver</string>
+    <string name="cretaceous_variant_37_2">Pahicefalozaver</string>
+    <string name="cretaceous_variant_37_3">Velociraptor</string>
+    <string name="cretaceous_variant_37_4">Tiranozaver</string>
+
+    <string name="cretaceous_question_38">Kakšna vrsta živali je bil sarkozuh?</string>
+    <string name="cretaceous_variant_38_1">Velik sorodnik današnjega krokodila</string>
+    <string name="cretaceous_variant_38_2">Morski dinozaver</string>
+    <string name="cretaceous_variant_38_3">Ogromen dvoživka</string>
+    <string name="cretaceous_variant_38_4">Leteči plazilec</string>
+
+    <string name="cretaceous_question_39">Kakšna je vloga amonitov v paleontologiji?</string>
+    <string name="cretaceous_variant_39_1">So odlični vodilni fosili</string>
+    <string name="cretaceous_variant_39_2">So predniki sesalcev</string>
+    <string name="cretaceous_variant_39_3">So gradili koralne grebene</string>
+    <string name="cretaceous_variant_39_4">Preživeli so izumrtje na meji kreda–paleogen</string>
+
+    <string name="cretaceous_question_40">Kateri dinozaver je v filmih pogosto prikazan kot velik, a je bil v resnici velikosti purana?</string>
+    <string name="cretaceous_variant_40_1">Velociraptor</string>
+    <string name="cretaceous_variant_40_2">Tiranozaver</string>
+    <string name="cretaceous_variant_40_3">Spinozaver</string>
+    <string name="cretaceous_variant_40_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_41">S čim se je večinoma prehranjeval spinozaver?</string>
+    <string name="cretaceous_variant_41_1">Z ribami</string>
+    <string name="cretaceous_variant_41_2">Z insekti</string>
+    <string name="cretaceous_variant_41_3">Z majhnimi sesalci</string>
+    <string name="cretaceous_variant_41_4">Z letečimi plazilci</string>
+
+    <string name="cretaceous_question_42">Kateri dinozaver je živel na območju današnje Argentine in je bil po velikosti primerljiv s tiranozavrom?</string>
+    <string name="cretaceous_variant_42_1">Giganotozaver</string>
+    <string name="cretaceous_variant_42_2">Cintaozaver</string>
+    <string name="cretaceous_variant_42_3">Deinoher</string>
+    <string name="cretaceous_variant_42_4">Linhenikus</string>
+
     <!--     BREAK      -->
 
     <string name="paleogene_question_1">Kdaj se je začel paleogen?</string>
