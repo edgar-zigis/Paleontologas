@@ -2954,6 +2954,96 @@
     <string name="paleogene_variant_18_3">Quaternary</string>
     <string name="paleogene_variant_18_4">Permian</string>
 
+    <string name="paleogene_question_19">Which epochs are part of the Paleogene period?</string>
+    <string name="paleogene_variant_19_1">Paleocene, Eocene, Oligocene</string>
+    <string name="paleogene_variant_19_2">Jurassic, Cretaceous, Paleocene</string>
+    <string name="paleogene_variant_19_3">Triassic, Jurassic, Cretaceous</string>
+    <string name="paleogene_variant_19_4">Miocene, Pliocene, Holocene</string>
+
+    <string name="paleogene_question_20">What event marked the beginning of the Eocene epoch?</string>
+    <string name="paleogene_variant_20_1">The Paleocene–Eocene Thermal Maximum (PETM)</string>
+    <string name="paleogene_variant_20_2">The extinction of the dinosaurs</string>
+    <string name="paleogene_variant_20_3">The formation of the Himalayas</string>
+    <string name="paleogene_variant_20_4">The Ice Age</string>
+
+    <string name="paleogene_question_21">What likely caused the Paleocene–Eocene Thermal Maximum?</string>
+    <string name="paleogene_variant_21_1">Release of methane from seafloor and volcanic activity</string>
+    <string name="paleogene_variant_21_2">Solar flares and asteroid impacts</string>
+    <string name="paleogene_variant_21_3">Global cooling from volcanic ash</string>
+    <string name="paleogene_variant_21_4">Tectonic collision of continents</string>
+
+    <string name="paleogene_question_22">Which modern animal groups first appeared or diversified during the Paleogene?</string>
+    <string name="paleogene_variant_22_1">Primates, ungulates, and cetaceans</string>
+    <string name="paleogene_variant_22_2">Dinosaurs and trilobites</string>
+    <string name="paleogene_variant_22_3">Sharks and insects</string>
+    <string name="paleogene_variant_22_4">Marsupials and reptiles</string>
+
+    <string name="paleogene_question_23">What adaptation helped early mammals survive the Paleogene climate changes?</string>
+    <string name="paleogene_variant_23_1">Migration and body-size reduction</string>
+    <string name="paleogene_variant_23_2">Hibernation and scale development</string>
+    <string name="paleogene_variant_23_3">Underwater nesting and egg-laying</string>
+    <string name="paleogene_variant_23_4">Camouflage and venom glands</string>
+
+    <string name="paleogene_question_24">What is significant about Titanoboa?</string>
+    <string name="paleogene_variant_24_1">It is the largest known snake in Earth\'s history</string>
+    <string name="paleogene_variant_24_2">It was a flying reptile from the Jurassic</string>
+    <string name="paleogene_variant_24_3">It was the last surviving dinosaur</string>
+    <string name="paleogene_variant_24_4">It lived in the Arctic tundra</string>
+
+    <string name="paleogene_question_25">What did Gastornis likely eat?</string>
+    <string name="paleogene_variant_25_1">Tough vegetation, seeds, and fruits</string>
+    <string name="paleogene_variant_25_2">Fish and small reptiles</string>
+    <string name="paleogene_variant_25_3">Insects and nectar</string>
+    <string name="paleogene_variant_25_4">Large mammals</string>
+
+    <string name="paleogene_question_26">What evolutionary feature did Basilosaurus retain from land-dwelling ancestors?</string>
+    <string name="paleogene_variant_26_1">Small hind limbs</string>
+    <string name="paleogene_variant_26_2">Feathers</string>
+    <string name="paleogene_variant_26_3">External ears</string>
+    <string name="paleogene_variant_26_4">Functional legs for walking</string>
+
+    <string name="paleogene_question_27">Which of the following describes Paraceratherium?</string>
+    <string name="paleogene_variant_27_1">One of the largest terrestrial mammals ever</string>
+    <string name="paleogene_variant_27_2">The first flying mammal</string>
+    <string name="paleogene_variant_27_3">A meat-eating ancestor of cats</string>
+    <string name="paleogene_variant_27_4">A prehistoric insect</string>
+
+    <string name="paleogene_question_28">To which family did Daeodon belong?</string>
+    <string name="paleogene_variant_28_1">Entelodonts</string>
+    <string name="paleogene_variant_28_2">Cervids</string>
+    <string name="paleogene_variant_28_3">Canids</string>
+    <string name="paleogene_variant_28_4">Bovids</string>
+
+    <string name="paleogene_question_29">What distinguished Pyrotherium from true ungulates?</string>
+    <string name="paleogene_variant_29_1">It was part of a unique South American lineage</string>
+    <string name="paleogene_variant_29_2">It laid eggs</string>
+    <string name="paleogene_variant_29_3">It had feathers and wings</string>
+    <string name="paleogene_variant_29_4">It was carnivorous</string>
+
+    <string name="paleogene_question_30">What was the likely diet of Archaeotherium?</string>
+    <string name="paleogene_variant_30_1">Omnivorous—plants, carrion, and small animals</string>
+    <string name="paleogene_variant_30_2">Exclusively fish</string>
+    <string name="paleogene_variant_30_3">Only tree bark</string>
+    <string name="paleogene_variant_30_4">Insects and fungi</string>
+
+    <string name="paleogene_question_31">What physical feature made Arsinoitherium distinct?</string>
+    <string name="paleogene_variant_31_1">A pair of large, curved horns on its snout</string>
+    <string name="paleogene_variant_31_2">A shell like a turtle</string>
+    <string name="paleogene_variant_31_3">Wings instead of forelimbs</string>
+    <string name="paleogene_variant_31_4">Feathers on its back</string>
+
+    <string name="paleogene_question_32">What climate trend occurred throughout the Paleogene period?</string>
+    <string name="paleogene_variant_32_1">Gradual cooling and drying</string>
+    <string name="paleogene_variant_32_2">Permanent global ice cover</string>
+    <string name="paleogene_variant_32_3">Constant extreme warming</string>
+    <string name="paleogene_variant_32_4">Sudden oxygen drop</string>
+
+    <string name="paleogene_question_33">What major oceanic current began forming during the Paleogene?</string>
+    <string name="paleogene_variant_33_1">Antarctic Circumpolar Current</string>
+    <string name="paleogene_variant_33_2">Gulf Stream</string>
+    <string name="paleogene_variant_33_3">El Niño Current</string>
+    <string name="paleogene_variant_33_4">Pacific Equatorial Current</string>
+
     <!--     BREAK      -->
 
     <string name="neogene_question_1">When the Neogene began?</string>
