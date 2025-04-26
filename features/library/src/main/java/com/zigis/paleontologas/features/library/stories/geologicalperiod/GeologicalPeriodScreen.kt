@@ -3,6 +3,8 @@ package com.zigis.paleontologas.features.library.stories.geologicalperiod
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,8 +23,16 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -202,18 +212,62 @@ private fun GeologicalPeriodScreenUiImplementation(
                 )
 
                 if (viewState.map.isNotBlank()) {
+                    var mapScale by remember { mutableFloatStateOf(1f) }
+                    var mapOffset by remember { mutableStateOf(Offset.Zero) }
+
+                    val minMapScale = 1f
+                    val maxMapScale = 3f
+
                     Box(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(4.dp)
                     ) {
-                        Image(
-                            painterResource(id = context.getDrawableId(viewState.map)),
-                            contentDescription = "LifeForm image",
-                            contentScale = ContentScale.Crop,
+                        Box(
                             modifier = Modifier
                                 .fillMaxWidth()
-                        )
+                                .padding(4.dp)
+                                .clipToBounds()
+                                .pointerInput(Unit) {
+                                    detectTransformGestures { _, pan, zoom, _ ->
+                                        val newScale = (mapScale * zoom).coerceIn(minMapScale, maxMapScale)
+
+                                        val maxX = (newScale - 1f) * size.width / 2
+                                        val maxY = (newScale - 1f) * size.height / 2
+
+                                        val newOffset = Offset(
+                                            x = (mapOffset.x + pan.x).coerceIn(-maxX, maxX),
+                                            y = (mapOffset.y + pan.y).coerceIn(-maxY, maxY)
+                                        )
+
+                                        mapScale = newScale
+                                        mapOffset = newOffset
+                                    }
+                                }
+                                .pointerInput(Unit) {
+                                    detectTapGestures(
+                                        onDoubleTap = {
+                                            val newScale = (mapScale * 2f).coerceIn(minMapScale, maxMapScale)
+                                            mapScale = newScale
+                                            mapOffset = Offset.Zero
+                                        }
+                                    )
+                                }
+                        ) {
+                            Image(
+                                painter = painterResource(id = context.getDrawableId(viewState.map)),
+                                contentDescription = "LifeForm image",
+                                contentScale = ContentScale.Crop,
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .graphicsLayer(
+                                        scaleX = mapScale,
+                                        scaleY = mapScale,
+                                        translationX = mapOffset.x,
+                                        translationY = mapOffset.y
+                                    )
+                            )
+                        }
 
                         Text(
                             text = when (viewState.periodId) {
