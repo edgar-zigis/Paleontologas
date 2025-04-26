@@ -3206,6 +3206,96 @@
     <string name="neogene_variant_20_3">kvartar</string>
     <string name="neogene_variant_20_4">jura</string>
 
+    <string name="neogene_question_21">Kateri dve epohi sestavljata neogen?</string>
+    <string name="neogene_variant_21_1">Miocen in pliocen</string>
+    <string name="neogene_variant_21_2">Paleocen in eocen</string>
+    <string name="neogene_variant_21_3">Jura in kreda</string>
+    <string name="neogene_variant_21_4">Trias in perm</string>
+
+    <string name="neogene_question_22">Katera kopenska povezava je nastala med neogenom in spremenila oceanske tokove?</string>
+    <string name="neogene_variant_22_1">Panamska ožina</string>
+    <string name="neogene_variant_22_2">Beringova kopenska brv</string>
+    <string name="neogene_variant_22_3">Sueški prekop</string>
+    <string name="neogene_variant_22_4">Srednjeatlantski hrbet</string>
+
+    <string name="neogene_question_23">Katera vrsta vegetacije se je med neogenom močno razširila?</string>
+    <string name="neogene_variant_23_1">Travniki in stepe</string>
+    <string name="neogene_variant_23_2">Mangrovski gozdovi</string>
+    <string name="neogene_variant_23_3">Tropske deževne gozdove</string>
+    <string name="neogene_variant_23_4">Iglasti gozdovi</string>
+
+    <string name="neogene_question_24">Kateri zgodnji človeški prednik je živel v Afriki v času neogena?</string>
+    <string name="neogene_variant_24_1">Ardipithecus</string>
+    <string name="neogene_variant_24_2">Australopithecus</string>
+    <string name="neogene_variant_24_3">Neandertalec</string>
+    <string name="neogene_variant_24_4">Homo erectus</string>
+
+    <string name="neogene_question_25">Katera velika neleteča ptica je bila vrhunski plenilec v Severni Ameriki med neogenom?</string>
+    <string name="neogene_variant_25_1">Titanis walleri</string>
+    <string name="neogene_variant_25_2">Dodo</string>
+    <string name="neogene_variant_25_3">Gastornis</string>
+    <string name="neogene_variant_25_4">Harpagornis</string>
+
+    <string name="neogene_question_26">Kaj je verjetno povzročilo izumrtje megalodona?</string>
+    <string name="neogene_variant_26_1">Ohlajanje oceanov, pomanjkanje hrane in ekološke spremembe</string>
+    <string name="neogene_variant_26_2">Vulkanski izbruhi</string>
+    <string name="neogene_variant_26_3">Udarec meteorita</string>
+    <string name="neogene_variant_26_4">Velike poplave s sladko vodo</string>
+
+    <string name="neogene_question_27">Po čem se je Livyatan razlikoval od sodobnih kitov glavačev?</string>
+    <string name="neogene_variant_27_1">Imel je velike funkcionalne zobe v obeh čeljustih</string>
+    <string name="neogene_variant_27_2">Bil je rastlinojed</string>
+    <string name="neogene_variant_27_3">Namesto zob je imel filter plošče</string>
+    <string name="neogene_variant_27_4">Ni mogel preplavati dolgih razdalj</string>
+
+    <string name="neogene_question_28">Kje so našli fosile Deinotheriuma?</string>
+    <string name="neogene_variant_28_1">V Afriki, Evropi in Aziji</string>
+    <string name="neogene_variant_28_2">Samo na Antarktiki</string>
+    <string name="neogene_variant_28_3">Samo v Severni Ameriki</string>
+    <string name="neogene_variant_28_4">V Avstraliji in Južni Ameriki</string>
+
+    <string name="neogene_question_29">Kako visok je lahko zrasel Deinotherium?</string>
+    <string name="neogene_variant_29_1">Do 4 metre</string>
+    <string name="neogene_variant_29_2">1,5 metra</string>
+    <string name="neogene_variant_29_3">10 metrov</string>
+    <string name="neogene_variant_29_4">2 metra</string>
+
+    <string name="neogene_question_30">Katera telesna značilnost je bila najbolj značilna za Platybelodona?</string>
+    <string name="neogene_variant_30_1">Spodnja čeljust v obliki lopate z zglajenimi kljovami</string>
+    <string name="neogene_variant_30_2">Dolga repa in ostri kremplji</string>
+    <string name="neogene_variant_30_3">Filter plošče namesto zob</string>
+    <string name="neogene_variant_30_4">Kostna grba s rogovi</string>
+
+    <string name="neogene_question_31">V kakšnem okolju je živel Platybelodon?</string>
+    <string name="neogene_variant_31_1">V vlažnih gozdovih ob rekah in močvirjih</string>
+    <string name="neogene_variant_31_2">V visokogorskih območjih</string>
+    <string name="neogene_variant_31_3">Na odprtih puščavah</string>
+    <string name="neogene_variant_31_4">Na tundrah s permafrostom</string>
+
+    <string name="neogene_question_32">Koliko kljov je imel Stegotetrabelodon?</string>
+    <string name="neogene_variant_32_1">Štiri</string>
+    <string name="neogene_variant_32_2">Dve</string>
+    <string name="neogene_variant_32_3">Šest</string>
+    <string name="neogene_variant_32_4">Nobene</string>
+
+    <string name="neogene_question_33">Kateri geološki dogodek je omogočil Titanisu walleriju prihod v Severno Ameriko?</string>
+    <string name="neogene_variant_33_1">Nastanek Panamske ožine</string>
+    <string name="neogene_variant_33_2">Razpad Pangee</string>
+    <string name="neogene_variant_33_3">Zaprtje Sredozemskega morja</string>
+    <string name="neogene_variant_33_4">Dvignitev morske gladine</string>
+
+    <string name="neogene_question_34">Kakšna žival je bil Argentavis?</string>
+    <string name="neogene_variant_34_1">Ena največjih letečih ptic v zgodovini</string>
+    <string name="neogene_variant_34_2">Pra-pingvin</string>
+    <string name="neogene_variant_34_3">Ogromen vodni plazilec</string>
+    <string name="neogene_variant_34_4">Leteči sesalec</string>
+
+    <string name="neogene_question_35">Kaj je omogočilo Argentavisu prelet dolgih razdalj?</string>
+    <string name="neogene_variant_35_1">Toplotni zračni tokovi in ogromna razpetina kril</string>
+    <string name="neogene_variant_35_2">Hitro plapolanje s krili kot pri kolibriju</string>
+    <string name="neogene_variant_35_3">Reaktivni pogonski organi</string>
+    <string name="neogene_variant_35_4">Močne zadnje noge za odriv</string>
+
     <!--     BREAK      -->
 
     <string name="quaternary_question_1">Kdaj se je začel kvartar?</string>
