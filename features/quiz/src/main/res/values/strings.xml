@@ -3186,6 +3186,96 @@
     <string name="neogene_variant_20_3">Quaternary</string>
     <string name="neogene_variant_20_4">Jurassic</string>
 
+    <string name="neogene_question_21">Which two epochs make up the Neogene period?</string>
+    <string name="neogene_variant_21_1">Miocene and Pliocene</string>
+    <string name="neogene_variant_21_2">Paleocene and Eocene</string>
+    <string name="neogene_variant_21_3">Jurassic and Cretaceous</string>
+    <string name="neogene_variant_21_4">Triassic and Permian</string>
+
+    <string name="neogene_question_22">What major land connection formed during the Neogene, altering ocean currents?</string>
+    <string name="neogene_variant_22_1">Isthmus of Panama</string>
+    <string name="neogene_variant_22_2">Bering Land Bridge</string>
+    <string name="neogene_variant_22_3">Suez Canal</string>
+    <string name="neogene_variant_22_4">Mid-Atlantic Ridge</string>
+
+    <string name="neogene_question_23">What kind of vegetation expanded dramatically during the Neogene?</string>
+    <string name="neogene_variant_23_1">Grasslands</string>
+    <string name="neogene_variant_23_2">Mangrove forests</string>
+    <string name="neogene_variant_23_3">Rainforests</string>
+    <string name="neogene_variant_23_4">Coniferous forests</string>
+
+    <string name="neogene_question_24">Which early human ancestor lived in Africa during the Neogene?</string>
+    <string name="neogene_variant_24_1">Ardipithecus</string>
+    <string name="neogene_variant_24_2">Australopithecus</string>
+    <string name="neogene_variant_24_3">Neanderthal</string>
+    <string name="neogene_variant_24_4">Homo erectus</string>
+
+    <string name="neogene_question_25">Which extinct giant bird was a top predator in North America during the Neogene?</string>
+    <string name="neogene_variant_25_1">Titanis walleri</string>
+    <string name="neogene_variant_25_2">Dodo</string>
+    <string name="neogene_variant_25_3">Gastornis</string>
+    <string name="neogene_variant_25_4">Harpagornis</string>
+
+    <string name="neogene_question_26">What caused Megalodon\'s extinction?</string>
+    <string name="neogene_variant_26_1">Cooling oceans, food scarcity, and ecological changes</string>
+    <string name="neogene_variant_26_2">Volcanic eruptions</string>
+    <string name="neogene_variant_26_3">A meteor impact</string>
+    <string name="neogene_variant_26_4">Massive freshwater flooding</string>
+
+    <string name="neogene_question_27">What feature made Livyatan different from modern sperm whales?</string>
+    <string name="neogene_variant_27_1">It had massive functional teeth in both jaws</string>
+    <string name="neogene_variant_27_2">It was herbivorous</string>
+    <string name="neogene_variant_27_3">It had baleen plates</string>
+    <string name="neogene_variant_27_4">It could not swim long distances</string>
+
+    <string name="neogene_question_28">Where have Deinotherium fossils been found?</string>
+    <string name="neogene_variant_28_1">Africa, Europe, and Asia</string>
+    <string name="neogene_variant_28_2">Only in Antarctica</string>
+    <string name="neogene_variant_28_3">Only in North America</string>
+    <string name="neogene_variant_28_4">Australia and South America</string>
+
+    <string name="neogene_question_29">How tall could Deinotherium grow?</string>
+    <string name="neogene_variant_29_1">Up to 4 meters</string>
+    <string name="neogene_variant_29_2">1.5 meters</string>
+    <string name="neogene_variant_29_3">10 meters</string>
+    <string name="neogene_variant_29_4">2 meters</string>
+
+    <string name="neogene_question_30">What was Platybelodon’s most distinctive physical trait?</string>
+    <string name="neogene_variant_30_1">Its shovel-shaped lower jaw and flat tusks</string>
+    <string name="neogene_variant_30_2">A long tail and sharp claws</string>
+    <string name="neogene_variant_30_3">Baleen filters instead of teeth</string>
+    <string name="neogene_variant_30_4">A horned skull crest</string>
+
+    <string name="neogene_question_31">What kind of environment did Platybelodon prefer?</string>
+    <string name="neogene_variant_31_1">Wet, forested areas near rivers and swamps</string>
+    <string name="neogene_variant_31_2">High mountain regions</string>
+    <string name="neogene_variant_31_3">Open desert dunes</string>
+    <string name="neogene_variant_31_4">Tundra and permafrost zones</string>
+
+    <string name="neogene_question_32">How many tusks did Stegotetrabelodon have?</string>
+    <string name="neogene_variant_32_1">Four</string>
+    <string name="neogene_variant_32_2">Two</string>
+    <string name="neogene_variant_32_3">Six</string>
+    <string name="neogene_variant_32_4">None</string>
+
+    <string name="neogene_question_33">What geological event allowed Titanis walleri to reach North America?</string>
+    <string name="neogene_variant_33_1">The formation of the Isthmus of Panama</string>
+    <string name="neogene_variant_33_2">The breakup of Pangaea</string>
+    <string name="neogene_variant_33_3">The closing of the Mediterranean Sea</string>
+    <string name="neogene_variant_33_4">A rise in sea levels</string>
+
+    <string name="neogene_question_34">What type of animal was Argentavis?</string>
+    <string name="neogene_variant_34_1">One of the largest flying birds in history</string>
+    <string name="neogene_variant_34_2">A prehistoric penguin</string>
+    <string name="neogene_variant_34_3">A giant aquatic reptile</string>
+    <string name="neogene_variant_34_4">A gliding mammal</string>
+
+    <string name="neogene_question_35">What allowed Argentavis to soar for long distances?</string>
+    <string name="neogene_variant_35_1">Thermal air currents and large wingspan</string>
+    <string name="neogene_variant_35_2">Flapping flight like a hummingbird</string>
+    <string name="neogene_variant_35_3">Powered jet-like organs</string>
+    <string name="neogene_variant_35_4">Strong hind limbs for leaping</string>
+
     <!--     BREAK      -->
 
     <string name="quaternary_question_1">When the Quaternary began?</string>
