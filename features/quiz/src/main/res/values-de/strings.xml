@@ -3205,6 +3205,96 @@
     <string name="neogene_variant_20_3">Quartär</string>
     <string name="neogene_variant_20_4">Jura</string>
 
+    <string name="neogene_question_21">Aus welchen zwei Epochen besteht das Neogen?</string>
+    <string name="neogene_variant_21_1">Miozän und Pliozän</string>
+    <string name="neogene_variant_21_2">Paläozän und Eozän</string>
+    <string name="neogene_variant_21_3">Jura und Kreide</string>
+    <string name="neogene_variant_21_4">Trias und Perm</string>
+
+    <string name="neogene_question_22">Welche Landverbindung bildete sich im Neogen und veränderte die Meeresströmungen?</string>
+    <string name="neogene_variant_22_1">Isthmus von Panama</string>
+    <string name="neogene_variant_22_2">Bering-Landbrücke</string>
+    <string name="neogene_variant_22_3">Sueskanal</string>
+    <string name="neogene_variant_22_4">Mittelatlantischer Rücken</string>
+
+    <string name="neogene_question_23">Welche Art von Vegetation breitete sich im Neogen stark aus?</string>
+    <string name="neogene_variant_23_1">Graslandschaften</string>
+    <string name="neogene_variant_23_2">Mangrovenwälder</string>
+    <string name="neogene_variant_23_3">Regenwälder</string>
+    <string name="neogene_variant_23_4">Nadelwälder</string>
+
+    <string name="neogene_question_24">Welcher frühe menschliche Vorfahre lebte während des Neogens in Afrika?</string>
+    <string name="neogene_variant_24_1">Ardipithecus</string>
+    <string name="neogene_variant_24_2">Australopithecus</string>
+    <string name="neogene_variant_24_3">Neandertaler</string>
+    <string name="neogene_variant_24_4">Homo erectus</string>
+
+    <string name="neogene_question_25">Welcher riesige, flugunfähige Vogel war im Neogen ein Spitzenprädator in Nordamerika?</string>
+    <string name="neogene_variant_25_1">Titanis walleri</string>
+    <string name="neogene_variant_25_2">Dodo</string>
+    <string name="neogene_variant_25_3">Gastornis</string>
+    <string name="neogene_variant_25_4">Harpagornis</string>
+
+    <string name="neogene_question_26">Was führte wahrscheinlich zum Aussterben des Megalodon?</string>
+    <string name="neogene_variant_26_1">Abkühlung der Ozeane, Nahrungsmangel und ökologische Veränderungen</string>
+    <string name="neogene_variant_26_2">Vulkanausbrüche</string>
+    <string name="neogene_variant_26_3">Ein Meteoriteneinschlag</string>
+    <string name="neogene_variant_26_4">Massive Überschwemmungen mit Süßwasser</string>
+
+    <string name="neogene_question_27">Was unterschied Livyatan von heutigen Pottwalen?</string>
+    <string name="neogene_variant_27_1">Er hatte große, funktionale Zähne in beiden Kiefern</string>
+    <string name="neogene_variant_27_2">Er war pflanzenfressend</string>
+    <string name="neogene_variant_27_3">Er hatte Barten statt Zähnen</string>
+    <string name="neogene_variant_27_4">Er konnte keine weiten Strecken schwimmen</string>
+
+    <string name="neogene_question_28">Wo wurden Fossilien von Deinotherium gefunden?</string>
+    <string name="neogene_variant_28_1">In Afrika, Europa und Asien</string>
+    <string name="neogene_variant_28_2">Nur in der Antarktis</string>
+    <string name="neogene_variant_28_3">Nur in Nordamerika</string>
+    <string name="neogene_variant_28_4">In Australien und Südamerika</string>
+
+    <string name="neogene_question_29">Wie groß konnte Deinotherium werden?</string>
+    <string name="neogene_variant_29_1">Bis zu 4 Meter hoch</string>
+    <string name="neogene_variant_29_2">1,5 Meter</string>
+    <string name="neogene_variant_29_3">10 Meter</string>
+    <string name="neogene_variant_29_4">2 Meter</string>
+
+    <string name="neogene_question_30">Welches Merkmal war bei Platybelodon besonders auffällig?</string>
+    <string name="neogene_variant_30_1">Sein schaufelartiger Unterkiefer mit flachen Stoßzähnen</string>
+    <string name="neogene_variant_30_2">Ein langer Schwanz und scharfe Krallen</string>
+    <string name="neogene_variant_30_3">Barten statt Zähne</string>
+    <string name="neogene_variant_30_4">Ein Schädelkamm mit Hörnern</string>
+
+    <string name="neogene_question_31">In welcher Umgebung lebte Platybelodon bevorzugt?</string>
+    <string name="neogene_variant_31_1">In feuchten, bewaldeten Gebieten nahe Flüssen und Sümpfen</string>
+    <string name="neogene_variant_31_2">In Hochgebirgen</string>
+    <string name="neogene_variant_31_3">In offenen Wüsten</string>
+    <string name="neogene_variant_31_4">In Tundren mit Permafrost</string>
+
+    <string name="neogene_question_32">Wie viele Stoßzähne hatte Stegotetrabelodon?</string>
+    <string name="neogene_variant_32_1">Vier</string>
+    <string name="neogene_variant_32_2">Zwei</string>
+    <string name="neogene_variant_32_3">Sechs</string>
+    <string name="neogene_variant_32_4">Keine</string>
+
+    <string name="neogene_question_33">Welches geologische Ereignis ermöglichte Titanis walleri die Ausbreitung nach Nordamerika?</string>
+    <string name="neogene_variant_33_1">Die Entstehung des Isthmus von Panama</string>
+    <string name="neogene_variant_33_2">Die Aufspaltung von Pangäa</string>
+    <string name="neogene_variant_33_3">Die Schließung des Mittelmeers</string>
+    <string name="neogene_variant_33_4">Ein Anstieg des Meeresspiegels</string>
+
+    <string name="neogene_question_34">Was für ein Tier war Argentavis?</string>
+    <string name="neogene_variant_34_1">Einer der größten flugfähigen Vögel der Geschichte</string>
+    <string name="neogene_variant_34_2">Ein prähistorischer Pinguin</string>
+    <string name="neogene_variant_34_3">Ein riesiges aquatisches Reptil</string>
+    <string name="neogene_variant_34_4">Ein gleitendes Säugetier</string>
+
+    <string name="neogene_question_35">Was ermöglichte es Argentavis, große Entfernungen zu fliegen?</string>
+    <string name="neogene_variant_35_1">Thermik und eine enorme Flügelspannweite</string>
+    <string name="neogene_variant_35_2">Flatterflug wie ein Kolibri</string>
+    <string name="neogene_variant_35_3">Düsenartige Flugorgane</string>
+    <string name="neogene_variant_35_4">Starke Hinterbeine zum Absprung</string>
+
     <!--     BREAK      -->
 
     <string name="quaternary_question_1">Wann begann das Quartär?</string>

@@ -3205,6 +3205,96 @@
     <string name="neogene_variant_20_3">Cuaternario </string>
     <string name="neogene_variant_20_4">Jurásico </string>
 
+    <string name="neogene_question_21">¿Cuáles son las dos épocas que conforman el Neógeno?</string>
+    <string name="neogene_variant_21_1">Mioceno y Plioceno</string>
+    <string name="neogene_variant_21_2">Paleoceno y Eoceno</string>
+    <string name="neogene_variant_21_3">Jurásico y Cretácico</string>
+    <string name="neogene_variant_21_4">Triásico y Pérmico</string>
+
+    <string name="neogene_question_22">¿Qué conexión terrestre se formó durante el Neógeno y alteró las corrientes oceánicas?</string>
+    <string name="neogene_variant_22_1">Istmo de Panamá</string>
+    <string name="neogene_variant_22_2">Puente de Beringia</string>
+    <string name="neogene_variant_22_3">Canal de Suez</string>
+    <string name="neogene_variant_22_4">Dorsal Mesoatlántica</string>
+
+    <string name="neogene_question_23">¿Qué tipo de vegetación se expandió significativamente durante el Neógeno?</string>
+    <string name="neogene_variant_23_1">Pastizales</string>
+    <string name="neogene_variant_23_2">Bosques de manglares</string>
+    <string name="neogene_variant_23_3">Selvas tropicales</string>
+    <string name="neogene_variant_23_4">Bosques de coníferas</string>
+
+    <string name="neogene_question_24">¿Qué antepasado humano temprano vivió en África durante el Neógeno?</string>
+    <string name="neogene_variant_24_1">Ardipithecus</string>
+    <string name="neogene_variant_24_2">Australopithecus</string>
+    <string name="neogene_variant_24_3">Neandertal</string>
+    <string name="neogene_variant_24_4">Homo erectus</string>
+
+    <string name="neogene_question_25">¿Qué ave gigante no voladora fue un depredador dominante en América del Norte durante el Neógeno?</string>
+    <string name="neogene_variant_25_1">Titanis walleri</string>
+    <string name="neogene_variant_25_2">Dodo</string>
+    <string name="neogene_variant_25_3">Gastornis</string>
+    <string name="neogene_variant_25_4">Harpagornis</string>
+
+    <string name="neogene_question_26">¿Qué causó probablemente la extinción del megalodón?</string>
+    <string name="neogene_variant_26_1">Enfriamiento oceánico, escasez de alimento y cambios ecológicos</string>
+    <string name="neogene_variant_26_2">Erupciones volcánicas</string>
+    <string name="neogene_variant_26_3">Impacto de un meteorito</string>
+    <string name="neogene_variant_26_4">Inundaciones masivas de agua dulce</string>
+
+    <string name="neogene_question_27">¿Qué diferenciaba a Livyatan de los cachalotes modernos?</string>
+    <string name="neogene_variant_27_1">Tenía enormes dientes funcionales en ambas mandíbulas</string>
+    <string name="neogene_variant_27_2">Era herbívoro</string>
+    <string name="neogene_variant_27_3">Tenía barbas en lugar de dientes</string>
+    <string name="neogene_variant_27_4">No podía nadar largas distancias</string>
+
+    <string name="neogene_question_28">¿Dónde se han encontrado fósiles de Deinotherium?</string>
+    <string name="neogene_variant_28_1">En África, Europa y Asia</string>
+    <string name="neogene_variant_28_2">Solo en la Antártida</string>
+    <string name="neogene_variant_28_3">Solo en América del Norte</string>
+    <string name="neogene_variant_28_4">En Australia y América del Sur</string>
+
+    <string name="neogene_question_29">¿Qué altura podía alcanzar el Deinotherium?</string>
+    <string name="neogene_variant_29_1">Hasta 4 metros</string>
+    <string name="neogene_variant_29_2">1,5 metros</string>
+    <string name="neogene_variant_29_3">10 metros</string>
+    <string name="neogene_variant_29_4">2 metros</string>
+
+    <string name="neogene_question_30">¿Cuál era la característica más distintiva de Platybelodon?</string>
+    <string name="neogene_variant_30_1">Su mandíbula inferior en forma de pala con colmillos planos</string>
+    <string name="neogene_variant_30_2">Una cola larga y garras afiladas</string>
+    <string name="neogene_variant_30_3">Barbas en lugar de dientes</string>
+    <string name="neogene_variant_30_4">Una cresta ósea con cuernos</string>
+
+    <string name="neogene_question_31">¿En qué tipo de entorno vivía Platybelodon?</string>
+    <string name="neogene_variant_31_1">En zonas boscosas y húmedas cerca de ríos y pantanos</string>
+    <string name="neogene_variant_31_2">En regiones montañosas altas</string>
+    <string name="neogene_variant_31_3">En desiertos abiertos</string>
+    <string name="neogene_variant_31_4">En tundras con permafrost</string>
+
+    <string name="neogene_question_32">¿Cuántos colmillos tenía Stegotetrabelodon?</string>
+    <string name="neogene_variant_32_1">Cuatro</string>
+    <string name="neogene_variant_32_2">Dos</string>
+    <string name="neogene_variant_32_3">Seis</string>
+    <string name="neogene_variant_32_4">Ninguno</string>
+
+    <string name="neogene_question_33">¿Qué evento geológico permitió a Titanis walleri llegar a América del Norte?</string>
+    <string name="neogene_variant_33_1">La formación del Istmo de Panamá</string>
+    <string name="neogene_variant_33_2">La fragmentación de Pangea</string>
+    <string name="neogene_variant_33_3">El cierre del mar Mediterráneo</string>
+    <string name="neogene_variant_33_4">Un aumento del nivel del mar</string>
+
+    <string name="neogene_question_34">¿Qué tipo de animal era Argentavis?</string>
+    <string name="neogene_variant_34_1">Una de las aves voladoras más grandes de la historia</string>
+    <string name="neogene_variant_34_2">Un pingüino prehistórico</string>
+    <string name="neogene_variant_34_3">Un gran reptil acuático</string>
+    <string name="neogene_variant_34_4">Un mamífero planeador</string>
+
+    <string name="neogene_question_35">¿Qué le permitía a Argentavis volar grandes distancias?</string>
+    <string name="neogene_variant_35_1">Corrientes térmicas y una gran envergadura</string>
+    <string name="neogene_variant_35_2">Aleteo rápido como un colibrí</string>
+    <string name="neogene_variant_35_3">Órganos propulsores similares a chorros</string>
+    <string name="neogene_variant_35_4">Patas traseras fuertes para impulsarse</string>
+
     <!--     BREAK      -->
 
     <string name="quaternary_question_1">¿Hace cuánto tiempo comenzó el Cuaternario? </string>
