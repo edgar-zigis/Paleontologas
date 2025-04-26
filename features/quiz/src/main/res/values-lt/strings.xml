@@ -2974,6 +2974,96 @@
     <string name="paleogene_variant_18_3">kvartere</string>
     <string name="paleogene_variant_18_4">perme</string>
 
+    <string name="paleogene_question_19">Kokie laikotarpiai sudaro paleogeno periodą?</string>
+    <string name="paleogene_variant_19_1">Paleocenas, eocenas, oligocenas</string>
+    <string name="paleogene_variant_19_2">Jura, kreida, paleocenas</string>
+    <string name="paleogene_variant_19_3">Triasas, jura, kreida</string>
+    <string name="paleogene_variant_19_4">Miocenas, pliocenas, holocenas</string>
+
+    <string name="paleogene_question_20">Koks įvykis žymi eoceno pradžią?</string>
+    <string name="paleogene_variant_20_1">Paleoceno–eoceno terminis maksimumas (PETM)</string>
+    <string name="paleogene_variant_20_2">Dinozaurų išnykimas</string>
+    <string name="paleogene_variant_20_3">Himalajų susidarymas</string>
+    <string name="paleogene_variant_20_4">Ledo amžius</string>
+
+    <string name="paleogene_question_21">Kas, tikėtina, sukėlė paleoceno–eoceno terminį maksimumą?</string>
+    <string name="paleogene_variant_21_1">Metano išsiskyrimas iš jūros dugno ir vulkaninis aktyvumas</string>
+    <string name="paleogene_variant_21_2">Saulės žybsniai ir asteroidų smūgiai</string>
+    <string name="paleogene_variant_21_3">Pasaulinis atvėsimas dėl vulkaninių pelenų</string>
+    <string name="paleogene_variant_21_4">Tektoninių plokščių susidūrimas</string>
+
+    <string name="paleogene_question_22">Kokios šiuolaikinės gyvūnų grupės atsirado arba išsivystė paleogeno laikotarpiu?</string>
+    <string name="paleogene_variant_22_1">Primatai, kanopiniai ir banginiai</string>
+    <string name="paleogene_variant_22_2">Dinozaurai ir trilobitai</string>
+    <string name="paleogene_variant_22_3">Rykliai ir vabzdžiai</string>
+    <string name="paleogene_variant_22_4">Sterbliniai ir ropliai</string>
+
+    <string name="paleogene_question_23">Kokia prisitaikymo savybė padėjo ankstyviesiems žinduoliams išgyventi paleogeno klimato pokyčius?</string>
+    <string name="paleogene_variant_23_1">Migracija ir kūno dydžio sumažėjimas</string>
+    <string name="paleogene_variant_23_2">Žiemos miegas ir žvynų formavimasis</string>
+    <string name="paleogene_variant_23_3">Po vandeniu statomi lizdai ir kiaušinių dėjimas</string>
+    <string name="paleogene_variant_23_4">Maskuotė ir nuodingos liaukos</string>
+
+    <string name="paleogene_question_24">Kuo Titanoboa yra ypatinga?</string>
+    <string name="paleogene_variant_24_1">Tai didžiausia kada nors gyvenusi gyvatė Žemėje</string>
+    <string name="paleogene_variant_24_2">Tai buvo skraidantis roplys iš juros periodo</string>
+    <string name="paleogene_variant_24_3">Ji buvo paskutinis išgyvenęs dinozauras</string>
+    <string name="paleogene_variant_24_4">Ji gyveno Arkties tundroje</string>
+
+    <string name="paleogene_question_25">Kuo, tikėtina, maitinosi Gastornis?</string>
+    <string name="paleogene_variant_25_1">Kietais augalais, sėklomis ir vaisiais</string>
+    <string name="paleogene_variant_25_2">Žuvimis ir smulkiais ropliais</string>
+    <string name="paleogene_variant_25_3">Vabzdžiais ir nektaru</string>
+    <string name="paleogene_variant_25_4">Dideliais žinduoliais</string>
+
+    <string name="paleogene_question_26">Kokią evoliucinę savybę Basilosaurus išlaikė iš savo sausumos protėvių?</string>
+    <string name="paleogene_variant_26_1">Mažas galines galūnes</string>
+    <string name="paleogene_variant_26_2">Plunksnas</string>
+    <string name="paleogene_variant_26_3">Išorines ausis</string>
+    <string name="paleogene_variant_26_4">Veikiančias kojas vaikščiojimui</string>
+
+    <string name="paleogene_question_27">Kurį teiginį geriausiai apibūdina Paraceratherium?</string>
+    <string name="paleogene_variant_27_1">Vienas iš didžiausių sausumos žinduolių visoje istorijoje</string>
+    <string name="paleogene_variant_27_2">Pirmasis skraidantis žinduolis</string>
+    <string name="paleogene_variant_27_3">Mėsėdis kačių protėvis</string>
+    <string name="paleogene_variant_27_4">Priešistorinis vabzdys</string>
+
+    <string name="paleogene_question_28">Kuriai šeimai priklausė Daeodon?</string>
+    <string name="paleogene_variant_28_1">Entelodontų</string>
+    <string name="paleogene_variant_28_2">Elnių</string>
+    <string name="paleogene_variant_28_3">Šuninių</string>
+    <string name="paleogene_variant_28_4">Galvijų</string>
+
+    <string name="paleogene_question_29">Kas skyrė Pyrotherium nuo tikrųjų kanopinių?</string>
+    <string name="paleogene_variant_29_1">Jis priklausė unikaliam Pietų Amerikos vystymosi keliui</string>
+    <string name="paleogene_variant_29_2">Dėdavo kiaušinius</string>
+    <string name="paleogene_variant_29_3">Turėjo plunksnų ir sparnus</string>
+    <string name="paleogene_variant_29_4">Buvo mėsėdis</string>
+
+    <string name="paleogene_question_30">Kokia, tikėtina, buvo Archaeotherium mityba?</string>
+    <string name="paleogene_variant_30_1">Visaėdis – augalai, dvėsena ir maži gyvūnai</string>
+    <string name="paleogene_variant_30_2">Tik žuvys</string>
+    <string name="paleogene_variant_30_3">Tik medžių žievė</string>
+    <string name="paleogene_variant_30_4">Vabzdžiai ir grybai</string>
+
+    <string name="paleogene_question_31">Koks fizinis požymis išskyrė Arsinoitherium?</string>
+    <string name="paleogene_variant_31_1">Didelė, į priekį išlenktų ragų pora ant snukio</string>
+    <string name="paleogene_variant_31_2">Šarvas kaip vėžlio</string>
+    <string name="paleogene_variant_31_3">Sparnai vietoje priekinių galūnių</string>
+    <string name="paleogene_variant_31_4">Plunksnos ant nugaros</string>
+
+    <string name="paleogene_question_32">Kokia klimato tendencija vyravo paleogeno laikotarpiu?</string>
+    <string name="paleogene_variant_32_1">Laipsniškas vėsimas ir sausėjimas</string>
+    <string name="paleogene_variant_32_2">Nuolatinis pasaulinis apledėjimas</string>
+    <string name="paleogene_variant_32_3">Pastovus ekstremalus atšilimas</string>
+    <string name="paleogene_variant_32_4">Staigus deguonies sumažėjimas</string>
+
+    <string name="paleogene_question_33">Kokia didelė vandenyno srovė pradėjo formuotis paleogeno metu?</string>
+    <string name="paleogene_variant_33_1">Antarktinė cirkumpolinė srovė</string>
+    <string name="paleogene_variant_33_2">Golfo srovė</string>
+    <string name="paleogene_variant_33_3">El Ninjo srovė</string>
+    <string name="paleogene_variant_33_4">Ramiojo vandenyno pusiaujo srovė</string>
+
     <!--     BREAK      -->
 
     <string name="neogene_question_1">Kada prasidėjo neogenas?</string>

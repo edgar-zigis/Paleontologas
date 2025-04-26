@@ -2973,6 +2973,96 @@
     <string name="paleogene_variant_18_3">Quartär</string>
     <string name="paleogene_variant_18_4">Permian</string>
 
+    <string name="paleogene_question_19">Welche Epochen gehören zur Periode des Paläogens?</string>
+    <string name="paleogene_variant_19_1">Paläozän, Eozän, Oligozän</string>
+    <string name="paleogene_variant_19_2">Jura, Kreide, Paläozän</string>
+    <string name="paleogene_variant_19_3">Trias, Jura, Kreide</string>
+    <string name="paleogene_variant_19_4">Miozän, Pliozän, Holozän</string>
+
+    <string name="paleogene_question_20">Welches Ereignis markierte den Beginn des Eozäns?</string>
+    <string name="paleogene_variant_20_1">Das Paläozän–Eozän-Thermalmaximum (PETM)</string>
+    <string name="paleogene_variant_20_2">Das Aussterben der Dinosaurier</string>
+    <string name="paleogene_variant_20_3">Die Entstehung des Himalaya</string>
+    <string name="paleogene_variant_20_4">Die Eiszeit</string>
+
+    <string name="paleogene_question_21">Was war wahrscheinlich die Ursache für das Paläozän–Eozän-Thermalmaximum?</string>
+    <string name="paleogene_variant_21_1">Freisetzung von Methan aus dem Meeresboden und Vulkanaktivität</string>
+    <string name="paleogene_variant_21_2">Sonneneruptionen und Asteroideneinschläge</string>
+    <string name="paleogene_variant_21_3">Globale Abkühlung durch Vulkanasche</string>
+    <string name="paleogene_variant_21_4">Tektonische Kollision von Kontinenten</string>
+
+    <string name="paleogene_question_22">Welche modernen Tiergruppen traten während des Paläogens erstmals auf oder entwickelten sich stark weiter?</string>
+    <string name="paleogene_variant_22_1">Primaten, Huftiere und Wale</string>
+    <string name="paleogene_variant_22_2">Dinosaurier und Trilobiten</string>
+    <string name="paleogene_variant_22_3">Haie und Insekten</string>
+    <string name="paleogene_variant_22_4">Beuteltiere und Reptilien</string>
+
+    <string name="paleogene_question_23">Welche Anpassung half frühen Säugetieren, den Klimawandel im Paläogen zu überleben?</string>
+    <string name="paleogene_variant_23_1">Migration und Verkleinerung der Körpergröße</string>
+    <string name="paleogene_variant_23_2">Winterschlaf und Schuppenbildung</string>
+    <string name="paleogene_variant_23_3">Nestbau unter Wasser und Eiablage</string>
+    <string name="paleogene_variant_23_4">Tarnung und Giftdrüsen</string>
+
+    <string name="paleogene_question_24">Was ist das Besondere an Titanoboa?</string>
+    <string name="paleogene_variant_24_1">Sie ist die größte bekannte Schlange der Erdgeschichte</string>
+    <string name="paleogene_variant_24_2">Sie war ein fliegendes Reptil aus dem Jura</string>
+    <string name="paleogene_variant_24_3">Sie war der letzte überlebende Dinosaurier</string>
+    <string name="paleogene_variant_24_4">Sie lebte in der arktischen Tundra</string>
+
+    <string name="paleogene_question_25">Was fraß Gastornis wahrscheinlich?</string>
+    <string name="paleogene_variant_25_1">Harte Pflanzen, Samen und Früchte</string>
+    <string name="paleogene_variant_25_2">Fische und kleine Reptilien</string>
+    <string name="paleogene_variant_25_3">Insekten und Nektar</string>
+    <string name="paleogene_variant_25_4">Große Säugetiere</string>
+
+    <string name="paleogene_question_26">Welche evolutionäre Eigenschaft behielt Basilosaurus von seinen landlebenden Vorfahren?</string>
+    <string name="paleogene_variant_26_1">Kleine Hinterbeine</string>
+    <string name="paleogene_variant_26_2">Federn</string>
+    <string name="paleogene_variant_26_3">Äußere Ohren</string>
+    <string name="paleogene_variant_26_4">Funktionierende Beine zum Gehen</string>
+
+    <string name="paleogene_question_27">Welche Aussage beschreibt Paraceratherium am besten?</string>
+    <string name="paleogene_variant_27_1">Eines der größten landlebenden Säugetiere aller Zeiten</string>
+    <string name="paleogene_variant_27_2">Das erste fliegende Säugetier</string>
+    <string name="paleogene_variant_27_3">Ein fleischfressender Vorfahre der Katzen</string>
+    <string name="paleogene_variant_27_4">Ein prähistorisches Insekt</string>
+
+    <string name="paleogene_question_28">Zu welcher Familie gehörte Daeodon?</string>
+    <string name="paleogene_variant_28_1">Entelodonten</string>
+    <string name="paleogene_variant_28_2">Hirsche</string>
+    <string name="paleogene_variant_28_3">Hunde</string>
+    <string name="paleogene_variant_28_4">Rinder</string>
+
+    <string name="paleogene_question_29">Was unterschied Pyrotherium von echten Huftieren?</string>
+    <string name="paleogene_variant_29_1">Es gehörte zu einer einzigartigen südamerikanischen Linie</string>
+    <string name="paleogene_variant_29_2">Es legte Eier</string>
+    <string name="paleogene_variant_29_3">Es hatte Federn und Flügel</string>
+    <string name="paleogene_variant_29_4">Es war fleischfressend</string>
+
+    <string name="paleogene_question_30">Was war die wahrscheinliche Ernährungsweise von Archaeotherium?</string>
+    <string name="paleogene_variant_30_1">Allesfresser – Pflanzen, Aas und kleine Tiere</string>
+    <string name="paleogene_variant_30_2">Ausschließlich Fisch</string>
+    <string name="paleogene_variant_30_3">Nur Baumrinde</string>
+    <string name="paleogene_variant_30_4">Insekten und Pilze</string>
+
+    <string name="paleogene_question_31">Welches körperliche Merkmal war für Arsinoitherium charakteristisch?</string>
+    <string name="paleogene_variant_31_1">Ein Paar großer, gebogener Hörner auf der Schnauze</string>
+    <string name="paleogene_variant_31_2">Ein Panzer wie eine Schildkröte</string>
+    <string name="paleogene_variant_31_3">Flügel statt Vorderbeine</string>
+    <string name="paleogene_variant_31_4">Federn auf dem Rücken</string>
+
+    <string name="paleogene_question_32">Welcher Klimatrend herrschte während des Paläogens vor?</string>
+    <string name="paleogene_variant_32_1">Allmähliche Abkühlung und Austrocknung</string>
+    <string name="paleogene_variant_32_2">Permanente globale Vereisung</string>
+    <string name="paleogene_variant_32_3">Ständige extreme Erwärmung</string>
+    <string name="paleogene_variant_32_4">Plötzlicher Sauerstoffabfall</string>
+
+    <string name="paleogene_question_33">Welche große Meeresströmung begann sich im Paläogen zu bilden?</string>
+    <string name="paleogene_variant_33_1">Antarktischer Zirkumpolarstrom</string>
+    <string name="paleogene_variant_33_2">Golfstrom</string>
+    <string name="paleogene_variant_33_3">El-Niño-Strom</string>
+    <string name="paleogene_variant_33_4">Äquatorstrom des Pazifiks</string>
+
     <!--     BREAK      -->
 
     <string name="neogene_question_1">Wann begann das Neogen?</string>

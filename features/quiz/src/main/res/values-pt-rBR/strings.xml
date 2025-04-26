@@ -2974,6 +2974,96 @@
     <string name="paleogene_variant_18_3">Quaternário</string>
     <string name="paleogene_variant_18_4">Permiano</string>
 
+    <string name="paleogene_question_19">Quais épocas fazem parte do período Paleógeno?</string>
+    <string name="paleogene_variant_19_1">Paleoceno, Eoceno, Oligoceno</string>
+    <string name="paleogene_variant_19_2">Jurássico, Cretáceo, Paleoceno</string>
+    <string name="paleogene_variant_19_3">Triássico, Jurássico, Cretáceo</string>
+    <string name="paleogene_variant_19_4">Mioceno, Plioceno, Holoceno</string>
+
+    <string name="paleogene_question_20">Qual evento marcou o início do Eoceno?</string>
+    <string name="paleogene_variant_20_1">O Máximo Térmico do Paleoceno–Eoceno (PETM)</string>
+    <string name="paleogene_variant_20_2">A extinção dos dinossauros</string>
+    <string name="paleogene_variant_20_3">A formação do Himalaia</string>
+    <string name="paleogene_variant_20_4">A Era do Gelo</string>
+
+    <string name="paleogene_question_21">O que provavelmente causou o Máximo Térmico do Paleoceno–Eoceno?</string>
+    <string name="paleogene_variant_21_1">Liberação de metano do fundo do mar e atividade vulcânica</string>
+    <string name="paleogene_variant_21_2">Ejeções solares e impactos de asteroides</string>
+    <string name="paleogene_variant_21_3">Resfriamento global por cinzas vulcânicas</string>
+    <string name="paleogene_variant_21_4">Colisão tectônica entre continentes</string>
+
+    <string name="paleogene_question_22">Quais grupos de animais modernos surgiram ou se diversificaram durante o Paleógeno?</string>
+    <string name="paleogene_variant_22_1">Primatas, ungulados e cetáceos</string>
+    <string name="paleogene_variant_22_2">Dinossauros e trilobitas</string>
+    <string name="paleogene_variant_22_3">Tubarões e insetos</string>
+    <string name="paleogene_variant_22_4">Marsupiais e répteis</string>
+
+    <string name="paleogene_question_23">Qual adaptação ajudou os primeiros mamíferos a sobreviver às mudanças climáticas do Paleógeno?</string>
+    <string name="paleogene_variant_23_1">Migração e redução no tamanho corporal</string>
+    <string name="paleogene_variant_23_2">Hibernação e formação de escamas</string>
+    <string name="paleogene_variant_23_3">Construção de ninhos subaquáticos e postura de ovos</string>
+    <string name="paleogene_variant_23_4">Camuflagem e glândulas venenosas</string>
+
+    <string name="paleogene_question_24">O que torna a Titanoboa tão especial?</string>
+    <string name="paleogene_variant_24_1">É a maior cobra já conhecida na história da Terra</string>
+    <string name="paleogene_variant_24_2">Era um réptil voador do Jurássico</string>
+    <string name="paleogene_variant_24_3">Foi o último dinossauro sobrevivente</string>
+    <string name="paleogene_variant_24_4">Vivia na tundra ártica</string>
+
+    <string name="paleogene_question_25">Do que provavelmente se alimentava o Gastornis?</string>
+    <string name="paleogene_variant_25_1">Vegetação resistente, sementes e frutas</string>
+    <string name="paleogene_variant_25_2">Peixes e pequenos répteis</string>
+    <string name="paleogene_variant_25_3">Insetos e néctar</string>
+    <string name="paleogene_variant_25_4">Grandes mamíferos</string>
+
+    <string name="paleogene_question_26">Qual característica evolutiva o Basilosaurus manteve de seus ancestrais terrestres?</string>
+    <string name="paleogene_variant_26_1">Pequenos membros posteriores</string>
+    <string name="paleogene_variant_26_2">Penas</string>
+    <string name="paleogene_variant_26_3">Orelhas externas</string>
+    <string name="paleogene_variant_26_4">Pernas funcionais para caminhar</string>
+
+    <string name="paleogene_question_27">Qual das opções descreve melhor o Paraceratherium?</string>
+    <string name="paleogene_variant_27_1">Um dos maiores mamíferos terrestres de todos os tempos</string>
+    <string name="paleogene_variant_27_2">O primeiro mamífero voador</string>
+    <string name="paleogene_variant_27_3">Um ancestral carnívoro dos felinos</string>
+    <string name="paleogene_variant_27_4">Um inseto pré-histórico</string>
+
+    <string name="paleogene_question_28">A que família pertencia o Daeodon?</string>
+    <string name="paleogene_variant_28_1">Entelodontes</string>
+    <string name="paleogene_variant_28_2">Cervídeos</string>
+    <string name="paleogene_variant_28_3">Canídeos</string>
+    <string name="paleogene_variant_28_4">Bovídeos</string>
+
+    <string name="paleogene_question_29">O que diferenciava o Pyrotherium dos verdadeiros ungulados?</string>
+    <string name="paleogene_variant_29_1">Pertencia a uma linhagem única da América do Sul</string>
+    <string name="paleogene_variant_29_2">Botava ovos</string>
+    <string name="paleogene_variant_29_3">Tinha penas e asas</string>
+    <string name="paleogene_variant_29_4">Era carnívoro</string>
+
+    <string name="paleogene_question_30">Qual era provavelmente a dieta do Archaeotherium?</string>
+    <string name="paleogene_variant_30_1">Onívora – plantas, carniça e pequenos animais</string>
+    <string name="paleogene_variant_30_2">Apenas peixes</string>
+    <string name="paleogene_variant_30_3">Somente casca de árvore</string>
+    <string name="paleogene_variant_30_4">Insetos e fungos</string>
+
+    <string name="paleogene_question_31">Qual característica física distinguia o Arsinoitherium?</string>
+    <string name="paleogene_variant_31_1">Um par de grandes chifres curvados no focinho</string>
+    <string name="paleogene_variant_31_2">Uma carapaça como a de uma tartaruga</string>
+    <string name="paleogene_variant_31_3">Asas no lugar dos membros anteriores</string>
+    <string name="paleogene_variant_31_4">Penas nas costas</string>
+
+    <string name="paleogene_question_32">Qual tendência climática predominou durante o Paleógeno?</string>
+    <string name="paleogene_variant_32_1">Resfriamento e secagem gradual</string>
+    <string name="paleogene_variant_32_2">Congelamento global permanente</string>
+    <string name="paleogene_variant_32_3">Aquecimento extremo contínuo</string>
+    <string name="paleogene_variant_32_4">Queda repentina de oxigênio</string>
+
+    <string name="paleogene_question_33">Qual grande corrente oceânica começou a se formar durante o Paleógeno?</string>
+    <string name="paleogene_variant_33_1">Corrente Circumpolar Antártica</string>
+    <string name="paleogene_variant_33_2">Corrente do Golfo</string>
+    <string name="paleogene_variant_33_3">Corrente de El Niño</string>
+    <string name="paleogene_variant_33_4">Corrente Equatorial do Pacífico</string>
+
     <!--     BREAK      -->
 
     <string name="neogene_question_1">Quando o Neogeno começou?</string>
