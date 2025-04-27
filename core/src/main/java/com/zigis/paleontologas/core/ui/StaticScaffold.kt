@@ -8,6 +8,9 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.displayCutout
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -21,9 +24,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.zigis.paleontologas.core.R
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
@@ -53,6 +57,9 @@ fun StaticScaffold(
                     .padding(it)
                     .systemBarsPadding()
             ) {
+                if (!hasNotch()) {
+                    Spacer(Modifier.height(20.dp))
+                }
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -92,6 +99,18 @@ fun StaticScaffold(
             }
         }
     }
+}
+
+@Composable
+private fun hasNotch(): Boolean {
+    val cutoutInsets = WindowInsets.displayCutout
+    val density = LocalDensity.current
+    val left = with(density) { cutoutInsets.getLeft(this, layoutDirection = LayoutDirection.Ltr).toDp() }
+    val top = with(density) { cutoutInsets.getTop(this).toDp() }
+    val right = with(density) { cutoutInsets.getRight(this, layoutDirection = LayoutDirection.Ltr).toDp() }
+    val bottom = with(density) { cutoutInsets.getBottom(this).toDp() }
+
+    return left > 0.dp || top > 0.dp || right > 0.dp || bottom > 0.dp
 }
 
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_NO)
