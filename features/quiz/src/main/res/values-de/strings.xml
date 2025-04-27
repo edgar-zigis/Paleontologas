@@ -3507,6 +3507,96 @@
     <string name="quaternary_variant_30_3">Neogen</string>
     <string name="quaternary_variant_30_4">Paläogen</string>
 
+    <string name="quaternary_question_31">Wo wurde die letzte bekannte Mammutpopulation gefunden?</string>
+    <string name="quaternary_variant_31_1">Wrangelinsel</string>
+    <string name="quaternary_variant_31_2">Island</string>
+    <string name="quaternary_variant_31_3">Grönland</string>
+    <string name="quaternary_variant_31_4">Sibirische Steppe</string>
+
+    <string name="quaternary_question_32">Was verursachte das Aussterben des Wollnashorns?</string>
+    <string name="quaternary_variant_32_1">Klimawandel und menschliche Jagd</string>
+    <string name="quaternary_variant_32_2">Vulkanische Eruptionen</string>
+    <string name="quaternary_variant_32_3">Asteroideneinschlag</string>
+    <string name="quaternary_variant_32_4">Tsunamis in Zentralasien</string>
+
+    <string name="quaternary_question_33">Welches ausgestorbene Tier war in seiner Größe mit einem Elefanten vergleichbar und lebte in Südamerika?</string>
+    <string name="quaternary_variant_33_1">Megatherium</string>
+    <string name="quaternary_variant_33_2">Mastodon</string>
+    <string name="quaternary_variant_33_3">Smilodon</string>
+    <string name="quaternary_variant_33_4">Megalania</string>
+
+    <string name="quaternary_question_34">Was war die Hauptbeute des Smilodon?</string>
+    <string name="quaternary_variant_34_1">Große Pflanzenfresser wie Bisons und Kamele</string>
+    <string name="quaternary_variant_34_2">Insekten und Nagetiere</string>
+    <string name="quaternary_variant_34_3">Fische und Reptilien</string>
+    <string name="quaternary_variant_34_4">Früchte und Blätter</string>
+
+    <string name="quaternary_question_35">Welche Anpassung hilft dem Quastenflosser, in der Tiefsee zu überleben?</string>
+    <string name="quaternary_variant_35_1">Fähigkeit, den Stoffwechsel zu verlangsamen</string>
+    <string name="quaternary_variant_35_2">Photosynthese bei schwachem Licht</string>
+    <string name="quaternary_variant_35_3">Dichtes Fell zur Isolation</string>
+    <string name="quaternary_variant_35_4">Hohe Salzaufnahme über die Haut</string>
+
+    <string name="quaternary_question_36">Warum ist das Blut der Pfeilschwanzkrebse in der modernen Medizin wichtig?</string>
+    <string name="quaternary_variant_36_1">Es erkennt bakterielle Endotoxine</string>
+    <string name="quaternary_variant_36_2">Es enthält Antikörper gegen Krebs</string>
+    <string name="quaternary_variant_36_3">Es heilt Wunden besonders schnell</string>
+    <string name="quaternary_variant_36_4">Es neutralisiert Schlangengift</string>
+
+    <string name="quaternary_question_37">Welche ist die einzige überlebende Art der Pflanzengruppe Ginkgophyta?</string>
+    <string name="quaternary_variant_37_1">Ginkgo biloba</string>
+    <string name="quaternary_variant_37_2">Welwitschia mirabilis</string>
+    <string name="quaternary_variant_37_3">Sequoiadendron giganteum</string>
+    <string name="quaternary_variant_37_4">Thujopsis dolabrata</string>
+
+    <string name="quaternary_question_38">In welcher Wüste wächst die Welwitschie?</string>
+    <string name="quaternary_variant_38_1">Namib-Wüste</string>
+    <string name="quaternary_variant_38_2">Sahara</string>
+    <string name="quaternary_variant_38_3">Atacama-Wüste</string>
+    <string name="quaternary_variant_38_4">Gobi-Wüste</string>
+
+    <string name="quaternary_question_39">Was macht die Tuatara unter den heutigen Reptilien einzigartig?</string>
+    <string name="quaternary_variant_39_1">Sie ist das einzige lebende Mitglied der Rhynchocephalia</string>
+    <string name="quaternary_variant_39_2">Sie gebärt lebende Nachkommen</string>
+    <string name="quaternary_variant_39_3">Sie hat Federn</string>
+    <string name="quaternary_variant_39_4">Sie ist amphibisch</string>
+
+    <string name="quaternary_question_40">Was ist ein bemerkenswertes Merkmal von Tuatara-Jungtieren?</string>
+    <string name="quaternary_variant_40_1">Sie haben ein sichtbares „drittes Auge“</string>
+    <string name="quaternary_variant_40_2">Sie werden mit Hörnern geboren</string>
+    <string name="quaternary_variant_40_3">Sie sind bei der Geburt blind</string>
+    <string name="quaternary_variant_40_4">Sie können kurze Strecken fliegen</string>
+
+    <string name="quaternary_question_41">Welcher ausgestorbene Vogel wurde zum Symbol für vom Menschen verursachtes Aussterben?</string>
+    <string name="quaternary_variant_41_1">Dodo</string>
+    <string name="quaternary_variant_41_2">Moa</string>
+    <string name="quaternary_variant_41_3">Wandertaube</string>
+    <string name="quaternary_variant_41_4">Riesenalk</string>
+
+    <string name="quaternary_question_42">Was benutzte der Dodo zur Verdauung seiner Nahrung?</string>
+    <string name="quaternary_variant_42_1">Magensteine</string>
+    <string name="quaternary_variant_42_2">Spezielle Magensäure</string>
+    <string name="quaternary_variant_42_3">Gärungskammern</string>
+    <string name="quaternary_variant_42_4">Doppeldarm</string>
+
+    <string name="quaternary_question_43">Welches heutige Reptil gilt als enger Verwandter von Megalania?</string>
+    <string name="quaternary_variant_43_1">Komodowaran</string>
+    <string name="quaternary_variant_43_2">Tuatara</string>
+    <string name="quaternary_variant_43_3">Gila-Krustenechse</string>
+    <string name="quaternary_variant_43_4">Grüner Leguan</string>
+
+    <string name="quaternary_question_44">Was machte Megalania zu einem effektiven Raubtier?</string>
+    <string name="quaternary_variant_44_1">Gezackte, klingenartige Zähne und enorme Größe</string>
+    <string name="quaternary_variant_44_2">Tarnschuppen und giftige Zunge</string>
+    <string name="quaternary_variant_44_3">Fähigkeit, weite Sprünge zu machen</string>
+    <string name="quaternary_variant_44_4">Nachtsicht und Echolot</string>
+
+    <string name="quaternary_question_45">Warum wird der Quastenflosser oft als „lebendes Fossil“ bezeichnet?</string>
+    <string name="quaternary_variant_45_1">Er ähnelt stark fossilen Fischen von vor über 360 Millionen Jahren</string>
+    <string name="quaternary_variant_45_2">Er hat sich seit der Jurazeit nicht verändert</string>
+    <string name="quaternary_variant_45_3">Er benutzt Werkzeuge zum Jagen</string>
+    <string name="quaternary_variant_45_4">Sein Blut ist warm wie das eines Säugetiers</string>
+
     <!--     BREAK      -->
 
     <string name="future_question_1">Verursacht die Menschheit den Klimawandel? </string>

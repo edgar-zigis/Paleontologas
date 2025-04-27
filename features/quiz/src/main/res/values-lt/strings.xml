@@ -3508,6 +3508,96 @@
     <string name="quaternary_variant_30_3">neogene</string>
     <string name="quaternary_variant_30_4">paleogene</string>
 
+    <string name="quaternary_question_31">Kur buvo rasta paskutinė žinoma mamutų populiacija?</string>
+    <string name="quaternary_variant_31_1">Vrangelio saloje</string>
+    <string name="quaternary_variant_31_2">Islandijoje</string>
+    <string name="quaternary_variant_31_3">Grenlandijoje</string>
+    <string name="quaternary_variant_31_4">Kazachstano stepėse</string>
+
+    <string name="quaternary_question_32">Kas sukėlė gauruotojo raganosio išnykimą?</string>
+    <string name="quaternary_variant_32_1">Klimato kaita ir žmonių medžioklė</string>
+    <string name="quaternary_variant_32_2">Vulkanų išsiveržimai</string>
+    <string name="quaternary_variant_32_3">Asteroido smūgis</string>
+    <string name="quaternary_variant_32_4">Cunamiai Centrinėje Azijoje</string>
+
+    <string name="quaternary_question_33">Kuris išnykęs gyvūnas, maždaug dramblio dydžio, gyveno Pietų Amerikoje?</string>
+    <string name="quaternary_variant_33_1">Megaterijus</string>
+    <string name="quaternary_variant_33_2">Mastodontas</string>
+    <string name="quaternary_variant_33_3">Smilodonas</string>
+    <string name="quaternary_variant_33_4">Megalania</string>
+
+    <string name="quaternary_question_34">Kuo daugiausia maitinosi smilodonas?</string>
+    <string name="quaternary_variant_34_1">Dideliais žolėdžiais, tokiais kaip bizonai ir kupranugariai</string>
+    <string name="quaternary_variant_34_2">Vabzdžiais ir graužikais</string>
+    <string name="quaternary_variant_34_3">Žuvimis ir ropliais</string>
+    <string name="quaternary_variant_34_4">Vaisiais ir lapais</string>
+
+    <string name="quaternary_question_35">Kokia savybė padeda celakantui išgyventi vandenyno gelmėse?</string>
+    <string name="quaternary_variant_35_1">Gebėjimas sulėtinti medžiagų apykaitą</string>
+    <string name="quaternary_variant_35_2">Fotosintezė silpnoje šviesoje</string>
+    <string name="quaternary_variant_35_3">Tankus kailis šilumos izoliacijai</string>
+    <string name="quaternary_variant_35_4">Druskos įsisavinimas per odą</string>
+
+    <string name="quaternary_question_36">Kodėl Xiphosura kraujas svarbus šiuolaikinėje medicinoje?</string>
+    <string name="quaternary_variant_36_1">Jis aptinka bakterijų endotoksinus</string>
+    <string name="quaternary_variant_36_2">Jame yra antikūnų prieš vėžį</string>
+    <string name="quaternary_variant_36_3">Jis greitai gydo žaizdas</string>
+    <string name="quaternary_variant_36_4">Jis neutralizuoja gyvačių nuodus</string>
+
+    <string name="quaternary_question_37">Kas yra vienintelė išlikusi Ginkgophyta augalų grupės rūšis?</string>
+    <string name="quaternary_variant_37_1">Ginkgo biloba</string>
+    <string name="quaternary_variant_37_2">Welwitschia mirabilis</string>
+    <string name="quaternary_variant_37_3">Sequoiadendron giganteum</string>
+    <string name="quaternary_variant_37_4">Thujopsis dolabrata</string>
+
+    <string name="quaternary_question_38">Kurioje dykumoje auga velvičija?</string>
+    <string name="quaternary_variant_38_1">Namibo dykumoje</string>
+    <string name="quaternary_variant_38_2">Sacharos dykumoje</string>
+    <string name="quaternary_variant_38_3">Atakamos dykumoje</string>
+    <string name="quaternary_variant_38_4">Gobio dykumoje</string>
+
+    <string name="quaternary_question_39">Kuo tuatara išsiskiria nuo šiuolaikinių roplių?</string>
+    <string name="quaternary_variant_39_1">Tai vienintelis išlikęs Rynchocephalia grupės atstovas</string>
+    <string name="quaternary_variant_39_2">Veda gyvus jauniklius</string>
+    <string name="quaternary_variant_39_3">Turi plunksnas</string>
+    <string name="quaternary_variant_39_4">Yra varliagyvis</string>
+
+    <string name="quaternary_question_40">Koks ypatingas bruožas būdingas tuatarų jaunikliams?</string>
+    <string name="quaternary_variant_40_1">Jie turi „trečiąją akį“</string>
+    <string name="quaternary_variant_40_2">Jie gimsta su ragais</string>
+    <string name="quaternary_variant_40_3">Jie gimsta akli</string>
+    <string name="quaternary_variant_40_4">Jie gali trumpai skraidyti</string>
+
+    <string name="quaternary_question_41">Kuris išnykęs paukštis tapo žmogaus sukelto išnykimo simboliu?</string>
+    <string name="quaternary_variant_41_1">Dodo</string>
+    <string name="quaternary_variant_41_2">Moa</string>
+    <string name="quaternary_variant_41_3">Karvelis keleivis</string>
+    <string name="quaternary_variant_41_4">Didžioji alka</string>
+
+    <string name="quaternary_question_42">Kuo dodo naudodavosi virškinant maistą?</string>
+    <string name="quaternary_variant_42_1">Skrandžio akmenimis (gastrolitais)</string>
+    <string name="quaternary_variant_42_2">Specialiomis skrandžio rūgštimis</string>
+    <string name="quaternary_variant_42_3">Rūgimo kameromis</string>
+    <string name="quaternary_variant_42_4">Dvigubu žarnynu</string>
+
+    <string name="quaternary_question_43">Kuris šiuolaikinis roplys laikomas artimu megalanijos giminaičiu?</string>
+    <string name="quaternary_variant_43_1">Komodo drakonas</string>
+    <string name="quaternary_variant_43_2">Tuatara</string>
+    <string name="quaternary_variant_43_3">Gilos pabaisa</string>
+    <string name="quaternary_variant_43_4">Žalioji iguana</string>
+
+    <string name="quaternary_question_44">Kas darė megalaniją efektyviu plėšrūnu?</string>
+    <string name="quaternary_variant_44_1">Dantys kaip pjūklai ir milžiniškas dydis</string>
+    <string name="quaternary_variant_44_2">Kamufliažiniai žvynai ir nuodingas liežuvis</string>
+    <string name="quaternary_variant_44_3">Gebėjimas šoliuoti dideliais atstumais</string>
+    <string name="quaternary_variant_44_4">Naktinis matymas ir echolokacija</string>
+
+    <string name="quaternary_question_45">Kodėl celakantas vadinamas „gyvaja fosilija“?</string>
+    <string name="quaternary_variant_45_1">Jis labai panašus į žuvis, gyvenusias prieš daugiau nei 360 milijonų metų</string>
+    <string name="quaternary_variant_45_2">Nuo juros periodo jis nepasikeitė</string>
+    <string name="quaternary_variant_45_3">Naudoja įrankius medžiodamas</string>
+    <string name="quaternary_variant_45_4">Jo kraujas šiltas kaip žinduolių</string>
+
     <!--     BREAK      -->
 
     <string name="future_question_1">Ar žmonija sukelia klimato kaitą?</string>
