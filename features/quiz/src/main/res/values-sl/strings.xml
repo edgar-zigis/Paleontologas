@@ -3508,6 +3508,96 @@
     <string name="quaternary_variant_30_3">neogen</string>
     <string name="quaternary_variant_30_4">paleogen</string>
 
+    <string name="quaternary_question_31">Kje je bila najdena zadnja znana populacija mamutov?</string>
+    <string name="quaternary_variant_31_1">Otoka Vrangla</string>
+    <string name="quaternary_variant_31_2">Islandija</string>
+    <string name="quaternary_variant_31_3">Grenlandija</string>
+    <string name="quaternary_variant_31_4">Sibirska stepa</string>
+
+    <string name="quaternary_question_32">Kaj je povzročilo izumrtje volnatega nosoroga?</string>
+    <string name="quaternary_variant_32_1">Podnebne spremembe in lov s strani človeka</string>
+    <string name="quaternary_variant_32_2">Vulkanski izbruhi</string>
+    <string name="quaternary_variant_32_3">Udar asteroida</string>
+    <string name="quaternary_variant_32_4">Cunamiji v Srednji Aziji</string>
+
+    <string name="quaternary_question_33">Katera izumrla žival, primerljiva po velikosti s slonom, je živela v Južni Ameriki?</string>
+    <string name="quaternary_variant_33_1">Megaterij</string>
+    <string name="quaternary_variant_33_2">Mastodont</string>
+    <string name="quaternary_variant_33_3">Smilodon</string>
+    <string name="quaternary_variant_33_4">Megalania</string>
+
+    <string name="quaternary_question_34">Kakšna je bila glavna plen smilodona?</string>
+    <string name="quaternary_variant_34_1">Veliki rastlinojedci, kot so bizoni in kamele</string>
+    <string name="quaternary_variant_34_2">Žuželke in glodavci</string>
+    <string name="quaternary_variant_34_3">Ribe in plazilci</string>
+    <string name="quaternary_variant_34_4">Sadje in listje</string>
+
+    <string name="quaternary_question_35">Katera prilagoditev omogoča latimeriji (koelakantu) preživetje v globokem morju?</string>
+    <string name="quaternary_variant_35_1">Zmožnost upočasnitve presnove</string>
+    <string name="quaternary_variant_35_2">Fotosinteza pri šibki svetlobi</string>
+    <string name="quaternary_variant_35_3">Gosta dlaka za izolacijo</string>
+    <string name="quaternary_variant_35_4">Vsrkavanje soli skozi kožo</string>
+
+    <string name="quaternary_question_36">Zakaj je kri ostrigarjev (konjske podkve) pomembna v sodobni medicini?</string>
+    <string name="quaternary_variant_36_1">Zaradi zaznavanja bakterijskih endotoksinov</string>
+    <string name="quaternary_variant_36_2">Ker vsebuje protitelesa proti raku</string>
+    <string name="quaternary_variant_36_3">Ker hitro zaceli rane</string>
+    <string name="quaternary_variant_36_4">Ker nevtralizira kačji strup</string>
+
+    <string name="quaternary_question_37">Katera je edina danes živeča vrsta iz skupine rastlin Ginkgophyta?</string>
+    <string name="quaternary_variant_37_1">Ginkgo biloba</string>
+    <string name="quaternary_variant_37_2">Welwitschia mirabilis</string>
+    <string name="quaternary_variant_37_3">Sequoiadendron giganteum</string>
+    <string name="quaternary_variant_37_4">Thujopsis dolabrata</string>
+
+    <string name="quaternary_question_38">V kateri puščavi raste rastlina welwitschia?</string>
+    <string name="quaternary_variant_38_1">Namibska puščava</string>
+    <string name="quaternary_variant_38_2">Saharska puščava</string>
+    <string name="quaternary_variant_38_3">Puščava Atacama</string>
+    <string name="quaternary_variant_38_4">Puščava Gobi</string>
+
+    <string name="quaternary_question_39">Kaj dela tuataro edinstveno med sodobnimi plazilci?</string>
+    <string name="quaternary_variant_39_1">Je edini še živeči predstavnik skupine Rhynchocephalia</string>
+    <string name="quaternary_variant_39_2">Rodi žive mladiče</string>
+    <string name="quaternary_variant_39_3">Ima perje</string>
+    <string name="quaternary_variant_39_4">Je dvoživka</string>
+
+    <string name="quaternary_question_40">Katera posebna lastnost je značilna za mladiče tuatare?</string>
+    <string name="quaternary_variant_40_1">Imajo vidno “tretje oko”</string>
+    <string name="quaternary_variant_40_2">Rodijo se s rogovi</string>
+    <string name="quaternary_variant_40_3">Rodijo se slepi</string>
+    <string name="quaternary_variant_40_4">Lahko letijo na kratke razdalje</string>
+
+    <string name="quaternary_question_41">Katera izumrla ptica je postala simbol izumrtja, ki ga je povzročil človek?</string>
+    <string name="quaternary_variant_41_1">Dodo</string>
+    <string name="quaternary_variant_41_2">Moa</string>
+    <string name="quaternary_variant_41_3">Selivka golobica</string>
+    <string name="quaternary_variant_41_4">Veliki auk</string>
+
+    <string name="quaternary_question_42">Kaj je dodo uporabljal za pomoč pri prebavi hrane?</string>
+    <string name="quaternary_variant_42_1">Prebavne kamne (gastrolite)</string>
+    <string name="quaternary_variant_42_2">Posebno želodčno kislino</string>
+    <string name="quaternary_variant_42_3">Fermentacijske komore</string>
+    <string name="quaternary_variant_42_4">Dvojni črevesni trakt</string>
+
+    <string name="quaternary_question_43">Kateri sodobni plazilec velja za bližnjega sorodnika megalanije?</string>
+    <string name="quaternary_variant_43_1">Komodski varan</string>
+    <string name="quaternary_variant_43_2">Tuatara</string>
+    <string name="quaternary_variant_43_3">Gilska pošast</string>
+    <string name="quaternary_variant_43_4">Zeleni legvan</string>
+
+    <string name="quaternary_question_44">Kaj je megalanijo naredilo učinkovitega plenilca?</string>
+    <string name="quaternary_variant_44_1">Nazobčani zobje v obliki rezil in ogromna velikost</string>
+    <string name="quaternary_variant_44_2">Kamuflažne luske in strupen jezik</string>
+    <string name="quaternary_variant_44_3">Sposobnost dolgih skokov</string>
+    <string name="quaternary_variant_44_4">Nočni vid in eholokacija</string>
+
+    <string name="quaternary_question_45">Zakaj koelakanta pogosto imenujemo “živi fosil”?</string>
+    <string name="quaternary_variant_45_1">Ker je zelo podoben fosilnim ribam starim več kot 360 milijonov let</string>
+    <string name="quaternary_variant_45_2">Ker se ni spremenil od jure</string>
+    <string name="quaternary_variant_45_3">Ker uporablja orodja za lov</string>
+    <string name="quaternary_variant_45_4">Ker ima kri toplo kot sesalci</string>
+
     <!--     BREAK      -->
 
     <string name="future_question_1">Ali človeštvo povzroča podnebne spremembe?</string>

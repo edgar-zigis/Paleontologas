@@ -3508,6 +3508,96 @@
     <string name="quaternary_variant_30_3">Néogène</string>
     <string name="quaternary_variant_30_4">Paléogène</string>
 
+    <string name="quaternary_question_31">Où a été trouvée la dernière population connue de mammouths ?</string>
+    <string name="quaternary_variant_31_1">Île de Wrangel</string>
+    <string name="quaternary_variant_31_2">Islande</string>
+    <string name="quaternary_variant_31_3">Groenland</string>
+    <string name="quaternary_variant_31_4">Steppe sibérienne</string>
+
+    <string name="quaternary_question_32">Qu’est-ce qui a causé l’extinction du rhinocéros laineux ?</string>
+    <string name="quaternary_variant_32_1">Changement climatique et chasse humaine</string>
+    <string name="quaternary_variant_32_2">Éruptions volcaniques</string>
+    <string name="quaternary_variant_32_3">Impact d’un astéroïde</string>
+    <string name="quaternary_variant_32_4">Tsunamis en Asie centrale</string>
+
+    <string name="quaternary_question_33">Quelle créature éteinte, de taille comparable à celle d’un éléphant, vivait en Amérique du Sud ?</string>
+    <string name="quaternary_variant_33_1">Mégathérium</string>
+    <string name="quaternary_variant_33_2">Mastodonte</string>
+    <string name="quaternary_variant_33_3">Smilodon</string>
+    <string name="quaternary_variant_33_4">Mégalania</string>
+
+    <string name="quaternary_question_34">Quelle était la proie principale du Smilodon ?</string>
+    <string name="quaternary_variant_34_1">Grands herbivores comme les bisons et les chameaux</string>
+    <string name="quaternary_variant_34_2">Insectes et rongeurs</string>
+    <string name="quaternary_variant_34_3">Poissons et reptiles</string>
+    <string name="quaternary_variant_34_4">Fruits et feuilles</string>
+
+    <string name="quaternary_question_35">Quelle adaptation permet au cœlacanthe de survivre dans les profondeurs marines ?</string>
+    <string name="quaternary_variant_35_1">Capacité à ralentir son métabolisme</string>
+    <string name="quaternary_variant_35_2">Photosynthèse en faible lumière</string>
+    <string name="quaternary_variant_35_3">Fourrure dense pour l’isolation</string>
+    <string name="quaternary_variant_35_4">Absorption du sel par la peau</string>
+
+    <string name="quaternary_question_36">Pourquoi le sang des limules est-il important en médecine moderne ?</string>
+    <string name="quaternary_variant_36_1">Il détecte les endotoxines bactériennes</string>
+    <string name="quaternary_variant_36_2">Il contient des anticorps contre le cancer</string>
+    <string name="quaternary_variant_36_3">Il guérit les blessures rapidement</string>
+    <string name="quaternary_variant_36_4">Il neutralise les venins de serpent</string>
+
+    <string name="quaternary_question_37">Quelle est la seule espèce vivante du groupe végétal Ginkgophyta ?</string>
+    <string name="quaternary_variant_37_1">Ginkgo biloba</string>
+    <string name="quaternary_variant_37_2">Welwitschia mirabilis</string>
+    <string name="quaternary_variant_37_3">Sequoiadendron giganteum</string>
+    <string name="quaternary_variant_37_4">Thujopsis dolabrata</string>
+
+    <string name="quaternary_question_38">Dans quel désert pousse la Welwitschia ?</string>
+    <string name="quaternary_variant_38_1">Désert du Namib</string>
+    <string name="quaternary_variant_38_2">Désert du Sahara</string>
+    <string name="quaternary_variant_38_3">Désert d’Atacama</string>
+    <string name="quaternary_variant_38_4">Désert de Gobi</string>
+
+    <string name="quaternary_question_39">Qu’est-ce qui rend le tuatara unique parmi les reptiles actuels ?</string>
+    <string name="quaternary_variant_39_1">C’est le seul membre vivant des Rhynchocephalia</string>
+    <string name="quaternary_variant_39_2">Il donne naissance à des petits vivants</string>
+    <string name="quaternary_variant_39_3">Il possède des plumes</string>
+    <string name="quaternary_variant_39_4">Il est amphibie</string>
+
+    <string name="quaternary_question_40">Quelle est une caractéristique remarquable des jeunes tuataras ?</string>
+    <string name="quaternary_variant_40_1">Ils possèdent un « troisième œil » visible</string>
+    <string name="quaternary_variant_40_2">Ils naissent avec des cornes</string>
+    <string name="quaternary_variant_40_3">Ils sont aveugles à la naissance</string>
+    <string name="quaternary_variant_40_4">Ils peuvent voler sur de courtes distances</string>
+
+    <string name="quaternary_question_41">Quel oiseau éteint est devenu un symbole de l’extinction causée par l’homme ?</string>
+    <string name="quaternary_variant_41_1">Dodo</string>
+    <string name="quaternary_variant_41_2">Moa</string>
+    <string name="quaternary_variant_41_3">Pigeon migrateur</string>
+    <string name="quaternary_variant_41_4">Grand pingouin</string>
+
+    <string name="quaternary_question_42">Que utilisait le dodo pour digérer sa nourriture ?</string>
+    <string name="quaternary_variant_42_1">Des gastrolithes (pierres digestives)</string>
+    <string name="quaternary_variant_42_2">Un acide gastrique spécial</string>
+    <string name="quaternary_variant_42_3">Des chambres de fermentation</string>
+    <string name="quaternary_variant_42_4">Un double intestin</string>
+
+    <string name="quaternary_question_43">Quel reptile actuel est considéré comme un proche parent de la Mégalania ?</string>
+    <string name="quaternary_variant_43_1">Dragon de Komodo</string>
+    <string name="quaternary_variant_43_2">Tuatara</string>
+    <string name="quaternary_variant_43_3">Monstre de Gila</string>
+    <string name="quaternary_variant_43_4">Iguane vert</string>
+
+    <string name="quaternary_question_44">Qu’est-ce qui rendait la Mégalania si efficace comme prédateur ?</string>
+    <string name="quaternary_variant_44_1">Des dents dentelées en forme de lame et une taille massive</string>
+    <string name="quaternary_variant_44_2">Des écailles de camouflage et une langue venimeuse</string>
+    <string name="quaternary_variant_44_3">Capacité à faire de grands sauts</string>
+    <string name="quaternary_variant_44_4">Vision nocturne et écholocation</string>
+
+    <string name="quaternary_question_45">Pourquoi le cœlacanthe est-il souvent qualifié de « fossile vivant » ?</string>
+    <string name="quaternary_variant_45_1">Il ressemble fortement à des poissons fossiles datant de plus de 360 millions d’années</string>
+    <string name="quaternary_variant_45_2">Il n’a pas évolué depuis le Jurassique</string>
+    <string name="quaternary_variant_45_3">Il utilise des outils pour chasser</string>
+    <string name="quaternary_variant_45_4">Son sang est chaud comme celui des mammifères</string>
+
     <!--     BREAK      -->
 
     <string name="future_question_1">L’humanité est-elle responsable du changement climatique?</string>

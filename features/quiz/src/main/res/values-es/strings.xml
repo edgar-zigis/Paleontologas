@@ -3507,6 +3507,96 @@
     <string name="quaternary_variant_30_3">Neógeno </string>
     <string name="quaternary_variant_30_4">Paleógeno </string>
 
+    <string name="quaternary_question_31">¿Dónde se encontró la última población conocida de mamuts?</string>
+    <string name="quaternary_variant_31_1">Isla de Wrangel</string>
+    <string name="quaternary_variant_31_2">Islandia</string>
+    <string name="quaternary_variant_31_3">Groenlandia</string>
+    <string name="quaternary_variant_31_4">Estepa siberiana</string>
+
+    <string name="quaternary_question_32">¿Qué causó la extinción del rinoceronte lanudo?</string>
+    <string name="quaternary_variant_32_1">Cambio climático y caza humana</string>
+    <string name="quaternary_variant_32_2">Erupciones volcánicas</string>
+    <string name="quaternary_variant_32_3">Impacto de un asteroide</string>
+    <string name="quaternary_variant_32_4">Tsunamis en Asia Central</string>
+
+    <string name="quaternary_question_33">¿Qué criatura extinta, de tamaño comparable al de un elefante, vivía en Sudamérica?</string>
+    <string name="quaternary_variant_33_1">Megatherium</string>
+    <string name="quaternary_variant_33_2">Mastodonte</string>
+    <string name="quaternary_variant_33_3">Smilodon</string>
+    <string name="quaternary_variant_33_4">Megalania</string>
+
+    <string name="quaternary_question_34">¿Cuál era la presa principal del Smilodon?</string>
+    <string name="quaternary_variant_34_1">Grandes herbívoros como bisontes y camellos</string>
+    <string name="quaternary_variant_34_2">Insectos y roedores</string>
+    <string name="quaternary_variant_34_3">Peces y reptiles</string>
+    <string name="quaternary_variant_34_4">Frutas y hojas</string>
+
+    <string name="quaternary_question_35">¿Qué adaptación permite al celacanto sobrevivir en aguas profundas?</string>
+    <string name="quaternary_variant_35_1">Capacidad para ralentizar su metabolismo</string>
+    <string name="quaternary_variant_35_2">Fotosíntesis en condiciones de poca luz</string>
+    <string name="quaternary_variant_35_3">Pelaje espeso como aislamiento</string>
+    <string name="quaternary_variant_35_4">Absorción de sal a través de la piel</string>
+
+    <string name="quaternary_question_36">¿Por qué es importante la sangre del cangrejo herradura en la medicina moderna?</string>
+    <string name="quaternary_variant_36_1">Detecta endotoxinas bacterianas</string>
+    <string name="quaternary_variant_36_2">Contiene anticuerpos contra el cáncer</string>
+    <string name="quaternary_variant_36_3">Cura heridas rápidamente</string>
+    <string name="quaternary_variant_36_4">Neutraliza venenos de serpiente</string>
+
+    <string name="quaternary_question_37">¿Cuál es la única especie viva del grupo de plantas Ginkgophyta?</string>
+    <string name="quaternary_variant_37_1">Ginkgo biloba</string>
+    <string name="quaternary_variant_37_2">Welwitschia mirabilis</string>
+    <string name="quaternary_variant_37_3">Sequoiadendron giganteum</string>
+    <string name="quaternary_variant_37_4">Thujopsis dolabrata</string>
+
+    <string name="quaternary_question_38">¿En qué desierto crece la Welwitschia?</string>
+    <string name="quaternary_variant_38_1">Desierto de Namib</string>
+    <string name="quaternary_variant_38_2">Desierto del Sahara</string>
+    <string name="quaternary_variant_38_3">Desierto de Atacama</string>
+    <string name="quaternary_variant_38_4">Desierto de Gobi</string>
+
+    <string name="quaternary_question_39">¿Qué hace única a la tuátara entre los reptiles actuales?</string>
+    <string name="quaternary_variant_39_1">Es el único miembro vivo de los Rhynchocephalia</string>
+    <string name="quaternary_variant_39_2">Da a luz crías vivas</string>
+    <string name="quaternary_variant_39_3">Tiene plumas</string>
+    <string name="quaternary_variant_39_4">Es anfibia</string>
+
+    <string name="quaternary_question_40">¿Cuál es una característica destacada de las crías de tuátara?</string>
+    <string name="quaternary_variant_40_1">Tienen un “tercer ojo” visible</string>
+    <string name="quaternary_variant_40_2">Nacen con cuernos</string>
+    <string name="quaternary_variant_40_3">Nacen ciegas</string>
+    <string name="quaternary_variant_40_4">Pueden volar cortas distancias</string>
+
+    <string name="quaternary_question_41">¿Qué ave extinta se convirtió en símbolo de la extinción causada por los humanos?</string>
+    <string name="quaternary_variant_41_1">Dodo</string>
+    <string name="quaternary_variant_41_2">Moa</string>
+    <string name="quaternary_variant_41_3">Paloma migratoria</string>
+    <string name="quaternary_variant_41_4">Alca gigante</string>
+
+    <string name="quaternary_question_42">¿Qué usaba el dodo para digerir su alimento?</string>
+    <string name="quaternary_variant_42_1">Piedras digestivas (gastrolitos)</string>
+    <string name="quaternary_variant_42_2">Ácido gástrico especial</string>
+    <string name="quaternary_variant_42_3">Cámaras de fermentación</string>
+    <string name="quaternary_variant_42_4">Doble intestino</string>
+
+    <string name="quaternary_question_43">¿Qué reptil actual es considerado un pariente cercano de la Megalania?</string>
+    <string name="quaternary_variant_43_1">Dragón de Komodo</string>
+    <string name="quaternary_variant_43_2">Tuátara</string>
+    <string name="quaternary_variant_43_3">Monstruo de Gila</string>
+    <string name="quaternary_variant_43_4">Iguana verde</string>
+
+    <string name="quaternary_question_44">¿Qué hacía a la Megalania un depredador eficaz?</string>
+    <string name="quaternary_variant_44_1">Dientes aserrados en forma de cuchilla y gran tamaño</string>
+    <string name="quaternary_variant_44_2">Escamas de camuflaje y lengua venenosa</string>
+    <string name="quaternary_variant_44_3">Capacidad para dar grandes saltos</string>
+    <string name="quaternary_variant_44_4">Visión nocturna y ecolocalización</string>
+
+    <string name="quaternary_question_45">¿Por qué se considera al celacanto un “fósil viviente”?</string>
+    <string name="quaternary_variant_45_1">Se asemeja a peces fósiles de hace más de 360 millones de años</string>
+    <string name="quaternary_variant_45_2">No ha evolucionado desde el período Jurásico</string>
+    <string name="quaternary_variant_45_3">Usa herramientas para cazar</string>
+    <string name="quaternary_variant_45_4">Su sangre es cálida como la de los mamíferos</string>
+
     <!--     BREAK      -->
 
     <string name="future_question_1">¿La humanidad causa el cambio climático? </string>
