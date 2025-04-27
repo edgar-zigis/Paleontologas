@@ -3488,6 +3488,96 @@
     <string name="quaternary_variant_30_3">Neogene</string>
     <string name="quaternary_variant_30_4">Paleogene</string>
 
+    <string name="quaternary_question_31">Where was the last known population of mammoths found?</string>
+    <string name="quaternary_variant_31_1">Wrangel Island</string>
+    <string name="quaternary_variant_31_2">Iceland</string>
+    <string name="quaternary_variant_31_3">Greenland</string>
+    <string name="quaternary_variant_31_4">Siberian Steppe</string>
+
+    <string name="quaternary_question_32">What caused the extinction of the woolly rhinoceros?</string>
+    <string name="quaternary_variant_32_1">Climate change and human hunting</string>
+    <string name="quaternary_variant_32_2">Volcanic eruptions</string>
+    <string name="quaternary_variant_32_3">Asteroid impact</string>
+    <string name="quaternary_variant_32_4">Tsunamis in Central Asia</string>
+
+    <string name="quaternary_question_33">Which extinct creature was comparable in size to an elephant and lived in South America?</string>
+    <string name="quaternary_variant_33_1">Megatherium</string>
+    <string name="quaternary_variant_33_2">Mastodon</string>
+    <string name="quaternary_variant_33_3">Smilodon</string>
+    <string name="quaternary_variant_33_4">Megalania</string>
+
+    <string name="quaternary_question_34">What was the main prey of Smilodon?</string>
+    <string name="quaternary_variant_34_1">Large herbivores like bison and camels</string>
+    <string name="quaternary_variant_34_2">Insects and rodents</string>
+    <string name="quaternary_variant_34_3">Fish and reptiles</string>
+    <string name="quaternary_variant_34_4">Fruits and leaves</string>
+
+    <string name="quaternary_question_35">What adaptation helps coelacanths survive in deep-sea environments?</string>
+    <string name="quaternary_variant_35_1">Ability to slow down their metabolism</string>
+    <string name="quaternary_variant_35_2">Photosynthesis in low light</string>
+    <string name="quaternary_variant_35_3">Thick fur for insulation</string>
+    <string name="quaternary_variant_35_4">High salt absorption through the skin</string>
+
+    <string name="quaternary_question_36">Why is horseshoe crab blood important in modern medicine?</string>
+    <string name="quaternary_variant_36_1">It detects bacterial endotoxins</string>
+    <string name="quaternary_variant_36_2">It contains antibodies for cancer treatment</string>
+    <string name="quaternary_variant_36_3">It heals wounds rapidly</string>
+    <string name="quaternary_variant_36_4">It neutralizes snake venom</string>
+
+    <string name="quaternary_question_37">What is the only surviving species of the Ginkgophyta plant division?</string>
+    <string name="quaternary_variant_37_1">Ginkgo biloba</string>
+    <string name="quaternary_variant_37_2">Welwitschia mirabilis</string>
+    <string name="quaternary_variant_37_3">Sequoiadendron giganteum</string>
+    <string name="quaternary_variant_37_4">Thujopsis dolabrata</string>
+
+    <string name="quaternary_question_38">In which desert does Welwitschia grow?</string>
+    <string name="quaternary_variant_38_1">Namib Desert</string>
+    <string name="quaternary_variant_38_2">Sahara Desert</string>
+    <string name="quaternary_variant_38_3">Atacama Desert</string>
+    <string name="quaternary_variant_38_4">Gobi Desert</string>
+
+    <string name="quaternary_question_39">What makes tuatara unique among modern reptiles?</string>
+    <string name="quaternary_variant_39_1">They are the only living members of Rhynchocephalia</string>
+    <string name="quaternary_variant_39_2">They give live birth</string>
+    <string name="quaternary_variant_39_3">They have feathers</string>
+    <string name="quaternary_variant_39_4">They are amphibious</string>
+
+    <string name="quaternary_question_40">What is a notable feature of tuatara hatchlings?</string>
+    <string name="quaternary_variant_40_1">They have a visible "third eye"</string>
+    <string name="quaternary_variant_40_2">They are born with horns</string>
+    <string name="quaternary_variant_40_3">They are blind at birth</string>
+    <string name="quaternary_variant_40_4">They can fly short distances</string>
+
+    <string name="quaternary_question_41">Which extinct bird became a symbol of human-caused extinction?</string>
+    <string name="quaternary_variant_41_1">Dodo</string>
+    <string name="quaternary_variant_41_2">Moa</string>
+    <string name="quaternary_variant_41_3">Passenger pigeon</string>
+    <string name="quaternary_variant_41_4">Great auk</string>
+
+    <string name="quaternary_question_42">What did the dodo use to help digest food?</string>
+    <string name="quaternary_variant_42_1">Gizzard stones</string>
+    <string name="quaternary_variant_42_2">Special stomach acid</string>
+    <string name="quaternary_variant_42_3">Fermentation chambers</string>
+    <string name="quaternary_variant_42_4">Double intestines</string>
+
+    <string name="quaternary_question_43">Which modern reptile is believed to be a close relative of Megalania?</string>
+    <string name="quaternary_variant_43_1">Komodo dragon</string>
+    <string name="quaternary_variant_43_2">Tuatara</string>
+    <string name="quaternary_variant_43_3">Gila monster</string>
+    <string name="quaternary_variant_43_4">Green iguana</string>
+
+    <string name="quaternary_question_44">What made Megalania such an effective predator?</string>
+    <string name="quaternary_variant_44_1">Serrated blade-like teeth and massive size</string>
+    <string name="quaternary_variant_44_2">Camouflage scales and venomous tongue</string>
+    <string name="quaternary_variant_44_3">Ability to leap great distances</string>
+    <string name="quaternary_variant_44_4">Night vision and sonar</string>
+
+    <string name="quaternary_question_45">Why is the coelacanth often called a "living fossil"?</string>
+    <string name="quaternary_variant_45_1">It closely resembles ancient fossil fish from over 360 million years ago</string>
+    <string name="quaternary_variant_45_2">It has never evolved since the Jurassic period</string>
+    <string name="quaternary_variant_45_3">It uses stone tools to hunt</string>
+    <string name="quaternary_variant_45_4">Its blood is warm like a mammal\'s</string>
+
     <!--     BREAK      -->
 
     <string name="future_question_1">Does the humanity cause climate change?</string>
