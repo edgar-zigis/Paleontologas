@@ -66,17 +66,14 @@ private fun TimelineScreenUiImplementation(
         )
 
         LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(
-                    paddingValues = PaddingValues(
-                        start = 8.dp,
-                        top = 0.dp,
-                        end = 8.dp,
-                        bottom = 8.dp
-                    )
-                ),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
+            contentPadding = PaddingValues(
+                start = 8.dp,
+                top = 0.dp,
+                end = 8.dp,
+                bottom = 8.dp
+            ),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            modifier = Modifier.fillMaxSize()
         ) {
             items(viewState.periodItems) { item ->
                 HomeListItemView(
