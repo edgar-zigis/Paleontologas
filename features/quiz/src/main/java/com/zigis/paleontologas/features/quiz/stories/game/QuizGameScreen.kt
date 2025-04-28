@@ -148,7 +148,7 @@ private fun QuizGameScreenUiImplementation(
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(4.dp)
+                    .padding(8.dp)
                     .graphicsLayer(alpha = alpha)
                     .constrainAs(question) {
                         top.linkTo(artwork.bottom)
