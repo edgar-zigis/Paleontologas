@@ -84,7 +84,7 @@
     </array>
 
     <array name="cambrian_questions">
-        <!--    31   -->
+        <!--    48   -->
         <item>item_cambrian</item>
         <item>item_cambrian</item>
         <item>item_cambrian</item>
@@ -116,10 +116,27 @@
         <item>item_cambrian_opabinia</item>
         <item>item_cambrian_marrella</item>
         <item>item_cambrian_marrella</item>
+        <item>item_cambrian_treptichnus_pedum</item>
+        <item>item_cambrian_trilobita</item>
+        <item>item_cambrian</item>
+        <item>item_cambrian_archaeocyatha</item>
+        <item>item_cambrian_anomalocaris</item>
+        <item>item_cambrian_opabinia</item>
+        <item>item_cambrian_opabinia</item>
+        <item>item_cambrian_marrella</item>
+        <item>item_cambrian_trilobita</item>
+        <item>item_cambrian_hallucigenia</item>
+        <item>item_cambrian_conodonta</item>
+        <item>item_cambrian_myllokunmingia</item>
+        <item>item_cambrian_wiwaxia</item>
+        <item>item_cambrian_pikaia</item>
+        <item>item_cambrian_archaeocyatha</item>
+        <item>item_cambrian</item>
+        <item>item_cambrian_hallucigenia</item>
     </array>
 
     <array name="ordovician_questions">
-        <!--    16   -->
+        <!--    31   -->
         <item>item_ordovician</item>
         <item>item_ordovician</item>
         <item>item_ordovician</item>
@@ -136,10 +153,25 @@
         <item>item_ordovician_astraspis</item>
         <item>item_ordovician_astraspis</item>
         <item>item_ordovician_astraspis</item>
+        <item>item_ordovician</item>
+        <item>item_ordovician</item>
+        <item>item_ordovician</item>
+        <item>item_ordovician</item>
+        <item>item_ordovician_sacabambaspis_janvieri</item>
+        <item>item_ordovician_eurypterida</item>
+        <item>item_ordovician_orthoceras</item>
+        <item>item_ordovician_rugosa</item>
+        <item>item_ordovician_rugosa</item>
+        <item>item_ordovician_tabulata</item>
+        <item>item_ordovician</item>
+        <item>item_ordovician_astraspis</item>
+        <item>item_ordovician_sacabambaspis_janvieri</item>
+        <item>item_ordovician_orthoceras</item>
+        <item>item_ordovician</item>
     </array>
 
     <array name="silurian_questions">
-        <!--    20   -->
+        <!--    35   -->
         <item>item_silurian</item>
         <item>item_silurian</item>
         <item>item_silurian</item>
@@ -159,11 +191,26 @@
         <item>item_silurian_acanthodii</item>
         <item>item_silurian_entelognathus</item>
         <item>item_silurian_entelognathus</item>
+        <item>item_silurian_entelognathus</item>
+        <item>item_silurian</item>
+        <item>item_silurian</item>
+        <item>item_silurian_pneumodesmus</item>
+        <item>item_silurian_entelognathus</item>
+        <item>item_silurian_eurypterus</item>
+        <item>item_silurian_pneumodesmus</item>
+        <item>item_silurian_cooksonia</item>
+        <item>item_silurian_cooksonia</item>
+        <item>item_silurian_baragwanathia</item>
+        <item>item_silurian_acanthodii</item>
+        <item>item_silurian_entelognathus</item>
+        <item>item_silurian_cooksonia</item>
+        <item>item_silurian_baragwanathia</item>
+        <item>item_silurian_cooksonia</item>
         <item>item_silurian_entelognathus</item>
     </array>
 
     <array name="devonian_questions">
-        <!--    27   -->
+        <!--    42   -->
         <item>item_devonian</item>
         <item>item_devonian</item>
         <item>item_devonian</item>
@@ -190,11 +237,26 @@
         <item>item_devonian_cladoselache</item>
         <item>item_devonian_dunkleosteus</item>
         <item>item_devonian_dunkleosteus</item>
+        <item>item_devonian_dunkleosteus</item>
+        <item>item_devonian</item>
+        <item>item_devonian</item>
+        <item>item_devonian_wattieza</item>
+        <item>item_devonian_tiktaalik</item>
+        <item>item_devonian_dunkleosteus</item>
+        <item>item_devonian_materpiscis</item>
+        <item>item_devonian_acanthostega</item>
+        <item>item_devonian_cladoselache</item>
+        <item>item_devonian_acanthostega</item>
+        <item>item_devonian_prototaxites</item>
+        <item>item_devonian_bothriolepis</item>
+        <item>item_devonian</item>
+        <item>item_devonian_ichthyostega</item>
+        <item>item_devonian_archaeopteris</item>
         <item>item_devonian_dunkleosteus</item>
     </array>
 
     <array name="carboniferous_questions">
-        <!--    42   -->
+        <!--    57   -->
         <item>item_carboniferous</item>
         <item>item_carboniferous</item>
         <item>item_carboniferous</item>
@@ -236,11 +298,26 @@
         <item>item_carboniferous_arthropleura</item>
         <item>item_carboniferous_meganeura</item>
         <item>item_carboniferous_meganeura</item>
+        <item>item_carboniferous_meganeura</item>
+        <item>item_carboniferous</item>
+        <item>item_carboniferous</item>
+        <item>item_carboniferous</item>
+        <item>item_carboniferous_lepidodendron</item>
+        <item>item_carboniferous_sigillaria</item>
+        <item>item_carboniferous_calamites</item>
+        <item>item_carboniferous_helicoprion</item>
+        <item>item_carboniferous_pederpes</item>
+        <item>item_carboniferous_pterogyrinus</item>
+        <item>item_carboniferous_hylonomus</item>
+        <item>item_carboniferous_archaeothyris</item>
+        <item>item_carboniferous_pulmonoscorpius</item>
+        <item>item_carboniferous_arthropleura</item>
+        <item>item_carboniferous_arthropleura</item>
         <item>item_carboniferous_meganeura</item>
     </array>
 
     <array name="permian_questions">
-        <!--    21   -->
+        <!--    36   -->
         <item>item_permian</item>
         <item>item_permian</item>
         <item>item_permian</item>
@@ -262,10 +339,25 @@
         <item>item_permian_cynodontia</item>
         <item>item_permian_cynodontia</item>
         <item>item_permian_gorgonops</item>
+        <item>item_permian</item>
+        <item>item_permian</item>
+        <item>item_permian</item>
+        <item>item_permian_dimetrodon</item>
+        <item>item_permian_dimetrodon</item>
+        <item>item_permian_glossopteris</item>
+        <item>item_permian_titanophoneus</item>
+        <item>item_permian_estemmenosuchus</item>
+        <item>item_permian_gorgonops</item>
+        <item>item_permian_cynodontia</item>
+        <item>item_permian_cynodontia</item>
+        <item>item_permian</item>
+        <item>item_permian</item>
+        <item>item_permian</item>
+        <item>item_permian</item>
     </array>
 
     <array name="triassic_questions">
-        <!--    23   -->
+        <!--    38   -->
         <item>item_triassic</item>
         <item>item_triassic</item>
         <item>item_triassic</item>
@@ -289,10 +381,25 @@
         <item>item_triassic_mystriosuchus</item>
         <item>item_triassic_plateosaurus</item>
         <item>item_triassic_plateosaurus</item>
+        <item>item_triassic</item>
+        <item>item_triassic_morganucodon</item>
+        <item>item_triassic</item>
+        <item>item_triassic</item>
+        <item>item_triassic_ichthyosauria</item>
+        <item>item_triassic_pterosauria</item>
+        <item>item_triassic_sharovipteryx</item>
+        <item>item_triassic_lystrosaurus</item>
+        <item>item_triassic_tanystropheus</item>
+        <item>item_triassic_longisquama</item>
+        <item>item_triassic_bennettitales</item>
+        <item>item_triassic_mystriosuchus</item>
+        <item>item_triassic_plateosaurus</item>
+        <item>item_triassic_desmatosuchus</item>
+        <item>item_triassic_plesiosauria</item>
     </array>
 
     <array name="jurassic_questions">
-        <!--    13   -->
+        <!--    28   -->
         <item>item_jurassic</item>
         <item>item_jurassic</item>
         <item>item_jurassic</item>
@@ -306,10 +413,25 @@
         <item>item_jurassic_mamenchisaurus</item>
         <item>item_jurassic_stegosaurus</item>
         <item>item_jurassic_stegosaurus</item>
+        <item>item_jurassic</item>
+        <item>item_jurassic_mamenchisaurus</item>
+        <item>item_jurassic_allosaurus</item>
+        <item>item_jurassic_dilophosaurus</item>
+        <item>item_jurassic_epidexipteryx</item>
+        <item>item_jurassic_epidendrosaurus</item>
+        <item>item_jurassic_kentrosaurus</item>
+        <item>item_jurassic_liopleurodon</item>
+        <item>item_jurassic_archaeopteryx</item>
+        <item>item_jurassic_dimorphodon</item>
+        <item>item_jurassic_stegosaurus</item>
+        <item>item_jurassic</item>
+        <item>item_jurassic</item>
+        <item>item_jurassic</item>
+        <item>item_jurassic_dimorphodon</item>
     </array>
 
     <array name="cretaceous_questions">
-        <!--    27   -->
+        <!--    42   -->
         <item>item_cretaceous</item>
         <item>item_cretaceous</item>
         <item>item_cretaceous</item>
@@ -337,10 +459,25 @@
         <item>item_cretaceous_ammonite</item>
         <item>item_cretaceous_ammonite</item>
         <item>item_cretaceous_ammonite</item>
+        <item>item_cretaceous_triceratops</item>
+        <item>item_cretaceous_ankylosaurus</item>
+        <item>item_cretaceous_quetzalcoatlus</item>
+        <item>item_cretaceous_therizinosaurus</item>
+        <item>item_cretaceous_linhenykus</item>
+        <item>item_cretaceous_mosasaurus</item>
+        <item>item_cretaceous_triceratops</item>
+        <item>item_cretaceous_deinocherus</item>
+        <item>item_cretaceous_microraptor</item>
+        <item>item_cretaceous_tsintaosaurus</item>
+        <item>item_cretaceous_sarcosuchus</item>
+        <item>item_cretaceous_ammonite</item>
+        <item>item_cretaceous_velociraptor</item>
+        <item>item_cretaceous_spinosaurus</item>
+        <item>item_cretaceous_giganotosaurus</item>
     </array>
 
     <array name="paleogene_questions">
-        <!--    18   -->
+        <!--    33   -->
         <item>item_paleogene</item>
         <item>item_paleogene</item>
         <item>item_paleogene</item>
@@ -359,10 +496,25 @@
         <item>item_paleogene_daeodon</item>
         <item>item_paleogene_pyrotherium</item>
         <item>item_paleogene_pyrotherium</item>
+        <item>item_paleogene</item>
+        <item>item_paleogene</item>
+        <item>item_paleogene</item>
+        <item>item_paleogene</item>
+        <item>item_paleogene</item>
+        <item>item_paleogene_titanoboa</item>
+        <item>item_paleogene_gastornis</item>
+        <item>item_paleogene_basilosaurus</item>
+        <item>item_paleogene_paraceratherium</item>
+        <item>item_paleogene_daeodon</item>
+        <item>item_paleogene_pyrotherium</item>
+        <item>item_paleogene_archaeotherium</item>
+        <item>item_paleogene_arsinoitherium</item>
+        <item>item_paleogene</item>
+        <item>item_paleogene</item>
     </array>
 
     <array name="neogene_questions">
-        <!--    15   -->
+        <!--    35   -->
         <item>item_neogene</item>
         <item>item_neogene</item>
         <item>item_neogene</item>
@@ -378,10 +530,30 @@
         <item>item_neogene_megalodon</item>
         <item>item_neogene_livyatan</item>
         <item>item_neogene_livyatan</item>
+        <item>item_neogene_titanis</item>
+        <item>item_neogene_titanis</item>
+        <item>item_neogene_titanis</item>
+        <item>item_neogene_deinotherium</item>
+        <item>item_neogene_deinotherium</item>
+        <item>item_neogene</item>
+        <item>item_neogene</item>
+        <item>item_neogene</item>
+        <item>item_neogene_ardipithecus</item>
+        <item>item_neogene_titanis</item>
+        <item>item_neogene_megalodon</item>
+        <item>item_neogene_livyatan</item>
+        <item>item_neogene_deinotherium</item>
+        <item>item_neogene_deinotherium</item>
+        <item>item_neogene_platybelodon</item>
+        <item>item_neogene_platybelodon</item>
+        <item>item_neogene_stegotetrabelodon</item>
+        <item>item_neogene_titanis</item>
+        <item>item_neogene_argentavis</item>
+        <item>item_neogene_argentavis</item>
     </array>
 
     <array name="quaternary_questions">
-        <!--    30   -->
+        <!--    45   -->
         <item>item_quaternary</item>
         <item>item_quaternary</item>
         <item>item_quaternary</item>
@@ -412,6 +584,21 @@
         <item>item_quaternary_tuatara</item>
         <item>item_quaternary_homo</item>
         <item>item_quaternary_homo</item>
+        <item>item_quaternary_mammuthus</item>
+        <item>item_quaternary_coelodonta</item>
+        <item>item_quaternary_megatherium</item>
+        <item>item_quaternary_smilodon</item>
+        <item>item_quaternary_coelacanth</item>
+        <item>item_quaternary_xiphosura</item>
+        <item>item_quaternary_ginkgo</item>
+        <item>item_quaternary_welwitschia</item>
+        <item>item_quaternary_tuatara</item>
+        <item>item_quaternary_tuatara</item>
+        <item>item_quaternary_dodo</item>
+        <item>item_quaternary_dodo</item>
+        <item>item_quaternary_megalania</item>
+        <item>item_quaternary_megalania</item>
+        <item>item_quaternary_coelacanth</item>
     </array>
 
     <array name="future_questions">
