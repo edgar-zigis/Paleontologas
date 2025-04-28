@@ -38,7 +38,7 @@ import com.zigis.paleontologas.features.library.R
 @Composable
 fun HomeListItemView(
     item: TimelineListItem,
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
     onClick: (Int) -> Unit?
 ) {
     val context = LocalContext.current

@@ -1,6 +1,9 @@
 package com.zigis.paleontologas.features.library.stories.geologicalperiod
 
 import android.content.res.Configuration
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -23,9 +26,9 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -34,11 +37,13 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -51,6 +56,7 @@ import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.features.library.R
 import com.zigis.paleontologas.features.library.stories.geologicalperiod.list.GeologicalPeriodListItemView
+import kotlinx.coroutines.launch
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -82,6 +88,7 @@ private fun GeologicalPeriodScreenUiImplementation(
 ) {
     val context = LocalContext.current
     val scrollState = rememberScrollState()
+    val coroutineScope = rememberCoroutineScope()
 
     NavigableScaffold(
         title = context.getString(viewState.title),
@@ -212,62 +219,73 @@ private fun GeologicalPeriodScreenUiImplementation(
                 )
 
                 if (viewState.map.isNotBlank()) {
-                    var mapScale by remember { mutableFloatStateOf(1f) }
+                    val mapScale = remember { Animatable(1f) }
                     var mapOffset by remember { mutableStateOf(Offset.Zero) }
-
                     val minMapScale = 1f
                     val maxMapScale = 3f
+
+                    var size by remember { mutableStateOf(IntSize.Zero) }
 
                     Box(
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(4.dp)
-                    ) {
-                        Box(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(4.dp)
-                                .clipToBounds()
-                                .pointerInput(Unit) {
-                                    detectTransformGestures { _, pan, zoom, _ ->
-                                        val newScale = (mapScale * zoom).coerceIn(minMapScale, maxMapScale)
+                            .clipToBounds()
+                            .onSizeChanged {
+                                size = it
+                            }
+                            .pointerInput(Unit) {
+                                detectTransformGestures { _, pan, zoom, _ ->
+                                    val newScale = (mapScale.value * zoom).coerceIn(minMapScale, maxMapScale)
 
-                                        val maxX = (newScale - 1f) * size.width / 2
-                                        val maxY = (newScale - 1f) * size.height / 2
+                                    val maxX = (newScale - 1f) * size.width / 2
+                                    val maxY = (newScale - 1f) * size.height / 2
 
-                                        val newOffset = Offset(
-                                            x = (mapOffset.x + pan.x).coerceIn(-maxX, maxX),
-                                            y = (mapOffset.y + pan.y).coerceIn(-maxY, maxY)
-                                        )
-
-                                        mapScale = newScale
+                                    val newOffset = Offset(
+                                        x = (mapOffset.x + pan.x).coerceIn(-maxX, maxX),
+                                        y = (mapOffset.y + pan.y).coerceIn(-maxY, maxY)
+                                    )
+                                    coroutineScope.launch {
+                                        mapScale.snapTo(newScale)
                                         mapOffset = newOffset
                                     }
                                 }
-                                .pointerInput(Unit) {
-                                    detectTapGestures(
-                                        onDoubleTap = {
-                                            val newScale = (mapScale * 2f).coerceIn(minMapScale, maxMapScale)
-                                            mapScale = newScale
-                                            mapOffset = Offset.Zero
+                            }
+                            .pointerInput(Unit) {
+                                detectTapGestures(
+                                    onDoubleTap = {
+                                        val targetScale = if (mapScale.value >= maxMapScale) {
+                                            1f
+                                        } else {
+                                            (mapScale.value * 2f).coerceIn(minMapScale, maxMapScale)
                                         }
-                                    )
-                                }
-                        ) {
-                            Image(
-                                painter = painterResource(id = context.getDrawableId(viewState.map)),
-                                contentDescription = "LifeForm image",
-                                contentScale = ContentScale.Crop,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .graphicsLayer(
-                                        scaleX = mapScale,
-                                        scaleY = mapScale,
-                                        translationX = mapOffset.x,
-                                        translationY = mapOffset.y
-                                    )
-                            )
-                        }
+                                        coroutineScope.launch {
+                                            mapScale.animateTo(
+                                                targetScale,
+                                                animationSpec = tween(
+                                                    durationMillis = 300,
+                                                    easing = FastOutSlowInEasing
+                                                )
+                                            )
+                                        }
+                                        mapOffset = Offset.Zero
+                                    }
+                                )
+                            }
+                    ) {
+                        Image(
+                            painter = painterResource(id = context.getDrawableId(viewState.map)),
+                            contentDescription = "LifeForm image",
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .graphicsLayer(
+                                    scaleX = mapScale.value,
+                                    scaleY = mapScale.value,
+                                    translationX = mapOffset.x,
+                                    translationY = mapOffset.y
+                                )
+                        )
 
                         Text(
                             text = when (viewState.periodId) {
