@@ -2,7 +2,7 @@
 buildscript {
     ext {
         kotlin_version = '2.1.10'
-        room_version = '2.7.0'
+        room_version = '2.7.1'
         koin_version = '4.0.2'
     }
     repositories {
@@ -10,7 +10,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.7.3'
+        classpath 'com.android.tools.build:gradle:8.10.1'
         classpath 'com.google.gms:google-services:4.4.2'
         classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.3'
     }

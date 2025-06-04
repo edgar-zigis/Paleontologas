@@ -6,7 +6,7 @@ android {
 }
 
 dependencies {
-    api platform('androidx.compose:compose-bom:2025.04.00')
+    api platform('androidx.compose:compose-bom:2025.05.01')
     api 'androidx.lifecycle:lifecycle-viewmodel-compose'
     api 'androidx.lifecycle:lifecycle-runtime-compose'
     api 'androidx.activity:activity-compose'
@@ -17,18 +17,18 @@ dependencies {
     debugApi 'androidx.compose.ui:ui-tooling'
 
     api 'androidx.constraintlayout:constraintlayout-compose:1.1.1'
-    api 'androidx.navigation:navigation-compose:2.8.9'
+    api 'androidx.navigation:navigation-compose:2.9.0'
 
     api 'androidx.core:core-ktx:1.16.0'
     api 'androidx.core:core-splashscreen:1.0.1'
     api 'com.google.android.material:material:1.12.0'
 
-    api 'com.google.firebase:firebase-crashlytics:19.4.2'
+    api 'com.google.firebase:firebase-crashlytics:19.4.3'
     api 'com.google.firebase:firebase-analytics:22.4.0'
 
     api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1'
-    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7'
-    api 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.7'
+    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0'
+    api 'androidx.lifecycle:lifecycle-runtime-ktx:2.9.0'
 
     api 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3'
 
