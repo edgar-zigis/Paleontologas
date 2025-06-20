@@ -12,8 +12,15 @@ apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 android {
     compileSdk 35
 
+    def localProperties = new Properties()
+    def localPropertiesFile = rootProject.file("local.properties")
+    if (localPropertiesFile.exists()) {
+        localProperties.load(new FileInputStream(localPropertiesFile))
+    }
+    def googleServerClientId = localProperties.getProperty("serverClientId") ?: ""
+
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 35
 
         if (this.name == 'app') {
@@ -23,6 +30,8 @@ android {
         } else {
             consumerProguardFiles "consumer-rules.pro"
         }
+
+        buildConfigField "String", "GOOGLE_SERVER_CLIENT_ID", "\"${googleServerClientId}\""
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
