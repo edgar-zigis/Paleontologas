@@ -6,7 +6,7 @@ android {
 }
 
 dependencies {
-    api platform('androidx.compose:compose-bom:2025.06.00')
+    api platform('androidx.compose:compose-bom:2025.06.01')
     api 'androidx.lifecycle:lifecycle-viewmodel-compose'
     api 'androidx.lifecycle:lifecycle-runtime-compose'
     api 'androidx.activity:activity-compose'
@@ -38,6 +38,14 @@ dependencies {
 
     api "io.insert-koin:koin-android:$koin_version"
     api "io.insert-koin:koin-androidx-compose:$koin_version"
+
+    api platform("com.google.firebase:firebase-bom:33.15.0")
+    api 'com.google.firebase:firebase-auth'
+    api 'com.google.firebase:firebase-database'
+    api 'com.google.android.gms:play-services-auth:21.3.0'
+    api 'androidx.credentials:credentials-play-services-auth:1.5.0'
+    api 'com.google.android.libraries.identity.googleid:googleid:1.1.1'
+    api 'androidx.credentials:credentials:1.5.0'
 
     api 'org.greenrobot:eventbus:3.3.1'
 
