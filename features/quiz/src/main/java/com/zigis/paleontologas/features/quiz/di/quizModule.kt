@@ -1,6 +1,7 @@
 package com.zigis.paleontologas.features.quiz.di
 
 import com.zigis.paleontologas.features.quiz.data.QuestionDatabase
+import com.zigis.paleontologas.features.quiz.managers.CountryManager
 import com.zigis.paleontologas.features.quiz.managers.FirebaseDataManager
 import com.zigis.paleontologas.features.quiz.managers.QuizGameProcessor
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
@@ -18,6 +19,7 @@ val quizModule = module {
     factory { QuizGameProcessor(get(), get()) }
     single { QuizRouter(get()) }
     single { FirebaseDataManager(androidContext()) }
+    single { CountryManager() }
 
     factory { QuizProgressUseCase(get()) }
     factory { QuizGenerateQuestionsUseCase(get()) }
