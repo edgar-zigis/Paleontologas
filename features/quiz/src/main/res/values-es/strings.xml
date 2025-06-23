@@ -21,17 +21,34 @@
 
     <string name="correct_answered">Respuestas correctas </string>
 
-    <string name="result_10">¡Su conocimiento es impresionante!\n¿Ha pensado en dedicarse en serio a la paleontología? </string>
-    <string name="result_9">¡Estupendo, cercano a la perfección!</string>
-    <string name="result_8">¡Muy bien! ¡El signo de infinito girado indica que hay siempre opciones de mejorar!</string>
-    <string name="result_7">¡El número de la suerte! ¡Parece una buena señal!</string>
-    <string name="result_6">¡Más de la mitad! Menos da una piedra. </string>
-    <string name="result_5">Muchos estudiantes universitarios se conforman con esta puntuación, pero se puede hacer mejor. </string>
-    <string name="result_4">Bueno, salvo quizá en la Unión Soviética o en Francia, cuatro no es una puntuación muy allá. </string>
-    <string name="result_3">¡Creo que se puede hacer mejor!</string>
-    <string name="result_2">Dos es una señal, ¡de que sería buena idea aprender más!</string>
-    <string name="result_1">Lamentablemente no significa que sea usted un número uno en la materia. </string>
-    <string name="result_0">Sí, ¡un cero pelado!</string>
+    <string name="result_10">¡Lo tuyo es impresionante!\n¿Acaso vienes directo del Jurásico? ¡Piensa seriamente en ser paleontólogo!</string>
+    <string name="result_9">¡Gran resultado!\nCasi perfecto, solo un fósil se te escapó.</string>
+    <string name="result_8">¡Muy bien hecho!\nEl símbolo del infinito girado te recuerda que siempre se puede mejorar.</string>
+    <string name="result_7">¡Siete, número de la suerte!\nDefinitivamente es una buena señal.</string>
+    <string name="result_6">¡Más de la mitad está bien!\nNo es la cima del conocimiento, pero es un buen comienzo.</string>
+    <string name="result_5">Este es el clásico aprobado justo…\nComo dirían los estudiantes: “con esto paso”. ¡Pero puedes dar más!</string>
+    <string name="result_4">Hmm… en algunos países sería suficiente, pero aquí no impresiona mucho.</string>
+    <string name="result_3">¡Toca esforzarse más!\nPor ahora, sigues en territorio prehistórico.</string>
+    <string name="result_2">Dos aciertos…\nTu cerebro necesita menos fósiles y más estudio.</string>
+    <string name="result_1">Uno solo…\nY no, no significa que quedaste en primer lugar.</string>
+    <string name="result_0">¡Cero redondo!\nPero al menos eres una especie única en tu tipo.</string>
+
+    <string name="error_account_name_already_exists">¡Este nombre de usuario ya existe!</string>
+    <string name="error_account_name_not_allowed">¡Este nombre de usuario no está permitido!</string>
+    <string name="error_no_internet_connection">¡Error de conexión! Por favor, inténtalo de nuevo más tarde.</string>
+
+    <string name="leaderboard">Tabla de clasificación</string>
+    <string name="leaderboard_invitation_title">¿Quieres unirte a la diversión?</string>
+    <string name="leaderboard_invitation_description">Crea una cuenta y compite con los mejores entusiastas de la paleontología.</string>
+    <string name="leaderboard_invitation_button_label">¡Crea una cuenta!</string>
+
+    <string name="leaderboard_global_ranking_title">¡Tu clasificación global es la número #%d!</string>
+    <string name="leaderboard_global_ranking_description">Responde preguntas del quiz: cada respuesta correcta te da +1 XP. Si logras una puntuación perfecta de 10 sobre 10, ¡tu XP se duplicará!</string>
+
+    <string name="leaderboard_modal_claim_username_title">¡Reclama tu nombre de usuario!</string>
+    <string name="leaderboard_modal_claim_username_description">Tu nombre de usuario aparecerá en la tabla de clasificación.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Introduce tu nombre de usuario</string>
+    <string name="leaderboard_xp_earned_label">¡Has obtenido %d XP!</string>
 
     <string name="hadean_question_1">¿Cuándo comenzó el eón Hadeano?</string>
     <string name="hadean_variant_1_1">4560 millones de años</string>

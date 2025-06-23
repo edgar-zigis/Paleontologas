@@ -22,17 +22,34 @@
 
     <string name="correct_answered">Correct answers</string>
 
-    <string name="result_10">Your knowledge is just terrific!\nYou should definitely think about paleontological career?</string>
-    <string name="result_9">Great result, close to the perfection!</string>
-    <string name="result_8">Really good result! Rotated infinity sign shows, that there is always room to improve!</string>
-    <string name="result_7">Lucky number! I think, this is a good sign!</string>
-    <string name="result_6">More than half, better than nothing!</string>
-    <string name="result_5">University students really want this mark, but you can be better!</string>
-    <string name="result_4">Well, it is not a Soviet Union or France, four is not a great mark!</string>
-    <string name="result_3">I think you should try better!</string>
-    <string name="result_2">Two is a sign, that you should consider studying more!</string>
-    <string name="result_1">Unfortunately, it doesn\'t mean that you are first..</string>
-    <string name="result_0">Yes, just a round zero!</string>
+    <string name="result_10">You absolutely nailed it!\nWere you resurrected from the Jurassic? Consider a career in paleontology!</string>
+    <string name="result_9">Almost perfect!\nJust one tiny fossil slipped through your fingers.</string>
+    <string name="result_8">You\'re really digging deep!\nJust a few more bones to uncover.</string>
+    <string name="result_7">Lucky seven!\nYour brain might be part archaeopteryx.</string>
+    <string name="result_6">Over half right!\nThat\’s more than a T. rex could count on its claws.</string>
+    <string name="result_5">Right in the middle — a classic \‘I skimmed the textbook\’ score!</string>
+    <string name="result_4">Not bad… unless you\'re grading on a prehistoric curve.</string>
+    <string name="result_3">Three correct answers!\nAt least you\'re consistent with trilobites.</string>
+    <string name="result_2">Two? That’s a dinosaur\'s IQ level… so you\'re not alone!</string>
+    <string name="result_1">One lonely answer&#8230;\nBut hey, even the worst fossils become museum-worthy someday!</string>
+    <string name="result_0">A perfect zero!\nYou\'ve just invented the extinct knowledge category.</string>
+
+    <string name="error_account_name_already_exists">This username already exists!</string>
+    <string name="error_account_name_not_allowed">This username is not allowed!</string>
+    <string name="error_no_internet_connection">Connection error! Please try again later.</string>
+
+    <string name="leaderboard">Leaderboard</string>
+    <string name="leaderboard_invitation_title">Want to join the fun?</string>
+    <string name="leaderboard_invitation_description">Create an account and compete with the top paleontology enthusiasts!</string>
+    <string name="leaderboard_invitation_button_label">Create an account!</string>
+
+    <string name="leaderboard_global_ranking_title">Your global ranking is #%d!</string>
+    <string name="leaderboard_global_ranking_description">Answer quiz questions - each correct answer gives you +1 XP. If you achieve a perfect score of 10 out of 10, your earned XP will be doubled!</string>
+
+    <string name="leaderboard_modal_claim_username_title">Claim your username!</string>
+    <string name="leaderboard_modal_claim_username_description">Your username will be displayed on the leaderboard.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Enter username</string>
+    <string name="leaderboard_xp_earned_label">You’ve claimed %d XP!</string>
 
     <string name="hadean_question_1">When did the Hadean Eon begin?</string>
     <string name="hadean_variant_1_1">4560 mya</string>

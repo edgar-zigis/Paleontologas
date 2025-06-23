@@ -22,17 +22,34 @@
 
     <string name="correct_answered">Pravilni odgovori</string>
 
-    <string name="result_10">Vaše znanje je neverjetno! Ste kdaj razmišljali o paleontološki karieri?</string>
-    <string name="result_9">Odličen rezultat, blizu popolnosti!</string>
-    <string name="result_8"> Res dober rezultat! Zaviti znak neskončnosti kaže, da se znanje vedno lahko izboljša! </string>
-    <string name="result_7">Srečna številka! To je zagotovo dober znak!</string>
-    <string name="result_6">Več kot polovica, bolje kot nič!</string>
-    <string name="result_5">Učenci si močno želijo tak rezultat, vendar ste lahko boljši!</string>
-    <string name="result_4">No, to ni Sovjetska zveza ali Francija, da bi bila štirica dober rezultat!</string>
-    <string name="result_3">Mislim, da bi morali poskusiti še enkrat!</string>
-    <string name="result_2">Dva je znak, da bi morali razmisliti o vašem učenju!</string>
-    <string name="result_1">Na žalost to ne pomeni, da ste prvi...</string>
-    <string name="result_0">Da, samo okrogla ničla!</string>
+    <string name="result_10">Vrhunsko!\nSi morda osebno poznal dinozavre? Razmisli o karieri v paleontologiji!</string>
+    <string name="result_9">Odličen rezultat!\nSkoraj popolno – samo en fosil ti je pobegnil.</string>
+    <string name="result_8">Zelo dobro!\nKopal si globoko, a vedno se najde še kakšna kost več.</string>
+    <string name="result_7">Srečna sedmica!\nTole mora biti znamenje iz prazgodovine.</string>
+    <string name="result_6">Več kot polovica pravilno!\nTo je več, kot bi jih T. rex preštel s svojimi kremplji.</string>
+    <string name="result_5">Na pol poti – klasičen rezultat ‘sem preletel snov’. Lahko greš še dlje!</string>
+    <string name="result_4">Ni najslabše…\nAmpak z dinozavri še ne bi mogel razpravljati.</string>
+    <string name="result_3">Trije pravilni odgovori.\nZa začetek kar solidno – zdaj pa lopato v roke!</string>
+    <string name="result_2">Dva?\nTo je približno IQ enega povprečnega dinozavra. Dobra novica: nisi edini!</string>
+    <string name="result_1">Eden samcat odgovor…\nIn ne, to ne pomeni, da si prvi.</string>
+    <string name="result_0">Popolna ničla!\nOdkril si novo vrsto: izumrlo znanje.</string>
+
+    <string name="error_account_name_already_exists">To uporabniško ime že obstaja!</string>
+    <string name="error_account_name_not_allowed">To uporabniško ime ni dovoljeno!</string>
+    <string name="error_no_internet_connection">Napaka pri povezavi! Poskusi znova pozneje.</string>
+
+    <string name="leaderboard">Lestvica najboljših</string>
+    <string name="leaderboard_invitation_title">Se želiš pridružiti zabavi?</string>
+    <string name="leaderboard_invitation_description">Ustvari račun in tekmuj z najboljšimi paleontološkimi navdušenci!</string>
+    <string name="leaderboard_invitation_button_label">Ustvari račun!</string>
+
+    <string name="leaderboard_global_ranking_title">Tvoja globalna uvrstitev je #%d!</string>
+    <string name="leaderboard_global_ranking_description">Odgovarjaj na kviz vprašanja – za vsak pravilen odgovor prejmeš +1 XP. Če dosežeš popoln rezultat 10 od 10, se tvoj XP podvoji!</string>
+
+    <string name="leaderboard_modal_claim_username_title">Zahtevaj svoje uporabniško ime!</string>
+    <string name="leaderboard_modal_claim_username_description">Tvoje uporabniško ime bo prikazano na lestvici najboljših.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Vnesi uporabniško ime</string>
+    <string name="leaderboard_xp_earned_label">Prejel si %d XP!</string>
 
     <string name="hadean_question_1">Kdaj se je začel Hadijski eon?</string>
     <string name="hadean_variant_1_1">4560 milijonov let</string>

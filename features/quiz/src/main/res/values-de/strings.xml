@@ -21,17 +21,34 @@
 
     <string name="correct_answered">richtig beantwortet</string>
 
-    <string name="result_10">Dein Wissen ist beeindruckend!\n Schonmal über eine Karriere in der Paläontologie nachgedacht?</string>
-    <string name="result_9">Sehr schönes Ergebnis, FAST perfekt!</string>
-    <string name="result_8">Wirklich gutes Ergebnis! Aber es gibt noch die Möglichkeit besser zu werden!</string>
-    <string name="result_7">Glückszahl! Ich glaub’ ,das ist ein gutes Zeichen!</string>
-    <string name="result_6">Mehr als die Hälfte, besser als nichts!</string>
-    <string name="result_5">Studenten wollen nichts lieber, als diese Note zu erreichen, aber du kannst das besser!</string>
-    <string name="result_4">Hmm, in einer russischen Schule würde das Ergebnis “gut” sein!</string>
-    <string name="result_3">Ich denke das kannst du besser!</string>
-    <string name="result_2">Zwei ist ein Zeichen, dass du noch ein bisschen was vor dir hast..</string>
-    <string name="result_1">Leider wurdest du nicht Erster..</string>
-    <string name="result_0">YES, glatte Null!</string>
+    <string name="result_10">Du bist der absolute Wahnsinn!\nBist du vielleicht ein Zeitreisender aus dem Jura? Denk ernsthaft über eine Karriere in der Paläontologie nach!</string>
+    <string name="result_9">Super Ergebnis!\nFast perfekt – nur ein winziges Fossil ist dir entwischt.</string>
+    <string name="result_8">Richtig gut gemacht!\nDas liegende Unendlich-Zeichen zeigt: Luft nach oben gibt’s immer.</string>
+    <string name="result_7">Sieben – eine Glückszahl!\nDas Universum scheint dir wohlgesonnen zu sein.</string>
+    <string name="result_6">Mehr als die Hälfte geschafft!\nDefinitiv besser als nichts – weiter so!</string>
+    <string name="result_5">Das ist so ein typisches Studenten-Ergebnis:\ngerade noch durchgekommen, aber du kannst mehr!</string>
+    <string name="result_4">Hmm… in der Sowjetunion vielleicht ein Lob, aber hier nicht gerade berauschend.</string>
+    <string name="result_3">Da geht noch was!\nGrab ein bisschen tiefer nach Wissen.</string>
+    <string name="result_2">Zwei Punkte…\nEin Dinosaurier hätte das gleiche geschafft. Zeit zum Lernen!</string>
+    <string name="result_1">Nur eine richtige Antwort…\nUnd nein, das heißt nicht, dass du Erster bist.</string>
+    <string name="result_0">Null Punkte!\nAber hey – so viel Konsequenz ist auch irgendwie beeindruckend.</string>
+
+    <string name="error_account_name_already_exists">Dieser Benutzername existiert bereits!</string>
+    <string name="error_account_name_not_allowed">Dieser Benutzername ist nicht erlaubt!</string>
+    <string name="error_no_internet_connection">Verbindungsfehler! Bitte versuche es später erneut.</string>
+
+    <string name="leaderboard">Bestenliste</string>
+    <string name="leaderboard_invitation_title">Willst du beim Spaß dabei sein?</string>
+    <string name="leaderboard_invitation_description">Erstelle ein Konto und tritt gegen die besten Paläontologie-Enthusiasten an!</string>
+    <string name="leaderboard_invitation_button_label">Konto erstellen!</string>
+
+    <string name="leaderboard_global_ranking_title">Dein weltweites Ranking ist Platz #%d!</string>
+    <string name="leaderboard_global_ranking_description">Beantworte Quizfragen – jede richtige Antwort bringt dir +1 XP. Wenn du alle 10 Fragen richtig beantwortest, wird dein XP verdoppelt!</string>
+
+    <string name="leaderboard_modal_claim_username_title">Sichere dir deinen Benutzernamen!</string>
+    <string name="leaderboard_modal_claim_username_description">Dein Benutzername wird in der Bestenliste angezeigt.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Benutzernamen eingeben</string>
+    <string name="leaderboard_xp_earned_label">Du hast %d XP erhalten!</string>
 
     <string name="hadean_question_1">Wann begann das Hadaikum?</string>
     <string name="hadean_variant_1_1">4560 Mio. Jahre</string>

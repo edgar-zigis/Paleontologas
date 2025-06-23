@@ -22,17 +22,34 @@
 
     <string name="correct_answered">Teisingai atsakyta</string>
 
-    <string name="result_10">Jūsų žinios yra tikrai puikios!\nGal reikėtų susimąstyti apie tapimą paleontologu?</string>
-    <string name="result_9">Labai geras rezultatas, iki tobulo pritrūko visai nedaug!</string>
-    <string name="result_8">Tikrai geras rezultatas, pasuktas begalybės ženklas byloja, kad dar yra kur tobulėti!</string>
-    <string name="result_7">Laimingas skaičius! Manau jis nusako, kad kitą kartą rezultatas bus geresnis!</string>
-    <string name="result_6">Daugiau negu pusė, jau šis tas!</string>
-    <string name="result_5">Aukštojo mokslo studentų norimiausias pažymys, bet reiktų pasistengti geriau!</string>
-    <string name="result_4">Jeigu būtume dar Sovietų Sąjungoje, tai ketvertas būtų dar visai nieko, bet deja!</string>
-    <string name="result_3">Manau, kad reiktų kiek labiau pasistengti, nes galite geriau!</string>
-    <string name="result_2">Dvejetas visada reiškia, kad tikrai reikėtų susimąstyti!</string>
-    <string name="result_1">Deja, šiuo atveju vienetas nereiškia, kad esate pirmas..</string>
-    <string name="result_0">Taip, tai apvalus nulis!</string>
+    <string name="result_10">Tu nerealus!\nGal tu iš tikrųjų esi atgimęs iš Juros periodo? Rimtai pagalvok apie karjerą paleontologijoje!</string>
+    <string name="result_9">Puikus rezultatas!\nVos per plauką nuo tobulumo – pradingo tik vienas fosiliukas.</string>
+    <string name="result_8">Labai gerai sekėsi!\nDar keli kauliukai, ir būtum radęs viską.</string>
+    <string name="result_7">Septyni – laimingas skaičius!\nGal tavo smegenys turi archeopterikso genų?</string>
+    <string name="result_6">Daugiau nei pusė teisingai!\nT. rex‘as tiek pirštų neturi, kiek tu surinkai taškų.</string>
+    <string name="result_5">Vidutiniškai – tarsi būtum tik greitai peržvelgęs medžiagą prieš testą!</string>
+    <string name="result_4">Na… geriau nei nieko,\nbet tai vis dar nėra dinozauro dydžio pasiekimas.</string>
+    <string name="result_3">Trys atsakymai teisingi!\nEsi toks pat patikimas kaip trilobitas – irgi išnykęs, bet svarbus.</string>
+    <string name="result_2">Du? Tiek turėjo IQ vidutinis dinozauras…\nVadinasi, nesi vienas!</string>
+    <string name="result_1">Vienas teisingas…\nBet net ir blogiausi fosilijų pavyzdžiai patenka į muziejus!</string>
+    <string name="result_0">Apvalus nulis!\nSveikinimai – ką tik atradai naują žinių kategoriją.</string>
+
+    <string name="error_account_name_already_exists">Šis vartotojo vardas jau egzistuoja!</string>
+    <string name="error_account_name_not_allowed">Šis vartotojo vardas neleidžiamas!</string>
+    <string name="error_no_internet_connection">Ryšio klaida! Bandykite dar kartą vėliau.</string>
+
+    <string name="leaderboard">Lyderių lentelė</string>
+    <string name="leaderboard_invitation_title">Nori dalyvauti?</string>
+    <string name="leaderboard_invitation_description">Susikurk paskyrą ir varžykis su geriausiais paleontologijos entuziastais!</string>
+    <string name="leaderboard_invitation_button_label">Susikurk paskyrą!</string>
+
+    <string name="leaderboard_global_ranking_title">Tavo pasaulinis reitingas – #%d!</string>
+    <string name="leaderboard_global_ranking_description">Atsakyk į žaidimo klausimus – už kiekvieną teisingą atsakymą gausi +1 XP. Jei atsakysi teisingai į visus 10 klausimų, tavo XP bus padvigubinti!</string>
+
+    <string name="leaderboard_modal_claim_username_title">Pasiimk savo slapyvardį!</string>
+    <string name="leaderboard_modal_claim_username_description">Tavo vartotojo vardas bus rodomas reitingų lentelėje.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Įveskite slapyvardį</string>
+    <string name="leaderboard_xp_earned_label">Gavai %d XP!</string>
 
     <string name="hadean_question_1">Kada prasidėjo Hadėjaus eonas?</string>
     <string name="hadean_variant_1_1">4560 milijonų metų</string>

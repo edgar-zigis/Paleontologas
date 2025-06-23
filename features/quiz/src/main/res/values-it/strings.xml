@@ -22,17 +22,34 @@
 
     <string name="correct_answered">Risposte corrette</string>
 
-    <string name="result_10"> La tua conoscenza è semplicemente fantastica!\nDovresti assolutamente pensare alla carriera paleontologica?</string>
-    <string name="result_9">Ottimo risultato, vicino alla perfezione!</string>
-    <string name="result_8">Risultato davvero ottimo! Il segno dell\'infinito ruotato mostra che c\'è sempre spazio per migliorare!</string>
-    <string name="result_7">Numero fortunato! Penso che questo sia un buon segno!</string>
-    <string name="result_6">Più della metà, meglio di niente!</string>
-    <string name="result_5">Gli studenti universitari vogliono davvero questo voto, ma tu puoi essere migliore!</string>
-    <string name="result_4">Beh, non è l\'Unione Sovietica o la Francia, quattro non è un grande marchio!</string>
-    <string name="result_3">Penso che dovresti provare meglio!</string>
-    <string name="result_2">Due è un segno che dovresti considerare di studiare di più!</string>
-    <string name="result_1">Sfortunatamente, non significa che tu sia il primo..</string>
-    <string name="result_0">Sì, solo uno zero rotondo!</string>
+    <string name="result_10">Hai fatto centro!\nSei sicuro di non essere tornato dal Giurassico? Una carriera da paleontologo ti aspetta!</string>
+    <string name="result_9">Ottimo risultato!\nQuasi perfetto – ti è sfuggito solo un fossile minuscolo.</string>
+    <string name="result_8">Molto bene!\nSei sulla buona strada, ma ci sono ancora un paio di ossa da scavare.</string>
+    <string name="result_7">Sette – numero fortunato!\nForse è un segno evolutivo… o solo una buona giornata.</string>
+    <string name="result_6">Hai superato la metà!\nMeglio di quanto un T. rex potrebbe contare con le dita.</string>
+    <string name="result_5">Esattamente a metà – il classico voto da ‘ho studiato un po’, ma non troppo’. Dai che puoi migliorare!</string>
+    <string name="result_4">Non è disastroso…\nMa anche i dinosauri si estinsero, ricordi?</string>
+    <string name="result_3">Tre risposte giuste…\nÈ un inizio. Prova a scavare un po’ più a fondo la prossima volta.</string>
+    <string name="result_2">Due? Questo è il QI medio di un dinosauro… quindi non sei solo.</string>
+    <string name="result_1">Solo una risposta corretta…\nE no, non significa che sei arrivato primo.</string>
+    <string name="result_0">Zero assoluto!\nHai appena scoperto la specie più rara: l’ignoranza preistorica.</string>
+
+    <string name="error_account_name_already_exists">Questo nome utente esiste già!</string>
+    <string name="error_account_name_not_allowed">Questo nome utente non è consentito!</string>
+    <string name="error_no_internet_connection">Errore di connessione! Riprova più tardi.</string>
+
+    <string name="leaderboard">Classifica</string>
+    <string name="leaderboard_invitation_title">Vuoi unirti al divertimento?</string>
+    <string name="leaderboard_invitation_description">Crea un account e sfida i migliori appassionati di paleontologia!</string>
+    <string name="leaderboard_invitation_button_label">Crea un account!</string>
+
+    <string name="leaderboard_global_ranking_title">La tua posizione globale è la numero #%d!</string>
+    <string name="leaderboard_global_ranking_description">Rispondi alle domande del quiz: ogni risposta corretta ti dà +1 XP. Se ottieni un punteggio perfetto di 10 su 10, i tuoi XP saranno raddoppiati!</string>
+
+    <string name="leaderboard_modal_claim_username_title">Rivendica il tuo nome utente!</string>
+    <string name="leaderboard_modal_claim_username_description">Il tuo nome utente sarà visibile nella classifica.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Inserisci il nome utente</string>
+    <string name="leaderboard_xp_earned_label">Hai ottenuto %d XP!</string>
 
     <string name="hadean_question_1">Quando è iniziato l\'Eone Adeano?</string>
     <string name="hadean_variant_1_1">4560 milioni di anni fa</string>
