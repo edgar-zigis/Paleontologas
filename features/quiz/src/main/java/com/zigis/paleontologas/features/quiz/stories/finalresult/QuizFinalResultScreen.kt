@@ -33,6 +33,7 @@ import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
 import com.zigis.paleontologas.features.quiz.utilities.QuizMarkUtility
@@ -116,6 +117,25 @@ private fun QuizFinalResultScreenUiImplementation(
                     .padding(top = 16.dp)
             )
 
+            if (viewState.isParticipatingInLeaderboard) {
+                Text(
+                    text = context.getString(
+                        R.string.leaderboard_xp_earned_label,
+                        if (viewState.mark == 10) 20 else viewState.mark
+                    ),
+                    color = ThemeColors.Success,
+                    style = TextStyle(
+                        fontSize = 14.sp,
+                        fontFamily = ThemeFonts.Gilroy,
+                        fontWeight = FontWeight.Medium
+                    ),
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 4.dp)
+                )
+            }
+
             Text(
                 text = context.getString(
                     QuizMarkUtility.getMarkDescription(viewState.mark)
@@ -155,7 +175,8 @@ private fun QuizFinalResultScreenPreview() {
     QuizFinalResultScreenUiImplementation(
         viewState = QuizFinalResultViewState(
             mark = 8,
-            totalQuestions = 10
+            totalQuestions = 10,
+            isParticipatingInLeaderboard = true
         )
     ) {
         //  here intents are being sent
