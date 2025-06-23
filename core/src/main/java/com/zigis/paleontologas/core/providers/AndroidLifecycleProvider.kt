@@ -30,6 +30,10 @@ class AndroidLifecycleProvider(
         return getActivity() ?: applicationContext
     }
 
+    fun getApplicationContext(): Context {
+        return applicationContext
+    }
+
     private fun setActivity(activity: Activity) {
         if (currentActivity != activity) {
             currentActivity = activity

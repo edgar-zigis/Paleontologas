@@ -38,9 +38,21 @@ class ApplicationPreferences(
             }
         }
 
+    var isPremiumUser: Boolean
+        get() {
+            return preferences.getBoolean(premiumUserEnabled, true)
+        }
+        set(value) {
+            with(preferences.edit()) {
+                putBoolean(premiumUserEnabled, value)
+                commit()
+            }
+        }
+
     companion object {
         private const val localeId = "applicationLocale"
         private const val versionId = "applicationVersion"
         private const val vibrationSettings = "applicationVibrationSettings"
+        private const val premiumUserEnabled = "applicationPremiumUserEnabled"
     }
 }

@@ -8,6 +8,7 @@ dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
     implementation 'com.airbnb.android:lottie-compose:6.6.2'
+    implementation 'com.android.billingclient:billing-ktx:7.1.1'
 
     implementation project(':core')
 }
