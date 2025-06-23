@@ -1,12 +1,10 @@
 package com.zigis.paleontologas.features.quiz.managers
 
 import com.android.billingclient.api.*
-import com.zigis.paleontologas.core.extensions.resumeSafely
 import com.zigis.paleontologas.core.preferences.ApplicationPreferences
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
 
 class PaywallManager(
@@ -72,25 +70,26 @@ class PaywallManager(
         })
     }
 
-    private suspend fun queryProductDetails(): ProductDetails? = withContext(Dispatchers.IO) {
-        val params = QueryProductDetailsParams.newBuilder()
-            .setProductList(
-                listOf(
-                    QueryProductDetailsParams.Product.newBuilder()
-                        .setProductId(productId)
-                        .setProductType(BillingClient.ProductType.INAPP)
-                        .build()
-                )
-            ).build()
+    private suspend fun queryProductDetails(): ProductDetails? {
+        val params = QueryProductDetailsParams
+            .newBuilder()
+            .setProductList(listOf(
+                QueryProductDetailsParams.Product.newBuilder()
+                    .setProductId(productId)
+                    .setProductType(BillingClient.ProductType.INAPP)
+                    .build()
+            ))
+            .build()
 
-        return@withContext suspendCancellableCoroutine { continuation ->
-            billingClient.queryProductDetailsAsync(params) { result, detailsList ->
-                if (result.responseCode == BillingClient.BillingResponseCode.OK) {
-                    continuation.resumeSafely(detailsList.firstOrNull())
-                } else {
-                    continuation.resumeSafely(null)
-                }
-            }
+        val productDetailsResult = withContext(Dispatchers.IO) {
+            billingClient.queryProductDetails(params)
+        }
+
+        val responseCode = productDetailsResult.billingResult.responseCode
+        return if (responseCode == BillingClient.BillingResponseCode.OK) {
+            productDetailsResult.productDetailsList?.firstOrNull()
+        } else {
+            null
         }
     }
 
