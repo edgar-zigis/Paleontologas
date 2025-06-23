@@ -22,17 +22,34 @@
 
     <string name="correct_answered">Réponses correctes</string>
 
-    <string name="result_10">Vos connaissances sont juste monstrueuses! Vous devriez songer à une carrière paléontologique?</string>
-    <string name="result_9">Très bon résultat, proche de la perfection!</string>
-    <string name="result_8">Bon résultat! Mais il y a toujours moyen de s’améliorer!</string>
-    <string name="result_7">Un chiffre qui porte chance! Je pense que c’est un bon signe!</string>
-    <string name="result_6">Plus de la moitié, c’est mieux que rien!</string>
-    <string name="result_5">Les étudiants veulent généralement la moyenne, mais vous, vous pouvez faire mieux!</string>
-    <string name="result_4">Quatre n’est pas un bon chiffre!</string>
-    <string name="result_3">Vous pouvez faire mieux!</string>
-    <string name="result_2">Deux, c’est un signe que vous devriez mieux étudier!</string>
-    <string name="result_1">Malheureusement, ça ne veut pas dire que vous êtes premier..</string>
-    <string name="result_0">Zéro pointé!</string>
+    <string name="result_10">Tu es une vraie encyclopédie préhistorique !\nTu devrais sérieusement envisager une carrière en paléontologie.</string>
+    <string name="result_9">Excellent score !\nTu es passé à deux doigts de la perfection. Un seul fossile a glissé entre tes doigts.</string>
+    <string name="result_8">Très bon résultat !\nIl ne te manque que quelques os à déterrer.</string>
+    <string name="result_7">Sept, le chiffre porte-bonheur !\nC’est peut-être un signe du destin (ou des dinos).</string>
+    <string name="result_6">Plus de la moitié, c’est déjà pas mal !\nUn T. rex ne pourrait pas en compter autant avec ses griffes.</string>
+    <string name="result_5">Pile au milieu — le fameux score « j’ai un peu lu, mais pas trop ».\nTu peux faire mieux !</string>
+    <string name="result_4">Pas terrible…\nMême dans une grotte préhistorique, ce ne serait pas une note impressionnante.</string>
+    <string name="result_3">Trois bonnes réponses, c’est un début !\nMais il va falloir creuser un peu plus profond.</string>
+    <string name="result_2">Deux réponses…\nC’est à peu près le QI moyen d’un stégosaure. Tu n’es pas seul.</string>
+    <string name="result_1">Une seule bonne réponse…\nEt non, ça ne veut pas dire que tu es le numéro un.</string>
+    <string name="result_0">Zéro pointé !\nMais au moins, tu as battu un record d’extinction des connaissances.</string>
+
+    <string name="error_account_name_already_exists">Ce nom d’utilisateur existe déjà !</string>
+    <string name="error_account_name_not_allowed">Ce nom d’utilisateur n’est pas autorisé !</string>
+    <string name="error_no_internet_connection">Erreur de connexion ! Veuillez réessayer plus tard.</string>
+
+    <string name="leaderboard">Classement</string>
+    <string name="leaderboard_invitation_title">Envie de rejoindre l’aventure ?</string>
+    <string name="leaderboard_invitation_description">Crée un compte et mesure-toi aux meilleurs passionnés de paléontologie !</string>
+    <string name="leaderboard_invitation_button_label">Créer un compte !</string>
+
+    <string name="leaderboard_global_ranking_title">Votre classement mondial est n°%d !</string>
+    <string name="leaderboard_global_ranking_description">Répondez aux questions du quiz : chaque bonne réponse vous rapporte +1 XP. Si vous obtenez un score parfait de 10 sur 10, vos XP seront doublés !</string>
+
+    <string name="leaderboard_modal_claim_username_title">Réclamez votre nom d’utilisateur !</string>
+    <string name="leaderboard_modal_claim_username_description">Votre nom d’utilisateur apparaîtra dans le classement.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Entrez votre nom d’utilisateur</string>
+    <string name="leaderboard_xp_earned_label">Vous avez obtenu %d XP !</string>
 
     <string name="hadean_question_1">Quand a commencé l’éon Hadéen ?</string>
     <string name="hadean_variant_1_1">4560 millions d\'années</string>

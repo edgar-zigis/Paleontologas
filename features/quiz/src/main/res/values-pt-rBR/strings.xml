@@ -22,17 +22,34 @@
 
     <string name="correct_answered">Respostas corretas</string>
 
-    <string name="result_10">Seu conhecimento é simplesmente impressionante!\nVocê definitivamente deveria pensar em seguir a carreira paleontológica!</string>
-    <string name="result_9">Ótimo resultado, quase perfeito!</string>
-    <string name="result_8">Resultado muito bom! O sinal de infinito girado significa que sempre é possível melhorar!</string>
-    <string name="result_7">Número da sorte! Acho que isso é um bom sinal!</string>
-    <string name="result_6">Mais do que a metade, é melhor que nada!</string>
-    <string name="result_5">Universitários querem muito essa nota, mas você consegue ser melhor!</string>
-    <string name="result_4">Bem, não é uma União Soviética ou França, então quatro não é uma nota muito boa!</string>
-    <string name="result_3">Eu acho que você deveria tentar melhor!</string>
-    <string name="result_2">Dois é um sinal de que você deveria pensar em estudar mais!</string>
-    <string name="result_1">Infelizmente, isso não significa que você é o primeiro…</string>
-    <string name="result_0">Sim, só um zero redondo!</string>
+    <string name="result_10">Simplesmente sensacional!\nVocê tem alma de dinossauro (no bom sentido)! Já pensou em seguir carreira na paleontologia?</string>
+    <string name="result_9">Ótimo resultado!\nVocê quase desenterrou todos os fósseis. Faltou só um pedacinho!</string>
+    <string name="result_8">Muito bom!\nVocê já escavou bastante, mas sempre tem espaço pra mais conhecimento.</string>
+    <string name="result_7">Sete, o número da sorte!\nTalvez seja um sinal dos tempos jurássicos.</string>
+    <string name="result_6">Mais da metade certa!\nIsso é mais do que um T. rex conseguiria contar com as garrinhas.</string>
+    <string name="result_5">Bem no meio – aquele clássico ‘estudei só o básico’. Dá pra melhorar, hein?</string>
+    <string name="result_4">Não foi horrível…\nMas também não daria pra impressionar um paleontólogo de verdade.</string>
+    <string name="result_3">Três acertos.\nVocê começou a escavação, mas ainda tá raspando na superfície.</string>
+    <string name="result_2">Dois?\nÉ o mesmo QI de um estegossauro&#8230; Pelo menos você tem companhia!</string>
+    <string name="result_1">Só uma resposta certa…\nE não, isso não te coloca em primeiro lugar.</string>
+    <string name="result_0">Zero redondo!\nVocê acaba de descobrir uma nova espécie: o conhecimento extinto.</string>
+
+    <string name="error_account_name_already_exists">Este nome de usuário já existe!</string>
+    <string name="error_account_name_not_allowed">Este nome de usuário não é permitido!</string>
+    <string name="error_no_internet_connection">Erro de conexão! Por favor, tente novamente mais tarde.</string>
+
+    <string name="leaderboard">Classificação</string>
+    <string name="leaderboard_invitation_title">Quer se juntar à diversão?</string>
+    <string name="leaderboard_invitation_description">Crie uma conta e dispute com os maiores entusiastas da paleontologia!</string>
+    <string name="leaderboard_invitation_button_label">Crie uma conta!</string>
+
+    <string name="leaderboard_global_ranking_title">Sua colocação global é a nº %d!</string>
+    <string name="leaderboard_global_ranking_description">Responda às perguntas do quiz – cada resposta correta vale +1 XP. Se você acertar todas as 10 perguntas, sua XP será dobrada!</string>
+
+    <string name="leaderboard_modal_claim_username_title">Reivindique seu nome de usuário!</string>
+    <string name="leaderboard_modal_claim_username_description">Seu nome de usuário será exibido no ranking.</string>
+    <string name="leaderboard_modal_claim_username_textfield_placeholder">Insira o nome de usuário</string>
+    <string name="leaderboard_xp_earned_label">Você ganhou %d XP!</string>
 
     <string name="hadean_question_1">Quando começou o Éon Hadeano?</string>
     <string name="hadean_variant_1_1">4560 milhões de anos</string>
