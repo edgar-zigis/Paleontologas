@@ -9,6 +9,7 @@ import kotlinx.coroutines.coroutineScope
 
 class QuizGameProcessor(
     private val questionRepository: QuestionRepository,
+    private val firebaseDataManager: FirebaseDataManager,
     private val quizGenerateQuestionsUseCase: QuizGenerateQuestionsUseCase
 ) {
     companion object {
@@ -37,14 +38,23 @@ class QuizGameProcessor(
         return if (nextQuestionIndex < generatedQuestions.size) {
             generatedQuestions[nextQuestionIndex]
         } else {
-            coroutineScope {
-                generatedQuestions.map {
-                    async {
-                        questionRepository.update(it)
-                    }
-                }.awaitAll()
-            }
+            finalize()
             null
+        }
+    }
+
+    private suspend fun finalize() {
+        coroutineScope {
+            generatedQuestions.map {
+                async {
+                    questionRepository.update(it)
+                }
+            }.awaitAll()
+            if (firebaseDataManager.isAuthenticated()) {
+                firebaseDataManager.addXP(
+                    if (correctAnswers == 10) 20 else correctAnswers
+                )
+            }
         }
     }
 }
