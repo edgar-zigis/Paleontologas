@@ -18,7 +18,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val quizModule = module {
-    factory { QuizGameProcessor(get(), get()) }
+    factory { QuizGameProcessor(get(), get(), get()) }
     single { QuizRouter(get()) }
     single { FirebaseDataManager(androidContext()) }
     single { CountryManager() }
