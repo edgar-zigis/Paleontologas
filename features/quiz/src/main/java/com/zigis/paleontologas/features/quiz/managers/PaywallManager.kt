@@ -14,7 +14,7 @@ class PaywallManager(
     private val androidLifecycleProvider: AndroidLifecycleProvider
 ) : PurchasesUpdatedListener {
 
-    private val productId = "unlock_feature_xyz"
+    private val productId = "unlock_leaderboard_participation"
     private var billingReady = CompletableDeferred<Unit>()
 
     private val billingClient: BillingClient = BillingClient.newBuilder(
