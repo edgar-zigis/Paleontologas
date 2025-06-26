@@ -20,9 +20,13 @@ import androidx.compose.ui.unit.sp
 import com.zigis.paleontologas.features.quiz.entities.QuizPlayer
 
 @Composable
-fun PlayerAvatar(player: QuizPlayer) {
+fun PlayerAvatar(
+    player: QuizPlayer,
+    modifier: Modifier = Modifier
+) {
     Column(
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier
     ) {
         Box(
             contentAlignment = Alignment.TopCenter
