@@ -7,7 +7,7 @@ class CountryManager {
     val allCountries: List<Locale>
         get() = Locale.getISOCountries()
             .filter { unCountryCodes.contains(it) }
-            .map { Locale("", it) }
+            .map { Locale.Builder().setLanguage("").setRegion(it).build() }
             .sortedBy { locale ->
                 Locale.getDefault().getDisplayCountry(locale)
             }

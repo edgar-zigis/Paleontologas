@@ -74,7 +74,7 @@ fun LanguageListItemView(
 @Composable
 private fun LanguageListItemPreview() {
     LanguageListItemView(
-        item = LanguageListItem(locale = Locale("lt")),
+        item = LanguageListItem(locale = Locale.forLanguageTag("lt")),
         isSelected = false
     ) {
         //  ignore

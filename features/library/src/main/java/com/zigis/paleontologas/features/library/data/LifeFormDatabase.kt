@@ -30,7 +30,7 @@ abstract class LifeFormDatabase : RoomDatabase() {
                 context.applicationContext,
                 LifeFormDatabase::class.java,
                 "life_forms"
-            ).fallbackToDestructiveMigration().build()
+            ).fallbackToDestructiveMigration(true).build()
         }
     }
 }

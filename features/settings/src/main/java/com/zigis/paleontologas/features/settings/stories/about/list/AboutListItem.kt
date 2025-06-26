@@ -4,10 +4,10 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class AboutListItem(
-    @DrawableRes
+    @param:DrawableRes
     val photoResId: Int,
-    @StringRes
+    @param:StringRes
     val fullNameResId: Int,
-    @StringRes
+    @param:StringRes
     val contributionResId: Int
 )

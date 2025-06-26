@@ -12,7 +12,7 @@ class ApplicationLocaleManager(
 
     fun getCurrentLocale(): Locale? {
         if (applicationPreferences.locale != null) {
-            return Locale(applicationPreferences.locale!!)
+            return Locale.forLanguageTag((applicationPreferences.locale!!))
         }
         return null
     }
@@ -33,16 +33,16 @@ class ApplicationLocaleManager(
     }
 
     companion object {
-        private val defaultLocale = Locale("en")
+        private val defaultLocale = Locale.forLanguageTag("en")
         private val availableLocales = listOf(
-            Locale("de"),
+            Locale.forLanguageTag("de"),
             defaultLocale,
-            Locale("es"),
-            Locale("fr"),
-            Locale("it"),
-            Locale("lt"),
-            Locale("pt", "br"),
-            Locale("sl")
+            Locale.forLanguageTag("es"),
+            Locale.forLanguageTag("fr"),
+            Locale.forLanguageTag("it"),
+            Locale.forLanguageTag("lt"),
+            Locale.Builder().setLanguage("pt").setRegion("BR").build(),
+            Locale.forLanguageTag("sl")
         )
     }
 }
