@@ -30,7 +30,7 @@ abstract class QuestionDatabase : RoomDatabase() {
                 context.applicationContext,
                 QuestionDatabase::class.java,
                 "quiz_questions"
-            ).fallbackToDestructiveMigration().build()
+            ).fallbackToDestructiveMigration(true).build()
         }
     }
 }

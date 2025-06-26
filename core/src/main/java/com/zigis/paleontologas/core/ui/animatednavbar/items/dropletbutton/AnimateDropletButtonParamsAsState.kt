@@ -16,7 +16,7 @@ import java.lang.Float.max
 
 @Stable
 data class DropletButtonParams(
-    @FloatRange(from = 0.0, to = 1.0) val scale: Float = 1f,
+    @param:FloatRange(from = 0.0, to = 1.0) val scale: Float = 1f,
     val radius: Float = 10f,
     val verticalOffset: Float = 0f,
 )

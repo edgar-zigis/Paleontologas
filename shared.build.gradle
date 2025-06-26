@@ -10,7 +10,7 @@ apply plugin: 'kotlinx-serialization'
 apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
 android {
-    compileSdk 35
+    compileSdk 36
 
     def localProperties = new Properties()
     def localPropertiesFile = rootProject.file("local.properties")
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         minSdkVersion 23
-        targetSdkVersion 35
+        targetSdkVersion 36
 
         if (this.name == 'app') {
             applicationId "com.zigis.paleontologas"

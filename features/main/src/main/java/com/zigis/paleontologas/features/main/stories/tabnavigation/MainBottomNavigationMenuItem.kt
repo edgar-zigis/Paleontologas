@@ -10,9 +10,9 @@ import com.zigis.paleontologas.features.quiz.routing.QuizNavGraphRoutes
 import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphRoutes
 
 data class MainBottomNavigationMenuItem(
-    @DrawableRes val icon: Int,
+    @param:DrawableRes val icon: Int,
     var isSelected: Boolean,
-    @StringRes val description: Int,
+    @param:StringRes val description: Int,
     val animationSpec: FiniteAnimationSpec<Float> = tween(500),
     val route: String
 ) {
