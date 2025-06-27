@@ -1,5 +1,6 @@
 package com.zigis.paleontologas.features.quiz.di
 
+import com.google.firebase.auth.FirebaseAuth
 import com.zigis.paleontologas.features.quiz.data.QuestionDatabase
 import com.zigis.paleontologas.features.quiz.factories.QuizPlayerFactory
 import com.zigis.paleontologas.features.quiz.managers.CountryManager
@@ -24,6 +25,8 @@ val quizModule = module {
     single { CountryManager() }
     single { QuizPlayerFactory(get(), get()) }
     single { PaywallManager(get(), get()) }
+
+    single { FirebaseAuth.getInstance() }
 
     factory { QuizProgressUseCase(get()) }
     factory { QuizGenerateQuestionsUseCase(get()) }
