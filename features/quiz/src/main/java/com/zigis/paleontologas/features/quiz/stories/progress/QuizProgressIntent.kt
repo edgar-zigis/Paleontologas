@@ -5,5 +5,6 @@ import com.zigis.paleontologas.core.architecture.interfaces.IIntent
 sealed class QuizProgressIntent : IIntent {
     data object Initialize : QuizProgressIntent()
     data object StartQuiz : QuizProgressIntent()
+    data object CreateAccount : QuizProgressIntent()
     data object InvokeBack : QuizProgressIntent()
 }

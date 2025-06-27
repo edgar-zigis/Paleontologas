@@ -23,7 +23,7 @@ class FirebaseDataManager(
         return user != null
     }
 
-    suspend fun authenticate(serverClientId: String): FirebaseUser? {
+    suspend fun authenticate(): FirebaseUser? {
         val credentialManager = CredentialManager.create(applicationContext)
         val googleOptions = GetSignInWithGoogleOption.Builder(
             serverClientId = BuildConfig.GOOGLE_SERVER_CLIENT_ID
