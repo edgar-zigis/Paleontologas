@@ -36,6 +36,6 @@ val quizModule = module {
     single { QuestionRepository(androidContext(), get()) }
 
     viewModel { QuizGameViewModel(get(), get(), get(), get()) }
-    viewModel { QuizProgressViewModel(get(), get()) }
+    viewModel { QuizProgressViewModel(get(), get(), get(), get(), get(), get()) }
     viewModel { QuizFinalResultViewModel(get(), get()) }
 }
