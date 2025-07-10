@@ -18,8 +18,10 @@
     <string name="language_fr">Français</string>
     <string name="language_sl">Slovenščina</string>
     <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
 
-    <string name="wall_of_fame">Muro della fama</string>
+    <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Muro della fama&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Vuoi contribuire a questa app ed essere immortalato sul Wall of Fame? Hai un background scientifico e conosci qualche lingua non presente qui? Se entrambe le risposte sono sì, contattami con un\'e-mail e rendiamo questa app ancora più grande!</string>
 
     <string name="app_contributor_1">Edgar Žigis</string>
@@ -32,7 +34,8 @@
     <string name="app_contributor_8">Anthony Favier</string>
     <string name="app_contributor_9">Damjan Dovnik</string>
     <string name="app_contributor_10">Mariana Leite</string>
-    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Autore dell\'applicazione e del contenuto</string>
     <string name="app_contributor_description_2">Ispirazione</string>
@@ -44,6 +47,7 @@
     <string name="app_contributor_description_8">Editor di contenuti francese</string>
     <string name="app_contributor_description_9">Editor di contenuti sloveno</string>
     <string name="app_contributor_description_10">Editor di contenuti brasiliano</string>
+    <string name="app_contributor_description_11">Editor di contenuti russo</string>
 
     <string name="info">Informazioni</string>
     <string name="language">Linguaggio</string>

@@ -18,8 +18,10 @@
     <string name="language_fr">Français</string>
     <string name="language_sl">Slovenščina</string>
     <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
 
-    <string name="wall_of_fame">Zid slavnih</string>
+    <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Zid slavnih&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Ali želite prispevati k tej aplikaciji in biti ovekovečeni na Zidu slavnih? Ali imate znanstveno znanje in poznate jezik, ki tukaj ni prisoten? Če sta oba odgovora pritrdilna, mi pošljite e-poštno sporočilo in s tem naredimo to aplikacijo še boljšo!</string>
 
     <string name="app_contributor_1">Edgar Žigis</string>
@@ -32,7 +34,8 @@
     <string name="app_contributor_8">Anthony Favier</string>
     <string name="app_contributor_9">Damjan Dovnik</string>
     <string name="app_contributor_10">Mariana Leite</string>
-    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Avtor aplikacije in vsebine</string>
     <string name="app_contributor_description_2">Inspiracija</string>
@@ -44,6 +47,7 @@
     <string name="app_contributor_description_8">Urednik francoske vsebine</string>
     <string name="app_contributor_description_9">Urednik slovenske vsebine</string>
     <string name="app_contributor_description_10">Urednik brazilske vsebine</string>
+    <string name="app_contributor_description_11">Urednik ruskih vsebine</string>
 
     <string name="info">Informacije</string>
     <string name="language">Jezik</string>

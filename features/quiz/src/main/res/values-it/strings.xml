@@ -8,7 +8,6 @@
 
     <string name="answered">RISPOSTA</string>
     <string name="quiz_welcome_text">Ogni volta che vengono generate 10 domande in modo casuale. L\'avanzamento del periodo aumenterà se risposto correttamente!</string>
-    <string name="total_questions">Al momento il quiz contiene 325 domande!</string>
 
     <string name="start">INIZIO!</string>
     <string name="continue_further">CONTINUA</string>

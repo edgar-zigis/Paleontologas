@@ -8,7 +8,6 @@
 
     <string name="answered">ODGOVORJENO</string>
     <string name="quiz_welcome_text">Vsakič se naključno generira 10 vprašanj. Če nanje pravilno odgovorite, se bo napredek ob posameznem obdobju povečal!</string>
-    <string name="total_questions">Trenutno kviz vsebuje 325 vprašanj!</string>
 
     <string name="start">ZAČNITE!</string>
     <string name="continue_further">NADALJUJTE</string>

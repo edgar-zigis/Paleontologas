@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright">© Edgar Žigis</string>
+    <string name="copy">© </string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
+
+    <string name="about_app">О приложении</string>
+    <string name="about_app_text_1">Это приложение предназначено для всех любителей природы и людей, желающих узнать историю Земли. Оно достаточно простое для популяризации науки и содержит достаточно фактов, чтобы использовать его в учебных целях. Факты в этом приложении соответствуют современным палеонтологическим данным и подкреплены только достоверными научными статьями.</string>
+    <string name="about_app_text_2">Фотографии:\nCreative Commons Zero (CC0)\n\nЕсли вы обнаружили ошибки, хотите сделать пожертвование или внести свой вклад в улучшение этого приложения, пожалуйста, свяжитесь со мной по электронной почте: edgar.zigis@gmail.com</string>
+    <string name="version_placeholder">v%s</string>
+
+    <string name="language_lt">Lietuvių</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
+    <string name="language_fr">Français</string>
+    <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="wall_of_fame">⭐⭐⭐  Стена славы  ⭐⭐⭐</string>
+    <string name="wall_of_fame_description">Хотите внести свой вклад в развитие этого приложения и увековечить свое имя на Стене славы? Имеете научное образование и знаете язык, которого нет в приложении? Если ответы на оба вопроса «да», то напишите мне по электронной почте, и давайте вместе сделаем это приложение еще лучше!</string>
+
+    <string name="app_contributor_1">Edgar Žigis</string>
+    <string name="app_contributor_2">Andrej Spiridonov</string>
+    <string name="app_contributor_3">Matthew Gerke</string>
+    <string name="app_contributor_4">Auksė Saulė</string>
+    <string name="app_contributor_5">Gerardo Lo Valvo</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Juan Carlos Oliva</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Damjan Dovnik</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
+
+    <string name="app_contributor_description_1">Автор приложения и контента</string>
+    <string name="app_contributor_description_2">Вдохновитель</string>
+    <string name="app_contributor_description_3">Редактор английского контента</string>
+    <string name="app_contributor_description_4">Редактор литовского контента</string>
+    <string name="app_contributor_description_5">Редактор испанского контента</string>
+    <string name="app_contributor_description_6">Редактор немецкого контента</string>
+    <string name="app_contributor_description_7">Редактор итальянского контента</string>
+    <string name="app_contributor_description_8">Редактор французского контента</string>
+    <string name="app_contributor_description_9">Редактор словенского контента</string>
+    <string name="app_contributor_description_10">Редактор бразильского контента</string>
+    <string name="app_contributor_description_11">Редактор русского контента</string>
+
+    <string name="info">Информация</string>
+    <string name="language">Язык</string>
+    <string name="settings">Настройки</string>
+
+    <string name="vibration_enabled">Включить вибрацию</string>
+    <string name="about_this_app">Об этом приложении</string>
+
+</resources>
