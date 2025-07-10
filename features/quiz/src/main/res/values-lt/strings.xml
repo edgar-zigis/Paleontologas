@@ -8,7 +8,6 @@
 
     <string name="answered">ATSAKYTA</string>
     <string name="quiz_welcome_text">Kiekvieną kartą pradėjus žaidimą, atsitiktiniu būdu bus parenkama 10 klausimų, kuriuos teisingai atsakius, pildysis žaidimo ir kategorijų progresas!</string>
-    <string name="total_questions">Šiuo metu žaidime yra 240 klausimų!</string>
 
     <string name="start">PRADĖTI!</string>
     <string name="continue_further">TĘSTI</string>

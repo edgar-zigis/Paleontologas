@@ -17,8 +17,10 @@
     <string name="language_fr">Français</string>
     <string name="language_sl">Slovenščina</string>
     <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
 
-    <string name="wall_of_fame">Ruhmeswand</string>
+    <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Ruhmeswand&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Möchten Sie zu dieser App beitragen und an der Wall of Fame verewigt werden? Haben Sie einen wissenschaftlichen Hintergrund und kennen eine Sprache, die hier nicht vorhanden ist? Wenn beide Antworten ja sind, schreiben Sie mir eine E-Mail und lassen Sie uns diese App noch größer machen!</string>
 
     <string name="app_contributor_1">Edgar Žigis</string>
@@ -31,7 +33,8 @@
     <string name="app_contributor_8">Anthony Favier</string>
     <string name="app_contributor_9">Damjan Dovnik</string>
     <string name="app_contributor_10">Mariana Leite</string>
-    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">App und Inhaltsautor</string>
     <string name="app_contributor_description_2">Inspiration</string>
@@ -43,6 +46,7 @@
     <string name="app_contributor_description_8">Französischer Inhaltseditor</string>
     <string name="app_contributor_description_9">Slowenischer Inhaltseditor</string>
     <string name="app_contributor_description_10">Brasilianischer Inhaltseditor</string>
+    <string name="app_contributor_description_11">Russischer Inhaltseditor</string>
 
     <string name="info">Info</string>
     <string name="language">Sprache</string>

@@ -7,7 +7,6 @@
 
     <string name="answered">Beantwortet</string>
     <string name="quiz_welcome_text">Es werden jedes mal 10 Fragen zufällig erstellt. Nach richtiger Antwort siehst du den Fortschritt in der Übersicht!</string>
-    <string name="total_questions">Zurzeit enthält das Quiz 325 Fragen!</string>
 
     <string name="start">Start!</string>
     <string name="continue_further">Weiter</string>

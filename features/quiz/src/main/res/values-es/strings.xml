@@ -7,7 +7,6 @@
 
     <string name="answered">RESPONDIDO </string>
     <string name="quiz_welcome_text">Se generan aleatoriamente 10 preguntas cada vez. ¡El periodo avanza si las respuestas son correctas!</string>
-    <string name="total_questions">Por el momento este test contiene ¡325 preguntas! </string>
 
     <string name="start">¡COMENZAR!</string>
     <string name="continue_further">CONTINUAR </string>

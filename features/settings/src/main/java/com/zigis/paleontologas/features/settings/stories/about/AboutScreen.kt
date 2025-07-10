@@ -200,7 +200,7 @@ private fun getAboutBottomText(context: Context): AnnotatedString {
         append(str)
 
         listOf(
-            context.getString(R.string.app_contributor_11)
+            context.getString(R.string.app_contributor_12)
         ).forEach {
             addStyle(
                 style = SpanStyle(

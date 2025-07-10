@@ -18,8 +18,10 @@
     <string name="language_fr">Français</string>
     <string name="language_sl">Slovenščina</string>
     <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
 
-    <string name="wall_of_fame">Šlovės lenta</string>
+    <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Šlovės lenta&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Norite prisidėti prie programėlės ir patekti ant Šlovės lentos? Turite mokslinį išsilavinimą ir mokate kalbą, kurios nepalaiko ši programėlė? Jeigu abu atsakymai yra teigiami, parašykite į mano el. paštą ir padarykime šią programėlę dar geresne!</string>
 
     <string name="app_contributor_1">Edgar Žigis</string>
@@ -32,7 +34,8 @@
     <string name="app_contributor_8">Anthony Favier</string>
     <string name="app_contributor_9">Damjan Dovnik</string>
     <string name="app_contributor_10">Mariana Leite</string>
-    <string name="app_contributor_11">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
 
     <string name="app_contributor_description_1">Programėlės ir turinio autorius</string>
     <string name="app_contributor_description_2">Įkvėpimas</string>
@@ -44,6 +47,7 @@
     <string name="app_contributor_description_8">Prancūziško turinio redaktorius</string>
     <string name="app_contributor_description_9">Slovėniško turinio redaktorius</string>
     <string name="app_contributor_description_10">Braziliško turinio redaktorė</string>
+    <string name="app_contributor_description_11">Rusiško turinio redaktorė</string>
 
     <string name="info">Informacija</string>
     <string name="language">Kalba</string>
