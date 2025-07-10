@@ -42,6 +42,7 @@ class ApplicationLocaleManager(
             Locale.forLanguageTag("it"),
             Locale.forLanguageTag("lt"),
             Locale.Builder().setLanguage("pt").setRegion("BR").build(),
+            Locale.forLanguageTag("ru"),
             Locale.forLanguageTag("sl")
         )
     }

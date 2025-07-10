@@ -122,7 +122,11 @@ private fun AboutScreenUiImplementation(
                     .padding(top = 6.dp)
             )
 
-            val rowCount = viewState.contributorItems.count() / 2
+            val rowCount = if (viewState.contributorItems.count() % 2 == 0) {
+                viewState.contributorItems.count() / 2
+            } else {
+                (viewState.contributorItems.count() / 2) + 1
+            }
 
             LazyVerticalGrid(
                 columns = GridCells.Fixed(2),

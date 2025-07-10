@@ -56,6 +56,11 @@ class AboutListItemFactory {
                 photoResId = R.drawable.photo_mariana_leite,
                 fullNameResId = R.string.app_contributor_10,
                 contributionResId = R.string.app_contributor_description_10
+            ),
+            AboutListItem(
+                photoResId = R.drawable.photo_elena_ozernova,
+                fullNameResId = R.string.app_contributor_11,
+                contributionResId = R.string.app_contributor_description_11
             )
         )
     }
