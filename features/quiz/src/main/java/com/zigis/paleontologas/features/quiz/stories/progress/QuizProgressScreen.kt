@@ -38,6 +38,7 @@ import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerInvitationView
+import com.zigis.paleontologas.features.quiz.stories.progress.views.PodiumView
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -163,6 +164,15 @@ private fun QuizProgressScreenUiImplementation(
                 PlayerInvitationView {
                     sendIntent(QuizProgressIntent.CreateAccount)
                 }
+            }
+
+            if (viewState.players.isNotEmpty()) {
+                PodiumView(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(start = 16.dp, top = 16.dp, end = 16.dp),
+                    players = viewState.players
+                )
             }
         }
     }

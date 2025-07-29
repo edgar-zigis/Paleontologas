@@ -7,16 +7,18 @@ import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.entities.QuizPlayer
 
 @Composable
@@ -31,7 +33,6 @@ fun PlayerAvatar(
         Box(
             contentAlignment = Alignment.TopCenter
         ) {
-            // Circle background
             Box(
                 modifier = Modifier
                     .size(60.dp)
@@ -47,27 +48,35 @@ fun PlayerAvatar(
 
             Text(
                 text = player.country,
-                fontSize = 15.sp,
-                fontWeight = FontWeight.Medium,
-                modifier = Modifier.offset(y = 30.dp)
+                modifier = Modifier.offset(y = 49.dp),
+                style = TextStyle(
+                    fontSize = 15.sp,
+                    fontFamily = ThemeFonts.Gilroy,
+                    fontWeight = FontWeight.Medium
+                )
             )
         }
 
         Text(
             text = player.name,
-            fontSize = 15.sp,
-            fontWeight = FontWeight.Medium,
-            color = MaterialTheme.colorScheme.onBackground,
-            maxLines = 2,
-            textAlign = TextAlign.Center,
             modifier = Modifier
-                .padding(top = 4.dp, start = 2.dp, end = 2.dp)
+                .padding(top = 14.dp, start = 2.dp, end = 2.dp),
+            style = TextStyle(
+                fontSize = 15.sp,
+                fontFamily = ThemeFonts.Gilroy,
+                fontWeight = FontWeight.Medium
+            ),
+            color = ApplicationTheme.colors.contentText,
+            maxLines = 2,
+            textAlign = TextAlign.Center
         )
 
         Text(
             text = "${player.points} XP",
-            fontSize = 12.sp,
-            color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f)
+            modifier = Modifier
+                .padding(top = 2.dp, bottom = 4.dp),
+            style = ApplicationTheme.typography.caption2,
+            color = ApplicationTheme.colors.contentText.copy(alpha = 0.7f)
         )
     }
 }

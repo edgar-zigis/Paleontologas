@@ -30,11 +30,12 @@ class CountryManager {
     )
 
     fun getEmoji(countryCode: String): String {
-        val base = 0x1F1E6 - 'A'.code
-        return countryCode.uppercase()
-            .map { char ->
-                (base + char.code).toChar()
-            }
-            .joinToString("")
+        if (countryCode.length != 2) return "" // Invalid code
+        val upperCaseCode = countryCode.uppercase()
+
+        val firstChar = Character.codePointAt(upperCaseCode, 0) - 'A'.code + 0x1F1E6
+        val secondChar = Character.codePointAt(upperCaseCode, 1) - 'A'.code + 0x1F1E6
+
+        return String(Character.toChars(firstChar)) + String(Character.toChars(secondChar))
     }
 }
