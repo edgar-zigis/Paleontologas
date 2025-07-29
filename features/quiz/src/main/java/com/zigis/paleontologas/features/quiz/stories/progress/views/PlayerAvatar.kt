@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.quiz.stories.game.views
+package com.zigis.paleontologas.features.quiz.stories.progress.views
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

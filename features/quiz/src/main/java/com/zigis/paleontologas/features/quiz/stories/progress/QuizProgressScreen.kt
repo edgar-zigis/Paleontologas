@@ -32,12 +32,12 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.ArcProgressbar
-import com.zigis.paleontologas.core.ui.NavigableScaffold
 import com.zigis.paleontologas.core.ui.StaticScaffold
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
+import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerInvitationView
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -122,6 +122,7 @@ private fun QuizProgressScreenUiImplementation(
             ElevatedButton(
                 modifier = Modifier
                     .width(200.dp)
+                    .padding(bottom = 14.dp)
                     .align(Alignment.CenterHorizontally),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = ApplicationTheme.colors.backgroundPrimary,
@@ -130,6 +131,38 @@ private fun QuizProgressScreenUiImplementation(
                 onClick = { sendIntent(QuizProgressIntent.StartQuiz) }
             ) {
                 Text(stringResource(id = R.string.start))
+            }
+
+            Spacer(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(6.dp)
+                    .background(ApplicationTheme.colors.headingText)
+                    .padding(top = 6.dp)
+            )
+
+            Text(
+                text = stringResource(id = R.string.leaderboard),
+                color = ApplicationTheme.colors.contentText,
+                style = ApplicationTheme.typography.headline3,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = 8.dp, top = 14.dp, end = 8.dp, bottom = 14.dp)
+            )
+
+            Spacer(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(6.dp)
+                    .background(ApplicationTheme.colors.headingText)
+                    .padding(top = 6.dp)
+            )
+
+            if (viewState.activeUser == null) {
+                PlayerInvitationView {
+                    sendIntent(QuizProgressIntent.CreateAccount)
+                }
             }
         }
     }

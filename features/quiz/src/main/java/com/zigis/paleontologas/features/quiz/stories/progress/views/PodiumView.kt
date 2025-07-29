@@ -1,4 +1,4 @@
-package com.zigis.paleontologas.features.quiz.stories.game.views
+package com.zigis.paleontologas.features.quiz.stories.progress.views
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -31,7 +31,9 @@ fun PodiumView(players: List<QuizPlayer>) {
         val boxWithConstraintsScope = this
 
         Row(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.Bottom,
             horizontalArrangement = Arrangement.spacedBy(0.dp)
         ) {
