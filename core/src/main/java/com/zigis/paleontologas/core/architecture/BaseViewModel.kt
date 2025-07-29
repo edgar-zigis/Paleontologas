@@ -23,7 +23,9 @@ abstract class BaseViewModel<S : IState, I : IIntent> : ViewModel(), IModel<S, I
         _state = MutableStateFlow(getInitialData())
         viewModelScope.launch {
             intents.consumeAsFlow().collect { intent ->
-                handleIntent(intent)
+                viewModelScope.launch {
+                    handleIntent(intent)
+                }
             }
         }
     }
