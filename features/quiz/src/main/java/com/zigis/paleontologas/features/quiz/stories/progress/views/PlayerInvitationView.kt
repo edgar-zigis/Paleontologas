@@ -17,6 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.features.quiz.R
@@ -55,6 +56,8 @@ fun PlayerInvitationView(
             textAlign = TextAlign.Center
         )
 
+        val debouncedClick = rememberDebouncedClick()
+
         ElevatedButton(
             modifier = Modifier
                 .width(200.dp),
@@ -62,7 +65,11 @@ fun PlayerInvitationView(
                 containerColor = ApplicationTheme.colors.backgroundPrimary,
                 contentColor = ApplicationTheme.colors.contentBackground
             ),
-            onClick = { onClick.invoke() }
+            onClick = {
+                debouncedClick {
+                    onClick.invoke()
+                }
+            }
         ) {
             Text(stringResource(id = R.string.leaderboard_invitation_button_label))
         }

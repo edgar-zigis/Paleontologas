@@ -29,6 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.ArcProgressbar
@@ -120,6 +121,8 @@ private fun QuizProgressScreenUiImplementation(
                     .padding(start = 8.dp, top = 24.dp, end = 8.dp, bottom = 32.dp)
             )
 
+            val debouncedClick = rememberDebouncedClick()
+
             ElevatedButton(
                 modifier = Modifier
                     .width(200.dp)
@@ -129,7 +132,11 @@ private fun QuizProgressScreenUiImplementation(
                     containerColor = ApplicationTheme.colors.backgroundPrimary,
                     contentColor = ApplicationTheme.colors.contentBackground
                 ),
-                onClick = { sendIntent(QuizProgressIntent.StartQuiz) }
+                onClick = {
+                    debouncedClick {
+                        sendIntent(QuizProgressIntent.StartQuiz)
+                    }
+                }
             ) {
                 Text(stringResource(id = R.string.start))
             }

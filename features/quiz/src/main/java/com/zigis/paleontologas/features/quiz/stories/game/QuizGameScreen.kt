@@ -39,6 +39,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zigis.paleontologas.core.extensions.getDrawableId
 import com.zigis.paleontologas.core.extensions.getString
+import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.NavigableScaffold
@@ -204,6 +205,8 @@ private fun ColumnScope.QuizButton(
         else -> ApplicationTheme.colors.backgroundPrimary
     }
 
+    val debouncedClick = rememberDebouncedClick()
+
     ElevatedButton(
         modifier = Modifier
             .fillMaxWidth()
@@ -215,13 +218,15 @@ private fun ColumnScope.QuizButton(
         ),
         shape = RoundedCornerShape(4.dp),
         onClick = {
-            if (viewState.chosenOption != null) return@ElevatedButton
-            sendIntent(
-                QuizGameIntent.AnswerQuestion(
-                    question = viewState.question!!,
-                    option = index
+            debouncedClick {
+                if (viewState.chosenOption != null) return@debouncedClick
+                sendIntent(
+                    QuizGameIntent.AnswerQuestion(
+                        question = viewState.question!!,
+                        option = index
+                    )
                 )
-            )
+            }
         }
     ) {
         Text(
