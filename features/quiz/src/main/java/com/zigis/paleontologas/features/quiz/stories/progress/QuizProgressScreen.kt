@@ -2,6 +2,7 @@ package com.zigis.paleontologas.features.quiz.stories.progress
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -11,6 +12,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ButtonDefaults
@@ -23,6 +26,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -38,6 +42,7 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
+import com.zigis.paleontologas.features.quiz.stories.progress.views.LeaderboardRow
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerInvitationView
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PodiumView
 import org.koin.androidx.compose.koinViewModel
@@ -95,17 +100,20 @@ private fun QuizProgressScreenUiImplementation(
                     backgroundArcColor = ThemeColors.Success,
                     labelTextStyle = TextStyle(
                         fontSize = 15.sp,
-                        fontFamily = ThemeFonts.Gentona,
+                        fontFamily = ThemeFonts.Gilroy,
+                        fontWeight = FontWeight.Medium,
                         color = ApplicationTheme.colors.contentText
                     ),
                     valueTextStyle = TextStyle(
                         fontSize = 60.sp,
-                        fontFamily = ThemeFonts.Gentona,
+                        fontFamily = ThemeFonts.Gilroy,
+                        fontWeight = FontWeight.Medium,
                         color = ApplicationTheme.colors.contentText
                     ),
                     unitTextStyle = TextStyle(
                         fontSize = 18.sp,
-                        fontFamily = ThemeFonts.Gentona,
+                        fontFamily = ThemeFonts.Gilroy,
+                        fontWeight = FontWeight.Medium,
                         color = ApplicationTheme.colors.contentText
                     )
                 )
@@ -180,6 +188,27 @@ private fun QuizProgressScreenUiImplementation(
                         .padding(start = 16.dp, top = 16.dp, end = 16.dp),
                     players = viewState.players
                 )
+
+                if (viewState.players.size > 3) {
+                    val players = viewState.players.drop(3)
+
+                    LazyColumn(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height((players.size * 60).dp),
+                        verticalArrangement = Arrangement.spacedBy(0.dp)
+                    ) {
+                        itemsIndexed(players) { index, player ->
+                            LeaderboardRow(
+                                player = player,
+                                showSeparator = index < players.size - 1,
+                                isHighlighted = viewState.globalRanking == player.ranking
+                            )
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(60.dp))
             }
         }
     }

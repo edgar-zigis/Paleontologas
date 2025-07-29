@@ -55,9 +55,15 @@ class QuizProgressViewModel(
     }
 
     private suspend fun initialize() {
+        val players = quizPlayerFactory.getItems()
+        val globalRanking = players.indexOfFirst { player ->
+            player.id == firebaseDataManager.user?.uid
+        } + 1
+
         updateState {
             it.copy(
-                players = quizPlayerFactory.getItems(),
+                players = players,
+                globalRanking = globalRanking,
                 progress = quizProgressUseCase.getFullProgress()
             )
         }
