@@ -5,7 +5,6 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,6 +28,7 @@ import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zigis.paleontologas.core.extensions.debouncedClickable
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.StaticScaffold
@@ -130,7 +130,7 @@ private fun ToggleableItem(
     ConstraintLayout(modifier = Modifier
         .fillMaxWidth()
         .height(56.dp)
-        .clickable(enabled = true) {
+        .debouncedClickable {
             onToggle(!isEnabled)
         }
     ) {
@@ -203,7 +203,7 @@ private fun ClickableItem(
     ConstraintLayout(modifier = Modifier
         .fillMaxWidth()
         .height(56.dp)
-        .clickable(enabled = true) {
+        .debouncedClickable {
             onClick.invoke()
         }
     ) {

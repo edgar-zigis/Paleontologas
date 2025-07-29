@@ -3,7 +3,6 @@ package com.zigis.paleontologas.features.library.stories.timeline.list
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -28,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ChainStyle
 import androidx.constraintlayout.compose.ConstraintLayout
+import com.zigis.paleontologas.core.extensions.debouncedClickable
 import com.zigis.paleontologas.core.extensions.getDrawableId
 import com.zigis.paleontologas.core.extensions.getStringId
 import com.zigis.paleontologas.core.ui.ArcProgressbar
@@ -47,7 +47,7 @@ fun HomeListItemView(
         .fillMaxWidth()
         .height(120.dp)
         .background(color = ApplicationTheme.colors.contentBackground)
-        .clickable(enabled = true) {
+        .debouncedClickable {
             onClick.invoke(item.id)
         }
     ) {

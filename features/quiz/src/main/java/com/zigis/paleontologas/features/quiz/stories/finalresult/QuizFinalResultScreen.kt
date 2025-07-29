@@ -29,6 +29,7 @@ import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.rememberLottieComposition
+import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.extensions.sendSafely
 import com.zigis.paleontologas.core.providers.LifecycleEventHandler
 import com.zigis.paleontologas.core.ui.NavigableScaffold
@@ -152,6 +153,8 @@ private fun QuizFinalResultScreenUiImplementation(
                     .padding(start = 8.dp, top = 16.dp, end = 8.dp)
             )
 
+            val debouncedClick = rememberDebouncedClick()
+
             ElevatedButton(
                 modifier = Modifier
                     .width(200.dp)
@@ -161,7 +164,11 @@ private fun QuizFinalResultScreenUiImplementation(
                     containerColor = ApplicationTheme.colors.backgroundPrimary,
                     contentColor = ApplicationTheme.colors.contentBackground
                 ),
-                onClick = { sendIntent(QuizFinalResultIntent.InvokeBack) }
+                onClick = {
+                    debouncedClick {
+                        sendIntent(QuizFinalResultIntent.InvokeBack)
+                    }
+                }
             ) {
                 Text(stringResource(id = R.string.continue_further))
             }
