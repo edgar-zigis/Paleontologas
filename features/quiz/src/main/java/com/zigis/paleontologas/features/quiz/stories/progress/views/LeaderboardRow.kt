@@ -17,10 +17,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
+import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.entities.QuizPlayer
 
 @Composable
@@ -48,23 +50,35 @@ fun LeaderboardRow(
         ) {
             Text(
                 text = "#${player.ranking}",
-                fontSize = 19.sp,
-                color = ApplicationTheme.colors.contentText.copy(alpha = 0.6f),
-                modifier = Modifier.width(30.dp)
+                modifier = Modifier.width(30.dp),
+                style = TextStyle(
+                    fontSize = 18.sp,
+                    fontFamily = ThemeFonts.Gilroy,
+                    fontWeight = FontWeight.Medium,
+                    color = ApplicationTheme.colors.contentText.copy(alpha = 0.6f)
+                )
             )
 
             Text(
                 text = player.name,
-                fontSize = 19.sp,
-                color = ApplicationTheme.colors.contentText
+                style = TextStyle(
+                    fontSize = 18.sp,
+                    fontFamily = ThemeFonts.Gilroy,
+                    fontWeight = FontWeight.Medium,
+                    color = ApplicationTheme.colors.contentText
+                )
             )
 
             Spacer(modifier = Modifier.weight(1f))
 
             Text(
                 text = "${player.points} XP",
-                fontSize = 19.sp,
-                color = ApplicationTheme.colors.contentText.copy(alpha = 0.7f)
+                style = TextStyle(
+                    fontSize = 18.sp,
+                    fontFamily = ThemeFonts.Gilroy,
+                    fontWeight = FontWeight.Medium,
+                    color = ApplicationTheme.colors.contentText.copy(alpha = 0.7f)
+                )
             )
 
             Box(
@@ -78,8 +92,11 @@ fun LeaderboardRow(
             ) {
                 Text(
                     text = player.country,
-                    fontSize = 15.sp,
-                    fontWeight = FontWeight.Medium
+                    style = TextStyle(
+                        fontSize = 15.sp,
+                        fontFamily = ThemeFonts.Gilroy,
+                        fontWeight = FontWeight.Medium
+                    )
                 )
             }
         }
