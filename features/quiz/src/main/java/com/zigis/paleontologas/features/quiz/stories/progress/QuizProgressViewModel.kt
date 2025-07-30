@@ -50,6 +50,7 @@ class QuizProgressViewModel(
             is Initialize -> initialize()
             is StartQuiz -> quizRouter.openQuizGame()
             is CreateAccount -> createAccount()
+            is SetUsername -> setUsername(intent.value, intent.countryCode)
             is InvokeBack -> quizRouter.popCurrentScreen()
         }
     }

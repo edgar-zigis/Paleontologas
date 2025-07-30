@@ -47,14 +47,9 @@ import java.util.Locale
 @Composable
 fun CreateUsernameBottomSheet(
     isLoading: Boolean,
-    errorDescription: String,
-    usernameText: String,
-    activeCountryCode: String,
+    errorDescription: String?,
     allCountries: List<Locale>,
-    onUsernameChange: (String) -> Unit,
-    onClearUsername: () -> Unit,
-    onSetUsername: (username: String, countryCode: String) -> Unit,
-    onDismiss: () -> Unit
+    onSetUsername: (username: String, countryCode: String) -> Unit
 ) {
     val sheetState = rememberModalBottomSheetState(
         skipPartiallyExpanded = true,
@@ -62,7 +57,7 @@ fun CreateUsernameBottomSheet(
     )
 
     ModalBottomSheet(
-        onDismissRequest = onDismiss,
+        onDismissRequest = {},
         sheetState = sheetState,
         modifier = Modifier.fillMaxWidth()
     ) {
@@ -94,8 +89,10 @@ fun CreateUsernameBottomSheet(
                     color = ApplicationTheme.colors.contentText.copy(alpha = 0.7f),
                     textAlign = TextAlign.Center,
                     modifier = Modifier
-                        .padding(horizontal = 16.dp, vertical = 2.dp)
+                        .padding(horizontal = 16.dp, vertical = 8.dp)
                 )
+
+                var usernameText by remember { mutableStateOf("") }
 
                 Box(
                     modifier = Modifier
@@ -107,7 +104,7 @@ fun CreateUsernameBottomSheet(
                         value = usernameText,
                         onValueChange = {
                             val newText = if (it.length <= 15) it else it.take(15)
-                            onUsernameChange(newText)
+                            usernameText = newText
                         },
                         placeholder = {
                             Text(
@@ -132,7 +129,7 @@ fun CreateUsernameBottomSheet(
 
                     if (usernameText.isNotEmpty()) {
                         IconButton(
-                            onClick = { onClearUsername() },
+                            onClick = { usernameText = "" },
                             modifier = Modifier.padding(end = 8.dp)
                         ) {
                             Icon(
@@ -144,7 +141,7 @@ fun CreateUsernameBottomSheet(
                     }
                 }
 
-                if (errorDescription.isNotEmpty()) {
+                if (!errorDescription.isNullOrEmpty()) {
                     Text(
                         text = errorDescription,
                         style = ApplicationTheme.typography.caption2,
@@ -155,11 +152,15 @@ fun CreateUsernameBottomSheet(
                     )
                 }
 
-                var selectedCountryCode by remember { mutableStateOf(activeCountryCode) }
+                var selectedCountryCode by remember {
+                    mutableStateOf(Locale.getDefault().country.ifEmpty { "US" })
+                }
+
+                var expanded by remember { mutableStateOf(false) }
 
                 ExposedDropdownMenuBox(
-                    expanded = false, // could be controlled if needed
-                    onExpandedChange = {}
+                    expanded = expanded,
+                    onExpandedChange = { expanded = !expanded }
                 ) {
                     val locale = Locale.Builder().setRegion(selectedCountryCode).build()
                     val localizedRegionName = locale.getDisplayCountry(Locale.getDefault())
@@ -172,7 +173,7 @@ fun CreateUsernameBottomSheet(
                         modifier = Modifier
                             .fillMaxWidth()
                             .background(Color.Gray.copy(alpha = 0.2f), shape = RoundedCornerShape(8.dp)),
-                        trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(false) },
+                        trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                         colors = OutlinedTextFieldDefaults.colors(
                             unfocusedBorderColor = Color.Transparent,
                             focusedBorderColor = Color.Transparent,
@@ -183,16 +184,18 @@ fun CreateUsernameBottomSheet(
 
                     DropdownMenu(
                         expanded = false,
-                        onDismissRequest = {}
+                        onDismissRequest = { expanded = false }
                     ) {
                         allCountries.forEach { region ->
+                            val locale = Locale.Builder().setRegion(region.country).build()
                             val name = Locale
                                 .getDefault()
-                                .getDisplayCountry(Locale("", region.country)) ?: return@forEach
+                                .getDisplayCountry(locale) ?: return@forEach
                             DropdownMenuItem(
                                 text = { Text(name) },
                                 onClick = {
                                     selectedCountryCode = region.country
+                                    expanded = false
                                 }
                             )
                         }
