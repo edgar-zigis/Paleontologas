@@ -44,6 +44,7 @@ import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
 import com.zigis.paleontologas.features.quiz.stories.progress.views.LeaderboardRow
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerInvitationView
+import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerRankingView
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PodiumView
 import org.koin.androidx.compose.koinViewModel
 
@@ -175,13 +176,15 @@ private fun QuizProgressScreenUiImplementation(
                     .padding(top = 6.dp)
             )
 
-            if (viewState.activeUser == null) {
-                PlayerInvitationView {
-                    sendIntent(QuizProgressIntent.CreateAccount)
-                }
-            }
-
             if (viewState.players.isNotEmpty()) {
+                if (viewState.activeUser == null) {
+                    PlayerInvitationView {
+                        sendIntent(QuizProgressIntent.CreateAccount)
+                    }
+                } else {
+                    PlayerRankingView(ranking = viewState.globalRanking)
+                }
+
                 PodiumView(
                     modifier = Modifier
                         .fillMaxWidth()
