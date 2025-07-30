@@ -15,11 +15,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
+import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
 
 @Composable
@@ -52,7 +56,12 @@ fun PlayerInvitationView(
         Text(
             text = stringResource(id = R.string.leaderboard_invitation_description),
             color = Color.White.copy(alpha = 0.7f),
-            style = ApplicationTheme.typography.content,
+            style = TextStyle(
+                fontSize = 16.sp,
+                fontFamily = ThemeFonts.Gilroy,
+                fontWeight = FontWeight.Medium,
+                lineHeight = 20.sp
+            ),
             textAlign = TextAlign.Center
         )
 

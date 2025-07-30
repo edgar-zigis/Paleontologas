@@ -2,10 +2,11 @@ package com.zigis.paleontologas.features.quiz.managers
 
 import android.content.Context
 import androidx.credentials.CredentialManager
+import androidx.credentials.CustomCredential
 import androidx.credentials.GetCredentialRequest
-import androidx.credentials.exceptions.GetCredentialException
 import com.google.android.libraries.identity.googleid.GetSignInWithGoogleOption
 import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
+import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential.Companion.TYPE_GOOGLE_ID_TOKEN_CREDENTIAL
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
@@ -36,14 +37,19 @@ class FirebaseDataManager(
 
         try {
             val response = credentialManager.getCredential(applicationContext, request)
-            val custom = response.credential as? GoogleIdTokenCredential
+            val customCredential = response.credential as? CustomCredential
                 ?: throw Exception("Unexpected credential type")
 
-            val credential = GoogleAuthProvider.getCredential(custom.idToken, null)
-            val auth = FirebaseAuth.getInstance().signInWithCredential(credential).await()
-            user = auth.user
-            return user
-        } catch (exception: GetCredentialException) {
+            if (customCredential.type == TYPE_GOOGLE_ID_TOKEN_CREDENTIAL) {
+                val googleIdTokenCredential = GoogleIdTokenCredential.createFrom(customCredential.data)
+                val credential = GoogleAuthProvider.getCredential(googleIdTokenCredential.idToken, null)
+                val auth = FirebaseAuth.getInstance().signInWithCredential(credential).await()
+                user = auth.user
+                return user
+            } else {
+                throw Exception("Unexpected credential type")
+            }
+        } catch (exception: Exception) {
             throw exception
         }
     }
