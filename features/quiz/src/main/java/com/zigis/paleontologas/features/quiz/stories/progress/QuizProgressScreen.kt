@@ -1,6 +1,9 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
 import android.content.res.Configuration
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -176,42 +179,53 @@ private fun QuizProgressScreenUiImplementation(
                     .padding(top = 6.dp)
             )
 
-            if (viewState.players.isNotEmpty()) {
-                if (viewState.activeUser == null) {
-                    PlayerInvitationView {
-                        sendIntent(QuizProgressIntent.CreateAccount)
-                    }
-                } else {
-                    PlayerRankingView(ranking = viewState.globalRanking)
-                }
+            val visible = viewState.players.isNotEmpty()
 
-                PodiumView(
+            AnimatedVisibility(
+                visible = visible,
+                enter = fadeIn(),
+                exit = fadeOut()
+            ) {
+                Column(
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(start = 16.dp, top = 16.dp, end = 16.dp),
-                    players = viewState.players
-                )
+                        .fillMaxSize()
+                ) {
+                    if (viewState.activeUser == null) {
+                        PlayerInvitationView {
+                            sendIntent(QuizProgressIntent.CreateAccount)
+                        }
+                    } else {
+                        PlayerRankingView(ranking = viewState.globalRanking)
+                    }
 
-                if (viewState.players.size > 3) {
-                    val players = viewState.players.drop(3)
-
-                    LazyColumn(
+                    PodiumView(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height((players.size * 60).dp),
-                        verticalArrangement = Arrangement.spacedBy(0.dp)
-                    ) {
-                        itemsIndexed(players) { index, player ->
-                            LeaderboardRow(
-                                player = player,
-                                showSeparator = index < players.size - 1,
-                                isHighlighted = viewState.globalRanking == player.ranking
-                            )
+                            .padding(start = 16.dp, top = 16.dp, end = 16.dp),
+                        players = viewState.players
+                    )
+
+                    if (viewState.players.size > 3) {
+                        val players = viewState.players.drop(3)
+
+                        LazyColumn(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height((players.size * 60).dp),
+                            verticalArrangement = Arrangement.spacedBy(0.dp)
+                        ) {
+                            itemsIndexed(players) { index, player ->
+                                LeaderboardRow(
+                                    player = player,
+                                    showSeparator = index < players.size - 1,
+                                    isHighlighted = viewState.globalRanking == player.ranking
+                                )
+                            }
                         }
                     }
-                }
 
-                Spacer(modifier = Modifier.height(60.dp))
+                    Spacer(modifier = Modifier.height(60.dp))
+                }
             }
         }
     }
