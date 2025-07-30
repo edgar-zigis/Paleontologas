@@ -45,6 +45,7 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
 import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
+import com.zigis.paleontologas.features.quiz.stories.progress.views.CreateUsernameBottomSheet
 import com.zigis.paleontologas.features.quiz.stories.progress.views.LeaderboardRow
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerInvitationView
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerRankingView
@@ -226,6 +227,16 @@ private fun QuizProgressScreenUiImplementation(
 
                     Spacer(modifier = Modifier.height(60.dp))
                 }
+            }
+        }
+
+        if (viewState.createUserNameNeeded) {
+            CreateUsernameBottomSheet(
+                isLoading = viewState.isLoading,
+                errorDescription = viewState.errorDescription,
+                allCountries = viewState.allCountries
+            ) { username, countryCode ->
+                sendIntent(QuizProgressIntent.SetUsername(username, countryCode))
             }
         }
     }
