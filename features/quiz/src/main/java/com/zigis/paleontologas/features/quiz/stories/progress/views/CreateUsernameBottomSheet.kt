@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -81,6 +82,7 @@ fun CreateUsernameBottomSheet(
                         .size(48.dp)
                         .padding(vertical = 16.dp)
                 )
+                Spacer(modifier = Modifier.height(30.dp))
             } else {
                 Text(
                     text = stringResource(R.string.leaderboard_modal_claim_username_title),

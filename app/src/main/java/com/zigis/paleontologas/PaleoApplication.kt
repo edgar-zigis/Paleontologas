@@ -2,6 +2,7 @@ package com.zigis.paleontologas
 
 import android.app.Application
 import com.google.firebase.crashlytics.FirebaseCrashlytics
+import com.google.firebase.database.FirebaseDatabase
 import com.zigis.paleontologas.core.providers.AndroidLifecycleProvider
 import com.zigis.paleontologas.di.applicationModule
 import com.zigis.paleontologas.features.launcher.di.launcherModule
@@ -20,7 +21,7 @@ class PaleoApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        startActivityMonitor()
+        startFirebaseServices()
         injectDependencies()
         registerActivityLifecycleCallbacks(
             androidLifecycleProvider.activityLifecycleCallbacks
@@ -28,12 +29,14 @@ class PaleoApplication : Application() {
         eventBusInitializer.initialize()
     }
 
-    private fun startActivityMonitor() {
+    private fun startFirebaseServices() {
         FirebaseCrashlytics
             .getInstance()
             .setCrashlyticsCollectionEnabled(
                 BuildConfig.BUILD_TYPE != "debug"
             )
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true)
+        FirebaseDatabase.getInstance().getReference("leaderboard").keepSynced(true)
     }
 
     private fun injectDependencies() = startKoin {

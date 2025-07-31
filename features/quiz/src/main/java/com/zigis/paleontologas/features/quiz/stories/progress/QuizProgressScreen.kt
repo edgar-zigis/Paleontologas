@@ -195,7 +195,7 @@ private fun QuizProgressScreenUiImplementation(
                         PlayerInvitationView {
                             sendIntent(QuizProgressIntent.CreateAccount)
                         }
-                    } else {
+                    } else if (viewState.globalRanking > 0) {
                         PlayerRankingView(ranking = viewState.globalRanking)
                     }
 

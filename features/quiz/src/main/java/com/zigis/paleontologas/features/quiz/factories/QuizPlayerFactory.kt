@@ -10,7 +10,9 @@ class QuizPlayerFactory(
 ) {
     suspend fun getItems(): List<QuizPlayer> {
         val leaderboard = firebaseDataManager.fetchLeaderboard()
-        return leaderboard.mapIndexed { index, item ->
+        return leaderboard.sortedByDescending {
+            it.xp
+        }.mapIndexed { index, item ->
             QuizPlayer(
                 id = item.id,
                 name = item.name,
