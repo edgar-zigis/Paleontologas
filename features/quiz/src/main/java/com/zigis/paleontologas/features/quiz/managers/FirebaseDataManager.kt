@@ -62,6 +62,7 @@ class FirebaseDataManager(
     }
 
     suspend fun createInitialEntryIfNeeded(displayName: String, countryCode: String) {
+        FirebaseAuth.getInstance().currentUser?.getIdToken(true)?.await()
         val user = user ?: throw AuthenticationFailedException.NotAuthenticatedError
         if (!leaderboardEntryAlreadyExists()) {
             val dbRef = FirebaseDatabase.getInstance().reference
