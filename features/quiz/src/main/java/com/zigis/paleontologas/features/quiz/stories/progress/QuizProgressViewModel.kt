@@ -81,10 +81,12 @@ class QuizProgressViewModel(
 
     private suspend fun createAccount() {
         try {
+            val players = quizPlayerFactory.getItems()
             updateState {
                 it.copy(
                     activeUser = firebaseDataManager.authenticate(),
-                    players = quizPlayerFactory.getItems(),
+                    players = players,
+                    globalRanking = getGlobalRanking(players),
                     createUserNameNeeded = firebaseDataManager.needsUsername()
                 )
             }

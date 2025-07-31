@@ -58,9 +58,11 @@ fun MainBottomNavigationBar(
                 modifier = Modifier.fillMaxSize(),
                 isSelected = selectedItem == index,
                 onClick = {
-                    navController.navigate(it.route) {
-                        popUpTo(navController.graph.startDestinationId) { inclusive = false }
-                        launchSingleTop = true
+                    if (selectedItem != index) {
+                        navController.navigate(it.route) {
+                            popUpTo(navController.graph.startDestinationId) { inclusive = false }
+                            launchSingleTop = true
+                        }
                     }
                 },
                 icon = it.icon,

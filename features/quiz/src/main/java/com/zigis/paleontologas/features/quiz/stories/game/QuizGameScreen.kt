@@ -1,6 +1,7 @@
 package com.zigis.paleontologas.features.quiz.stories.game
 
 import android.content.res.Configuration
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -76,6 +77,10 @@ private fun QuizGameScreenUiImplementation(
 ) {
     val context = LocalContext.current
     var showBackConfirmationDialog by remember { mutableStateOf(false) }
+
+    BackHandler {
+        showBackConfirmationDialog = true
+    }
 
     if (showBackConfirmationDialog) {
         AlertDialog(
