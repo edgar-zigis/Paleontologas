@@ -1,6 +1,7 @@
 package com.zigis.paleontologas.features.quiz.stories.progress.views
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -9,11 +10,11 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -21,6 +22,7 @@ import androidx.compose.material3.ExposedDropdownMenuBox
 import androidx.compose.material3.ExposedDropdownMenuDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.MenuAnchorType.Companion.PrimaryNotEditable
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
@@ -34,9 +36,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.zigis.paleontologas.core.extensions.activeLocale
 import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
@@ -51,6 +56,7 @@ fun CreateUsernameBottomSheet(
     allCountries: List<Locale>,
     onSetUsername: (username: String, countryCode: String) -> Unit
 ) {
+    val context = LocalContext.current
     val sheetState = rememberModalBottomSheetState(
         skipPartiallyExpanded = true,
         confirmValueChange = { false }
@@ -79,8 +85,7 @@ fun CreateUsernameBottomSheet(
                 Text(
                     text = stringResource(R.string.leaderboard_modal_claim_username_title),
                     style = ApplicationTheme.typography.headline1,
-                    color = ApplicationTheme.colors.contentText,
-                    modifier = Modifier.padding(top = 8.dp)
+                    color = ApplicationTheme.colors.contentText
                 )
 
                 Text(
@@ -124,7 +129,8 @@ fun CreateUsernameBottomSheet(
                             cursorColor = ApplicationTheme.colors.contentText
                         ),
                         shape = RoundedCornerShape(12.dp),
-                        singleLine = true
+                        singleLine = true,
+                        keyboardOptions = KeyboardOptions.Default.copy(capitalization = KeyboardCapitalization.Words)
                     )
 
                     if (usernameText.isNotEmpty()) {
@@ -148,7 +154,8 @@ fun CreateUsernameBottomSheet(
                         color = ThemeColors.Failure,
                         textAlign = TextAlign.Center,
                         modifier = Modifier
-                            .padding(horizontal = 16.dp, vertical = 4.dp)
+                            .padding(horizontal = 20.dp)
+                            .padding(bottom = 10.dp)
                     )
                 }
 
@@ -160,19 +167,25 @@ fun CreateUsernameBottomSheet(
 
                 ExposedDropdownMenuBox(
                     expanded = expanded,
-                    onExpandedChange = { expanded = !expanded }
+                    onExpandedChange = { expanded = !expanded },
+                    modifier = Modifier
+                        .padding(horizontal = 20.dp)
+                        .padding(bottom = 10.dp)
                 ) {
                     val locale = Locale.Builder().setRegion(selectedCountryCode).build()
-                    val localizedRegionName = locale.getDisplayCountry(Locale.getDefault())
+                    val localizedRegionName = locale.getDisplayCountry(context.activeLocale())
 
                     OutlinedTextField(
                         readOnly = true,
                         value = localizedRegionName,
+                        textStyle = ApplicationTheme.typography.content,
                         onValueChange = {},
                         label = { Text("") },
                         modifier = Modifier
                             .fillMaxWidth()
-                            .background(Color.Gray.copy(alpha = 0.2f), shape = RoundedCornerShape(8.dp)),
+                            .menuAnchor(type = PrimaryNotEditable)
+                            .background(Color.Gray.copy(alpha = 0.2f), shape = RoundedCornerShape(8.dp))
+                            .clickable { expanded = true },
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded) },
                         colors = OutlinedTextFieldDefaults.colors(
                             unfocusedBorderColor = Color.Transparent,
@@ -182,17 +195,22 @@ fun CreateUsernameBottomSheet(
                         shape = RoundedCornerShape(8.dp)
                     )
 
-                    DropdownMenu(
-                        expanded = false,
-                        onDismissRequest = { expanded = false }
+                    ExposedDropdownMenu(
+                        expanded = expanded,
+                        onDismissRequest = { expanded = false },
                     ) {
                         allCountries.forEach { region ->
                             val locale = Locale.Builder().setRegion(region.country).build()
-                            val name = Locale
-                                .getDefault()
-                                .getDisplayCountry(locale) ?: return@forEach
+                            val localizedRegionName = locale.getDisplayCountry(context.activeLocale())
+
                             DropdownMenuItem(
-                                text = { Text(name) },
+                                text = {
+                                    Text(
+                                        localizedRegionName,
+                                        color = ApplicationTheme.colors.contentText,
+                                        style = ApplicationTheme.typography.content
+                                    )
+                                },
                                 onClick = {
                                     selectedCountryCode = region.country
                                     expanded = false
