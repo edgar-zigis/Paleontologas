@@ -1,5 +1,7 @@
 package com.zigis.paleontologas.features.quiz.stories.progress
 
+import android.content.Context
+import android.widget.Toast
 import androidx.lifecycle.viewModelScope
 import com.google.firebase.auth.FirebaseAuth
 import com.zigis.paleontologas.core.architecture.BaseViewModel
@@ -14,12 +16,13 @@ import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressIntent
 import kotlinx.coroutines.launch
 
 class QuizProgressViewModel(
+    private val applicationContext: Context,
     private val quizRouter: QuizRouter,
     private val firebaseAuth: FirebaseAuth,
     private val countryManager: CountryManager,
     private val quizPlayerFactory: QuizPlayerFactory,
     private val firebaseDataManager: FirebaseDataManager,
-    private val quizProgressUseCase: QuizProgressUseCase
+    private val quizProgressUseCase: QuizProgressUseCase,
 ) : BaseViewModel<QuizProgressViewState, QuizProgressIntent>() {
 
     override fun getInitialData() = QuizProgressViewState()
@@ -57,23 +60,36 @@ class QuizProgressViewModel(
     }
 
     private suspend fun initialize() {
-        val players = quizPlayerFactory.getItems()
-        updateState {
-            it.copy(
-                players = players,
-                globalRanking = getGlobalRanking(players),
-                progress = quizProgressUseCase.getFullProgress()
-            )
+        try {
+            val players = quizPlayerFactory.getItems()
+            updateState {
+                it.copy(
+                    players = players,
+                    globalRanking = getGlobalRanking(players),
+                    progress = quizProgressUseCase.getFullProgress()
+                )
+            }
+        } catch (exception: Exception) {
+            Toast.makeText(applicationContext, exception.message, Toast.LENGTH_LONG).show()
+            updateState {
+                it.copy(
+                    progress = quizProgressUseCase.getFullProgress()
+                )
+            }
         }
     }
 
     private suspend fun createAccount() {
-        updateState {
-            it.copy(
-                activeUser = firebaseDataManager.authenticate(),
-                players = quizPlayerFactory.getItems(),
-                createUserNameNeeded = firebaseDataManager.needsUsername()
-            )
+        try {
+            updateState {
+                it.copy(
+                    activeUser = firebaseDataManager.authenticate(),
+                    players = quizPlayerFactory.getItems(),
+                    createUserNameNeeded = firebaseDataManager.needsUsername()
+                )
+            }
+        } catch (exception: Exception) {
+            Toast.makeText(applicationContext, exception.message, Toast.LENGTH_LONG).show()
         }
     }
 
@@ -98,7 +114,7 @@ class QuizProgressViewModel(
                     globalRanking = getGlobalRanking(players)
                 )
             }
-        } catch (error: Throwable) {
+        } catch (error: Exception) {
             updateState { it.copy(errorDescription = error.message) }
         }
 

@@ -3,9 +3,12 @@ package com.zigis.paleontologas.features.quiz.managers
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import com.zigis.paleontologas.features.quiz.usecases.QuizGenerateQuestionsUseCase
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 
 class QuizGameProcessor(
     private val questionRepository: QuestionRepository,
@@ -43,6 +46,7 @@ class QuizGameProcessor(
         }
     }
 
+    @OptIn(DelicateCoroutinesApi::class)
     private suspend fun finalize() {
         coroutineScope {
             generatedQuestions.map {
@@ -51,9 +55,11 @@ class QuizGameProcessor(
                 }
             }.awaitAll()
             if (firebaseDataManager.isAuthenticated()) {
-                firebaseDataManager.addXP(
-                    if (correctAnswers == 10) 20 else correctAnswers
-                )
+                GlobalScope.launch {
+                    firebaseDataManager.addXP(
+                        if (correctAnswers == 10) 20 else correctAnswers
+                    )
+                }
             }
         }
     }
