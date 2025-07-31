@@ -13,6 +13,7 @@ import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.database.FirebaseDatabase
 import com.zigis.paleontologas.core.BuildConfig
 import com.zigis.paleontologas.core.extensions.sanitized
+import com.zigis.paleontologas.features.quiz.errors.AuthenticationFailedException
 import kotlinx.coroutines.tasks.await
 
 class FirebaseDataManager(
@@ -44,7 +45,7 @@ class FirebaseDataManager(
         try {
             val response = credentialManager.getCredential(applicationContext, request)
             val customCredential = response.credential as? CustomCredential
-                ?: throw Exception("Unexpected credential type")
+                ?: throw AuthenticationFailedException.GoogleAuthenticationError
 
             if (customCredential.type == TYPE_GOOGLE_ID_TOKEN_CREDENTIAL) {
                 val googleIdTokenCredential = GoogleIdTokenCredential.createFrom(customCredential.data)
@@ -53,7 +54,7 @@ class FirebaseDataManager(
                 user = auth.user
                 return user
             } else {
-                throw Exception("Unexpected credential type")
+                throw AuthenticationFailedException.GoogleAuthenticationError
             }
         } catch (exception: Exception) {
             throw exception
@@ -61,14 +62,14 @@ class FirebaseDataManager(
     }
 
     suspend fun createInitialEntryIfNeeded(displayName: String, countryCode: String) {
-        val user = user ?: throw Exception("Not authenticated")
+        val user = user ?: throw AuthenticationFailedException.NotAuthenticatedError
         if (!leaderboardEntryAlreadyExists()) {
             val dbRef = FirebaseDatabase.getInstance().reference
             val nameRef = dbRef.child("names").child(displayName)
             val blacklistRef = dbRef.child("blacklist").child(displayName.sanitized())
 
-            if (nameRef.get().await().exists()) throw Exception("Name exists")
-            if (blacklistRef.get().await().exists()) throw Exception("Name blacklisted")
+            if (nameRef.get().await().exists()) throw AuthenticationFailedException.NameAlreadyExistsError
+            if (blacklistRef.get().await().exists()) throw AuthenticationFailedException.NameBlackListedError
 
             val entry = mapOf("id" to user.uid, "name" to displayName, "country" to countryCode, "xp" to 0)
 
@@ -82,7 +83,7 @@ class FirebaseDataManager(
     }
 
     suspend fun leaderboardEntryAlreadyExists(): Boolean {
-        val usr = user ?: throw Exception("Not authenticated")
+        val usr = user ?: throw AuthenticationFailedException.NotAuthenticatedError
         return FirebaseDatabase.getInstance()
             .getReference("leaderboard/${usr.uid}")
             .get()
@@ -109,7 +110,7 @@ class FirebaseDataManager(
     }
 
     suspend fun addXP(xp: Int) {
-        val usr = user ?: throw Exception("Not authenticated")
+        val usr = user ?: throw AuthenticationFailedException.NotAuthenticatedError
         val current = getXP(usr.uid)
         FirebaseDatabase.getInstance()
             .getReference("leaderboard/${usr.uid}")
@@ -123,7 +124,7 @@ class FirebaseDataManager(
             .get()
             .await()
 
-        val d = snap.value as? Map<*,*> ?: throw Exception("XP missing")
+        val d = snap.value as? Map<*,*> ?: throw AuthenticationFailedException.NotAuthenticatedError
         return (d["xp"] as? Long)?.toInt() ?: 0
     }
 

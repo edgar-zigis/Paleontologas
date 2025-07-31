@@ -43,6 +43,7 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.zigis.paleontologas.core.extensions.activeLocale
+import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.core.extensions.rememberDebouncedClick
 import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 import com.zigis.paleontologas.core.ui.theme.ThemeColors
@@ -151,7 +152,7 @@ fun CreateUsernameBottomSheet(
 
                 if (!errorDescription.isNullOrEmpty()) {
                     Text(
-                        text = errorDescription,
+                        text = context.getString(errorDescription),
                         style = ApplicationTheme.typography.caption2,
                         color = ThemeColors.Failure,
                         textAlign = TextAlign.Center,
