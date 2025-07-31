@@ -4,6 +4,7 @@ import androidx.lifecycle.viewModelScope
 import com.google.firebase.auth.FirebaseAuth
 import com.zigis.paleontologas.core.architecture.BaseViewModel
 import com.zigis.paleontologas.core.extensions.authStateFlow
+import com.zigis.paleontologas.features.quiz.entities.QuizPlayer
 import com.zigis.paleontologas.features.quiz.factories.QuizPlayerFactory
 import com.zigis.paleontologas.features.quiz.managers.CountryManager
 import com.zigis.paleontologas.features.quiz.managers.FirebaseDataManager
@@ -57,14 +58,10 @@ class QuizProgressViewModel(
 
     private suspend fun initialize() {
         val players = quizPlayerFactory.getItems()
-        val globalRanking = players.indexOfFirst { player ->
-            player.id == firebaseDataManager.user?.uid
-        } + 1
-
         updateState {
             it.copy(
                 players = players,
-                globalRanking = globalRanking,
+                globalRanking = getGlobalRanking(players),
                 progress = quizProgressUseCase.getFullProgress()
             )
         }
@@ -74,7 +71,8 @@ class QuizProgressViewModel(
         updateState {
             it.copy(
                 activeUser = firebaseDataManager.authenticate(),
-                players = quizPlayerFactory.getItems()
+                players = quizPlayerFactory.getItems(),
+                createUserNameNeeded = firebaseDataManager.needsUsername()
             )
         }
     }
@@ -92,10 +90,12 @@ class QuizProgressViewModel(
 
         try {
             firebaseDataManager.createInitialEntryIfNeeded(value, countryCode)
+            val players = quizPlayerFactory.getItems()
             updateState {
                 it.copy(
-                    createUserNameNeeded = firebaseDataManager.leaderboardEntryAlreadyExists(),
-                    players = quizPlayerFactory.getItems()
+                    createUserNameNeeded = false,
+                    players = players,
+                    globalRanking = getGlobalRanking(players)
                 )
             }
         } catch (error: Throwable) {
@@ -107,5 +107,11 @@ class QuizProgressViewModel(
                 isLoading = false
             )
         }
+    }
+
+    private fun getGlobalRanking(players: List<QuizPlayer>): Int {
+        return players.indexOfFirst { player ->
+            player.id == firebaseDataManager.user?.uid
+        } + 1
     }
 }

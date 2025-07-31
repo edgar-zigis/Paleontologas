@@ -24,6 +24,12 @@ class FirebaseDataManager(
         return user != null
     }
 
+    suspend fun needsUsername(): Boolean {
+        return user?.let {
+            !leaderboardEntryAlreadyExists()
+        } ?: false
+    }
+
     suspend fun authenticate(): FirebaseUser? {
         val credentialManager = CredentialManager.create(applicationContext)
         val googleOptions = GetSignInWithGoogleOption.Builder(
