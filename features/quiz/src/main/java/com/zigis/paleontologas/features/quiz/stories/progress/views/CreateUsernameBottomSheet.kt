@@ -25,6 +25,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MenuAnchorType.Companion.PrimaryNotEditable
 import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.ModalBottomSheetProperties
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
@@ -67,6 +68,9 @@ fun CreateUsernameBottomSheet(
     ModalBottomSheet(
         onDismissRequest = {},
         sheetState = sheetState,
+        properties = ModalBottomSheetProperties(
+            shouldDismissOnBackPress = false
+        ),
         modifier = Modifier.fillMaxWidth()
     ) {
         Column(
