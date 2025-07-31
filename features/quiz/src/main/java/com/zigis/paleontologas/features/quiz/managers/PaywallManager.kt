@@ -14,6 +14,7 @@ class PaywallManager(
 
     private val productId = "unlock_leaderboard_participation"
     private var billingReady = CompletableDeferred<Unit>()
+    private var purchaseFlowFinished = CompletableDeferred<Boolean>()
 
     private val billingClient: BillingClient = BillingClient.newBuilder(
         androidLifecycleProvider.getApplicationContext()
@@ -32,10 +33,15 @@ class PaywallManager(
         return applicationPreferences.isPremiumUser
     }
 
-    suspend fun launchPurchaseFlow() {
-        billingReady.await()
+    suspend fun launchPurchaseFlow(): Boolean {
+        if (applicationPreferences.isPremiumUser) {
+            return true
+        }
 
-        val productDetails = queryProductDetails() ?: return
+        billingReady.await()
+        purchaseFlowFinished = CompletableDeferred<Boolean>()
+
+        val productDetails = queryProductDetails() ?: return false
 
         val billingFlowParams = BillingFlowParams.newBuilder()
             .setProductDetailsParamsList(
@@ -50,6 +56,8 @@ class PaywallManager(
         androidLifecycleProvider.getActivity()?.let {
             billingClient.launchBillingFlow(it, billingFlowParams)
         }
+
+        return purchaseFlowFinished.await()
     }
 
     private fun startBillingConnection() {
@@ -57,6 +65,7 @@ class PaywallManager(
             override fun onBillingSetupFinished(billingResult: BillingResult) {
                 if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
                     billingReady.complete(Unit)
+                    restorePurchases()
                 } else {
                     billingReady.completeExceptionally(
                         IllegalStateException("Billing setup failed: ${billingResult.debugMessage}")
@@ -68,6 +77,27 @@ class PaywallManager(
                 billingReady = CompletableDeferred()
             }
         })
+    }
+
+    private fun restorePurchases() {
+        billingClient.queryPurchasesAsync(
+            QueryPurchasesParams.newBuilder()
+                .setProductType(BillingClient.ProductType.INAPP)
+                .build()
+        ) { result, purchases ->
+            if (result.responseCode == BillingClient.BillingResponseCode.OK) {
+                for (purchase in purchases) {
+                    if (purchase.purchaseState == Purchase.PurchaseState.PURCHASED) {
+                        if (!purchase.isAcknowledged) {
+                            acknowledgePurchase(purchase)
+                        } else {
+                            applicationPreferences.isPremiumUser = true
+                            purchaseFlowFinished.complete(true)
+                        }
+                    }
+                }
+            }
+        }
     }
 
     private suspend fun queryProductDetails(): ProductDetails? {
@@ -113,6 +143,9 @@ class PaywallManager(
         billingClient.acknowledgePurchase(params) { result ->
             if (result.responseCode == BillingClient.BillingResponseCode.OK) {
                 applicationPreferences.isPremiumUser = true
+                purchaseFlowFinished.complete(true)
+            } else {
+                purchaseFlowFinished.complete(false)
             }
         }
     }

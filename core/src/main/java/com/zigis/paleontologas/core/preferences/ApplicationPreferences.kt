@@ -40,7 +40,7 @@ class ApplicationPreferences(
 
     var isPremiumUser: Boolean
         get() {
-            return preferences.getBoolean(premiumUserEnabled, true)
+            return preferences.getBoolean(premiumUserEnabled, false)
         }
         set(value) {
             with(preferences.edit()) {

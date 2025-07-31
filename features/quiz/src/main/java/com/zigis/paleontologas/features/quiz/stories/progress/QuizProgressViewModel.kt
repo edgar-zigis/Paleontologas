@@ -10,9 +10,11 @@ import com.zigis.paleontologas.features.quiz.entities.QuizPlayer
 import com.zigis.paleontologas.features.quiz.factories.QuizPlayerFactory
 import com.zigis.paleontologas.features.quiz.managers.CountryManager
 import com.zigis.paleontologas.features.quiz.managers.FirebaseDataManager
+import com.zigis.paleontologas.features.quiz.managers.PaywallManager
 import com.zigis.paleontologas.features.quiz.routing.QuizRouter
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressIntent.*
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 class QuizProgressViewModel(
@@ -20,6 +22,7 @@ class QuizProgressViewModel(
     private val quizRouter: QuizRouter,
     private val firebaseAuth: FirebaseAuth,
     private val countryManager: CountryManager,
+    private val paywallManager: PaywallManager,
     private val quizPlayerFactory: QuizPlayerFactory,
     private val firebaseDataManager: FirebaseDataManager,
     private val quizProgressUseCase: QuizProgressUseCase,
@@ -80,18 +83,21 @@ class QuizProgressViewModel(
     }
 
     private suspend fun createAccount() {
-        try {
-            val players = quizPlayerFactory.getItems()
-            updateState {
-                it.copy(
-                    activeUser = firebaseDataManager.authenticate(),
-                    players = players,
-                    globalRanking = getGlobalRanking(players),
-                    createUserNameNeeded = firebaseDataManager.needsUsername()
-                )
-            }
-        } catch (exception: Exception) {
-            Toast.makeText(applicationContext, exception.message, Toast.LENGTH_LONG).show()
+        val isPremiumUser = paywallManager.isPremiumUser()
+        val productPurchased = paywallManager.launchPurchaseFlow()
+        if (isPremiumUser || productPurchased) {
+            delay(400)
+            try {
+                val players = quizPlayerFactory.getItems()
+                updateState {
+                    it.copy(
+                        activeUser = firebaseDataManager.authenticate(),
+                        players = players,
+                        globalRanking = getGlobalRanking(players),
+                        createUserNameNeeded = firebaseDataManager.needsUsername()
+                    )
+                }
+            } catch (exception: Exception) { }
         }
     }
 
