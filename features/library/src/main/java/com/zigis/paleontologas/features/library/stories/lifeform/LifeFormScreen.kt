@@ -155,6 +155,7 @@ private fun LifeFormScreenUiImplementation(
                         maxLines = 1,
                         modifier = Modifier
                             .padding(start = 4.dp)
+                            .align(Alignment.CenterVertically)
                     )
                 }
 

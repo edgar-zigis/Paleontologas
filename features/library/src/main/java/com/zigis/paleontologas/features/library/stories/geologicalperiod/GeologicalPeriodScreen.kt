@@ -164,7 +164,6 @@ private fun GeologicalPeriodScreenUiImplementation(
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = 4.dp)
                         .background(ApplicationTheme.colors.headingText)
                         .padding(4.dp)
                 ) {
@@ -179,6 +178,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                         maxLines = 1,
                         modifier = Modifier
                             .padding(start = 4.dp)
+                            .align(Alignment.CenterVertically)
                     )
                 }
 
@@ -207,6 +207,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                         maxLines = 1,
                         modifier = Modifier
                             .padding(start = 4.dp)
+                            .align(Alignment.CenterVertically)
                     )
                 }
 
@@ -320,6 +321,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                             maxLines = 1,
                             modifier = Modifier
                                 .padding(start = 4.dp)
+                                .align(Alignment.CenterVertically)
                         )
                     }
 
@@ -349,6 +351,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                         maxLines = 1,
                         modifier = Modifier
                             .padding(start = 4.dp)
+                            .align(Alignment.CenterVertically)
                     )
                 }
 

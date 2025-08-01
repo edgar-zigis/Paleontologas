@@ -147,7 +147,7 @@ fun HomeListItemView(
                 backgroundArcColor = Color.LightGray,
                 valueTextStyle = TextStyle(
                     fontSize = 10.sp,
-                    fontFamily = ThemeFonts.Gentona,
+                    fontFamily = ThemeFonts.Gilroy,
                     color = ApplicationTheme.colors.tintColor
                 )
             )

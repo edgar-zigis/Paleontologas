@@ -147,8 +147,8 @@ private fun QuizGameScreenUiImplementation(
                 ),
                 color = ApplicationTheme.colors.headingText,
                 style = TextStyle(
-                    fontSize = 22.sp,
-                    fontFamily = ThemeFonts.Gentona,
+                    fontSize = 19.sp,
+                    fontFamily = ThemeFonts.Gilroy,
                     fontWeight = FontWeight.Normal
                 ),
                 textAlign = TextAlign.Center,

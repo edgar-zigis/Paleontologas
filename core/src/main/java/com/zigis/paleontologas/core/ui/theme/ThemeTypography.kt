@@ -37,9 +37,9 @@ class ThemeTypography(
                 fontWeight = FontWeight.Bold
             ),
             title1 = TextStyle(
-                fontSize = 19.sp,
-                fontFamily = ThemeFonts.Gentona,
-                fontWeight = FontWeight.Normal
+                fontSize = 18.sp,
+                fontFamily = ThemeFonts.Gilroy,
+                fontWeight = FontWeight.Medium
             ),
             title2 = TextStyle(
                 fontSize = 17.sp,
