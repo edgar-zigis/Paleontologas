@@ -8,6 +8,10 @@
         <item>item_proterozoic_dickinsonia_thumb</item>
         <item>item_proterozoic_cloudina_thumb</item>
         <item>item_proterozoic_charnia_thumb</item>
+        <item>item_proterozoic_grypania_spiralis_thumb</item>
+        <item>item_proterozoic_spriggina_thumb</item>
+        <item>item_proterozoic_kimberella_thumb</item>
+        <item>item_proterozoic_rangea_thumb</item>
     </array>
 
     <array name="proterozoic_images">
@@ -17,6 +21,23 @@
         <item>item_proterozoic_dickinsonia</item>
         <item>item_proterozoic_cloudina</item>
         <item>item_proterozoic_charnia</item>
+        <item>item_proterozoic_grypania_spiralis</item>
+        <item>item_proterozoic_spriggina</item>
+        <item>item_proterozoic_kimberella</item>
+        <item>item_proterozoic_rangea</item>
+    </array>
+
+    <array name="proterozoic_additional_images">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_proterozoic_spriggina_info</item>
+        <item>item_proterozoic_kimberella_info</item>
+        <item>item_proterozoic_rangea_info</item>
     </array>
 
     <array name="proterozoic_titles">
@@ -26,6 +47,10 @@
         <item>proterozoic_dickinsonia</item>
         <item>proterozoic_cloudina</item>
         <item>proterozoic_charnia</item>
+        <item>proterozoic_grypania_spiralis</item>
+        <item>proterozoic_spriggina</item>
+        <item>proterozoic_kimberella</item>
+        <item>proterozoic_rangea</item>
     </array>
 
     <array name="proterozoic_time_scales">
@@ -35,6 +60,10 @@
         <item>635-542</item>
         <item>635-505</item>
         <item>580-542</item>
+        <item>1870-600</item>
+        <item>555-550</item>
+        <item>555-550</item>
+        <item>550-541</item>
     </array>
 
     <array name="proterozoic_descriptions">
@@ -44,6 +73,10 @@
         <item>proterozoic_dickinsonia_description</item>
         <item>proterozoic_cloudina_description</item>
         <item>proterozoic_charnia_description</item>
+        <item>proterozoic_grypania_spiralis_description</item>
+        <item>proterozoic_spriggina_description</item>
+        <item>proterozoic_kimberella_description</item>
+        <item>proterozoic_rangea_description</item>
     </array>
 
     <array name="proterozoic_photo_authors">
@@ -52,6 +85,10 @@
         <item></item>
         <item>&#169; John Sibbick</item>
         <item></item>
+        <item></item>
+        <item></item>
+        <item>&#169; Paleozoo</item>
+        <item>&#169; Oleg Kuznetsov</item>
         <item></item>
     </array>
 

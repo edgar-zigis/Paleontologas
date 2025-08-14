@@ -14,6 +14,8 @@
         <item>item_carboniferous_pulmonoscorpius_thumb</item>
         <item>item_carboniferous_arthropleura_thumb</item>
         <item>item_carboniferous_meganeura_thumb</item>
+        <item>item_carboniferous_megarachne_thumb</item>
+        <item>item_carboniferous_edestus_thumb</item>
     </array>
 
     <array name="carboniferous_images">
@@ -29,6 +31,8 @@
         <item>item_carboniferous_pulmonoscorpius</item>
         <item>item_carboniferous_arthropleura</item>
         <item>item_carboniferous_meganeura</item>
+        <item>item_carboniferous_megarachne</item>
+        <item>item_carboniferous_edestus</item>
     </array>
 
     <array name="carboniferous_additional_images">
@@ -44,6 +48,8 @@
         <item>item_carboniferous_pulmonoscorpius_info</item>
         <item>item_carboniferous_arthropleura_info</item>
         <item>item_carboniferous_meganeura_info</item>
+        <item>item_carboniferous_megarachne_info</item>
+        <item>item_carboniferous_edestus_info</item>
     </array>
 
     <array name="carboniferous_titles">
@@ -59,6 +65,8 @@
         <item>carboniferous_pulmonoscorpius</item>
         <item>carboniferous_arthropleura</item>
         <item>carboniferous_meganeura</item>
+        <item>carboniferous_megarachne</item>
+        <item>carboniferous_edestus</item>
     </array>
 
     <array name="carboniferous_time_scales">
@@ -74,6 +82,8 @@
         <item>336.0-326.4</item>
         <item>314.6-290.1</item>
         <item>303.4-298.9</item>
+        <item>303.7-298.9</item>
+        <item>303.7-298.9</item>
     </array>
 
     <array name="carboniferous_descriptions">
@@ -89,6 +99,8 @@
         <item>carboniferous_pulmonoscorpius_description</item>
         <item>carboniferous_arthropleura_description</item>
         <item>carboniferous_meganeura_description</item>
+        <item>carboniferous_megarachne_description</item>
+        <item>carboniferous_edestus_description</item>
     </array>
 
     <array name="carboniferous_photo_authors">
@@ -104,6 +116,8 @@
         <item>&#169; Nobu Tamura</item>
         <item></item>
         <item></item>
+        <item>&#169; Nicholls</item>
+        <item>&#169; Mateusz Horbowiec</item>
     </array>
 
 </resources>
