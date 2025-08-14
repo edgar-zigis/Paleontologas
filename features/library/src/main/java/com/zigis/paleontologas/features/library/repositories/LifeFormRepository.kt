@@ -66,6 +66,7 @@ class LifeFormRepository(
         val timeScales = context.resources.getStringArray(R.array.proterozoic_time_scales)
         val descriptions = context.resources.getStringArray(R.array.proterozoic_descriptions)
         val thumbnails = context.resources.getStringArray(R.array.proterozoic_thumbs)
+        val additionalImages = context.resources.getStringArray(R.array.proterozoic_additional_images)
         val images = context.resources.getStringArray(R.array.proterozoic_images)
         val artworkAuthors = context.resources.getStringArray(R.array.proterozoic_photo_authors)
         titles.forEachIndexed { index, title ->
@@ -78,7 +79,7 @@ class LifeFormRepository(
                     timeScale = timeScales[index],
                     thumbnail = thumbnails[index],
                     artwork = images[index],
-                    additionalArtwork = "",
+                    additionalArtwork = additionalImages[index],
                     artworkAuthor = artworkAuthors[index],
                     additionalArtworkAuthor = ""
                 )

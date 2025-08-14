@@ -14,6 +14,8 @@
         <item>item_cambrian_pikaia_thumb</item>
         <item>item_cambrian_opabinia_thumb</item>
         <item>item_cambrian_marrella_thumb</item>
+        <item>item_cambrian_nectocaris_thumb</item>
+        <item>item_cambrian_omnidens_thumb</item>
     </array>
 
     <array name="cambrian_images">
@@ -29,6 +31,8 @@
         <item>item_cambrian_pikaia</item>
         <item>item_cambrian_opabinia</item>
         <item>item_cambrian_marrella</item>
+        <item>item_cambrian_nectocaris</item>
+        <item>item_cambrian_omnidens</item>
     </array>
 
     <array name="cambrian_additional_images">
@@ -44,6 +48,8 @@
         <item></item>
         <item></item>
         <item></item>
+        <item>item_cambrian_nectocaris_info</item>
+        <item>item_cambrian_omnidens_info</item>
     </array>
 
     <array name="cambrian_titles">
@@ -59,6 +65,8 @@
         <item>cambrian_pikaia</item>
         <item>cambrian_opabinia</item>
         <item>cambrian_marrella</item>
+        <item>cambrian_nectocaris</item>
+        <item>cambrian_omnidens</item>
     </array>
 
     <array name="cambrian_time_scales">
@@ -74,6 +82,8 @@
         <item>513-505</item>
         <item>513-505</item>
         <item>513-505</item>
+        <item>508-497</item>
+        <item>521-509</item>
     </array>
 
     <array name="cambrian_descriptions">
@@ -89,6 +99,8 @@
         <item>cambrian_pikaia_description</item>
         <item>cambrian_opabinia_description</item>
         <item>cambrian_marrella_description</item>
+        <item>cambrian_nectocaris_description</item>
+        <item>cambrian_omnidens_description</item>
     </array>
 
     <array name="cambrian_photo_authors">
@@ -104,6 +116,8 @@
         <item></item>
         <item></item>
         <item></item>
+        <item>&#169; Marianne Collins</item>
+        <item>&#169; José Antonio PA</item>
     </array>
 
 </resources>
