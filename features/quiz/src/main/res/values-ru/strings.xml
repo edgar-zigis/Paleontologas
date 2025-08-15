@@ -50,6 +50,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Введите имя пользователя</string>
     <string name="leaderboard_xp_earned_label">Вы заработали %d XP!</string>
 
+    <string name="paywall_sheet_title">Спасите нас от вымирания!</string>
+    <string name="paywall_sheet_description">Участие в таблице лидеров является платной функцией. Все средства будут направлены на улучшение приложения и добавление нового контента.</string>
+
     <string name="hadean_question_1">Когда начался катархейский эон?</string>
     <string name="hadean_variant_1_1">4560 млн. лет назад</string>
     <string name="hadean_variant_1_2">4700 млн. лет назад</string>

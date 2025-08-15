@@ -24,6 +24,9 @@ import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -47,6 +50,7 @@ import com.zigis.paleontologas.core.ui.theme.ThemeFonts
 import com.zigis.paleontologas.features.quiz.R
 import com.zigis.paleontologas.features.quiz.stories.progress.views.CreateUsernameBottomSheet
 import com.zigis.paleontologas.features.quiz.stories.progress.views.LeaderboardRow
+import com.zigis.paleontologas.features.quiz.stories.progress.views.PaywallSheet
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerInvitationView
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PlayerRankingView
 import com.zigis.paleontologas.features.quiz.stories.progress.views.PodiumView
@@ -77,6 +81,7 @@ private fun QuizProgressScreenUiImplementation(
     sendIntent: (QuizProgressIntent) -> Unit?
 ) {
     val scrollState = rememberScrollState()
+    var isPaywallSheetVisible by remember { mutableStateOf(false) }
 
     StaticScaffold(
         title = stringResource(id = R.string.quiz),
@@ -193,7 +198,7 @@ private fun QuizProgressScreenUiImplementation(
                 ) {
                     if (viewState.activeUser == null) {
                         PlayerInvitationView {
-                            sendIntent(QuizProgressIntent.CreateAccount)
+                            isPaywallSheetVisible = true
                         }
                     } else if (viewState.globalRanking > 0) {
                         PlayerRankingView(ranking = viewState.globalRanking)
@@ -227,6 +232,15 @@ private fun QuizProgressScreenUiImplementation(
 
                     Spacer(modifier = Modifier.height(60.dp))
                 }
+            }
+        }
+
+        if (isPaywallSheetVisible) {
+            PaywallSheet(onDismiss = {
+                isPaywallSheetVisible = false
+            }) {
+                isPaywallSheetVisible = false
+                sendIntent(QuizProgressIntent.CreateAccount)
             }
         }
 

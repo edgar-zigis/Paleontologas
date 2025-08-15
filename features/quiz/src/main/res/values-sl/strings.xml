@@ -50,6 +50,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Vnesi uporabniško ime</string>
     <string name="leaderboard_xp_earned_label">Prejel si %d XP!</string>
 
+    <string name="paywall_sheet_title">Reši nas pred izumrtjem!</string>
+    <string name="paywall_sheet_description">Sodelovanje na lestvici najboljših je plačljiva funkcija. Vsa sredstva bodo uporabljena za izboljšanje aplikacije in dodajanje nove vsebine.</string>
+
     <string name="hadean_question_1">Kdaj se je začel Hadijski eon?</string>
     <string name="hadean_variant_1_1">4560 milijonov let</string>
     <string name="hadean_variant_1_2">4700 milijonov let</string>

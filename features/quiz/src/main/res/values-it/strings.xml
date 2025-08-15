@@ -50,6 +50,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Inserisci il nome utente</string>
     <string name="leaderboard_xp_earned_label">Hai ottenuto %d XP!</string>
 
+    <string name="paywall_sheet_title">Salvaci dall’estinzione!</string>
+    <string name="paywall_sheet_description">La partecipazione alla classifica è una funzionalità a pagamento. Tutti i proventi saranno utilizzati per migliorare l’applicazione e aggiungere nuovi contenuti.</string>
+
     <string name="hadean_question_1">Quando è iniziato l\'Eone Adeano?</string>
     <string name="hadean_variant_1_1">4560 milioni di anni fa</string>
     <string name="hadean_variant_1_2">4700 milioni di anni fa</string>

@@ -49,6 +49,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Introduce tu nombre de usuario</string>
     <string name="leaderboard_xp_earned_label">¡Has obtenido %d XP!</string>
 
+    <string name="paywall_sheet_title">¡Sálvanos de la extinción!</string>
+    <string name="paywall_sheet_description">La participación en la tabla de clasificación es una función de pago. Todos los ingresos se utilizarán para mejorar la aplicación y añadir nuevo contenido.</string>
+
     <string name="hadean_question_1">¿Cuándo comenzó el eón Hadeano?</string>
     <string name="hadean_variant_1_1">4560 millones de años</string>
     <string name="hadean_variant_1_2">4700 millones de años</string>
