@@ -50,6 +50,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Įveskite slapyvardį</string>
     <string name="leaderboard_xp_earned_label">Gavai %d XP!</string>
 
+    <string name="paywall_sheet_title">Išgelbėk mus nuo išnykimo!</string>
+    <string name="paywall_sheet_description">Dalyvavimas lyderių lentelėje yra mokama funkcija. Visos lėšos bus skirtos programėlės tobulinimui ir naujo turinio kūrimui.</string>
+
     <string name="hadean_question_1">Kada prasidėjo Hadėjaus eonas?</string>
     <string name="hadean_variant_1_1">4560 milijonų metų</string>
     <string name="hadean_variant_1_2">4700 milijonų metų</string>

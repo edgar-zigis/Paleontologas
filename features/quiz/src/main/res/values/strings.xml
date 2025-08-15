@@ -50,6 +50,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Enter username</string>
     <string name="leaderboard_xp_earned_label">You’ve claimed %d XP!</string>
 
+    <string name="paywall_sheet_title">Save us from extinction!</string>
+    <string name="paywall_sheet_description">Leaderboard participation is a paid feature. All proceeds will be used to improve the application and add new content.</string>
+
     <string name="hadean_question_1">When did the Hadean Eon begin?</string>
     <string name="hadean_variant_1_1">4560 mya</string>
     <string name="hadean_variant_1_2">4700 mya</string>

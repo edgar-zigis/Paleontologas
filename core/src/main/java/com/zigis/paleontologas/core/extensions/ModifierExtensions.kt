@@ -15,7 +15,7 @@ import androidx.compose.ui.layout.layout
 fun Modifier.parallaxLayoutModifier(
     scrollState: ScrollState,
     rate: Int,
-    isBlurEnabled: Boolean = true
+    isBlurEnabled: Boolean = false
 ): Modifier {
     return layout { measurable, constraints ->
         val placeable = measurable.measure(constraints)

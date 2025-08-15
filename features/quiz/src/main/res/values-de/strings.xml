@@ -49,6 +49,9 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Benutzernamen eingeben</string>
     <string name="leaderboard_xp_earned_label">Du hast %d XP erhalten!</string>
 
+    <string name="paywall_sheet_title">Rette uns vor dem Aussterben!</string>
+    <string name="paywall_sheet_description">Die Teilnahme an der Bestenliste ist eine kostenpflichtige Funktion. Alle Einnahmen werden verwendet, um die App zu verbessern und neue Inhalte hinzuzufügen.</string>
+
     <string name="hadean_question_1">Wann begann das Hadaikum?</string>
     <string name="hadean_variant_1_1">4560 Mio. Jahre</string>
     <string name="hadean_variant_1_2">4700 Mio. Jahre</string>
