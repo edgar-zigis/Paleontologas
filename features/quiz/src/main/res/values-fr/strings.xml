@@ -50,7 +50,7 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Entrez votre nom d’utilisateur</string>
     <string name="leaderboard_xp_earned_label">Vous avez obtenu %d XP !</string>
 
-    <string name="paywall_sheet_title">Sauvez-nous de l’extinction&nbsp;!</string>
+    <string name="paywall_sheet_title">Sauvez-nous de l’extinction!</string>
     <string name="paywall_sheet_description">La participation au classement est une fonctionnalité payante. Tous les bénéfices seront utilisés pour améliorer l’application et ajouter de nouveaux contenus.</string>
 
     <string name="hadean_question_1">Quand a commencé l’éon Hadéen ?</string>
