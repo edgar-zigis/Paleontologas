@@ -12,6 +12,10 @@
         <item>item_devonian_bothriolepis_thumb</item>
         <item>item_devonian_cladoselache_thumb</item>
         <item>item_devonian_dunkleosteus_thumb</item>
+        <item>item_devonian_jaekelopterus_thumb</item>
+        <item>item_devonian_xenacanthus_thumb</item>
+        <item>item_devonian_calamophyton_thumb</item>
+        <item>item_devonian_elkinsia_thumb</item>
     </array>
 
     <array name="devonian_images">
@@ -25,6 +29,10 @@
         <item>item_devonian_bothriolepis</item>
         <item>item_devonian_cladoselache</item>
         <item>item_devonian_dunkleosteus</item>
+        <item>item_devonian_jaekelopterus</item>
+        <item>item_devonian_xenacanthus</item>
+        <item>item_devonian_calamophyton</item>
+        <item>item_devonian_elkinsia</item>
     </array>
 
     <array name="devonian_additional_images">
@@ -38,6 +46,10 @@
         <item>item_devonian_bothriolepis_info</item>
         <item></item>
         <item>item_devonian_dunkleosteus_info</item>
+        <item>item_devonian_jaekelopterus_info</item>
+        <item>item_devonian_xenacanthus_info</item>
+        <item>item_devonian_calamophyton_info</item>
+        <item>item_devonian_elkinsia_info</item>
     </array>
 
     <array name="devonian_titles">
@@ -51,6 +63,10 @@
         <item>devonian_bothriolepis</item>
         <item>devonian_cladoselache</item>
         <item>devonian_dunkleosteus</item>
+        <item>devonian_jaekelopterus</item>
+        <item>devonian_xenacanthus</item>
+        <item>devonian_calamophyton</item>
+        <item>devonian_elkinsia</item>
     </array>
 
     <array name="devonian_time_scales">
@@ -64,6 +80,10 @@
         <item>376.1-360.7</item>
         <item>376.1-360.7</item>
         <item>382-358</item>
+        <item>390.0-380.0</item>
+        <item>360.0-208.0</item>
+        <item>385.0-375.0</item>
+        <item>385.0-375.0</item>
     </array>
 
     <array name="devonian_descriptions">
@@ -77,6 +97,10 @@
         <item>devonian_bothriolepis_description</item>
         <item>devonian_cladoselache_description</item>
         <item>devonian_dunkleosteus_description</item>
+        <item>devonian_jaekelopterus_description</item>
+        <item>devonian_xenacanthus_description</item>
+        <item>devonian_calamophyton_description</item>
+        <item>devonian_elkinsia_description</item>
     </array>
 
     <array name="devonian_photo_authors">
@@ -90,6 +114,10 @@
         <item>&#169; Julio Lacerda</item>
         <item>&#169; Julio Lacerda</item>
         <item></item>
+        <item>&#169; Dani Navarro</item>
+        <item>&#169; Warpaint</item>
+        <item>&#169; Peter Giesen and Christopher M. Berry</item>
+        <item>&#169; Paleobiome</item>
     </array>
 
 </resources>

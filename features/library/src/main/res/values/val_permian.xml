@@ -8,6 +8,8 @@
         <item>item_permian_estemmenosuchus_thumb</item>
         <item>item_permian_gorgonops_thumb</item>
         <item>item_permian_cynodontia_thumb</item>
+        <item>item_permian_eryops_thumb</item>
+        <item>item_permian_diplocaulus_thumb</item>
     </array>
 
     <array name="permian_images">
@@ -17,6 +19,19 @@
         <item>item_permian_estemmenosuchus</item>
         <item>item_permian_gorgonops</item>
         <item>item_permian_cynodontia</item>
+        <item>item_permian_eryops</item>
+        <item>item_permian_diplocaulus</item>
+    </array>
+
+    <array name="permian_additional_images">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>item_permian_eryops_info</item>
+        <item>item_permian_diplocaulus_info</item>
     </array>
 
     <array name="permian_titles">
@@ -26,6 +41,8 @@
         <item>permian_estemmenosuchus</item>
         <item>permian_gorgonops</item>
         <item>permian_cynodontia</item>
+        <item>permian_eryops</item>
+        <item>permian_diplocaulus</item>
     </array>
 
     <array name="permian_time_scales">
@@ -35,6 +52,8 @@
         <item>267.0-265.0</item>
         <item>259.0-254.0</item>
         <item>259.0-0</item>
+        <item>295.0-270.0</item>
+        <item>299.0-251.0</item>
     </array>
 
     <array name="permian_descriptions">
@@ -44,6 +63,8 @@
         <item>permian_estemmenosuchus_description</item>
         <item>permian_gorgonops_description</item>
         <item>permian_cynodontia_description</item>
+        <item>permian_eryops_description</item>
+        <item>permian_diplocaulus_description</item>
     </array>
 
     <array name="permian_photo_authors">
@@ -53,6 +74,8 @@
         <item>&#169; Dinoraul</item>
         <item></item>
         <item>&#169; Nobu Tamura</item>
+        <item>&#169; Vladislav Egorov</item>
+        <item></item>
     </array>
 
 </resources>
