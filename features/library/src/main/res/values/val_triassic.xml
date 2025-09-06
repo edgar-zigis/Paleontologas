@@ -14,6 +14,12 @@
         <item>item_triassic_sharovipteryx_thumb</item>
         <item>item_triassic_tanystropheus_thumb</item>
         <item>item_triassic_plateosaurus_thumb</item>
+        <item>item_triassic_atopodentatus_thumb</item>
+        <item>item_triassic_herrerasaurus_thumb</item>
+        <item>item_triassic_postosuchus_thumb</item>
+        <item>item_triassic_shonisaurus_thumb</item>
+        <item>item_triassic_nothosaurus_thumb</item>
+        <item>item_triassic_mixosaurus_thumb</item>
     </array>
 
     <array name="triassic_images">
@@ -29,6 +35,12 @@
         <item>item_triassic_sharovipteryx</item>
         <item>item_triassic_tanystropheus</item>
         <item>item_triassic_plateosaurus</item>
+        <item>item_triassic_atopodentatus</item>
+        <item>item_triassic_herrerasaurus</item>
+        <item>item_triassic_postosuchus</item>
+        <item>item_triassic_shonisaurus</item>
+        <item>item_triassic_nothosaurus</item>
+        <item>item_triassic_mixosaurus</item>
     </array>
 
     <array name="triassic_additional_images">
@@ -44,6 +56,12 @@
         <item>item_triassic_sharovipteryx_info</item>
         <item>item_triassic_tanystropheus_info</item>
         <item>item_triassic_plateosaurus_info</item>
+        <item>item_triassic_atopodentatus_info</item>
+        <item>item_triassic_herrerasaurus_info</item>
+        <item>item_triassic_postosuchus_info</item>
+        <item>item_triassic_shonisaurus_info</item>
+        <item>item_triassic_nothosaurus_info</item>
+        <item>item_triassic_mixosaurus_info</item>
     </array>
 
     <array name="triassic_titles">
@@ -59,6 +77,12 @@
         <item>triassic_sharovipteryx</item>
         <item>triassic_tanystropheus</item>
         <item>triassic_plateosaurus</item>
+        <item>triassic_atopodentatus</item>
+        <item>triassic_herrerasaurus</item>
+        <item>triassic_postosuchus</item>
+        <item>triassic_shonisaurus</item>
+        <item>triassic_nothosaurus</item>
+        <item>triassic_mixosaurus</item>
     </array>
 
     <array name="triassic_time_scales">
@@ -74,6 +98,12 @@
         <item>242.0-221.5</item>
         <item>242.0-205.6</item>
         <item>215.56-201.6</item>
+        <item>247.0-242.0</item>
+        <item>231.0-228.0</item>
+        <item>228.0-201.0</item>
+        <item>237.0-227.0</item>
+        <item>240.0-210.0</item>
+        <item>242.0-235.0</item>
     </array>
 
     <array name="triassic_descriptions">
@@ -89,6 +119,12 @@
         <item>triassic_sharovipteryx_description</item>
         <item>triassic_tanystropheus_description</item>
         <item>triassic_plateosaurus_description</item>
+        <item>triassic_atopodentatus_description</item>
+        <item>triassic_herrerasaurus_description</item>
+        <item>triassic_postosuchus_description</item>
+        <item>triassic_shonisaurus_description</item>
+        <item>triassic_nothosaurus_description</item>
+        <item>triassic_mixosaurus_description</item>
     </array>
 
     <array name="triassic_photo_authors">
@@ -104,6 +140,12 @@
         <item>&#169; Mark Witton</item>
         <item>&#169; Mark Witton</item>
         <item></item>
+        <item>&#169; Carlos Eulefi</item>
+        <item></item>
+        <item>&#169; The Dino Sirs</item>
+        <item>&#169; Scott Reid</item>
+        <item>&#169; Corey Ford</item>
+        <item>&#169; Sante Mazzei</item>
     </array>
 
     <array name="triassic_additional_photo_authors">
@@ -119,6 +161,12 @@
         <item></item>
         <item></item>
         <item>&#169; Darren Pepper</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
     </array>
 
 </resources>
