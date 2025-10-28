@@ -12,6 +12,8 @@
         <item>item_jurassic_epidendrosaurus_thumb</item>
         <item>item_jurassic_dimorphodon_thumb</item>
         <item>item_jurassic_dilophosaurus_thumb</item>
+        <item>item_jurassic_metriacanthosaurus_thumb</item>
+        <item>item_jurassic_diplodocus_thumb</item>
     </array>
 
     <array name="jurassic_images">
@@ -25,6 +27,8 @@
         <item>item_jurassic_epidendrosaurus</item>
         <item>item_jurassic_dimorphodon</item>
         <item>item_jurassic_dilophosaurus</item>
+        <item>item_jurassic_metriacanthosaurus</item>
+        <item>item_jurassic_diplodocus</item>
     </array>
 
     <array name="jurassic_additional_images">
@@ -38,6 +42,8 @@
         <item></item>
         <item></item>
         <item></item>
+        <item>item_jurassic_metriacanthosaurus_info</item>
+        <item>item_jurassic_diplodocus_info</item>
     </array>
 
     <array name="jurassic_titles">
@@ -51,6 +57,8 @@
         <item>jurassic_epidendrosaurus</item>
         <item>jurassic_dimorphodon</item>
         <item>jurassic_dilophosaurus</item>
+        <item>jurassic_metriacanthosaurus</item>
+        <item>jurassic_diplodocus</item>
     </array>
 
     <array name="jurassic_time_scales">
@@ -64,6 +72,8 @@
         <item>164.7-161.2</item>
         <item>201.6-183.0</item>
         <item>196.5-189.6</item>
+        <item>160.0-155.0</item>
+        <item>152.07-149.1</item>
     </array>
 
     <array name="jurassic_descriptions">
@@ -77,6 +87,8 @@
         <item>jurassic_epidendrosaurus_description</item>
         <item>jurassic_dimorphodon_description</item>
         <item>jurassic_dilophosaurus_description</item>
+        <item>jurassic_metriacanthosaurus_description</item>
+        <item>jurassic_diplodocus_description</item>
     </array>
 
     <array name="jurassic_photo_authors">
@@ -90,6 +102,8 @@
         <item>&#169; Will Brennan</item>
         <item>&#169; Romn Garca</item>
         <item>&#169; Heather Luterman</item>
+        <item></item>
+        <item>&#169; Daniel Eskridge</item>
     </array>
 
     <array name="jurassic_additional_photo_authors">
@@ -98,6 +112,8 @@
         <item></item>
         <item></item>
         <item>&#169; Darren Pepper</item>
+        <item></item>
+        <item></item>
         <item></item>
         <item></item>
         <item></item>

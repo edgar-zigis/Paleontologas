@@ -10,6 +10,10 @@
         <item>item_paleogene_archaeotherium_thumb</item>
         <item>item_paleogene_arsinoitherium_thumb</item>
         <item>item_paleogene_pyrotherium_thumb</item>
+        <item>item_paleogene_brontotherium_thumb</item>
+        <item>item_paleogene_uintatherium_thumb</item>
+        <item>item_paleogene_hyaenodon_thumb</item>
+        <item>item_paleogene_dorudon_thumb</item>
     </array>
 
     <array name="paleogene_images">
@@ -21,6 +25,10 @@
         <item>item_paleogene_archaeotherium</item>
         <item>item_paleogene_arsinoitherium</item>
         <item>item_paleogene_pyrotherium</item>
+        <item>item_paleogene_brontotherium</item>
+        <item>item_paleogene_uintatherium</item>
+        <item>item_paleogene_hyaenodon</item>
+        <item>item_paleogene_dorudon</item>
     </array>
 
     <array name="paleogene_additional_images">
@@ -32,6 +40,10 @@
         <item></item>
         <item></item>
         <item></item>
+        <item>item_paleogene_brontotherium_info</item>
+        <item>item_paleogene_uintatherium_info</item>
+        <item>item_paleogene_hyaenodon_info</item>
+        <item>item_paleogene_dorudon_info</item>
     </array>
 
     <array name="paleogene_titles">
@@ -43,6 +55,10 @@
         <item>paleogene_archaeotherium</item>
         <item>paleogene_arsinoitherium</item>
         <item>paleogene_pyrotherium</item>
+        <item>paleogene_brontotherium</item>
+        <item>paleogene_uintatherium</item>
+        <item>paleogene_hyaenodon</item>
+        <item>paleogene_dorudon</item>
     </array>
 
     <array name="paleogene_time_scales">
@@ -54,6 +70,10 @@
         <item>33.9-24.8</item>
         <item>37.2-23.03</item>
         <item>29.0-23.03</item>
+        <item>38.0-33.9</item>
+        <item>50.5-37.0</item>
+        <item>38.0-16.9</item>
+        <item>41.03-33.9</item>
     </array>
 
     <array name="paleogene_descriptions">
@@ -65,6 +85,10 @@
         <item>paleogene_archaeotherium_description</item>
         <item>paleogene_arsinoitherium_description</item>
         <item>paleogene_pyrotherium_description</item>
+        <item>paleogene_brontotherium_description</item>
+        <item>paleogene_uintatherium_description</item>
+        <item>paleogene_hyaenodon_description</item>
+        <item>paleogene_dorudon_description</item>
     </array>
 
     <array name="paleogene_photo_authors">
@@ -76,6 +100,10 @@
         <item>&#169; Julius Csotonyi</item>
         <item></item>
         <item></item>
+        <item></item>
+        <item>&#169; Vadim Anikeev</item>
+        <item></item>
+        <item>&#169; Lucas Mateus</item>
     </array>
 
 </resources>
