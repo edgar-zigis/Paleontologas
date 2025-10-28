@@ -10,6 +10,10 @@
         <item>item_neogene_ardipithecus_thumb</item>
         <item>item_neogene_megalodon_thumb</item>
         <item>item_neogene_livyatan_thumb</item>
+        <item>item_neogene_gomphotherium_thumb</item>
+        <item>item_neogene_hipparion_thumb</item>
+        <item>item_neogene_sivatherium_thumb</item>
+        <item>item_neogene_machairodus_thumb</item>
     </array>
 
     <array name="neogene_images">
@@ -21,6 +25,10 @@
         <item>item_neogene_ardipithecus</item>
         <item>item_neogene_megalodon</item>
         <item>item_neogene_livyatan</item>
+        <item>item_neogene_gomphotherium</item>
+        <item>item_neogene_hipparion</item>
+        <item>item_neogene_sivatherium</item>
+        <item>item_neogene_machairodus</item>
     </array>
 
     <array name="neogene_additional_images">
@@ -32,6 +40,10 @@
         <item></item>
         <item>item_neogene_megalodon_info</item>
         <item></item>
+        <item>item_neogene_gomphotherium_info</item>
+        <item>item_neogene_hipparion_info</item>
+        <item>item_neogene_sivatherium_info</item>
+        <item>item_neogene_machairodus_info</item>
     </array>
 
     <array name="neogene_titles">
@@ -43,6 +55,10 @@
         <item>neogene_ardipithecus</item>
         <item>neogene_megalodon</item>
         <item>neogene_levyatan</item>
+        <item>neogene_gomphotherium</item>
+        <item>neogene_hipparion</item>
+        <item>neogene_sivatherium</item>
+        <item>neogene_machairodus</item>
     </array>
 
     <array name="neogene_time_scales">
@@ -54,6 +70,10 @@
         <item>5.332-3.6</item>
         <item>23.0–2.6</item>
         <item>11.608-7.246</item>
+        <item>19.5-5.0</item>
+        <item>9.9-5.3</item>
+        <item>7.0-0.8</item>
+        <item>12.5-8.7</item>
     </array>
 
     <array name="neogene_descriptions">
@@ -65,6 +85,10 @@
         <item>neogene_ardipithecus_description</item>
         <item>neogene_megalodon_description</item>
         <item>neogene_levyatan_description</item>
+        <item>neogene_gomphotherium_description</item>
+        <item>neogene_hipparion_description</item>
+        <item>neogene_sivatherium_description</item>
+        <item>neogene_machairodus_description</item>
     </array>
 
     <array name="neogene_photo_authors">
@@ -76,6 +100,10 @@
         <item></item>
         <item>&#169; Alberto Gennari</item>
         <item>&#169; Balazs Petheo</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#169; GreatCakeMods</item>
     </array>
 
 </resources>
