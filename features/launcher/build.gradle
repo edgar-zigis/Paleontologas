@@ -7,7 +7,7 @@ android {
 dependencies {
     ksp "androidx.room:room-compiler:$room_version"
 
-    implementation 'com.airbnb.android:lottie-compose:6.6.7'
+    implementation 'com.airbnb.android:lottie-compose:6.7.1'
 
     implementation project(':core')
     implementation project(':features:main')
