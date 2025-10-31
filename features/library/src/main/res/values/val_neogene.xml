@@ -14,6 +14,8 @@
         <item>item_neogene_hipparion_thumb</item>
         <item>item_neogene_sivatherium_thumb</item>
         <item>item_neogene_machairodus_thumb</item>
+        <item>item_neogene_thalassocnus_thumb</item>
+        <item>item_neogene_toxodon_thumb</item>
     </array>
 
     <array name="neogene_images">
@@ -29,21 +31,25 @@
         <item>item_neogene_hipparion</item>
         <item>item_neogene_sivatherium</item>
         <item>item_neogene_machairodus</item>
+        <item>item_neogene_thalassocnus</item>
+        <item>item_neogene_toxodon</item>
     </array>
 
     <array name="neogene_additional_images">
         <item>item_neogene_argentavis_info</item>
-        <item></item>
-        <item></item>
+        <item>item_neogene_titanis_info</item>
+        <item>item_neogene_deinotherium_info</item>
         <item>item_neogene_stegotetrabelodon_info</item>
-        <item></item>
-        <item></item>
+        <item>item_neogene_platybelodon_info</item>
+        <item>item_neogene_ardipithecus_info</item>
         <item>item_neogene_megalodon_info</item>
-        <item></item>
+        <item>item_neogene_livyatan_info</item>
         <item>item_neogene_gomphotherium_info</item>
         <item>item_neogene_hipparion_info</item>
         <item>item_neogene_sivatherium_info</item>
         <item>item_neogene_machairodus_info</item>
+        <item>item_neogene_thalassocnus_info</item>
+        <item>item_neogene_toxodon_info</item>
     </array>
 
     <array name="neogene_titles">
@@ -59,21 +65,25 @@
         <item>neogene_hipparion</item>
         <item>neogene_sivatherium</item>
         <item>neogene_machairodus</item>
+        <item>neogene_thalassocnus</item>
+        <item>neogene_toxodon</item>
     </array>
 
     <array name="neogene_time_scales">
         <item>9.0-6.8</item>
         <item>4.9-1.8</item>
-        <item>20.0-0.781</item>
-        <item>11.1-5.332</item>
-        <item>15.97-5.332</item>
-        <item>5.332-3.6</item>
-        <item>23.0–2.6</item>
-        <item>11.608-7.246</item>
+        <item>13.0-0.781</item>
+        <item>8.0-4.2</item>
+        <item>15.97-10.0</item>
+        <item>5.77-4.4</item>
+        <item>23.0–3.6</item>
+        <item>9.9-5.0</item>
         <item>19.5-5.0</item>
         <item>9.9-5.3</item>
         <item>7.0-0.8</item>
         <item>12.5-8.7</item>
+        <item>7.0-3.0</item>
+        <item>2.6-0.011</item>
     </array>
 
     <array name="neogene_descriptions">
@@ -89,6 +99,8 @@
         <item>neogene_hipparion_description</item>
         <item>neogene_sivatherium_description</item>
         <item>neogene_machairodus_description</item>
+        <item>neogene_thalassocnus_description</item>
+        <item>neogene_toxodon_description</item>
     </array>
 
     <array name="neogene_photo_authors">
@@ -99,11 +111,13 @@
         <item></item>
         <item></item>
         <item>&#169; Alberto Gennari</item>
-        <item>&#169; Balazs Petheo</item>
+        <item>&#169; A. Gennari</item>
         <item></item>
         <item></item>
         <item></item>
         <item>&#169; GreatCakeMods</item>
+        <item>&#169; Science Photo Library</item>
+        <item></item>
     </array>
 
 </resources>
