@@ -20,6 +20,10 @@
         <item>item_triassic_shonisaurus_thumb</item>
         <item>item_triassic_nothosaurus_thumb</item>
         <item>item_triassic_mixosaurus_thumb</item>
+        <item>item_triassic_hyperodapedon_thumb</item>
+        <item>item_triassic_placerias_thumb</item>
+        <item>item_triassic_stagonolepis_thumb</item>
+        <item>item_triassic_thrinaxodon_thumb</item>
     </array>
 
     <array name="triassic_images">
@@ -41,18 +45,22 @@
         <item>item_triassic_shonisaurus</item>
         <item>item_triassic_nothosaurus</item>
         <item>item_triassic_mixosaurus</item>
+        <item>item_triassic_hyperodapedon</item>
+        <item>item_triassic_placerias</item>
+        <item>item_triassic_stagonolepis</item>
+        <item>item_triassic_thrinaxodon</item>
     </array>
 
     <array name="triassic_additional_images">
         <item>item_triassic_bennetitales_info</item>
         <item>item_triassic_morganucodon_info</item>
-        <item></item>
+        <item>item_triassic_lystrosaurus_info</item>
         <item>item_triassic_pterosauria_info</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>item_triassic_plesiosauria_info</item>
+        <item>item_triassic_ichthyosauria_info</item>
+        <item>item_triassic_mystriosuchus_info</item>
+        <item>item_triassic_desmatosuchus_info</item>
+        <item>item_triassic_longisquama_info</item>
         <item>item_triassic_sharovipteryx_info</item>
         <item>item_triassic_tanystropheus_info</item>
         <item>item_triassic_plateosaurus_info</item>
@@ -62,6 +70,10 @@
         <item>item_triassic_shonisaurus_info</item>
         <item>item_triassic_nothosaurus_info</item>
         <item>item_triassic_mixosaurus_info</item>
+        <item>item_triassic_hyperodapedon_info</item>
+        <item>item_triassic_placerias_info</item>
+        <item>item_triassic_stagonolepis_info</item>
+        <item>item_triassic_thrinaxodon_info</item>
     </array>
 
     <array name="triassic_titles">
@@ -83,27 +95,35 @@
         <item>triassic_shonisaurus</item>
         <item>triassic_nothosaurus</item>
         <item>triassic_mixosaurus</item>
+        <item>triassic_hyperodapedon</item>
+        <item>triassic_placerias</item>
+        <item>triassic_stagonolepis</item>
+        <item>triassic_thrinaxodon</item>
     </array>
 
     <array name="triassic_time_scales">
         <item>303.4-28.4</item>
         <item>205.6-164.7</item>
-        <item>252.3-251.3</item>
+        <item>255.0-248.0</item>
         <item>228.1–66.0</item>
         <item>203.6–66.0</item>
         <item>248.0–90.0</item>
-        <item>212.0-196.5</item>
-        <item>221.5-205.6</item>
+        <item>228.0-212.0</item>
+        <item>228.0-210.0</item>
         <item>242.0-221.5</item>
         <item>242.0-221.5</item>
         <item>242.0-205.6</item>
-        <item>215.56-201.6</item>
+        <item>227.0-204.0</item>
         <item>247.0-242.0</item>
         <item>231.0-228.0</item>
         <item>228.0-201.0</item>
         <item>237.0-227.0</item>
         <item>240.0-210.0</item>
         <item>242.0-235.0</item>
+        <item>231.0-227.0</item>
+        <item>230.0-215.0</item>
+        <item>221.0-206.0</item>
+        <item>252.0-247.0</item>
     </array>
 
     <array name="triassic_descriptions">
@@ -125,6 +145,10 @@
         <item>triassic_shonisaurus_description</item>
         <item>triassic_nothosaurus_description</item>
         <item>triassic_mixosaurus_description</item>
+        <item>triassic_hyperodapedon_description</item>
+        <item>triassic_placerias_description</item>
+        <item>triassic_stagonolepis_description</item>
+        <item>triassic_thrinaxodon_description</item>
     </array>
 
     <array name="triassic_photo_authors">
@@ -137,7 +161,7 @@
         <item>&#169; Julio Lacerda</item>
         <item></item>
         <item>&#169; Julio Lacerda</item>
-        <item>&#169; Mark Witton</item>
+        <item>&#169; Julio Lacerda</item>
         <item>&#169; Mark Witton</item>
         <item></item>
         <item>&#169; Carlos Eulefi</item>
@@ -146,6 +170,10 @@
         <item>&#169; Scott Reid</item>
         <item>&#169; Corey Ford</item>
         <item>&#169; Sante Mazzei</item>
+        <item>&#169; Liam Elward</item>
+        <item>&#169; Nobu Tamura</item>
+        <item>&#169; Joanna Kobierska</item>
+        <item>&#169; April I. Neander</item>
     </array>
 
     <array name="triassic_additional_photo_authors">
@@ -161,6 +189,10 @@
         <item></item>
         <item></item>
         <item>&#169; Darren Pepper</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
         <item></item>
         <item></item>
         <item></item>
