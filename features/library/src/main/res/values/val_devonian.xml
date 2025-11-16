@@ -36,15 +36,15 @@
     </array>
 
     <array name="devonian_additional_images">
-        <item></item>
-        <item></item>
+        <item>item_devonian_prototaxites_info</item>
+        <item>item_devonian_wattieza_info</item>
         <item>item_devonian_archaeopteris_info</item>
         <item>item_devonian_tiktaalik_info</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>item_devonian_ichthyostega_info</item>
+        <item>item_devonian_acanthostega_info</item>
+        <item>item_devonian_materpiscis_info</item>
         <item>item_devonian_bothriolepis_info</item>
-        <item></item>
+        <item>item_devonian_cladoselache_info</item>
         <item>item_devonian_dunkleosteus_info</item>
         <item>item_devonian_jaekelopterus_info</item>
         <item>item_devonian_xenacanthus_info</item>
@@ -74,13 +74,13 @@
         <item>388.1-383.7</item>
         <item>383.7-318.1</item>
         <item>383.7-376.1</item>
+        <item>365.0-360.7</item>
         <item>376.1-360.7</item>
-        <item>376.1-360.7</item>
-        <item>380-?</item>
-        <item>376.1-360.7</item>
+        <item>380.0-?</item>
+        <item>387.0-360.7</item>
         <item>376.1-360.7</item>
         <item>382-358</item>
-        <item>390.0-380.0</item>
+        <item>410.8-402.5</item>
         <item>360.0-208.0</item>
         <item>385.0-375.0</item>
         <item>385.0-375.0</item>
@@ -105,13 +105,13 @@
 
     <array name="devonian_photo_authors">
         <item></item>
+        <item>&#169; Science Photo Library</item>
         <item></item>
-        <item></item>
-        <item></item>
+        <item>&#169; Tyler Keillor &amp; Beth Rooney</item>
         <item>&#169; Alain Beneteau</item>
         <item>&#169; Masato Hattori</item>
         <item>&#169; Julio Lacerda</item>
-        <item>&#169; Julio Lacerda</item>
+        <item>&#169; I. Béchard</item>
         <item>&#169; Julio Lacerda</item>
         <item></item>
         <item>&#169; Dani Navarro</item>

@@ -17,9 +17,9 @@
 
     <array name="archean_additional_images">
         <item>item_archean_banded_iron_formation_info</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>item_archean_stromatolites_info</item>
+        <item>item_archean_primaevifilum_amoenum_info</item>
+        <item>item_archean_acritarch_info</item>
     </array>
 
     <array name="archean_titles">
