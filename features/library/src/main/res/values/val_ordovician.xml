@@ -24,10 +24,10 @@
     </array>
 
     <array name="ordovician_additional_images">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>item_ordovician_orthoceras_info</item>
+        <item>item_ordovician_eurypterida_info</item>
+        <item>item_ordovician_sacabambaspis_janvieri_info</item>
+        <item>item_ordovician_astraspis_info</item>
         <item>item_ordovician_rugosa_info</item>
         <item>item_ordovician_tabulata_info</item>
         <item>item_ordovician_aegirocassis_info</item>
@@ -46,10 +46,10 @@
     </array>
 
     <array name="ordovician_time_scales">
-        <item>471.8-205.6</item>
-        <item>467.3-?</item>
+        <item>471.8-458.0</item>
+        <item>467.3-458.4</item>
         <item>466-449.5</item>
-        <item>449.5-443.7</item>
+        <item>467.0-443.7</item>
         <item>488.0-252.17</item>
         <item>488.0-252.17</item>
         <item>480.0-470.0</item>

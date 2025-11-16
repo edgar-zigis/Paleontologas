@@ -20,10 +20,10 @@
     </array>
 
     <array name="silurian_additional_images">
-        <item></item>
-        <item></item>
+        <item>item_silurian_eurypterus_info</item>
+        <item>item_silurian_pneumodesmus_info</item>
         <item>item_silurian_cooksonia_info</item>
-        <item></item>
+        <item>item_silurian_baragwanathia_info</item>
         <item>item_silurian_acanthodii_info</item>
         <item>item_silurian_entelognathus_info</item>
     </array>
@@ -38,12 +38,12 @@
     </array>
 
     <array name="silurian_time_scales">
-        <item>428.2-311.45</item>
+        <item>432.0-418.1</item>
         <item>428.2-412.3</item>
         <item>422.9-383.7</item>
         <item>422.9-391.9</item>
         <item>422.9-298.9</item>
-        <item>419.6-?</item>
+        <item>424.0-419.0</item>
     </array>
 
     <array name="silurian_descriptions">
