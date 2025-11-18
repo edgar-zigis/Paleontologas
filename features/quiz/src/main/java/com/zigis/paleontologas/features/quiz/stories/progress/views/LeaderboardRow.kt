@@ -50,7 +50,7 @@ fun LeaderboardRow(
         ) {
             Text(
                 text = "#${player.ranking}",
-                modifier = Modifier.width(30.dp),
+                modifier = Modifier.width(35.dp),
                 style = TextStyle(
                     fontSize = 18.sp,
                     fontFamily = ThemeFonts.Gilroy,

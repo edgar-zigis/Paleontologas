@@ -67,9 +67,7 @@ class PaywallManager(
                     billingReady.complete(Unit)
                     restorePurchases()
                 } else {
-                    billingReady.completeExceptionally(
-                        IllegalStateException("Billing setup failed: ${billingResult.debugMessage}")
-                    )
+                    billingReady.complete(Unit)
                 }
             }
 
