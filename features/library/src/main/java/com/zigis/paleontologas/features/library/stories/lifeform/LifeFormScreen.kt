@@ -100,15 +100,17 @@ private fun LifeFormScreenUiImplementation(
                         )
                 )
 
-                Text(
-                    text = context.getString(viewState.artworkAuthor),
-                    color = ApplicationTheme.colors.headingTextSecondary,
-                    style = ApplicationTheme.typography.caption1,
-                    maxLines = 1,
-                    modifier = Modifier
-                        .align(Alignment.TopEnd)
-                        .padding(top = 4.dp, end = 8.dp)
-                )
+                if (viewState.artworkAuthor.isNotBlank()) {
+                    Text(
+                        text = "© ${context.getString(viewState.artworkAuthor)}",
+                        color = ApplicationTheme.colors.headingTextSecondary,
+                        style = ApplicationTheme.typography.caption1,
+                        maxLines = 1,
+                        modifier = Modifier
+                            .align(Alignment.TopEnd)
+                            .padding(top = 4.dp, end = 8.dp)
+                    )
+                }
             }
 
             Column(
@@ -180,15 +182,17 @@ private fun LifeFormScreenUiImplementation(
                                 .fillMaxWidth()
                         )
 
-                        Text(
-                            text = context.getString(viewState.additionalArtworkAuthor),
-                            color = ApplicationTheme.colors.headingTextSecondary,
-                            style = ApplicationTheme.typography.caption2,
-                            maxLines = 1,
-                            modifier = Modifier
-                                .align(Alignment.BottomEnd)
-                                .padding(bottom = 4.dp, end = 8.dp)
-                        )
+                        if (viewState.additionalArtworkAuthor.isNotBlank()) {
+                            Text(
+                                text = "© ${context.getString(viewState.additionalArtworkAuthor)}",
+                                color = ApplicationTheme.colors.headingTextSecondary,
+                                style = ApplicationTheme.typography.caption2,
+                                maxLines = 1,
+                                modifier = Modifier
+                                    .align(Alignment.BottomEnd)
+                                    .padding(bottom = 4.dp, end = 8.dp)
+                            )
+                        }
                     }
                 }
             }

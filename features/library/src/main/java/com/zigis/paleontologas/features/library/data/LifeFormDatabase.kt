@@ -4,8 +4,10 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 
-@Database(entities = [LifeForm::class], version = 1, exportSchema = false)
+@Database(entities = [LifeForm::class], version = 2, exportSchema = false)
 abstract class LifeFormDatabase : RoomDatabase() {
 
     abstract fun lifeFormDao(): LifeFormDao
@@ -30,7 +32,20 @@ abstract class LifeFormDatabase : RoomDatabase() {
                 context.applicationContext,
                 LifeFormDatabase::class.java,
                 "life_forms"
-            ).fallbackToDestructiveMigration(true).build()
+            )
+                .addMigrations(MIGRATION_1_2)
+                .fallbackToDestructiveMigration(true)
+                .build()
+        }
+
+        //  Migrations
+
+        val MIGRATION_1_2 = object : Migration(1, 2) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    "ALTER TABLE life_forms ADD COLUMN `order` INTEGER NOT NULL DEFAULT 0"
+                )
+            }
         }
     }
 }
