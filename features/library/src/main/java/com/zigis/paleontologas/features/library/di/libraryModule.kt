@@ -2,6 +2,7 @@ package com.zigis.paleontologas.features.library.di
 
 import com.zigis.paleontologas.features.library.data.LifeFormDatabase
 import com.zigis.paleontologas.features.library.data.PeriodDatabase
+import com.zigis.paleontologas.features.library.data.stores.LifeFormDataStore
 import com.zigis.paleontologas.features.library.repositories.LifeFormRepository
 import com.zigis.paleontologas.features.library.repositories.PeriodRepository
 import com.zigis.paleontologas.features.library.routing.LibraryRouter
@@ -20,13 +21,15 @@ val libraryModule = module {
     factory { TimelineListItemFactory(get(), get()) }
     factory { GeologicalPeriodListItemFactory(get()) }
 
+    single { LifeFormDataStore() }
+
     single { PeriodDatabase.getInstance(androidContext()) }
     single { get<PeriodDatabase>().periodDao() }
     single { PeriodRepository(androidContext(), get()) }
 
     single { LifeFormDatabase.getInstance(androidContext()) }
     single { get<LifeFormDatabase>().lifeFormDao() }
-    single { LifeFormRepository(androidContext(), get()) }
+    single { LifeFormRepository( get(), get()) }
 
     viewModel { TimelineViewModel(get(), get()) }
     viewModel { GeologicalPeriodViewModel(get(), get(), get()) }

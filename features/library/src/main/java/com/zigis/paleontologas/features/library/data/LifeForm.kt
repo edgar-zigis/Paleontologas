@@ -14,5 +14,6 @@ data class LifeForm(
     val artwork: String,
     val additionalArtwork: String,
     val artworkAuthor: String,
-    val additionalArtworkAuthor: String
+    val additionalArtworkAuthor: String,
+    val order: Int = 0
 )
