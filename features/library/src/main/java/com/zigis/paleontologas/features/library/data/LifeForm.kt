@@ -1,5 +1,6 @@
 package com.zigis.paleontologas.features.library.data
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -15,5 +16,5 @@ data class LifeForm(
     val additionalArtwork: String,
     val artworkAuthor: String,
     val additionalArtworkAuthor: String,
-    val order: Int = 0
+    @ColumnInfo(name = "orderIndex") val order: Int = 0
 )
