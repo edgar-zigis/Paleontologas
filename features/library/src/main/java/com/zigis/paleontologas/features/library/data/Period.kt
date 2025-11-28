@@ -18,7 +18,8 @@ data class Period(
     val thumbnail: String,
     val artwork: String,
     val artworkAuthor: String,
-    val map: String
+    val map: String,
+    val mapAuthor: String
 ) {
     @Ignore
     var quizProgress: Int = 0

@@ -35,6 +35,7 @@ class GeologicalPeriodViewModel(
                 environmentDescription = fetchedPeriod.environmentDescription,
                 description = fetchedPeriod.description,
                 map = fetchedPeriod.map,
+                mapAuthor = fetchedPeriod.mapAuthor,
                 additionalTitle = fetchedPeriod.additionalTitle,
                 additionalDescription = fetchedPeriod.additionalDescription,
                 lifeFormDescription = fetchedPeriod.lifeFormDescription

@@ -12,6 +12,7 @@ data class GeologicalPeriodScreenState(
     val environmentDescription: String = "",
     val description: String = "",
     val map: String = "",
+    val mapAuthor: String = "",
     val additionalTitle: String = "",
     val additionalDescription: String = "",
     val lifeFormDescription: String = "",
