@@ -78,21 +78,21 @@
     </array>
 
     <array name="period_time_scales">
-        <item>4560–4000</item>
-        <item>4000–2500</item>
+        <item>4560-4000</item>
+        <item>4000-2500</item>
         <item>2500-538.8</item>
-        <item>538.8–486.85</item>
-        <item>486.85–443.1</item>
-        <item>443.1–419.62</item>
-        <item>419.62–358.86</item>
-        <item>358.86–298.9</item>
-        <item>298.9–251.902</item>
-        <item>251.902–201.4</item>
-        <item>201.4–143.1</item>
-        <item>143.1–66</item>
-        <item>66–23.04</item>
-        <item>23.04–2.58</item>
-        <item>2.58–0</item>
+        <item>538.8-486.85</item>
+        <item>486.85-443.1</item>
+        <item>443.1-419.62</item>
+        <item>419.62-358.86</item>
+        <item>358.86-298.9</item>
+        <item>298.9-251.902</item>
+        <item>251.902-201.4</item>
+        <item>201.4-143.1</item>
+        <item>143.1-66</item>
+        <item>66-23.04</item>
+        <item>23.04-2.58</item>
+        <item>2.58-0</item>
         <item>0-3230</item>
     </array>
 
