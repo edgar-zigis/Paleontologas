@@ -289,10 +289,7 @@ private fun GeologicalPeriodScreenUiImplementation(
                         )
 
                         Text(
-                            text = when (viewState.periodId) {
-                                3 -> context.getString(R.string.map_author_1)
-                                else -> context.getString(R.string.map_author_2)
-                            },
+                            text = "© ${viewState.mapAuthor}",
                             color = ApplicationTheme.colors.headingTextSecondary,
                             style = ApplicationTheme.typography.caption2,
                             maxLines = 1,
