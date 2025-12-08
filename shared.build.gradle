@@ -25,8 +25,8 @@ android {
 
         if (this.name == 'app') {
             applicationId "com.zigis.paleontologas"
-            versionName "3.10.0"
-            versionCode 44
+            versionName "3.11.0"
+            versionCode 45
         } else {
             consumerProguardFiles "consumer-rules.pro"
         }
