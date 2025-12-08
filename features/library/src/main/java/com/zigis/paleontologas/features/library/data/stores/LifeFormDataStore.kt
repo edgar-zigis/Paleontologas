@@ -619,6 +619,18 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 order = 2
             ),
             DTO(
+                id = 94,
+                thumbnailId = "item_cretaceous_ammonite_thumb",
+                artworkId = "item_cretaceous_ammonite",
+                artworkAuthor = "Simon Stalenhag",
+                additionalArtworkId = "item_cretaceous_ammonite_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_ammonite",
+                descriptionSlug = "cretaceous_ammonite_description",
+                timeScale = "410.62-66.043",
+                order = 3
+            ),
+            DTO(
                 id = 175,
                 thumbnailId = "item_devonian_rhynia_thumb",
                 artworkId = "item_devonian_rhynia",
@@ -628,7 +640,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_rhynia",
                 descriptionSlug = "devonian_rhynia_description",
                 timeScale = "410.0-400.0",
-                order = 3
+                order = 4
             ),
             DTO(
                 id = 30,
@@ -640,7 +652,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_wattieza",
                 descriptionSlug = "devonian_wattieza_description",
                 timeScale = "388.1-383.7",
-                order = 4
+                order = 5
             ),
             DTO(
                 id = 36,
@@ -652,7 +664,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_bothriolepis",
                 descriptionSlug = "devonian_bothriolepis_description",
                 timeScale = "387.0-360.7",
-                order = 5
+                order = 6
             ),
             DTO(
                 id = 180,
@@ -664,7 +676,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_panderichthys",
                 descriptionSlug = "devonian_panderichthys_description",
                 timeScale = "385.0-380.0",
-                order = 6
+                order = 7
             ),
             DTO(
                 id = 141,
@@ -676,7 +688,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_calamophyton",
                 descriptionSlug = "devonian_calamophyton_description",
                 timeScale = "385.0-375.0",
-                order = 7
+                order = 8
             ),
             DTO(
                 id = 142,
@@ -688,7 +700,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_elkinsia",
                 descriptionSlug = "devonian_elkinsia_description",
                 timeScale = "385.0-375.0",
-                order = 8
+                order = 9
             ),
             DTO(
                 id = 32,
@@ -700,7 +712,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_tiktaalik",
                 descriptionSlug = "devonian_tiktaalik_description",
                 timeScale = "383.7-376.1",
-                order = 9
+                order = 10
             ),
             DTO(
                 id = 31,
@@ -712,7 +724,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_archaeopteris",
                 descriptionSlug = "devonian_archaeopteris_description",
                 timeScale = "383.7-318.1",
-                order = 10
+                order = 11
             ),
             DTO(
                 id = 38,
@@ -724,7 +736,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_dunkleosteus",
                 descriptionSlug = "devonian_dunkleosteus_description",
                 timeScale = "382.0-358.0",
-                order = 11
+                order = 12
             ),
             DTO(
                 id = 35,
@@ -736,7 +748,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_materpiscis",
                 descriptionSlug = "devonian_materpiscis_description",
                 timeScale = "380.0-?",
-                order = 12
+                order = 13
             ),
             DTO(
                 id = 37,
@@ -748,7 +760,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_cladoselache",
                 descriptionSlug = "devonian_cladoselache_description",
                 timeScale = "376.1-360.7",
-                order = 13
+                order = 14
+            ),
+            DTO(
+                id = 199,
+                thumbnailId = "item_devonian_ventastega_thumb",
+                artworkId = "item_devonian_ventastega",
+                artworkAuthor = null,
+                additionalArtworkId = "item_devonian_ventastega_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "devonian_ventastega",
+                descriptionSlug = "devonian_ventastega_description",
+                timeScale = "372.2-358.9",
+                order = 15
             ),
             DTO(
                 id = 34,
@@ -759,8 +783,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "devonian_acanthostega",
                 descriptionSlug = "devonian_acanthostega_description",
-                timeScale = "376.1-360.7",
-                order = 14
+                timeScale = "366.1-360.7",
+                order = 16
             ),
             DTO(
                 id = 33,
@@ -772,7 +796,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_ichthyostega",
                 descriptionSlug = "devonian_ichthyostega_description",
                 timeScale = "365.0-360.7",
-                order = 15
+                order = 17
             ),
             DTO(
                 id = 140,
@@ -784,7 +808,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "devonian_xenacanthus",
                 descriptionSlug = "devonian_xenacanthus_description",
                 timeScale = "360.0-208.0",
-                order = 16
+                order = 18
             )
         )
     }
@@ -1724,125 +1748,16 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
     private fun getCretaceousLifeForms(): List<DTO> {
         return listOf(
             DTO(
-                id = 79,
-                thumbnailId = "item_cretaceous_tyrannosaurus_thumb",
-                artworkId = "item_cretaceous_tyrannosaurus",
-                artworkAuthor = "Vlad Konstantinov",
-                additionalArtworkId = "item_cretaceous_tyrannosaurus_info",
-                additionalArtworkAuthor = "Danielle Dufault",
-                titleSlug = "cretaceous_tyrannosaurus",
-                descriptionSlug = "cretaceous_tyrannosaurus_description",
-                timeScale = "68.6-66.043"
-            ),
-            DTO(
-                id = 80,
-                thumbnailId = "item_cretaceous_giganotosaurus_thumb",
-                artworkId = "item_cretaceous_giganotosaurus",
-                artworkAuthor = "Damir",
-                additionalArtworkId = null,
+                id = 201,
+                thumbnailId = "item_cretaceous_baryonyx_thumb",
+                artworkId = "item_cretaceous_baryonyx",
+                artworkAuthor = "Mark Witton",
+                additionalArtworkId = "item_cretaceous_baryonyx_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_giganotosaurus",
-                descriptionSlug = "cretaceous_giganotosaurus_description",
-                timeScale = "99.6-95.0"
-            ),
-            DTO(
-                id = 81,
-                thumbnailId = "item_cretaceous_linhenykus_thumb",
-                artworkId = "item_cretaceous_linhenykus",
-                artworkAuthor = "Julius Csotonyi",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_linhenykus",
-                descriptionSlug = "cretaceous_linhenykus_description",
-                timeScale = "75.0-70.6"
-            ),
-            DTO(
-                id = 82,
-                thumbnailId = "item_cretaceous_velociraptor_thumb",
-                artworkId = "item_cretaceous_velociraptor",
-                artworkAuthor = "Zhao Chuang",
-                additionalArtworkId = "item_cretaceous_velociraptor_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_velociraptor",
-                descriptionSlug = "cretaceous_velociraptor_description",
-                timeScale = "75.0-70.6"
-            ),
-            DTO(
-                id = 83,
-                thumbnailId = "item_cretaceous_spinosaurus_thumb",
-                artworkId = "item_cretaceous_spinosaurus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_cretaceous_spinosaurus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_spinosaurus",
-                descriptionSlug = "cretaceous_spinosaurus_description",
-                timeScale = "100.0-94.0"
-            ),
-            DTO(
-                id = 84,
-                thumbnailId = "item_cretaceous_pachycephalosaurus_thumb",
-                artworkId = "item_cretaceous_pachycephalosaurus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_cretaceous_pachycephalosaurus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_pachycephalosaurus",
-                descriptionSlug = "cretaceous_pachycephalosaurus_description",
-                timeScale = "70.6-66.043"
-            ),
-            DTO(
-                id = 85,
-                thumbnailId = "item_cretaceous_triceratops_thumb",
-                artworkId = "item_cretaceous_triceratops",
-                artworkAuthor = "Vlad Konstantinov",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_triceratops",
-                descriptionSlug = "cretaceous_triceratops_description",
-                timeScale = "68.6-66.043"
-            ),
-            DTO(
-                id = 86,
-                thumbnailId = "item_cretaceous_ankylosaurus_thumb",
-                artworkId = "item_cretaceous_ankylosaurus",
-                artworkAuthor = "Karl Lindberg",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_ankylosaurus",
-                descriptionSlug = "cretaceous_ankylosaurus_description",
-                timeScale = "68.6-66.043"
-            ),
-            DTO(
-                id = 87,
-                thumbnailId = "item_cretaceous_therizinosaurus_thumb",
-                artworkId = "item_cretaceous_therizinosaurus",
-                artworkAuthor = "Damir",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_therizinosaurus",
-                descriptionSlug = "cretaceous_therizinosaurus_description",
-                timeScale = "70.6-66.043"
-            ),
-            DTO(
-                id = 88,
-                thumbnailId = "item_cretaceous_tsintaosaurus_thumb",
-                artworkId = "item_cretaceous_tsintaosaurus",
-                artworkAuthor = "James Kuether",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_tsintaosaurus",
-                descriptionSlug = "cretaceous_tsintaosaurus_description",
-                timeScale = "72.0-66.043"
-            ),
-            DTO(
-                id = 89,
-                thumbnailId = "item_cretaceous_deinocherus_thumb",
-                artworkId = "item_cretaceous_deinocherus",
-                artworkAuthor = "Olorotitan",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_deinocherus",
-                descriptionSlug = "cretaceous_deinocherus_description",
-                timeScale = "70.6-66.043"
+                titleSlug = "cretaceous_baryonyx",
+                descriptionSlug = "cretaceous_baryonyx_description",
+                timeScale = "130.0-125.0",
+                order = 1
             ),
             DTO(
                 id = 90,
@@ -1853,84 +1768,56 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "cretaceous_sarcosuchus",
                 descriptionSlug = "cretaceous_sarcosuchus_description",
-                timeScale = "130.0-112.6"
+                timeScale = "130.0-112.6",
+                order = 2
             ),
             DTO(
-                id = 91,
-                thumbnailId = "item_cretaceous_quetzalcoatlus_thumb",
-                artworkId = "item_cretaceous_quetzalcoatlus",
-                artworkAuthor = "Vlad Konstantinov",
-                additionalArtworkId = null,
+                id = 213,
+                thumbnailId = "item_cretaceous_iguanodon_thumb",
+                artworkId = "item_cretaceous_iguanodon",
+                artworkAuthor = "Ferhat Cinar",
+                additionalArtworkId = "item_cretaceous_iguanodon_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_quetzalcoatlus",
-                descriptionSlug = "cretaceous_quetzalcoatlus_description",
-                timeScale = "68.6-66.043"
+                titleSlug = "cretaceous_iguanodon",
+                descriptionSlug = "cretaceous_iguanodon_description",
+                timeScale = "126.0-122.0",
+                order = 3
             ),
             DTO(
                 id = 92,
                 thumbnailId = "item_cretaceous_microraptor_thumb",
                 artworkId = "item_cretaceous_microraptor",
                 artworkAuthor = "Sergey Krasovskiy",
-                additionalArtworkId = null,
+                additionalArtworkId = "item_cretaceous_microraptor_info",
                 additionalArtworkAuthor = null,
                 titleSlug = "cretaceous_microraptor",
                 descriptionSlug = "cretaceous_microraptor_description",
-                timeScale = "125.45-120.0"
+                timeScale = "125.45-120.0",
+                order = 4
             ),
             DTO(
-                id = 93,
-                thumbnailId = "item_cretaceous_mosasaurus_thumb",
-                artworkId = "item_cretaceous_mosasaurus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_cretaceous_mosasaurus_info",
+                id = 209,
+                thumbnailId = "item_cretaceous_suchomimus_thumb",
+                artworkId = "item_cretaceous_suchomimus",
+                artworkAuthor = "Path of Titans",
+                additionalArtworkId = "item_cretaceous_suchomimus_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_mosasaurus",
-                descriptionSlug = "cretaceous_mosasaurus_description",
-                timeScale = "82.7-66.043"
+                titleSlug = "cretaceous_suchomimus",
+                descriptionSlug = "cretaceous_suchomimus_description",
+                timeScale = "125.0-100.5",
+                order = 5
             ),
             DTO(
-                id = 94,
-                thumbnailId = "item_cretaceous_ammonite_thumb",
-                artworkId = "item_cretaceous_ammonite",
-                artworkAuthor = "Simon Stalenhag",
-                additionalArtworkId = null,
+                id = 215,
+                thumbnailId = "item_cretaceous_kronosaurus_thumb",
+                artworkId = "item_cretaceous_kronosaurus",
+                artworkAuthor = "RJ Palmer",
+                additionalArtworkId = "item_cretaceous_kronosaurus_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_ammonite",
-                descriptionSlug = "cretaceous_ammonite_description",
-                timeScale = "410.62-66.043"
-            ),
-            DTO(
-                id = 149,
-                thumbnailId = "item_cretaceous_pteranodon_thumb",
-                artworkId = "item_cretaceous_pteranodon",
-                artworkAuthor = "Mohamad Haghani",
-                additionalArtworkId = "item_cretaceous_pteranodon_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_pteranodon",
-                descriptionSlug = "cretaceous_pteranodon_description",
-                timeScale = "86.0-78.25"
-            ),
-            DTO(
-                id = 150,
-                thumbnailId = "item_cretaceous_carnotaurus_thumb",
-                artworkId = "item_cretaceous_carnotaurus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_cretaceous_carnotaurus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_carnotaurus",
-                descriptionSlug = "cretaceous_carnotaurus_description",
-                timeScale = "69.0-66.043"
-            ),
-            DTO(
-                id = 151,
-                thumbnailId = "item_cretaceous_saltasaurus_thumb",
-                artworkId = "item_cretaceous_saltasaurus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_cretaceous_saltasaurus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "cretaceous_saltasaurus",
-                descriptionSlug = "cretaceous_saltasaurus_description",
-                timeScale = "70.0-68.0"
+                titleSlug = "cretaceous_kronosaurus",
+                descriptionSlug = "cretaceous_kronosaurus_description",
+                timeScale = "125.0-99.6",
+                order = 6
             ),
             DTO(
                 id = 152,
@@ -1941,13 +1828,374 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "cretaceous_nigersaurus",
                 descriptionSlug = "cretaceous_nigersaurus_description",
-                timeScale = "115.0-105.0"
+                timeScale = "115.0-105.0",
+                order = 7
+            ),
+            DTO(
+                id = 200,
+                thumbnailId = "item_cretaceous_irritator_thumb",
+                artworkId = "item_cretaceous_irritator",
+                artworkAuthor = "Anthon500",
+                additionalArtworkId = "item_cretaceous_irritator_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_irritator",
+                descriptionSlug = "cretaceous_irritator_description",
+                timeScale = "113.0-100.5",
+                order = 8
+            ),
+            DTO(
+                id = 83,
+                thumbnailId = "item_cretaceous_spinosaurus_thumb",
+                artworkId = "item_cretaceous_spinosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_spinosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_spinosaurus",
+                descriptionSlug = "cretaceous_spinosaurus_description",
+                timeScale = "105.0-94.0",
+                order = 9
+            ),
+            DTO(
+                id = 205,
+                thumbnailId = "item_cretaceous_tarbosaurus_thumb",
+                artworkId = "item_cretaceous_tarbosaurus",
+                artworkAuthor = "Dinoraul",
+                additionalArtworkId = "item_cretaceous_tarbosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_tarbosaurus",
+                descriptionSlug = "cretaceous_tarbosaurus_description",
+                timeScale = "100.5-66.043",
+                order = 10
+            ),
+            DTO(
+                id = 216,
+                thumbnailId = "item_cretaceous_xiphactinus_thumb",
+                artworkId = "item_cretaceous_xiphactinus",
+                artworkAuthor = "Julian Johnson",
+                additionalArtworkId = "item_cretaceous_xiphactinus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_xiphactinus",
+                descriptionSlug = "cretaceous_xiphactinus_description",
+                timeScale = "100.5-66.043",
+                order = 11
+            ),
+            DTO(
+                id = 80,
+                thumbnailId = "item_cretaceous_giganotosaurus_thumb",
+                artworkId = "item_cretaceous_giganotosaurus",
+                artworkAuthor = "Damir",
+                additionalArtworkId = "item_cretaceous_giganotosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_giganotosaurus",
+                descriptionSlug = "cretaceous_giganotosaurus_description",
+                timeScale = "99.6-95.0",
+                order = 12
+            ),
+            DTO(
+                id = 204,
+                thumbnailId = "item_cretaceous_argentinosaurus_thumb",
+                artworkId = "item_cretaceous_argentinosaurus",
+                artworkAuthor = "Warpaintcobra",
+                additionalArtworkId = "item_cretaceous_argentinosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_argentinosaurus",
+                descriptionSlug = "cretaceous_argentinosaurus_description",
+                timeScale = "97.0-93.5",
+                order = 13
+            ),
+            DTO(
+                id = 214,
+                thumbnailId = "item_cretaceous_tylosaurus_thumb",
+                artworkId = "item_cretaceous_tylosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_tylosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_tylosaurus",
+                descriptionSlug = "cretaceous_tylosaurus_description",
+                timeScale = "92.1-66.043",
+                order = 14
+            ),
+            DTO(
+                id = 149,
+                thumbnailId = "item_cretaceous_pteranodon_thumb",
+                artworkId = "item_cretaceous_pteranodon",
+                artworkAuthor = "Mohamad Haghani",
+                additionalArtworkId = "item_cretaceous_pteranodon_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_pteranodon",
+                descriptionSlug = "cretaceous_pteranodon_description",
+                timeScale = "86.0-78.25",
+                order = 15
+            ),
+            DTO(
+                id = 93,
+                thumbnailId = "item_cretaceous_mosasaurus_thumb",
+                artworkId = "item_cretaceous_mosasaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_mosasaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_mosasaurus",
+                descriptionSlug = "cretaceous_mosasaurus_description",
+                timeScale = "82.7-66.043",
+                order = 16
+            ),
+            DTO(
+                id = 206,
+                thumbnailId = "item_cretaceous_parasaurolophus_thumb",
+                artworkId = "item_cretaceous_parasaurolophus",
+                artworkAuthor = "Warpaint",
+                additionalArtworkId = "item_cretaceous_parasaurolophus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_parasaurolophus",
+                descriptionSlug = "cretaceous_parasaurolophus_description",
+                timeScale = "76.5-73.0",
+                order = 17
+            ),
+            DTO(
+                id = 81,
+                thumbnailId = "item_cretaceous_linhenykus_thumb",
+                artworkId = "item_cretaceous_linhenykus",
+                artworkAuthor = "Julius Csotonyi",
+                additionalArtworkId = "item_cretaceous_linhenykus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_linhenykus",
+                descriptionSlug = "cretaceous_linhenykus_description",
+                timeScale = "75.0-70.6",
+                order = 18
+            ),
+            DTO(
+                id = 202,
+                thumbnailId = "item_cretaceous_oviraptor_thumb",
+                artworkId = "item_cretaceous_oviraptor",
+                artworkAuthor = "Zhao Chuang",
+                additionalArtworkId = "item_cretaceous_oviraptor_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_oviraptor",
+                descriptionSlug = "cretaceous_oviraptor_description",
+                timeScale = "75.0-70.6",
+                order = 19
+            ),
+            DTO(
+                id = 207,
+                thumbnailId = "item_cretaceous_protoceratops_thumb",
+                artworkId = "item_cretaceous_protoceratops",
+                artworkAuthor = "Gabriel Ugueto",
+                additionalArtworkId = "item_cretaceous_protoceratops_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_protoceratops",
+                descriptionSlug = "cretaceous_protoceratops_description",
+                timeScale = "75.0-70.6",
+                order = 20
+            ),
+            DTO(
+                id = 82,
+                thumbnailId = "item_cretaceous_velociraptor_thumb",
+                artworkId = "item_cretaceous_velociraptor",
+                artworkAuthor = "Zhao Chuang",
+                additionalArtworkId = "item_cretaceous_velociraptor_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_velociraptor",
+                descriptionSlug = "cretaceous_velociraptor_description",
+                timeScale = "75.0-70.6",
+                order = 21
+            ),
+            DTO(
+                id = 210,
+                thumbnailId = "item_cretaceous_edmontosaurus_thumb",
+                artworkId = "item_cretaceous_edmontosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_edmontosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_edmontosaurus",
+                descriptionSlug = "cretaceous_edmontosaurus_description",
+                timeScale = "73.0-66.043",
+                order = 22
+            ),
+            DTO(
+                id = 88,
+                thumbnailId = "item_cretaceous_tsintaosaurus_thumb",
+                artworkId = "item_cretaceous_tsintaosaurus",
+                artworkAuthor = "James Kuether",
+                additionalArtworkId = "item_cretaceous_tsintaosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_tsintaosaurus",
+                descriptionSlug = "cretaceous_tsintaosaurus_description",
+                timeScale = "72.0-66.043",
+                order = 23
+            ),
+            DTO(
+                id = 203,
+                thumbnailId = "item_cretaceous_beelzebufo_thumb",
+                artworkId = "item_cretaceous_beelzebufo",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_beelzebufo_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_beelzebufo",
+                descriptionSlug = "cretaceous_beelzebufo_description",
+                timeScale = "70.6-66.043",
+                order = 24
+            ),
+            DTO(
+                id = 89,
+                thumbnailId = "item_cretaceous_deinocherus_thumb",
+                artworkId = "item_cretaceous_deinocherus",
+                artworkAuthor = "Path of Titans",
+                additionalArtworkId = "item_cretaceous_deinocherus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_deinocherus",
+                descriptionSlug = "cretaceous_deinocherus_description",
+                timeScale = "70.6-66.043",
+                order = 25
+            ),
+            DTO(
+                id = 212,
+                thumbnailId = "item_cretaceous_isisaurus_thumb",
+                artworkId = "item_cretaceous_isisaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_isisaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_isisaurus",
+                descriptionSlug = "cretaceous_isisaurus_description",
+                timeScale = "73.0-66.043",
+                order = 26
+            ),
+            DTO(
+                id = 211,
+                thumbnailId = "item_cretaceous_majungasaurus_thumb",
+                artworkId = "item_cretaceous_majungasaurus",
+                artworkAuthor = "Gabriel Ugueto",
+                additionalArtworkId = "item_cretaceous_majungasaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_majungasaurus",
+                descriptionSlug = "cretaceous_majungasaurus_description",
+                timeScale = "73.0-66.043",
+                order = 27
+            ),
+            DTO(
+                id = 84,
+                thumbnailId = "item_cretaceous_pachycephalosaurus_thumb",
+                artworkId = "item_cretaceous_pachycephalosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_pachycephalosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_pachycephalosaurus",
+                descriptionSlug = "cretaceous_pachycephalosaurus_description",
+                timeScale = "70.6-66.043",
+                order = 28
+            ),
+            DTO(
+                id = 87,
+                thumbnailId = "item_cretaceous_therizinosaurus_thumb",
+                artworkId = "item_cretaceous_therizinosaurus",
+                artworkAuthor = "Damir",
+                additionalArtworkId = "item_cretaceous_therizinosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_therizinosaurus",
+                descriptionSlug = "cretaceous_therizinosaurus_description",
+                timeScale = "70.6-66.043",
+                order = 29
+            ),
+            DTO(
+                id = 151,
+                thumbnailId = "item_cretaceous_saltasaurus_thumb",
+                artworkId = "item_cretaceous_saltasaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_saltasaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_saltasaurus",
+                descriptionSlug = "cretaceous_saltasaurus_description",
+                timeScale = "70.0-68.0",
+                order = 30
+            ),
+            DTO(
+                id = 150,
+                thumbnailId = "item_cretaceous_carnotaurus_thumb",
+                artworkId = "item_cretaceous_carnotaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_carnotaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_carnotaurus",
+                descriptionSlug = "cretaceous_carnotaurus_description",
+                timeScale = "69.0-66.043",
+                order = 31
+            ),
+            DTO(
+                id = 86,
+                thumbnailId = "item_cretaceous_ankylosaurus_thumb",
+                artworkId = "item_cretaceous_ankylosaurus",
+                artworkAuthor = "Karl Lindberg",
+                additionalArtworkId = "item_cretaceous_ankylosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_ankylosaurus",
+                descriptionSlug = "cretaceous_ankylosaurus_description",
+                timeScale = "68.6-66.043",
+                order = 32
+            ),
+            DTO(
+                id = 208,
+                thumbnailId = "item_cretaceous_dakotaraptor_thumb",
+                artworkId = "item_cretaceous_dakotaraptor",
+                artworkAuthor = "Emily Willoughby",
+                additionalArtworkId = "item_cretaceous_dakotaraptor_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_dakotaraptor",
+                descriptionSlug = "cretaceous_dakotaraptor_description",
+                timeScale = "68.6-66.043",
+                order = 33
+            ),
+            DTO(
+                id = 91,
+                thumbnailId = "item_cretaceous_quetzalcoatlus_thumb",
+                artworkId = "item_cretaceous_quetzalcoatlus",
+                artworkAuthor = "Vlad Konstantinov",
+                additionalArtworkId = "item_cretaceous_quetzalcoatlus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_quetzalcoatlus",
+                descriptionSlug = "cretaceous_quetzalcoatlus_description",
+                timeScale = "68.6-66.043",
+                order = 34
+            ),
+            DTO(
+                id = 85,
+                thumbnailId = "item_cretaceous_triceratops_thumb",
+                artworkId = "item_cretaceous_triceratops",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_triceratops_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_triceratops",
+                descriptionSlug = "cretaceous_triceratops_description",
+                timeScale = "68.6-66.043",
+                order = 35
+            ),
+            DTO(
+                id = 79,
+                thumbnailId = "item_cretaceous_tyrannosaurus_thumb",
+                artworkId = "item_cretaceous_tyrannosaurus",
+                artworkAuthor = "Wallart",
+                additionalArtworkId = "item_cretaceous_tyrannosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_tyrannosaurus",
+                descriptionSlug = "cretaceous_tyrannosaurus_description",
+                timeScale = "68.6-66.043",
+                order = 36
             )
         )
     }
 
     private fun getPaleogeneLifeForms(): List<DTO> {
         return listOf(
+            DTO(
+                id = 173,
+                thumbnailId = "item_paleogene_otodus_thumb",
+                artworkId = "item_paleogene_otodus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_otodus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_otodus",
+                descriptionSlug = "paleogene_otodus_description",
+                timeScale = "65.0-3.6",
+                order = 1
+            ),
             DTO(
                 id = 95,
                 thumbnailId = "item_paleogene_titanoboa_thumb",
@@ -1957,7 +2205,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "paleogene_titanoboa",
                 descriptionSlug = "paleogene_titanoboa_description",
-                timeScale = "61.7-58.7"
+                timeScale = "60.7-58.7",
+                order = 2
             ),
             DTO(
                 id = 96,
@@ -1968,84 +2217,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "paleogene_gastornis",
                 descriptionSlug = "paleogene_gastornis_description",
-                timeScale = "58.7-48.6"
-            ),
-            DTO(
-                id = 97,
-                thumbnailId = "item_paleogene_basilosaurus_thumb",
-                artworkId = "item_paleogene_basilosaurus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_basilosaurus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_basilosaurus",
-                descriptionSlug = "paleogene_basilosaurus_description",
-                timeScale = "41.3-33.9"
-            ),
-            DTO(
-                id = 98,
-                thumbnailId = "item_paleogene_paraceratherium_thumb",
-                artworkId = "item_paleogene_paraceratherium",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_paraceratherium_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_paraceratherium",
-                descriptionSlug = "paleogene_paraceratherium_description",
-                timeScale = "33.9-23.03"
-            ),
-            DTO(
-                id = 99,
-                thumbnailId = "item_paleogene_daeodon_thumb",
-                artworkId = "item_paleogene_daeodon",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_daeodon_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_daeodon",
-                descriptionSlug = "paleogene_daeodon_description",
-                timeScale = "29.0-15.97"
-            ),
-            DTO(
-                id = 100,
-                thumbnailId = "item_paleogene_archaeotherium_thumb",
-                artworkId = "item_paleogene_archaeotherium",
-                artworkAuthor = "Julius Csotonyi",
-                additionalArtworkId = "item_paleogene_archaeotherium_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_archaeotherium",
-                descriptionSlug = "paleogene_archaeotherium_description",
-                timeScale = "35.0-28.0"
-            ),
-            DTO(
-                id = 101,
-                thumbnailId = "item_paleogene_arsinoitherium_thumb",
-                artworkId = "item_paleogene_arsinoitherium",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_arsinoitherium_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_arsinoitherium",
-                descriptionSlug = "paleogene_arsinoitherium_description",
-                timeScale = "36.0-27.0"
-            ),
-            DTO(
-                id = 102,
-                thumbnailId = "item_paleogene_pyrotherium_thumb",
-                artworkId = "item_paleogene_pyrotherium",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_pyrotherium_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_pyrotherium",
-                descriptionSlug = "paleogene_pyrotherium_description",
-                timeScale = "28.4-23.03"
-            ),
-            DTO(
-                id = 157,
-                thumbnailId = "item_paleogene_brontotherium_thumb",
-                artworkId = "item_paleogene_brontotherium",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_brontotherium_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_brontotherium",
-                descriptionSlug = "paleogene_brontotherium_description",
-                timeScale = "38.0-33.9"
+                timeScale = "56.7-46.6",
+                order = 3
             ),
             DTO(
                 id = 158,
@@ -2056,40 +2229,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "paleogene_uintatherium",
                 descriptionSlug = "paleogene_uintatherium_description",
-                timeScale = "50.5-37.0"
-            ),
-            DTO(
-                id = 159,
-                thumbnailId = "item_paleogene_hyaenodon_thumb",
-                artworkId = "item_paleogene_hyaenodon",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_hyaenodon_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_hyaenodon",
-                descriptionSlug = "paleogene_hyaenodon_description",
-                timeScale = "38.0-16.9"
-            ),
-            DTO(
-                id = 160,
-                thumbnailId = "item_paleogene_dorudon_thumb",
-                artworkId = "item_paleogene_dorudon",
-                artworkAuthor = "Lucas Mateus",
-                additionalArtworkId = "item_paleogene_dorudon_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_dorudon",
-                descriptionSlug = "paleogene_dorudon_description",
-                timeScale = "41.03-33.9"
-            ),
-            DTO(
-                id = 171,
-                thumbnailId = "item_paleogene_protocetus_thumb",
-                artworkId = "item_paleogene_protocetus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_protocetus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "paleogene_protocetus",
-                descriptionSlug = "paleogene_protocetus_description",
-                timeScale = "45.0-43.5"
+                timeScale = "50.5-37.0",
+                order = 4
             ),
             DTO(
                 id = 172,
@@ -2100,18 +2241,128 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "paleogene_hyrachyus",
                 descriptionSlug = "paleogene_hyrachyus_description",
-                timeScale = "56.0-40.0"
+                timeScale = "50.0-40.0",
+                order = 5
             ),
             DTO(
-                id = 173,
-                thumbnailId = "item_paleogene_otodus_thumb",
-                artworkId = "item_paleogene_otodus",
+                id = 171,
+                thumbnailId = "item_paleogene_protocetus_thumb",
+                artworkId = "item_paleogene_protocetus",
                 artworkAuthor = null,
-                additionalArtworkId = "item_paleogene_otodus_info",
+                additionalArtworkId = "item_paleogene_protocetus_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "paleogene_otodus",
-                descriptionSlug = "paleogene_otodus_description",
-                timeScale = "65.0-3.6"
+                titleSlug = "paleogene_protocetus",
+                descriptionSlug = "paleogene_protocetus_description",
+                timeScale = "45.0-43.5",
+                order = 6
+            ),
+            DTO(
+                id = 97,
+                thumbnailId = "item_paleogene_basilosaurus_thumb",
+                artworkId = "item_paleogene_basilosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_basilosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_basilosaurus",
+                descriptionSlug = "paleogene_basilosaurus_description",
+                timeScale = "41.3-33.9",
+                order = 7
+            ),
+            DTO(
+                id = 160,
+                thumbnailId = "item_paleogene_dorudon_thumb",
+                artworkId = "item_paleogene_dorudon",
+                artworkAuthor = "Lucas Mateus",
+                additionalArtworkId = "item_paleogene_dorudon_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_dorudon",
+                descriptionSlug = "paleogene_dorudon_description",
+                timeScale = "41.03-33.9",
+                order = 8
+            ),
+            DTO(
+                id = 157,
+                thumbnailId = "item_paleogene_brontotherium_thumb",
+                artworkId = "item_paleogene_brontotherium",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_brontotherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_brontotherium",
+                descriptionSlug = "paleogene_brontotherium_description",
+                timeScale = "38.0-33.9",
+                order = 9
+            ),
+            DTO(
+                id = 159,
+                thumbnailId = "item_paleogene_hyaenodon_thumb",
+                artworkId = "item_paleogene_hyaenodon",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_hyaenodon_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_hyaenodon",
+                descriptionSlug = "paleogene_hyaenodon_description",
+                timeScale = "38.0-16.9",
+                order = 10
+            ),
+            DTO(
+                id = 101,
+                thumbnailId = "item_paleogene_arsinoitherium_thumb",
+                artworkId = "item_paleogene_arsinoitherium",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_arsinoitherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_arsinoitherium",
+                descriptionSlug = "paleogene_arsinoitherium_description",
+                timeScale = "36.0-27.0",
+                order = 11
+            ),
+            DTO(
+                id = 100,
+                thumbnailId = "item_paleogene_archaeotherium_thumb",
+                artworkId = "item_paleogene_archaeotherium",
+                artworkAuthor = "Julius Csotonyi",
+                additionalArtworkId = "item_paleogene_archaeotherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_archaeotherium",
+                descriptionSlug = "paleogene_archaeotherium_description",
+                timeScale = "35.0-28.0",
+                order = 12
+            ),
+            DTO(
+                id = 98,
+                thumbnailId = "item_paleogene_paraceratherium_thumb",
+                artworkId = "item_paleogene_paraceratherium",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_paraceratherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_paraceratherium",
+                descriptionSlug = "paleogene_paraceratherium_description",
+                timeScale = "33.9-23.04",
+                order = 13
+            ),
+            DTO(
+                id = 99,
+                thumbnailId = "item_paleogene_daeodon_thumb",
+                artworkId = "item_paleogene_daeodon",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_daeodon_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_daeodon",
+                descriptionSlug = "paleogene_daeodon_description",
+                timeScale = "29.0-15.97",
+                order = 14
+            ),
+            DTO(
+                id = 102,
+                thumbnailId = "item_paleogene_pyrotherium_thumb",
+                artworkId = "item_paleogene_pyrotherium",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_pyrotherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_pyrotherium",
+                descriptionSlug = "paleogene_pyrotherium_description",
+                timeScale = "28.4-23.04",
+                order = 15
             ),
             DTO(
                 id = 174,
@@ -2122,7 +2373,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "paleogene_pelagornis",
                 descriptionSlug = "paleogene_pelagornis_description",
-                timeScale = "25.0-2.5"
+                timeScale = "25.0-2.5",
+                order = 16
             )
         )
     }
