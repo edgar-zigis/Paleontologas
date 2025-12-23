@@ -218,9 +218,9 @@
         <item>item_devonian</item>
         <item>item_devonian</item>
         <item>item_devonian</item>
-        <item>item_devonian_prototaxites</item>
-        <item>item_devonian_prototaxites</item>
-        <item>item_devonian_prototaxites</item>
+        <item>item_silurian_prototaxites</item>
+        <item>item_silurian_prototaxites</item>
+        <item>item_silurian_prototaxites</item>
         <item>item_devonian_wattieza</item>
         <item>item_devonian_wattieza</item>
         <item>item_devonian_archaeopteris</item>
@@ -247,7 +247,7 @@
         <item>item_devonian_acanthostega</item>
         <item>item_devonian_cladoselache</item>
         <item>item_devonian_acanthostega</item>
-        <item>item_devonian_prototaxites</item>
+        <item>item_silurian_prototaxites</item>
         <item>item_devonian_bothriolepis</item>
         <item>item_devonian</item>
         <item>item_devonian_ichthyostega</item>
@@ -364,13 +364,13 @@
         <item>item_triassic</item>
         <item>item_triassic</item>
         <item>item_triassic</item>
-        <item>item_triassic_bennettitales</item>
-        <item>item_triassic_bennettitales</item>
-        <item>item_triassic_bennettitales</item>
+        <item>item_permian_bennettitales</item>
+        <item>item_permian_bennettitales</item>
+        <item>item_permian_bennettitales</item>
         <item>item_triassic_morganucodon</item>
         <item>item_triassic_morganucodon</item>
-        <item>item_triassic_lystrosaurus</item>
-        <item>item_triassic_lystrosaurus</item>
+        <item>item_permian_lystrosaurus</item>
+        <item>item_permian_lystrosaurus</item>
         <item>item_triassic_pterosauria</item>
         <item>item_triassic_pterosauria</item>
         <item>item_triassic_plesiosauria</item>
@@ -388,10 +388,10 @@
         <item>item_triassic_ichthyosauria</item>
         <item>item_triassic_pterosauria</item>
         <item>item_triassic_sharovipteryx</item>
-        <item>item_triassic_lystrosaurus</item>
+        <item>item_permian_lystrosaurus</item>
         <item>item_triassic_tanystropheus</item>
         <item>item_triassic_longisquama</item>
-        <item>item_triassic_bennettitales</item>
+        <item>item_permian_bennettitales</item>
         <item>item_triassic_mystriosuchus</item>
         <item>item_triassic_plateosaurus</item>
         <item>item_triassic_desmatosuchus</item>
@@ -456,9 +456,9 @@
         <item>item_cretaceous_mosasaurus</item>
         <item>item_cretaceous_mosasaurus</item>
         <item>item_cretaceous_mosasaurus</item>
-        <item>item_cretaceous_ammonite</item>
-        <item>item_cretaceous_ammonite</item>
-        <item>item_cretaceous_ammonite</item>
+        <item>item_devonian_ammonite</item>
+        <item>item_devonian_ammonite</item>
+        <item>item_devonian_ammonite</item>
         <item>item_cretaceous_triceratops</item>
         <item>item_cretaceous_ankylosaurus</item>
         <item>item_cretaceous_quetzalcoatlus</item>
@@ -470,7 +470,7 @@
         <item>item_cretaceous_microraptor</item>
         <item>item_cretaceous_tsintaosaurus</item>
         <item>item_cretaceous_sarcosuchus</item>
-        <item>item_cretaceous_ammonite</item>
+        <item>item_devonian_ammonite</item>
         <item>item_cretaceous_velociraptor</item>
         <item>item_cretaceous_spinosaurus</item>
         <item>item_cretaceous_giganotosaurus</item>
