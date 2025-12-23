@@ -2382,72 +2382,6 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
     private fun getNeogeneLifeForms(): List<DTO> {
         return listOf(
             DTO(
-                id = 103,
-                thumbnailId = "item_neogene_argentavis_thumb",
-                artworkId = "item_neogene_argentavis",
-                artworkAuthor = null,
-                additionalArtworkId = "item_neogene_argentavis_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_argentavis",
-                descriptionSlug = "neogene_argentavis_description",
-                timeScale = "9.0-6.8"
-            ),
-            DTO(
-                id = 104,
-                thumbnailId = "item_neogene_titanis_thumb",
-                artworkId = "item_neogene_titanis",
-                artworkAuthor = "Gary Wright",
-                additionalArtworkId = "item_neogene_titanis_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_titanis",
-                descriptionSlug = "neogene_titanis_description",
-                timeScale = "4.9-1.8"
-            ),
-            DTO(
-                id = 105,
-                thumbnailId = "item_neogene_deinotherium_thumb",
-                artworkId = "item_neogene_deinotherium",
-                artworkAuthor = null,
-                additionalArtworkId = "item_neogene_deinotherium_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_deinotherium",
-                descriptionSlug = "neogene_deinotherium_description",
-                timeScale = "13.0-0.781"
-            ),
-            DTO(
-                id = 106,
-                thumbnailId = "item_neogene_stegotetrabelodon_thumb",
-                artworkId = "item_neogene_stegotetrabelodon",
-                artworkAuthor = "Mauricio Antón",
-                additionalArtworkId = "item_neogene_stegotetrabelodon_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_stegotetrabelodon",
-                descriptionSlug = "neogene_stegotetrabelodon_description",
-                timeScale = "8.0-4.2"
-            ),
-            DTO(
-                id = 107,
-                thumbnailId = "item_neogene_platybelodon_thumb",
-                artworkId = "item_neogene_platybelodon",
-                artworkAuthor = null,
-                additionalArtworkId = "item_neogene_platybelodon_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_platybelodon",
-                descriptionSlug = "neogene_platybelodon_description",
-                timeScale = "15.97-10.0"
-            ),
-            DTO(
-                id = 108,
-                thumbnailId = "item_neogene_ardipithecus_thumb",
-                artworkId = "item_neogene_ardipithecus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_neogene_ardipithecus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_ardipithecus",
-                descriptionSlug = "neogene_ardipithecus_description",
-                timeScale = "5.77-4.4"
-            ),
-            DTO(
                 id = 109,
                 thumbnailId = "item_neogene_megalodon_thumb",
                 artworkId = "item_neogene_megalodon",
@@ -2456,18 +2390,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "neogene_megalodon",
                 descriptionSlug = "neogene_megalodon_description",
-                timeScale = "23.0-3.6"
-            ),
-            DTO(
-                id = 110,
-                thumbnailId = "item_neogene_livyatan_thumb",
-                artworkId = "item_neogene_livyatan",
-                artworkAuthor = "A. Gennari",
-                additionalArtworkId = "item_neogene_livyatan_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "neogene_levyatan",
-                descriptionSlug = "neogene_levyatan_description",
-                timeScale = "9.9-5.0"
+                timeScale = "23.0-3.6",
+                order = 1
             ),
             DTO(
                 id = 161,
@@ -2478,29 +2402,32 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "neogene_gomphotherium",
                 descriptionSlug = "neogene_gomphotherium_description",
-                timeScale = "19.5-5.0"
+                timeScale = "19.5-5.0",
+                order = 2
             ),
             DTO(
-                id = 162,
-                thumbnailId = "item_neogene_hipparion_thumb",
-                artworkId = "item_neogene_hipparion",
+                id = 107,
+                thumbnailId = "item_neogene_platybelodon_thumb",
+                artworkId = "item_neogene_platybelodon",
                 artworkAuthor = null,
-                additionalArtworkId = "item_neogene_hipparion_info",
+                additionalArtworkId = "item_neogene_platybelodon_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "neogene_hipparion",
-                descriptionSlug = "neogene_hipparion_description",
-                timeScale = "9.9-5.3"
+                titleSlug = "neogene_platybelodon",
+                descriptionSlug = "neogene_platybelodon_description",
+                timeScale = "15.97-10.0",
+                order = 3
             ),
             DTO(
-                id = 163,
-                thumbnailId = "item_neogene_sivatherium_thumb",
-                artworkId = "item_neogene_sivatherium",
+                id = 105,
+                thumbnailId = "item_neogene_deinotherium_thumb",
+                artworkId = "item_neogene_deinotherium",
                 artworkAuthor = null,
-                additionalArtworkId = "item_neogene_sivatherium_info",
+                additionalArtworkId = "item_neogene_deinotherium_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "neogene_sivatherium",
-                descriptionSlug = "neogene_sivatherium_description",
-                timeScale = "7.0-0.8"
+                titleSlug = "neogene_deinotherium",
+                descriptionSlug = "neogene_deinotherium_description",
+                timeScale = "13.0-1.0",
+                order = 4
             ),
             DTO(
                 id = 164,
@@ -2511,7 +2438,68 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "neogene_machairodus",
                 descriptionSlug = "neogene_machairodus_description",
-                timeScale = "12.5-8.7"
+                timeScale = "12.5-8.7",
+                order = 5
+            ),
+            DTO(
+                id = 162,
+                thumbnailId = "item_neogene_hipparion_thumb",
+                artworkId = "item_neogene_hipparion",
+                artworkAuthor = null,
+                additionalArtworkId = "item_neogene_hipparion_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_hipparion",
+                descriptionSlug = "neogene_hipparion_description",
+                timeScale = "9.9-5.3",
+                order = 6
+            ),
+            DTO(
+                id = 110,
+                thumbnailId = "item_neogene_livyatan_thumb",
+                artworkId = "item_neogene_livyatan",
+                artworkAuthor = "A. Gennari",
+                additionalArtworkId = "item_neogene_livyatan_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_levyatan",
+                descriptionSlug = "neogene_levyatan_description",
+                timeScale = "9.9-5.0",
+                order = 7
+            ),
+            DTO(
+                id = 103,
+                thumbnailId = "item_neogene_argentavis_thumb",
+                artworkId = "item_neogene_argentavis",
+                artworkAuthor = null,
+                additionalArtworkId = "item_neogene_argentavis_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_argentavis",
+                descriptionSlug = "neogene_argentavis_description",
+                timeScale = "9.0-6.8",
+                order = 8
+            ),
+            DTO(
+                id = 217,
+                thumbnailId = "item_neogene_thylacosmilus_thumb",
+                artworkId = "item_neogene_thylacosmilus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_neogene_thylacosmilus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_thylacosmilus",
+                descriptionSlug = "neogene_thylacosmilus_description",
+                timeScale = "9.0-3.0",
+                order = 9
+            ),
+            DTO(
+                id = 106,
+                thumbnailId = "item_neogene_stegotetrabelodon_thumb",
+                artworkId = "item_neogene_stegotetrabelodon",
+                artworkAuthor = "Mauricio Antón",
+                additionalArtworkId = "item_neogene_stegotetrabelodon_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_stegotetrabelodon",
+                descriptionSlug = "neogene_stegotetrabelodon_description",
+                timeScale = "8.0-4.2",
+                order = 10
             ),
             DTO(
                 id = 165,
@@ -2522,7 +2510,121 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "neogene_thalassocnus",
                 descriptionSlug = "neogene_thalassocnus_description",
-                timeScale = "7.0-3.0"
+                timeScale = "7.0-3.0",
+                order = 11
+            ),
+            DTO(
+                id = 163,
+                thumbnailId = "item_neogene_sivatherium_thumb",
+                artworkId = "item_neogene_sivatherium",
+                artworkAuthor = null,
+                additionalArtworkId = "item_neogene_sivatherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_sivatherium",
+                descriptionSlug = "neogene_sivatherium_description",
+                timeScale = "7.0-0.8",
+                order = 12
+            ),
+            DTO(
+                id = 108,
+                thumbnailId = "item_neogene_ardipithecus_thumb",
+                artworkId = "item_neogene_ardipithecus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_neogene_ardipithecus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_ardipithecus",
+                descriptionSlug = "neogene_ardipithecus_description",
+                timeScale = "5.77-4.4",
+                order = 13
+            ),
+            DTO(
+                id = 104,
+                thumbnailId = "item_neogene_titanis_thumb",
+                artworkId = "item_neogene_titanis",
+                artworkAuthor = "Gary Wright",
+                additionalArtworkId = "item_neogene_titanis_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "neogene_titanis",
+                descriptionSlug = "neogene_titanis_description",
+                timeScale = "5.0-1.8",
+                order = 14
+            )
+        )
+    }
+
+    private fun getQuaternaryLifeForms(): List<DTO> {
+        return listOf(
+            DTO(
+                id = 119,
+                thumbnailId = "item_quaternary_megalania_thumb",
+                artworkId = "item_quaternary_megalania",
+                artworkAuthor = null,
+                additionalArtworkId = "item_quaternary_megalania_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_megalania",
+                descriptionSlug = "quaternary_megalania_description",
+                timeScale = "1.5-0.05",
+                order = 1
+            ),
+            DTO(
+                id = 227,
+                thumbnailId = "item_quaternary_thylacoleo_thumb",
+                artworkId = "item_quaternary_thylacoleo",
+                artworkAuthor = "Peter Schouten",
+                additionalArtworkId = "item_quaternary_thylacoleo_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_thylacoleo",
+                descriptionSlug = "quaternary_thylacoleo_description",
+                timeScale = "2.0-0.04",
+                order = 2
+            ),
+            DTO(
+                id = 219,
+                thumbnailId = "item_quaternary_diprotodon_thumb",
+                artworkId = "item_quaternary_diprotodon",
+                artworkAuthor = null,
+                additionalArtworkId = "item_quaternary_diprotodon_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_diprotodon",
+                descriptionSlug = "quaternary_diprotodon_description",
+                timeScale = "1.77-0.04",
+                order = 3
+            ),
+            DTO(
+                id = 112,
+                thumbnailId = "item_quaternary_coelodonta_thumb",
+                artworkId = "item_quaternary_coelodonta",
+                artworkAuthor = "PaleoPete",
+                additionalArtworkId = "item_quaternary_coelodonta_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_coelodonta",
+                descriptionSlug = "quaternary_coelodonta_description",
+                timeScale = "3.7-0.014",
+                order = 4
+            ),
+            DTO(
+                id = 221,
+                thumbnailId = "item_quaternary_panthera_spelaea_thumb",
+                artworkId = "item_quaternary_panthera_spelaea",
+                artworkAuthor = null,
+                additionalArtworkId = "item_quaternary_panthera_spelaea_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_panthera_spelaea",
+                descriptionSlug = "quaternary_panthera_spelaea_description",
+                timeScale = "0.3-0.013",
+                order = 5
+            ),
+            DTO(
+                id = 222,
+                thumbnailId = "item_quaternary_arctodus_simus_thumb",
+                artworkId = "item_quaternary_arctodus_simus",
+                artworkAuthor = "Warpaint",
+                additionalArtworkId = "item_quaternary_arctodus_simus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_arctodus_simus",
+                descriptionSlug = "quaternary_arctodus_simus_description",
+                timeScale = "2.6-0.012",
+                order = 6
             ),
             DTO(
                 id = 166,
@@ -2533,34 +2635,20 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "neogene_toxodon",
                 descriptionSlug = "neogene_toxodon_description",
-                timeScale = "2.6-0.011"
-            )
-        )
-    }
-
-    private fun getQuaternaryLifeForms(): List<DTO> {
-        return listOf(
-            DTO(
-                id = 111,
-                thumbnailId = "item_quaternary_mammuthus_thumb",
-                artworkId = "item_quaternary_mammuthus",
-                artworkAuthor = null,
-                additionalArtworkId = "item_quaternary_mammuthus_info",
-                additionalArtworkAuthor = null,
-                titleSlug = "quaternary_mammutus",
-                descriptionSlug = "quaternary_mammutus_description",
-                timeScale = "5.332-0.0037"
+                timeScale = "3.6-0.011",
+                order = 7
             ),
             DTO(
-                id = 112,
-                thumbnailId = "item_quaternary_coelodonta_thumb",
-                artworkId = "item_quaternary_coelodonta",
-                artworkAuthor = "Mihin89",
-                additionalArtworkId = null,
+                id = 220,
+                thumbnailId = "item_quaternary_macrauchenia_thumb",
+                artworkId = "item_quaternary_macrauchenia",
+                artworkAuthor = null,
+                additionalArtworkId = "item_quaternary_macrauchenia_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "quaternary_coelodonta",
-                descriptionSlug = "quaternary_coelodonta_description",
-                timeScale = "4.2-0.012"
+                titleSlug = "quaternary_macrauchenia",
+                descriptionSlug = "quaternary_macrauchenia_description",
+                timeScale = "7.0-0.01",
+                order = 8
             ),
             DTO(
                 id = 113,
@@ -2571,40 +2659,140 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_megatherium",
                 descriptionSlug = "quaternary_megatherium_description",
-                timeScale = "17.5-0.01"
+                timeScale = "5.0-0.01",
+                order = 9
             ),
             DTO(
                 id = 114,
                 thumbnailId = "item_quaternary_smilodon_thumb",
                 artworkId = "item_quaternary_smilodon",
-                artworkAuthor = "Delphi",
+                artworkAuthor = null,
                 additionalArtworkId = "item_quaternary_smilodon_info",
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_smilodon",
                 descriptionSlug = "quaternary_smilodon_description",
-                timeScale = "2.5-0.01"
+                timeScale = "2.5-0.0082",
+                order = 10
             ),
             DTO(
-                id = 115,
-                thumbnailId = "item_quaternary_coelacanth_thumb",
-                artworkId = "item_quaternary_coelacanth",
-                artworkAuthor = null,
-                additionalArtworkId = null,
+                id = 218,
+                thumbnailId = "item_quaternary_megaloceros_thumb",
+                artworkId = "item_quaternary_megaloceros",
+                artworkAuthor = "Mark Witton",
+                additionalArtworkId = "item_quaternary_megaloceros_info",
                 additionalArtworkAuthor = null,
-                titleSlug = "quaternary_coelacanth",
-                descriptionSlug = "quaternary_coelacanth_description",
-                timeScale = "409.0-0.0"
+                titleSlug = "quaternary_megaloceros",
+                descriptionSlug = "quaternary_megaloceros_description",
+                timeScale = "0.45-0.0077",
+                order = 11
+            ),
+            DTO(
+                id = 111,
+                thumbnailId = "item_quaternary_mammuthus_thumb",
+                artworkId = "item_quaternary_mammuthus",
+                artworkAuthor = "Daniel Eskridge",
+                additionalArtworkId = "item_quaternary_mammuthus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_mammutus",
+                descriptionSlug = "quaternary_mammutus_description",
+                timeScale = "6.2-0.0037",
+                order = 12
+            ),
+            DTO(
+                id = 225,
+                thumbnailId = "item_quaternary_moa_thumb",
+                artworkId = "item_quaternary_moa",
+                artworkAuthor = "Colossal Biosciences",
+                additionalArtworkId = "item_quaternary_moa_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_moa",
+                descriptionSlug = "quaternary_moa_description",
+                timeScale = "17.0-0.0006",
+                order = 13
+            ),
+            DTO(
+                id = 228,
+                thumbnailId = "item_quaternary_hieraaetus_moorei_thumb",
+                artworkId = "item_quaternary_hieraaetus_moorei",
+                artworkAuthor = "John Megahan",
+                additionalArtworkId = "item_quaternary_hieraaetus_moorei_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_hieraaetus_moorei",
+                descriptionSlug = "quaternary_hieraaetus_moorei_description",
+                timeScale = "1.8-0.0006",
+                order = 14
+            ),
+            DTO(
+                id = 121,
+                thumbnailId = "item_quaternary_dodo_thumb",
+                artworkId = "item_quaternary_dodo",
+                artworkAuthor = "Paul Roget",
+                additionalArtworkId = "item_quaternary_dodo_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_dodo",
+                descriptionSlug = "quaternary_dodo_description",
+                timeScale = "0.012-0.0004",
+                order = 15
+            ),
+            DTO(
+                id = 224,
+                thumbnailId = "item_quaternary_hydrodamalis_gigas_thumb",
+                artworkId = "item_quaternary_hydrodamalis_gigas",
+                artworkAuthor = "Caelan",
+                additionalArtworkId = "item_quaternary_hydrodamalis_gigas_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_hydrodamalis_gigas",
+                descriptionSlug = "quaternary_hydrodamalis_gigas_description",
+                timeScale = "0.13-0.00026",
+                order = 16
+            ),
+            DTO(
+                id = 226,
+                thumbnailId = "item_quaternary_ectopistes_migratorius_thumb",
+                artworkId = "item_quaternary_ectopistes_migratorius",
+                artworkAuthor = "Tim Hough",
+                additionalArtworkId = "item_quaternary_ectopistes_migratorius_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_ectopistes_migratorius",
+                descriptionSlug = "quaternary_ectopistes_migratorius_description",
+                timeScale = "5.33-0.00011",
+                order = 17
+            ),
+            DTO(
+                id = 223,
+                thumbnailId = "item_quaternary_thylacinus_thumb",
+                artworkId = "item_quaternary_thylacinus",
+                artworkAuthor = "University of Melbourne",
+                additionalArtworkId = "item_quaternary_thylacinus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_thylacinus",
+                descriptionSlug = "quaternary_thylacinus_description",
+                timeScale = "1.77-0.00008",
+                order = 18
             ),
             DTO(
                 id = 116,
                 thumbnailId = "item_quaternary_xiphosura_thumb",
                 artworkId = "item_quaternary_xiphosura",
                 artworkAuthor = null,
-                additionalArtworkId = null,
+                additionalArtworkId = "item_quaternary_xiphosura_info",
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_xiphosura",
                 descriptionSlug = "quaternary_xiphosura_description",
-                timeScale = "450.0-0.0"
+                timeScale = "480.0-0.0",
+                order = 19
+            ),
+            DTO(
+                id = 115,
+                thumbnailId = "item_quaternary_coelacanth_thumb",
+                artworkId = "item_quaternary_coelacanth",
+                artworkAuthor = null,
+                additionalArtworkId = "item_quaternary_coelacanth_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "quaternary_coelacanth",
+                descriptionSlug = "quaternary_coelacanth_description",
+                timeScale = "409.0-0.0",
+                order = 20
             ),
             DTO(
                 id = 117,
@@ -2615,7 +2803,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_ginkgo",
                 descriptionSlug = "quaternary_ginkgo_description",
-                timeScale = "270.0-0.0"
+                timeScale = "270.0-0.0",
+                order = 21
             ),
             DTO(
                 id = 118,
@@ -2626,40 +2815,20 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_welwitschia",
                 descriptionSlug = "quaternary_welwitschia_description",
-                timeScale = "242.0-0.0"
-            ),
-            DTO(
-                id = 119,
-                thumbnailId = "item_quaternary_megalania_thumb",
-                artworkId = "item_quaternary_megalania",
-                artworkAuthor = null,
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "quaternary_megalania",
-                descriptionSlug = "quaternary_megalania_description",
-                timeScale = "1.5-0.04"
+                timeScale = "242.0-0.0",
+                order = 22
             ),
             DTO(
                 id = 120,
                 thumbnailId = "item_quaternary_tuatara_thumb",
                 artworkId = "item_quaternary_tuatara",
                 artworkAuthor = null,
-                additionalArtworkId = null,
+                additionalArtworkId = "item_quaternary_tuatara_info",
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_tuatara",
                 descriptionSlug = "quaternary_tuatara_description",
-                timeScale = "240.0-0.0"
-            ),
-            DTO(
-                id = 121,
-                thumbnailId = "item_quaternary_dodo_thumb",
-                artworkId = "item_quaternary_dodo",
-                artworkAuthor = "Paul Roget",
-                additionalArtworkId = null,
-                additionalArtworkAuthor = null,
-                titleSlug = "quaternary_dodo",
-                descriptionSlug = "quaternary_dodo_description",
-                timeScale = "0.012-0.0004"
+                timeScale = "244.0-0.0",
+                order = 23
             ),
             DTO(
                 id = 122,
@@ -2670,7 +2839,8 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 additionalArtworkAuthor = null,
                 titleSlug = "quaternary_human",
                 descriptionSlug = "quaternary_human_description",
-                timeScale = "0.126-0.0"
+                timeScale = "0.126-0.0",
+                order = 24
             )
         )
     }
