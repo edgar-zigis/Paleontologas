@@ -41,7 +41,7 @@
     <string name="leaderboard_invitation_description">Erstelle ein Konto und tritt gegen die besten Paläontologie-Enthusiasten an!</string>
     <string name="leaderboard_invitation_button_label">Konto erstellen!</string>
 
-    <string name="leaderboard_global_ranking_title">Dein weltweites Ranking ist Platz #%d!</string>
+    <string name="leaderboard_global_ranking_title">Weltweiter Platz: #%d!</string>
     <string name="leaderboard_global_ranking_description">Beantworte Quizfragen – jede richtige Antwort bringt dir +1 XP. Wenn du alle 10 Fragen richtig beantwortest, wird dein XP verdoppelt!</string>
 
     <string name="leaderboard_modal_claim_username_title">Sichere dir deinen Benutzernamen!</string>
