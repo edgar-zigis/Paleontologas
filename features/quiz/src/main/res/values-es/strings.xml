@@ -2363,7 +2363,7 @@
     <string name="silurian_variant_58_3">Hemicyclaspis</string>
     <string name="silurian_variant_58_4">Pneumodesmus</string>
 
-    //  Devonian quiz questions
+    <!--     Devonian quiz questions    -->
 
     <string name="devonian_question_1_image">item_devonian</string>
     <string name="devonian_question_1">¿Cuál era la temperatura media durante el período Devónico?</string>
@@ -3201,7 +3201,7 @@
     <string name="devonian_variant_117_3">Orthoceras</string>
     <string name="devonian_variant_117_4">Jaekelopterus</string>
 
-    //  Carboniferous quiz questions
+    <!--     Carboniferous quiz questions   -->
 
     <string name="carboniferous_question_1_image">item_carboniferous</string>
     <string name="carboniferous_question_1">¿Cuál era la temperatura media de la superficie durante el período Carbonífero?</string>
@@ -4031,7 +4031,7 @@
     <string name="carboniferous_variant_116_3">Anthracosaurus</string>
     <string name="carboniferous_variant_116_4">Edaphosaurus</string>
 
-    //  Permian quiz questions
+    <!--     Permian quiz questions -->
 
     <string name="permian_question_1_image">item_permian</string>
     <string name="permian_question_1">¿Cuál era la temperatura media de la superficie durante el período Pérmico?</string>
@@ -4619,7 +4619,7 @@
     <string name="permian_variant_82_3">Lystrosaurus</string>
     <string name="permian_variant_82_4">Gorgonops</string>
 
-    //  Triassic quiz questions
+    <!--     Triassic quiz questions    -->
 
     <string name="triassic_question_1_image">item_triassic</string>
     <string name="triassic_question_1">¿Cuál era la temperatura media de la superficie durante el período Triásico?</string>
@@ -5597,7 +5597,7 @@
     <string name="triassic_variant_137_3">Mystriosuchus</string>
     <string name="triassic_variant_137_4">Megazostrodon</string>
 
-    //  Jurassic quiz questions
+    <!--     Jurassic quiz questions    -->
 
     <string name="jurassic_question_1_image">item_jurassic</string>
     <string name="jurassic_question_1">¿Cuál fue la temperatura media durante el período Jurásico?</string>
@@ -6693,7 +6693,7 @@
     <string name="jurassic_variant_153_3">Rhamphorhynchus</string>
     <string name="jurassic_variant_153_4">Dimorphodon</string>
 
-    //  Cretaceous quiz questions
+    <!--     Cretaceous quiz questions  -->
 
     <string name="cretaceous_question_1_image">item_cretaceous</string>
     <string name="cretaceous_question_1">¿Cuál fue la temperatura media durante el periodo Cretácico?</string>
