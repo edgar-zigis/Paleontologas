@@ -144,12 +144,12 @@
         <item>item_ordovician</item>
         <item>item_ordovician_orthoceras</item>
         <item>item_ordovician_orthoceras</item>
-        <item>item_ordovician_eurypterida</item>
-        <item>item_ordovician_eurypterida</item>
-        <item>item_ordovician_eurypterida</item>
-        <item>item_ordovician_sacabambaspis_janvieri</item>
-        <item>item_ordovician_sacabambaspis_janvieri</item>
-        <item>item_ordovician_sacabambaspis_janvieri</item>
+        <item>item_ordovician_pentecopterus</item>
+        <item>item_ordovician_pentecopterus</item>
+        <item>item_ordovician_pentecopterus</item>
+        <item>item_ordovician_sacabambaspis</item>
+        <item>item_ordovician_sacabambaspis</item>
+        <item>item_ordovician_sacabambaspis</item>
         <item>item_ordovician_astraspis</item>
         <item>item_ordovician_astraspis</item>
         <item>item_ordovician_astraspis</item>
@@ -157,15 +157,15 @@
         <item>item_ordovician</item>
         <item>item_ordovician</item>
         <item>item_ordovician</item>
-        <item>item_ordovician_sacabambaspis_janvieri</item>
-        <item>item_ordovician_eurypterida</item>
+        <item>item_ordovician_sacabambaspis</item>
+        <item>item_ordovician_pentecopterus</item>
         <item>item_ordovician_orthoceras</item>
         <item>item_ordovician_rugosa</item>
         <item>item_ordovician_rugosa</item>
         <item>item_ordovician_tabulata</item>
         <item>item_ordovician</item>
         <item>item_ordovician_astraspis</item>
-        <item>item_ordovician_sacabambaspis_janvieri</item>
+        <item>item_ordovician_sacabambaspis</item>
         <item>item_ordovician_orthoceras</item>
         <item>item_ordovician</item>
     </array>
