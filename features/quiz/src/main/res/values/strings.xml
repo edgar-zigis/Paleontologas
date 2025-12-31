@@ -68,10 +68,10 @@
 
     <string name="hadean_question_1_image">item_hadean</string>
     <string name="hadean_question_1">What was the mean surface temperature range during the Hadean Eon?</string>
-    <string name="hadean_variant_1_1">70-2100 °C</string>
-    <string name="hadean_variant_1_2">10-25 °C</string>
-    <string name="hadean_variant_1_3">-50-0 °C</string>
-    <string name="hadean_variant_1_4">3000-5000 °C</string>
+    <string name="hadean_variant_1_1">70–2100 °C</string>
+    <string name="hadean_variant_1_2">10–25 °C</string>
+    <string name="hadean_variant_1_3">-50–0 °C</string>
+    <string name="hadean_variant_1_4">3000–5000 °C</string>
 
     <string name="hadean_question_2_image">item_hadean</string>
     <string name="hadean_question_2">What was the concentration of atmospheric oxygen during the Hadean Eon?</string>
@@ -140,10 +140,10 @@
 
     <string name="archean_question_1_image">item_archean</string>
     <string name="archean_question_1">What was the mean temperature during the Archean Eon?</string>
-    <string name="archean_variant_1_1">45-70 °C</string>
-    <string name="archean_variant_1_2">10-20 °C</string>
+    <string name="archean_variant_1_1">45–70 °C</string>
+    <string name="archean_variant_1_2">10–20 °C</string>
     <string name="archean_variant_1_3">-50 to -30 °C</string>
-    <string name="archean_variant_1_4">100-120 °C</string>
+    <string name="archean_variant_1_4">100–120 °C</string>
 
     <string name="archean_question_2_image">item_archean</string>
     <string name="archean_question_2">What was the percentage of atmospheric oxygen during the Archean Eon?</string>
@@ -161,7 +161,7 @@
 
     <string name="archean_question_4_image">item_archean</string>
     <string name="archean_question_4">How did the Sun\'s luminosity during the Archean compare to today\'s levels?</string>
-    <string name="archean_variant_4_1" formatted="false">It was about 70-75% of its present level</string>
+    <string name="archean_variant_4_1" formatted="false">It was about 70–75% of its present level</string>
     <string name="archean_variant_4_2" formatted="false">It was 50% brighter than today</string>
     <string name="archean_variant_4_3">It was exactly the same as today</string>
     <string name="archean_variant_4_4">It was twice as bright as today</string>
@@ -368,17 +368,17 @@
 
     <string name="proterozoic_question_1_image">item_proterozoic</string>
     <string name="proterozoic_question_1">What was the mean temperature on Earth during the Proterozoic Eon?</string>
-    <string name="proterozoic_variant_1_1">5-45 °C</string>
-    <string name="proterozoic_variant_1_2">10-25 °C</string>
-    <string name="proterozoic_variant_1_3">-10-0 °C</string>
-    <string name="proterozoic_variant_1_4">40-80 °C</string>
+    <string name="proterozoic_variant_1_1">5–45 °C</string>
+    <string name="proterozoic_variant_1_2">10–25 °C</string>
+    <string name="proterozoic_variant_1_3">-10–0 °C</string>
+    <string name="proterozoic_variant_1_4">40–80 °C</string>
 
     <string name="proterozoic_question_2_image">item_proterozoic</string>
     <string name="proterozoic_question_2">What were the atmospheric oxygen levels during the Proterozoic Eon?</string>
-    <string name="proterozoic_variant_2_1" formatted="false">0-12%</string>
-    <string name="proterozoic_variant_2_2" formatted="false">21-30%</string>
-    <string name="proterozoic_variant_2_3" formatted="false">15-20%</string>
-    <string name="proterozoic_variant_2_4" formatted="false">30-45%</string>
+    <string name="proterozoic_variant_2_1" formatted="false">0–12%</string>
+    <string name="proterozoic_variant_2_2" formatted="false">21–30%</string>
+    <string name="proterozoic_variant_2_3" formatted="false">15–20%</string>
+    <string name="proterozoic_variant_2_4" formatted="false">30–45%</string>
 
     <string name="proterozoic_question_3_image">item_proterozoic</string>
     <string name="proterozoic_question_3">When did the Proterozoic Eon end, marking the beginning of the Cambrian Period?</string>
@@ -1873,10 +1873,10 @@
 
     <string name="ordovician_question_48_image">item_ordovician_cameroceras</string>
     <string name="ordovician_question_48">What was the estimated length of Cameroceras?</string>
-    <string name="ordovician_variant_48_1">6-9 meters</string>
-    <string name="ordovician_variant_48_2">1-2 meters</string>
-    <string name="ordovician_variant_48_3">15-20 meters</string>
-    <string name="ordovician_variant_48_4">30-50 centimeters</string>
+    <string name="ordovician_variant_48_1">6–9 meters</string>
+    <string name="ordovician_variant_48_2">1–2 meters</string>
+    <string name="ordovician_variant_48_3">15–20 meters</string>
+    <string name="ordovician_variant_48_4">30–50 centimeters</string>
 
     <string name="ordovician_question_49_image">item_ordovician_cameroceras</string>
     <string name="ordovician_question_49">What did Cameroceras likely eat?</string>
@@ -2246,7 +2246,7 @@
 
     <string name="silurian_question_43_image">item_silurian_pterygotus</string>
     <string name="silurian_question_43">How large could Pterygotus grow?</string>
-    <string name="silurian_variant_43_1">Up to 2.3-2.5 meters</string>
+    <string name="silurian_variant_43_1">Up to 2.3–2.5 meters</string>
     <string name="silurian_variant_43_2">Only 10 centimeters</string>
     <string name="silurian_variant_43_3">Over 10 meters</string>
     <string name="silurian_variant_43_4">About 50 centimeters</string>
@@ -2844,8 +2844,8 @@
 
     <string name="devonian_question_69_image">item_devonian_calamophyton</string>
     <string name="devonian_question_69">What was the approximate height of Calamophyton?</string>
-    <string name="devonian_variant_69_1">2-4 meters</string>
-    <string name="devonian_variant_69_2">20-30 meters</string>
+    <string name="devonian_variant_69_1">2–4 meters</string>
+    <string name="devonian_variant_69_2">20–30 meters</string>
     <string name="devonian_variant_69_3">10 centimeters</string>
     <string name="devonian_variant_69_4">100 meters</string>
 
@@ -3647,9 +3647,9 @@
 
     <string name="carboniferous_question_64_image">item_carboniferous_meganeura</string>
     <string name="carboniferous_question_64">What was the wingspan of Meganeura?</string>
-    <string name="carboniferous_variant_64_1">65-70 centimeters</string>
-    <string name="carboniferous_variant_64_2">2-3 meters</string>
-    <string name="carboniferous_variant_64_3">10-15 centimeters</string>
+    <string name="carboniferous_variant_64_1">65–70 centimeters</string>
+    <string name="carboniferous_variant_64_2">2–3 meters</string>
+    <string name="carboniferous_variant_64_3">10–15 centimeters</string>
     <string name="carboniferous_variant_64_4">5 meters</string>
 
     <string name="carboniferous_question_65_image">item_carboniferous_meganeura</string>
@@ -4071,7 +4071,7 @@
 
     <string name="permian_question_6_image">item_permian</string>
     <string name="permian_question_6">Approximately what percentage of marine species were wiped out during the Permian extinction?</string>
-    <string name="permian_variant_6_1" formatted="false">90-95%</string>
+    <string name="permian_variant_6_1" formatted="false">90–95%</string>
     <string name="permian_variant_6_2" formatted="false">50%</string>
     <string name="permian_variant_6_3" formatted="false">25%</string>
     <string name="permian_variant_6_4" formatted="false">10%</string>
@@ -5163,7 +5163,7 @@
 
     <string name="triassic_question_78_image">item_triassic_shonisaurus</string>
     <string name="triassic_question_78">What size did Shonisaurus reach?</string>
-    <string name="triassic_variant_78_1">Giant (15-20 meters)</string>
+    <string name="triassic_variant_78_1">Giant (15–20 meters)</string>
     <string name="triassic_variant_78_2">Small (1 meter)</string>
     <string name="triassic_variant_78_3">Medium (5 meters)</string>
     <string name="triassic_variant_78_4">Microscopic</string>
@@ -6400,8 +6400,8 @@
 
     <string name="jurassic_question_115_image">item_jurassic_leedsichthys</string>
     <string name="jurassic_question_115">How big could Leedsichthys grow?</string>
-    <string name="jurassic_variant_115_1">12-16 meters long, possibly more</string>
-    <string name="jurassic_variant_115_2">2-3 meters long</string>
+    <string name="jurassic_variant_115_1">12–16 meters long, possibly more</string>
+    <string name="jurassic_variant_115_2">2–3 meters long</string>
     <string name="jurassic_variant_115_3">50 meters long</string>
     <string name="jurassic_variant_115_4">Size of a goldfish</string>
 
@@ -6991,7 +6991,7 @@
     <string name="cretaceous_variant_42_4">Cambrian</string>
 
     <string name="cretaceous_question_43_image">item_cretaceous_mosasaurus</string>
-    <string name="cretaceous_question_43">Mosasaurus is not a dinosaur, but a giant marine...</string>
+    <string name="cretaceous_question_43">Mosasaurus is not a dinosaur, but a giant marine…</string>
     <string name="cretaceous_variant_43_1">Lizard</string>
     <string name="cretaceous_variant_43_2">Crocodile</string>
     <string name="cretaceous_variant_43_3">Amphibian</string>
@@ -7384,7 +7384,7 @@
 
     <string name="cretaceous_question_99_image">item_cretaceous_saltasaurus</string>
     <string name="cretaceous_question_99">How large was Saltasaurus compared to other sauropods?</string>
-    <string name="cretaceous_variant_99_1">Small (8-12 meters)</string>
+    <string name="cretaceous_variant_99_1">Small (8–12 meters)</string>
     <string name="cretaceous_variant_99_2">Gigantic (30+ meters)</string>
     <string name="cretaceous_variant_99_3">Tiny (size of a dog)</string>
     <string name="cretaceous_variant_99_4">Medium (size of an elephant)</string>
@@ -9211,9 +9211,9 @@
 
     <string name="neogene_question_20_image">item_neogene_ardipithecus</string>
     <string name="neogene_question_20">What was the approximate brain size of Ardipithecus?</string>
-    <string name="neogene_variant_20_1">300 - 350 cm³</string>
-    <string name="neogene_variant_20_2">1200 - 1400 cm³</string>
-    <string name="neogene_variant_20_3">50 - 100 cm³</string>
+    <string name="neogene_variant_20_1">300 – 350 cm³</string>
+    <string name="neogene_variant_20_2">1200 – 1400 cm³</string>
+    <string name="neogene_variant_20_3">50 – 100 cm³</string>
     <string name="neogene_variant_20_4">2000 cm³</string>
 
     <string name="neogene_question_21_image">item_neogene_megalodon</string>
@@ -9917,8 +9917,8 @@
 
     <string name="quaternary_question_28_image">item_quaternary_smilodon</string>
     <string name="quaternary_question_28">How long could the upper canine teeth of Smilodon reach?</string>
-    <string name="quaternary_variant_28_1">20-28 centimeters</string>
-    <string name="quaternary_variant_28_2">5-10 centimeters</string>
+    <string name="quaternary_variant_28_1">20–28 centimeters</string>
+    <string name="quaternary_variant_28_2">5–10 centimeters</string>
     <string name="quaternary_variant_28_3">50 centimeters</string>
     <string name="quaternary_variant_28_4">1 meter</string>
 
@@ -10246,7 +10246,7 @@
 
     <string name="quaternary_question_75_image">item_quaternary_arctodus_simus</string>
     <string name="quaternary_question_75">How tall could the Short-faced Bear reach when standing upright?</string>
-    <string name="quaternary_variant_75_1">3.5-3.7 meters</string>
+    <string name="quaternary_variant_75_1">3.5–3.7 meters</string>
     <string name="quaternary_variant_75_2">2 meters</string>
     <string name="quaternary_variant_75_3">5 meters</string>
     <string name="quaternary_variant_75_4">1.5 meters</string>

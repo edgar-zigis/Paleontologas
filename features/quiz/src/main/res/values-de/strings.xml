@@ -6990,7 +6990,7 @@
      <string name="cretaceous_variant_42_4">Kambrium</string>
 
      <string name="cretaceous_question_43_image">item_cretaceous_mosasaurus</string>
-     <string name="cretaceous_question_43">Der Mosasaurus ist kein Dinosaurier, sondern eine riesige Meeres...</string>
+     <string name="cretaceous_question_43">Der Mosasaurus ist kein Dinosaurier, sondern eine riesige Meeres…</string>
      <string name="cretaceous_variant_43_1">Echse</string>
      <string name="cretaceous_variant_43_2">Krokodilart</string>
      <string name="cretaceous_variant_43_3">Amphibie</string>
@@ -9210,9 +9210,9 @@
 
      <string name="neogene_question_20_image">item_neogene_ardipithecus</string>
      <string name="neogene_question_20">Wie groß war das ungefähre Gehirnvolumen von Ardipithecus?</string>
-     <string name="neogene_variant_20_1">300 - 350 cm³</string>
-     <string name="neogene_variant_20_2">1200 - 1400 cm³</string>
-     <string name="neogene_variant_20_3">50 - 100 cm³</string>
+     <string name="neogene_variant_20_1">300 – 350 cm³</string>
+     <string name="neogene_variant_20_2">1200 – 1400 cm³</string>
+     <string name="neogene_variant_20_3">50 – 100 cm³</string>
      <string name="neogene_variant_20_4">2000 cm³</string>
 
      <string name="neogene_question_21_image">item_neogene_megalodon</string>
