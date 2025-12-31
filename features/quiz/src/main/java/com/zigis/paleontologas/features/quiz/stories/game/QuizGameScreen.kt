@@ -251,6 +251,7 @@ private fun QuizGameScreenPreview() {
         periodName = "hadean",
         questionIndex = 3,
         artwork = "item_hadean",
+        category = "fossil",
         isAnswered = false
     ).also {
         it.variantList.addAll(
