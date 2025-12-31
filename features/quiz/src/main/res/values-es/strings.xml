@@ -67,10 +67,10 @@
 
     <string name="hadean_question_1_image">item_hadean</string>
     <string name="hadean_question_1">¿Cuál fue el rango de temperatura media superficial durante el Eón Hádico?</string>
-    <string name="hadean_variant_1_1">70-2100 °C</string>
-    <string name="hadean_variant_1_2">10-25 °C</string>
-    <string name="hadean_variant_1_3">-50-0 °C</string>
-    <string name="hadean_variant_1_4">3000-5000 °C</string>
+    <string name="hadean_variant_1_1">70–2100 °C</string>
+    <string name="hadean_variant_1_2">10–25 °C</string>
+    <string name="hadean_variant_1_3">-50–0 °C</string>
+    <string name="hadean_variant_1_4">3000–5000 °C</string>
 
     <string name="hadean_question_2_image">item_hadean</string>
     <string name="hadean_question_2">¿Cuál era la concentración de oxígeno atmosférico durante el Eón Hádico?</string>
@@ -139,10 +139,10 @@
 
     <string name="archean_question_1_image">item_archean</string>
     <string name="archean_question_1">¿Cuál fue la temperatura media durante el Eón Arcaico?</string>
-    <string name="archean_variant_1_1">45-70 °C</string>
-    <string name="archean_variant_1_2">10-20 °C</string>
+    <string name="archean_variant_1_1">45–70 °C</string>
+    <string name="archean_variant_1_2">10–20 °C</string>
     <string name="archean_variant_1_3">De -50 a -30 °C</string>
-    <string name="archean_variant_1_4">100-120 °C</string>
+    <string name="archean_variant_1_4">100–120 °C</string>
 
     <string name="archean_question_2_image">item_archean</string>
     <string name="archean_question_2">¿Cuál era el porcentaje de oxígeno atmosférico durante el Eón Arcaico?</string>
@@ -160,7 +160,7 @@
 
     <string name="archean_question_4_image">item_archean</string>
     <string name="archean_question_4">¿Cómo se comparaba la luminosidad del Sol durante el Arcaico con los niveles actuales?</string>
-    <string name="archean_variant_4_1" formatted="false">Era aproximadamente un 70-75% de su nivel actual</string>
+    <string name="archean_variant_4_1" formatted="false">Era aproximadamente un 70–75% de su nivel actual</string>
     <string name="archean_variant_4_2" formatted="false">Era un 50% más brillante que hoy</string>
     <string name="archean_variant_4_3">Era exactamente igual que hoy</string>
     <string name="archean_variant_4_4">Era el doble de brillante que hoy</string>
@@ -367,17 +367,17 @@
 
     <string name="proterozoic_question_1_image">item_proterozoic</string>
     <string name="proterozoic_question_1">¿Cuál fue la temperatura media en la Tierra durante el Eón Proterozoico?</string>
-    <string name="proterozoic_variant_1_1">5-45 °C</string>
-    <string name="proterozoic_variant_1_2">10-25 °C</string>
+    <string name="proterozoic_variant_1_1">5–45 °C</string>
+    <string name="proterozoic_variant_1_2">10–25 °C</string>
     <string name="proterozoic_variant_1_3">De -10 a 0 °C</string>
-    <string name="proterozoic_variant_1_4">40-80 °C</string>
+    <string name="proterozoic_variant_1_4">40–80 °C</string>
 
     <string name="proterozoic_question_2_image">item_proterozoic</string>
     <string name="proterozoic_question_2">¿Cuáles eran los niveles de oxígeno atmosférico durante el Eón Proterozoico?</string>
-    <string name="proterozoic_variant_2_1" formatted="false">0-12%</string>
-    <string name="proterozoic_variant_2_2" formatted="false">21-30%</string>
-    <string name="proterozoic_variant_2_3" formatted="false">15-20%</string>
-    <string name="proterozoic_variant_2_4" formatted="false">30-45%</string>
+    <string name="proterozoic_variant_2_1" formatted="false">0–12%</string>
+    <string name="proterozoic_variant_2_2" formatted="false">21–30%</string>
+    <string name="proterozoic_variant_2_3" formatted="false">15–20%</string>
+    <string name="proterozoic_variant_2_4" formatted="false">30–45%</string>
 
     <string name="proterozoic_question_3_image">item_proterozoic</string>
     <string name="proterozoic_question_3">¿Cuándo terminó el Eón Proterozoico, marcando el inicio del Periodo Cámbrico?</string>
@@ -1872,10 +1872,10 @@
 
     <string name="ordovician_question_48_image">item_ordovician_cameroceras</string>
     <string name="ordovician_question_48">¿Cuál era la longitud estimada de Cameroceras?</string>
-    <string name="ordovician_variant_48_1">6-9 metros</string>
-    <string name="ordovician_variant_48_2">1-2 metros</string>
-    <string name="ordovician_variant_48_3">15-20 metros</string>
-    <string name="ordovician_variant_48_4">30-50 centímetros</string>
+    <string name="ordovician_variant_48_1">6–9 metros</string>
+    <string name="ordovician_variant_48_2">1–2 metros</string>
+    <string name="ordovician_variant_48_3">15–20 metros</string>
+    <string name="ordovician_variant_48_4">30–50 centímetros</string>
 
     <string name="ordovician_question_49_image">item_ordovician_cameroceras</string>
     <string name="ordovician_question_49">¿Qué comía probablemente Cameroceras?</string>
@@ -2245,7 +2245,7 @@
 
     <string name="silurian_question_43_image">item_silurian_pterygotus</string>
     <string name="silurian_question_43">¿Qué tamaño podía alcanzar Pterygotus?</string>
-    <string name="silurian_variant_43_1">Hasta 2,3-2,5 metros</string>
+    <string name="silurian_variant_43_1">Hasta 2,3–2,5 metros</string>
     <string name="silurian_variant_43_2">Solo 10 centímetros</string>
     <string name="silurian_variant_43_3">Más de 10 metros</string>
     <string name="silurian_variant_43_4">Unos 50 centímetros</string>
@@ -3646,9 +3646,9 @@
 
     <string name="carboniferous_question_64_image">item_carboniferous_meganeura</string>
     <string name="carboniferous_question_64">¿Cuál era la envergadura de la Meganeura?</string>
-    <string name="carboniferous_variant_64_1">65-70 centímetros</string>
-    <string name="carboniferous_variant_64_2">2-3 metros</string>
-    <string name="carboniferous_variant_64_3">10-15 centímetros</string>
+    <string name="carboniferous_variant_64_1">65–70 centímetros</string>
+    <string name="carboniferous_variant_64_2">2–3 metros</string>
+    <string name="carboniferous_variant_64_3">10–15 centímetros</string>
     <string name="carboniferous_variant_64_4">5 metros</string>
 
     <string name="carboniferous_question_65_image">item_carboniferous_meganeura</string>
@@ -4070,7 +4070,7 @@
 
     <string name="permian_question_6_image">item_permian</string>
     <string name="permian_question_6">Aproximadamente, ¿qué porcentaje de especies marinas desapareció durante la extinción del Pérmico?</string>
-    <string name="permian_variant_6_1" formatted="false">90-95%</string>
+    <string name="permian_variant_6_1" formatted="false">90–95%</string>
     <string name="permian_variant_6_2" formatted="false">50%</string>
     <string name="permian_variant_6_3" formatted="false">25%</string>
     <string name="permian_variant_6_4" formatted="false">10%</string>
@@ -5162,7 +5162,7 @@
 
     <string name="triassic_question_78_image">item_triassic_shonisaurus</string>
     <string name="triassic_question_78">¿Qué tamaño alcanzaba el Shonisaurus?</string>
-    <string name="triassic_variant_78_1">Gigante (15-20 metros)</string>
+    <string name="triassic_variant_78_1">Gigante (15–20 metros)</string>
     <string name="triassic_variant_78_2">Pequeño (1 metro)</string>
     <string name="triassic_variant_78_3">Mediano (5 metros)</string>
     <string name="triassic_variant_78_4">Microscópico</string>
@@ -6399,8 +6399,8 @@
 
     <string name="jurassic_question_115_image">item_jurassic_leedsichthys</string>
     <string name="jurassic_question_115">¿Qué tan grande podía crecer el Leedsichthys?</string>
-    <string name="jurassic_variant_115_1">12-16 metros de largo, posiblemente más</string>
-    <string name="jurassic_variant_115_2">2-3 metros de largo</string>
+    <string name="jurassic_variant_115_1">12–16 metros de largo, posiblemente más</string>
+    <string name="jurassic_variant_115_2">2–3 metros de largo</string>
     <string name="jurassic_variant_115_3">50 metros de largo</string>
     <string name="jurassic_variant_115_4">Del tamaño de un pez dorado</string>
 
@@ -6990,7 +6990,7 @@
     <string name="cretaceous_variant_42_4">Cámbrico</string>
 
     <string name="cretaceous_question_43_image">item_cretaceous_mosasaurus</string>
-    <string name="cretaceous_question_43">El Mosasaurus no es un dinosaurio, sino un...</string>
+    <string name="cretaceous_question_43">El Mosasaurus no es un dinosaurio, sino un…</string>
     <string name="cretaceous_variant_43_1">Lagarto marino gigante</string>
     <string name="cretaceous_variant_43_2">Cocodrilo marino gigante</string>
     <string name="cretaceous_variant_43_3">Anfibio gigante</string>
@@ -7130,7 +7130,7 @@
     <string name="cretaceous_variant_62_4">Devónico</string>
 
     <string name="cretaceous_question_63_image">item_cretaceous_quetzalcoatlus</string>
-    <string name="cretaceous_question_63">El Quetzalcoatlus es famoso por ser...</string>
+    <string name="cretaceous_question_63">El Quetzalcoatlus es famoso por ser…</string>
     <string name="cretaceous_variant_63_1">El animal volador más grande de la historia</string>
     <string name="cretaceous_variant_63_2">El corredor más rápido</string>
     <string name="cretaceous_variant_63_3">El dinosaurio más pesado</string>
@@ -7383,7 +7383,7 @@
 
     <string name="cretaceous_question_99_image">item_cretaceous_saltasaurus</string>
     <string name="cretaceous_question_99">¿De qué tamaño era el Saltasaurus comparado con otros saurópodos?</string>
-    <string name="cretaceous_variant_99_1">Pequeño (8-12 metros)</string>
+    <string name="cretaceous_variant_99_1">Pequeño (8–12 metros)</string>
     <string name="cretaceous_variant_99_2">Gigantesco (30+ metros)</string>
     <string name="cretaceous_variant_99_3">Diminuto (tamaño de un perro)</string>
     <string name="cretaceous_variant_99_4">Mediano (tamaño de un elefante)</string>
@@ -9210,9 +9210,9 @@
 
     <string name="neogene_question_20_image">item_neogene_ardipithecus</string>
     <string name="neogene_question_20">¿Cuál era el tamaño aproximado del cerebro del Ardipithecus?</string>
-    <string name="neogene_variant_20_1">300 - 350 cm³</string>
-    <string name="neogene_variant_20_2">1200 - 1400 cm³</string>
-    <string name="neogene_variant_20_3">50 - 100 cm³</string>
+    <string name="neogene_variant_20_1">300 – 350 cm³</string>
+    <string name="neogene_variant_20_2">1200 – 1400 cm³</string>
+    <string name="neogene_variant_20_3">50 – 100 cm³</string>
     <string name="neogene_variant_20_4">2000 cm³</string>
 
     <string name="neogene_question_21_image">item_neogene_megalodon</string>
@@ -9916,8 +9916,8 @@
 
     <string name="quaternary_question_28_image">item_quaternary_smilodon</string>
     <string name="quaternary_question_28">¿Qué longitud podían alcanzar los caninos superiores del Smilodon?</string>
-    <string name="quaternary_variant_28_1">20-28 centímetros</string>
-    <string name="quaternary_variant_28_2">5-10 centímetros</string>
+    <string name="quaternary_variant_28_1">20–28 centímetros</string>
+    <string name="quaternary_variant_28_2">5–10 centímetros</string>
     <string name="quaternary_variant_28_3">50 centímetros</string>
     <string name="quaternary_variant_28_4">1 metro</string>
 
@@ -10245,7 +10245,7 @@
 
     <string name="quaternary_question_75_image">item_quaternary_arctodus_simus</string>
     <string name="quaternary_question_75">¿Qué altura podía alcanzar el oso de cara corta cuando se paraba erguido?</string>
-    <string name="quaternary_variant_75_1">3,5-3,7 metros</string>
+    <string name="quaternary_variant_75_1">3,5–3,7 metros</string>
     <string name="quaternary_variant_75_2">2 metros</string>
     <string name="quaternary_variant_75_3">5 metros</string>
     <string name="quaternary_variant_75_4">1,5 metros</string>

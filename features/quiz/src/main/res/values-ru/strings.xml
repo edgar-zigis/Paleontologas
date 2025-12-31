@@ -161,7 +161,7 @@
 
     <string name="archean_question_4_image">item_archean</string>
     <string name="archean_question_4">Как светимость Солнца в архее отличалась от сегодняшней?</string>
-    <string name="archean_variant_4_1" formatted="false">Она составляла около 70-75% от текущего уровня</string>
+    <string name="archean_variant_4_1" formatted="false">Она составляла около 70–75% от текущего уровня</string>
     <string name="archean_variant_4_2" formatted="false">Она была на 50% выше, чем сегодня</string>
     <string name="archean_variant_4_3">Она была точно такой же, как сегодня</string>
     <string name="archean_variant_4_4">Она была в два раза выше, чем сегодня</string>
@@ -4071,7 +4071,7 @@
 
     <string name="permian_question_6_image">item_permian</string>
     <string name="permian_question_6">Какой процент морских видов исчез во время пермского вымирания?</string>
-    <string name="permian_variant_6_1" formatted="false">90-95%</string>
+    <string name="permian_variant_6_1" formatted="false">90–95%</string>
     <string name="permian_variant_6_2" formatted="false">50%</string>
     <string name="permian_variant_6_3" formatted="false">25%</string>
     <string name="permian_variant_6_4" formatted="false">10%</string>
@@ -5163,7 +5163,7 @@
 
     <string name="triassic_question_78_image">item_triassic_shonisaurus</string>
     <string name="triassic_question_78">Какого размера достигал Шонизавр?</string>
-    <string name="triassic_variant_78_1">Гигантского (15-20 метров)</string>
+    <string name="triassic_variant_78_1">Гигантского (15–20 метров)</string>
     <string name="triassic_variant_78_2">Маленького (1 метр)</string>
     <string name="triassic_variant_78_3">Среднего (5 метров)</string>
     <string name="triassic_variant_78_4">Микроскопического</string>
@@ -6991,7 +6991,7 @@
     <string name="cretaceous_variant_42_4">Кембрийский период</string>
 
     <string name="cretaceous_question_43_image">item_cretaceous_mosasaurus</string>
-    <string name="cretaceous_question_43">Мозазавр — это не динозавр, а гигантская морская...</string>
+    <string name="cretaceous_question_43">Мозазавр — это не динозавр, а гигантская морская…</string>
     <string name="cretaceous_variant_43_1">Ящерица</string>
     <string name="cretaceous_variant_43_2">Крокодил</string>
     <string name="cretaceous_variant_43_3">Амфибия</string>
@@ -9211,9 +9211,9 @@
 
     <string name="neogene_question_20_image">item_neogene_ardipithecus</string>
     <string name="neogene_question_20">Каков был примерный объем мозга ардипитека?</string>
-    <string name="neogene_variant_20_1">300 - 350 см³</string>
-    <string name="neogene_variant_20_2">1200 - 1400 см³</string>
-    <string name="neogene_variant_20_3">50 - 100 см³</string>
+    <string name="neogene_variant_20_1">300 – 350 см³</string>
+    <string name="neogene_variant_20_2">1200 – 1400 см³</string>
+    <string name="neogene_variant_20_3">50 – 100 см³</string>
     <string name="neogene_variant_20_4">2000 см³</string>
 
     <string name="neogene_question_21_image">item_neogene_megalodon</string>
