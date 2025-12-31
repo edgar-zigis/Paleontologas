@@ -2,6 +2,7 @@ package com.zigis.paleontologas.features.quiz.di
 
 import com.google.firebase.auth.FirebaseAuth
 import com.zigis.paleontologas.features.quiz.data.QuestionDatabase
+import com.zigis.paleontologas.features.quiz.data.stores.QuizQuestionDataStore
 import com.zigis.paleontologas.features.quiz.factories.QuizPlayerFactory
 import com.zigis.paleontologas.features.quiz.managers.CountryManager
 import com.zigis.paleontologas.features.quiz.managers.FirebaseDataManager
@@ -26,6 +27,8 @@ val quizModule = module {
     single { QuizPlayerFactory(get(), get()) }
     single { PaywallManager(get(), get()) }
 
+    single { QuizQuestionDataStore() }
+
     single { FirebaseAuth.getInstance() }
 
     factory { QuizProgressUseCase(get()) }
@@ -33,7 +36,7 @@ val quizModule = module {
 
     single { QuestionDatabase.getInstance(androidContext()) }
     single { get<QuestionDatabase>().questionDao() }
-    single { QuestionRepository(androidContext(), get()) }
+    single { QuestionRepository(androidContext(), get(),get()) }
 
     viewModel { QuizGameViewModel(get(), get(), get(), get()) }
     viewModel { QuizProgressViewModel(androidContext(), get(), get(),get(), get(), get(), get(), get()) }

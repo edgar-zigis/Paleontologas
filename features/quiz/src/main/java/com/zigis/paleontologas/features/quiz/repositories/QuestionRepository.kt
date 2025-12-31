@@ -4,37 +4,38 @@ import android.content.Context
 import androidx.annotation.WorkerThread
 import androidx.sqlite.db.SimpleSQLiteQuery
 import com.zigis.paleontologas.core.architecture.BaseRepository
-import com.zigis.paleontologas.features.quiz.R
+import com.zigis.paleontologas.core.extensions.getString
 import com.zigis.paleontologas.features.quiz.data.Question
 import com.zigis.paleontologas.features.quiz.data.QuestionDao
+import com.zigis.paleontologas.features.quiz.data.stores.QuizQuestionDataStore
 
 class QuestionRepository(
     private val context: Context,
-    private val questionDao: QuestionDao
+    private val questionDao: QuestionDao,
+    private val questionDataStore: QuizQuestionDataStore
 ) : BaseRepository<Question>(questionDao, "quiz_questions") {
 
     @WorkerThread
     override suspend fun initialize() {
         val list = mutableListOf<Question>()
-        with(list) {
-            insertQuestions(this, 1, "hadean", R.array.hadean_questions)
-            insertQuestions(this, 2, "archean", R.array.archean_questions)
-            insertQuestions(this, 3, "proterozoic", R.array.proterozoic_questions)
-            insertQuestions(this, 4, "cambrian", R.array.cambrian_questions)
-            insertQuestions(this, 5, "ordovician", R.array.ordovician_questions)
-            insertQuestions(this, 6, "silurian", R.array.silurian_questions)
-            insertQuestions(this, 7, "devonian", R.array.devonian_questions)
-            insertQuestions(this, 8, "carboniferous", R.array.carboniferous_questions)
-            insertQuestions(this, 9, "permian", R.array.permian_questions)
-            insertQuestions(this, 10, "triassic", R.array.triassic_questions)
-            insertQuestions(this, 11, "jurassic", R.array.jurassic_questions)
-            insertQuestions(this, 12, "cretaceous", R.array.cretaceous_questions)
-            insertQuestions(this, 13, "paleogene", R.array.paleogene_questions)
-            insertQuestions(this, 14, "neogene", R.array.neogene_questions)
-            insertQuestions(this, 15, "quaternary", R.array.quaternary_questions)
-            insertQuestions(this, 16, "future", R.array.future_questions)
-            migratePreviousQuestions(newQuestions = this)
+        var questionId = 0
+        (1..16).map { periodId ->
+            questionDataStore.getQuestionDefinitions(periodId).forEach {
+                questionId++
+                list.add(
+                    Question(
+                        id = questionId,
+                        periodId = periodId,
+                        periodName = it.periodName,
+                        questionIndex = it.index,
+                        artwork = context.getString("${it.periodName}_question_${it.index}_image"),
+                        category = getQuestionCategory(it).value,
+                        isAnswered = false
+                    )
+                )
+            }
         }
+        migratePreviousQuestions(newQuestions = list)
         deleteAll()
         questionDao.insertAll(list)
     }
@@ -46,27 +47,6 @@ class QuestionRepository(
 
     suspend fun update(question: Question) {
         questionDao.update(question)
-    }
-
-    private fun insertQuestions(
-        list: MutableList<Question>,
-        periodId: Int,
-        periodName: String,
-        artworkArrayId: Int
-    ) {
-        val artworks = context.resources.getStringArray(artworkArrayId)
-        artworks.forEachIndexed { index, artwork ->
-            list.add(
-                Question(
-                    id = list.size + 1,
-                    periodId = periodId,
-                    periodName = periodName,
-                    questionIndex = index + 1,
-                    artwork = artwork,
-                    isAnswered = false
-                )
-            )
-        }
     }
 
     private suspend fun migratePreviousQuestions(newQuestions: List<Question>) {
@@ -81,5 +61,13 @@ class QuestionRepository(
                 }
             }
         }
+    }
+
+    private fun getQuestionCategory(question: QuizQuestionDataStore.DTO): Question.Category {
+        val assignedType = "${question.periodName}_question_${question.index}_type"
+        if (context.getString(assignedType) == assignedType) {
+            return question.category
+        }
+        return Question.Category.fromString(context.getString(assignedType))
     }
 }
