@@ -5,9 +5,9 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.compose.foundation:foundation-layout:1.10.0'
     ksp "androidx.room:room-compiler:$room_version"
 
+    implementation 'androidx.compose.foundation:foundation-layout:1.10.0'
     implementation 'com.airbnb.android:lottie-compose:6.7.1'
     implementation 'com.android.billingclient:billing-ktx:8.0.0'
 
