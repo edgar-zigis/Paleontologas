@@ -11,11 +11,17 @@ class VibrationManager(
     private val applicationContext: Context
 ) {
     fun vibrate() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val effect = VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE)
-            getVibrator().vibrate(effect)
-        } else {
-            getVibrator().vibrate(200)
+        val vibrator = getVibrator()
+        when {
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q -> {
+                vibrator.vibrate(VibrationEffect.createPredefined(VibrationEffect.EFFECT_HEAVY_CLICK))
+            }
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.O -> {
+                vibrator.vibrate(VibrationEffect.createOneShot(40, 80))
+            }
+            else -> {
+                vibrator.vibrate(40)
+            }
         }
     }
 
