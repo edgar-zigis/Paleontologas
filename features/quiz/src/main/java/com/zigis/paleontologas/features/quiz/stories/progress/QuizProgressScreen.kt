@@ -207,7 +207,11 @@ private fun QuizProgressScreenUiImplementation(
                     PodiumView(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(start = 16.dp, end = 16.dp),
+                            .padding(
+                                start = 16.dp,
+                                top = if (viewState.activeUser == null) 8.dp else 0.dp,
+                                end = 16.dp
+                            ),
                         players = viewState.players
                     )
 
