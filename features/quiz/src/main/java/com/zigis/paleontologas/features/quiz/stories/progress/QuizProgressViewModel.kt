@@ -55,7 +55,7 @@ class QuizProgressViewModel(
     override suspend fun handleIntent(intent: QuizProgressIntent) {
         when (intent) {
             is Initialize -> initialize()
-            is StartQuiz -> quizRouter.openQuizGame()
+            is StartQuiz -> quizRouter.openCategorySelection()
             is CreateAccount -> createAccount()
             is SetUsername -> setUsername(intent.value, intent.countryCode)
             is InvokeBack -> quizRouter.popCurrentScreen()

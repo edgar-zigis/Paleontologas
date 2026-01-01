@@ -50,8 +50,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Entrez votre nom d’utilisateur</string>
     <string name="leaderboard_xp_earned_label">Vous avez obtenu %d XP !</string>
 
-    <string name="paywall_sheet_title">Sauvez-nous de l’extinction!</string>
-    <string name="paywall_sheet_description">La participation au classement est une fonctionnalité payante. Tous les bénéfices seront utilisés pour améliorer l’application et ajouter de nouveaux contenus.</string>
+    <string name="paywall_sheet_title">Fonctionnalité Premium !</string>
+    <string name="paywall_sheet_description">Ceci est une fonctionnalité Premium. Tous les revenus seront utilisés pour améliorer l\'application et ajouter du nouveau contenu.</string>
 
     <string name="total_questions_text">Total des questions : %d</string>
     <string name="general_category">Quiz général</string>
@@ -61,7 +61,7 @@
     <string name="cenozoic_category">Cénozoïque</string>
     <string name="fossil_category">Test sur les fossiles</string>
     <string name="choose_category">Choisir une catégorie</string>
-    <string name="tailored_quiz">Quiz personnalisé</string>
+    <string name="tailored_quiz">Quiz personnalisé [PREMIUM]</string>
     <string name="questions_answered">Questions répondues</string>
 
     <!--     Hadean quiz questions      -->

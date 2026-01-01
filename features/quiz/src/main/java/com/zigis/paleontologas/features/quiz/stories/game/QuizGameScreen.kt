@@ -53,7 +53,8 @@ import org.koin.androidx.compose.koinViewModel
 
 @Composable
 fun QuizGameScreen(
-    viewModel: QuizGameViewModel = koinViewModel()
+    viewModel: QuizGameViewModel = koinViewModel(),
+    configuration: QuizGameConfiguration
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
@@ -65,7 +66,9 @@ fun QuizGameScreen(
 
     LifecycleEventHandler {
         if (it == Lifecycle.Event.ON_START) {
-            viewModel.intents.sendSafely(QuizGameIntent.Initialize)
+            viewModel.intents.sendSafely(
+                QuizGameIntent.Initialize(configuration.category)
+            )
         }
     }
 }

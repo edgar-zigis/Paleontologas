@@ -50,8 +50,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Введите имя пользователя</string>
     <string name="leaderboard_xp_earned_label">Вы заработали %d XP!</string>
 
-    <string name="paywall_sheet_title">Спасите нас от вымирания!</string>
-    <string name="paywall_sheet_description">Участие в таблице лидеров является платной функцией. Все средства будут направлены на улучшение приложения и добавление нового контента.</string>
+    <string name="paywall_sheet_title">Премиум-функция!</string>
+    <string name="paywall_sheet_description">Это премиум-функция. Все средства пойдут на улучшение приложения и добавление нового контента.</string>
 
     <string name="total_questions_text">Всего вопросов: %d</string>
     <string name="general_category">Общая викторина</string>
@@ -61,7 +61,7 @@
     <string name="cenozoic_category">Кайнозой</string>
     <string name="fossil_category">Тест по окаменелостям</string>
     <string name="choose_category">Выберите категорию</string>
-    <string name="tailored_quiz">Индивидуальный тест</string>
+    <string name="tailored_quiz">Индивидуальный тест [ПРЕМИУМ]</string>
     <string name="questions_answered">Отвечено вопросов</string>
 
     <!--     Hadean quiz questions      -->

@@ -50,8 +50,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Enter username</string>
     <string name="leaderboard_xp_earned_label">You’ve claimed %d XP!</string>
 
-    <string name="paywall_sheet_title">Save us from extinction!</string>
-    <string name="paywall_sheet_description">Leaderboard participation is a paid feature. All proceeds will be used to improve the application and add new content.</string>
+    <string name="paywall_sheet_title">Premium feature!</string>
+    <string name="paywall_sheet_description">This is a premium feature. All proceeds will be used to improve the application and add new content.</string>
 
     <string name="total_questions_text">Total questions: %d</string>
     <string name="general_category">General Quiz</string>
@@ -61,7 +61,7 @@
     <string name="cenozoic_category">Cenozoic</string>
     <string name="fossil_category">Fossil test</string>
     <string name="choose_category">Choose category</string>
-    <string name="tailored_quiz">Tailored quiz</string>
+    <string name="tailored_quiz">Tailored quiz [PREMIUM]</string>
     <string name="questions_answered">Questions answered</string>
     
     <!--     Hadean quiz questions      -->
