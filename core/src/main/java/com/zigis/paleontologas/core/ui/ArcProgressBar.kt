@@ -25,6 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import java.util.Locale
 import kotlin.math.abs
 
 @Composable
@@ -57,9 +58,15 @@ fun ArcProgressbar(
     val targetAnimatedValue = (abs(currentValue - (100 * level)) / 100) * (startAngle + sweepAngle)
     val progressAnimate = remember { Animatable(targetAnimatedValue) }
 
+    val progressIsFinal = currentValue == 0f || currentValue == 100f
+
     val value = when {
         label.isBlank() -> (currentValue.toInt()).toString().plus(unit)
-        else -> (currentValue.toInt()).toString()
+        else -> if (progressIsFinal) {
+            String.format(Locale.getDefault(), "%.0f", currentValue)
+        } else {
+            String.format(Locale.getDefault(), "%.1f", currentValue)
+        }
     }
 
     val textMeasurer = rememberTextMeasurer()
