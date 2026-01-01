@@ -1,7 +1,6 @@
 package com.zigis.paleontologas.core.preferences
 
 import android.content.SharedPreferences
-import com.zigis.paleontologas.core.BuildConfig
 
 class ApplicationPreferences(
     private val preferences: SharedPreferences
@@ -41,7 +40,7 @@ class ApplicationPreferences(
 
     var isPremiumUser: Boolean
         get() {
-            return preferences.getBoolean(premiumUserEnabled, false) || BuildConfig.DEBUG
+            return preferences.getBoolean(premiumUserEnabled, false)
         }
         set(value) {
             with(preferences.edit()) {

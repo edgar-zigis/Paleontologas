@@ -50,8 +50,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Įveskite slapyvardį</string>
     <string name="leaderboard_xp_earned_label">Gavai %d XP!</string>
 
-    <string name="paywall_sheet_title">Išgelbėk mus nuo išnykimo!</string>
-    <string name="paywall_sheet_description">Dalyvavimas lyderių lentelėje yra mokama funkcija. Visos lėšos bus skirtos programėlės tobulinimui ir naujo turinio kūrimui.</string>
+    <string name="paywall_sheet_title">„Premium“ funkcija!</string>
+    <string name="paywall_sheet_description">Tai yra „Premium“ funkcija. Visos lėšos bus panaudotos programėlei tobulinti ir naujam turiniui pridėti.</string>
 
     <string name="total_questions_text">Viso klausimų: %d</string>
     <string name="general_category">Bendras testas</string>
@@ -61,7 +61,7 @@
     <string name="cenozoic_category">Kainozojus</string>
     <string name="fossil_category">Fosilijų testas</string>
     <string name="choose_category">Pasirinkite kategoriją</string>
-    <string name="tailored_quiz">Pritaikytas testas</string>
+    <string name="tailored_quiz">Pritaikytas testas [PREMIUM]</string>
     <string name="questions_answered">Atsakyta klausimų</string>
 
     <!--     Hadean quiz questions      -->

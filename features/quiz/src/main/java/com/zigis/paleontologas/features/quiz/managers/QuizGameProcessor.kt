@@ -24,9 +24,10 @@ class QuizGameProcessor(
 
     private var generatedQuestions = listOf<Question>()
 
-    suspend fun generateRandomQuestions(): List<Question> {
+    suspend fun generateRandomQuestions(category: Question.Category?): List<Question> {
         correctAnswers = 0
         generatedQuestions = quizGenerateQuestionsUseCase.generateRandomQuestions(
+            category = category,
             questionCount = questionsToGenerateCount
         )
         return generatedQuestions

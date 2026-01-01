@@ -49,8 +49,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Benutzernamen eingeben</string>
     <string name="leaderboard_xp_earned_label">Du hast %d XP erhalten!</string>
 
-    <string name="paywall_sheet_title">Rette uns vor dem Aussterben!</string>
-    <string name="paywall_sheet_description">Die Teilnahme an der Bestenliste ist eine kostenpflichtige Funktion. Alle Einnahmen werden verwendet, um die App zu verbessern und neue Inhalte hinzuzufügen.</string>
+    <string name="paywall_sheet_title">Premium-Funktion!</string>
+    <string name="paywall_sheet_description">Dies ist eine Premium-Funktion. Alle Einnahmen werden verwendet, um die App zu verbessern und neue Inhalte hinzuzufügen.</string>
 
      <string name="total_questions_text">Fragen insgesamt: %d</string>
      <string name="general_category">Allgemeines Quiz</string>
@@ -60,7 +60,7 @@
      <string name="cenozoic_category">Känozoikum</string>
      <string name="fossil_category">Fossilien-Test</string>
      <string name="choose_category">Kategorie wählen</string>
-     <string name="tailored_quiz">Individuelles Quiz</string>
+     <string name="tailored_quiz">Individuelles Quiz [PREMIUM]</string>
      <string name="questions_answered">Beantwortete Fragen</string>
 
     <!--     Hadean quiz questions      -->

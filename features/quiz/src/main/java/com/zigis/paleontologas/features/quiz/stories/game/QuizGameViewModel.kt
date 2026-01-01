@@ -20,7 +20,7 @@ class QuizGameViewModel(
 
     override suspend fun handleIntent(intent: QuizGameIntent) {
         when (intent) {
-            is Initialize -> initialize()
+            is Initialize -> initialize(category = intent.category)
             is AnswerQuestion -> answerQuestion(
                 question = intent.question,
                 option = intent.option
@@ -29,10 +29,10 @@ class QuizGameViewModel(
         }
     }
 
-    private suspend fun initialize() {
+    private suspend fun initialize(category: Question.Category?) {
         updateState {
             it.copy(
-                question = quizGameProcessor.generateRandomQuestions().first()
+                question = quizGameProcessor.generateRandomQuestions(category).first()
             )
         }
     }

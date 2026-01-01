@@ -50,8 +50,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Vnesi uporabniško ime</string>
     <string name="leaderboard_xp_earned_label">Prejel si %d XP!</string>
 
-    <string name="paywall_sheet_title">Reši nas pred izumrtjem!</string>
-    <string name="paywall_sheet_description">Sodelovanje na lestvici najboljših je plačljiva funkcija. Vsa sredstva bodo uporabljena za izboljšanje aplikacije in dodajanje nove vsebine.</string>
+    <string name="paywall_sheet_title">Premium funkcija!</string>
+    <string name="paywall_sheet_description">To je premium funkcija. Vsa sredstva bodo uporabljena za izboljšanje aplikacije in dodajanje nove vsebine.</string>
 
     <string name="total_questions_text">Skupaj vprašanj: %d</string>
     <string name="general_category">Splošni kviz</string>
@@ -61,7 +61,7 @@
     <string name="cenozoic_category">Kenozoik</string>
     <string name="fossil_category">Test o fosilih</string>
     <string name="choose_category">Izberi kategorijo</string>
-    <string name="tailored_quiz">Prilagojen kviz</string>
+    <string name="tailored_quiz">Prilagojen kviz [PREMIUM]</string>
     <string name="questions_answered">Odgovorjena vprašanja</string>
 
     <!--     Hadean quiz questions      -->

@@ -50,8 +50,8 @@
     <string name="leaderboard_modal_claim_username_textfield_placeholder">Insira o nome de usuário</string>
     <string name="leaderboard_xp_earned_label">Você ganhou %d XP!</string>
 
-    <string name="paywall_sheet_title">Salve-nos da extinção!</string>
-    <string name="paywall_sheet_description">A participação no ranking é um recurso pago. Toda a receita será utilizada para melhorar o aplicativo e adicionar novos conteúdos.</string>
+    <string name="paywall_sheet_title">Recurso Premium!</string>
+    <string name="paywall_sheet_description">Este é um recurso Premium. Toda a receita será usada para melhorar o aplicativo e adicionar novos conteúdos.</string>
 
     <string name="total_questions_text">Total de perguntas: %d</string>
     <string name="general_category">Quiz geral</string>
@@ -61,7 +61,7 @@
     <string name="cenozoic_category">Cenozoico</string>
     <string name="fossil_category">Teste de fósseis</string>
     <string name="choose_category">Escolher categoria</string>
-    <string name="tailored_quiz">Quiz personalizado</string>
+    <string name="tailored_quiz">Quiz personalizado [PREMIUM]</string>
     <string name="questions_answered">Perguntas respondidas</string>
 
     <!--     Hadean quiz questions      -->
