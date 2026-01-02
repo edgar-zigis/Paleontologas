@@ -130,13 +130,23 @@ private fun QuizProgressScreenUiImplementation(
             }
 
             Text(
+                text = stringResource(id = R.string.total_questions_text, viewState.totalQuestions),
+                color = ApplicationTheme.colors.contentText,
+                style = ApplicationTheme.typography.title2,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = 8.dp, top = 24.dp, end = 8.dp)
+            )
+
+            Text(
                 text = stringResource(id = R.string.quiz_welcome_text),
                 color = ApplicationTheme.colors.contentText,
                 style = ApplicationTheme.typography.content,
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(start = 8.dp, top = 24.dp, end = 8.dp, bottom = 32.dp)
+                    .padding(start = 8.dp, top = 4.dp, end = 8.dp, bottom = 24.dp)
             )
 
             val debouncedClick = rememberDebouncedClick()

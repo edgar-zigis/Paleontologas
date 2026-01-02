@@ -1,5 +1,6 @@
 package com.zigis.paleontologas.features.quiz.data
 
+import androidx.annotation.Keep
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
@@ -14,6 +15,7 @@ data class Question(
     val category: String,
     var isAnswered: Boolean
 ) {
+    @Keep
     enum class Category(val value: String) {
         PRECAMBRIAN("precambrian"),
         PALEOZOIC("paleozoic"),
