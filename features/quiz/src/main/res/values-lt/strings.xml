@@ -6733,7 +6733,7 @@
 
     <string name="cretaceous_question_6_image">item_cretaceous</string>
     <string name="cretaceous_question_6">Kokia yra plačiai pripažinta masinio išmirimo, užbaigusio Kreidos periodą, priežastis?</string>
-    <string name="cretaceous_variant_6_1">Masinis asteroido smūgis</string>
+    <string name="cretaceous_variant_6_1">Asteroido smūgis</string>
     <string name="cretaceous_variant_6_2">Staigus ledynmetis</string>
     <string name="cretaceous_variant_6_3">Pasaulinis tvanas</string>
     <string name="cretaceous_variant_6_4">Saulės žybsniai</string>
@@ -7027,7 +7027,7 @@
 
     <string name="cretaceous_question_48_image">item_cretaceous_therizinosaurus</string>
     <string name="cretaceous_question_48">Koks buvo ryškiausias terizinozauro bruožas?</string>
-    <string name="cretaceous_variant_48_1">Masysvūs dalgį primenantys nagai</string>
+    <string name="cretaceous_variant_48_1">Masyvūs dalgį primenantys nagai</string>
     <string name="cretaceous_variant_48_2">Ilgas straublys kaip dramblio</string>
     <string name="cretaceous_variant_48_3">Vėzdas uodegos gale</string>
     <string name="cretaceous_variant_48_4">Šarvai</string>
@@ -10319,7 +10319,7 @@
     <string name="quaternary_variant_85_1">Pramoninė medžioklė ir buveinių naikinimas</string>
     <string name="quaternary_variant_85_2">Tik klimato kaita</string>
     <string name="quaternary_variant_85_3">Virusinė liga</string>
-    <string name="quaternary_variant_85_4">Erelių plėšrūnavimas</string>
+    <string name="quaternary_variant_85_4">Erelių plėšrūnizmas</string>
 
     <string name="quaternary_question_86_image">item_quaternary_hydrodamalis_gigas</string>
     <string name="quaternary_question_86">Kokia gyvybės forma pavaizduota paveikslėlyje?</string>

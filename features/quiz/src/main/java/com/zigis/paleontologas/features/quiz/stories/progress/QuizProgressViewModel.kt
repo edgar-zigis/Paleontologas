@@ -11,6 +11,7 @@ import com.zigis.paleontologas.features.quiz.factories.QuizPlayerFactory
 import com.zigis.paleontologas.features.quiz.managers.CountryManager
 import com.zigis.paleontologas.features.quiz.managers.FirebaseDataManager
 import com.zigis.paleontologas.features.quiz.managers.PaywallManager
+import com.zigis.paleontologas.features.quiz.repositories.QuestionRepository
 import com.zigis.paleontologas.features.quiz.routing.QuizRouter
 import com.zigis.paleontologas.features.quiz.usecases.QuizProgressUseCase
 import com.zigis.paleontologas.features.quiz.stories.progress.QuizProgressIntent.*
@@ -24,6 +25,7 @@ class QuizProgressViewModel(
     private val countryManager: CountryManager,
     private val paywallManager: PaywallManager,
     private val quizPlayerFactory: QuizPlayerFactory,
+    private val questionRepository: QuestionRepository,
     private val firebaseDataManager: FirebaseDataManager,
     private val quizProgressUseCase: QuizProgressUseCase,
 ) : BaseViewModel<QuizProgressViewState, QuizProgressIntent>() {
@@ -69,6 +71,7 @@ class QuizProgressViewModel(
                 it.copy(
                     players = players,
                     globalRanking = getGlobalRanking(players),
+                    totalQuestions = questionRepository.findAll().size,
                     progress = quizProgressUseCase.getFullProgress()
                 )
             }

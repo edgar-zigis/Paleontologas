@@ -13,5 +13,6 @@ data class QuizProgressViewState(
     val players: List<QuizPlayer> = emptyList(),
     val globalRanking: Int = 0,
     val progress: Float = 0f,
+    val totalQuestions: Int = 0,
     val isLoading: Boolean = false
 ) : IState

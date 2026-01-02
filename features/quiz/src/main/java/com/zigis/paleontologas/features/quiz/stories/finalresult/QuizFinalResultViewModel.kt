@@ -17,7 +17,7 @@ class QuizFinalResultViewModel(
         when (intent) {
             is Initialize -> initialize(mark = intent.mark)
             is InvokeBack -> quizRouter.popCurrentScreen(
-                repeatCount = 2
+                repeatCount = 3
             )
         }
     }
