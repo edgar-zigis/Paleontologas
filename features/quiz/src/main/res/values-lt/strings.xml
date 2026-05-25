@@ -8314,6 +8314,350 @@
     <string name="cretaceous_variant_226_3">Gillicus</string>
     <string name="cretaceous_variant_226_4">Protosphyraena</string>
 
+    <string name="cretaceous_question_227_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_227">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_227_1">Chazmosauras</string>
+    <string name="cretaceous_variant_227_2">Triceratopsas</string>
+    <string name="cretaceous_variant_227_3">Stirakozauras</string>
+    <string name="cretaceous_variant_227_4">Protoceratopsas</string>
+
+    <string name="cretaceous_question_228_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_228">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_228_1">Kreidos periode</string>
+    <string name="cretaceous_variant_228_2">Juros periode</string>
+    <string name="cretaceous_variant_228_3">Triaso periode</string>
+    <string name="cretaceous_variant_228_4">Permo periode</string>
+
+    <string name="cretaceous_question_229_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_229">Ką reiškia pavadinimas „Chazmosauras“?</string>
+    <string name="cretaceous_variant_229_1">Prarajos driežas</string>
+    <string name="cretaceous_variant_229_2">Skydo driežas</string>
+    <string name="cretaceous_variant_229_3">Raguotasis driežas</string>
+    <string name="cretaceous_variant_229_4">Gilusis driežas</string>
+
+    <string name="cretaceous_question_230_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_230">Kaip vadinamos didelės angos chazmosauro kaklo apykaklėje?</string>
+    <string name="cretaceous_variant_230_1">Fenestros</string>
+    <string name="cretaceous_variant_230_2">Orbitalės</string>
+    <string name="cretaceous_variant_230_3">Mandibulės</string>
+    <string name="cretaceous_variant_230_4">Alveolės</string>
+
+    <string name="cretaceous_question_231_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_231">Jauno chazmosauro fosilija padėjo mokslininkams suprasti, kaip augant keitėsi kokie bruožai?</string>
+    <string name="cretaceous_variant_231_1">Apykaklė ir ragai</string>
+    <string name="cretaceous_variant_231_2">Dantys ir snapas</string>
+    <string name="cretaceous_variant_231_3">Uodega ir kojos</string>
+    <string name="cretaceous_variant_231_4">Kaklas ir stuburas</string>
+
+    <string name="cretaceous_question_232_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_232">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_232_1">Pachirinozauras</string>
+    <string name="cretaceous_variant_232_2">Centrozauras</string>
+    <string name="cretaceous_variant_232_3">Achelozauras</string>
+    <string name="cretaceous_variant_232_4">Einiozauras</string>
+
+    <string name="cretaceous_question_233_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_233">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_233_1">Kreidos periode</string>
+    <string name="cretaceous_variant_233_2">Juros periode</string>
+    <string name="cretaceous_variant_233_3">Triaso periode</string>
+    <string name="cretaceous_variant_233_4">Silūro periode</string>
+
+    <string name="cretaceous_question_234_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_234">Kas yra pachirinozauro „nosies atauga“?</string>
+    <string name="cretaceous_variant_234_1">Stora, grublėta kaulinė masė</string>
+    <string name="cretaceous_variant_234_2">Ilgas, lenktas raginis ragas</string>
+    <string name="cretaceous_variant_234_3">Uoslės jutimo organas</string>
+    <string name="cretaceous_variant_234_4">Minkštųjų audinių demonstravimo maišas</string>
+
+    <string name="cretaceous_question_235_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_235">Ką apie pachirinozaurų elgseną sako rastos didelės jų kaulų sankaupos?</string>
+    <string name="cretaceous_variant_235_1">Jie galėjo gyventi kaimenėmis</string>
+    <string name="cretaceous_variant_235_2">Jie buvo vienišiai medžiotojai</string>
+    <string name="cretaceous_variant_235_3">Jie perėdavo požeminiuose urvuose</string>
+    <string name="cretaceous_variant_235_4">Jie migruodavo per vandenynus</string>
+
+    <string name="cretaceous_question_236_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_236">Kurio regiono fosilijos rodo, kad pachirinozaurai galėjo išgyventi vėsiame klimate?</string>
+    <string name="cretaceous_variant_236_1">Aliaskos</string>
+    <string name="cretaceous_variant_236_2">Meksikos</string>
+    <string name="cretaceous_variant_236_3">Floridos</string>
+    <string name="cretaceous_variant_236_4">Patagonijos</string>
+
+    <string name="cretaceous_question_237_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_237">Koks organizmas pavaizduotas šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_237_1">Akrokantozauras</string>
+    <string name="cretaceous_variant_237_2">Tyrannosaurus rex</string>
+    <string name="cretaceous_variant_237_3">Giganotozauras</string>
+    <string name="cretaceous_variant_237_4">Spinozauras</string>
+
+    <string name="cretaceous_question_238_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_238">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_238_1">Kreidos periode</string>
+    <string name="cretaceous_variant_238_2">Juros periode</string>
+    <string name="cretaceous_variant_238_3">Triaso periode</string>
+    <string name="cretaceous_variant_238_4">Devono periode</string>
+
+    <string name="cretaceous_question_239_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_239">Ką galėjo prilaikyti ilgi dygliai palei akrokantozauro nugarą?</string>
+    <string name="cretaceous_variant_239_1">Iškilusią raumenų keterą</string>
+    <string name="cretaceous_variant_239_2">Ploną odinę burę</string>
+    <string name="cretaceous_variant_239_3">Sunkų apsauginį šarvą</string>
+    <string name="cretaceous_variant_239_4">Nuodingas ataugas</string>
+
+    <string name="cretaceous_question_240_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_240">Kokia buvo pagrindinė į ašmenis panašių akrokantozauro dantų funkcija?</string>
+    <string name="cretaceous_variant_240_1">Mėsai pjaustyti</string>
+    <string name="cretaceous_variant_240_2">Storiems kaulams smulkinti</string>
+    <string name="cretaceous_variant_240_3">Augalinei medžiagai malti</string>
+    <string name="cretaceous_variant_240_4">Planktonui filtruoti</string>
+
+    <string name="cretaceous_question_241_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_241">Kuriame dabartiniame regione akrokantozauras buvo pagrindinis savo aplinkos plėšrūnas?</string>
+    <string name="cretaceous_variant_241_1">Šiaurės Amerikoje</string>
+    <string name="cretaceous_variant_241_2">Pietų Amerikoje</string>
+    <string name="cretaceous_variant_241_3">Šiaurės rytų Kinijoje</string>
+    <string name="cretaceous_variant_241_4">Rytų Europoje</string>
+
+    <string name="cretaceous_question_242_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_242">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_242_1">Megaraptorius</string>
+    <string name="cretaceous_variant_242_2">Velociraptorius</string>
+    <string name="cretaceous_variant_242_3">Deinonichas</string>
+    <string name="cretaceous_variant_242_4">Jutaraptorius</string>
+
+    <string name="cretaceous_question_243_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_243">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_243_1">Kreidos periode</string>
+    <string name="cretaceous_variant_243_2">Juros periode</string>
+    <string name="cretaceous_variant_243_3">Triaso periode</string>
+    <string name="cretaceous_variant_243_4">Karbono periode</string>
+
+    <string name="cretaceous_question_244_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_244">Kurioje kūno vietoje iš tikrųjų buvo garsusis milžiniškas megaraptoriaus nagas?</string>
+    <string name="cretaceous_variant_244_1">Ant rankos</string>
+    <string name="cretaceous_variant_244_2">Ant pėdos</string>
+    <string name="cretaceous_variant_244_3">Uodegos gale</string>
+    <string name="cretaceous_variant_244_4">Ant snukio</string>
+
+    <string name="cretaceous_question_245_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_245">Ką reiškia pavadinimas „Megaraptorius“?</string>
+    <string name="cretaceous_variant_245_1">Didysis vagis</string>
+    <string name="cretaceous_variant_245_2">Vikrusis driežas</string>
+    <string name="cretaceous_variant_245_3">Milžiniškas nagas</string>
+    <string name="cretaceous_variant_245_4">Nuožmusis plėšrūnas</string>
+
+    <string name="cretaceous_question_246_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_246">Kuo megaraptoriaus medžioklės stilius tikriausiai skyrėsi nuo Tyrannosaurus rex?</string>
+    <string name="cretaceous_variant_246_1">Grobį griebė stipriomis rankomis ir nagais</string>
+    <string name="cretaceous_variant_246_2">Pasikliovė kaulus triuškinančiu sukandimu</string>
+    <string name="cretaceous_variant_246_3">Medžiojo tik vandenyje</string>
+    <string name="cretaceous_variant_246_4">Galva taranuodavo priešininkus</string>
+
+    <string name="cretaceous_question_247_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_247">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_247_1">Čangjuraptorius</string>
+    <string name="cretaceous_variant_247_2">Archeopteriksas</string>
+    <string name="cretaceous_variant_247_3">Mikroraptorius</string>
+    <string name="cretaceous_variant_247_4">Sinornitozauras</string>
+
+    <string name="cretaceous_question_248_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_248">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_248_1">Kreidos periode</string>
+    <string name="cretaceous_variant_248_2">Juros periode</string>
+    <string name="cretaceous_variant_248_3">Permo periode</string>
+    <string name="cretaceous_variant_248_4">Triaso periode</string>
+
+    <string name="cretaceous_question_249_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_249">Dėl ko čangjuraptorius atrodė „ketursparnis“?</string>
+    <string name="cretaceous_variant_249_1">Ilgų plunksnų tiek ant rankų, tiek ant kojų</string>
+    <string name="cretaceous_variant_249_2">Dviejų skeletinių sparnų porų</string>
+    <string name="cretaceous_variant_249_3">Odos membranų tarp jo galūnių</string>
+    <string name="cretaceous_variant_249_4">Skeltos uodegos, kuri atrodė kaip sparnai</string>
+
+    <string name="cretaceous_question_250_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_250">Kokia buvo tikėtina itin ilgų čangjuraptoriaus uodegos plunksnų paskirtis?</string>
+    <string name="cretaceous_variant_250_1">Veikė kaip stabdis ar stabilizatorius nusileidžiant</string>
+    <string name="cretaceous_variant_250_2">Vilioti mažas žuvis į vandens paviršių</string>
+    <string name="cretaceous_variant_250_3">Apgaubti kiaušinius šilumai</string>
+    <string name="cretaceous_variant_250_4">Gintis nuo plėšrūnų plakant uodega</string>
+
+    <string name="cretaceous_question_251_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_251">Kuriame garsioje Kinijos ekosistemoje, gausioje fosilijų, gyveno čangjuraptorius?</string>
+    <string name="cretaceous_variant_251_1">Jeholio biotoje</string>
+    <string name="cretaceous_variant_251_2">Nemegto formacijoje</string>
+    <string name="cretaceous_variant_251_3">Šašimiao formacijoje</string>
+    <string name="cretaceous_variant_251_4">Lufengo formacijoje</string>
+
+    <string name="cretaceous_question_252_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_252">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_252_1">Hacegopteriksas</string>
+    <string name="cretaceous_variant_252_2">Keclkoatlis</string>
+    <string name="cretaceous_variant_252_3">Pteranodonas</string>
+    <string name="cretaceous_variant_252_4">Dimorfodonas</string>
+
+    <string name="cretaceous_question_253_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_253">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_253_1">Kreidos periode</string>
+    <string name="cretaceous_variant_253_2">Juros periode</string>
+    <string name="cretaceous_variant_253_3">Triaso periode</string>
+    <string name="cretaceous_variant_253_4">Kambro periode</string>
+
+    <string name="cretaceous_question_254_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_254">Kokio aukščio buvo hacegopteriksas stovėdamas ant žemės?</string>
+    <string name="cretaceous_variant_254_1">Maždaug žirafos aukščio</string>
+    <string name="cretaceous_variant_254_2">Maždaug dramblio aukščio</string>
+    <string name="cretaceous_variant_254_3">Maždaug žmogaus ūgio</string>
+    <string name="cretaceous_variant_254_4">Dviejų aukštų pastato aukščio</string>
+
+    <string name="cretaceous_question_255_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_255">Kuo hacegopterikso kaklas buvo išskirtinis, lyginant su kitais milžiniškais pterozaurais?</string>
+    <string name="cretaceous_variant_255_1">Jis buvo trumpesnis, storesnis ir stipresnis</string>
+    <string name="cretaceous_variant_255_2">Jis buvo itin ilgas ir lieknas</string>
+    <string name="cretaceous_variant_255_3">Jis galėjo pasisukti 360 laipsnių kampu</string>
+    <string name="cretaceous_variant_255_4">Jis buvo sudarytas iš vientiso, sunkaus kaulo</string>
+
+    <string name="cretaceous_question_256_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_256">Kodėl hacegopteriksas tikriausiai buvo pagrindinis plėšrūnas Hacego saloje?</string>
+    <string name="cretaceous_variant_256_1">Ten nebuvo didelių mėsėdžių dinozaurų</string>
+    <string name="cretaceous_variant_256_2">Tai buvo vienintelis gyvūnas, gebantis skraidyti</string>
+    <string name="cretaceous_variant_256_3">Jis medžiojo dideliais būriais</string>
+    <string name="cretaceous_variant_256_4">Jis buvo atsparus vulkaninėms dujoms</string>
+
+    <string name="cretaceous_question_257_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_257">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_257_1">Ornitomimas</string>
+    <string name="cretaceous_variant_257_2">Galimimas</string>
+    <string name="cretaceous_variant_257_3">Strutiomimas</string>
+    <string name="cretaceous_variant_257_4">Deinocheiras</string>
+
+    <string name="cretaceous_question_258_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_258">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_258_1">Kreidos periode</string>
+    <string name="cretaceous_variant_258_2">Juros periode</string>
+    <string name="cretaceous_variant_258_3">Triaso periode</string>
+    <string name="cretaceous_variant_258_4">Silūro periode</string>
+
+    <string name="cretaceous_question_259_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_259">Ką reiškia pavadinimas „Ornitomimas“?</string>
+    <string name="cretaceous_variant_259_1">Paukščių mėgdžiotojas</string>
+    <string name="cretaceous_variant_259_2">Greitasis bėgikas</string>
+    <string name="cretaceous_variant_259_3">Bedantė galva</string>
+    <string name="cretaceous_variant_259_4">Kiaušinių vagis</string>
+
+    <string name="cretaceous_question_260_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_260">Kam ornitomimas tikriausiai naudojo savo ilgas kojas?</string>
+    <string name="cretaceous_variant_260_1">Greičiui, kad pabėgtų nuo plėšrūnų</string>
+    <string name="cretaceous_variant_260_2">Dideliam grobiui spardyti ir žudyti</string>
+    <string name="cretaceous_variant_260_3">Plaukioti giliuose pakrančių vandenyse</string>
+    <string name="cretaceous_variant_260_4">Kasti gilius urvus lizdams</string>
+
+    <string name="cretaceous_question_261_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_261">Kokie įrodymai rodo, kad ornitomimas buvo visaėdis?</string>
+    <string name="cretaceous_variant_261_1">Jo bedantis snapas galėjo skinti augalus ir gaudyti smulkius gyvūnus</string>
+    <string name="cretaceous_variant_261_2">Jis turėjo aštrius dantis mėsai ir plokščius dantis augalams</string>
+    <string name="cretaceous_variant_261_3">Suakmenėjęs skrandžio turinys, kuriame rastos tik žuvys</string>
+    <string name="cretaceous_variant_261_4">Jo nagai buvo pritaikyti vaisiams lupti</string>
+
+    <string name="cretaceous_question_262_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_262">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_262_1">Tupandaktilis</string>
+    <string name="cretaceous_variant_262_2">Tapežara</string>
+    <string name="cretaceous_variant_262_3">Talasodromėjus</string>
+    <string name="cretaceous_variant_262_4">Anhangvera</string>
+
+    <string name="cretaceous_question_263_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_263">Kuriuo periodu ar eonu gyveno ši gyvybės forma?</string>
+    <string name="cretaceous_variant_263_1">Kreidos periode</string>
+    <string name="cretaceous_variant_263_2">Juros periode</string>
+    <string name="cretaceous_variant_263_3">Triaso periode</string>
+    <string name="cretaceous_variant_263_4">Permo periode</string>
+
+    <string name="cretaceous_question_264_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_264">Kam tikriausiai buvo naudojama masyvi tupandaktilio galvos keterą?</string>
+    <string name="cretaceous_variant_264_1">Vizualiniam demonstravimui ir rūšies atpažinimui</string>
+    <string name="cretaceous_variant_264_2">Kūno temperatūrai reguliuoti skrydžio metu</string>
+    <string name="cretaceous_variant_264_3">Žuvims vandenyje badyti</string>
+    <string name="cretaceous_variant_264_4">Kaip vairas skrydžio krypčiai valdyti</string>
+
+    <string name="cretaceous_question_265_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_265">Ką atskleidė 2022 m. atliktas tupandaktilio fosilijos tyrimas?</string>
+    <string name="cretaceous_variant_265_1">Šakotas į plunksnas panašias struktūras</string>
+    <string name="cretaceous_variant_265_2">Žiaunas kvėpavimui pusiau vandenyje</string>
+    <string name="cretaceous_variant_265_3">Sutraukiamus nagus ant sparnų</string>
+    <string name="cretaceous_variant_265_4">Nuodų liauką snape</string>
+
+    <string name="cretaceous_question_266_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_266">Kuo tikriausiai mito tupandaktilis, sprendžiant iš jo priklausymo tapežaridams?</string>
+    <string name="cretaceous_variant_266_1">Vaisiais, sėklomis ir kita augaline medžiaga</string>
+    <string name="cretaceous_variant_266_2">Dideliais dinozaurais ir žinduoliais</string>
+    <string name="cretaceous_variant_266_3">Tik mažomis vandenyno žuvimis</string>
+    <string name="cretaceous_variant_266_4">Maita ir kaulų čiulpais</string>
+
+    <string name="cretaceous_question_267_type">fossil</string>
+    <string name="cretaceous_question_267_image">item_cretaceous_chasmosaurus_info</string>
+    <string name="cretaceous_question_267">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_267_1">Chazmosauras</string>
+    <string name="cretaceous_variant_267_2">Pachirinozauras</string>
+    <string name="cretaceous_variant_267_3">Megaraptorius</string>
+    <string name="cretaceous_variant_267_4">Pentaceratopsas</string>
+
+    <string name="cretaceous_question_268_type">fossil</string>
+    <string name="cretaceous_question_268_image">item_cretaceous_pachyrhinosaurus_info</string>
+    <string name="cretaceous_question_268">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_268_1">Pachirinozauras</string>
+    <string name="cretaceous_variant_268_2">Chazmosauras</string>
+    <string name="cretaceous_variant_268_3">Akrokantozauras</string>
+    <string name="cretaceous_variant_268_4">Centrozauras</string>
+
+    <string name="cretaceous_question_269_type">fossil</string>
+    <string name="cretaceous_question_269_image">item_cretaceous_acrocanthosaurus_info</string>
+    <string name="cretaceous_question_269">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_269_1">Akrokantozauras</string>
+    <string name="cretaceous_variant_269_2">Čangjuraptorius</string>
+    <string name="cretaceous_variant_269_3">Hacegopteriksas</string>
+    <string name="cretaceous_variant_269_4">Giganotozauras</string>
+
+    <string name="cretaceous_question_270_type">fossil</string>
+    <string name="cretaceous_question_270_image">item_cretaceous_megaraptor_info</string>
+    <string name="cretaceous_question_270">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_270_1">Megaraptorius</string>
+    <string name="cretaceous_variant_270_2">Ornitomimas</string>
+    <string name="cretaceous_variant_270_3">Tupandaktilis</string>
+    <string name="cretaceous_variant_270_4">Australovenatorius</string>
+
+    <string name="cretaceous_question_271_type">fossil</string>
+    <string name="cretaceous_question_271_image">item_cretaceous_changyuraptor_info</string>
+    <string name="cretaceous_question_271">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_271_1">Čangjuraptorius</string>
+    <string name="cretaceous_variant_271_2">Megaraptorius</string>
+    <string name="cretaceous_variant_271_3">Akrokantozauras</string>
+    <string name="cretaceous_variant_271_4">Mikroraptorius</string>
+
+    <string name="cretaceous_question_272_type">fossil</string>
+    <string name="cretaceous_question_272_image">item_cretaceous_hatzegopteryx_info</string>
+    <string name="cretaceous_question_272">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_272_1">Hacegopteriksas</string>
+    <string name="cretaceous_variant_272_2">Tupandaktilis</string>
+    <string name="cretaceous_variant_272_3">Ornitomimas</string>
+    <string name="cretaceous_variant_272_4">Keclkoatlis</string>
+
+    <string name="cretaceous_question_273_type">fossil</string>
+    <string name="cretaceous_question_273_image">item_cretaceous_ornithomimus_info</string>
+    <string name="cretaceous_question_273">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_273_1">Ornitomimas</string>
+    <string name="cretaceous_variant_273_2">Čangjuraptorius</string>
+    <string name="cretaceous_variant_273_3">Chazmosauras</string>
+    <string name="cretaceous_variant_273_4">Strutiomimas</string>
+
+    <string name="cretaceous_question_274_type">fossil</string>
+    <string name="cretaceous_question_274_image">item_cretaceous_tupandactylus_info</string>
+    <string name="cretaceous_question_274">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="cretaceous_variant_274_1">Tupandaktilis</string>
+    <string name="cretaceous_variant_274_2">Hacegopteriksas</string>
+    <string name="cretaceous_variant_274_3">Pachirinozauras</string>
+    <string name="cretaceous_variant_274_4">Tapežara</string>
+
     <!--     Paleogene quiz questions      -->
 
     <string name="paleogene_question_1_image">item_paleogene</string>

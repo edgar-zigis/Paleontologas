@@ -8314,6 +8314,350 @@
     <string name="cretaceous_variant_226_3">Gillicus</string>
     <string name="cretaceous_variant_226_4">Protosphyraena</string>
 
+    <string name="cretaceous_question_227_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_227">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_227_1">Chasmosaurus</string>
+    <string name="cretaceous_variant_227_2">Triceratops</string>
+    <string name="cretaceous_variant_227_3">Styracosaurus</string>
+    <string name="cretaceous_variant_227_4">Protoceratops</string>
+
+    <string name="cretaceous_question_228_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_228">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_228_1">V kredi</string>
+    <string name="cretaceous_variant_228_2">V juri</string>
+    <string name="cretaceous_variant_228_3">V triasu</string>
+    <string name="cretaceous_variant_228_4">V permu</string>
+
+    <string name="cretaceous_question_229_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_229">Kaj pomeni ime \'Chasmosaurus\'?</string>
+    <string name="cretaceous_variant_229_1">Zevajoči kuščar</string>
+    <string name="cretaceous_variant_229_2">Ščitasti kuščar</string>
+    <string name="cretaceous_variant_229_3">Rogati kuščar</string>
+    <string name="cretaceous_variant_229_4">Globoki kuščar</string>
+
+    <string name="cretaceous_question_230_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_230">Kako se imenujejo velike odprtine v vratnem ovratniku hazmozavra?</string>
+    <string name="cretaceous_variant_230_1">Fenestre</string>
+    <string name="cretaceous_variant_230_2">Orbitale</string>
+    <string name="cretaceous_variant_230_3">Mandible</string>
+    <string name="cretaceous_variant_230_4">Alveole</string>
+
+    <string name="cretaceous_question_231_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_231">Fosil mladiča hazmozavra je znanstvenikom pomagal razumeti, katere lastnosti so se spreminjale med rastjo?</string>
+    <string name="cretaceous_variant_231_1">Ovratnik in rogovi</string>
+    <string name="cretaceous_variant_231_2">Zobje in kljun</string>
+    <string name="cretaceous_variant_231_3">Rep in noge</string>
+    <string name="cretaceous_variant_231_4">Vrat in hrbtenica</string>
+
+    <string name="cretaceous_question_232_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_232">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_232_1">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_232_2">Centrosaurus</string>
+    <string name="cretaceous_variant_232_3">Achelousaurus</string>
+    <string name="cretaceous_variant_232_4">Einiosaurus</string>
+
+    <string name="cretaceous_question_233_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_233">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_233_1">V kredi</string>
+    <string name="cretaceous_variant_233_2">V juri</string>
+    <string name="cretaceous_variant_233_3">V triasu</string>
+    <string name="cretaceous_variant_233_4">V silurju</string>
+
+    <string name="cretaceous_question_234_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_234">Kaj je \'nosna grča\', ki jo najdemo pri pahirinozavru?</string>
+    <string name="cretaceous_variant_234_1">Debela, hrapava kostna masa</string>
+    <string name="cretaceous_variant_234_2">Dolg, ukrivljen keratinski rog</string>
+    <string name="cretaceous_variant_234_3">Čutilni organ za vonj</string>
+    <string name="cretaceous_variant_234_4">Vrečka iz mehkega tkiva za razkazovanje</string>
+
+    <string name="cretaceous_question_235_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_235">Kaj nakazujejo velike skupine fosilov (bonebeds) pahirinozavra o njihovem vedenju?</string>
+    <string name="cretaceous_variant_235_1">Morda so živeli v čredah</string>
+    <string name="cretaceous_variant_235_2">Bili so samotarski lovci</string>
+    <string name="cretaceous_variant_235_3">Gnezdili so v podzemnih brlogih</string>
+    <string name="cretaceous_variant_235_4">Selili so se čez oceane</string>
+
+    <string name="cretaceous_question_236_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_236">Fosili iz katere regije kažejo, da je pahirinozaver lahko preživel v hladnejših, sezonskih razmerah?</string>
+    <string name="cretaceous_variant_236_1">Z Aljaske</string>
+    <string name="cretaceous_variant_236_2">Iz Mehike</string>
+    <string name="cretaceous_variant_236_3">S Floride</string>
+    <string name="cretaceous_variant_236_4">Iz Teksasa</string>
+
+    <string name="cretaceous_question_237_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_237">Kateri organizem je prikazan na tej sliki?</string>
+    <string name="cretaceous_variant_237_1">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_237_2">Tyrannosaurus rex</string>
+    <string name="cretaceous_variant_237_3">Giganotosaurus</string>
+    <string name="cretaceous_variant_237_4">Spinosaurus</string>
+
+    <string name="cretaceous_question_238_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_238">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_238_1">V kredi</string>
+    <string name="cretaceous_variant_238_2">V juri</string>
+    <string name="cretaceous_variant_238_3">V triasu</string>
+    <string name="cretaceous_variant_238_4">V devonu</string>
+
+    <string name="cretaceous_question_239_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_239">Kaj so verjetno podpirale visoke bodice vzdolž hrbta akrokantozavra?</string>
+    <string name="cretaceous_variant_239_1">Dvignjen mišični greben</string>
+    <string name="cretaceous_variant_239_2">Tanko kožno jadro</string>
+    <string name="cretaceous_variant_239_3">Težak obrambni oklep</string>
+    <string name="cretaceous_variant_239_4">Strupene bodice</string>
+
+    <string name="cretaceous_question_240_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_240">Kaj je bila glavna funkcija rezilom podobnih zob akrokantozavra?</string>
+    <string name="cretaceous_variant_240_1">Rezanje mesa</string>
+    <string name="cretaceous_variant_240_2">Drobljenje debelih kosti</string>
+    <string name="cretaceous_variant_240_3">Mletje rastlinskega materiala</string>
+    <string name="cretaceous_variant_240_4">Filtriranje planktona</string>
+
+    <string name="cretaceous_question_241_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_241">V kateri današnji regiji je bil akrokantozaver vrhovni plenilec svojega okolja?</string>
+    <string name="cretaceous_variant_241_1">V Severni Ameriki</string>
+    <string name="cretaceous_variant_241_2">V Južni Ameriki</string>
+    <string name="cretaceous_variant_241_3">V severovzhodni Kitajski</string>
+    <string name="cretaceous_variant_241_4">V vzhodni Evropi</string>
+
+    <string name="cretaceous_question_242_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_242">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_242_1">Megaraptor</string>
+    <string name="cretaceous_variant_242_2">Velociraptor</string>
+    <string name="cretaceous_variant_242_3">Deinonychus</string>
+    <string name="cretaceous_variant_242_4">Utahraptor</string>
+
+    <string name="cretaceous_question_243_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_243">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_243_1">V kredi</string>
+    <string name="cretaceous_variant_243_2">V juri</string>
+    <string name="cretaceous_variant_243_3">V triasu</string>
+    <string name="cretaceous_variant_243_4">V karbonu</string>
+
+    <string name="cretaceous_question_244_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_244">Kje na telesu se je dejansko nahajal znameniti velikanski karempl megaraptorja?</string>
+    <string name="cretaceous_variant_244_1">Na sprednji okončini (roki)</string>
+    <string name="cretaceous_variant_244_2">Na stopalu</string>
+    <string name="cretaceous_variant_244_3">Na konici repa</string>
+    <string name="cretaceous_variant_244_4">Na gobcu</string>
+
+    <string name="cretaceous_question_245_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_245">Kaj pomeni ime \'Megaraptor\'?</string>
+    <string name="cretaceous_variant_245_1">Veliki tatič</string>
+    <string name="cretaceous_variant_245_2">Hitri kuščar</string>
+    <string name="cretaceous_variant_245_3">Ogromen krempelj</string>
+    <string name="cretaceous_variant_245_4">Surov plenilec</string>
+
+    <string name="cretaceous_question_246_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_246">Kako se je megaraptorjev slog lova verjetno razlikoval od kraljevega tiranozavra?</string>
+    <string name="cretaceous_variant_246_1">Uporabljal je močne roke in kremplje za grabljenje plena</string>
+    <string name="cretaceous_variant_246_2">Zanašal se je na ugriz, ki drobi kosti</string>
+    <string name="cretaceous_variant_246_3">Lovil je izključno v vodi</string>
+    <string name="cretaceous_variant_246_4">Z glavo se je zaletaval v nasprotnike</string>
+
+    <string name="cretaceous_question_247_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_247">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_247_1">Changyuraptor</string>
+    <string name="cretaceous_variant_247_2">Archaeopteryx</string>
+    <string name="cretaceous_variant_247_3">Microraptor</string>
+    <string name="cretaceous_variant_247_4">Sinornithosaurus</string>
+
+    <string name="cretaceous_question_248_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_248">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_248_1">V kredi</string>
+    <string name="cretaceous_variant_248_2">V juri</string>
+    <string name="cretaceous_variant_248_3">V permu</string>
+    <string name="cretaceous_variant_248_4">V triasu</string>
+
+    <string name="cretaceous_question_249_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_249">Kaj je povzročilo videz \'štirih kril\' pri čangjuraptorju?</string>
+    <string name="cretaceous_variant_249_1">Dolga peresa na sprednjih in zadnjih okončinah</string>
+    <string name="cretaceous_variant_249_2">Dva para skeletnih kril</string>
+    <string name="cretaceous_variant_249_3">Kožne membrane med okončinami</string>
+    <string name="cretaceous_variant_249_4">Razcepljen rep, ki je bil videti kot krila</string>
+
+    <string name="cretaceous_question_250_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_250">Kakšen je bil verjetno namen izjemno dolgih repnih peres čangjuraptorja?</string>
+    <string name="cretaceous_variant_250_1">Služila so kot zavora ali stabilizator pri pristajanju</string>
+    <string name="cretaceous_variant_250_2">Za privabljanje majhnih rib na vodno površino</string>
+    <string name="cretaceous_variant_250_3">Za ovijanje jajc za ohranjanje toplote</string>
+    <string name="cretaceous_variant_250_4">Za udarjanje po plenilcih v obrambi</string>
+
+    <string name="cretaceous_question_251_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_251">V katerem znamenitem s fosili bogatem ekosistemu na Kitajskem je živel čangjuraptor?</string>
+    <string name="cretaceous_variant_251_1">Biota Jehol</string>
+    <string name="cretaceous_variant_251_2">Formacija Nemegt</string>
+    <string name="cretaceous_variant_251_3">Formacija Shaximiao</string>
+    <string name="cretaceous_variant_251_4">Formacija Lufeng</string>
+
+    <string name="cretaceous_question_252_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_252">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_252_1">Hatzegopteryx</string>
+    <string name="cretaceous_variant_252_2">Quetzalcoatlus</string>
+    <string name="cretaceous_variant_252_3">Pteranodon</string>
+    <string name="cretaceous_variant_252_4">Dimorphodon</string>
+
+    <string name="cretaceous_question_253_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_253">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_253_1">V kredi</string>
+    <string name="cretaceous_variant_253_2">V juri</string>
+    <string name="cretaceous_variant_253_3">V triasu</string>
+    <string name="cretaceous_variant_253_4">V kambriju</string>
+
+    <string name="cretaceous_question_254_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_254">Kako visok je bil hatzegopteriks, ko je stal na tleh?</string>
+    <string name="cretaceous_variant_254_1">Približno toliko kot žirafa</string>
+    <string name="cretaceous_variant_254_2">Približno toliko kot slon</string>
+    <string name="cretaceous_variant_254_3">Približno toliko kot človek</string>
+    <string name="cretaceous_variant_254_4">Tako visok kot dvonadstropna stavba</string>
+
+    <string name="cretaceous_question_255_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_255">Kaj je bilo edinstveno pri vratu hatzegopteriksa v primerjavi z drugimi velikanskimi pterozavri?</string>
+    <string name="cretaceous_variant_255_1">Bil je krajši, debelejši in močnejši</string>
+    <string name="cretaceous_variant_255_2">Bil je izjemno dolg in vitek</string>
+    <string name="cretaceous_variant_255_3">Lahko se je zasukal za 360 stopinj</string>
+    <string name="cretaceous_variant_255_4">Sestavljen je bil iz masivne, težke kosti</string>
+
+    <string name="cretaceous_question_256_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_256">Zakaj je bil hatzegopteriks verjetno vrhovni plenilec na otoku Hațeg?</string>
+    <string name="cretaceous_variant_256_1">Tam ni bilo velikih mesojedih dinozavrov</string>
+    <string name="cretaceous_variant_256_2">Bil je edina žival, sposobna letenja</string>
+    <string name="cretaceous_variant_256_3">Lovil je v velikih krdelih</string>
+    <string name="cretaceous_variant_256_4">Bil je imun na vulkanske pline</string>
+
+    <string name="cretaceous_question_257_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_257">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_257_1">Ornithomimus</string>
+    <string name="cretaceous_variant_257_2">Gallimimus</string>
+    <string name="cretaceous_variant_257_3">Struthiomimus</string>
+    <string name="cretaceous_variant_257_4">Deinocheirus</string>
+
+    <string name="cretaceous_question_258_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_258">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_258_1">V kredi</string>
+    <string name="cretaceous_variant_258_2">V juri</string>
+    <string name="cretaceous_variant_258_3">V triasu</string>
+    <string name="cretaceous_variant_258_4">V silurju</string>
+
+    <string name="cretaceous_question_259_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_259">Kaj pomeni ime \'Ornithomimus\'?</string>
+    <string name="cretaceous_variant_259_1">Posnemovalec ptic</string>
+    <string name="cretaceous_variant_259_2">Hitri tekač</string>
+    <string name="cretaceous_variant_259_3">Brezobata glava</string>
+    <string name="cretaceous_variant_259_4">Tatič jajc</string>
+
+    <string name="cretaceous_question_260_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_260">Za kaj je ornitomim verjetno uporabljal svoje dolge noge?</string>
+    <string name="cretaceous_variant_260_1">Za hitro bežanje pred plenilci</string>
+    <string name="cretaceous_variant_260_2">Za brcanje in ubijanje velikega plena</string>
+    <string name="cretaceous_variant_260_3">Za plavanje v globokih obalnih vodah</string>
+    <string name="cretaceous_variant_260_4">Za kopanje globokih brlogov za gnezdenje</string>
+
+    <string name="cretaceous_question_261_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_261">Kateri dokazi kažejo na to, da je bil ornitomim vsejed?</string>
+    <string name="cretaceous_variant_261_1">Njegov brezobati kljun je lahko trgal rastline in lovil majhne živali</string>
+    <string name="cretaceous_variant_261_2">Imel je ostre zobe za meso in ploščate zobe za rastline</string>
+    <string name="cretaceous_variant_261_3">Fosilizirana vsebina želodca, ki je vsebovala samo ribe</string>
+    <string name="cretaceous_variant_261_4">Njegovi kremplji so bili zasnovani posebej za lupljenje sadja</string>
+
+    <string name="cretaceous_question_262_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_262">Katera življenjska oblika je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_262_1">Tupandactylus</string>
+    <string name="cretaceous_variant_262_2">Tapejara</string>
+    <string name="cretaceous_variant_262_3">Thalassodromeus</string>
+    <string name="cretaceous_variant_262_4">Anhanguera</string>
+
+    <string name="cretaceous_question_263_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_263">V katerem obdobju ali eonu je živela naslednja življenjska oblika?</string>
+    <string name="cretaceous_variant_263_1">V kredi</string>
+    <string name="cretaceous_variant_263_2">V juri</string>
+    <string name="cretaceous_variant_263_3">V triasu</string>
+    <string name="cretaceous_variant_263_4">V permu</string>
+
+    <string name="cretaceous_question_264_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_264">Za kaj se je verjetno uporabljal ogromen naglavni greben tupandaktila?</string>
+    <string name="cretaceous_variant_264_1">Za vizualno razkazovanje in prepoznavanje vrste</string>
+    <string name="cretaceous_variant_264_2">Za uravnavanje telesne temperature med letom</string>
+    <string name="cretaceous_variant_264_3">Za zabadanje rib v vodi</string>
+    <string name="cretaceous_variant_264_4">Služil je kot krmilo za usmerjanje</string>
+
+    <string name="cretaceous_question_265_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_265">Kaj je odkrila raziskava fosila tupandaktila iz leta 2022?</string>
+    <string name="cretaceous_variant_265_1">Prisotnost razvejanih, peresom podobnih struktur</string>
+    <string name="cretaceous_variant_265_2">Škrge za polvodno dihanje</string>
+    <string name="cretaceous_variant_265_3">Zložljive kremplje na krilih</string>
+    <string name="cretaceous_variant_265_4">Strupeno žlezo v kljunu</string>
+
+    <string name="cretaceous_question_266_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_266">S čim se je verjetno hranil tupandaktil glede na to, da je pripadal družini Tapejaridae?</string>
+    <string name="cretaceous_variant_266_1">S sadjem, semeni in rastlinskim materialom</string>
+    <string name="cretaceous_variant_266_2">Z velikimi dinozavri in sesalci</string>
+    <string name="cretaceous_variant_266_3">Izključno z majhnimi morskimi ribami</string>
+    <string name="cretaceous_variant_266_4">Z mrhovino in kostnim mozgom</string>
+
+    <string name="cretaceous_question_267_type">fossil</string>
+    <string name="cretaceous_question_267_image">item_cretaceous_chasmosaurus_info</string>
+    <string name="cretaceous_question_267">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_267_1">Chasmosaurus</string>
+    <string name="cretaceous_variant_267_2">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_267_3">Megaraptor</string>
+    <string name="cretaceous_variant_267_4">Pentaceratops</string>
+
+    <string name="cretaceous_question_268_type">fossil</string>
+    <string name="cretaceous_question_268_image">item_cretaceous_pachyrhinosaurus_info</string>
+    <string name="cretaceous_question_268">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_268_1">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_268_2">Chasmosaurus</string>
+    <string name="cretaceous_variant_268_3">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_268_4">Centrosaurus</string>
+
+    <string name="cretaceous_question_269_type">fossil</string>
+    <string name="cretaceous_question_269_image">item_cretaceous_acrocanthosaurus_info</string>
+    <string name="cretaceous_question_269">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_269_1">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_269_2">Changyuraptor</string>
+    <string name="cretaceous_variant_269_3">Hatzegopteryx</string>
+    <string name="cretaceous_variant_269_4">Giganotosaurus</string>
+
+    <string name="cretaceous_question_270_type">fossil</string>
+    <string name="cretaceous_question_270_image">item_cretaceous_megaraptor_info</string>
+    <string name="cretaceous_question_270">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_270_1">Megaraptor</string>
+    <string name="cretaceous_variant_270_2">Ornithomimus</string>
+    <string name="cretaceous_variant_270_3">Tupandactylus</string>
+    <string name="cretaceous_variant_270_4">Australovenator</string>
+
+    <string name="cretaceous_question_271_type">fossil</string>
+    <string name="cretaceous_question_271_image">item_cretaceous_changyuraptor_info</string>
+    <string name="cretaceous_question_271">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_271_1">Changyuraptor</string>
+    <string name="cretaceous_variant_271_2">Megaraptor</string>
+    <string name="cretaceous_variant_271_3">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_271_4">Microraptor</string>
+
+    <string name="cretaceous_question_272_type">fossil</string>
+    <string name="cretaceous_question_272_image">item_cretaceous_hatzegopteryx_info</string>
+    <string name="cretaceous_question_272">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_272_1">Hatzegopteryx</string>
+    <string name="cretaceous_variant_272_2">Tupandactylus</string>
+    <string name="cretaceous_variant_272_3">Ornithomimus</string>
+    <string name="cretaceous_variant_272_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_273_type">fossil</string>
+    <string name="cretaceous_question_273_image">item_cretaceous_ornithomimus_info</string>
+    <string name="cretaceous_question_273">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_273_1">Ornithomimus</string>
+    <string name="cretaceous_variant_273_2">Changyuraptor</string>
+    <string name="cretaceous_variant_273_3">Chasmosaurus</string>
+    <string name="cretaceous_variant_273_4">Struthiomimus</string>
+
+    <string name="cretaceous_question_274_type">fossil</string>
+    <string name="cretaceous_question_274_image">item_cretaceous_tupandactylus_info</string>
+    <string name="cretaceous_question_274">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="cretaceous_variant_274_1">Tupandactylus</string>
+    <string name="cretaceous_variant_274_2">Hatzegopteryx</string>
+    <string name="cretaceous_variant_274_3">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_274_4">Tapejara</string>
+
     <!--     Paleogene quiz questions      -->
 
     <string name="paleogene_question_1_image">item_paleogene</string>
