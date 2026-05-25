@@ -1796,6 +1796,18 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 order = 4
             ),
             DTO(
+                id = 230,
+                thumbnailId = "item_cretaceous_changyuraptor_thumb",
+                artworkId = "item_cretaceous_changyuraptor",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_changyuraptor_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_changyuraptor",
+                descriptionSlug = "cretaceous_changyuraptor_description",
+                timeScale = "125.0-122.46",
+                order = 5
+            ),
+            DTO(
                 id = 209,
                 thumbnailId = "item_cretaceous_suchomimus_thumb",
                 artworkId = "item_cretaceous_suchomimus",
@@ -1805,7 +1817,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_suchomimus",
                 descriptionSlug = "cretaceous_suchomimus_description",
                 timeScale = "125.0-100.5",
-                order = 5
+                order = 6
             ),
             DTO(
                 id = 215,
@@ -1817,7 +1829,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_kronosaurus",
                 descriptionSlug = "cretaceous_kronosaurus_description",
                 timeScale = "125.0-99.6",
-                order = 6
+                order = 7
+            ),
+            DTO(
+                id = 229,
+                thumbnailId = "item_cretaceous_acrocanthosaurus_thumb",
+                artworkId = "item_cretaceous_acrocanthosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_acrocanthosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_acrocanthosaurus",
+                descriptionSlug = "cretaceous_acrocanthosaurus_description",
+                timeScale = "125.0-99.6",
+                order = 8
             ),
             DTO(
                 id = 152,
@@ -1829,7 +1853,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_nigersaurus",
                 descriptionSlug = "cretaceous_nigersaurus_description",
                 timeScale = "115.0-105.0",
-                order = 7
+                order = 9
             ),
             DTO(
                 id = 200,
@@ -1841,7 +1865,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_irritator",
                 descriptionSlug = "cretaceous_irritator_description",
                 timeScale = "113.0-100.5",
-                order = 8
+                order = 10
+            ),
+            DTO(
+                id = 236,
+                thumbnailId = "item_cretaceous_tupandactylus_thumb",
+                artworkId = "item_cretaceous_tupandactylus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_tupandactylus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_tupandactylus",
+                descriptionSlug = "cretaceous_tupandactylus_description",
+                timeScale = "112.04-94.0",
+                order = 11
             ),
             DTO(
                 id = 83,
@@ -1853,7 +1889,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_spinosaurus",
                 descriptionSlug = "cretaceous_spinosaurus_description",
                 timeScale = "105.0-94.0",
-                order = 9
+                order = 12
             ),
             DTO(
                 id = 205,
@@ -1865,7 +1901,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_tarbosaurus",
                 descriptionSlug = "cretaceous_tarbosaurus_description",
                 timeScale = "100.5-66.043",
-                order = 10
+                order = 13
             ),
             DTO(
                 id = 216,
@@ -1877,7 +1913,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_xiphactinus",
                 descriptionSlug = "cretaceous_xiphactinus_description",
                 timeScale = "100.5-66.043",
-                order = 11
+                order = 14
             ),
             DTO(
                 id = 80,
@@ -1889,7 +1925,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_giganotosaurus",
                 descriptionSlug = "cretaceous_giganotosaurus_description",
                 timeScale = "99.6-95.0",
-                order = 12
+                order = 15
             ),
             DTO(
                 id = 204,
@@ -1901,7 +1937,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_argentinosaurus",
                 descriptionSlug = "cretaceous_argentinosaurus_description",
                 timeScale = "97.0-93.5",
-                order = 13
+                order = 16
             ),
             DTO(
                 id = 214,
@@ -1913,7 +1949,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_tylosaurus",
                 descriptionSlug = "cretaceous_tylosaurus_description",
                 timeScale = "92.1-66.043",
-                order = 14
+                order = 17
+            ),
+            DTO(
+                id = 233,
+                thumbnailId = "item_cretaceous_megaraptor_thumb",
+                artworkId = "item_cretaceous_megaraptor",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_megaraptor_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_megaraptor",
+                descriptionSlug = "cretaceous_megaraptor_description",
+                timeScale = "90.0-88.0",
+                order = 18
             ),
             DTO(
                 id = 149,
@@ -1925,7 +1973,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_pteranodon",
                 descriptionSlug = "cretaceous_pteranodon_description",
                 timeScale = "86.0-78.25",
-                order = 15
+                order = 19
             ),
             DTO(
                 id = 93,
@@ -1937,7 +1985,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_mosasaurus",
                 descriptionSlug = "cretaceous_mosasaurus_description",
                 timeScale = "82.7-66.043",
-                order = 16
+                order = 20
+            ),
+            DTO(
+                id = 231,
+                thumbnailId = "item_cretaceous_chasmosaurus_thumb",
+                artworkId = "item_cretaceous_chasmosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_chasmosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_chasmosaurus",
+                descriptionSlug = "cretaceous_chasmosaurus_description",
+                timeScale = "77.0-74.0",
+                order = 21
             ),
             DTO(
                 id = 206,
@@ -1949,7 +2009,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_parasaurolophus",
                 descriptionSlug = "cretaceous_parasaurolophus_description",
                 timeScale = "76.5-73.0",
-                order = 17
+                order = 22
+            ),
+            DTO(
+                id = 234,
+                thumbnailId = "item_cretaceous_ornithomimus_thumb",
+                artworkId = "item_cretaceous_ornithomimus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_ornithomimus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_ornithomimus",
+                descriptionSlug = "cretaceous_ornithomimus_description",
+                timeScale = "76.5-66.043",
+                order = 23
             ),
             DTO(
                 id = 81,
@@ -1961,7 +2033,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_linhenykus",
                 descriptionSlug = "cretaceous_linhenykus_description",
                 timeScale = "75.0-70.6",
-                order = 18
+                order = 24
             ),
             DTO(
                 id = 202,
@@ -1973,7 +2045,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_oviraptor",
                 descriptionSlug = "cretaceous_oviraptor_description",
                 timeScale = "75.0-70.6",
-                order = 19
+                order = 25
             ),
             DTO(
                 id = 207,
@@ -1985,7 +2057,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_protoceratops",
                 descriptionSlug = "cretaceous_protoceratops_description",
                 timeScale = "75.0-70.6",
-                order = 20
+                order = 26
             ),
             DTO(
                 id = 82,
@@ -1997,7 +2069,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_velociraptor",
                 descriptionSlug = "cretaceous_velociraptor_description",
                 timeScale = "75.0-70.6",
-                order = 21
+                order = 27
             ),
             DTO(
                 id = 210,
@@ -2009,7 +2081,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_edmontosaurus",
                 descriptionSlug = "cretaceous_edmontosaurus_description",
                 timeScale = "73.0-66.043",
-                order = 22
+                order = 28
             ),
             DTO(
                 id = 88,
@@ -2021,7 +2093,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_tsintaosaurus",
                 descriptionSlug = "cretaceous_tsintaosaurus_description",
                 timeScale = "72.0-66.043",
-                order = 23
+                order = 29
             ),
             DTO(
                 id = 203,
@@ -2033,7 +2105,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_beelzebufo",
                 descriptionSlug = "cretaceous_beelzebufo_description",
                 timeScale = "70.6-66.043",
-                order = 24
+                order = 30
             ),
             DTO(
                 id = 89,
@@ -2045,7 +2117,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_deinocherus",
                 descriptionSlug = "cretaceous_deinocherus_description",
                 timeScale = "70.6-66.043",
-                order = 25
+                order = 31
+            ),
+            DTO(
+                id = 235,
+                thumbnailId = "item_cretaceous_pachyrhinosaurus_thumb",
+                artworkId = "item_cretaceous_pachyrhinosaurus",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_pachyrhinosaurus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_pachyrhinosaurus",
+                descriptionSlug = "cretaceous_pachyrhinosaurus_description",
+                timeScale = "73.5-71.0",
+                order = 32
             ),
             DTO(
                 id = 212,
@@ -2057,7 +2141,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_isisaurus",
                 descriptionSlug = "cretaceous_isisaurus_description",
                 timeScale = "73.0-66.043",
-                order = 26
+                order = 33
             ),
             DTO(
                 id = 211,
@@ -2069,7 +2153,19 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_majungasaurus",
                 descriptionSlug = "cretaceous_majungasaurus_description",
                 timeScale = "73.0-66.043",
-                order = 27
+                order = 34
+            ),
+            DTO(
+                id = 232,
+                thumbnailId = "item_cretaceous_hatzegopteryx_thumb",
+                artworkId = "item_cretaceous_hatzegopteryx",
+                artworkAuthor = null,
+                additionalArtworkId = "item_cretaceous_hatzegopteryx_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "cretaceous_hatzegopteryx",
+                descriptionSlug = "cretaceous_hatzegopteryx_description",
+                timeScale = "72.0-66.043",
+                order = 35
             ),
             DTO(
                 id = 84,
@@ -2081,7 +2177,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_pachycephalosaurus",
                 descriptionSlug = "cretaceous_pachycephalosaurus_description",
                 timeScale = "70.6-66.043",
-                order = 28
+                order = 36
             ),
             DTO(
                 id = 87,
@@ -2093,7 +2189,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_therizinosaurus",
                 descriptionSlug = "cretaceous_therizinosaurus_description",
                 timeScale = "70.6-66.043",
-                order = 29
+                order = 37
             ),
             DTO(
                 id = 151,
@@ -2105,7 +2201,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_saltasaurus",
                 descriptionSlug = "cretaceous_saltasaurus_description",
                 timeScale = "70.0-68.0",
-                order = 30
+                order = 38
             ),
             DTO(
                 id = 150,
@@ -2117,7 +2213,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_carnotaurus",
                 descriptionSlug = "cretaceous_carnotaurus_description",
                 timeScale = "69.0-66.043",
-                order = 31
+                order = 39
             ),
             DTO(
                 id = 86,
@@ -2129,7 +2225,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_ankylosaurus",
                 descriptionSlug = "cretaceous_ankylosaurus_description",
                 timeScale = "68.6-66.043",
-                order = 32
+                order = 40
             ),
             DTO(
                 id = 208,
@@ -2141,7 +2237,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_dakotaraptor",
                 descriptionSlug = "cretaceous_dakotaraptor_description",
                 timeScale = "68.6-66.043",
-                order = 33
+                order = 41
             ),
             DTO(
                 id = 91,
@@ -2153,7 +2249,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_quetzalcoatlus",
                 descriptionSlug = "cretaceous_quetzalcoatlus_description",
                 timeScale = "68.6-66.043",
-                order = 34
+                order = 42
             ),
             DTO(
                 id = 85,
@@ -2165,7 +2261,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_triceratops",
                 descriptionSlug = "cretaceous_triceratops_description",
                 timeScale = "68.6-66.043",
-                order = 35
+                order = 43
             ),
             DTO(
                 id = 79,
@@ -2177,7 +2273,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "cretaceous_tyrannosaurus",
                 descriptionSlug = "cretaceous_tyrannosaurus_description",
                 timeScale = "68.6-66.043",
-                order = 36
+                order = 44
             )
         )
     }

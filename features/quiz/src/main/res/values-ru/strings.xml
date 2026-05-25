@@ -8314,6 +8314,350 @@
     <string name="cretaceous_variant_226_3">Gillicus</string>
     <string name="cretaceous_variant_226_4">Protosphyraena</string>
 
+    <string name="cretaceous_question_227_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_227">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_227_1">Хасмозавр</string>
+    <string name="cretaceous_variant_227_2">Трицератопс</string>
+    <string name="cretaceous_variant_227_3">Стиракозавр</string>
+    <string name="cretaceous_variant_227_4">Протоцератопс</string>
+
+    <string name="cretaceous_question_228_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_228">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_228_1">В меловом</string>
+    <string name="cretaceous_variant_228_2">В юрском</string>
+    <string name="cretaceous_variant_228_3">В триасовом</string>
+    <string name="cretaceous_variant_228_4">В пермском</string>
+
+    <string name="cretaceous_question_229_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_229">Что означает название «хасмозавр»?</string>
+    <string name="cretaceous_variant_229_1">Ящер с отверстиями</string>
+    <string name="cretaceous_variant_229_2">Щитоносный ящер</string>
+    <string name="cretaceous_variant_229_3">Рогатый ящер</string>
+    <string name="cretaceous_variant_229_4">Глубокий ящер</string>
+
+    <string name="cretaceous_question_230_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_230">Как называются крупные отверстия в шейном воротнике хасмозавра?</string>
+    <string name="cretaceous_variant_230_1">Фенестры</string>
+    <string name="cretaceous_variant_230_2">Орбиты</string>
+    <string name="cretaceous_variant_230_3">Мандибулы</string>
+    <string name="cretaceous_variant_230_4">Альвеолы</string>
+
+    <string name="cretaceous_question_231_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_231">Окаменелость молодой особи хасмозавра помогла ученым понять, как в процессе роста менялись какие особенности?</string>
+    <string name="cretaceous_variant_231_1">Воротник и рога</string>
+    <string name="cretaceous_variant_231_2">Зубы и клюв</string>
+    <string name="cretaceous_variant_231_3">Хвост и конечности</string>
+    <string name="cretaceous_variant_231_4">Шея и позвоночник</string>
+
+    <string name="cretaceous_question_232_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_232">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_232_1">Пахиринозавр</string>
+    <string name="cretaceous_variant_232_2">Центрозавр</string>
+    <string name="cretaceous_variant_232_3">Ахелозавр</string>
+    <string name="cretaceous_variant_232_4">Эйниозавр</string>
+
+    <string name="cretaceous_question_233_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_233">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_233_1">В меловом</string>
+    <string name="cretaceous_variant_233_2">В юрском</string>
+    <string name="cretaceous_variant_233_3">В триасовом</string>
+    <string name="cretaceous_variant_233_4">В силурийском</string>
+
+    <string name="cretaceous_question_234_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_234">Что представляет собой «носовой вырост» пахиринозавра?</string>
+    <string name="cretaceous_variant_234_1">Толстый шероховатый костный нарост</string>
+    <string name="cretaceous_variant_234_2">Длинный изогнутый кератиновый рог</string>
+    <string name="cretaceous_variant_234_3">Орган чувств для обоняния</string>
+    <string name="cretaceous_variant_234_4">Мягкий кожный мешок для демонстрации</string>
+
+    <string name="cretaceous_question_235_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_235">О чем свидетельствуют крупные массовые захоронения пахиринозавров?</string>
+    <string name="cretaceous_variant_235_1">Они могли жить стадами</string>
+    <string name="cretaceous_variant_235_2">Они были одиночными охотниками</string>
+    <string name="cretaceous_variant_235_3">Они гнездились в подземных норах</string>
+    <string name="cretaceous_variant_235_4">Они мигрировали через океаны</string>
+
+    <string name="cretaceous_question_236_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_236">Находки из какого региона доказывают, что пахиринозавры могли выживать в прохладных сезонных условиях?</string>
+    <string name="cretaceous_variant_236_1">Аляска</string>
+    <string name="cretaceous_variant_236_2">Мексика</string>
+    <string name="cretaceous_variant_236_3">Флорида</string>
+    <string name="cretaceous_variant_236_4">Техас</string>
+
+    <string name="cretaceous_question_237_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_237">Какое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_237_1">Акрокантозавр</string>
+    <string name="cretaceous_variant_237_2">Тираннозавр рекс</string>
+    <string name="cretaceous_variant_237_3">Гиганотозавр</string>
+    <string name="cretaceous_variant_237_4">Спинозавр</string>
+
+    <string name="cretaceous_question_238_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_238">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_238_1">В меловом</string>
+    <string name="cretaceous_variant_238_2">В юрском</string>
+    <string name="cretaceous_variant_238_3">В триасовом</string>
+    <string name="cretaceous_variant_238_4">В девонском</string>
+
+    <string name="cretaceous_question_239_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_239">Что, скорее всего, поддерживали высокие шипы вдоль спины акрокантозавра?</string>
+    <string name="cretaceous_variant_239_1">Приподнятый мышечный гребень</string>
+    <string name="cretaceous_variant_239_2">Тонкий кожный парус</string>
+    <string name="cretaceous_variant_239_3">Тяжелую защитную броню</string>
+    <string name="cretaceous_variant_239_4">Ядовитые иглы</string>
+
+    <string name="cretaceous_question_240_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_240">Какова была основная функция лезвиеобразных зубов акрокантозавра?</string>
+    <string name="cretaceous_variant_240_1">Разрезание плоти</string>
+    <string name="cretaceous_variant_240_2">Дробление толстых костей</string>
+    <string name="cretaceous_variant_240_3">Перетирание растительной пищи</string>
+    <string name="cretaceous_variant_240_4">Фильтрация планктона</string>
+
+    <string name="cretaceous_question_241_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_241">В каком современном регионе акрокантозавр был высшим хищником в своей среде обитания?</string>
+    <string name="cretaceous_variant_241_1">Северная Америка</string>
+    <string name="cretaceous_variant_241_2">Южная Америка</string>
+    <string name="cretaceous_variant_241_3">Северо-Восточный Китай</string>
+    <string name="cretaceous_variant_241_4">Восточная Европа</string>
+
+    <string name="cretaceous_question_242_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_242">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_242_1">Мегараптор</string>
+    <string name="cretaceous_variant_242_2">Велоцираптор</string>
+    <string name="cretaceous_variant_242_3">Дейноних</string>
+    <string name="cretaceous_variant_242_4">Ютараптор</string>
+
+    <string name="cretaceous_question_243_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_243">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_243_1">В меловом</string>
+    <string name="cretaceous_variant_243_2">В юрском</string>
+    <string name="cretaceous_variant_243_3">В триасовом</string>
+    <string name="cretaceous_variant_243_4">В каменноугольном</string>
+
+    <string name="cretaceous_question_244_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_244">На какой части тела мегараптора на самом деле располагался его знаменитый гигантский коготь?</string>
+    <string name="cretaceous_variant_244_1">На передней конечности</string>
+    <string name="cretaceous_variant_244_2">На задней конечности</string>
+    <string name="cretaceous_variant_244_3">На кончике хвоста</string>
+    <string name="cretaceous_variant_244_4">На морде</string>
+
+    <string name="cretaceous_question_245_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_245">Что означает название «мегараптор»?</string>
+    <string name="cretaceous_variant_245_1">Гигантский разбойник</string>
+    <string name="cretaceous_variant_245_2">Быстрый ящер</string>
+    <string name="cretaceous_variant_245_3">Огромный коготь</string>
+    <string name="cretaceous_variant_245_4">Свирепый хищник</string>
+
+    <string name="cretaceous_question_246_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_246">Чем стиль охоты мегараптора, вероятно, отличался от стиля охоты тираннозавра рекса?</string>
+    <string name="cretaceous_variant_246_1">Он использовал мощные лапы и когти для захвата добычи</string>
+    <string name="cretaceous_variant_246_2">Он полагался на укус, дробящий кости</string>
+    <string name="cretaceous_variant_246_3">Он охотился исключительно в воде</string>
+    <string name="cretaceous_variant_246_4">Он использовал голову для таранов</string>
+
+    <string name="cretaceous_question_247_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_247">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_247_1">Чаньюйраптор</string>
+    <string name="cretaceous_variant_247_2">Археоптерикс</string>
+    <string name="cretaceous_variant_247_3">Микрораптор</string>
+    <string name="cretaceous_variant_247_4">Синорнитозавр</string>
+
+    <string name="cretaceous_question_248_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_248">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_248_1">В меловом</string>
+    <string name="cretaceous_variant_248_2">В юрском</string>
+    <string name="cretaceous_variant_248_3">В пермском</string>
+    <string name="cretaceous_variant_248_4">В триасовом</string>
+
+    <string name="cretaceous_question_249_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_249">Чем была обусловлена «четырехкрылость» чаньюйраптора?</string>
+    <string name="cretaceous_variant_249_1">Длинными перьями на передних и задних конечностях</string>
+    <string name="cretaceous_variant_249_2">Двумя парами скелетных крыльев</string>
+    <string name="cretaceous_variant_249_3">Кожными перепонками между конечностями</string>
+    <string name="cretaceous_variant_249_4">Раздвоенным хвостом, похожим на крылья</string>
+
+    <string name="cretaceous_question_250_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_250">Каково было вероятное назначение чрезвычайно длинных хвостовых перьев чаньюйраптора?</string>
+    <string name="cretaceous_variant_250_1">Служили тормозом или стабилизатором при приземлении</string>
+    <string name="cretaceous_variant_250_2">Для приманивания мелкой рыбы к поверхности воды</string>
+    <string name="cretaceous_variant_250_3">Для укрывания яиц для сохранения тепла</string>
+    <string name="cretaceous_variant_250_4">Для нанесения ударов хищникам при защите</string>
+
+    <string name="cretaceous_question_251_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_251">В какой знаменитой и богатой окаменелостями экосистеме Китая обитал чаньюйраптор?</string>
+    <string name="cretaceous_variant_251_1">Биота Джехол</string>
+    <string name="cretaceous_variant_251_2">Формация Немегт</string>
+    <string name="cretaceous_variant_251_3">Формация Шасимяо</string>
+    <string name="cretaceous_variant_251_4">Формация Луфэн</string>
+
+    <string name="cretaceous_question_252_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_252">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_252_1">Хатцегоптерикс</string>
+    <string name="cretaceous_variant_252_2">Кетцалькоатль</string>
+    <string name="cretaceous_variant_252_3">Птеранодон</string>
+    <string name="cretaceous_variant_252_4">Диморфодон</string>
+
+    <string name="cretaceous_question_253_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_253">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_253_1">В меловом</string>
+    <string name="cretaceous_variant_253_2">В юрском</string>
+    <string name="cretaceous_variant_253_3">В триасовом</string>
+    <string name="cretaceous_variant_253_4">В кембрийском</string>
+
+    <string name="cretaceous_question_254_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_254">Какого роста был хатцегоптерикс, когда стоял на земле?</string>
+    <string name="cretaceous_variant_254_1">Примерно с жирафа</string>
+    <string name="cretaceous_variant_254_2">Примерно со слона</string>
+    <string name="cretaceous_variant_254_3">Примерно с человека</string>
+    <string name="cretaceous_variant_254_4">Высотой с двухэтажное здание</string>
+
+    <string name="cretaceous_question_255_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_255">В чем заключалась уникальность шеи хатцегоптерикса по сравнению с другими гигантскими птерозаврами?</string>
+    <string name="cretaceous_variant_255_1">Она была короче, толще и мощнее</string>
+    <string name="cretaceous_variant_255_2">Она была чрезвычайно длинной и тонкой</string>
+    <string name="cretaceous_variant_255_3">Она могла поворачиваться на 360 градусов</string>
+    <string name="cretaceous_variant_255_4">Она состояла из сплошной тяжелой кости</string>
+
+    <string name="cretaceous_question_256_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_256">Почему хатцегоптерикс, скорее всего, был высшим хищником на острове Хацег?</string>
+    <string name="cretaceous_variant_256_1">Там не было крупных плотоядных динозавров</string>
+    <string name="cretaceous_variant_256_2">Это было единственное животное, способное летать</string>
+    <string name="cretaceous_variant_256_3">Они охотились большими стаями</string>
+    <string name="cretaceous_variant_256_4">Он был невосприимчив к вулканическим газам</string>
+
+    <string name="cretaceous_question_257_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_257">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_257_1">Орнитомим</string>
+    <string name="cretaceous_variant_257_2">Галлимим</string>
+    <string name="cretaceous_variant_257_3">Струтиомим</string>
+    <string name="cretaceous_variant_257_4">Дейнохейрус</string>
+
+    <string name="cretaceous_question_258_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_258">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_258_1">В меловом</string>
+    <string name="cretaceous_variant_258_2">В юрском</string>
+    <string name="cretaceous_variant_258_3">В триасовом</string>
+    <string name="cretaceous_variant_258_4">В силурийском</string>
+
+    <string name="cretaceous_question_259_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_259">Что означает название «орнитомим»?</string>
+    <string name="cretaceous_variant_259_1">Подражающий птице</string>
+    <string name="cretaceous_variant_259_2">Быстрый бегун</string>
+    <string name="cretaceous_variant_259_3">Беззубая голова</string>
+    <string name="cretaceous_variant_259_4">Похититель яиц</string>
+
+    <string name="cretaceous_question_260_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_260">Для чего орнитомим, скорее всего, использовал свои длинные ноги?</string>
+    <string name="cretaceous_variant_260_1">Для быстрого бега, чтобы спасаться от хищников</string>
+    <string name="cretaceous_variant_260_2">Чтобы пинать и убивать крупную добычу</string>
+    <string name="cretaceous_variant_260_3">Для плавания в глубоких прибрежных водах</string>
+    <string name="cretaceous_variant_260_4">Для рытья глубоких нор для гнездования</string>
+
+    <string name="cretaceous_question_261_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_261">Какие данные свидетельствуют о том, что орнитомим был всеядным?</string>
+    <string name="cretaceous_variant_261_1">Его клюв мог как срывать растения, так и ловить мелких животных</string>
+    <string name="cretaceous_variant_261_2">У него были острые зубы для мяса и плоские для растений</string>
+    <string name="cretaceous_variant_261_3">Окаменелое содержимое желудка, содержащее только рыбу</string>
+    <string name="cretaceous_variant_261_4">Его когти были предназначены специально для чистки фруктов</string>
+
+    <string name="cretaceous_question_262_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_262">Какое живое существо изображено на этой картинке?</string>
+    <string name="cretaceous_variant_262_1">Тупандактиль</string>
+    <string name="cretaceous_variant_262_2">Тапежара</string>
+    <string name="cretaceous_variant_262_3">Талассодромеус</string>
+    <string name="cretaceous_variant_262_4">Анхангуэра</string>
+
+    <string name="cretaceous_question_263_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_263">В каком периоде или эоне обитало это существо?</string>
+    <string name="cretaceous_variant_263_1">В меловом</string>
+    <string name="cretaceous_variant_263_2">В юрском</string>
+    <string name="cretaceous_variant_263_3">В триасовом</string>
+    <string name="cretaceous_variant_263_4">В пермском</string>
+
+    <string name="cretaceous_question_264_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_264">Для чего, скорее всего, использовался массивный головной гребень тупандактиля?</string>
+    <string name="cretaceous_variant_264_1">Для визуальной демонстрации и распознавания сородичей</string>
+    <string name="cretaceous_variant_264_2">Для терморегуляции во время полета</string>
+    <string name="cretaceous_variant_264_3">Для ударов по рыбе в воде</string>
+    <string name="cretaceous_variant_264_4">В качестве руля для маневрирования</string>
+
+    <string name="cretaceous_question_265_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_265">Исследование окаменелостей тупандактиля в 2022 году выявило наличие каких структур?</string>
+    <string name="cretaceous_variant_265_1">Разветвленные перьевидные структуры</string>
+    <string name="cretaceous_variant_265_2">Жабры для полуводного дыхания</string>
+    <string name="cretaceous_variant_265_3">Втяжные когти на крыльях</string>
+    <string name="cretaceous_variant_265_4">Ядовитая железа в клюве</string>
+
+    <string name="cretaceous_question_266_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_266">Чем, скорее всего, питался тупандактиль, учитывая его принадлежность к тапеяридам?</string>
+    <string name="cretaceous_variant_266_1">Фруктами, семенами и растительным материалом</string>
+    <string name="cretaceous_variant_266_2">Крупными динозаврами и млекопитающими</string>
+    <string name="cretaceous_variant_266_3">Исключительно мелкой морской рыбой</string>
+    <string name="cretaceous_variant_266_4">Падалью и костным мозгом</string>
+
+    <string name="cretaceous_question_267_type">fossil</string>
+    <string name="cretaceous_question_267_image">item_cretaceous_chasmosaurus_info</string>
+    <string name="cretaceous_question_267">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_267_1">Хасмозавр</string>
+    <string name="cretaceous_variant_267_2">Пахиринозавр</string>
+    <string name="cretaceous_variant_267_3">Мегараптор</string>
+    <string name="cretaceous_variant_267_4">Пентацератопс</string>
+
+    <string name="cretaceous_question_268_type">fossil</string>
+    <string name="cretaceous_question_268_image">item_cretaceous_pachyrhinosaurus_info</string>
+    <string name="cretaceous_question_268">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_268_1">Пахиринозавр</string>
+    <string name="cretaceous_variant_268_2">Хасмозавр</string>
+    <string name="cretaceous_variant_268_3">Акрокантозавр</string>
+    <string name="cretaceous_variant_268_4">Центрозавр</string>
+
+    <string name="cretaceous_question_269_type">fossil</string>
+    <string name="cretaceous_question_269_image">item_cretaceous_acrocanthosaurus_info</string>
+    <string name="cretaceous_question_269">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_269_1">Акрокантозавр</string>
+    <string name="cretaceous_variant_269_2">Чаньюйраптор</string>
+    <string name="cretaceous_variant_269_3">Хатцегоптерикс</string>
+    <string name="cretaceous_variant_269_4">Гиганотозавр</string>
+
+    <string name="cretaceous_question_270_type">fossil</string>
+    <string name="cretaceous_question_270_image">item_cretaceous_megaraptor_info</string>
+    <string name="cretaceous_question_270">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_270_1">Мегараптор</string>
+    <string name="cretaceous_variant_270_2">Орнитомим</string>
+    <string name="cretaceous_variant_270_3">Тупандактиль</string>
+    <string name="cretaceous_variant_270_4">Австраловенатор</string>
+
+    <string name="cretaceous_question_271_type">fossil</string>
+    <string name="cretaceous_question_271_image">item_cretaceous_changyuraptor_info</string>
+    <string name="cretaceous_question_271">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_271_1">Чаньюйраптор</string>
+    <string name="cretaceous_variant_271_2">Мегараптор</string>
+    <string name="cretaceous_variant_271_3">Акрокантозавр</string>
+    <string name="cretaceous_variant_271_4">Микрораптор</string>
+
+    <string name="cretaceous_question_272_type">fossil</string>
+    <string name="cretaceous_question_272_image">item_cretaceous_hatzegopteryx_info</string>
+    <string name="cretaceous_question_272">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_272_1">Хатцегоптерикс</string>
+    <string name="cretaceous_variant_272_2">Тупандактиль</string>
+    <string name="cretaceous_variant_272_3">Орнитомим</string>
+    <string name="cretaceous_variant_272_4">Кетцалькоатль</string>
+
+    <string name="cretaceous_question_273_type">fossil</string>
+    <string name="cretaceous_question_273_image">item_cretaceous_ornithomimus_info</string>
+    <string name="cretaceous_question_273">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_273_1">Орнитомим</string>
+    <string name="cretaceous_variant_273_2">Чаньюйраптор</string>
+    <string name="cretaceous_variant_273_3">Хасмозавр</string>
+    <string name="cretaceous_variant_273_4">Струтиомим</string>
+
+    <string name="cretaceous_question_274_type">fossil</string>
+    <string name="cretaceous_question_274_image">item_cretaceous_tupandactylus_info</string>
+    <string name="cretaceous_question_274">Какая окаменелость изображена на этой картинке?</string>
+    <string name="cretaceous_variant_274_1">Тупандактиль</string>
+    <string name="cretaceous_variant_274_2">Хатцегоптерикс</string>
+    <string name="cretaceous_variant_274_3">Пахиринозавр</string>
+    <string name="cretaceous_variant_274_4">Тапежара</string>
+
     <!--     Paleogene quiz questions      -->
 
     <string name="paleogene_question_1_image">item_paleogene</string>

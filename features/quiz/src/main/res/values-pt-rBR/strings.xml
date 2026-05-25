@@ -8314,6 +8314,350 @@
     <string name="cretaceous_variant_226_3">Gillicus</string>
     <string name="cretaceous_variant_226_4">Protosphyraena</string>
 
+    <string name="cretaceous_question_227_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_227">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_227_1">Chasmosaurus</string>
+    <string name="cretaceous_variant_227_2">Triceratops</string>
+    <string name="cretaceous_variant_227_3">Styracosaurus</string>
+    <string name="cretaceous_variant_227_4">Protoceratops</string>
+
+    <string name="cretaceous_question_228_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_228">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_228_1">Cretáceo</string>
+    <string name="cretaceous_variant_228_2">Jurássico</string>
+    <string name="cretaceous_variant_228_3">Triássico</string>
+    <string name="cretaceous_variant_228_4">Permiano</string>
+
+    <string name="cretaceous_question_229_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_229">O que significa o nome \'Chasmosaurus\'?</string>
+    <string name="cretaceous_variant_229_1">Lagarto com fenda</string>
+    <string name="cretaceous_variant_229_2">Lagarto com escudo</string>
+    <string name="cretaceous_variant_229_3">Lagarto com chifres</string>
+    <string name="cretaceous_variant_229_4">Lagarto profundo</string>
+
+    <string name="cretaceous_question_230_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_230">Como são chamadas as grandes aberturas no folho do pescoço de um Chasmosaurus?</string>
+    <string name="cretaceous_variant_230_1">Fenestras</string>
+    <string name="cretaceous_variant_230_2">Orbitais</string>
+    <string name="cretaceous_variant_230_3">Mandíbulas</string>
+    <string name="cretaceous_variant_230_4">Alvéolos</string>
+
+    <string name="cretaceous_question_231_image">item_cretaceous_chasmosaurus</string>
+    <string name="cretaceous_question_231">Um fóssil juvenil de Chasmosaurus ajudou os cientistas a entenderem como quais características mudavam durante o crescimento?</string>
+    <string name="cretaceous_variant_231_1">Folho e chifres</string>
+    <string name="cretaceous_variant_231_2">Dentes e bico</string>
+    <string name="cretaceous_variant_231_3">Cauda e pernas</string>
+    <string name="cretaceous_variant_231_4">Pescoço e coluna</string>
+
+    <string name="cretaceous_question_232_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_232">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_232_1">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_232_2">Centrosaurus</string>
+    <string name="cretaceous_variant_232_3">Achelousaurus</string>
+    <string name="cretaceous_variant_232_4">Einiosaurus</string>
+
+    <string name="cretaceous_question_233_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_233">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_233_1">Cretáceo</string>
+    <string name="cretaceous_variant_233_2">Jurássico</string>
+    <string name="cretaceous_variant_233_3">Triássico</string>
+    <string name="cretaceous_variant_233_4">Siluriano</string>
+
+    <string name="cretaceous_question_234_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_234">O que é a \'protuberância nasal\' encontrada em um Pachyrhinosaurus?</string>
+    <string name="cretaceous_variant_234_1">Uma massa de osso espessa e rugosa</string>
+    <string name="cretaceous_variant_234_2">Um chifre de queratina longo e curvo</string>
+    <string name="cretaceous_variant_234_3">Um órgão sensorial para o olfato</string>
+    <string name="cretaceous_variant_234_4">Um saco de tecido mole para exibição</string>
+
+    <string name="cretaceous_question_235_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_235">O que os grandes leitos de ossos de Pachyrhinosaurus sugerem sobre seu comportamento?</string>
+    <string name="cretaceous_variant_235_1">Que eles podem ter vivido em manadas</string>
+    <string name="cretaceous_variant_235_2">Que eram caçadores solitários</string>
+    <string name="cretaceous_variant_235_3">Que faziam ninhos em tocas subterrâneas</string>
+    <string name="cretaceous_variant_235_4">Que migravam através dos oceanos</string>
+
+    <string name="cretaceous_question_236_image">item_cretaceous_pachyrhinosaurus</string>
+    <string name="cretaceous_question_236">Fósseis de qual região mostram que o Pachyrhinosaurus conseguia sobreviver em condições sazonais mais frias?</string>
+    <string name="cretaceous_variant_236_1">Alasca</string>
+    <string name="cretaceous_variant_236_2">México</string>
+    <string name="cretaceous_variant_236_3">Flórida</string>
+    <string name="cretaceous_variant_236_4">Texas</string>
+
+    <string name="cretaceous_question_237_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_237">Qual organismo é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_237_1">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_237_2">Tyrannosaurus rex</string>
+    <string name="cretaceous_variant_237_3">Giganotosaurus</string>
+    <string name="cretaceous_variant_237_4">Spinosaurus</string>
+
+    <string name="cretaceous_question_238_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_238">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_238_1">Cretáceo</string>
+    <string name="cretaceous_variant_238_2">Jurássico</string>
+    <string name="cretaceous_variant_238_3">Triássico</string>
+    <string name="cretaceous_variant_238_4">Devoniano</string>
+
+    <string name="cretaceous_question_239_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_239">O que os altos espinhos ao longo do dorso do Acrocanthosaurus provavelmente sustentavam?</string>
+    <string name="cretaceous_variant_239_1">Uma crista elevada de músculo</string>
+    <string name="cretaceous_variant_239_2">Uma vela de pele fina</string>
+    <string name="cretaceous_variant_239_3">Uma armadura defensiva pesada</string>
+    <string name="cretaceous_variant_239_4">Espinhos venenosos</string>
+
+    <string name="cretaceous_question_240_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_240">Qual era a função primária dos dentes em forma de lâmina do Acrocanthosaurus?</string>
+    <string name="cretaceous_variant_240_1">Fatiar carne</string>
+    <string name="cretaceous_variant_240_2">Esmagar ossos grossos</string>
+    <string name="cretaceous_variant_240_3">Moer material vegetal</string>
+    <string name="cretaceous_variant_240_4">Filtrar plâncton</string>
+
+    <string name="cretaceous_question_241_image">item_cretaceous_acrocanthosaurus</string>
+    <string name="cretaceous_question_241">O Acrocanthosaurus era o predador de topo de seu ambiente em qual região atual?</string>
+    <string name="cretaceous_variant_241_1">América do Norte</string>
+    <string name="cretaceous_variant_241_2">América do Sul</string>
+    <string name="cretaceous_variant_241_3">Nordeste da China</string>
+    <string name="cretaceous_variant_241_4">Leste Europeu</string>
+
+    <string name="cretaceous_question_242_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_242">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_242_1">Megaraptor</string>
+    <string name="cretaceous_variant_242_2">Velociraptor</string>
+    <string name="cretaceous_variant_242_3">Deinonychus</string>
+    <string name="cretaceous_variant_242_4">Utahraptor</string>
+
+    <string name="cretaceous_question_243_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_243">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_243_1">Cretáceo</string>
+    <string name="cretaceous_variant_243_2">Jurássico</string>
+    <string name="cretaceous_variant_243_3">Triássico</string>
+    <string name="cretaceous_variant_243_4">Carbonífero</string>
+
+    <string name="cretaceous_question_244_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_244">Onde a famosa garra gigante do Megaraptor estava localizada em seu corpo?</string>
+    <string name="cretaceous_variant_244_1">Na mão</string>
+    <string name="cretaceous_variant_244_2">No pé</string>
+    <string name="cretaceous_variant_244_3">Na ponta da cauda</string>
+    <string name="cretaceous_variant_244_4">No focinho</string>
+
+    <string name="cretaceous_question_245_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_245">O que significa o nome \'Megaraptor\'?</string>
+    <string name="cretaceous_variant_245_1">Ladrão gigante</string>
+    <string name="cretaceous_variant_245_2">Lagarto veloz</string>
+    <string name="cretaceous_variant_245_3">Garra imensa</string>
+    <string name="cretaceous_variant_245_4">Predador feroz</string>
+
+    <string name="cretaceous_question_246_image">item_cretaceous_megaraptor</string>
+    <string name="cretaceous_question_246">Como o estilo de caça do Megaraptor provavelmente diferia do Tyrannosaurus rex?</string>
+    <string name="cretaceous_variant_246_1">Ele usava braços e garras poderosas para agarrar a presa</string>
+    <string name="cretaceous_variant_246_2">Ele dependia de uma mordida esmagadora de ossos</string>
+    <string name="cretaceous_variant_246_3">Ele caçava exclusivamente na água</string>
+    <string name="cretaceous_variant_246_4">Ele usava a cabeça para dar cabeçadas nos oponentes</string>
+
+    <string name="cretaceous_question_247_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_247">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_247_1">Changyuraptor</string>
+    <string name="cretaceous_variant_247_2">Archaeopteryx</string>
+    <string name="cretaceous_variant_247_3">Microraptor</string>
+    <string name="cretaceous_variant_247_4">Sinornithosaurus</string>
+
+    <string name="cretaceous_question_248_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_248">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_248_1">Cretáceo</string>
+    <string name="cretaceous_variant_248_2">Jurássico</string>
+    <string name="cretaceous_variant_248_3">Permiano</string>
+    <string name="cretaceous_variant_248_4">Triássico</string>
+
+    <string name="cretaceous_question_249_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_249">O que causava a aparência de \'quatro asas\' do Changyuraptor?</string>
+    <string name="cretaceous_variant_249_1">Penas longas tanto nos braços quanto nas pernas</string>
+    <string name="cretaceous_variant_249_2">Dois conjuntos de asas esqueléticas</string>
+    <string name="cretaceous_variant_249_3">Membranas de pele entre seus membros</string>
+    <string name="cretaceous_variant_249_4">Uma cauda dividida que parecia asas</string>
+
+    <string name="cretaceous_question_250_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_250">Qual era o provável propósito das penas extremamente longas da cauda do Changyuraptor?</string>
+    <string name="cretaceous_variant_250_1">Atuar como freio ou estabilizador durante o pouso</string>
+    <string name="cretaceous_variant_250_2">Atrair pequenos peixes para a superfície da água</string>
+    <string name="cretaceous_variant_250_3">Envolver os ovos para mantê-los aquecidos</string>
+    <string name="cretaceous_variant_250_4">Chicotear predadores para defesa</string>
+
+    <string name="cretaceous_question_251_image">item_cretaceous_changyuraptor</string>
+    <string name="cretaceous_question_251">O Changyuraptor viveu em qual famoso ecossistema rico em fósseis na China?</string>
+    <string name="cretaceous_variant_251_1">Biota de Jehol</string>
+    <string name="cretaceous_variant_251_2">Formação Nemegt</string>
+    <string name="cretaceous_variant_251_3">Formação Shaximiao</string>
+    <string name="cretaceous_variant_251_4">Formação Lufeng</string>
+
+    <string name="cretaceous_question_252_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_252">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_252_1">Hatzegopteryx</string>
+    <string name="cretaceous_variant_252_2">Quetzalcoatlus</string>
+    <string name="cretaceous_variant_252_3">Pteranodon</string>
+    <string name="cretaceous_variant_252_4">Dimorphodon</string>
+
+    <string name="cretaceous_question_253_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_253">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_253_1">Cretáceo</string>
+    <string name="cretaceous_variant_253_2">Jurássico</string>
+    <string name="cretaceous_variant_253_3">Triássico</string>
+    <string name="cretaceous_variant_253_4">Cambriano</string>
+
+    <string name="cretaceous_question_254_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_254">Qual era a altura do Hatzegopteryx quando estava de pé no chão?</string>
+    <string name="cretaceous_variant_254_1">Aproximadamente a altura de uma girafa</string>
+    <string name="cretaceous_variant_254_2">Aproximadamente a altura de um elefante</string>
+    <string name="cretaceous_variant_254_3">Cerca da altura de um humano</string>
+    <string name="cretaceous_variant_254_4">Tão alto quanto um prédio de dois andares</string>
+
+    <string name="cretaceous_question_255_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_255">O que era único no pescoço do Hatzegopteryx em comparação com outros pterossauros gigantes?</string>
+    <string name="cretaceous_variant_255_1">Era mais curto, mais grosso e mais poderoso</string>
+    <string name="cretaceous_variant_255_2">Era extremamente longo e esguio</string>
+    <string name="cretaceous_variant_255_3">Podia girar 360 graus</string>
+    <string name="cretaceous_variant_255_4">Era feito de osso sólido e pesado</string>
+
+    <string name="cretaceous_question_256_image">item_cretaceous_hatzegopteryx</string>
+    <string name="cretaceous_question_256">Por que o Hatzegopteryx era provavelmente o predador de topo na Ilha de Hațeg?</string>
+    <string name="cretaceous_variant_256_1">Não havia grandes dinossauros carnívoros lá</string>
+    <string name="cretaceous_variant_256_2">Era o único animal capaz de voar</string>
+    <string name="cretaceous_variant_256_3">Caçava em grandes bandos</string>
+    <string name="cretaceous_variant_256_4">Era imune a gases vulcânicos</string>
+
+    <string name="cretaceous_question_257_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_257">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_257_1">Ornithomimus</string>
+    <string name="cretaceous_variant_257_2">Gallimimus</string>
+    <string name="cretaceous_variant_257_3">Struthiomimus</string>
+    <string name="cretaceous_variant_257_4">Deinocheirus</string>
+
+    <string name="cretaceous_question_258_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_258">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_258_1">Cretáceo</string>
+    <string name="cretaceous_variant_258_2">Jurássico</string>
+    <string name="cretaceous_variant_258_3">Triássico</string>
+    <string name="cretaceous_variant_258_4">Siluriano</string>
+
+    <string name="cretaceous_question_259_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_259">O que significa o nome \'Ornithomimus\'?</string>
+    <string name="cretaceous_variant_259_1">Imitador de ave</string>
+    <string name="cretaceous_variant_259_2">Corredor veloz</string>
+    <string name="cretaceous_variant_259_3">Cabeça sem dentes</string>
+    <string name="cretaceous_variant_259_4">Ladrão de ovos</string>
+
+    <string name="cretaceous_question_260_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_260">Para que o Ornithomimus provavelmente usava suas pernas longas?</string>
+    <string name="cretaceous_variant_260_1">Usar a velocidade para escapar de predadores</string>
+    <string name="cretaceous_variant_260_2">Chutar e matar grandes presas</string>
+    <string name="cretaceous_variant_260_3">Nadar em águas costeiras profundas</string>
+    <string name="cretaceous_variant_260_4">Cavar tocas profundas para nidificação</string>
+
+    <string name="cretaceous_question_261_image">item_cretaceous_ornithomimus</string>
+    <string name="cretaceous_question_261">Que evidência sugere que o Ornithomimus era um onívoro?</string>
+    <string name="cretaceous_variant_261_1">Seu bico sem dentes podia colher plantas e capturar pequenos animais</string>
+    <string name="cretaceous_variant_261_2">Tinha dentes serrilhados para carne e dentes planos para plantas</string>
+    <string name="cretaceous_variant_261_3">Conteúdo estomacal fossilizado contendo apenas peixes</string>
+    <string name="cretaceous_variant_261_4">Suas garras foram projetadas especificamente para descascar frutas</string>
+
+    <string name="cretaceous_question_262_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_262">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="cretaceous_variant_262_1">Tupandactylus</string>
+    <string name="cretaceous_variant_262_2">Tapejara</string>
+    <string name="cretaceous_variant_262_3">Thalassodromeus</string>
+    <string name="cretaceous_variant_262_4">Anhanguera</string>
+
+    <string name="cretaceous_question_263_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_263">Em qual período ou éon viveu a seguinte forma de vida?</string>
+    <string name="cretaceous_variant_263_1">Cretáceo</string>
+    <string name="cretaceous_variant_263_2">Jurássico</string>
+    <string name="cretaceous_variant_263_3">Triássico</string>
+    <string name="cretaceous_variant_263_4">Permiano</string>
+
+    <string name="cretaceous_question_264_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_264">Para que a enorme crista cefálica do Tupandactylus era provavelmente usada?</string>
+    <string name="cretaceous_variant_264_1">Exibição visual e reconhecimento da espécie</string>
+    <string name="cretaceous_variant_264_2">Regular a temperatura corporal durante o voo</string>
+    <string name="cretaceous_variant_264_3">Apunhalar peixes na água</string>
+    <string name="cretaceous_variant_264_4">Atuar como um leme para direção</string>
+
+    <string name="cretaceous_question_265_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_265">O estudo de 2022 de um fóssil de Tupandactylus revelou a presença de quais estruturas?</string>
+    <string name="cretaceous_variant_265_1">Estruturas ramificadas semelhantes a penas</string>
+    <string name="cretaceous_variant_265_2">Guelras para respiração semiaquática</string>
+    <string name="cretaceous_variant_265_3">Garras retráteis nas asas</string>
+    <string name="cretaceous_variant_265_4">Uma glândula de veneno no bico</string>
+
+    <string name="cretaceous_question_266_image">item_cretaceous_tupandactylus</string>
+    <string name="cretaceous_question_266">O que o Tupandactylus provavelmente comia, baseando-se em seu pertencimento aos tapejarídeos?</string>
+    <string name="cretaceous_variant_266_1">Frutas, sementes e material vegetal</string>
+    <string name="cretaceous_variant_266_2">Grandes dinossauros e mamíferos</string>
+    <string name="cretaceous_variant_266_3">Exclusivamente pequenos peixes oceânicos</string>
+    <string name="cretaceous_variant_266_4">Carniça e medula óssea</string>
+
+    <string name="cretaceous_question_267_type">fossil</string>
+    <string name="cretaceous_question_267_image">item_cretaceous_chasmosaurus_info</string>
+    <string name="cretaceous_question_267">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_267_1">Chasmosaurus</string>
+    <string name="cretaceous_variant_267_2">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_267_3">Megaraptor</string>
+    <string name="cretaceous_variant_267_4">Pentaceratops</string>
+
+    <string name="cretaceous_question_268_type">fossil</string>
+    <string name="cretaceous_question_268_image">item_cretaceous_pachyrhinosaurus_info</string>
+    <string name="cretaceous_question_268">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_268_1">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_268_2">Chasmosaurus</string>
+    <string name="cretaceous_variant_268_3">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_268_4">Centrosaurus</string>
+
+    <string name="cretaceous_question_269_type">fossil</string>
+    <string name="cretaceous_question_269_image">item_cretaceous_acrocanthosaurus_info</string>
+    <string name="cretaceous_question_269">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_269_1">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_269_2">Changyuraptor</string>
+    <string name="cretaceous_variant_269_3">Hatzegopteryx</string>
+    <string name="cretaceous_variant_269_4">Giganotosaurus</string>
+
+    <string name="cretaceous_question_270_type">fossil</string>
+    <string name="cretaceous_question_270_image">item_cretaceous_megaraptor_info</string>
+    <string name="cretaceous_question_270">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_270_1">Megaraptor</string>
+    <string name="cretaceous_variant_270_2">Ornithomimus</string>
+    <string name="cretaceous_variant_270_3">Tupandactylus</string>
+    <string name="cretaceous_variant_270_4">Australovenator</string>
+
+    <string name="cretaceous_question_271_type">fossil</string>
+    <string name="cretaceous_question_271_image">item_cretaceous_changyuraptor_info</string>
+    <string name="cretaceous_question_271">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_271_1">Changyuraptor</string>
+    <string name="cretaceous_variant_271_2">Megaraptor</string>
+    <string name="cretaceous_variant_271_3">Acrocanthosaurus</string>
+    <string name="cretaceous_variant_271_4">Microraptor</string>
+
+    <string name="cretaceous_question_272_type">fossil</string>
+    <string name="cretaceous_question_272_image">item_cretaceous_hatzegopteryx_info</string>
+    <string name="cretaceous_question_272">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_272_1">Hatzegopteryx</string>
+    <string name="cretaceous_variant_272_2">Tupandactylus</string>
+    <string name="cretaceous_variant_272_3">Ornithomimus</string>
+    <string name="cretaceous_variant_272_4">Quetzalcoatlus</string>
+
+    <string name="cretaceous_question_273_type">fossil</string>
+    <string name="cretaceous_question_273_image">item_cretaceous_ornithomimus_info</string>
+    <string name="cretaceous_question_273">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_273_1">Ornithomimus</string>
+    <string name="cretaceous_variant_273_2">Changyuraptor</string>
+    <string name="cretaceous_variant_273_3">Chasmosaurus</string>
+    <string name="cretaceous_variant_273_4">Struthiomimus</string>
+
+    <string name="cretaceous_question_274_type">fossil</string>
+    <string name="cretaceous_question_274_image">item_cretaceous_tupandactylus_info</string>
+    <string name="cretaceous_question_274">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="cretaceous_variant_274_1">Tupandactylus</string>
+    <string name="cretaceous_variant_274_2">Hatzegopteryx</string>
+    <string name="cretaceous_variant_274_3">Pachyrhinosaurus</string>
+    <string name="cretaceous_variant_274_4">Tapejara</string>
+
     <!--     Paleogene quiz questions      -->
 
     <string name="paleogene_question_1_image">item_paleogene</string>
