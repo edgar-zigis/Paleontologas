@@ -9418,6 +9418,178 @@
     <string name="paleogene_variant_106_3">Gastornis</string>
     <string name="paleogene_variant_106_4">Otodus</string>
 
+    <string name="paleogene_question_107_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_107">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_107_1">Hyracotherium</string>
+    <string name="paleogene_variant_107_2">Pakicetus</string>
+    <string name="paleogene_variant_107_3">Ambulocetus</string>
+    <string name="paleogene_variant_107_4">Rodhocetus</string>
+
+    <string name="paleogene_question_108_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_108">Kuriame periode / eone gyveno ši gyvybės forma?</string>
+    <string name="paleogene_variant_108_1">Paleogene</string>
+    <string name="paleogene_variant_108_2">Kreidos periode</string>
+    <string name="paleogene_variant_108_3">Neogene</string>
+    <string name="paleogene_variant_108_4">Juros periode</string>
+
+    <string name="paleogene_question_109_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_109">Kiek pirštų ant priekinių kojų turėjo Hyracotherium?</string>
+    <string name="paleogene_variant_109_1">Keturis pirštus</string>
+    <string name="paleogene_variant_109_2">Vieną kanopą</string>
+    <string name="paleogene_variant_109_3">Tris pirštus</string>
+    <string name="paleogene_variant_109_4">Penkis pirštus</string>
+
+    <string name="paleogene_question_110_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_110">Maždaug kokio dydžio buvo Hyracotherium?</string>
+    <string name="paleogene_variant_110_1">Šuns dydžio</string>
+    <string name="paleogene_variant_110_2">Dramblio dydžio</string>
+    <string name="paleogene_variant_110_3">Katės arba pelės dydžio</string>
+    <string name="paleogene_variant_110_4">Šiuolaikinio arklio dydžio</string>
+
+    <string name="paleogene_question_111_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_111">Kuo daugiausia maitinosi Hyracotherium savo miško aplinkoje?</string>
+    <string name="paleogene_variant_111_1">Lapais, ūgliais ir vaisiais</string>
+    <string name="paleogene_variant_111_2">Kietomis prerijų žolėmis</string>
+    <string name="paleogene_variant_111_3">Žuvimis ir smulkiais vandens gyvūnais</string>
+    <string name="paleogene_variant_111_4">Vabzdžiais ir smulkiais žinduoliais</string>
+
+    <string name="paleogene_question_112_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_112">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_112_1">Pakicetus</string>
+    <string name="paleogene_variant_112_2">Hyracotherium</string>
+    <string name="paleogene_variant_112_3">Ambulocetus</string>
+    <string name="paleogene_variant_112_4">Basilosaurus</string>
+
+    <string name="paleogene_question_113_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_113">Kuriame periode / eone gyveno ši gyvybės forma?</string>
+    <string name="paleogene_variant_113_1">Paleogene</string>
+    <string name="paleogene_variant_113_2">Permo periode</string>
+    <string name="paleogene_variant_113_3">Triaso periode</string>
+    <string name="paleogene_variant_113_4">Neogene</string>
+
+    <string name="paleogene_question_114_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_114">Ką pažodžiui reiškia pavadinimas Pakicetus?</string>
+    <string name="paleogene_variant_114_1">„Pakistano banginis“</string>
+    <string name="paleogene_variant_114_2">„Plaukiojantis vaikštantis banginis“</string>
+    <string name="paleogene_variant_114_3">„Amfibinis krokodilo pamėgdžiotojas“</string>
+    <string name="paleogene_variant_114_4">„Senovinis upės bėgikas“</string>
+
+    <string name="paleogene_question_115_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_115">Koks anatominis požymis padėjo mokslininkams atpažinti Pakicetus kaip ankstyvąjį banginių linijos atstovą?</string>
+    <string name="paleogene_variant_115_1">Jo ausų kaulai</string>
+    <string name="paleogene_variant_115_2">Jo užpakalinės pėdos su plaukiojamąja plėvele</string>
+    <string name="paleogene_variant_115_3">Jo specializuota kvėpavimo anga</string>
+    <string name="paleogene_variant_115_4">Jo uodegos pelekų struktūra</string>
+
+    <string name="paleogene_question_116_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_116">Kur daugiausia gyveno ir grobio ieškojo Pakicetus?</string>
+    <string name="paleogene_variant_116_1">Šalia upių, upelių ir seklių vandenų</string>
+    <string name="paleogene_variant_116_2">Giliame atvirame vandenyne</string>
+    <string name="paleogene_variant_116_3">Aukštikalnių miškuose</string>
+    <string name="paleogene_variant_116_4">Sausose dykumų kopose</string>
+
+    <string name="paleogene_question_117_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_117">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_117_1">Ambulocetus</string>
+    <string name="paleogene_variant_117_2">Pakicetus</string>
+    <string name="paleogene_variant_117_3">Rodhocetus</string>
+    <string name="paleogene_variant_117_4">Hyracotherium</string>
+
+    <string name="paleogene_question_118_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_118">Kuriame periode / eone gyveno ši gyvybės forma?</string>
+    <string name="paleogene_variant_118_1">Paleogene</string>
+    <string name="paleogene_variant_118_2">Devono periode</string>
+    <string name="paleogene_variant_118_3">Kreidos periode</string>
+    <string name="paleogene_variant_118_4">Silūro periode</string>
+
+    <string name="paleogene_question_119_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_119">Ką reiškia pilnas rūšies pavadinimas Ambulocetus natans?</string>
+    <string name="paleogene_variant_119_1">„Plaukiojantis vaikštantis banginis“</string>
+    <string name="paleogene_variant_119_2">„Greitas upės bėgikas“</string>
+    <string name="paleogene_variant_119_3">„Krokodilo ir žinduolio hibridas“</string>
+    <string name="paleogene_variant_119_4">„Gilaus vandenyno milžinas“</string>
+
+    <string name="paleogene_question_120_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_120">Kaip, mokslininkų manymu, remiantis į krokodilo panašiomis kūno savybėmis, medžiojo Ambulocetus?</string>
+    <string name="paleogene_variant_120_1">Kaip tykojantis plėšrūnas, tykantis sekliame vandenyje</string>
+    <string name="paleogene_variant_120_2">Sausumoje vejantis grobį dideliais atstumais</string>
+    <string name="paleogene_variant_120_3">Atviroje jūroje filtruojant smulkų planktoną</string>
+    <string name="paleogene_variant_120_4">Nardant į ekstremalų jūros gylį medžioti milžiniškų kalmarų</string>
+
+    <string name="paleogene_question_121_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_121">Kaip Ambulocetus tikriausiai judėjo vandenyje, neturėdamas plataus uodegos peleko?</string>
+    <string name="paleogene_variant_121_1">Judindamas nugarą ir uodegą aukštyn bei žemyn, padedamas užpakalinių galūnių</string>
+    <string name="paleogene_variant_121_2">Mojuodamas dideliais, pakitusiais priekiniais pelekais kaip pingvinas</string>
+    <string name="paleogene_variant_121_3">Irkluodamas tik priekinėmis kojomis kaip šuo</string>
+    <string name="paleogene_variant_121_4">Naudodamas vandens varomąją jėgą per savo primityvias žiaunas</string>
+
+    <string name="paleogene_question_122_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_122">Kokia gyvybės forma pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_122_1">Rodhocetus</string>
+    <string name="paleogene_variant_122_2">Ambulocetus</string>
+    <string name="paleogene_variant_122_3">Pakicetus</string>
+    <string name="paleogene_variant_122_4">Eohippus</string>
+
+    <string name="paleogene_question_123_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_123">Kuriame periode / eone gyveno ši gyvybės forma?</string>
+    <string name="paleogene_variant_123_1">Paleogene</string>
+    <string name="paleogene_variant_123_2">Karbono periode</string>
+    <string name="paleogene_variant_123_3">Juros periode</string>
+    <string name="paleogene_variant_123_4">Neogene</string>
+
+    <string name="paleogene_question_124_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_124">Kuriai ankstyvųjų banginių grupei priklausė Rodhocetus?</string>
+    <string name="paleogene_variant_124_1">Protocetidams</string>
+    <string name="paleogene_variant_124_2">Bazilosauridams</string>
+    <string name="paleogene_variant_124_3">Ūsuotiesiems banginiams</string>
+    <string name="paleogene_variant_124_4">Dantytiesiems banginiams</string>
+
+    <string name="paleogene_question_125_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_125">Kokį evoliucinį ryšį patvirtino Rodhocetus kulkšnies kaulai?</string>
+    <string name="paleogene_variant_125_1">Banginiai yra artimai susiję su porakanopiais žinduoliais</string>
+    <string name="paleogene_variant_125_2">Banginiai evoliucionavo tiesiogiai iš senovinių jūros roplių</string>
+    <string name="paleogene_variant_125_3">Banginiai yra artimiausi šiuolaikinių ruonių ir vėplių giminaičiai</string>
+    <string name="paleogene_variant_125_4">Banginiai išsivystė iš unikalios plėšriųjų ryklių šakos</string>
+
+    <string name="paleogene_question_126_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_126">Kokių savybių turėjo Rodhocetus plaštakos ir pėdos, kurios padėjo plaukti?</string>
+    <string name="paleogene_variant_126_1">Jos buvo ilgos ir galėjo turėti plaukiojamąsias plėveles</string>
+    <string name="paleogene_variant_126_2">Jos buvo visiškai virtusios standžiais pelekais be kaulų</string>
+    <string name="paleogene_variant_126_3">Jos turėjo vientisas, į arklio panašias kanopas</string>
+    <string name="paleogene_variant_126_4">Jos turėjo aštrius, įtraukiamus nagus, skirtus lipti į krantą</string>
+
+    <string name="paleogene_question_127_type">fossil</string>
+    <string name="paleogene_question_127_image">item_paleogene_hyracotherium_info</string>
+    <string name="paleogene_question_127">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_127_1">Hyracotherium</string>
+    <string name="paleogene_variant_127_2">Pakicetus</string>
+    <string name="paleogene_variant_127_3">Ambulocetus</string>
+    <string name="paleogene_variant_127_4">Moeritherium</string>
+
+    <string name="paleogene_question_128_type">fossil</string>
+    <string name="paleogene_question_128_image">item_paleogene_pakicetus_info</string>
+    <string name="paleogene_question_128">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_128_1">Pakicetus</string>
+    <string name="paleogene_variant_128_2">Hyracotherium</string>
+    <string name="paleogene_variant_128_3">Rodhocetus</string>
+    <string name="paleogene_variant_128_4">Basilosaurus</string>
+
+    <string name="paleogene_question_129_type">fossil</string>
+    <string name="paleogene_question_129_image">item_paleogene_ambulocetus_info</string>
+    <string name="paleogene_question_129">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_129_1">Ambulocetus</string>
+    <string name="paleogene_variant_129_2">Pakicetus</string>
+    <string name="paleogene_variant_129_3">Rodhocetus</string>
+    <string name="paleogene_variant_129_4">Coryphodon</string>
+
+    <string name="paleogene_question_130_type">fossil</string>
+    <string name="paleogene_question_130_image">item_paleogene_rodhocetus_info</string>
+    <string name="paleogene_question_130">Kokia fosilija pavaizduota šiame paveikslėlyje?</string>
+    <string name="paleogene_variant_130_1">Rodhocetus</string>
+    <string name="paleogene_variant_130_2">Hyracotherium</string>
+    <string name="paleogene_variant_130_3">Ambulocetus</string>
+    <string name="paleogene_variant_130_4">Andrewsarchus</string>
+
     <!--     Neogene quiz questions      -->
 
     <string name="neogene_question_1_image">item_neogene</string>

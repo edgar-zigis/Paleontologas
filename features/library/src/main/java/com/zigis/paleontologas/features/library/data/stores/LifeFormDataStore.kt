@@ -2317,6 +2317,18 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 order = 3
             ),
             DTO(
+                id = 237,
+                thumbnailId = "item_paleogene_hyracotherium_thumb",
+                artworkId = "item_paleogene_hyracotherium",
+                artworkAuthor = null,
+                additionalArtworkId = "item_paleogene_hyracotherium_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_hyracotherium",
+                descriptionSlug = "paleogene_hyracotherium_description",
+                timeScale = "55.0-45.0",
+                order = 4
+            ),
+            DTO(
                 id = 158,
                 thumbnailId = "item_paleogene_uintatherium_thumb",
                 artworkId = "item_paleogene_uintatherium",
@@ -2326,7 +2338,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_uintatherium",
                 descriptionSlug = "paleogene_uintatherium_description",
                 timeScale = "50.5-37.0",
-                order = 4
+                order = 5
             ),
             DTO(
                 id = 172,
@@ -2338,7 +2350,43 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_hyrachyus",
                 descriptionSlug = "paleogene_hyrachyus_description",
                 timeScale = "50.0-40.0",
-                order = 5
+                order = 6
+            ),
+            DTO(
+                id = 238,
+                thumbnailId = "item_paleogene_pakicetus_thumb",
+                artworkId = "item_paleogene_pakicetus",
+                artworkAuthor = "Paleostock",
+                additionalArtworkId = "item_paleogene_pakicetus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_pakicetus",
+                descriptionSlug = "paleogene_pakicetus_description",
+                timeScale = "48.7-45.4",
+                order = 7
+            ),
+            DTO(
+                id = 239,
+                thumbnailId = "item_paleogene_ambulocetus_thumb",
+                artworkId = "item_paleogene_ambulocetus",
+                artworkAuthor = "Eldar Zakirov",
+                additionalArtworkId = "item_paleogene_ambulocetus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_ambulocetus",
+                descriptionSlug = "paleogene_ambulocetus_description",
+                timeScale = "48.0-47.0",
+                order = 8
+            ),
+            DTO(
+                id = 240,
+                thumbnailId = "item_paleogene_rodhocetus_thumb",
+                artworkId = "item_paleogene_rodhocetus",
+                artworkAuthor = "Eldar Zakirov",
+                additionalArtworkId = "item_paleogene_rodhocetus_info",
+                additionalArtworkAuthor = null,
+                titleSlug = "paleogene_rodhocetus",
+                descriptionSlug = "paleogene_rodhocetus_description",
+                timeScale = "47.0-46.0",
+                order = 9
             ),
             DTO(
                 id = 171,
@@ -2350,7 +2398,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_protocetus",
                 descriptionSlug = "paleogene_protocetus_description",
                 timeScale = "45.0-43.5",
-                order = 6
+                order = 10
             ),
             DTO(
                 id = 97,
@@ -2362,7 +2410,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_basilosaurus",
                 descriptionSlug = "paleogene_basilosaurus_description",
                 timeScale = "41.3-33.9",
-                order = 7
+                order = 11
             ),
             DTO(
                 id = 160,
@@ -2374,7 +2422,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_dorudon",
                 descriptionSlug = "paleogene_dorudon_description",
                 timeScale = "41.03-33.9",
-                order = 8
+                order = 12
             ),
             DTO(
                 id = 157,
@@ -2386,7 +2434,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_brontotherium",
                 descriptionSlug = "paleogene_brontotherium_description",
                 timeScale = "38.0-33.9",
-                order = 9
+                order = 13
             ),
             DTO(
                 id = 159,
@@ -2398,7 +2446,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_hyaenodon",
                 descriptionSlug = "paleogene_hyaenodon_description",
                 timeScale = "38.0-16.9",
-                order = 10
+                order = 14
             ),
             DTO(
                 id = 101,
@@ -2410,7 +2458,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_arsinoitherium",
                 descriptionSlug = "paleogene_arsinoitherium_description",
                 timeScale = "36.0-27.0",
-                order = 11
+                order = 15
             ),
             DTO(
                 id = 100,
@@ -2422,7 +2470,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_archaeotherium",
                 descriptionSlug = "paleogene_archaeotherium_description",
                 timeScale = "35.0-28.0",
-                order = 12
+                order = 16
             ),
             DTO(
                 id = 98,
@@ -2434,7 +2482,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_paraceratherium",
                 descriptionSlug = "paleogene_paraceratherium_description",
                 timeScale = "33.9-23.04",
-                order = 13
+                order = 17
             ),
             DTO(
                 id = 99,
@@ -2446,7 +2494,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_daeodon",
                 descriptionSlug = "paleogene_daeodon_description",
                 timeScale = "29.0-15.97",
-                order = 14
+                order = 18
             ),
             DTO(
                 id = 102,
@@ -2458,7 +2506,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_pyrotherium",
                 descriptionSlug = "paleogene_pyrotherium_description",
                 timeScale = "28.4-23.04",
-                order = 15
+                order = 19
             ),
             DTO(
                 id = 174,
@@ -2470,7 +2518,7 @@ class LifeFormDataStore : LifeFormDataStoreInterface {
                 titleSlug = "paleogene_pelagornis",
                 descriptionSlug = "paleogene_pelagornis_description",
                 timeScale = "25.0-2.5",
-                order = 16
+                order = 20
             )
         )
     }

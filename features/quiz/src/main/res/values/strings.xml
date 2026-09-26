@@ -9417,6 +9417,178 @@
     <string name="paleogene_variant_106_3">Gastornis</string>
     <string name="paleogene_variant_106_4">Otodus</string>
 
+    <string name="paleogene_question_107_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_107">What kind of life form is shown in this picture?</string>
+    <string name="paleogene_variant_107_1">Hyracotherium</string>
+    <string name="paleogene_variant_107_2">Pakicetus</string>
+    <string name="paleogene_variant_107_3">Ambulocetus</string>
+    <string name="paleogene_variant_107_4">Rodhocetus</string>
+
+    <string name="paleogene_question_108_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_108">In which period/eon did the following life form live?</string>
+    <string name="paleogene_variant_108_1">Paleogene</string>
+    <string name="paleogene_variant_108_2">Cretaceous</string>
+    <string name="paleogene_variant_108_3">Neogene</string>
+    <string name="paleogene_variant_108_4">Jurassic</string>
+
+    <string name="paleogene_question_109_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_109">How many toes did Hyracotherium have on its front feet?</string>
+    <string name="paleogene_variant_109_1">Four toes</string>
+    <string name="paleogene_variant_109_2">One single hoof</string>
+    <string name="paleogene_variant_109_3">Three toes</string>
+    <string name="paleogene_variant_109_4">Five toes</string>
+
+    <string name="paleogene_question_110_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_110">What was the approximate size of Hyracotherium?</string>
+    <string name="paleogene_variant_110_1">Dog-sized</string>
+    <string name="paleogene_variant_110_2">Elephant-sized</string>
+    <string name="paleogene_variant_110_3">Cat- or mouse-sized</string>
+    <string name="paleogene_variant_110_4">Modern horse-sized</string>
+
+    <string name="paleogene_question_111_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_111">What did Hyracotherium primarily feed on in its forest environment?</string>
+    <string name="paleogene_variant_111_1">Leaves, shoots, and fruits</string>
+    <string name="paleogene_variant_111_2">Abrasive prairie grasses</string>
+    <string name="paleogene_variant_111_3">Fish and small aquatic creatures</string>
+    <string name="paleogene_variant_111_4">Insects and small mammals</string>
+
+    <string name="paleogene_question_112_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_112">What kind of life form is shown in this picture?</string>
+    <string name="paleogene_variant_112_1">Pakicetus</string>
+    <string name="paleogene_variant_112_2">Hyracotherium</string>
+    <string name="paleogene_variant_112_3">Ambulocetus</string>
+    <string name="paleogene_variant_112_4">Basilosaurus</string>
+
+    <string name="paleogene_question_113_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_113">In which period/eon did the following life form live?</string>
+    <string name="paleogene_variant_113_1">Paleogene</string>
+    <string name="paleogene_variant_113_2">Permian</string>
+    <string name="paleogene_variant_113_3">Triassic</string>
+    <string name="paleogene_variant_113_4">Neogene</string>
+
+    <string name="paleogene_question_114_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_114">What is the literal meaning of the name Pakicetus?</string>
+    <string name="paleogene_variant_114_1">Whale from Pakistan</string>
+    <string name="paleogene_variant_114_2">Walking whale that swims</string>
+    <string name="paleogene_variant_114_3">Amphibious crocodile mimic</string>
+    <string name="paleogene_variant_114_4">Ancient river runner</string>
+
+    <string name="paleogene_question_115_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_115">Which anatomical feature helped scientists recognize Pakicetus as an early member of the whale lineage?</string>
+    <string name="paleogene_variant_115_1">Its ear bones</string>
+    <string name="paleogene_variant_115_2">Its webbed hind feet</string>
+    <string name="paleogene_variant_115_3">Its specialized blowhole</string>
+    <string name="paleogene_variant_115_4">Its tail fluke structure</string>
+
+    <string name="paleogene_question_116_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_116">Where did Pakicetus primarily live and hunt for its prey?</string>
+    <string name="paleogene_variant_116_1">Near rivers, streams, and shallow water</string>
+    <string name="paleogene_variant_116_2">In the deep open ocean</string>
+    <string name="paleogene_variant_116_3">In high-altitude mountain forests</string>
+    <string name="paleogene_variant_116_4">Across arid desert sand dunes</string>
+
+    <string name="paleogene_question_117_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_117">What kind of life form is shown in this picture?</string>
+    <string name="paleogene_variant_117_1">Ambulocetus</string>
+    <string name="paleogene_variant_117_2">Pakicetus</string>
+    <string name="paleogene_variant_117_3">Rodhocetus</string>
+    <string name="paleogene_variant_117_4">Hyracotherium</string>
+
+    <string name="paleogene_question_118_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_118">In which period/eon did the following life form live?</string>
+    <string name="paleogene_variant_118_1">Paleogene</string>
+    <string name="paleogene_variant_118_2">Devonian</string>
+    <string name="paleogene_variant_118_3">Cretaceous</string>
+    <string name="paleogene_variant_118_4">Silurian</string>
+
+    <string name="paleogene_question_119_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_119">What does the full species name Ambulocetus natans mean?</string>
+    <string name="paleogene_variant_119_1">Walking whale that swims</string>
+    <string name="paleogene_variant_119_2">Fast river runner</string>
+    <string name="paleogene_variant_119_3">Crocodile mammal hybrid</string>
+    <string name="paleogene_variant_119_4">Deep ocean giant</string>
+
+    <string name="paleogene_question_120_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_120">How do scientists believe Ambulocetus hunted based on its crocodile-like body features?</string>
+    <string name="paleogene_variant_120_1">As an ambush predator lying in shallow water</string>
+    <string name="paleogene_variant_120_2">By chasing down prey over long distances on land</string>
+    <string name="paleogene_variant_120_3">By filter-feeding on small plankton in the open sea</string>
+    <string name="paleogene_variant_120_4">By diving to extreme marine depths to hunt giant squid</string>
+
+    <string name="paleogene_question_121_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_121">How did Ambulocetus likely move through water without a broad tail fluke?</string>
+    <string name="paleogene_variant_121_1">By moving its back and tail up and down, helped by hind limbs</string>
+    <string name="paleogene_variant_121_2">By flapping large, modified front flippers like a penguin</string>
+    <string name="paleogene_variant_121_3">By paddling exclusively with its front paws like a dog</string>
+    <string name="paleogene_variant_121_4">By using water propulsion through its primitive gills</string>
+
+    <string name="paleogene_question_122_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_122">What kind of life form is shown in this picture?</string>
+    <string name="paleogene_variant_122_1">Rodhocetus</string>
+    <string name="paleogene_variant_122_2">Ambulocetus</string>
+    <string name="paleogene_variant_122_3">Pakicetus</string>
+    <string name="paleogene_variant_122_4">Eohippus</string>
+
+    <string name="paleogene_question_123_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_123">In which period/eon did the following life form live?</string>
+    <string name="paleogene_variant_123_1">Paleogene</string>
+    <string name="paleogene_variant_123_2">Carboniferous</string>
+    <string name="paleogene_variant_123_3">Jurassic</string>
+    <string name="paleogene_variant_123_4">Neogene</string>
+
+    <string name="paleogene_question_124_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_124">To which group of early whales did Rodhocetus belong?</string>
+    <string name="paleogene_variant_124_1">Protocetids</string>
+    <string name="paleogene_variant_124_2">Basilosaurids</string>
+    <string name="paleogene_variant_124_3">Mysticetes</string>
+    <string name="paleogene_variant_124_4">Odontocetes</string>
+
+    <string name="paleogene_question_125_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_125">What evolutionary connection did the ankle bones of Rodhocetus confirm?</string>
+    <string name="paleogene_variant_125_1">Whales are closely related to even-toed hoofed mammals</string>
+    <string name="paleogene_variant_125_2">Whales evolved directly from ancient marine reptiles</string>
+    <string name="paleogene_variant_125_3">Whales are closest relatives to modern seals and walruses</string>
+    <string name="paleogene_variant_125_4">Whales developed from a unique branch of predatory sharks</string>
+
+    <string name="paleogene_question_126_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_126">What feature did Rodhocetus possess on its hands and feet that aided swimming?</string>
+    <string name="paleogene_variant_126_1">They were long and may have been webbed</string>
+    <string name="paleogene_variant_126_2">They were completely transformed into rigid, boneless flippers</string>
+    <string name="paleogene_variant_126_3">They had solid, single horse-like hooves</string>
+    <string name="paleogene_variant_126_4">They possessed sharp, retractable claws for climbing shores</string>
+
+    <string name="paleogene_question_127_type">fossil</string>
+    <string name="paleogene_question_127_image">item_paleogene_hyracotherium_info</string>
+    <string name="paleogene_question_127">What kind of fossil is shown in this picture?</string>
+    <string name="paleogene_variant_127_1">Hyracotherium</string>
+    <string name="paleogene_variant_127_2">Pakicetus</string>
+    <string name="paleogene_variant_127_3">Ambulocetus</string>
+    <string name="paleogene_variant_127_4">Moeritherium</string>
+
+    <string name="paleogene_question_128_type">fossil</string>
+    <string name="paleogene_question_128_image">item_paleogene_pakicetus_info</string>
+    <string name="paleogene_question_128">What kind of fossil is shown in this picture?</string>
+    <string name="paleogene_variant_128_1">Pakicetus</string>
+    <string name="paleogene_variant_128_2">Hyracotherium</string>
+    <string name="paleogene_variant_128_3">Rodhocetus</string>
+    <string name="paleogene_variant_128_4">Basilosaurus</string>
+
+    <string name="paleogene_question_129_type">fossil</string>
+    <string name="paleogene_question_129_image">item_paleogene_ambulocetus_info</string>
+    <string name="paleogene_question_129">What kind of fossil is shown in this picture?</string>
+    <string name="paleogene_variant_129_1">Ambulocetus</string>
+    <string name="paleogene_variant_129_2">Pakicetus</string>
+    <string name="paleogene_variant_129_3">Rodhocetus</string>
+    <string name="paleogene_variant_129_4">Coryphodon</string>
+
+    <string name="paleogene_question_130_type">fossil</string>
+    <string name="paleogene_question_130_image">item_paleogene_rodhocetus_info</string>
+    <string name="paleogene_question_130">What kind of fossil is shown in this picture?</string>
+    <string name="paleogene_variant_130_1">Rodhocetus</string>
+    <string name="paleogene_variant_130_2">Hyracotherium</string>
+    <string name="paleogene_variant_130_3">Ambulocetus</string>
+    <string name="paleogene_variant_130_4">Andrewsarchus</string>
+
     <!--     Neogene quiz questions      -->
 
     <string name="neogene_question_1_image">item_neogene</string>

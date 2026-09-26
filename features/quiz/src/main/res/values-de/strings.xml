@@ -9417,6 +9417,178 @@
      <string name="paleogene_variant_106_3">Gastornis</string>
      <string name="paleogene_variant_106_4">Otodus</string>
 
+     <string name="paleogene_question_107_image">item_paleogene_hyracotherium</string>
+     <string name="paleogene_question_107">Welches Lebewesen ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_107_1">Hyracotherium</string>
+      <string name="paleogene_variant_107_2">Pakicetus</string>
+      <string name="paleogene_variant_107_3">Ambulocetus</string>
+      <string name="paleogene_variant_107_4">Rodhocetus</string>
+
+      <string name="paleogene_question_108_image">item_paleogene_hyracotherium</string>
+      <string name="paleogene_question_108">In welcher Periode / welchem Äon lebte das folgende Lebewesen?</string>
+      <string name="paleogene_variant_108_1">Paläogen</string>
+      <string name="paleogene_variant_108_2">Kreide</string>
+      <string name="paleogene_variant_108_3">Neogen</string>
+      <string name="paleogene_variant_108_4">Jura</string>
+
+      <string name="paleogene_question_109_image">item_paleogene_hyracotherium</string>
+      <string name="paleogene_question_109">Wie viele Zehen hatte Hyracotherium an seinen Vorderfüßen?</string>
+      <string name="paleogene_variant_109_1">Vier Zehen</string>
+      <string name="paleogene_variant_109_2">Einen einzelnen Huf</string>
+      <string name="paleogene_variant_109_3">Drei Zehen</string>
+      <string name="paleogene_variant_109_4">Fünf Zehen</string>
+
+      <string name="paleogene_question_110_image">item_paleogene_hyracotherium</string>
+      <string name="paleogene_question_110">Wie groß war Hyracotherium ungefähr?</string>
+      <string name="paleogene_variant_110_1">So groß wie ein Hund</string>
+      <string name="paleogene_variant_110_2">So groß wie ein Elefant</string>
+      <string name="paleogene_variant_110_3">So groß wie eine Katze oder Maus</string>
+      <string name="paleogene_variant_110_4">So groß wie ein heutiges Pferd</string>
+
+      <string name="paleogene_question_111_image">item_paleogene_hyracotherium</string>
+      <string name="paleogene_question_111">Wovon ernährte sich Hyracotherium hauptsächlich in seiner Waldumgebung?</string>
+      <string name="paleogene_variant_111_1">Blättern, Trieben und Früchten</string>
+      <string name="paleogene_variant_111_2">Rauen Präriegräsern</string>
+      <string name="paleogene_variant_111_3">Fischen und kleinen Wassertieren</string>
+      <string name="paleogene_variant_111_4">Insekten und kleinen Säugetieren</string>
+
+      <string name="paleogene_question_112_image">item_paleogene_pakicetus</string>
+      <string name="paleogene_question_112">Welches Lebewesen ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_112_1">Pakicetus</string>
+      <string name="paleogene_variant_112_2">Hyracotherium</string>
+      <string name="paleogene_variant_112_3">Ambulocetus</string>
+      <string name="paleogene_variant_112_4">Basilosaurus</string>
+
+      <string name="paleogene_question_113_image">item_paleogene_pakicetus</string>
+      <string name="paleogene_question_113">In welcher Periode / welchem Äon lebte das folgende Lebewesen?</string>
+      <string name="paleogene_variant_113_1">Paläogen</string>
+      <string name="paleogene_variant_113_2">Perm</string>
+      <string name="paleogene_variant_113_3">Trias</string>
+      <string name="paleogene_variant_113_4">Neogen</string>
+
+      <string name="paleogene_question_114_image">item_paleogene_pakicetus</string>
+      <string name="paleogene_question_114">Was bedeutet der Name Pakicetus wörtlich?</string>
+      <string name="paleogene_variant_114_1">Wal aus Pakistan</string>
+      <string name="paleogene_variant_114_2">Laufender Wal, der schwimmt</string>
+      <string name="paleogene_variant_114_3">Amphibischer Krokodil-Nachahmer</string>
+      <string name="paleogene_variant_114_4">Uralter Flussläufer</string>
+
+      <string name="paleogene_question_115_image">item_paleogene_pakicetus</string>
+      <string name="paleogene_question_115">Welches anatomische Merkmal half Wissenschaftlern, Pakicetus als frühen Vertreter der Wal-Stammlinie zu erkennen?</string>
+      <string name="paleogene_variant_115_1">Seine Gehörknöchelchen</string>
+      <string name="paleogene_variant_115_2">Seine Hinterfüße mit Schwimmhäuten</string>
+      <string name="paleogene_variant_115_3">Sein spezialisiertes Blasloch</string>
+      <string name="paleogene_variant_115_4">Die Struktur seiner Schwanzflosse</string>
+
+      <string name="paleogene_question_116_image">item_paleogene_pakicetus</string>
+      <string name="paleogene_question_116">Wo lebte und jagte Pakicetus hauptsächlich nach Beute?</string>
+      <string name="paleogene_variant_116_1">In der Nähe von Flüssen, Bächen und Flachwasser</string>
+      <string name="paleogene_variant_116_2">Im tiefen, offenen Ozean</string>
+      <string name="paleogene_variant_116_3">In hochgelegenen Bergwäldern</string>
+      <string name="paleogene_variant_116_4">In trockenen Wüstensanddünen</string>
+
+      <string name="paleogene_question_117_image">item_paleogene_ambulocetus</string>
+      <string name="paleogene_question_117">Welches Lebewesen ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_117_1">Ambulocetus</string>
+      <string name="paleogene_variant_117_2">Pakicetus</string>
+      <string name="paleogene_variant_117_3">Rodhocetus</string>
+      <string name="paleogene_variant_117_4">Hyracotherium</string>
+
+      <string name="paleogene_question_118_image">item_paleogene_ambulocetus</string>
+      <string name="paleogene_question_118">In welcher Periode / welchem Äon lebte das folgende Lebewesen?</string>
+      <string name="paleogene_variant_118_1">Paläogen</string>
+      <string name="paleogene_variant_118_2">Devon</string>
+      <string name="paleogene_variant_118_3">Kreide</string>
+      <string name="paleogene_variant_118_4">Silur</string>
+
+      <string name="paleogene_question_119_image">item_paleogene_ambulocetus</string>
+      <string name="paleogene_question_119">Was bedeutet der vollständige Artname Ambulocetus natans?</string>
+      <string name="paleogene_variant_119_1">Laufender Wal, der schwimmt</string>
+      <string name="paleogene_variant_119_2">Schneller Flussläufer</string>
+      <string name="paleogene_variant_119_3">Krokodil-Säugetier-Hybrid</string>
+      <string name="paleogene_variant_119_4">Riese des tiefen Ozeans</string>
+
+      <string name="paleogene_question_120_image">item_paleogene_ambulocetus</string>
+      <string name="paleogene_question_120">Wie jagte Ambulocetus nach Ansicht der Wissenschaftler aufgrund seiner krokodilähnlichen Körpermerkmale?</string>
+      <string name="paleogene_variant_120_1">Als Lauerjäger im Flachwasser</string>
+      <string name="paleogene_variant_120_2">Indem er Beute an Land über lange Strecken verfolgte</string>
+      <string name="paleogene_variant_120_3">Indem er im offenen Meer kleines Plankton filtrierte</string>
+      <string name="paleogene_variant_120_4">Indem er in extreme Meerestiefen tauchte, um Riesenkalamare zu jagen</string>
+
+      <string name="paleogene_question_121_image">item_paleogene_ambulocetus</string>
+      <string name="paleogene_question_121">Wie bewegte sich Ambulocetus ohne eine breite Schwanzflosse wahrscheinlich durchs Wasser?</string>
+      <string name="paleogene_variant_121_1">Durch Auf- und Abwärtsbewegungen von Rücken und Schwanz, unterstützt von den Hintergliedmaßen</string>
+      <string name="paleogene_variant_121_2">Durch Schlagen großer, abgewandelter Vorderflossen wie ein Pinguin</string>
+      <string name="paleogene_variant_121_3">Ausschließlich durch Paddeln mit den Vorderpfoten wie ein Hund</string>
+      <string name="paleogene_variant_121_4">Durch Wasserantrieb über seine primitiven Kiemen</string>
+
+      <string name="paleogene_question_122_image">item_paleogene_rodhocetus</string>
+      <string name="paleogene_question_122">Welches Lebewesen ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_122_1">Rodhocetus</string>
+      <string name="paleogene_variant_122_2">Ambulocetus</string>
+      <string name="paleogene_variant_122_3">Pakicetus</string>
+      <string name="paleogene_variant_122_4">Eohippus</string>
+
+      <string name="paleogene_question_123_image">item_paleogene_rodhocetus</string>
+      <string name="paleogene_question_123">In welcher Periode / welchem Äon lebte das folgende Lebewesen?</string>
+      <string name="paleogene_variant_123_1">Paläogen</string>
+      <string name="paleogene_variant_123_2">Karbon</string>
+      <string name="paleogene_variant_123_3">Jura</string>
+      <string name="paleogene_variant_123_4">Neogen</string>
+
+      <string name="paleogene_question_124_image">item_paleogene_rodhocetus</string>
+      <string name="paleogene_question_124">Zu welcher Gruppe der frühen Wale gehörte Rodhocetus?</string>
+      <string name="paleogene_variant_124_1">Protocetiden</string>
+      <string name="paleogene_variant_124_2">Basilosauriden</string>
+      <string name="paleogene_variant_124_3">Mysticeten</string>
+      <string name="paleogene_variant_124_4">Odontoceten</string>
+
+      <string name="paleogene_question_125_image">item_paleogene_rodhocetus</string>
+      <string name="paleogene_question_125">Welche evolutionäre Verbindung bestätigten die Sprungbeine von Rodhocetus?</string>
+      <string name="paleogene_variant_125_1">Wale sind eng mit Paarhufern verwandt</string>
+      <string name="paleogene_variant_125_2">Wale stammen direkt von alten Meeresreptilien ab</string>
+      <string name="paleogene_variant_125_3">Wale sind die nächsten Verwandten moderner Robben und Walrosse</string>
+      <string name="paleogene_variant_125_4">Wale entwickelten sich aus einem einzigartigen Zweig raubtierhafter Haie</string>
+
+      <string name="paleogene_question_126_image">item_paleogene_rodhocetus</string>
+      <string name="paleogene_question_126">Welches Merkmal besaß Rodhocetus an Händen und Füßen, das beim Schwimmen half?</string>
+      <string name="paleogene_variant_126_1">Sie waren lang und wiesen möglicherweise Schwimmhäute auf</string>
+      <string name="paleogene_variant_126_2">Sie waren vollständig in starre, knochenlose Flossen umgewandelt</string>
+      <string name="paleogene_variant_126_3">Sie besaßen feste, einzelne Hufe wie bei Pferden</string>
+      <string name="paleogene_variant_126_4">Sie besaßen scharfe, einziehbare Krallen zum Erklettern von Ufern</string>
+
+      <string name="paleogene_question_127_type">fossil</string>
+      <string name="paleogene_question_127_image">item_paleogene_hyracotherium_info</string>
+      <string name="paleogene_question_127">Welches Fossil ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_127_1">Hyracotherium</string>
+      <string name="paleogene_variant_127_2">Pakicetus</string>
+      <string name="paleogene_variant_127_3">Ambulocetus</string>
+      <string name="paleogene_variant_127_4">Moeritherium</string>
+
+      <string name="paleogene_question_128_type">fossil</string>
+      <string name="paleogene_question_128_image">item_paleogene_pakicetus_info</string>
+      <string name="paleogene_question_128">Welches Fossil ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_128_1">Pakicetus</string>
+      <string name="paleogene_variant_128_2">Hyracotherium</string>
+      <string name="paleogene_variant_128_3">Rodhocetus</string>
+      <string name="paleogene_variant_128_4">Basilosaurus</string>
+
+      <string name="paleogene_question_129_type">fossil</string>
+      <string name="paleogene_question_129_image">item_paleogene_ambulocetus_info</string>
+      <string name="paleogene_question_129">Welches Fossil ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_129_1">Ambulocetus</string>
+      <string name="paleogene_variant_129_2">Pakicetus</string>
+      <string name="paleogene_variant_129_3">Rodhocetus</string>
+      <string name="paleogene_variant_129_4">Coryphodon</string>
+
+      <string name="paleogene_question_130_type">fossil</string>
+      <string name="paleogene_question_130_image">item_paleogene_rodhocetus_info</string>
+      <string name="paleogene_question_130">Welches Fossil ist auf diesem Bild zu sehen?</string>
+      <string name="paleogene_variant_130_1">Rodhocetus</string>
+      <string name="paleogene_variant_130_2">Hyracotherium</string>
+      <string name="paleogene_variant_130_3">Ambulocetus</string>
+      <string name="paleogene_variant_130_4">Andrewsarchus</string>
+
     <!--     Neogene quiz questions      -->
 
      <string name="neogene_question_1_image">item_neogene</string>

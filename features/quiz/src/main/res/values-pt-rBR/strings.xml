@@ -9418,6 +9418,178 @@
     <string name="paleogene_variant_106_3">Gastornis</string>
     <string name="paleogene_variant_106_4">Otodus</string>
 
+    <string name="paleogene_question_107_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_107">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="paleogene_variant_107_1">Hyracotherium</string>
+    <string name="paleogene_variant_107_2">Pakicetus</string>
+    <string name="paleogene_variant_107_3">Ambulocetus</string>
+    <string name="paleogene_variant_107_4">Rodhocetus</string>
+
+    <string name="paleogene_question_108_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_108">Em qual período/éon viveu a seguinte forma de vida?</string>
+    <string name="paleogene_variant_108_1">Paleógeno</string>
+    <string name="paleogene_variant_108_2">Cretáceo</string>
+    <string name="paleogene_variant_108_3">Neógeno</string>
+    <string name="paleogene_variant_108_4">Jurássico</string>
+
+    <string name="paleogene_question_109_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_109">Quantos dedos o Hyracotherium tinha nas patas dianteiras?</string>
+    <string name="paleogene_variant_109_1">Quatro dedos</string>
+    <string name="paleogene_variant_109_2">Um único casco</string>
+    <string name="paleogene_variant_109_3">Três dedos</string>
+    <string name="paleogene_variant_109_4">Cinco dedos</string>
+
+    <string name="paleogene_question_110_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_110">Qual era o tamanho aproximado do Hyracotherium?</string>
+    <string name="paleogene_variant_110_1">Tamanho de um cão</string>
+    <string name="paleogene_variant_110_2">Tamanho de um elefante</string>
+    <string name="paleogene_variant_110_3">Tamanho de um gato ou camundongo</string>
+    <string name="paleogene_variant_110_4">Tamanho de um cavalo moderno</string>
+
+    <string name="paleogene_question_111_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_111">Do que o Hyracotherium se alimentava principalmente em seu ambiente florestal?</string>
+    <string name="paleogene_variant_111_1">Folhas, brotos e frutos</string>
+    <string name="paleogene_variant_111_2">Gramíneas abrasivas de pradaria</string>
+    <string name="paleogene_variant_111_3">Peixes e pequenas criaturas aquáticas</string>
+    <string name="paleogene_variant_111_4">Insetos e pequenos mamíferos</string>
+
+    <string name="paleogene_question_112_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_112">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="paleogene_variant_112_1">Pakicetus</string>
+    <string name="paleogene_variant_112_2">Hyracotherium</string>
+    <string name="paleogene_variant_112_3">Ambulocetus</string>
+    <string name="paleogene_variant_112_4">Basilosaurus</string>
+
+    <string name="paleogene_question_113_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_113">Em qual período/éon viveu a seguinte forma de vida?</string>
+    <string name="paleogene_variant_113_1">Paleógeno</string>
+    <string name="paleogene_variant_113_2">Permiano</string>
+    <string name="paleogene_variant_113_3">Triássico</string>
+    <string name="paleogene_variant_113_4">Neógeno</string>
+
+    <string name="paleogene_question_114_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_114">Qual é o significado literal do nome Pakicetus?</string>
+    <string name="paleogene_variant_114_1">Baleia do Paquistão</string>
+    <string name="paleogene_variant_114_2">Baleia que anda e nada</string>
+    <string name="paleogene_variant_114_3">Imitador anfíbio de crocodilo</string>
+    <string name="paleogene_variant_114_4">Antigo corredor de rio</string>
+
+    <string name="paleogene_question_115_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_115">Qual característica anatômica ajudou os cientistas a reconhecer o Pakicetus como um membro primitivo da linhagem das baleias?</string>
+    <string name="paleogene_variant_115_1">Os ossos de sua orelha</string>
+    <string name="paleogene_variant_115_2">Suas patas traseiras palmadas</string>
+    <string name="paleogene_variant_115_3">Seu espiráculo especializado</string>
+    <string name="paleogene_variant_115_4">A estrutura de sua nadadeira caudal</string>
+
+    <string name="paleogene_question_116_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_116">Onde o Pakicetus vivia e caçava suas presas principalmente?</string>
+    <string name="paleogene_variant_116_1">Perto de rios, riachos e águas rasas</string>
+    <string name="paleogene_variant_116_2">No oceano aberto profundo</string>
+    <string name="paleogene_variant_116_3">Em florestas de montanha em alta altitude</string>
+    <string name="paleogene_variant_116_4">Em dunas de areia de desertos áridos</string>
+
+    <string name="paleogene_question_117_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_117">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="paleogene_variant_117_1">Ambulocetus</string>
+    <string name="paleogene_variant_117_2">Pakicetus</string>
+    <string name="paleogene_variant_117_3">Rodhocetus</string>
+    <string name="paleogene_variant_117_4">Hyracotherium</string>
+
+    <string name="paleogene_question_118_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_118">Em qual período/éon viveu a seguinte forma de vida?</string>
+    <string name="paleogene_variant_118_1">Paleógeno</string>
+    <string name="paleogene_variant_118_2">Devoniano</string>
+    <string name="paleogene_variant_118_3">Cretáceo</string>
+    <string name="paleogene_variant_118_4">Siluriano</string>
+
+    <string name="paleogene_question_119_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_119">O que significa o nome completo da espécie Ambulocetus natans?</string>
+    <string name="paleogene_variant_119_1">Baleia que anda e nada</string>
+    <string name="paleogene_variant_119_2">Corredor rápido de rio</string>
+    <string name="paleogene_variant_119_3">Híbrido de mamífero e crocodilo</string>
+    <string name="paleogene_variant_119_4">Gigante do oceano profundo</string>
+
+    <string name="paleogene_question_120_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_120">Como os cientistas acreditam que o Ambulocetus caçava, com base em suas características físicas semelhantes às de um crocodilo?</string>
+    <string name="paleogene_variant_120_1">Como um predador de emboscada espreitando em águas rasas</string>
+    <string name="paleogene_variant_120_2">Perseguindo presas por longas distâncias em terra</string>
+    <string name="paleogene_variant_120_3">Filtrando pequenos plânctons no mar aberto</string>
+    <string name="paleogene_variant_120_4">Mergulhando a profundidades marinhas extremas para caçar lulas-gigantes</string>
+
+    <string name="paleogene_question_121_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_121">Como o Ambulocetus provavelmente se movia na água sem uma nadadeira caudal larga?</string>
+    <string name="paleogene_variant_121_1">Movendo as costas e a cauda para cima e para baixo, ajudado pelos membros posteriores</string>
+    <string name="paleogene_variant_121_2">Batendo grandes nadadeiras dianteiras modificadas como um pinguim</string>
+    <string name="paleogene_variant_121_3">Remando exclusivamente com as patas dianteiras como um cão</string>
+    <string name="paleogene_variant_121_4">Usando propulsão por água através de suas brânquias primitivas</string>
+
+    <string name="paleogene_question_122_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_122">Que tipo de forma de vida é mostrada nesta imagem?</string>
+    <string name="paleogene_variant_122_1">Rodhocetus</string>
+    <string name="paleogene_variant_122_2">Ambulocetus</string>
+    <string name="paleogene_variant_122_3">Pakicetus</string>
+    <string name="paleogene_variant_122_4">Eohippus</string>
+
+    <string name="paleogene_question_123_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_123">Em qual período/éon viveu a seguinte forma de vida?</string>
+    <string name="paleogene_variant_123_1">Paleógeno</string>
+    <string name="paleogene_variant_123_2">Carbonífero</string>
+    <string name="paleogene_variant_123_3">Jurássico</string>
+    <string name="paleogene_variant_123_4">Neógeno</string>
+
+    <string name="paleogene_question_124_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_124">A qual grupo de baleias primitivas o Rodhocetus pertencia?</string>
+    <string name="paleogene_variant_124_1">Protocetídeos</string>
+    <string name="paleogene_variant_124_2">Basilosaurídeos</string>
+    <string name="paleogene_variant_124_3">Misticetos</string>
+    <string name="paleogene_variant_124_4">Odontocetos</string>
+
+    <string name="paleogene_question_125_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_125">Qual conexão evolutiva os ossos do tornozelo do Rodhocetus confirmaram?</string>
+    <string name="paleogene_variant_125_1">As baleias são intimamente relacionadas aos mamíferos ungulados de cascos pares</string>
+    <string name="paleogene_variant_125_2">As baleias evoluíram diretamente de antigos répteis marinhos</string>
+    <string name="paleogene_variant_125_3">As baleias são as parentes mais próximas das focas e morsas modernas</string>
+    <string name="paleogene_variant_125_4">As baleias se desenvolveram a partir de um ramo único de tubarões predadores</string>
+
+    <string name="paleogene_question_126_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_126">Qual característica o Rodhocetus possuía em suas mãos e pés que ajudava na natação?</string>
+    <string name="paleogene_variant_126_1">Eram longos e podem ter sido palmados</string>
+    <string name="paleogene_variant_126_2">Foram completamente transformados em nadadeiras rígidas e sem ossos</string>
+    <string name="paleogene_variant_126_3">Possuíam cascos únicos e sólidos como os dos cavalos</string>
+    <string name="paleogene_variant_126_4">Possuíam garras afiadas e retráteis para escalar margens</string>
+
+    <string name="paleogene_question_127_type">fóssil</string>
+    <string name="paleogene_question_127_image">item_paleogene_hyracotherium_info</string>
+    <string name="paleogene_question_127">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="paleogene_variant_127_1">Hyracotherium</string>
+    <string name="paleogene_variant_127_2">Pakicetus</string>
+    <string name="paleogene_variant_127_3">Ambulocetus</string>
+    <string name="paleogene_variant_127_4">Moeritherium</string>
+
+    <string name="paleogene_question_128_type">fóssil</string>
+    <string name="paleogene_question_128_image">item_paleogene_pakicetus_info</string>
+    <string name="paleogene_question_128">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="paleogene_variant_128_1">Pakicetus</string>
+    <string name="paleogene_variant_128_2">Hyracotherium</string>
+    <string name="paleogene_variant_128_3">Rodhocetus</string>
+    <string name="paleogene_variant_128_4">Basilosaurus</string>
+
+    <string name="paleogene_question_129_type">fóssil</string>
+    <string name="paleogene_question_129_image">item_paleogene_ambulocetus_info</string>
+    <string name="paleogene_question_129">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="paleogene_variant_129_1">Ambulocetus</string>
+    <string name="paleogene_variant_129_2">Pakicetus</string>
+    <string name="paleogene_variant_129_3">Rodhocetus</string>
+    <string name="paleogene_variant_129_4">Coryphodon</string>
+
+    <string name="paleogene_question_130_type">fóssil</string>
+    <string name="paleogene_question_130_image">item_paleogene_rodhocetus_info</string>
+    <string name="paleogene_question_130">Que tipo de fóssil é mostrado nesta imagem?</string>
+    <string name="paleogene_variant_130_1">Rodhocetus</string>
+    <string name="paleogene_variant_130_2">Hyracotherium</string>
+    <string name="paleogene_variant_130_3">Ambulocetus</string>
+    <string name="paleogene_variant_130_4">Andrewsarchus</string>
+
     <!--     Neogene quiz questions      -->
 
     <string name="neogene_question_1_image">item_neogene</string>

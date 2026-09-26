@@ -73,7 +73,7 @@ class QuizQuestionDataStore : QuizQuestionDataStoreProtocol {
         (1..274).map { DTO(it, "cretaceous", Question.Category.MESOZOIC) }
 
     private fun getPaleogeneQuestionDefinitions(): List<DTO> =
-        (1..106).map { DTO(it, "paleogene", Question.Category.CENOZOIC) }
+        (1..130).map { DTO(it, "paleogene", Question.Category.CENOZOIC) }
 
     private fun getNeogeneQuestionDefinitions(): List<DTO> =
         (1..91).map { DTO(it, "neogene", Question.Category.CENOZOIC) }

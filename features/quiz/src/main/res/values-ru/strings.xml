@@ -9418,6 +9418,178 @@
     <string name="paleogene_variant_106_3">Gastornis</string>
     <string name="paleogene_variant_106_4">Otodus</string>
 
+    <string name="paleogene_question_107_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_107">Какая форма жизни изображена на этом рисунке?</string>
+    <string name="paleogene_variant_107_1">Гиракотерий</string>
+    <string name="paleogene_variant_107_2">Пакицет</string>
+    <string name="paleogene_variant_107_3">Амбулоцет</string>
+    <string name="paleogene_variant_107_4">Родоцет</string>
+
+    <string name="paleogene_question_108_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_108">В какой период/эон обитало следующее живое существо?</string>
+    <string name="paleogene_variant_108_1">Палеоген</string>
+    <string name="paleogene_variant_108_2">Мел</string>
+    <string name="paleogene_variant_108_3">Неоген</string>
+    <string name="paleogene_variant_108_4">Юра</string>
+
+    <string name="paleogene_question_109_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_109">Сколько пальцев было у гиракотерия на передних лапах?</string>
+    <string name="paleogene_variant_109_1">Четыре пальца</string>
+    <string name="paleogene_variant_109_2">Одно копыто</string>
+    <string name="paleogene_variant_109_3">Три пальца</string>
+    <string name="paleogene_variant_109_4">Пять пальцев</string>
+
+    <string name="paleogene_question_110_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_110">Каковы были примерные размеры гиракотерия?</string>
+    <string name="paleogene_variant_110_1">Размером с собаку</string>
+    <string name="paleogene_variant_110_2">Размером со слона</string>
+    <string name="paleogene_variant_110_3">Размером с кошку или мышь</string>
+    <string name="paleogene_variant_110_4">Размером с современную лошадь</string>
+
+    <string name="paleogene_question_111_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_111">Чем в основном питался гиракотерий в своей лесной среде обитания?</string>
+    <string name="paleogene_variant_111_1">Листьями, побегами и плодами</string>
+    <string name="paleogene_variant_111_2">Жесткой степной травой</string>
+    <string name="paleogene_variant_111_3">Рыбой и мелкими водными обитателями</string>
+    <string name="paleogene_variant_111_4">Насекомыми и мелкими млекопитающими</string>
+
+    <string name="paleogene_question_112_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_112">Какая форма жизни изображена на этом рисунке?</string>
+    <string name="paleogene_variant_112_1">Пакицет</string>
+    <string name="paleogene_variant_112_2">Гиракотерий</string>
+    <string name="paleogene_variant_112_3">Амбулоцет</string>
+    <string name="paleogene_variant_112_4">Базилозавр</string>
+
+    <string name="paleogene_question_113_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_113">В какой период/эон обитало следующее живое существо?</string>
+    <string name="paleogene_variant_113_1">Палеоген</string>
+    <string name="paleogene_variant_113_2">Пермь</string>
+    <string name="paleogene_variant_113_3">Триас</string>
+    <string name="paleogene_variant_113_4">Неоген</string>
+
+    <string name="paleogene_question_114_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_114">Что буквально означает название Pakicetus?</string>
+    <string name="paleogene_variant_114_1">«Кит из Пакистана»</string>
+    <string name="paleogene_variant_114_2">«Плавающий ходячий кит»</string>
+    <string name="paleogene_variant_114_3">«Полуводный подражатель крокодила»</string>
+    <string name="paleogene_variant_114_4">«Древний речной бегун»</string>
+
+    <string name="paleogene_question_115_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_115">Какая анатомическая особенность помогла ученым распознать в пакицете раннего представителя китообразных?</string>
+    <string name="paleogene_variant_115_1">Строение его ушных костей</string>
+    <string name="paleogene_variant_115_2">Задние лапы с перепонками</string>
+    <string name="paleogene_variant_115_3">Специализированное дыхало</string>
+    <string name="paleogene_variant_115_4">Строение хвостового плавника</string>
+
+    <string name="paleogene_question_116_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_116">Где в основном обитал и охотился пакицет?</string>
+    <string name="paleogene_variant_116_1">У рек, ручьев и на мелководье</string>
+    <string name="paleogene_variant_116_2">В глубоком открытом океане</string>
+    <string name="paleogene_variant_116_3">В высокогорных лесах</string>
+    <string name="paleogene_variant_116_4">Среди песчаных дюн засушливых пустынь</string>
+
+    <string name="paleogene_question_117_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_117">Какая форма жизни изображена на этом рисунке?</string>
+    <string name="paleogene_variant_117_1">Амбулоцет</string>
+    <string name="paleogene_variant_117_2">Пакицет</string>
+    <string name="paleogene_variant_117_3">Родоцет</string>
+    <string name="paleogene_variant_117_4">Гиракотерий</string>
+
+    <string name="paleogene_question_118_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_118">В какой период/эон обитало следующее живое существо?</string>
+    <string name="paleogene_variant_118_1">Палеоген</string>
+    <string name="paleogene_variant_118_2">Девон</string>
+    <string name="paleogene_variant_118_3">Мел</string>
+    <string name="paleogene_variant_118_4">Силур</string>
+
+    <string name="paleogene_question_119_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_119">Что означает полное видовое название Ambulocetus natans?</string>
+    <string name="paleogene_variant_119_1">«Плавающий ходячий кит»</string>
+    <string name="paleogene_variant_119_2">«Быстрый речной бегун»</string>
+    <string name="paleogene_variant_119_3">«Гибрид млекопитающего и крокодила»</string>
+    <string name="paleogene_variant_119_4">«Гигант глубокого океана»</string>
+
+    <string name="paleogene_question_120_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_120">Как, по мнению ученых, охотился амбулоцет, судя по его сходству с крокодилом?</string>
+    <string name="paleogene_variant_120_1">Как хищник, подстерегающий добычу из засады на мелководье</string>
+    <string name="paleogene_variant_120_2">Преследуя добычу на длинных дистанциях на суше</string>
+    <string name="paleogene_variant_120_3">Отфильтровывая мелкий планктон в открытом море</string>
+    <string name="paleogene_variant_120_4">Погружаясь на огромную глубину в поисках гигантских кальмаров</string>
+
+    <string name="paleogene_question_121_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_121">Как амбулоцет, вероятно, передвигался в воде, не имея широкого хвостового плавника?</string>
+    <string name="paleogene_variant_121_1">Изгибая спину и хвост вверх и вниз и помогая себе задними лапами</string>
+    <string name="paleogene_variant_121_2">Взмахивая крупными измененными передними ластами, подобно пингвину</string>
+    <string name="paleogene_variant_121_3">Загребая исключительно передними лапами, как собака</string>
+    <string name="paleogene_variant_121_4">Используя реактивную силу воды через примитивные жабры</string>
+
+    <string name="paleogene_question_122_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_122">Какая форма жизни изображена на этом рисунке?</string>
+    <string name="paleogene_variant_122_1">Родоцет</string>
+    <string name="paleogene_variant_122_2">Амбулоцет</string>
+    <string name="paleogene_variant_122_3">Пакицет</string>
+    <string name="paleogene_variant_122_4">Эогиппус</string>
+
+    <string name="paleogene_question_123_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_123">В какой период/эон обитало следующее живое существо?</string>
+    <string name="paleogene_variant_123_1">Палеоген</string>
+    <string name="paleogene_variant_123_2">Карбон</string>
+    <string name="paleogene_variant_123_3">Юра</string>
+    <string name="paleogene_variant_123_4">Неоген</string>
+
+    <string name="paleogene_question_124_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_124">К какой группе ранних китообразных относился родоцет?</string>
+    <string name="paleogene_variant_124_1">Протоцетиды</string>
+    <string name="paleogene_variant_124_2">Базилозавриды</string>
+    <string name="paleogene_variant_124_3">Усатые киты</string>
+    <string name="paleogene_variant_124_4">Зубатые киты</string>
+
+    <string name="paleogene_question_125_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_125">Какую эволюционную связь подтвердило строение голеностопных костей родоцета?</string>
+    <string name="paleogene_variant_125_1">Киты находятся в близком родстве с парнокопытными млекопитающими</string>
+    <string name="paleogene_variant_125_2">Киты произошли напрямую от древних морских рептилий</string>
+    <string name="paleogene_variant_125_3">Киты — ближайшие родственники современных тюленей и моржей</string>
+    <string name="paleogene_variant_125_4">Киты развились из особой ветви хищных акул</string>
+
+    <string name="paleogene_question_126_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_126">Какая особенность кистей и стоп родоцета помогала ему плавать?</string>
+    <string name="paleogene_variant_126_1">Они были длинными и, возможно, имели перепонки</string>
+    <string name="paleogene_variant_126_2">Они полностью превратились в жесткие ласты без костей</string>
+    <string name="paleogene_variant_126_3">У него было по одному цельному копыту, как у лошади</string>
+    <string name="paleogene_variant_126_4">У него были острые втягивающиеся когти для лазания по берегу</string>
+
+    <string name="paleogene_question_127_type">fossil</string>
+    <string name="paleogene_question_127_image">item_paleogene_hyracotherium_info</string>
+    <string name="paleogene_question_127">Окаменелость какого животного изображена на этом рисунке?</string>
+    <string name="paleogene_variant_127_1">Гиракотерий</string>
+    <string name="paleogene_variant_127_2">Пакицет</string>
+    <string name="paleogene_variant_127_3">Амбулоцет</string>
+    <string name="paleogene_variant_127_4">Меритерий</string>
+
+    <string name="paleogene_question_128_type">fossil</string>
+    <string name="paleogene_question_128_image">item_paleogene_pakicetus_info</string>
+    <string name="paleogene_question_128">Окаменелость какого животного изображена на этом рисунке?</string>
+    <string name="paleogene_variant_128_1">Пакицет</string>
+    <string name="paleogene_variant_128_2">Гиракотерий</string>
+    <string name="paleogene_variant_128_3">Родоцет</string>
+    <string name="paleogene_variant_128_4">Базилозавр</string>
+
+    <string name="paleogene_question_129_type">fossil</string>
+    <string name="paleogene_question_129_image">item_paleogene_ambulocetus_info</string>
+    <string name="paleogene_question_129">Окаменелость какого животного изображена на этом рисунке?</string>
+    <string name="paleogene_variant_129_1">Амбулоцет</string>
+    <string name="paleogene_variant_129_2">Пакицет</string>
+    <string name="paleogene_variant_129_3">Родоцет</string>
+    <string name="paleogene_variant_129_4">Корифодон</string>
+
+    <string name="paleogene_question_130_type">fossil</string>
+    <string name="paleogene_question_130_image">item_paleogene_rodhocetus_info</string>
+    <string name="paleogene_question_130">Окаменелость какого животного изображена на этом рисунке?</string>
+    <string name="paleogene_variant_130_1">Родоцет</string>
+    <string name="paleogene_variant_130_2">Гиракотерий</string>
+    <string name="paleogene_variant_130_3">Амбулоцет</string>
+    <string name="paleogene_variant_130_4">Эндрюсарх</string>
+    
     <!--     Neogene quiz questions      -->
 
     <string name="neogene_question_1_image">item_neogene</string>

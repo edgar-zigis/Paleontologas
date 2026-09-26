@@ -9418,6 +9418,178 @@
     <string name="paleogene_variant_106_3">Gastornis</string>
     <string name="paleogene_variant_106_4">Otodus</string>
 
+    <string name="paleogene_question_107_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_107">Katera oblika življenja je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_107_1">Hyracotherium</string>
+    <string name="paleogene_variant_107_2">Pakicetus</string>
+    <string name="paleogene_variant_107_3">Ambulocetus</string>
+    <string name="paleogene_variant_107_4">Rodhocetus</string>
+
+    <string name="paleogene_question_108_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_108">V katerem obdobju/eonu je živela naslednja oblika življenja?</string>
+    <string name="paleogene_variant_108_1">V paleogenu</string>
+    <string name="paleogene_variant_108_2">V kredi</string>
+    <string name="paleogene_variant_108_3">V neogenu</string>
+    <string name="paleogene_variant_108_4">V juri</string>
+
+    <string name="paleogene_question_109_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_109">Koliko prstov je imel Hyracotherium na sprednjih nogah?</string>
+    <string name="paleogene_variant_109_1">Štiri prste</string>
+    <string name="paleogene_variant_109_2">Eno samo kopito</string>
+    <string name="paleogene_variant_109_3">Tri prste</string>
+    <string name="paleogene_variant_109_4">Pet prstov</string>
+
+    <string name="paleogene_question_110_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_110">Kakšna je bila približna velikost roda Hyracotherium?</string>
+    <string name="paleogene_variant_110_1">Velikost psa</string>
+    <string name="paleogene_variant_110_2">Velikost slona</string>
+    <string name="paleogene_variant_110_3">Velikost mačke ali miši</string>
+    <string name="paleogene_variant_110_4">Velikost sodobnega konja</string>
+
+    <string name="paleogene_question_111_image">item_paleogene_hyracotherium</string>
+    <string name="paleogene_question_111">S čim se je Hyracotherium primarno prehranjeval v svojem gozdnem okolju?</string>
+    <string name="paleogene_variant_111_1">Z listi, poganjki in sadjem</string>
+    <string name="paleogene_variant_111_2">Z grobimi prerijskimi travami</string>
+    <string name="paleogene_variant_111_3">Z ribami in majhnimi vodnimi bitji</string>
+    <string name="paleogene_variant_111_4">Z žuželkami in majhnimi sesalci</string>
+
+    <string name="paleogene_question_112_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_112">Katera oblika življenja je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_112_1">Pakicetus</string>
+    <string name="paleogene_variant_112_2">Hyracotherium</string>
+    <string name="paleogene_variant_112_3">Ambulocetus</string>
+    <string name="paleogene_variant_112_4">Basilosaurus</string>
+
+    <string name="paleogene_question_113_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_113">V katerem obdobju/eonu je živela naslednja oblika življenja?</string>
+    <string name="paleogene_variant_113_1">V paleogenu</string>
+    <string name="paleogene_variant_113_2">V permu</string>
+    <string name="paleogene_variant_113_3">V triasu</string>
+    <string name="paleogene_variant_113_4">V neogenu</string>
+
+    <string name="paleogene_question_114_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_114">Kakšen je dobesedni pomen imena Pakicetus?</string>
+    <string name="paleogene_variant_114_1">Kit iz Pakistana</string>
+    <string name="paleogene_variant_114_2">Hodeči kit, ki plava</string>
+    <string name="paleogene_variant_114_3">Polvodni posnemovalec krokodila</string>
+    <string name="paleogene_variant_114_4">Drevni rečni tekač</string>
+
+    <string name="paleogene_question_115_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_115">Katera anatomska značilnost je znanstvenikom pomagala prepoznati rod Pakicetus kot zgodnjega člana kitovske linije?</string>
+    <string name="paleogene_variant_115_1">Njegove ušesne kosti</string>
+    <string name="paleogene_variant_115_2">Njegova plavalna kožica na zadnjih nogah</string>
+    <string name="paleogene_variant_115_3">Njegova prilagojena dihalna odprtina</string>
+    <string name="paleogene_variant_115_4">Struktura njegove repne plavuti</string>
+
+    <string name="paleogene_question_116_image">item_paleogene_pakicetus</string>
+    <string name="paleogene_question_116">Kje je Pakicetus primarno živel in lovil svoj plen?</string>
+    <string name="paleogene_variant_116_1">V bližini rek, potokov in plitvih voda</string>
+    <string name="paleogene_variant_116_2">V globokem odprtem oceanu</string>
+    <string name="paleogene_variant_116_3">V visokogorskih gozdovih</string>
+    <string name="paleogene_variant_116_4">Na suhih puščavskih peščenih sipinah</string>
+
+    <string name="paleogene_question_117_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_117">Katera oblika življenja je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_117_1">Ambulocetus</string>
+    <string name="paleogene_variant_117_2">Pakicetus</string>
+    <string name="paleogene_variant_117_3">Rodhocetus</string>
+    <string name="paleogene_variant_117_4">Hyracotherium</string>
+
+    <string name="paleogene_question_118_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_118">V katerem obdobju/eonu je živela naslednja oblika življenja?</string>
+    <string name="paleogene_variant_118_1">V paleogenu</string>
+    <string name="paleogene_variant_118_2">V devonu</string>
+    <string name="paleogene_variant_118_3">V kredi</string>
+    <string name="paleogene_variant_118_4">V silurju</string>
+
+    <string name="paleogene_question_119_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_119">Kaj pomeni polno vrstno ime Ambulocetus natans?</string>
+    <string name="paleogene_variant_119_1">Hodeči kit, ki plava</string>
+    <string name="paleogene_variant_119_2">Hitri rečni tekač</string>
+    <string name="paleogene_variant_119_3">Hibrid med krokodilom in sesalcem</string>
+    <string name="paleogene_variant_119_4">Gigant globokega oceana</string>
+
+    <string name="paleogene_question_120_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_120">Kako naj bi Ambulocetus po mnenju znanstvenikov lovil glede na svoje krokodilu podobne telesne značilnosti?</string>
+    <string name="paleogene_variant_120_1">Kot plenilec iz zasede, ki čaka v plitvi vodi</string>
+    <string name="paleogene_variant_120_2">Z zasledovanjem plena na dolge razdalje po kopnem</string>
+    <string name="paleogene_variant_120_3">Z filtriranjem majhnega planktona na odprtem morju</string>
+    <string name="paleogene_variant_120_4">Z potapljanjem v ekstremne morske globine za lov na velikanjske lignje</string>
+
+    <string name="paleogene_question_121_image">item_paleogene_ambulocetus</string>
+    <string name="paleogene_question_121">Kako se je Ambulocetus verjetno premikal skozi vodo brez široke repne plavuti?</string>
+    <string name="paleogene_variant_121_1">S premikanjem hrbta in repa gor in dol ter pomočjo zadnjih udov</string>
+    <string name="paleogene_variant_121_2">Z zamahovanjem z velikimi, preoblikovanimi sprednjimi plavutmi kot pingvin</string>
+    <string name="paleogene_variant_121_3">Z veslanjem izključno s sprednjimi šapami kot pes</string>
+    <string name="paleogene_variant_121_4">Z vodnim pogonom skozi primitivne škrge</string>
+
+    <string name="paleogene_question_122_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_122">Katera oblika življenja je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_122_1">Rodhocetus</string>
+    <string name="paleogene_variant_122_2">Ambulocetus</string>
+    <string name="paleogene_variant_122_3">Pakicetus</string>
+    <string name="paleogene_variant_122_4">Eohippus</string>
+
+    <string name="paleogene_question_123_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_123">V katerem obdobju/eonu je živela naslednja oblika življenja?</string>
+    <string name="paleogene_variant_123_1">V paleogenu</string>
+    <string name="paleogene_variant_123_2">V karbonu</string>
+    <string name="paleogene_variant_123_3">V juri</string>
+    <string name="paleogene_variant_123_4">V neogenu</string>
+
+    <string name="paleogene_question_124_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_124">Kateri skupini zgodnjih kitov je pripadal Rodhocetus?</string>
+    <string name="paleogene_variant_124_1">Protocetidom</string>
+    <string name="paleogene_variant_124_2">Bazilosavridom</string>
+    <string name="paleogene_variant_124_3">Vosatim kitom</string>
+    <string name="paleogene_variant_124_4">Zobatim kitom</string>
+
+    <string name="paleogene_question_125_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_125">Katero evolucijsko povezavo so potrdile gleženjske kosti roda Rodhocetus?</string>
+    <string name="paleogene_variant_125_1">Kiti so v tesnem sorodstvu s sodoprsti kopetniki</string>
+    <string name="paleogene_variant_125_2">Kiti so se razvili neposredno iz starodavnih morskih plazilcev</string>
+    <string name="paleogene_variant_125_3">Kiti so najtesnejši sorodniki sodobnih tjulnjev in moržev</string>
+    <string name="paleogene_variant_125_4">Kiti so se razvili iz posebne veje plenilskih morskih psov</string>
+
+    <string name="paleogene_question_126_image">item_paleogene_rodhocetus</string>
+    <string name="paleogene_question_126">Katero lastnost na dlaneh in stopalih je imel Rodhocetus, ki mu je pomagala pri plavanju?</string>
+    <string name="paleogene_variant_126_1">Bili so dolgi in so morda imeli plavalno kožico</string>
+    <string name="paleogene_variant_126_2">Popolnoma so se spremenili v trde plavuti brez kosti</string>
+    <string name="paleogene_variant_126_3">Imeli so enojna trda konjska kopita</string>
+    <string name="paleogene_variant_126_4">Imeli so ostre, uvlečne kremplje za plezanje po obali</string>
+
+    <string name="paleogene_question_127_type">fossil</string>
+    <string name="paleogene_question_127_image">item_paleogene_hyracotherium_info</string>
+    <string name="paleogene_question_127">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_127_1">Hyracotherium</string>
+    <string name="paleogene_variant_127_2">Pakicetus</string>
+    <string name="paleogene_variant_127_3">Ambulocetus</string>
+    <string name="paleogene_variant_127_4">Moeritherium</string>
+
+    <string name="paleogene_question_128_type">fossil</string>
+    <string name="paleogene_question_128_image">item_paleogene_pakicetus_info</string>
+    <string name="paleogene_question_128">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_128_1">Pakicetus</string>
+    <string name="paleogene_variant_128_2">Hyracotherium</string>
+    <string name="paleogene_variant_128_3">Rodhocetus</string>
+    <string name="paleogene_variant_128_4">Basilosaurus</string>
+
+    <string name="paleogene_question_129_type">fossil</string>
+    <string name="paleogene_question_129_image">item_paleogene_ambulocetus_info</string>
+    <string name="paleogene_question_129">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_129_1">Ambulocetus</string>
+    <string name="paleogene_variant_129_2">Pakicetus</string>
+    <string name="paleogene_variant_129_3">Rodhocetus</string>
+    <string name="paleogene_variant_129_4">Coryphodon</string>
+
+    <string name="paleogene_question_130_type">fossil</string>
+    <string name="paleogene_question_130_image">item_paleogene_rodhocetus_info</string>
+    <string name="paleogene_question_130">Katera vrsta fosila je prikazana na tej sliki?</string>
+    <string name="paleogene_variant_130_1">Rodhocetus</string>
+    <string name="paleogene_variant_130_2">Hyracotherium</string>
+    <string name="paleogene_variant_130_3">Ambulocetus</string>
+    <string name="paleogene_variant_130_4">Andrewsarchus</string>
+    
     <!--     Neogene quiz questions      -->
 
     <string name="neogene_question_1_image">item_neogene</string>
