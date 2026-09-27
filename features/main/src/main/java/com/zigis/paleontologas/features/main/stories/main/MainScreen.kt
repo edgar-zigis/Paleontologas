@@ -2,7 +2,6 @@ package com.zigis.paleontologas.features.main.stories.main
 
 import android.content.res.Configuration
 import androidx.compose.animation.AnimatedContentTransitionScope
-import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -24,7 +23,7 @@ import com.zigis.paleontologas.features.settings.routing.SettingsNavGraphBuilder
 
 @Composable
 fun MainScreen(
-    navController: NavHostController
+    navController: NavHostController,
 ) {
     Box(
         modifier = Modifier
@@ -50,12 +49,18 @@ fun MainScreen(
             exitTransition = { slideOutOfContainer(
                 AnimatedContentTransitionScope.SlideDirection.Start, tween(300)
             ) },
-            popEnterTransition = { slideIntoContainer(
-                AnimatedContentTransitionScope.SlideDirection.End, spring()
-            ) },
-            popExitTransition = { slideOutOfContainer(
-                AnimatedContentTransitionScope.SlideDirection.End, spring()
-            ) }
+            popEnterTransition = {
+                slideIntoContainer(
+                    towards = AnimatedContentTransitionScope.SlideDirection.End,
+                    animationSpec = tween(300),
+                )
+            },
+            popExitTransition = {
+                slideOutOfContainer(
+                    towards = AnimatedContentTransitionScope.SlideDirection.End,
+                    animationSpec = tween(300),
+                )
+            }
         ) {
             MainNavGraphBuilder()
             LibraryNavGraphBuilder()

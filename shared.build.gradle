@@ -4,8 +4,6 @@ if (this.name == 'app') {
     apply plugin: 'com.android.library'
 }
 apply plugin: 'com.google.devtools.ksp'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlinx-serialization'
 apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
@@ -20,14 +18,12 @@ android {
     def googleServerClientId = localProperties.getProperty("serverClientId") ?: ""
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 24
 
         if (this.name == 'app') {
             applicationId "com.zigis.paleontologas"
             versionName "3.15.0"
             versionCode 51
-        } else {
-            consumerProguardFiles "consumer-rules.pro"
         }
 
         buildConfigField "String", "GOOGLE_SERVER_CLIENT_ID", "\"${googleServerClientId}\""
@@ -53,5 +49,9 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_21
         targetCompatibility JavaVersion.VERSION_21
+    }
+
+    kotlin {
+        jvmToolchain(21)
     }
 }

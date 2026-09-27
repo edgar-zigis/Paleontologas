@@ -23,7 +23,7 @@ import com.zigis.paleontologas.core.ui.theme.ApplicationTheme
 @Composable
 fun MainBottomNavigationBar(
     modifier: Modifier,
-    navController: NavHostController
+    navController: NavHostController,
 ) {
     val currentBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = currentBackStackEntry?.destination?.route
@@ -34,7 +34,7 @@ fun MainBottomNavigationBar(
     }.takeIf { it != -1 } ?: 0
 
     AnimatedNavigationBar(
-        modifier = modifier.height(85.dp),
+        modifier = modifier.height(94.dp),
         selectedIndex = selectedItem,
         barBrush = Brush.linearGradient(
             colors = listOf(
@@ -47,10 +47,9 @@ fun MainBottomNavigationBar(
         indentAnimation = Height(
             indentWidth = 56.dp,
             indentHeight = 15.dp,
-            animationSpec = tween(
-                1000,
-                easing = { OvershootInterpolator().getInterpolation(it) }
-            )
+            animationSpec = tween(1000) {
+                OvershootInterpolator().getInterpolation(it)
+            }
         )
     ) {
         menuItems.forEachIndexed { index, it ->

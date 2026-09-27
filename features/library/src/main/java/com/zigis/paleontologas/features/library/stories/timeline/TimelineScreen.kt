@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -15,8 +14,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
@@ -31,7 +30,7 @@ import org.koin.androidx.compose.koinViewModel
 
 @Composable
 fun TimelineScreen(
-    viewModel: TimelineViewModel = koinViewModel()
+    viewModel: TimelineViewModel = koinViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
@@ -49,12 +48,10 @@ fun TimelineScreen(
 @Composable
 private fun TimelineScreenUiImplementation(
     viewState: TimelineScreenState,
-    sendIntent: (TimelineScreenIntent) -> Unit?
+    sendIntent: (TimelineScreenIntent) -> Unit?,
 ) {
-    val context = LocalContext.current
-
     StaticScaffold(
-        title = context.getString(R.string.geological_time_scale),
+        title = stringResource(R.string.geological_time_scale),
         iconResId = R.drawable.ic_ammonite
     ) {
         Image(
@@ -85,7 +82,7 @@ private fun TimelineScreenUiImplementation(
                 )
             }
             item {
-                Spacer(modifier = Modifier.size(34.dp))
+                Spacer(modifier = Modifier.size(17.dp))
             }
         }
     }

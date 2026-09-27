@@ -6,6 +6,7 @@
     <application
         android:name=".PaleoApplication"
         android:allowBackup="true"
+        android:enableOnBackInvokedCallback="false"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
