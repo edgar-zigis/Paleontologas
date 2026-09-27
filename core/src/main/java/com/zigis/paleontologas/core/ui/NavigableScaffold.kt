@@ -60,7 +60,9 @@ fun NavigableScaffold(
                     )
                 )
         ) {
-            Column(modifier = Modifier.padding(it)) {
+            Column(
+                modifier = Modifier.padding(it)
+            ) {
                 TopAppBar(
                     title = {
                         Text(
@@ -84,7 +86,7 @@ fun NavigableScaffold(
                         containerColor = Color.Transparent,
                         scrolledContainerColor = Color.Transparent
                     ),
-                    windowInsets = WindowInsets(top = 0.dp, bottom = 0.dp),
+                    windowInsets = WindowInsets(0.dp),
                     scrollBehavior = scrollBehavior
                 )
 

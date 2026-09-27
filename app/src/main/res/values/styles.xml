@@ -7,9 +7,9 @@
     </style>
 
     <style name="FullScreenTheme" parent="Theme.MaterialComponents.NoActionBar">
-        <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:statusBarColor">@color/transparent</item>
         <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 

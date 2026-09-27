@@ -1,4 +1,5 @@
 apply from: "$rootProject.projectDir/shared.build.gradle"
+apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
 android {
     namespace 'com.zigis.paleontologas.features.launcher'

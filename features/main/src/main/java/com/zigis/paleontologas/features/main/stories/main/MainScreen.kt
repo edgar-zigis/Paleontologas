@@ -7,7 +7,6 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
@@ -40,7 +39,6 @@ fun MainScreen(
                     end = Offset(0f, Float.POSITIVE_INFINITY),
                 )
             )
-            .navigationBarsPadding()
     ) {
         NavHost(
             navController = navController,

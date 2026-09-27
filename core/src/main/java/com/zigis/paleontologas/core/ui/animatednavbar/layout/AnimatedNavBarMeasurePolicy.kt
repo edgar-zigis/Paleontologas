@@ -24,7 +24,7 @@ internal fun barMeasurePolicy(onBallPositionsCalculated: (ArrayList<Float>) -> U
         }
 
         val gap = calculateGap(placeables, constraints.maxWidth)
-        val height = placeables.maxOf { it.height }
+        val height = if (constraints.hasBoundedHeight) constraints.maxHeight else placeables.maxOf { it.height }
 
         layout(constraints.maxWidth, height) {
             var xPosition = gap
@@ -32,7 +32,8 @@ internal fun barMeasurePolicy(onBallPositionsCalculated: (ArrayList<Float>) -> U
             val positions = arrayListOf<Float>()
 
             placeables.forEachIndexed { index, _ ->
-                placeables[index].placeRelative(xPosition, 0)
+                val yPosition = (height - placeables[index].height) / 2
+                placeables[index].placeRelative(xPosition, yPosition)
 
                 positions.add(
                     element = calculatePointPosition(

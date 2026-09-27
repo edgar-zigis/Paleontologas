@@ -1,8 +1,15 @@
 apply from: "$rootProject.projectDir/shared.build.gradle"
 apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
 android {
     namespace 'com.zigis.paleontologas.core'
+    lint {
+        targetSdk 37
+    }
+    testOptions {
+        targetSdk 37
+    }
 }
 
 dependencies {
