@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright">© Edgar Žigis</string>
+    <string name="copy">"© "</string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
+    <string name="about_app">Tentang aplikasi</string>
+    <string name="about_app_text_1">Aplikasi ini didedikasikan untuk semua pencinta alam dan siapa pun yang ingin mempelajari sejarah Bumi. Penyajiannya cukup sederhana untuk sains populer dan memuat cukup fakta untuk tujuan pembelajaran. Fakta-fakta dalam aplikasi ini sesuai dengan data paleontologi modern dan hanya didukung oleh artikel ilmiah yang diakui.</string>
+    <string name="about_app_text_2">Foto:\nCreative Commons Zero (CC0)\n\nJika Anda menemukan kesalahan, ingin berdonasi, atau berkontribusi untuk menyempurnakan aplikasi ini, silakan hubungi saya melalui email: edgar.zigis@gmail.com</string>
+    <string name="version_placeholder">v%s</string>
+
+    <string name="language_lt">Lietuvių</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
+    <string name="language_fr">Français</string>
+    <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
+
+    <string name="wall_of_fame">"⭐⭐⭐  Papan Kehormatan  ⭐⭐⭐"</string>
+    <string name="wall_of_fame_description">Ingin berkontribusi untuk aplikasi ini dan diabadikan di Papan Kehormatan? Apakah Anda memiliki latar belakang sains dan menguasai bahasa yang belum ada di sini? Jika jawaban keduanya adalah ya, hubungi saya melalui email dan mari buat aplikasi ini makin hebat!</string>
+    <string name="app_contributor_1">Edgar Žigis</string>
+    <string name="app_contributor_2">Andrej Spiridonov</string>
+    <string name="app_contributor_3">Matthew Gerke</string>
+    <string name="app_contributor_4">Auksė Saulė</string>
+    <string name="app_contributor_5">Gerardo Lo Valvo</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Juan Carlos Oliva</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Damjan Dovnik</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_description_1">Pembuat aplikasi &amp; konten</string>
+    <string name="app_contributor_description_2">Inspirasi</string>
+    <string name="app_contributor_description_3">Editor konten bahasa Inggris</string>
+    <string name="app_contributor_description_4">Editor konten bahasa Lituania</string>
+    <string name="app_contributor_description_5">Editor konten bahasa Spanyol</string>
+    <string name="app_contributor_description_6">Editor konten bahasa Jerman</string>
+    <string name="app_contributor_description_7">Editor konten bahasa Italia</string>
+    <string name="app_contributor_description_8">Editor konten bahasa Prancis</string>
+    <string name="app_contributor_description_9">Editor konten bahasa Slovenia</string>
+    <string name="app_contributor_description_10">Editor konten bahasa Portugis (Brasil)</string>
+    <string name="app_contributor_description_11">Editor konten bahasa Rusia</string>
+    <string name="info">Informasi</string>
+    <string name="language">Bahasa</string>
+    <string name="settings">Pengaturan</string>
+    <string name="vibration_enabled">Aktifkan getaran</string>
+    <string name="about_this_app">Tentang aplikasi ini</string>
+
+</resources>

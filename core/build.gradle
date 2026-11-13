@@ -32,14 +32,14 @@ dependencies {
     api 'androidx.core:core-splashscreen:1.2.0'
     api 'com.google.android.material:material:1.14.0'
 
-    api 'com.google.firebase:firebase-crashlytics:20.1.1'
-    api 'com.google.firebase:firebase-analytics:23.2.0'
+    api 'com.google.firebase:firebase-crashlytics:21.1.0'
+    api 'com.google.firebase:firebase-analytics:24.0.0'
 
     api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0'
     api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.11.0'
     api 'androidx.lifecycle:lifecycle-runtime-ktx:2.11.0'
 
-    api 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0'
+    api 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.13.0'
 
     api "androidx.room:room-runtime:$room_version"
     api "androidx.room:room-ktx:$room_version"
@@ -48,7 +48,7 @@ dependencies {
     api "io.insert-koin:koin-android:$koin_version"
     api "io.insert-koin:koin-androidx-compose:$koin_version"
 
-    api platform("com.google.firebase:firebase-bom:34.19.0")
+    api platform("com.google.firebase:firebase-bom:35.2.0")
     api 'com.google.firebase:firebase-auth'
     api 'com.google.firebase:firebase-database'
     api 'com.google.android.gms:play-services-auth:22.0.0'

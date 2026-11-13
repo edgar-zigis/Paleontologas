@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright">© Edgar Žigis</string>
+    <string name="copy">"© "</string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
+    <string name="about_app">앱 정보</string>
+    <string name="about_app_text_1">이 앱은 자연을 사랑하고 지구의 역사를 배우고자 하는 모든 분을 위해 제작되었습니다. 교양 과학 수준으로 누구나 쉽게 이해할 수 있으면서도, 교육용으로 활용하기에 충분한 사실들을 담고 있습니다. 본 앱에 수록된 정보는 현대 고생물학 데이터를 충실히 반영하며, 공인된 학술 논문만을 바탕으로 검증되었습니다.</string>
+    <string name="about_app_text_2">사진:\nCreative Commons Zero (CC0)\n\n오류를 발견하셨거나 후원 또는 앱 개선에 기여하고 싶으시다면 이메일(edgar.zigis@gmail.com)로 문의해 주세요.</string>
+    <string name="version_placeholder">v%s</string>
+
+    <string name="language_lt">Lietuvių</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
+    <string name="language_fr">Français</string>
+    <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
+
+    <string name="wall_of_fame">"⭐⭐⭐  명예의 전당  ⭐⭐⭐"</string>
+    <string name="wall_of_fame_description">이 앱에 기여하고 명예의 전당에 이름을 남기고 싶으신가요? 과학 관련 배경지식이 있고 여기에 없는 언어를 구사할 수 있으신가요? 두 질문 모두 \'예\'라면 이메일로 연락해 주세요. 함께 이 앱을 더욱 멋지게 만들어 가요!</string>
+    <string name="app_contributor_1">Edgar Žigis</string>
+    <string name="app_contributor_2">Andrej Spiridonov</string>
+    <string name="app_contributor_3">Matthew Gerke</string>
+    <string name="app_contributor_4">Auksė Saulė</string>
+    <string name="app_contributor_5">Gerardo Lo Valvo</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Juan Carlos Oliva</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Damjan Dovnik</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">크리에이티브 커먼즈 제로 (CC0)</string>
+    <string name="app_contributor_description_1">앱 및 콘텐츠 제작자</string>
+    <string name="app_contributor_description_2">영감 제공</string>
+    <string name="app_contributor_description_3">영어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_4">리투아니아어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_5">스페인어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_6">독일어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_7">이탈리아어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_8">프랑스어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_9">슬로베니아어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_10">브라질 포르투갈어 콘텐츠 에디터</string>
+    <string name="app_contributor_description_11">러시아어 콘텐츠 에디터</string>
+    <string name="info">정보</string>
+    <string name="language">언어</string>
+    <string name="settings">설정</string>
+    <string name="vibration_enabled">진동 사용</string>
+    <string name="about_this_app">앱 정보</string>
+
+</resources>

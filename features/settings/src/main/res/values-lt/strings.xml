@@ -20,6 +20,9 @@
     <string name="language_br">Portugues do Brasil</string>
     <string name="language_hi">हिन्दी</string>
     <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
 
     <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Šlovės lenta&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Norite prisidėti prie programėlės ir patekti ant Šlovės lentos? Turite mokslinį išsilavinimą ir mokate kalbą, kurios nepalaiko ši programėlė? Jeigu abu atsakymai yra teigiami, parašykite į mano el. paštą ir padarykime šią programėlę dar geresne!</string>

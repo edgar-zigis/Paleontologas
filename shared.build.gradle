@@ -22,8 +22,8 @@ android {
 
         if (this.name == 'app') {
             applicationId "com.zigis.paleontologas"
-            versionName "3.15.0"
-            versionCode 51
+            versionName "3.16.0"
+            versionCode 52
         }
 
         buildConfigField "String", "GOOGLE_SERVER_CLIENT_ID", "\"${googleServerClientId}\""

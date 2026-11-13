@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright">© Edgar Žigis</string>
+    <string name="copy">"© "</string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
+    <string name="about_app">ऐप के बारे में</string>
+    <string name="about_app_text_1">यह ऐप प्रकृति प्रेमियों और पृथ्वी का इतिहास जानने के इच्छुक सभी लोगों को समर्पित है। यह लोकप्रिय विज्ञान के लिहाज से समझने में आसान है और इसमें शिक्षण के लिए पर्याप्त तथ्य मौजूद हैं। इस ऐप के तथ्य आधुनिक जीवाश्म विज्ञान के आंकड़ों पर आधारित हैं और केवल मान्यता प्राप्त वैज्ञानिक शोधपत्रों द्वारा प्रमाणित हैं।</string>
+    <string name="about_app_text_2">तस्वीरें:\nCreative Commons Zero (CC0)\n\nयदि आपको कोई त्रुटि मिलती है, दान करना चाहते हैं, या इस ऐप को बेहतर बनाने में योगदान देना चाहते हैं, तो कृपया ईमेल द्वारा मुझसे संपर्क करें: edgar.zigis@gmail.com</string>
+    <string name="version_placeholder">v%s</string>
+
+    <string name="language_lt">Lietuvių</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
+    <string name="language_fr">Français</string>
+    <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
+
+    <string name="wall_of_fame">"⭐⭐⭐  वॉल ऑफ़ फेम  ⭐⭐⭐"</string>
+    <string name="wall_of_fame_description">क्या आप इस ऐप में योगदान देकर वॉल ऑफ़ फेम में अपना नाम दर्ज कराना चाहते हैं? क्या आपकी वैज्ञानिक पृष्ठभूमि है और आप ऐसी कोई भाषा जानते हैं जो यहाँ मौजूद नहीं है? यदि दोनों का उत्तर हाँ है, तो मुझे ईमेल करें और आइए मिलकर इस ऐप को और भी बेहतर बनाएं!</string>
+    <string name="app_contributor_1">Edgar Žigis</string>
+    <string name="app_contributor_2">Andrej Spiridonov</string>
+    <string name="app_contributor_3">Matthew Gerke</string>
+    <string name="app_contributor_4">Auksė Saulė</string>
+    <string name="app_contributor_5">Gerardo Lo Valvo</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Juan Carlos Oliva</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Damjan Dovnik</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_description_1">ऐप और सामग्री लेखक</string>
+    <string name="app_contributor_description_2">प्रेरणा</string>
+    <string name="app_contributor_description_3">अंग्रेज़ी सामग्री संपादक</string>
+    <string name="app_contributor_description_4">लिथुआनियाई सामग्री संपादक</string>
+    <string name="app_contributor_description_5">स्पैनिश सामग्री संपादक</string>
+    <string name="app_contributor_description_6">जर्मन सामग्री संपादक</string>
+    <string name="app_contributor_description_7">इतालवी सामग्री संपादक</string>
+    <string name="app_contributor_description_8">फ़्रेंच सामग्री संपादक</string>
+    <string name="app_contributor_description_9">स्लोवेनियाई सामग्री संपादक</string>
+    <string name="app_contributor_description_10">ब्राज़ीलियाई सामग्री संपादक</string>
+    <string name="app_contributor_description_11">रूसी सामग्री संपादक</string>
+    <string name="info">जानकारी</string>
+    <string name="language">भाषा</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="vibration_enabled">वाइब्रेशन चालू करें</string>
+    <string name="about_this_app">इस ऐप के बारे में</string>
+
+</resources>

@@ -20,6 +20,9 @@
     <string name="language_br">Portugues do Brasil</string>
     <string name="language_hi">हिन्दी</string>
     <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
 
     <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Mur de la Renommée&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Souhaitez-vous contribuer à cette application et être immortalisé dans le Wall of Fame ? Vous avez des connaissances scientifiques et maitrisez une langue qui n’est pas présente dans cette application ? Si les deux réponses sont « oui », contactez-moi par mail et rendez l’application meilleure !</string>

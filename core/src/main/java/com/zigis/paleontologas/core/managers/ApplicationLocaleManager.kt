@@ -39,11 +39,15 @@ class ApplicationLocaleManager(
             defaultLocale,
             Locale.forLanguageTag("es"),
             Locale.forLanguageTag("fr"),
+            Locale.forLanguageTag("hi"),
+            Locale.forLanguageTag("in"),
             Locale.forLanguageTag("it"),
+            Locale.forLanguageTag("ko"),
             Locale.forLanguageTag("lt"),
             Locale.Builder().setLanguage("pt").setRegion("BR").build(),
             Locale.forLanguageTag("ru"),
-            Locale.forLanguageTag("sl")
+            Locale.forLanguageTag("sl"),
+            Locale.forLanguageTag("tr")
         )
     }
 }

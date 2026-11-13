@@ -19,6 +19,9 @@
     <string name="language_br">Portugues do Brasil</string>
     <string name="language_hi">हिन्दी</string>
     <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
 
     <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Muro de la Fama&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">¿Deseas contribuir a esta aplicación y ser inmortalizado en el Muro de la Fama? ¿Tiene antecedentes científicos y conoce algún idioma que no esté presente aquí? Si ambas respuestas son afirmativas, contáctame con un correo electrónico y ¡hagamos que esta aplicación sea aún mejor!</string>

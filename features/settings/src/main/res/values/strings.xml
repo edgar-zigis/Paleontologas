@@ -20,6 +20,9 @@
     <string name="language_br">Portugues do Brasil</string>
     <string name="language_hi">हिन्दी</string>
     <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
 
     <string name="wall_of_fame">⭐⭐⭐&#160;&#160;Wall of Fame&#160;&#160;⭐⭐⭐</string>
     <string name="wall_of_fame_description">Do you wish to contribute to this app and be immortalized on the Wall of Fame? Do you have a scientific background and know any language not present here? If both answers are yes, then hit me up with an e-mail and lets make this app even greater!</string>

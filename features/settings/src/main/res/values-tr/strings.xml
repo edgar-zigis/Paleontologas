@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright">© Edgar Žigis</string>
+    <string name="copy">"© "</string>
+    <string name="contact_email">edgar.zigis@gmail.com</string>
+    <string name="about_app">Uygulama hakkında</string>
+    <string name="about_app_text_1">Bu uygulama, tüm doğaseverlere ve Dünya\'nın tarihini öğrenmek isteyen herkese ithaf edilmiştir. Popüler bilim için yeterince sade olmasının yanı sıra eğitim amacıyla kullanılabilecek kadar zengin bilgiler içerir. Uygulamadaki bilgiler güncel paleontolojik verilerle örtüşmekte olup yalnızca kabul görmüş bilimsel makalelerle desteklenmektedir.</string>
+    <string name="about_app_text_2">Fotoğraflar:\nCreative Commons Zero (CC0)\n\nHerhangi bir hata fark ederseniz, bağışta bulunmak veya bu uygulamanın geliştirilmesine katkı sağlamak isterseniz lütfen benimle e-posta yoluyla iletişime geçin: edgar.zigis@gmail.com</string>
+    <string name="version_placeholder">v%s</string>
+
+    <string name="language_lt">Lietuvių</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiana</string>
+    <string name="language_fr">Français</string>
+    <string name="language_sl">Slovenščina</string>
+    <string name="language_br">Portugues do Brasil</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_tr">Türkçe</string>
+    <string name="language_id">Bahasa Indonesia</string>
+    <string name="language_ko">한국어</string>
+
+    <string name="wall_of_fame">"⭐⭐⭐  Onur Tablosu  ⭐⭐⭐"</string>
+    <string name="wall_of_fame_description">Bu uygulamaya katkıda bulunup adınızı Onur Tablosu\'nda ölümsüzleştirmek ister misiniz? Bilimsel bir geçmişe sahip misiniz ve burada bulunmayan bir dili biliyor musunuz? Her iki soruya da yanıtınız evetse bana bir e-posta gönderin; bu uygulamayı birlikte daha da harika hâle getirelim!</string>
+    <string name="app_contributor_1">Edgar Žigis</string>
+    <string name="app_contributor_2">Andrej Spiridonov</string>
+    <string name="app_contributor_3">Matthew Gerke</string>
+    <string name="app_contributor_4">Auksė Saulė</string>
+    <string name="app_contributor_5">Gerardo Lo Valvo</string>
+    <string name="app_contributor_6">Christian Klinnert</string>
+    <string name="app_contributor_7">Juan Carlos Oliva</string>
+    <string name="app_contributor_8">Anthony Favier</string>
+    <string name="app_contributor_9">Damjan Dovnik</string>
+    <string name="app_contributor_10">Mariana Leite</string>
+    <string name="app_contributor_11">Elena Ozernova</string>
+    <string name="app_contributor_12">Creative Commons Zero (CC0)</string>
+    <string name="app_contributor_description_1">Uygulama ve içerik yazarı</string>
+    <string name="app_contributor_description_2">İlham kaynağı</string>
+    <string name="app_contributor_description_3">İngilizce içerik editörü</string>
+    <string name="app_contributor_description_4">Litvanca içerik editörü</string>
+    <string name="app_contributor_description_5">İspanyolca içerik editörü</string>
+    <string name="app_contributor_description_6">Almanca içerik editörü</string>
+    <string name="app_contributor_description_7">İtalyanca içerik editörü</string>
+    <string name="app_contributor_description_8">Fransızca içerik editörü</string>
+    <string name="app_contributor_description_9">Slovence içerik editörü</string>
+    <string name="app_contributor_description_10">Brezilya Portekizcesi içerik editörü</string>
+    <string name="app_contributor_description_11">Rusça içerik editörü</string>
+    <string name="info">Bilgi</string>
+    <string name="language">Dil</string>
+    <string name="settings">Ayarlar</string>
+    <string name="vibration_enabled">Titreşimi etkinleştir</string>
+    <string name="about_this_app">Bu uygulama hakkında</string>
+
+</resources>

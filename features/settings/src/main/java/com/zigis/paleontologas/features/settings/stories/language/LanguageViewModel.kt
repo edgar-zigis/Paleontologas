@@ -27,6 +27,7 @@ class LanguageViewModel(
     }
 
     private suspend fun initialize() {
+        val items = languageListItemFactory.getItems()
         updateState {
             it.copy(
                 currentLocale = applicationLocaleManager.getCurrentLocale(),
