@@ -50,13 +50,18 @@ fun LanguageListItemView(
     ) {
         Spacer(modifier = Modifier.width(20.dp))
 
-        Image(
-            painter = painterResource(id = context.getDrawableId("ic_flag_$identifier")),
-            contentDescription = null,
-            modifier = Modifier
-                .size(34.dp)
-                .align(Alignment.CenterVertically)
-        )
+        val flagResourceId = context.getDrawableId("ic_flag_$identifier")
+        if (flagResourceId != 0) {
+            Image(
+                painter = painterResource(id = flagResourceId),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(34.dp)
+                    .align(Alignment.CenterVertically)
+            )
+        } else {
+            Spacer(modifier = Modifier.size(34.dp))
+        }
 
         Spacer(modifier = Modifier.width(20.dp))
 
